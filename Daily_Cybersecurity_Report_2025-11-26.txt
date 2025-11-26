@@ -1,0 +1,26 @@
+DAILY CYBERSECURITY BRIEF
+Date: November 26, 2025
+============================================================
+
+1. ⚡ Weekly Recap: Fortinet Exploit, Chrome 0-Day, BadIIS Malware, Record DDoS, SaaS Breach & More
+   Link: https://thehackernews.com/2025/11/weekly-recap-fortinet-exploit-chrome-0.html
+
+2. When trust turns toxic: Lessons from the Salesloft Drift incident
+   Link: https://cyberscoop.com/saas-ai-integration-breaches-identity-trust-insane-risks-op-ed/
+
+3. The breaches everyone gets hit by (and how to stop them)
+   Link: https://www.helpnetsecurity.com/2025/11/25/cyberint-check-point-mundane-menace-report/
+
+4. Black Friday Cybersecurity Survival Guide: Protect Yourself from Scams & Attacks
+   Link: https://thecyberexpress.com/black-friday-2025/
+
+5. Grafana Flags Maximum-Severity SCIM Vulnerability Enabling Privilege Escalation
+   Link: https://thecyberexpress.com/grafana-scim-vulnerability-cve-2025-41115/
+
+Quick Security Tips:
+• Never click suspicious links
+• Enable Two-Factor Authentication (2FA)
+• Keep your software and OS updated
+
+This report is automatically generated every day at 8:00 AM
+Stay safe online!

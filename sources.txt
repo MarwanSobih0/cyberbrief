@@ -1,0 +1,14 @@
+https://feeds.feedburner.com/TheHackersNews
+https://krebsonsecurity.com/feed/
+https://www.bleepingcomputer.com/feed/
+https://www.darkreading.com/rss_simple.asp
+https://www.securityweek.com/feed/
+https://gbhackers.com/feed/
+https://cybersecuritynews.com/feed/
+https://thecyberexpress.com/feed/
+https://www.cyberscoop.com/feed/
+https://threatpost.com/feed/
+https://www.helpnetsecurity.com/feed/
+https://www.infosecurity-magazine.com/rss/news/
+https://www.theregister.com/security/rss
+https://www.zdnet.com/topic/security/rss.xml
