@@ -7,7 +7,11 @@ from time import sleep
 from urllib.parse import urlparse
 
 # Change to working directory
-os.chdir(r"D:\news")
+if os.path.exists("/app"):
+    os.chdir("/app")           # على Streamlit Cloud
+else:
+    os.chdir(r"D:\news")
+
 
 # 1. Delete files older than 2 days
 for file in os.listdir():
