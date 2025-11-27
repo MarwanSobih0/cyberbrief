@@ -2,33 +2,39 @@ name: Daily Cyber News Collector
 
 on:
   schedule:
-    # الساعة 5:00 صباحاً UTC = 8:00 صباحاً مصر
+    # 8:00 صباحاً مصر = 5:00 UTC
     - cron: '0 5 * * *'
-  workflow_dispatch:  # تشغيل يدوي
+  workflow_dispatch:
+
+permissions:
+  contents: write  # يسمح بالكتابة والـ push
 
 jobs:
   collect-news:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
-    
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
-        python-version: '3.12'
-    
+        python-version: '3.11'
+        
     - name: Install dependencies
       run: |
+        pip install --upgrade pip
         pip install feedparser requests
-    
+        
     - name: Run news collector
       run: |
         python daily_news_collector.py
-    
-    - name: Commit and push updated files
+        
+    - name: Commit and push
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "Cyberbrief Bot"
-        git add cybersecurity_news_*.json CYBERBRIEF_*.txt
+        git add cybersecurity_news_*.json CYBERBRIEF_*.txt || echo "No files to commit"
         git diff --staged --quiet || git commit -m "🤖 Daily update: Cybersecurity news [$(date +%Y-%m-%d)]"
-        git push
+        git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+        git push || echo "Push failed, but files generated locally"
