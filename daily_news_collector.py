@@ -6,15 +6,12 @@ from datetime import datetime, timedelta
 from time import sleep
 from urllib.parse import urlparse
 
-# Change to working directory
-if os.path.exists("/app"):
-    os.chdir("/app")           # على Streamlit Cloud
-else:
-    os.chdir(r"D:\news")
+# ================== GitHub Actions Compatible ==================
+print(f"Current working directory: {os.getcwd()}")
+print(f"Files available: {os.listdir('.')}")
 
-
-# 1. Delete files older than 2 days
-for file in os.listdir():
+# Delete files older than 2 days
+for file in os.listdir('.'):
     if file.startswith("cybersecurity_news_") or file.startswith("CYBERBRIEF_"):
         try:
             date_part = file.split("_")[-1].replace(".json", "").replace(".txt", "")
@@ -29,7 +26,6 @@ headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/130.0 Safari/537.36'
 }
 
-# دالة تجميل اسم المصدر + أيقونة + وصف
 def get_source_info(url):
     if not url:
         return "Unknown Source", "Globe", "Unknown"
@@ -43,15 +39,9 @@ def get_source_info(url):
         'darkreading.com':        ('Dark Reading',        'Eye',            'Enterprise'),
         'theregister.com':        ('The Register',        'Server',         'Tech News'),
         'securityweek.com':       ('SecurityWeek',        'Shield Check',   'Cyber Media'),
-        'cybernews.com':          ('Cybernews',           'Radioactive',    'Research'),
         'gbhackers.com':          ('GBHackers',          'Terminal',       'Hacking News'),
         'threatpost.com':         ('Threatpost',          'Alert Triangle', 'Kaspersky Lab'),
-        'cisa.gov':               ('CISA Alert',          'Government',     'U.S. Government'),
-        'us-cert.cisa.gov':       ('US-CERT',             'Flag',           'Official Alert'),
-        'recordedfuture.com':     ('Recorded Future',     'Globe',          'Threat Intel'),
-        'schneier.com':           ('Schneier on Security','Lock',           'Cryptography'),
         'helpnetsecurity.com':    ('Help Net Security',   'Shield',         'Security Portal'),
-        'securityaffairs.co':     ('Security Affairs',    'Bug',            'Independent'),
         'zdnet.com':              ('ZDNet Security',      'Laptop',         'Tech Giant'),
     }
     
@@ -63,15 +53,19 @@ def get_source_info(url):
     return clean_name, "Link", "News Site"
 
 # Read RSS sources
-with open('sources.txt', 'r', encoding='utf-8', errors='replace') as f:
-    rss_urls = [line.strip() for line in f if line.strip() and not line.startswith('#')]
+try:
+    with open('sources.txt', 'r', encoding='utf-8', errors='replace') as f:
+        rss_urls = [line.strip() for line in f if line.strip() and not line.startswith('#')]
+except FileNotFoundError:
+    print("❌ ERROR: sources.txt not found!")
+    exit(1)
 
 print(f"[{datetime.now().strftime('%H:%M')}] Starting collection from {len(rss_urls)} sources...")
 
 all_news = []
-for url in rss_urls:
+for i, url in enumerate(rss_urls, 1):
     try:
-        print(f"→ {url}")
+        print(f"→ [{i}/{len(rss_urls)}] {url}")
         response = requests.get(url, headers=headers, timeout=25)
         feed = feedparser.parse(response.content)
         
@@ -123,7 +117,7 @@ def importance_score(item):
 all_news.sort(key=importance_score, reverse=True)
 top_7 = all_news[:7]
 
-# Generate beautiful report
+# Generate report
 report = [
     "CYBERBRIEF • DAILY THREAT INTELLIGENCE",
     f"Generated: {datetime.now().strftime('%A, %B %d, %Y - %H:%M UTC')}",
@@ -142,11 +136,6 @@ for i, item in enumerate(top_7, 1):
 
 report += [
     "",
-    "Security Tips:",
-    "• Never trust unsolicited links",
-    "• Enable 2FA everywhere",
-    "• Keep systems patched",
-    "",
     f"Scanned {len(all_news)} articles • Top 7 active threats selected",
     "Next auto-update: 08:00 AM UTC",
     "Stay safe, stay sharp!"
@@ -157,8 +146,8 @@ with open(txt_file, 'w', encoding='utf-8') as f:
     f.write("\n".join(report))
 
 print("\n" + "SUCCESS!"*10)
-print(f"Collected {len(all_news)} high-quality articles")
-print(f"JSON saved → {json_file}")
-print(f"Report saved → {txt_file}")
-print("Old files cleaned • Ready for tomorrow!")
+print(f"✅ Collected {len(all_news)} high-quality articles")
+print(f"✅ JSON saved → {json_file}")
+print(f"✅ Report saved → {txt_file}")
+print("✅ Ready for Streamlit app!")
 print("SUCCESS!"*10)
