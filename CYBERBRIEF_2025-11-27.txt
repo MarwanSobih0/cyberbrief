@@ -1,0 +1,43 @@
+CYBERBRIEF • DAILY THREAT INTELLIGENCE
+Generated: Thursday, November 27, 2025 - 22:17 UTC
+================================================================================
+
+1. Link Cybersecuritynews  [News Site]
+   Title: North Korean Hackers Exploiting npm, GitHub, and Vercel to Deliver OtterCookie Malware
+   Published: Thu, 27 Nov 2025 13:40:20 +0000
+   Link: https://cybersecuritynews.com/north-korean-hackers-exploiting-npm/
+
+2. Newspaper The Hacker News  [Tech News]
+   Title: CISA Warns of Active Spyware Campaigns Hijacking High-Value Signal and WhatsApp Users
+   Published: Tue, 25 Nov 2025 12:12:00 +0530
+   Link: https://thehackernews.com/2025/11/cisa-warns-of-active-spyware-campaigns.html
+
+3. Link Cyberscoop  [News Site]
+   Title: CISA alert draws attention to spyware’s targeting of messaging apps
+   Published: Mon, 24 Nov 2025 20:18:58 +0000
+   Link: https://cyberscoop.com/cisa-alert-draws-attention-to-spywares-targeting-of-messaging-apps/
+
+4. Newspaper The Hacker News  [Tech News]
+   Title: ⚡ Weekly Recap: Fortinet Exploit, Chrome 0-Day, BadIIS Malware, Record DDoS, SaaS Breach & More
+   Published: Mon, 24 Nov 2025 18:02:00 +0530
+   Link: https://thehackernews.com/2025/11/weekly-recap-fortinet-exploit-chrome-0.html
+
+5. Shield Help Net Security  [Security Portal]
+   Title: Gainsight breach: Salesforce details attack window, issues investigation guidance
+   Published: Wed, 26 Nov 2025 14:26:52 +0000
+   Link: https://www.helpnetsecurity.com/2025/11/26/gainsight-breach-salesforce-details-attack-window/
+
+6. Link Cybersecuritynews  [News Site]
+   Title: Qilin RaaS Exposed 1 Million Files and 2 TB of Data Linked to Korean MSP Breach
+   Published: Thu, 27 Nov 2025 14:52:09 +0000
+   Link: https://cybersecuritynews.com/qilin-raas-exposed-1-million-files/
+
+7. Alert Triangle Threatpost  [Kaspersky Lab]
+   Title: Firewall Bug Under Active Attack Triggers CISA Warning
+   Published: Tue, 23 Aug 2022 13:19:58 +0000
+   Link: https://threatpost.com/firewall-bug-under-active-attack-cisa-warning/180467/
+
+
+Scanned 134 articles • Top 7 active threats selected
+Next auto-update: 08:00 AM UTC
+Stay safe, stay sharp!
