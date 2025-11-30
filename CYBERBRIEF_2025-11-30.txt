@@ -1,0 +1,43 @@
+CYBERBRIEF • DAILY THREAT INTELLIGENCE
+Generated: Sunday, November 30, 2025 - 05:13 UTC
+================================================================================
+
+1. Link Cybersecuritynews  [News Site]
+   Title: CISA Warns of OpenPLC ScadaBR cross-site scripting vulnerability Exploited in Attacks
+   Published: Sat, 29 Nov 2025 12:34:02 +0000
+   Link: https://cybersecuritynews.com/cisa-openplc-scadabr-vulnerability/
+
+2. Link Cyberscoop  [News Site]
+   Title: CISA alert draws attention to spyware’s targeting of messaging apps
+   Published: Mon, 24 Nov 2025 20:18:58 +0000
+   Link: https://cyberscoop.com/cisa-alert-draws-attention-to-spywares-targeting-of-messaging-apps/
+
+3. Link Cybersecuritynews  [News Site]
+   Title: Hackers Registered 18,000 Holiday-Themed Domains Targeting ‘Christmas,’ ‘Black Friday,’ and ‘Flash Sale’
+   Published: Fri, 28 Nov 2025 12:20:32 +0000
+   Link: https://cybersecuritynews.com/hackers-registered-18000-holiday-themed-domains/
+
+4. Alert Triangle Threatpost  [Kaspersky Lab]
+   Title: Firewall Bug Under Active Attack Triggers CISA Warning
+   Published: Tue, 23 Aug 2022 13:19:58 +0000
+   Link: https://threatpost.com/firewall-bug-under-active-attack-cisa-warning/180467/
+
+5. User Secret Krebs on Security  [Expert Blog]
+   Title: Microsoft Patch Tuesday, November 2025 Edition
+   Published: Sun, 16 Nov 2025 21:47:14 +0000
+   Link: https://krebsonsecurity.com/2025/11/microsoft-patch-tuesday-november-2025-edition/
+
+6. Newspaper The Hacker News  [Tech News]
+   Title: Qilin Ransomware Turns South Korean MSP Breach Into 28-Victim 'Korean Leaks' Data Heist
+   Published: Wed, 26 Nov 2025 20:01:00 +0530
+   Link: https://thehackernews.com/2025/11/qilin-ransomware-turns-south-korean-msp.html
+
+7. Shield Check SecurityWeek  [Cyber Media]
+   Title: Ransomware Attack Disrupts Local Emergency Alert System Across US
+   Published: Wed, 26 Nov 2025 11:38:07 +0000
+   Link: https://www.securityweek.com/ransomware-attack-disrupts-local-emergency-alert-system-across-us/
+
+
+Scanned 133 articles • Top 7 active threats selected
+Next auto-update: 08:00 AM UTC
+Stay safe, stay sharp!
