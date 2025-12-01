@@ -1,0 +1,1332 @@
+[
+  {
+    "title": "CISA Adds Actively Exploited XSS Bug CVE-2021-26829 in OpenPLC ScadaBR to KEV",
+    "link": "https://thehackernews.com/2025/11/cisa-adds-actively-exploited-xss-bug.html",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has updated its Known Exploited Vulnerabilities (KEV) catalog to include a security flaw impacting OpenPLC ScadaBR, citing evidence of active exploitation.\nThe vulnerability in question is CVE-2021-26829 (CVSS score: 5.4), a cross-site scripting (XSS) flaw that affects Windows and Linux versions of the software via",
+    "published": "Sun, 30 Nov 2025 14:53:00 +0530",
+    "source_name": "The Hacker News",
+    "source_icon": "Newspaper",
+    "source_tag": "Tech News",
+    "domain": "thehackernews.com"
+  },
+  {
+    "title": "Legacy Python Bootstrap Scripts Create Domain-Takeover Risk in Multiple PyPI Packages",
+    "link": "https://thehackernews.com/2025/11/legacy-python-bootstrap-scripts-create.html",
+    "summary": "Cybersecurity researchers have discovered vulnerable code in legacy Python packages that could potentially pave the way for a supply chain compromise on the Python Package Index (PyPI) via a domain takeover attack.\nSoftware supply chain security company ReversingLabs said it found the \"vulnerability\" in bootstrap files provided by a build and deployment automation tool named \"zc.buildout.\"\n\"The",
+    "published": "Fri, 28 Nov 2025 21:57:00 +0530",
+    "source_name": "The Hacker News",
+    "source_icon": "Newspaper",
+    "source_tag": "Tech News",
+    "domain": "thehackernews.com"
+  },
+  {
+    "title": "North Korean Hackers Deploy 197 npm Packages to Spread Updated OtterCookie Malware",
+    "link": "https://thehackernews.com/2025/11/north-korean-hackers-deploy-197-npm.html",
+    "summary": "The North Korean threat actors behind the Contagious Interview campaign have continued to flood the npm registry with 197 more malicious packages since last month.\nAccording to Socket, these packages have been downloaded over 31,000 times, and are designed to deliver a variant of OtterCookie that brings together the features of BeaverTail and prior versions of OtterCookie.\n\nSome of the",
+    "published": "Fri, 28 Nov 2025 21:48:00 +0530",
+    "source_name": "The Hacker News",
+    "source_icon": "Newspaper",
+    "source_tag": "Tech News",
+    "domain": "thehackernews.com"
+  },
+  {
+    "title": "Why Organizations Are Turning to RPAM",
+    "link": "https://thehackernews.com/2025/11/why-organizations-are-turning-to-rpam.html",
+    "summary": "As IT environments become increasingly distributed and organizations adopt hybrid and remote work at scale, traditional perimeter-based security models and on-premises Privileged Access Management (PAM) solutions no longer suffice. IT administrators, contractors and third-party vendors now require secure access to critical systems from any location and on any device, without compromising",
+    "published": "Fri, 28 Nov 2025 16:39:00 +0530",
+    "source_name": "The Hacker News",
+    "source_icon": "Newspaper",
+    "source_tag": "Tech News",
+    "domain": "thehackernews.com"
+  },
+  {
+    "title": "MS Teams Guest Access Can Remove Defender Protection When Users Join External Tenants",
+    "link": "https://thehackernews.com/2025/11/ms-teams-guest-access-can-remove.html",
+    "summary": "Cybersecurity researchers have shed light on a cross-tenant blind spot that allows attackers to bypass Microsoft Defender for Office 365 protections via the guest access feature in Teams.\n\"When users operate as guests in another tenant, their protections are determined entirely by that hosting environment, not by their home organization,\" Ontinue security researcher Rhys Downing said in a report",
+    "published": "Fri, 28 Nov 2025 14:03:00 +0530",
+    "source_name": "The Hacker News",
+    "source_icon": "Newspaper",
+    "source_tag": "Tech News",
+    "domain": "thehackernews.com"
+  },
+  {
+    "title": "Bloody Wolf Expands Java-based NetSupport RAT Attacks in Kyrgyzstan and Uzbekistan",
+    "link": "https://thehackernews.com/2025/11/bloody-wolf-expands-java-based.html",
+    "summary": "The threat actor known as Bloody Wolf has been attributed to a cyber attack campaign that has targeted Kyrgyzstan since at least June 2025 with the goal of delivering NetSupport RAT.\nAs of October 2025, the activity has expanded to also single out Uzbekistan, Group-IB researchers Amirbek Kurbanov and Volen Kayo said in a report published in collaboration with Ukuk, a state enterprise under the",
+    "published": "Thu, 27 Nov 2025 23:43:00 +0530",
+    "source_name": "The Hacker News",
+    "source_icon": "Newspaper",
+    "source_tag": "Tech News",
+    "domain": "thehackernews.com"
+  },
+  {
+    "title": "Microsoft to Block Unauthorized Scripts in Entra ID Logins with 2026 CSP Update",
+    "link": "https://thehackernews.com/2025/11/microsoft-to-block-unauthorized-scripts.html",
+    "summary": "Microsoft has announced plans to improve the security of Entra ID authentication by blocking unauthorized script injection attacks starting a year from now.\nThe update to its Content Security Policy (CSP) aims to enhance the Entra ID sign-in experience at \"login.microsoftonline[.]com\" by only letting scripts from trusted Microsoft domains run.\n\"This update strengthens security and adds an extra",
+    "published": "Thu, 27 Nov 2025 21:07:00 +0530",
+    "source_name": "The Hacker News",
+    "source_icon": "Newspaper",
+    "source_tag": "Tech News",
+    "domain": "thehackernews.com"
+  },
+  {
+    "title": "Webinar: Learn to Spot Risks and Patch Safely with Community-Maintained Tools",
+    "link": "https://thehackernews.com/2025/11/webinar-learn-to-spot-risks-and-patch.html",
+    "summary": "If you're using community tools like Chocolatey or Winget to keep systems updated, you're not alone. These platforms are fast, flexible, and easy to work with—making them favorites for IT teams. But there’s a catch...\nThe very tools that make your job easier might also be the reason your systems are at risk.\nThese tools are run by the community. That means anyone can add or update packages. Some",
+    "published": "Thu, 27 Nov 2025 20:29:00 +0530",
+    "source_name": "The Hacker News",
+    "source_icon": "Newspaper",
+    "source_tag": "Tech News",
+    "domain": "thehackernews.com"
+  },
+  {
+    "title": "ThreatsDay Bulletin: AI Malware, Voice Bot Flaws, Crypto Laundering, IoT Attacks — and 20 More Stories",
+    "link": "https://thehackernews.com/2025/11/threatsday-bulletin-ai-malware-voice.html",
+    "summary": "Hackers have been busy again this week. From fake voice calls and AI-powered malware to huge money-laundering busts and new scams, there’s a lot happening in the cyber world.\nCriminals are getting creative — using smart tricks to steal data, sound real, and hide in plain sight. But they’re not the only ones moving fast. Governments and security teams are fighting back, shutting down fake",
+    "published": "Thu, 27 Nov 2025 15:33:00 +0530",
+    "source_name": "The Hacker News",
+    "source_icon": "Newspaper",
+    "source_tag": "Tech News",
+    "domain": "thehackernews.com"
+  },
+  {
+    "title": "Gainsight Expands Impacted Customer List Following Salesforce Security Alert",
+    "link": "https://thehackernews.com/2025/11/gainsight-expands-impacted-customer.html",
+    "summary": "Gainsight has disclosed that the recent suspicious activity targeting its applications has affected more customers than previously thought.\nThe company said Salesforce initially provided a list of 3 impacted customers and that it has \"expanded to a larger list\" as of November 21, 2025. It did not reveal the exact number of customers who were impacted, but its CEO, Chuck Ganapathi, said \"we",
+    "published": "Thu, 27 Nov 2025 12:33:00 +0530",
+    "source_name": "The Hacker News",
+    "source_icon": "Newspaper",
+    "source_tag": "Tech News",
+    "domain": "thehackernews.com"
+  },
+  {
+    "title": "Shai-Hulud v2 Spreads From npm to Maven, as Campaign Exposes Thousands of Secrets",
+    "link": "https://thehackernews.com/2025/11/shai-hulud-v2-campaign-spreads-from-npm.html",
+    "summary": "The second wave of the Shai-Hulud supply chain attack has spilled over to the Maven ecosystem after compromising more than 830 packages in the npm registry.\nThe Socket Research Team said it identified a Maven Central package named org.mvnpm:posthog-node:4.18.1 that embeds the same two components associated with Sha1-Hulud: the \"setup_bun.js\" loader and the main payload \"bun_environment.js.\" The",
+    "published": "Wed, 26 Nov 2025 23:38:00 +0530",
+    "source_name": "The Hacker News",
+    "source_icon": "Newspaper",
+    "source_tag": "Tech News",
+    "domain": "thehackernews.com"
+  },
+  {
+    "title": "Qilin Ransomware Turns South Korean MSP Breach Into 28-Victim 'Korean Leaks' Data Heist",
+    "link": "https://thehackernews.com/2025/11/qilin-ransomware-turns-south-korean-msp.html",
+    "summary": "South Korea's financial sector has been targeted by what has been described as a sophisticated supply chain attack that led to the deployment of Qilin ransomware.\n\"This operation combined the capabilities of a major Ransomware-as-a-Service (RaaS) group, Qilin, with potential involvement from North Korean state-affiliated actors (Moonstone Sleet), leveraging Managed Service Provider (MSP)",
+    "published": "Wed, 26 Nov 2025 20:01:00 +0530",
+    "source_name": "The Hacker News",
+    "source_icon": "Newspaper",
+    "source_tag": "Tech News",
+    "domain": "thehackernews.com"
+  },
+  {
+    "title": "When Your $2M Security Detection Fails: Can your SOC Save You?",
+    "link": "https://thehackernews.com/2025/11/when-your-2m-security-detection-fails.html",
+    "summary": "Enterprises today are expected to have at least 6-8 detection tools, as detection is considered a standard investment and the first line of defense. Yet security leaders struggle to justify dedicating resources further down the alert lifecycle to their superiors.\nAs a result, most organizations' security investments are asymmetrical, robust detection tools paired with an under-resourced SOC,",
+    "published": "Wed, 26 Nov 2025 17:25:00 +0530",
+    "source_name": "The Hacker News",
+    "source_icon": "Newspaper",
+    "source_tag": "Tech News",
+    "domain": "thehackernews.com"
+  },
+  {
+    "title": "Chrome Extension Caught Injecting Hidden Solana Transfer Fees Into Raydium Swaps",
+    "link": "https://thehackernews.com/2025/11/chrome-extension-caught-injecting.html",
+    "summary": "Cybersecurity researchers have discovered a new malicious extension on the Chrome Web Store that's capable of injecting a stealthy Solana transfer into a swap transaction and transferring the funds to an attacker-controlled cryptocurrency wallet.\nThe extension, named Crypto Copilot, was first published by a user named \"sjclark76\" on May 7, 2024. The developer describes the browser add-on as",
+    "published": "Wed, 26 Nov 2025 16:40:00 +0530",
+    "source_name": "The Hacker News",
+    "source_icon": "Newspaper",
+    "source_tag": "Tech News",
+    "domain": "thehackernews.com"
+  },
+  {
+    "title": "RomCom Uses SocGholish Fake Update Attacks to Deliver Mythic Agent Malware",
+    "link": "https://thehackernews.com/2025/11/romcom-uses-socgholish-fake-update.html",
+    "summary": "The threat actors behind a malware family known as RomCom targeted a U.S.-based civil engineering company via a JavaScript loader dubbed SocGholish to deliver the Mythic Agent.\n\"This is the first time that a RomCom payload has been observed being distributed by SocGholish,\" Arctic Wolf Labs researcher Jacob Faires said in a Tuesday report.\nThe activity has been attributed with medium-to-high",
+    "published": "Wed, 26 Nov 2025 13:58:00 +0530",
+    "source_name": "The Hacker News",
+    "source_icon": "Newspaper",
+    "source_tag": "Tech News",
+    "domain": "thehackernews.com"
+  },
+  {
+    "title": "FBI Reports $262M in ATO Fraud as Researchers Cite Growing AI Phishing and Holiday Scams",
+    "link": "https://thehackernews.com/2025/11/fbi-reports-262m-in-ato-fraud-as.html",
+    "summary": "The U.S. Federal Bureau of Investigation (FBI) has warned that cybercriminals are impersonating financial institutions with an aim to steal money or sensitive information to facilitate account takeover (ATO) fraud schemes.\nThe activity targets individuals, businesses, and organizations of varied sizes and across sectors, the agency said, adding the fraudulent schemes have led to more than $262",
+    "published": "Wed, 26 Nov 2025 09:59:00 +0530",
+    "source_name": "The Hacker News",
+    "source_icon": "Newspaper",
+    "source_tag": "Tech News",
+    "domain": "thehackernews.com"
+  },
+  {
+    "title": "Years of JSONFormatter and CodeBeautify Leaks Expose Thousands of Passwords and API Keys",
+    "link": "https://thehackernews.com/2025/11/years-of-jsonformatter-and-codebeautify.html",
+    "summary": "New research has found that organizations in various sensitive sectors, including governments, telecoms, and critical infrastructure, are pasting passwords and credentials into online tools like JSONformatter and CodeBeautify that are used to format and validate code.\nCybersecurity company watchTowr Labs said it captured a dataset of over 80,000 files on these sites, uncovering thousands of",
+    "published": "Tue, 25 Nov 2025 22:19:00 +0530",
+    "source_name": "The Hacker News",
+    "source_icon": "Newspaper",
+    "source_tag": "Tech News",
+    "domain": "thehackernews.com"
+  },
+  {
+    "title": "JackFix Uses Fake Windows Update Pop-Ups on Adult Sites to Deliver Multiple Stealers",
+    "link": "https://thehackernews.com/2025/11/jackfix-uses-fake-windows-update-pop.html",
+    "summary": "Cybersecurity researchers are calling attention to a new campaign that's leveraging a combination of ClickFix lures and fake adult websites to deceive users into running malicious commands under the guise of a \"critical\" Windows security update.\n\"Campaign leverages fake adult websites (xHamster, PornHub clones) as its phishing mechanism, likely distributed via malvertising,\" Acronis said in a",
+    "published": "Tue, 25 Nov 2025 19:48:00 +0530",
+    "source_name": "The Hacker News",
+    "source_icon": "Newspaper",
+    "source_tag": "Tech News",
+    "domain": "thehackernews.com"
+  },
+  {
+    "title": "ToddyCat’s New Hacking Tools Steal Outlook Emails and Microsoft 365 Access Tokens",
+    "link": "https://thehackernews.com/2025/11/toddycats-new-hacking-tools-steal.html",
+    "summary": "The threat actor known as ToddyCat has been observed adopting new methods to obtain access to corporate email data belonging to target companies, including using a custom tool dubbed TCSectorCopy.\n\"This attack allows them to obtain tokens for the OAuth 2.0 authorization protocol using the user's browser, which can be used outside the perimeter of the compromised infrastructure to access",
+    "published": "Tue, 25 Nov 2025 17:06:00 +0530",
+    "source_name": "The Hacker News",
+    "source_icon": "Newspaper",
+    "source_tag": "Tech News",
+    "domain": "thehackernews.com"
+  },
+  {
+    "title": "3 SOC Challenges You Need to Solve Before 2026",
+    "link": "https://thehackernews.com/2025/11/3-soc-challenges-you-need-to-solve.html",
+    "summary": "2026 will mark a pivotal shift in cybersecurity. Threat actors are moving from experimenting with AI to making it their primary weapon, using it to scale attacks, automate reconnaissance, and craft hyper-realistic social engineering campaigns.\nThe Storm on the Horizon\nGlobal world instability, coupled with rapid technological advancement, will force security teams to adapt not just their",
+    "published": "Tue, 25 Nov 2025 17:00:00 +0530",
+    "source_name": "The Hacker News",
+    "source_icon": "Newspaper",
+    "source_tag": "Tech News",
+    "domain": "thehackernews.com"
+  },
+  {
+    "title": "Meet Rey, the Admin of ‘Scattered Lapsus$ Hunters’",
+    "link": "https://krebsonsecurity.com/2025/11/meet-rey-the-admin-of-scattered-lapsus-hunters/",
+    "summary": "A prolific cybercriminal group that calls itself \"Scattered LAPSUS$ Hunters\" made headlines regularly this year by stealing data from and publicly mass extorting dozens of major corporations. But the tables seem to have turned somewhat for \"Rey,\" the moniker chosen by the technical operator and public face of the hacker group: Earlier this week, Rey confirmed his real life identity and agreed to an interview after KrebsOnSecurity tracked him down and contacted his father.",
+    "published": "Wed, 26 Nov 2025 17:22:36 +0000",
+    "source_name": "Krebs on Security",
+    "source_icon": "User Secret",
+    "source_tag": "Expert Blog",
+    "domain": "krebsonsecurity.com"
+  },
+  {
+    "title": "Is Your Android TV Streaming Box Part of a Botnet?",
+    "link": "https://krebsonsecurity.com/2025/11/is-your-android-tv-streaming-box-part-of-a-botnet/",
+    "summary": "On the surface, the Superbox media streaming devices for sale at retailers like BestBuy and Walmart may seem like a steal: They offer unlimited access to more than 2,200 pay-per-view and streaming services like Netflix, ESPN and Hulu, all for a one-time fee of around $400. But security experts warn these TV boxes require intrusive software that forces the user's network to relay Internet traffic for others, traffic that is often tied to cybercrime activity such as advertising fraud and account takeovers.",
+    "published": "Mon, 24 Nov 2025 18:44:52 +0000",
+    "source_name": "Krebs on Security",
+    "source_icon": "User Secret",
+    "source_tag": "Expert Blog",
+    "domain": "krebsonsecurity.com"
+  },
+  {
+    "title": "Mozilla Says It’s Finally Done With Two-Faced Onerep",
+    "link": "https://krebsonsecurity.com/2025/11/mozilla-says-its-finally-done-with-two-faced-onerep/",
+    "summary": "In March 2024, Mozilla said it was winding down its collaboration with Onerep -- an identity protection service offered with the Firefox web browser that promises to remove users from hundreds of people-search sites -- after KrebsOnSecurity revealed Onerep's founder had created dozens of people-search services and was continuing to operate at least one of them. Sixteen months later, however, Mozilla is still promoting Onerep. This week, Mozilla announced their partnership with Onerep will officially end next month.",
+    "published": "Thu, 20 Nov 2025 19:06:51 +0000",
+    "source_name": "Krebs on Security",
+    "source_icon": "User Secret",
+    "source_tag": "Expert Blog",
+    "domain": "krebsonsecurity.com"
+  },
+  {
+    "title": "The Cloudflare Outage May Be a Security Roadmap",
+    "link": "https://krebsonsecurity.com/2025/11/the-cloudflare-outage-may-be-a-security-roadmap/",
+    "summary": "An intermittent outage at Cloudflare on Tuesday briefly knocked many of the Internet's top destinations offline. Some affected Cloudflare customers were able to pivot away from the platform temporarily so that visitors could still access their websites. But security experts say doing so may have also triggered an impromptu network penetration test for organizations that have come to rely on Cloudflare to block many types of abusive and malicious traffic.",
+    "published": "Wed, 19 Nov 2025 14:07:03 +0000",
+    "source_name": "Krebs on Security",
+    "source_icon": "User Secret",
+    "source_tag": "Expert Blog",
+    "domain": "krebsonsecurity.com"
+  },
+  {
+    "title": "Microsoft Patch Tuesday, November 2025 Edition",
+    "link": "https://krebsonsecurity.com/2025/11/microsoft-patch-tuesday-november-2025-edition/",
+    "summary": "Microsoft this week pushed security updates to fix more than 60 vulnerabilities in its Windows operating systems and supported software, including at least one zero-day bug that is already being exploited. Microsoft also fixed a glitch that prevented some Windows 10 users from taking advantage of an extra year of security updates, which is nice because the zero-day flaw and other critical weaknesses patched today affect all versions of Windows, including Windows 10.",
+    "published": "Sun, 16 Nov 2025 21:47:14 +0000",
+    "source_name": "Krebs on Security",
+    "source_icon": "User Secret",
+    "source_tag": "Expert Blog",
+    "domain": "krebsonsecurity.com"
+  },
+  {
+    "title": "Google Sues to Disrupt Chinese SMS Phishing Triad",
+    "link": "https://krebsonsecurity.com/2025/11/google-sues-to-disrupt-chinese-sms-phishing-triad/",
+    "summary": "Google is suing more than two dozen unnamed individuals allegedly involved in peddling a popular China-based mobile phishing service that helps scammers impersonate hundreds of trusted brands, blast out text message lures, and convert phished payment card data into mobile wallets from Apple and Google.",
+    "published": "Thu, 13 Nov 2025 14:47:22 +0000",
+    "source_name": "Krebs on Security",
+    "source_icon": "User Secret",
+    "source_tag": "Expert Blog",
+    "domain": "krebsonsecurity.com"
+  },
+  {
+    "title": "Drilling Down on Uncle Sam’s Proposed TP-Link Ban",
+    "link": "https://krebsonsecurity.com/2025/11/drilling-down-on-uncle-sams-proposed-tp-link-ban/",
+    "summary": "The U.S. government is reportedly preparing to ban the sale of wireless routers and other networking gear from TP-Link Systems, a tech company that currently enjoys an estimated 50% market share among home users and small businesses. Experts say while the proposed ban may have more to do with TP-Link's ties to China than any specific technical threats, much of the rest of the industry serving this market also sources hardware from China and ships products that are insecure fresh out of the box.",
+    "published": "Sun, 09 Nov 2025 18:14:40 +0000",
+    "source_name": "Krebs on Security",
+    "source_icon": "User Secret",
+    "source_tag": "Expert Blog",
+    "domain": "krebsonsecurity.com"
+  },
+  {
+    "title": "Cloudflare Scrubs Aisuru Botnet from Top Domains List",
+    "link": "https://krebsonsecurity.com/2025/11/cloudflare-scrubs-aisuru-botnet-from-top-domains-list/",
+    "summary": "For the past week, domains associated with the massive Aisuru botnet have repeatedly usurped Amazon, Apple, Google and Microsoft in Cloudflare's public ranking of the most frequently requested websites. Cloudflare responded by redacting Aisuru domain names from their top websites list. The chief executive at Cloudflare says Aisuru's overlords are using the botnet to boost their malicious domain rankings, while simultaneously attacking the company's domain name system (DNS) service.",
+    "published": "Thu, 06 Nov 2025 02:04:36 +0000",
+    "source_name": "Krebs on Security",
+    "source_icon": "User Secret",
+    "source_tag": "Expert Blog",
+    "domain": "krebsonsecurity.com"
+  },
+  {
+    "title": "Alleged Jabber Zeus Coder ‘MrICQ’ in U.S. Custody",
+    "link": "https://krebsonsecurity.com/2025/11/alleged-jabber-zeus-coder-mricq-in-u-s-custody/",
+    "summary": "A Ukrainian man indicted in 2012 for conspiring with a prolific hacking group to steal tens of millions of dollars from U.S. businesses was arrested in Italy and is now in custody in the United States, KrebsOnSecurity has learned.\n\nSources close to the investigation say Yuriy Igorevich Rybtsov, a 41-year-old from the Russia-controlled city of Donetsk, Ukraine, was previously referenced in U.S. federal charging documents only by his online handle \"MrICQ.\" According to a 13-year-old indictment filed by prosecutors in Nebraska, MrICQ was a developer for a cybercrime group known as \"Jabber Zeus.\"",
+    "published": "Sun, 02 Nov 2025 20:37:24 +0000",
+    "source_name": "Krebs on Security",
+    "source_icon": "User Secret",
+    "source_tag": "Expert Blog",
+    "domain": "krebsonsecurity.com"
+  },
+  {
+    "title": "Aisuru Botnet Shifts from DDoS to Residential Proxies",
+    "link": "https://krebsonsecurity.com/2025/10/aisuru-botnet-shifts-from-ddos-to-residential-proxies/",
+    "summary": "Aisuru, the botnet responsible for a series of record-smashing distributed denial-of-service (DDoS) attacks this year, recently was overhauled to support a more low-key, lucrative and sustainable business: Renting hundreds of thousands of infected Internet of Things (IoT) devices to proxy services that help cybercriminals anonymize their traffic. Experts says a glut of proxies from Aisuru and other sources is fueling large-scale data harvesting efforts tied to various artificial intelligence (AI) projects, helping content scrapers evade detection by routing their traffic through residential connections that appear to be regular Internet users.",
+    "published": "Wed, 29 Oct 2025 00:51:05 +0000",
+    "source_name": "Krebs on Security",
+    "source_icon": "User Secret",
+    "source_tag": "Expert Blog",
+    "domain": "krebsonsecurity.com"
+  },
+  {
+    "title": "Japanese beer giant Asahi says data breach hit 1.5 million people",
+    "link": "https://www.bleepingcomputer.com/news/security/japanese-beer-giant-asahi-says-data-breach-hit-15-million-people/",
+    "summary": "Asahi Group Holdings, Japan's largest beer producer, has finished the investigation into the September cyberattack and found that the incident has impacted up to 1.9 million individuals. [...]",
+    "published": "Sat, 29 Nov 2025 10:17:23 -0500",
+    "source_name": "BleepingComputer",
+    "source_icon": "Laptop Code",
+    "source_tag": "Security News",
+    "domain": "www.bleepingcomputer.com"
+  },
+  {
+    "title": "Leak confirms OpenAI is preparing ads on ChatGPT for public roll out",
+    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/leak-confirms-openai-is-preparing-ads-on-chatgpt-for-public-roll-out/",
+    "summary": "OpenAI is now internally testing 'ads' inside ChatGPT that could redefine the web economy. [...]",
+    "published": "Sat, 29 Nov 2025 06:31:22 -0500",
+    "source_name": "BleepingComputer",
+    "source_icon": "Laptop Code",
+    "source_tag": "Security News",
+    "domain": "www.bleepingcomputer.com"
+  },
+  {
+    "title": "Man behind in-flight Evil Twin WiFi attacks gets 7 years in prison",
+    "link": "https://www.bleepingcomputer.com/news/security/man-behind-in-flight-evil-twin-wifi-attacks-gets-7-years-in-prison/",
+    "summary": "A 44-year-old man was sentenced to seven years and four months in prison for operating an \"evil twin\" WiFi network to steal the data of unsuspecting travelers at various airports across Australia. [...]",
+    "published": "Fri, 28 Nov 2025 13:25:28 -0500",
+    "source_name": "BleepingComputer",
+    "source_icon": "Laptop Code",
+    "source_tag": "Security News",
+    "domain": "www.bleepingcomputer.com"
+  },
+  {
+    "title": "Microsoft: Windows updates make password login option invisible",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-updates-hide-password-icon-on-lock-screen/",
+    "summary": "Microsoft warned users that Windows 11 updates released since August may cause the password sign-in option to disappear from the lock screen options, even though the button remains functional. [...]",
+    "published": "Fri, 28 Nov 2025 13:07:17 -0500",
+    "source_name": "BleepingComputer",
+    "source_icon": "Laptop Code",
+    "source_tag": "Security News",
+    "domain": "www.bleepingcomputer.com"
+  },
+  {
+    "title": "Public GitLab repositories exposed more than 17,000 secrets",
+    "link": "https://www.bleepingcomputer.com/news/security/public-gitlab-repositories-exposed-more-than-17-000-secrets/",
+    "summary": "After scanning all 5.6 million public repositories on GitLab Cloud, a security engineer discovered more than 17,000 exposed secrets across over 2,800 unique domains. [...]",
+    "published": "Fri, 28 Nov 2025 12:43:02 -0500",
+    "source_name": "BleepingComputer",
+    "source_icon": "Laptop Code",
+    "source_tag": "Security News",
+    "domain": "www.bleepingcomputer.com"
+  },
+  {
+    "title": "French Football Federation discloses data breach after cyberattack",
+    "link": "https://www.bleepingcomputer.com/news/security/french-football-federation-fff-discloses-data-breach-after-cyberattack/",
+    "summary": "The French Football Federation (FFF) disclosed a data breach on Friday after attackers used a compromised account to gain access to administrative management software used by football clubs. [...]",
+    "published": "Fri, 28 Nov 2025 11:12:03 -0500",
+    "source_name": "BleepingComputer",
+    "source_icon": "Laptop Code",
+    "source_tag": "Security News",
+    "domain": "www.bleepingcomputer.com"
+  },
+  {
+    "title": "Malicious LLMs empower inexperienced hackers with advanced tools",
+    "link": "https://www.bleepingcomputer.com/news/security/malicious-llms-empower-inexperienced-hackers-with-advanced-tools/",
+    "summary": "Unrestricted large language models (LLMs) like WormGPT 4 and KawaiiGPT are improving their capabilities to generate malicious code, delivering functional scripts for ransomware encryptors and lateral movement. [...]",
+    "published": "Thu, 27 Nov 2025 12:15:27 -0500",
+    "source_name": "BleepingComputer",
+    "source_icon": "Laptop Code",
+    "source_tag": "Security News",
+    "domain": "www.bleepingcomputer.com"
+  },
+  {
+    "title": "GreyNoise launches free scanner to check if you're part of a botnet",
+    "link": "https://www.bleepingcomputer.com/news/security/greynoise-launches-free-scanner-to-check-if-youre-part-of-a-botnet/",
+    "summary": "GreyNoise Labs has launched a free tool called GreyNoise IP Check that lets users check if their IP address has been observed in malicious scanning operations, like botnet and residential proxy networks. [...]",
+    "published": "Thu, 27 Nov 2025 10:11:21 -0500",
+    "source_name": "BleepingComputer",
+    "source_icon": "Laptop Code",
+    "source_tag": "Security News",
+    "domain": "www.bleepingcomputer.com"
+  },
+  {
+    "title": "OpenAI discloses API customer data breach via Mixpanel vendor hack",
+    "link": "https://www.bleepingcomputer.com/news/security/openai-discloses-api-customer-data-breach-via-mixpanel-vendor-hack/",
+    "summary": "OpenAI is notifying some ChatGPT API customers that limited identifying information was exposed following a breach at its third-party analytics provider Mixpanel. [...]",
+    "published": "Thu, 27 Nov 2025 06:27:06 -0500",
+    "source_name": "BleepingComputer",
+    "source_icon": "Laptop Code",
+    "source_tag": "Security News",
+    "domain": "www.bleepingcomputer.com"
+  },
+  {
+    "title": "New ShadowV2 botnet malware used AWS outage as a test opportunity",
+    "link": "https://www.bleepingcomputer.com/news/security/new-shadowv2-botnet-malware-used-aws-outage-as-a-test-opportunity/",
+    "summary": "A new Mirai-based botnet malware named 'ShadowV2' has been observed targeting IoT devices from D-Link, TP-Link, and other vendors with exploits for known vulnerabilities. [...]",
+    "published": "Wed, 26 Nov 2025 17:24:14 -0500",
+    "source_name": "BleepingComputer",
+    "source_icon": "Laptop Code",
+    "source_tag": "Security News",
+    "domain": "www.bleepingcomputer.com"
+  },
+  {
+    "title": "NordVPN Black Friday Deal: Unlock 77% off VPN plans in 2025",
+    "link": "https://www.bleepingcomputer.com/news/security/nordvpn-black-friday-deal-unlock-77-percent-off-vpn-plans-in-2025/",
+    "summary": "The NordVPN Black Friday Deal is now live, and you can get the best discount available: 77% off that applies automatically when you follow our link. If you've been waiting for the right moment to upgrade your online security, privacy, and streaming freedom, this is the one VPN deals this Black Friday. [...]",
+    "published": "Wed, 26 Nov 2025 15:00:37 -0500",
+    "source_name": "BleepingComputer",
+    "source_icon": "Laptop Code",
+    "source_tag": "Security News",
+    "domain": "www.bleepingcomputer.com"
+  },
+  {
+    "title": "French Soccer Federation Hit by Cyberattack, Member Data Stolen",
+    "link": "https://www.securityweek.com/french-soccer-federation-hit-by-cyberattack-member-data-stolen/",
+    "summary": "<p>According to the federation, the unauthorized access was carried out using a compromised account.</p>\n<p>The post <a href=\"https://www.securityweek.com/french-soccer-federation-hit-by-cyberattack-member-data-stolen/\">French Soccer Federation Hit by Cyberattack, Member Data Stolen</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "published": "Fri, 28 Nov 2025 14:39:14 +0000",
+    "source_name": "SecurityWeek",
+    "source_icon": "Shield Check",
+    "source_tag": "Cyber Media",
+    "domain": "www.securityweek.com"
+  },
+  {
+    "title": "In Other News: HashJack AI Browser Attack, Charming Kitten Leak, Hacker Unmasked",
+    "link": "https://www.securityweek.com/in-other-news-hashjack-ai-browser-attack-charming-kitten-leak-hacker-unmasked/",
+    "summary": "<p>Other noteworthy stories that might have slipped under the radar: Scattered Spider members plead not guilty, TP-Link sues Netgear, Comcast agrees to $1.5 million fine.</p>\n<p>The post <a href=\"https://www.securityweek.com/in-other-news-hashjack-ai-browser-attack-charming-kitten-leak-hacker-unmasked/\">In Other News: HashJack AI Browser Attack, Charming Kitten Leak, Hacker Unmasked</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "published": "Fri, 28 Nov 2025 10:24:24 +0000",
+    "source_name": "SecurityWeek",
+    "source_icon": "Shield Check",
+    "source_tag": "Cyber Media",
+    "domain": "www.securityweek.com"
+  },
+  {
+    "title": "Asahi Data Breach Impacts 2 Million Individuals",
+    "link": "https://www.securityweek.com/asahi-data-breach-impacts-2-million-individuals/",
+    "summary": "<p>Hackers stole the personal information of customers and employees before deploying ransomware and crippling Asahi’s operations in Japan.</p>\n<p>The post <a href=\"https://www.securityweek.com/asahi-data-breach-impacts-2-million-individuals/\">Asahi Data Breach Impacts 2 Million Individuals</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "published": "Thu, 27 Nov 2025 15:52:10 +0000",
+    "source_name": "SecurityWeek",
+    "source_icon": "Shield Check",
+    "source_tag": "Cyber Media",
+    "domain": "www.securityweek.com"
+  },
+  {
+    "title": "OpenAI User Data Exposed in Mixpanel Hack",
+    "link": "https://www.securityweek.com/openai-user-data-exposed-in-mixpanel-hack/",
+    "summary": "<p>Multiple Mixpanel customers were impacted by a recent cyberattack targeting the product analytics company. </p>\n<p>The post <a href=\"https://www.securityweek.com/openai-user-data-exposed-in-mixpanel-hack/\">OpenAI User Data Exposed in Mixpanel Hack</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "published": "Thu, 27 Nov 2025 12:09:24 +0000",
+    "source_name": "SecurityWeek",
+    "source_icon": "Shield Check",
+    "source_tag": "Cyber Media",
+    "domain": "www.securityweek.com"
+  },
+  {
+    "title": "Clover Security Raises $36 Million to Secure Software by Design",
+    "link": "https://www.securityweek.com/clover-security-raises-36-million-to-secure-software-by-design/",
+    "summary": "<p>The cybersecurity startup embeds AI agents into widely used tools to identify design flaws and eliminate them early.</p>\n<p>The post <a href=\"https://www.securityweek.com/clover-security-raises-36-million-to-secure-software-by-design/\">Clover Security Raises $36 Million to Secure Software by Design</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "published": "Wed, 26 Nov 2025 14:08:01 +0000",
+    "source_name": "SecurityWeek",
+    "source_icon": "Shield Check",
+    "source_tag": "Cyber Media",
+    "domain": "www.securityweek.com"
+  },
+  {
+    "title": "Account Takeover Fraud Caused $262 Million in Losses in 2025: FBI",
+    "link": "https://www.securityweek.com/account-takeover-fraud-caused-262-million-in-losses-in-2025-fbi/",
+    "summary": "<p>Cybercriminals impersonating financial institutions have targeted individuals, businesses, and organizations of different sizes.</p>\n<p>The post <a href=\"https://www.securityweek.com/account-takeover-fraud-caused-262-million-in-losses-in-2025-fbi/\">Account Takeover Fraud Caused $262 Million in Losses in 2025: FBI</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "published": "Wed, 26 Nov 2025 13:23:38 +0000",
+    "source_name": "SecurityWeek",
+    "source_icon": "Shield Check",
+    "source_tag": "Cyber Media",
+    "domain": "www.securityweek.com"
+  },
+  {
+    "title": "Thousands of Secrets Leaked on Code Formatting Platforms",
+    "link": "https://www.securityweek.com/thousands-of-secrets-leaked-on-code-formatting-platforms/",
+    "summary": "<p>JSONFormatter and CodeBeautify users exposed credentials, authentication keys, configuration information, private keys, and other secrets.</p>\n<p>The post <a href=\"https://www.securityweek.com/thousands-of-secrets-leaked-on-code-formatting-platforms/\">Thousands of Secrets Leaked on Code Formatting Platforms</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "published": "Wed, 26 Nov 2025 12:58:18 +0000",
+    "source_name": "SecurityWeek",
+    "source_icon": "Shield Check",
+    "source_tag": "Cyber Media",
+    "domain": "www.securityweek.com"
+  },
+  {
+    "title": "Cybersecurity Is Now a Core Business Discipline",
+    "link": "https://www.securityweek.com/cybersecurity-is-now-a-core-business-discipline/",
+    "summary": "<p>Boardroom conversations about cyber can no longer be siloed apart from strategy, operations, or geopolitics.</p>\n<p>The post <a href=\"https://www.securityweek.com/cybersecurity-is-now-a-core-business-discipline/\">Cybersecurity Is Now a Core Business Discipline</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "published": "Wed, 26 Nov 2025 12:00:00 +0000",
+    "source_name": "SecurityWeek",
+    "source_icon": "Shield Check",
+    "source_tag": "Cyber Media",
+    "domain": "www.securityweek.com"
+  },
+  {
+    "title": "Ransomware Attack Disrupts Local Emergency Alert System Across US",
+    "link": "https://www.securityweek.com/ransomware-attack-disrupts-local-emergency-alert-system-across-us/",
+    "summary": "<p>The OnSolve CodeRED platform has been targeted by the Inc Ransom ransomware group, resulting in disruptions and a data breach.</p>\n<p>The post <a href=\"https://www.securityweek.com/ransomware-attack-disrupts-local-emergency-alert-system-across-us/\">Ransomware Attack Disrupts Local Emergency Alert System Across US</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "published": "Wed, 26 Nov 2025 11:38:07 +0000",
+    "source_name": "SecurityWeek",
+    "source_icon": "Shield Check",
+    "source_tag": "Cyber Media",
+    "domain": "www.securityweek.com"
+  },
+  {
+    "title": "Opti Raises $20 Million for Identity Security Platform",
+    "link": "https://www.securityweek.com/opti-raises-20-million-for-identity-security-platform/",
+    "summary": "<p>The cybersecurity startup plans to use the seed funding to accelerate product expansion and global growth.</p>\n<p>The post <a href=\"https://www.securityweek.com/opti-raises-20-million-for-identity-security-platform/\">Opti Raises $20 Million for Identity Security Platform</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "published": "Wed, 26 Nov 2025 09:42:01 +0000",
+    "source_name": "SecurityWeek",
+    "source_icon": "Shield Check",
+    "source_tag": "Cyber Media",
+    "domain": "www.securityweek.com"
+  },
+  {
+    "title": "Windows 11 24H2 Update Hides the Password Icon in the Sign-in Options on the Lock Screen",
+    "link": "https://cybersecuritynews.com/windows-11-24h2-update-hides-login/",
+    "summary": "<p>Microsoft has confirmed a bizarre user interface bug affecting Windows 11 version 24H2 devices that renders the password sign-in icon invisible on the lock screen. The issue, stemming from the August 2025 non-security preview update (KB5064081) and persisting in subsequent cumulative updates, has left many users confused when switching between authentication methods.​ The glitch impacts [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/windows-11-24h2-update-hides-login/\">Windows 11 24H2 Update Hides the Password Icon in the Sign-in Options on the Lock Screen</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "published": "Mon, 01 Dec 2025 05:13:08 +0000",
+    "source_name": "Cybersecuritynews",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "cybersecuritynews.com"
+  },
+  {
+    "title": "PoC Exploit Released for Critical Outlook 0-Click Remote Code Execution Vulnerability",
+    "link": "https://cybersecuritynews.com/outlook-remote-code-execution-vulnerability-2/",
+    "summary": "<p>A Proof-of-Concept (PoC) exploit code has been released for a critical remote code execution (RCE) vulnerability in Microsoft Outlook, identified as CVE-2024-21413. Dubbed &#8220;MonikerLink,&#8221; this flaw allows attackers to bypass Outlook&#8217;s security mechanisms, specifically the &#8220;Protected View,&#8221; to execute malicious code or steal credentials. The release of this PoC highlights the continued risk posed by [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/outlook-remote-code-execution-vulnerability-2/\">PoC Exploit Released for Critical Outlook 0-Click Remote Code Execution Vulnerability</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber",
+    "published": "Mon, 01 Dec 2025 03:46:21 +0000",
+    "source_name": "Cybersecuritynews",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "cybersecuritynews.com"
+  },
+  {
+    "title": "Hackers Allegedly Claim Breach of Mercedes-Benz USA Legal and Customer Data",
+    "link": "https://cybersecuritynews.com/mercedes-benz-breach-claim/",
+    "summary": "<p>A threat actor known as &#8220;zestix&#8221; has claimed responsibility for a significant data breach affecting Mercedes-Benz USA (MBUSA), allegedly exfiltrating 18.3 GB of sensitive legal and customer information. The threat actor posted the dataset for sale on a dark web forum, pricing the complete archive at $5,000. According to the listing, the breach exposes a [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/mercedes-benz-breach-claim/\">Hackers Allegedly Claim Breach of Mercedes-Benz USA Legal and Customer Data</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "published": "Mon, 01 Dec 2025 02:48:25 +0000",
+    "source_name": "Cybersecuritynews",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "cybersecuritynews.com"
+  },
+  {
+    "title": "CISA Warns of OpenPLC ScadaBR cross-site scripting vulnerability Exploited in Attacks",
+    "link": "https://cybersecuritynews.com/cisa-openplc-scadabr-vulnerability/",
+    "summary": "<p>The Cybersecurity and Infrastructure Security Agency (CISA) has officially updated its Known Exploited Vulnerabilities (KEV) catalog to include a critical flaw in OpenPLC ScadaBR, confirming that threat actors are actively weaponizing it in the wild. The security defect, identified as CVE-2021-26829, is a Cross-Site Scripting (XSS) vulnerability rooted in the system_settings.shtm component of ScadaBR. While [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/cisa-openplc-scadabr-vulnerability/\">CISA Warns of OpenPLC ScadaBR cross-site scripting vulnerability Exploited in Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "published": "Sat, 29 Nov 2025 12:34:02 +0000",
+    "source_name": "Cybersecuritynews",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "cybersecuritynews.com"
+  },
+  {
+    "title": "New Albiriox Malware Attacking Android Users to Take Complete Control of their Device",
+    "link": "https://cybersecuritynews.com/albiriox-malware-attacking-android-users/",
+    "summary": "<p>A sophisticated new Android malware family dubbed &#8220;Albiriox&#8221; has emerged on the cybercrime landscape, offering advanced remote access capabilities as a Malware-as-a-Service (MaaS). Identified by researchers at Cleafy, the malware is designed to execute On-Device Fraud (ODF) by granting attackers full control over infected devices, allowing them to bypass security measures and drain financial accounts. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/albiriox-malware-attacking-android-users/\">New Albiriox Malware Attacking Android Users to Take Complete Control of their Device</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.",
+    "published": "Sat, 29 Nov 2025 03:32:38 +0000",
+    "source_name": "Cybersecuritynews",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "cybersecuritynews.com"
+  },
+  {
+    "title": "Beware of Weaponized Google Meet Page uses ClickFix Technique to Deliver Malicious Payload",
+    "link": "https://cybersecuritynews.com/weaponized-google-meet-clickfix/",
+    "summary": "<p>A new, highly sophisticated malware campaign has been identified targeting remote workers and organizations through a fake Google Meet landing page. Hosted on the deceptive domain gogl-meet[.]com, this attack leverages the &#8220;ClickFix&#8221; social engineering technique to bypass traditional browser security controls and deliver a Remote Access Trojan (RAT) directly to the victim&#8217;s system. Maurice Fielenbach [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/weaponized-google-meet-clickfix/\">Beware of Weaponized Google Meet Page uses ClickFix Technique to Deliver Malicious Payload</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>",
+    "published": "Sat, 29 Nov 2025 02:18:00 +0000",
+    "source_name": "Cybersecuritynews",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "cybersecuritynews.com"
+  },
+  {
+    "title": "French Football Federation Reports Data Breach – Hackers Access Club Software Admin Controls",
+    "link": "https://cybersecuritynews.com/french-football-federation-reports-data-breach/",
+    "summary": "<p>The French Football Federation (FFF) has confirmed a significant cybersecurity incident resulting in the theft of personal data belonging to members and licensees. The federation revealed that cybercriminals had infiltrated the centralized administrative software used by football clubs across the country to manage memberships and daily operations. According to the disclosure, the breach was not [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/french-football-federation-reports-data-breach/\">French Football Federation Reports Data Breach &#8211; Hackers Access Club Software Admin Controls</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.",
+    "published": "Fri, 28 Nov 2025 16:27:44 +0000",
+    "source_name": "Cybersecuritynews",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "cybersecuritynews.com"
+  },
+  {
+    "title": "Hackers Registered 18,000 Holiday-Themed Domains Targeting ‘Christmas,’ ‘Black Friday,’ and ‘Flash Sale’",
+    "link": "https://cybersecuritynews.com/hackers-registered-18000-holiday-themed-domains/",
+    "summary": "<p>The 2025 holiday season has unleashed an unprecedented wave of cyber threats, with attackers deploying industrialized infrastructure to exploit the global surge in online commerce. This year&#8217;s threat landscape is characterized by a calculated expansion of deceptive digital assets, where criminals leverage automated tools to scale their operations across multiple merchant categories. The primary vector [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-registered-18000-holiday-themed-domains/\">Hackers Registered 18,000 Holiday-Themed Domains Targeting &#8216;Christmas,&#8217; &#8216;Black Friday,&#8217; and &#8216;Flash Sale&#8217;</a> appeared first on <a href=",
+    "published": "Fri, 28 Nov 2025 12:20:32 +0000",
+    "source_name": "Cybersecuritynews",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "cybersecuritynews.com"
+  },
+  {
+    "title": "Handala Hacker Group Attacking Israeli High-Tech and Aerospace Professionals",
+    "link": "https://cybersecuritynews.com/handala-hacker-group-attacking-israeli/",
+    "summary": "<p>The Handala hacker group has launched a targeted campaign against Israeli high-tech and aerospace professionals, marking a concerning shift in geopolitically motivated cyber operations. The group recently published a list of individuals working in these critical sectors, accompanied by hostile descriptions that falsely label them as criminals. This campaign represents a significant escalation from traditional [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/handala-hacker-group-attacking-israeli/\">Handala Hacker Group Attacking Israeli High-Tech and Aerospace Professionals</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "published": "Fri, 28 Nov 2025 10:16:09 +0000",
+    "source_name": "Cybersecuritynews",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "cybersecuritynews.com"
+  },
+  {
+    "title": "Comcast to Pay a $1.5 Million Fine to Settle an FCC Investigation Linked to Vendor Data Breach",
+    "link": "https://cybersecuritynews.com/comcast-to-pay-a-1-5-million-fine/",
+    "summary": "<p>The company has agreed to pay a $1.5 million fine to settle a Federal Communications Commission investigation into a data breach that exposed personal information from over 237,000 customers. Reuters reports that the FCC announced the settlement on Monday, ending an investigation into how the company’s vendor mishandled customer data. The breach occurred at Financial [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/comcast-to-pay-a-1-5-million-fine/\">Comcast to Pay a $1.5 Million Fine to Settle an FCC Investigation Linked to Vendor Data Breach</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "published": "Fri, 28 Nov 2025 08:28:49 +0000",
+    "source_name": "Cybersecuritynews",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "cybersecuritynews.com"
+  },
+  {
+    "title": "French Football Federation Discloses Data Breach After Attackers Compromise Administrative Software",
+    "link": "https://thecyberexpress.com/french-football-federation-data-breach/",
+    "summary": "<p><img alt=\"French Football Federation, FFF, Data Breach\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"576\" src=\"https://thecyberexpress.com/wp-content/uploads/French-Football-Federation.jpg\" title=\"French Football Federation Discloses Data Breach After Attackers Compromise Administrative Software 1\" width=\"1024\" /></p><p class=\"font-claude-response-body whitespace-normal break-words\">The French Football Federation confirmed this week that attackers used stolen credentials to breach centralized administrative software managing club memberships nationwide, exposing personal information belonging to licensed players registered through clubs across the country.</",
+    "published": "Sat, 29 Nov 2025 07:38:19 +0000",
+    "source_name": "Thecyberexpress",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "thecyberexpress.com"
+  },
+  {
+    "title": "French Regulator Fines Vanity Fair Publisher €750,000 for Persistent Cookie Consent Violations",
+    "link": "https://thecyberexpress.com/french-regulator-fines-vanity-fair/",
+    "summary": "<p><img alt=\"Vanity Fair, Condé Nast, Cookie Consent\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"683\" src=\"https://thecyberexpress.com/wp-content/uploads/Vanity-Fair-Conde-Nast-Cookie-Consent.jpg\" title=\"French Regulator Fines Vanity Fair Publisher €750,000 for Persistent Cookie Consent Violations 3\" width=\"1024\" /></p><p class=\"font-claude-response-body whitespace-normal break-words\">France's data protection authority discovered that when visitors clicked the button to reject cookies on Vanity Fair (vanityfair[.]fr), the website continued placing tracking technologies on their devices and reading existing cookies without consent, a violation that now costs p",
+    "published": "Fri, 28 Nov 2025 10:49:06 +0000",
+    "source_name": "Thecyberexpress",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "thecyberexpress.com"
+  },
+  {
+    "title": "Cyberattacks Against the US Intensify as Russian Groups Target Engineering Firm",
+    "link": "https://thecyberexpress.com/cyberattacks-against-the-us/",
+    "summary": "<p><img alt=\"Cyberattacks Against the US Linked to Russia\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"731\" src=\"https://thecyberexpress.com/wp-content/uploads/Cyberattacks-Against-the-US-Linked-to-Russia.webp\" title=\"Cyberattacks Against the US Intensify as Russian Groups Target Engineering Firm 5\" width=\"1280\" /></p>A new round of cyberattacks against the US has raised concerns about hidden attempts to access urban infrastructure systems, according to an update from the Center for Countering Disinformation.\n\nInvestigators found that the attackers relied on SocGholish and RomCom, two tools widely used in <a href=\"https://thecyberexpress.com/virtual-currency-t",
+    "published": "Fri, 28 Nov 2025 08:53:12 +0000",
+    "source_name": "Thecyberexpress",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "thecyberexpress.com"
+  },
+  {
+    "title": "Poland Arrests Russian Suspected of Hacking E-Commerce Databases Across Europe",
+    "link": "https://thecyberexpress.com/poland-arrests-russian-suspected-of-hacking/",
+    "summary": "<p><img alt=\"Poland\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"867\" src=\"https://thecyberexpress.com/wp-content/uploads/Poland-Police-Policia-Poland.jpg\" title=\"Poland Arrests Russian Suspected of Hacking E-Commerce Databases Across Europe 7\" width=\"1200\" /></p><p class=\"font-claude-response-body whitespace-normal break-words\">Polish authorities arrested a 23-year-old Russian citizen on November 16, after investigators linked him to unauthorized intrusions into e-commerce platforms, gaining access to databases containing personal data and transaction histories of customers across Poland and potentially other European Union member states. The suspect, who ill",
+    "published": "Thu, 27 Nov 2025 19:21:05 +0000",
+    "source_name": "Thecyberexpress",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "thecyberexpress.com"
+  },
+  {
+    "title": "EU Reaches Agreement on Child Sexual Abuse Detection Law After Three Years of Contentious Debate",
+    "link": "https://thecyberexpress.com/eu-agrees-on-child-sexual-abuse-detection-law/",
+    "summary": "<p><img alt=\"Child Sexual Abuse\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"667\" src=\"https://thecyberexpress.com/wp-content/uploads/Child-Abuse.jpg\" title=\"EU Reaches Agreement on Child Sexual Abuse Detection Law After Three Years of Contentious Debate 9\" width=\"1000\" /></p><p class=\"font-claude-response-body whitespace-normal break-words\">That lengthy standoff over privacy rights versus child protection ended Wednesday when EU member states finally agreed on a negotiating mandate for the Child Sexual Abuse Regulation, a controversial law requiring online platforms to detect, report, and remove child sexual abuse material while critics warn the measures coul",
+    "published": "Thu, 27 Nov 2025 18:47:04 +0000",
+    "source_name": "Thecyberexpress",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "thecyberexpress.com"
+  },
+  {
+    "title": "OpenAI Confirms Mixpanel Breach Impacting API User Data",
+    "link": "https://thecyberexpress.com/openai-mixpanel-security-incident/",
+    "summary": "<p><img alt=\"Mixpanel security incident\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"720\" src=\"https://thecyberexpress.com/wp-content/uploads/Mixpanel-security-incident.webp\" title=\"OpenAI Confirms Mixpanel Breach Impacting API User Data 11\" width=\"1280\" /></p>OpenAI has confirmed a security incident involving Mixpanel, a third-party analytics provider used for its API product frontend. The company clarified that the OpenAI Mixpanel security incident stemmed solely from a breach within Mixpanel’s systems and did <em>not</em> involve OpenAI’s infrastructure.\n\nAccording to the initial investigation, an attacker gained unauthorized access to a portion of Mixpanel",
+    "published": "Thu, 27 Nov 2025 07:06:36 +0000",
+    "source_name": "Thecyberexpress",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "thecyberexpress.com"
+  },
+  {
+    "title": "Asahi Group Cyberattack: Data of 2 Million Customers and Employees Potentially Exposed",
+    "link": "https://thecyberexpress.com/asahi-group-cyberattack-exposes-records/",
+    "summary": "<p><img alt=\"Asahi Group Cyberattack\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"853\" src=\"https://thecyberexpress.com/wp-content/uploads/Asahi-Group-Cyberattack-1.webp\" title=\"Asahi Group Cyberattack: Data of 2 Million Customers and Employees Potentially Exposed 13\" width=\"1280\" /></p>Japanese beverage giant Asahi Group Holdings has confirmed new findings in its ongoing investigation into the <a href=\"https://thecyberexpress.com/asahi-cyberattack-japan-operations-crippled/\" rel=\"noopener\" target=\"_blank\">Asahi Group cyberattack</a>, revealing that personal information linked to around 2 million customers, employees, and external contacts may have been expose",
+    "published": "Thu, 27 Nov 2025 05:19:39 +0000",
+    "source_name": "Thecyberexpress",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "thecyberexpress.com"
+  },
+  {
+    "title": "U.S. CodeRED Emergency Alert System Down After Ransomware Attack",
+    "link": "https://thecyberexpress.com/us-codered-emergency-alert-system-cyberattack/",
+    "summary": "<p><img alt=\"U.S. CodeRED Emergency Alert System Down After Ransomware Attack\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"1008\" src=\"https://thecyberexpress.com/wp-content/uploads/Douglas-County-Sheriff-update-on-CodeRED-emergency-alert-system-cyberattack.jpg\" title=\"U.S. CodeRED Emergency Alert System Down After Ransomware Attack 15\" width=\"1512\" /></p>Crisis24’s OnSolve CodeRED emergency alert system has been disrupted by a cyberattack, leaving local governments throughout the U.S. searching for alternatives or waiting for a new system to come online.\n\nThe INC ransomware group has claimed responsibility for the attack.\n\nSome personal data of users may have ",
+    "published": "Wed, 26 Nov 2025 17:33:10 +0000",
+    "source_name": "Thecyberexpress",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "thecyberexpress.com"
+  },
+  {
+    "title": "London Councils Hit by Cyber Incident, Services Temporarily Disrupted",
+    "link": "https://thecyberexpress.com/london-councils-cyberattack/",
+    "summary": "<p><img alt=\"London councils\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"760\" src=\"https://thecyberexpress.com/wp-content/uploads/London-councils-Cyberattack.webp\" title=\"London Councils Hit by Cyber Incident, Services Temporarily Disrupted 17\" width=\"1280\" /></p>Three London councils are responding to a major cybersecurity incident that has disrupted public services and triggered alerts across the capital.\n\nThe Royal Borough of Kensington and Chelsea (RBKC), Westminster City Council (WCC), and Hammersmith and Fulham Council confirmed on Tuesday evening (November 25) that they were investigating a serious <a href=\"https://thecyberexpress.com/account-takeover-",
+    "published": "Wed, 26 Nov 2025 12:20:50 +0000",
+    "source_name": "Thecyberexpress",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "thecyberexpress.com"
+  },
+  {
+    "title": "Sharjah Police Experiment Exposes How Easily People Fall for Fake QR Codes",
+    "link": "https://thecyberexpress.com/free-wifi-qr-code-risk-experiment/",
+    "summary": "<p><img alt=\"Free WiFi\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"1280\" src=\"https://thecyberexpress.com/wp-content/uploads/Free-WiFi.webp\" title=\"Sharjah Police Experiment Exposes How Easily People Fall for Fake QR Codes 20\" width=\"1920\" /></p><span>A cybersecurity experiment conducted by Sharjah Police has revealed how easily QR codes can mislead individuals, particularly when these codes promise conveniences such as free WiFi. The police placed an unbranded QR code in a public area with a simple message, “Free WiFi”, to measure how many people would scan it without verifying its source.</span><span> </span>\n\n<span>The results revealed that 89 members of t",
+    "published": "Wed, 26 Nov 2025 12:10:57 +0000",
+    "source_name": "Thecyberexpress",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "thecyberexpress.com"
+  },
+  {
+    "title": "Crisis24 shuts down emergency notification system in wake of ransomware attack",
+    "link": "https://cyberscoop.com/crisis24-onsolve-codered-emergency-system-ransomware/",
+    "summary": "<p>OnSolve CodeRED was damaged by the attack and has been nonoperational since earlier this month. Dozens of agencies and their respective users have been impacted by the outage and data theft.</p>\n<p>The post <a href=\"https://cyberscoop.com/crisis24-onsolve-codered-emergency-system-ransomware/\">Crisis24 shuts down emergency notification system in wake of ransomware attack</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
+    "published": "Wed, 26 Nov 2025 21:44:13 +0000",
+    "source_name": "Cyberscoop",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "cyberscoop.com"
+  },
+  {
+    "title": "Congress calls on Anthropic CEO to testify on Chinese Claude espionage campaign",
+    "link": "https://cyberscoop.com/house-homeland-asks-anthropic-ceo-to-testfy-on-chinese-espionage-campaign/",
+    "summary": "<p>The House Homeland Security Committee asked Dario Amodei to answer questions about the implications of the attack and how policymakers and AI companies can respond.</p>\n<p>The post <a href=\"https://cyberscoop.com/house-homeland-asks-anthropic-ceo-to-testfy-on-chinese-espionage-campaign/\">Congress calls on Anthropic CEO to testify on Chinese Claude espionage campaign</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
+    "published": "Wed, 26 Nov 2025 18:34:36 +0000",
+    "source_name": "Cyberscoop",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "cyberscoop.com"
+  },
+  {
+    "title": "New legislation targets scammers that use AI to deceive",
+    "link": "https://cyberscoop.com/new-legislation-targets-scammers-that-use-ai-to-deceive/",
+    "summary": "<p>Following a rash of AI-assisted impersonations of U.S. officials, the bill would raise the financial and criminal penalties around using the technology to defraud. </p>\n<p>The post <a href=\"https://cyberscoop.com/new-legislation-targets-scammers-that-use-ai-to-deceive/\">New legislation targets scammers that use AI to deceive</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
+    "published": "Wed, 26 Nov 2025 18:29:47 +0000",
+    "source_name": "Cyberscoop",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "cyberscoop.com"
+  },
+  {
+    "title": "‘Stranger Things’ emerge when OT security is stuck in the past",
+    "link": "https://cyberscoop.com/stranger-things-legacy-ot-security-op-ed/",
+    "summary": "<p>While 1980s nostalgia is all the rage with the return of 'Stranger Things,' clinging to legacy technology in operational environments brings real risks—not just retro charm.</p>\n<p>The post <a href=\"https://cyberscoop.com/stranger-things-legacy-ot-security-op-ed/\">‘Stranger Things’ emerge when OT security is stuck in the past</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
+    "published": "Wed, 26 Nov 2025 12:00:00 +0000",
+    "source_name": "Cyberscoop",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "cyberscoop.com"
+  },
+  {
+    "title": "Gainsight CEO downplays impact of attack that spread to Salesforce environments",
+    "link": "https://cyberscoop.com/gainsight-ceo-downplays-salesforce-attack/",
+    "summary": "<p>Details about the attack are scattered, and discrepancies remain about the number of companies impacted and the extent to which they are compromised.</p>\n<p>The post <a href=\"https://cyberscoop.com/gainsight-ceo-downplays-salesforce-attack/\">Gainsight CEO downplays impact of attack that spread to Salesforce environments</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
+    "published": "Tue, 25 Nov 2025 22:36:36 +0000",
+    "source_name": "Cyberscoop",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "cyberscoop.com"
+  },
+  {
+    "title": "Underground AI models promise to be hackers ‘cyber pentesting waifu’",
+    "link": "https://cyberscoop.com/malicious-llm-tools-cybercrime-wormgpt-kawaiigpt/",
+    "summary": "<p>Tier-based subscriptions, hacker specific training datasets and playful personalities are part of a growing underground criminal market for custom AI hacking tools.</p>\n<p>The post <a href=\"https://cyberscoop.com/malicious-llm-tools-cybercrime-wormgpt-kawaiigpt/\">Underground AI models promise to be hackers ‘cyber pentesting waifu’ </a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
+    "published": "Tue, 25 Nov 2025 22:23:48 +0000",
+    "source_name": "Cyberscoop",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "cyberscoop.com"
+  },
+  {
+    "title": "Shai-Hulud worm returns stronger and more automated than ever before",
+    "link": "https://cyberscoop.com/supply-chain-attack-shai-hulud-npm/",
+    "summary": "<p>Self-replicating malware has infected almost 500 open-source packages, exposing more than 26,000 GitHub repositories in less than 24 hours.</p>\n<p>The post <a href=\"https://cyberscoop.com/supply-chain-attack-shai-hulud-npm/\">Shai-Hulud worm returns stronger and more automated than ever before</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
+    "published": "Mon, 24 Nov 2025 22:45:47 +0000",
+    "source_name": "Cyberscoop",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "cyberscoop.com"
+  },
+  {
+    "title": "New research finds that Claude breaks bad if you teach it to cheat",
+    "link": "https://cyberscoop.com/anthropic-claude-breaks-bad-jailbreak-reward-hacking-study/",
+    "summary": "<p>A new paper from Anthropic found that teaching Claude how to reward hack coding tasks caused the model to become less honest in other areas. </p>\n<p>The post <a href=\"https://cyberscoop.com/anthropic-claude-breaks-bad-jailbreak-reward-hacking-study/\">New research finds that Claude breaks bad if you teach it to cheat</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
+    "published": "Mon, 24 Nov 2025 21:36:06 +0000",
+    "source_name": "Cyberscoop",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "cyberscoop.com"
+  },
+  {
+    "title": "CISA alert draws attention to spyware’s targeting of messaging apps",
+    "link": "https://cyberscoop.com/cisa-alert-draws-attention-to-spywares-targeting-of-messaging-apps/",
+    "summary": "<p>The agency’s brief notice also directed messaging app users to advice on how to protect themselves.</p>\n<p>The post <a href=\"https://cyberscoop.com/cisa-alert-draws-attention-to-spywares-targeting-of-messaging-apps/\">CISA alert draws attention to spyware’s targeting of messaging apps</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
+    "published": "Mon, 24 Nov 2025 20:18:58 +0000",
+    "source_name": "Cyberscoop",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "cyberscoop.com"
+  },
+  {
+    "title": "This campaign aims to tackle persistent security myths in favor of better advice",
+    "link": "https://cyberscoop.com/hacklore-org-cybersecurity-advice-bob-lord-security-myths/",
+    "summary": "<p>Hacklore.org includes the launch of a website and a letter signed by more than 80 cybersecurity professionals.</p>\n<p>The post <a href=\"https://cyberscoop.com/hacklore-org-cybersecurity-advice-bob-lord-security-myths/\">This campaign aims to tackle persistent security myths in favor of better advice</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
+    "published": "Mon, 24 Nov 2025 15:00:00 +0000",
+    "source_name": "Cyberscoop",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "cyberscoop.com"
+  },
+  {
+    "title": "Student Loan Breach Exposes 2.5M Records",
+    "link": "https://threatpost.com/student-loan-breach-exposes-2-5m-records/180492/",
+    "summary": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
+    "published": "Wed, 31 Aug 2022 12:57:48 +0000",
+    "source_name": "Threatpost",
+    "source_icon": "Alert Triangle",
+    "source_tag": "Kaspersky Lab",
+    "domain": "threatpost.com"
+  },
+  {
+    "title": "Watering Hole Attacks Push ScanBox Keylogger",
+    "link": "https://threatpost.com/watering-hole-attacks-push-scanbox-keylogger/180490/",
+    "summary": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
+    "published": "Tue, 30 Aug 2022 16:00:43 +0000",
+    "source_name": "Threatpost",
+    "source_icon": "Alert Triangle",
+    "source_tag": "Kaspersky Lab",
+    "domain": "threatpost.com"
+  },
+  {
+    "title": "Tentacles of ‘0ktapus’ Threat Group Victimize 130 Firms",
+    "link": "https://threatpost.com/0ktapus-victimize-130-firms/180487/",
+    "summary": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
+    "published": "Mon, 29 Aug 2022 14:56:19 +0000",
+    "source_name": "Threatpost",
+    "source_icon": "Alert Triangle",
+    "source_tag": "Kaspersky Lab",
+    "domain": "threatpost.com"
+  },
+  {
+    "title": "Ransomware Attacks are on the Rise",
+    "link": "https://threatpost.com/ransomware-attacks-are-on-the-rise/180481/",
+    "summary": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
+    "published": "Fri, 26 Aug 2022 16:44:27 +0000",
+    "source_name": "Threatpost",
+    "source_icon": "Alert Triangle",
+    "source_tag": "Kaspersky Lab",
+    "domain": "threatpost.com"
+  },
+  {
+    "title": "Cybercriminals Are Selling Access to Chinese Surveillance Cameras",
+    "link": "https://threatpost.com/cybercriminals-are-selling-access-to-chinese-surveillance-cameras/180478/",
+    "summary": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
+    "published": "Thu, 25 Aug 2022 18:47:15 +0000",
+    "source_name": "Threatpost",
+    "source_icon": "Alert Triangle",
+    "source_tag": "Kaspersky Lab",
+    "domain": "threatpost.com"
+  },
+  {
+    "title": "Twitter Whistleblower Complaint: The TL;DR Version",
+    "link": "https://threatpost.com/twitter-whistleblower-tldr-version/180472/",
+    "summary": "Twitter is blasted for security and privacy lapses by the company’s former head of security who alleges the social media giant’s actions amount to a national security risk.",
+    "published": "Wed, 24 Aug 2022 14:17:04 +0000",
+    "source_name": "Threatpost",
+    "source_icon": "Alert Triangle",
+    "source_tag": "Kaspersky Lab",
+    "domain": "threatpost.com"
+  },
+  {
+    "title": "Firewall Bug Under Active Attack Triggers CISA Warning",
+    "link": "https://threatpost.com/firewall-bug-under-active-attack-cisa-warning/180467/",
+    "summary": "CISA is warning that Palo Alto Networks’ PAN-OS is under active attack and needs to be patched ASAP.",
+    "published": "Tue, 23 Aug 2022 13:19:58 +0000",
+    "source_name": "Threatpost",
+    "source_icon": "Alert Triangle",
+    "source_tag": "Kaspersky Lab",
+    "domain": "threatpost.com"
+  },
+  {
+    "title": "Fake Reservation Links Prey on Weary Travelers",
+    "link": "https://threatpost.com/reservation-links-prey-on-travelers/180462/",
+    "summary": "Fake travel reservations are exacting more pain from the travel weary, already dealing with the misery of canceled flights and overbooked hotels.",
+    "published": "Mon, 22 Aug 2022 13:59:06 +0000",
+    "source_name": "Threatpost",
+    "source_icon": "Alert Triangle",
+    "source_tag": "Kaspersky Lab",
+    "domain": "threatpost.com"
+  },
+  {
+    "title": "iPhone Users Urged to Update to Patch 2 Zero-Days",
+    "link": "https://threatpost.com/iphone-users-urged-to-update-to-patch-2-zero-days-under-attack/180448/",
+    "summary": "Separate fixes to macOS and iOS patch respective flaws in the kernel and WebKit that can allow threat actors to take over devices and are under attack.",
+    "published": "Fri, 19 Aug 2022 15:25:56 +0000",
+    "source_name": "Threatpost",
+    "source_icon": "Alert Triangle",
+    "source_tag": "Kaspersky Lab",
+    "domain": "threatpost.com"
+  },
+  {
+    "title": "Google Patches Chrome’s Fifth Zero-Day of the Year",
+    "link": "https://threatpost.com/google-patches-chromes-fifth-zero-day-of-the-year/180432/",
+    "summary": "An insufficient validation input flaw, one of 11 patched in an update this week, could allow for arbitrary code execution and is under active attack.",
+    "published": "Thu, 18 Aug 2022 14:31:38 +0000",
+    "source_name": "Threatpost",
+    "source_icon": "Alert Triangle",
+    "source_tag": "Kaspersky Lab",
+    "domain": "threatpost.com"
+  },
+  {
+    "title": "The weekend is prime time for ransomware",
+    "link": "https://www.helpnetsecurity.com/2025/12/01/semperis-ransomware-risk-trends-report/",
+    "summary": "<p>Over half of organizations that experienced a ransomware event in the past year were hit during a weekend or holiday, according to a Semperis report. Those periods often come with thin staffing, slower investigation, and fewer eyes on identity systems. Intruders know that reduced attention allows them to move deeper before alarms are raised. 60% of incidents happened after a merger, acquisition, restructuring, or similar shift inside the business. The most common trigger was an &#8230; <a href=\"https://www.helpnetsecurity.com/2025/12/01/semperis-ransomware-risk-trends-report/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurit",
+    "published": "Mon, 01 Dec 2025 05:00:09 +0000",
+    "source_name": "Help Net Security",
+    "source_icon": "Shield",
+    "source_tag": "Security Portal",
+    "domain": "www.helpnetsecurity.com"
+  },
+  {
+    "title": "Week in review: Fake “Windows Update” fuels malware, Salesforce details Gainsight breach",
+    "link": "https://www.helpnetsecurity.com/2025/11/30/week-in-review-fake-windows-update-fuels-malware-salesforce-details-gainsight-breach/",
+    "summary": "<p>Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: Quantum encryption is pushing satellite hardware to its limits In this Help Net Security interview, Colonel Ludovic Monnerat, Commander Space Command, Swiss Armed Forces, discusses how securing space assets is advancing in response to emerging quantum threats. He explains why satellite systems must move beyond traditional cryptography to remain protected. Monnerat also describes how future communication architectures will need to &#8230; <a href=\"https://www.helpnetsecurity.com/2025/11/30/week-in-review-fake-windows-update-fuels-malware-salesforce-details-gainsight-breach/\" rel=\"nofollow\">Mor",
+    "published": "Sun, 30 Nov 2025 09:00:23 +0000",
+    "source_name": "Help Net Security",
+    "source_icon": "Shield",
+    "source_tag": "Security Portal",
+    "domain": "www.helpnetsecurity.com"
+  },
+  {
+    "title": "Social data puts user passwords at risk in unexpected ways",
+    "link": "https://www.helpnetsecurity.com/2025/11/28/research-social-media-password-risk/",
+    "summary": "<p>Many CISOs already assume that social media creates new openings for password guessing, but new research helps show what that risk looks like in practice. The findings reveal how much information can be reconstructed from public profiles and how that data influences the strength of user passwords. The study also examines how LLMs behave when asked to generate or evaluate passwords based on that same personal information. The research team from the University of Cagliari &#8230; <a href=\"https://www.helpnetsecurity.com/2025/11/28/research-social-media-password-risk/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2025/",
+    "published": "Fri, 28 Nov 2025 07:00:11 +0000",
+    "source_name": "Help Net Security",
+    "source_icon": "Shield",
+    "source_tag": "Security Portal",
+    "domain": "www.helpnetsecurity.com"
+  },
+  {
+    "title": "New observational auditing framework takes aim at machine learning privacy leaks",
+    "link": "https://www.helpnetsecurity.com/2025/11/28/machine-learning-privacy-audit-checks/",
+    "summary": "<p>Machine learning (ML) privacy concerns continue to surface, as audits show that models can reveal parts of the labels (the user’s choice, expressed preference, or the result of an action) used during training. A new research paper explores a different way to measure this risk, and the authors present findings that may change how companies test their models for leaks. Why standard audits have been hard to use Older privacy audits often relied on altering &#8230; <a href=\"https://www.helpnetsecurity.com/2025/11/28/machine-learning-privacy-audit-checks/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2025/11/28/machine-l",
+    "published": "Fri, 28 Nov 2025 06:30:54 +0000",
+    "source_name": "Help Net Security",
+    "source_icon": "Shield",
+    "source_tag": "Security Portal",
+    "domain": "www.helpnetsecurity.com"
+  },
+  {
+    "title": "Why password management defines PCI DSS success",
+    "link": "https://www.helpnetsecurity.com/2025/11/28/pci-dss-password-management/",
+    "summary": "<p>Most CISOs spend their days dealing with noisy dashboards and vendor pitches that all promise a shortcut to compliance. It can be overwhelming to sort out what matters. When you dig into real incidents involving payment data, a surprising number come down to poor password hygiene. PCI DSS v4.0 raised the bar for authentication, and the responsibility sits with security leaders to turn those requirements into workable daily habits for users and admins. A password manager &#8230; <a href=\"https://www.helpnetsecurity.com/2025/11/28/pci-dss-password-management/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2025/11/28/pc",
+    "published": "Fri, 28 Nov 2025 06:00:45 +0000",
+    "source_name": "Help Net Security",
+    "source_icon": "Shield",
+    "source_tag": "Security Portal",
+    "domain": "www.helpnetsecurity.com"
+  },
+  {
+    "title": "Fragmented tooling slows vulnerability management",
+    "link": "https://www.helpnetsecurity.com/2025/11/28/hackuity-vulnerability-management-trends-report/",
+    "summary": "<p>Security leaders know vulnerability backlogs are rising, but new data shows how quickly the gap between exposures and available resources is widening, according to a new report by Hackuity. Fragmented detection and slow remediation Organizations use a formalized approach to manage vulnerabilities, but their tooling remains fragmented. Respondents rely on an average of four detection tools, and cloud or container configuration audits are the most common at 85%. This mix suggests broad coverage, but it &#8230; <a href=\"https://www.helpnetsecurity.com/2025/11/28/hackuity-vulnerability-management-trends-report/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a ",
+    "published": "Fri, 28 Nov 2025 05:30:15 +0000",
+    "source_name": "Help Net Security",
+    "source_icon": "Shield",
+    "source_tag": "Security Portal",
+    "domain": "www.helpnetsecurity.com"
+  },
+  {
+    "title": "Infosec products of the month: November 2025",
+    "link": "https://www.helpnetsecurity.com/2025/11/28/infosec-products-of-the-month-november-2025/",
+    "summary": "<p>Here’s a look at the most interesting products from the past month, featuring releases from: 1touch.io, Action1, Barracuda Networks, Bedrock Data, Bitdefender, Cyware, Firewalla, Forescout, Immersive, Kentik, Komodor, Minimus, Nokod Security, and Synack. Action1 addresses Intune gaps with patching and risk-based vulnerability prioritization Action1 announced new integrations that extend Microsoft Intune with advanced patching and vulnerability management. The enhancements close security and compliance gaps in Intune by adding comprehensive third-party application patching, risk-based vulnerability prioritization, &#8230; <a href=\"https://www.helpnetsecurity.com/2025/11/28/infosec-products",
+    "published": "Fri, 28 Nov 2025 05:00:31 +0000",
+    "source_name": "Help Net Security",
+    "source_icon": "Shield",
+    "source_tag": "Security Portal",
+    "domain": "www.helpnetsecurity.com"
+  },
+  {
+    "title": "Detego DFIR Platform centralizes evidence, workflows, and real-time case insights",
+    "link": "https://www.helpnetsecurity.com/2025/11/27/detego-case-manager-dfir/",
+    "summary": "<p>Detego Global has announced the launch of Detego Case Manager for DFIR, a purpose-built platform designed to meet the evolving demands of digital forensics and incident response (DFIR) teams. Developed in close collaboration with investigative professionals, Detego Case Manager for DFIR addresses the real-world challenges of managing high-volume, complex digital investigations across multiple locations and touchpoints, whether on scene or in the laboratory. Detego Global’s new platform delivers full-spectrum case management from a tailored perspective. &#8230; <a href=\"https://www.helpnetsecurity.com/2025/11/27/detego-case-manager-dfir/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;<",
+    "published": "Thu, 27 Nov 2025 14:31:20 +0000",
+    "source_name": "Help Net Security",
+    "source_icon": "Shield",
+    "source_tag": "Security Portal",
+    "domain": "www.helpnetsecurity.com"
+  },
+  {
+    "title": "Clover raises $36 million to scale product security through AI-native design",
+    "link": "https://www.helpnetsecurity.com/2025/11/27/clover-funding-36-million/",
+    "summary": "<p>Clover announced $36 million in funding to secure the AI-native product wave. The company&#8217;s funding round was led by Notable Capital and Team8 with participation from SVCI. Clover Security is also backed by industry heavy weights, including Wiz co-founders Assaf Rappaport and Yinon Costica, Shlomo Kramer of Cato Networks, Rene Bonvanie, and executives from Snyk, CrowdStrike, Palo Alto Networks, Atlassian, and Google. AI is transforming software development, making it faster and more complex than ever. &#8230; <a href=\"https://www.helpnetsecurity.com/2025/11/27/clover-funding-36-million/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://w",
+    "published": "Thu, 27 Nov 2025 07:51:09 +0000",
+    "source_name": "Help Net Security",
+    "source_icon": "Shield",
+    "source_tag": "Security Portal",
+    "domain": "www.helpnetsecurity.com"
+  },
+  {
+    "title": "Hottest cybersecurity open-source tools of the month: November 2025",
+    "link": "https://www.helpnetsecurity.com/2025/11/27/hottest-cybersecurity-open-source-tools-of-the-month-november-2025/",
+    "summary": "<p>This month’s roundup features exceptional open-source cybersecurity tools that are gaining attention for strengthening security across various environments. Heisenberg: Open-source software supply chain health check tool Heisenberg is an open-source tool that checks the health of a software supply chain. It analyzes dependencies using data from deps.dev, Software Bills of Materials (SBOMs), and external advisories to measure package health, detect risks, and generate reports for individual dependencies or entire projects. VulnRisk: Open-source vulnerability risk assessment &#8230; <a href=\"https://www.helpnetsecurity.com/2025/11/27/hottest-cybersecurity-open-source-tools-of-the-month-nove",
+    "published": "Thu, 27 Nov 2025 06:30:22 +0000",
+    "source_name": "Help Net Security",
+    "source_icon": "Shield",
+    "source_tag": "Security Portal",
+    "domain": "www.helpnetsecurity.com"
+  },
+  {
+    "title": "Threat Actors Exploit Calendar Subscriptions for Phishing and Malware Delivery",
+    "link": "https://www.infosecurity-magazine.com/news/threat-actors-exploit-calendar-subs/",
+    "summary": "BitSight research has revealed how threat actors exploit calendar subscriptions to deliver phishing links, malware and social engineering attacks through hijacked domains",
+    "published": "Fri, 28 Nov 2025 15:05:00 GMT",
+    "source_name": "Infosecurity Magazine",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "www.infosecurity-magazine.com"
+  },
+  {
+    "title": "Three Black Friday Scams to Watch Out For This Year",
+    "link": "https://www.infosecurity-magazine.com/news/three-black-friday-scams-2025/",
+    "summary": "Darktrace observed a 620% spike in Black Friday-themed phishing in the weeks leading up to the 2025 edition of the sale day",
+    "published": "Fri, 28 Nov 2025 13:55:00 GMT",
+    "source_name": "Infosecurity Magazine",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "www.infosecurity-magazine.com"
+  },
+  {
+    "title": "French Football Federation Suffers Data Breach",
+    "link": "https://www.infosecurity-magazine.com/news/french-football-federation-data/",
+    "summary": "The personal data of over two million amateur football players registered in France could be exposed",
+    "published": "Fri, 28 Nov 2025 10:06:00 GMT",
+    "source_name": "Infosecurity Magazine",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "www.infosecurity-magazine.com"
+  },
+  {
+    "title": "FCC Warns of Hackers Hijacking Radio Equipment For False Alerts",
+    "link": "https://www.infosecurity-magazine.com/news/fcc-hackers-hijacking-radio/",
+    "summary": "Hackers have been hijacking US radio equipment to broadcast false emergency alerts, prompting FCC warnings",
+    "published": "Thu, 27 Nov 2025 16:50:00 GMT",
+    "source_name": "Infosecurity Magazine",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "www.infosecurity-magazine.com"
+  },
+  {
+    "title": "Bloody Wolf Threat Actor Expands Activity Across Central Asia",
+    "link": "https://www.infosecurity-magazine.com/news/bloody-wolf-expands-central-asia/",
+    "summary": "A new Bloody Wolf campaign exploits legitimate remote-administration software for cyber-attacks on government targets in Central Asia",
+    "published": "Thu, 27 Nov 2025 16:00:00 GMT",
+    "source_name": "Infosecurity Magazine",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "www.infosecurity-magazine.com"
+  },
+  {
+    "title": "Asahi Confirms 1.5 Million Customers Affected in Major Cyber-Attack",
+    "link": "https://www.infosecurity-magazine.com/news/asahi-15-million-customers/",
+    "summary": "Almost two million people may have seen their personal data exposed following a large-scale cyberattack that hit Asahi in September 2025",
+    "published": "Thu, 27 Nov 2025 14:30:00 GMT",
+    "source_name": "Infosecurity Magazine",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "www.infosecurity-magazine.com"
+  },
+  {
+    "title": "OpenAI Warns of Mixpanel Data Breach Impacting API Users",
+    "link": "https://www.infosecurity-magazine.com/news/openai-warns-mixpanel-data-breach/",
+    "summary": "The breach may have exposed OpenAI API customers’ data",
+    "published": "Thu, 27 Nov 2025 11:15:00 GMT",
+    "source_name": "Infosecurity Magazine",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "www.infosecurity-magazine.com"
+  },
+  {
+    "title": "Fraud Fears But No Breach Spike Expected This Festive Season",
+    "link": "https://www.infosecurity-magazine.com/news/fraud-fears-no-breach-spike/",
+    "summary": "Analysis of ICO records shows no surge in breaches during Q4 2024 with no seasonal spike in reported incidents",
+    "published": "Thu, 27 Nov 2025 10:45:00 GMT",
+    "source_name": "Infosecurity Magazine",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "www.infosecurity-magazine.com"
+  },
+  {
+    "title": "Scattered Lapsus$ Hunters Take Aim At Zendesk Users",
+    "link": "https://www.infosecurity-magazine.com/news/scattered-lapsus-hunters-zendesk/",
+    "summary": "New phishing domains point to a campaign from the notorious Scattered Lapsus$ Hunters collective",
+    "published": "Thu, 27 Nov 2025 09:30:00 GMT",
+    "source_name": "Infosecurity Magazine",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "www.infosecurity-magazine.com"
+  },
+  {
+    "title": "Key Provisions of the UK Cyber Resilience Bill Revealed",
+    "link": "https://www.infosecurity-magazine.com/news/key-provisions-uk-cyber-resilience/",
+    "summary": "Shona Lester, head of the Cyber Security and Resilience Bill team within the UK government, outlined some of the provisions that should be included in the future law",
+    "published": "Thu, 27 Nov 2025 09:00:00 GMT",
+    "source_name": "Infosecurity Magazine",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "www.infosecurity-magazine.com"
+  },
+  {
+    "title": "Cyber-Attack Disrupts OnSolve CodeRED Emergency Notification System",
+    "link": "https://www.infosecurity-magazine.com/news/cyberattack-disrupts-onsolve/",
+    "summary": "A cyber-attack claimed to be the resposibility of INC Ransom group and targeting the OnSolve CodeRED platform has disrupted emergency notification and exposed user data across the US",
+    "published": "Wed, 26 Nov 2025 16:15:00 GMT",
+    "source_name": "Infosecurity Magazine",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "www.infosecurity-magazine.com"
+  },
+  {
+    "title": "UK Report Proposes Liability For Software Provider Insecurity",
+    "link": "https://www.infosecurity-magazine.com/news/uk-liability-software-providers/",
+    "summary": "A new report from the UK Business and Trade Committee has called for accountability of software providers for cyber flaws amid rising attack costs",
+    "published": "Wed, 26 Nov 2025 15:00:00 GMT",
+    "source_name": "Infosecurity Magazine",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "www.infosecurity-magazine.com"
+  },
+  {
+    "title": "How much RAM does your PC actually need in 2025? A Windows and Mac expert weighs in",
+    "link": "https://www.zdnet.com/article/how-much-ram-does-your-pc-actually-need-in-2025-a-windows-and-mac-expert-weighs-in/",
+    "summary": "Thinking about upgrading your slow PC? Are you unsure how much RAM you actually need? Here's what this tech reviewer thinks.",
+    "published": "Mon, 01 Dec 2025 10:00:00 GMT",
+    "source_name": "ZDNet Security",
+    "source_icon": "Laptop",
+    "source_tag": "Tech Giant",
+    "domain": "www.zdnet.com"
+  },
+  {
+    "title": "Walmart's Cyber Monday deals are live now - these are the 50 top sales I've found",
+    "link": "https://www.zdnet.com/article/cyber-monday-walmart-deals-tvs-tablets-smartwatches-11-30/",
+    "summary": "Cyber Monday is almost here, and so are Walmart's best deals. We rounded up the best discounts live right now.",
+    "published": "Mon, 01 Dec 2025 04:11:30 GMT",
+    "source_name": "ZDNet Security",
+    "source_icon": "Laptop",
+    "source_tag": "Tech Giant",
+    "domain": "www.zdnet.com"
+  },
+  {
+    "title": "Cyber Monday Nintendo Switch deals 2025: The 20 best discounts live now",
+    "link": "https://www.zdnet.com/article/cyber-monday-nintendo-switch-deals-walmart-target-amazon-11-30/",
+    "summary": "The top Nintendo Switch deals are live for Cyber Monday, but they won't last long. I've collected the best from Walmart, Best Buy, and more.",
+    "published": "Mon, 01 Dec 2025 04:01:46 GMT",
+    "source_name": "ZDNet Security",
+    "source_icon": "Laptop",
+    "source_tag": "Tech Giant",
+    "domain": "www.zdnet.com"
+  },
+  {
+    "title": "These are the best 30+ early Cyber Monday Sam's Club deals of 2025 I'm shopping for",
+    "link": "https://www.zdnet.com/article/cyber-monday-sams-club-deals-ipads-laptops-monitors-11-30/",
+    "summary": "The best Sam's Club Cyber Monday deals are already live, and you can save on tech, laptops, TVs, and household appliances.",
+    "published": "Mon, 01 Dec 2025 03:57:49 GMT",
+    "source_name": "ZDNet Security",
+    "source_icon": "Laptop",
+    "source_tag": "Tech Giant",
+    "domain": "www.zdnet.com"
+  },
+  {
+    "title": "Cut the cord with these Cyber Monday streaming deals as low as $3 on HBO, Hulu, YouTube TV, and more",
+    "link": "https://www.zdnet.com/article/cyber-monday-streaming-deals-hulu-youtube-tv-peacock-11-30/",
+    "summary": "I'm live-tracking best-of-2025 deals on the most popular streaming services for Cyber Monday - but don't wait. These deals will be gone soon.",
+    "published": "Mon, 01 Dec 2025 03:55:23 GMT",
+    "source_name": "ZDNet Security",
+    "source_icon": "Laptop",
+    "source_tag": "Tech Giant",
+    "domain": "www.zdnet.com"
+  },
+  {
+    "title": "Best Buy's Cyber Monday sale is here: Check out my favorite 30+ tech discounts live now",
+    "link": "https://www.zdnet.com/article/cyber-monday-best-buy-deals-meta-glasses-tvs-apple-watches-11-0/",
+    "summary": "Cyber Monday is tomorrow, but Best Buy has some excellent deals live now, like the Hisense Canvas TV for 35% off.",
+    "published": "Mon, 01 Dec 2025 03:52:46 GMT",
+    "source_name": "ZDNet Security",
+    "source_icon": "Laptop",
+    "source_tag": "Tech Giant",
+    "domain": "www.zdnet.com"
+  },
+  {
+    "title": "I found the best 20+ Cyber Monday Kindle deals - grab them before the sale ends",
+    "link": "https://www.zdnet.com/article/cyber-monday-kindle-deals-amazon-11-30/",
+    "summary": "We're keeping a close eye on the best Cyber Monday Kindle deals, including discounts on the Paperwhite and the Kindle Scribe.",
+    "published": "Mon, 01 Dec 2025 03:49:20 GMT",
+    "source_name": "ZDNet Security",
+    "source_icon": "Laptop",
+    "source_tag": "Tech Giant",
+    "domain": "www.zdnet.com"
+  },
+  {
+    "title": "I found the best Cyber Monday gaming PC deals on desktops, laptops, and more",
+    "link": "https://www.zdnet.com/article/cyber-monday-gaming-pc-deals-acer-amazon-best-buy-11-30/",
+    "summary": "These Cyber Monday deals are already live, and now is the perfect time to get a gaming PC, monitor, SSD and more.",
+    "published": "Mon, 01 Dec 2025 03:46:51 GMT",
+    "source_name": "ZDNet Security",
+    "source_icon": "Laptop",
+    "source_tag": "Tech Giant",
+    "domain": "www.zdnet.com"
+  },
+  {
+    "title": "Best Cyber Monday 2025 deals: These are our favorites at Amazon, Best Buy, and more",
+    "link": "https://www.zdnet.com/article/cyber-monday-deals-2025-amazon-best-buy-hulu-11-30/",
+    "summary": "Black Friday is over, and Cyber Monday is coming up tomorrow. Every major retailer is offering attractive sales on items from Apple, Samsung, LG, Roku, and more.",
+    "published": "Mon, 01 Dec 2025 03:45:21 GMT",
+    "source_name": "ZDNet Security",
+    "source_icon": "Laptop",
+    "source_tag": "Tech Giant",
+    "domain": "www.zdnet.com"
+  },
+  {
+    "title": "Cyber Monday Smartwatch deals are live: Get Apple & Pixel Watches before they end",
+    "link": "https://www.zdnet.com/article/black-friday-smartwatch-deals-amazon-and-walmart-11-30/",
+    "summary": "Cyber Monday is tomorrow and I've rounded up my favorite deals on Apple, Garmin, Oura, and more.",
+    "published": "Mon, 01 Dec 2025 03:40:40 GMT",
+    "source_name": "ZDNet Security",
+    "source_icon": "Laptop",
+    "source_tag": "Tech Giant",
+    "domain": "www.zdnet.com"
+  },
+  {
+    "title": "Best Cyber Monday Apple deals 2025: I'm tracking the best discounts on iPhones, iPads, and more",
+    "link": "https://www.zdnet.com/article/best-cyber-monday-apple-deals-2025-verizon-att-t-mobile-11-30/",
+    "summary": "Cyber Monday is nearly here, and these are the deals on Apple products actually worth shopping.",
+    "published": "Mon, 01 Dec 2025 03:28:21 GMT",
+    "source_name": "ZDNet Security",
+    "source_icon": "Laptop",
+    "source_tag": "Tech Giant",
+    "domain": "www.zdnet.com"
+  },
+  {
+    "title": "I rounded up the best Cyber Monday deals on Apple Watches",
+    "link": "https://www.zdnet.com/article/black-friday-apple-watch-deals-amazon-best-buy-walmart-11-30/",
+    "summary": "Shop these exceptional early Cyber Monday deals on Apple Watches, including the new Series 11, Ultra 3, and SE 3, while they're still available.",
+    "published": "Mon, 01 Dec 2025 03:22:24 GMT",
+    "source_name": "ZDNet Security",
+    "source_icon": "Laptop",
+    "source_tag": "Tech Giant",
+    "domain": "www.zdnet.com"
+  },
+  {
+    "title": "Best Cyber Monday Dell deals 2025: I found the top 15 Dell laptop sales live now",
+    "link": "https://www.zdnet.com/article/cyber-monday-dell-deals-laptops-and-monitors-11-30/",
+    "summary": "Cyber Monday is tomorrow, and Dell has some notable deals across its lineup. Here are the best ones we've found.",
+    "published": "Mon, 01 Dec 2025 03:20:51 GMT",
+    "source_name": "ZDNet Security",
+    "source_icon": "Laptop",
+    "source_tag": "Tech Giant",
+    "domain": "www.zdnet.com"
+  },
+  {
+    "title": "I found the 20 best Chromebook deals for Cyber Monday 2025",
+    "link": "https://www.zdnet.com/article/best-cyber-monday-chromebook-deals-walmart-amazon-best-buy-11-30/",
+    "summary": "Cyber Monday deals are starting up. I've compiled the best Chromebook discounts from major retailers that are available now.",
+    "published": "Mon, 01 Dec 2025 03:17:04 GMT",
+    "source_name": "ZDNet Security",
+    "source_icon": "Laptop",
+    "source_tag": "Tech Giant",
+    "domain": "www.zdnet.com"
+  },
+  {
+    "title": "Best Cyber Monday smart glasses deals 2025: I found the biggest sales like Meta Ray-Bans for 20% off",
+    "link": "https://www.zdnet.com/article/best-cyber-monday-smart-glasses-deals-2025-11-30/",
+    "summary": "See what the smart glasses craze is all about for yourself, and score a great Cyber Monday discount from brands like Meta, RayNeo, Xreal, and Amazon.",
+    "published": "Mon, 01 Dec 2025 03:06:15 GMT",
+    "source_name": "ZDNet Security",
+    "source_icon": "Laptop",
+    "source_tag": "Tech Giant",
+    "domain": "www.zdnet.com"
+  },
+  {
+    "title": "Cyber Monday TV deals are here: Don't miss up to $2,500 off LG, Samsung, Sony, TCL, & more",
+    "link": "https://www.zdnet.com/article/cyber-monday-tv-deals-live-amazon-best-buy-lg-11-30/",
+    "summary": "If you're in the market for a new TV to watch movies or football over the winter, don't miss some of the best Cyber Monday TV deals.",
+    "published": "Mon, 01 Dec 2025 03:01:09 GMT",
+    "source_name": "ZDNet Security",
+    "source_icon": "Laptop",
+    "source_tag": "Tech Giant",
+    "domain": "www.zdnet.com"
+  },
+  {
+    "title": "I've tested dozens of robot vacuums, and these are my favorite early Cyber Monday deals",
+    "link": "https://www.zdnet.com/article/cyber-monday-robot-vacuum-deals-amazon-and-irobot-11-30/",
+    "summary": "These hand-picked Cyber Monday deals on robot vacuums are ending soon, so act fast and grab them before they're gone.",
+    "published": "Mon, 01 Dec 2025 02:49:42 GMT",
+    "source_name": "ZDNet Security",
+    "source_icon": "Laptop",
+    "source_tag": "Tech Giant",
+    "domain": "www.zdnet.com"
+  },
+  {
+    "title": "Shopping for a phone? I rounded up the best Cyber Monday 2025 Verizon deals on Apple and Android",
+    "link": "https://www.zdnet.com/article/best-cyber-monday-verizon-deals-iphone-galaxy-pixel-11-30/",
+    "summary": "Black Friday may be over, but these incredible deals on new phones, tablets, and gaming consoles are still available ahead of Cyber Monday.",
+    "published": "Mon, 01 Dec 2025 02:43:13 GMT",
+    "source_name": "ZDNet Security",
+    "source_icon": "Laptop",
+    "source_tag": "Tech Giant",
+    "domain": "www.zdnet.com"
+  },
+  {
+    "title": "This Lenovo laptop is one of my favorite work devices of 2025 and it's 40% off",
+    "link": "https://www.zdnet.com/article/this-lenovo-laptop-is-one-of-my-favorite-work-devices-of-2025-and-its-40-off/",
+    "summary": "From its top-notch keyboard to its durable design, the Lenovo Yoga 7i 2-in-1 will be your new best friend at work and it's 40% off",
+    "published": "Mon, 01 Dec 2025 02:23:28 GMT",
+    "source_name": "ZDNet Security",
+    "source_icon": "Laptop",
+    "source_tag": "Tech Giant",
+    "domain": "www.zdnet.com"
+  },
+  {
+    "title": "The 20+ best Cyber Monday headphones deals: Save on Bose, Sony, Beats, and more",
+    "link": "https://www.zdnet.com/article/best-cyber-monday-headphones-deals-best-buy-walmart-bose-11-30/",
+    "summary": "Cyber Monday is a great time to upgrade your headphones. These are the best deals we've found from Sony, Bose, Apple, and more.",
+    "published": "Mon, 01 Dec 2025 02:20:49 GMT",
+    "source_name": "ZDNet Security",
+    "source_icon": "Laptop",
+    "source_tag": "Tech Giant",
+    "domain": "www.zdnet.com"
+  }
+]
