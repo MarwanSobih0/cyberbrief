@@ -1,0 +1,43 @@
+CYBERBRIEF • DAILY THREAT INTELLIGENCE
+Generated: Tuesday, December 02, 2025 - 05:14 UTC
+================================================================================
+
+1. Newspaper The Hacker News  [Tech News]
+   Title: CISA Adds Actively Exploited XSS Bug CVE-2021-26829 in OpenPLC ScadaBR to KEV
+   Published: Sun, 30 Nov 2025 14:53:00 +0530
+   Link: https://thehackernews.com/2025/11/cisa-adds-actively-exploited-xss-bug.html
+
+2. Shield Check SecurityWeek  [Cyber Media]
+   Title: CISA Warns of ScadaBR Vulnerability After Hacktivist ICS Attack
+   Published: Mon, 01 Dec 2025 11:06:58 +0000
+   Link: https://www.securityweek.com/cisa-warns-of-scadabr-vulnerability-after-hacktivist-ics-attack/
+
+3. Shield Help Net Security  [Security Portal]
+   Title: Week in review: Fake “Windows Update” fuels malware, Salesforce details Gainsight breach
+   Published: Sun, 30 Nov 2025 09:00:23 +0000
+   Link: https://www.helpnetsecurity.com/2025/11/30/week-in-review-fake-windows-update-fuels-malware-salesforce-details-gainsight-breach/
+
+4. Link Thecyberexpress  [News Site]
+   Title: South Korea’s Coupang Hit by Massive Data Breach Affecting Nearly 34 Million Customers
+   Published: Mon, 01 Dec 2025 07:00:49 +0000
+   Link: https://thecyberexpress.com/coupang-data-breach/
+
+5. Alert Triangle Threatpost  [Kaspersky Lab]
+   Title: Firewall Bug Under Active Attack Triggers CISA Warning
+   Published: Tue, 23 Aug 2022 13:19:58 +0000
+   Link: https://threatpost.com/firewall-bug-under-active-attack-cisa-warning/180467/
+
+6. User Secret Krebs on Security  [Expert Blog]
+   Title: Microsoft Patch Tuesday, November 2025 Edition
+   Published: Sun, 16 Nov 2025 21:47:14 +0000
+   Link: https://krebsonsecurity.com/2025/11/microsoft-patch-tuesday-november-2025-edition/
+
+7. Newspaper The Hacker News  [Tech News]
+   Title: Qilin Ransomware Turns South Korean MSP Breach Into 28-Victim 'Korean Leaks' Data Heist
+   Published: Wed, 26 Nov 2025 20:01:00 +0530
+   Link: https://thehackernews.com/2025/11/qilin-ransomware-turns-south-korean-msp.html
+
+
+Scanned 134 articles • Top 7 active threats selected
+Next auto-update: 08:00 AM UTC
+Stay safe, stay sharp!
