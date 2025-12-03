@@ -1,0 +1,43 @@
+CYBERBRIEF • DAILY THREAT INTELLIGENCE
+Generated: Wednesday, December 03, 2025 - 05:14 UTC
+================================================================================
+
+1. Newspaper The Hacker News  [Tech News]
+   Title: CISA Adds Actively Exploited XSS Bug CVE-2021-26829 in OpenPLC ScadaBR to KEV
+   Published: Sun, 30 Nov 2025 14:53:00 +0530
+   Link: https://thehackernews.com/2025/11/cisa-adds-actively-exploited-xss-bug.html
+
+2. Link Thecyberexpress  [News Site]
+   Title: CISA Warns that Two Android Vulnerabilities Are Under Attack
+   Published: Tue, 02 Dec 2025 21:09:01 +0000
+   Link: https://thecyberexpress.com/cisa-warns-android-vulnerabilities-attacked/
+
+3. Shield Help Net Security  [Security Portal]
+   Title: How a noisy ransomware intrusion exposed a long-term espionage foothold
+   Published: Tue, 02 Dec 2025 10:51:22 +0000
+   Link: https://www.helpnetsecurity.com/2025/12/02/threat-research-ransomware-espionage-attack/
+
+4. Link Thecyberexpress  [News Site]
+   Title: FTC Action Hits Illuminate Education Over Massive Student Data Breach
+   Published: Tue, 02 Dec 2025 07:09:12 +0000
+   Link: https://thecyberexpress.com/ftc-action-targets-illuminate-education/
+
+5. Alert Triangle Threatpost  [Kaspersky Lab]
+   Title: Firewall Bug Under Active Attack Triggers CISA Warning
+   Published: Tue, 23 Aug 2022 13:19:58 +0000
+   Link: https://threatpost.com/firewall-bug-under-active-attack-cisa-warning/180467/
+
+6. User Secret Krebs on Security  [Expert Blog]
+   Title: Microsoft Patch Tuesday, November 2025 Edition
+   Published: Sun, 16 Nov 2025 21:47:14 +0000
+   Link: https://krebsonsecurity.com/2025/11/microsoft-patch-tuesday-november-2025-edition/
+
+7. Shield Check SecurityWeek  [Cyber Media]
+   Title: Android Zero-Days Patched in December 2025 Security Update
+   Published: Tue, 02 Dec 2025 09:36:46 +0000
+   Link: https://www.securityweek.com/androids-december-2025-updates-patch-two-zero-days/
+
+
+Scanned 134 articles • Top 7 active threats selected
+Next auto-update: 08:00 AM UTC
+Stay safe, stay sharp!

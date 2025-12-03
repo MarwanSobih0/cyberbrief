@@ -1,0 +1,1342 @@
+[
+  {
+    "title": "India Orders Messaging Apps to Work Only With Active SIM Cards to Prevent Fraud and Misuse",
+    "link": "https://thehackernews.com/2025/12/india-orders-messaging-apps-to-work.html",
+    "summary": "India's Department of Telecommunications (DoT) has issued directions to app-based communication service providers to ensure that the platforms cannot be used without an active SIM card linked to the user's mobile number.\nTo that end, messaging apps like WhatsApp, Telegram, Snapchat, Arattai, Sharechat, Josh, JioChat, and Signal that use an Indian mobile number for uniquely identifying their",
+    "published": "Tue, 02 Dec 2025 23:16:00 +0530",
+    "source_name": "The Hacker News",
+    "source_icon": "Newspaper",
+    "source_tag": "Tech News",
+    "domain": "thehackernews.com"
+  },
+  {
+    "title": "Researchers Capture Lazarus APT's Remote-Worker Scheme Live on Camera",
+    "link": "https://thehackernews.com/2025/12/researchers-capture-lazarus-apts-remote.html",
+    "summary": "A joint investigation led by Mauro Eldritch, founder of BCA LTD, conducted together with threat-intel initiative NorthScan and ANY.RUN, a solution for interactive malware analysis and threat intelligence, has uncovered one of North Korea’s most persistent infiltration schemes: a network of remote IT workers tied to Lazarus Group’s Famous Chollima division.\nFor the first time, researchers managed",
+    "published": "Tue, 02 Dec 2025 20:32:00 +0530",
+    "source_name": "The Hacker News",
+    "source_icon": "Newspaper",
+    "source_tag": "Tech News",
+    "domain": "thehackernews.com"
+  },
+  {
+    "title": "GlassWorm Returns with 24 Malicious Extensions Impersonating Popular Developer Tools",
+    "link": "https://thehackernews.com/2025/12/glassworm-returns-with-24-malicious.html",
+    "summary": "The supply chain campaign known as GlassWorm has once again reared its head, infiltrating both Microsoft Visual Studio Marketplace and Open VSX with 24 extensions impersonating popular developer tools and frameworks like Flutter, React, Tailwind, Vim, and Vue.\nGlassWorm was first documented in October 2025, detailing its use of the Solana blockchain for command-and-control (C2) and harvest npm,",
+    "published": "Tue, 02 Dec 2025 20:31:00 +0530",
+    "source_name": "The Hacker News",
+    "source_icon": "Newspaper",
+    "source_tag": "Tech News",
+    "domain": "thehackernews.com"
+  },
+  {
+    "title": "Malicious npm Package Uses Hidden Prompt and Script to Evade AI Security Tools",
+    "link": "https://thehackernews.com/2025/12/malicious-npm-package-uses-hidden.html",
+    "summary": "Cybersecurity researchers have disclosed details of an npm package that attempts to influence artificial intelligence (AI)-driven security scanners.\nThe package in question is eslint-plugin-unicorn-ts-2, which masquerades as a TypeScript extension of the popular ESLint plugin. It was uploaded to the registry by a user named \"hamburgerisland\" in February 2024. The package has been downloaded",
+    "published": "Tue, 02 Dec 2025 19:47:00 +0530",
+    "source_name": "The Hacker News",
+    "source_icon": "Newspaper",
+    "source_tag": "Tech News",
+    "domain": "thehackernews.com"
+  },
+  {
+    "title": "Iran-Linked Hackers Hit Israeli Sectors with New MuddyViper Backdoor in Targeted Attacks",
+    "link": "https://thehackernews.com/2025/12/iran-linked-hackers-hits-israeli_2.html",
+    "summary": "Israeli entities spanning academia, engineering, local government, manufacturing, technology, transportation, and utilities sectors have emerged as the target of a new set of attacks undertaken by Iranian nation-state actors that have delivered a previously undocumented backdoor called MuddyViper.\nThe activity has been attributed by ESET to a hacking group known as MuddyWater (aka Mango",
+    "published": "Tue, 02 Dec 2025 19:07:00 +0530",
+    "source_name": "The Hacker News",
+    "source_icon": "Newspaper",
+    "source_tag": "Tech News",
+    "domain": "thehackernews.com"
+  },
+  {
+    "title": "SecAlerts Cuts Through the Noise with a Smarter, Faster Way to Track Vulnerabilities",
+    "link": "https://thehackernews.com/2025/12/secalerts-cuts-through-noise-with.html",
+    "summary": "Vulnerability management is a core component of every cybersecurity strategy. However, businesses often use thousands of software without realising it (when was the last time you checked?), and keeping track of all the vulnerability alerts, notifications, and updates can be a burden on resources and often leads to missed vulnerabilities.&nbsp;\nTaking into account that nearly 10% of",
+    "published": "Tue, 02 Dec 2025 17:00:00 +0530",
+    "source_name": "The Hacker News",
+    "source_icon": "Newspaper",
+    "source_tag": "Tech News",
+    "domain": "thehackernews.com"
+  },
+  {
+    "title": "Google Patches 107 Android Flaws, Including Two Framework Bugs Exploited in the Wild",
+    "link": "https://thehackernews.com/2025/12/google-patches-107-android-flaws.html",
+    "summary": "Google on Monday released monthly security updates for the Android operating system, including two vulnerabilities that it said have been exploited in the wild.\nThe patch addresses a total of 107 security flaws spanning different components, including Framework, System, Kernel, as well as those from Arm, Imagination Technologies, MediaTek, Qualcomm, and Unison.\nThe two high-severity shortcomings",
+    "published": "Tue, 02 Dec 2025 12:47:00 +0530",
+    "source_name": "The Hacker News",
+    "source_icon": "Newspaper",
+    "source_tag": "Tech News",
+    "domain": "thehackernews.com"
+  },
+  {
+    "title": "India Orders Phone Makers to Pre-Install Government App to Tackle Telecom Fraud",
+    "link": "https://thehackernews.com/2025/12/india-orders-phone-makers-to-pre.html",
+    "summary": "India's telecommunications ministry has ordered major mobile device manufacturers to preload a government-backed cybersecurity app named Sanchar Saathi on all new phones within 90 days.\nAccording to a report from Reuters, the app cannot be deleted or disabled from users' devices.\nSanchar Saathi, available on the web and via mobile apps for Android and iOS, allows users to report suspected fraud,",
+    "published": "Mon, 01 Dec 2025 23:25:00 +0530",
+    "source_name": "The Hacker News",
+    "source_icon": "Newspaper",
+    "source_tag": "Tech News",
+    "domain": "thehackernews.com"
+  },
+  {
+    "title": "ShadyPanda Turns Popular Browser Extensions with 4.3 Million Installs Into Spyware",
+    "link": "https://thehackernews.com/2025/12/shadypanda-turns-popular-browser.html",
+    "summary": "A threat actor known as ShadyPanda has been linked to a seven-year-long browser extension campaign that has amassed over 4.3 million installations over time.\nFive of these extensions started off as legitimate programs before malicious changes were introduced in mid-2024, according to a report from Koi Security, attracting 300,000 installs. These extensions have since been taken down.\n\"These",
+    "published": "Mon, 01 Dec 2025 22:59:00 +0530",
+    "source_name": "The Hacker News",
+    "source_icon": "Newspaper",
+    "source_tag": "Tech News",
+    "domain": "thehackernews.com"
+  },
+  {
+    "title": "⚡ Weekly Recap: Hot CVEs, npm Worm Returns, Firefox RCE, M365 Email Raid & More",
+    "link": "https://thehackernews.com/2025/12/weekly-recap-hot-cves-npm-worm-returns.html",
+    "summary": "Hackers aren’t kicking down the door anymore. They just use the same tools we use every day — code packages, cloud accounts, email, chat, phones, and “trusted” partners — and turn them against us.\nOne bad download can leak your keys. One weak vendor can expose many customers at once. One guest invite, one link on a phone, one bug in a common tool, and suddenly your mail, chats, repos, and",
+    "published": "Mon, 01 Dec 2025 18:17:00 +0530",
+    "source_name": "The Hacker News",
+    "source_icon": "Newspaper",
+    "source_tag": "Tech News",
+    "domain": "thehackernews.com"
+  },
+  {
+    "title": "Webinar: The \"Agentic\" Trojan Horse: Why the New AI Browsers War is a Nightmare for Security Teams",
+    "link": "https://thehackernews.com/2025/12/webinar-agentic-trojan-horse-why-new-ai.html",
+    "summary": "The AI browser wars are coming to a desktop near you, and you need to start worrying about their security challenges.\nFor the last two decades, whether you used Chrome, Edge, or Firefox, the fundamental paradigm remained the same: a passive window through which a human user viewed and interacted with the internet.\nThat era is over. We are currently witnessing a shift that renders the old",
+    "published": "Mon, 01 Dec 2025 17:25:00 +0530",
+    "source_name": "The Hacker News",
+    "source_icon": "Newspaper",
+    "source_tag": "Tech News",
+    "domain": "thehackernews.com"
+  },
+  {
+    "title": "New Albiriox MaaS Malware Targets 400+ Apps for On-Device Fraud and Screen Control",
+    "link": "https://thehackernews.com/2025/12/new-albiriox-maas-malware-targets-400.html",
+    "summary": "A new Android malware named Albiriox has been advertised under a malware-as-a-service (MaaS) model to offer a \"full spectrum\" of features to facilitate on-device fraud (ODF), screen manipulation, and real-time interaction with infected devices.\nThe malware embeds a hard-coded list comprising over 400 applications spanning banking, financial technology, payment processors, cryptocurrency",
+    "published": "Mon, 01 Dec 2025 14:15:00 +0530",
+    "source_name": "The Hacker News",
+    "source_icon": "Newspaper",
+    "source_tag": "Tech News",
+    "domain": "thehackernews.com"
+  },
+  {
+    "title": "Tomiris Shifts to Public-Service Implants for Stealthier C2 in Attacks on Government Targets",
+    "link": "https://thehackernews.com/2025/12/tomiris-shifts-to-public-service.html",
+    "summary": "The threat actor known as Tomiris has been attributed to attacks targeting foreign ministries, intergovernmental organizations, and government entities in Russia with an aim to establish remote access and deploy additional tools.\n\"These attacks highlight a notable shift in Tomiris's tactics, namely the increased use of implants that leverage public services (e.g., Telegram and Discord) as",
+    "published": "Mon, 01 Dec 2025 10:37:00 +0530",
+    "source_name": "The Hacker News",
+    "source_icon": "Newspaper",
+    "source_tag": "Tech News",
+    "domain": "thehackernews.com"
+  },
+  {
+    "title": "CISA Adds Actively Exploited XSS Bug CVE-2021-26829 in OpenPLC ScadaBR to KEV",
+    "link": "https://thehackernews.com/2025/11/cisa-adds-actively-exploited-xss-bug.html",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has updated its Known Exploited Vulnerabilities (KEV) catalog to include a security flaw impacting OpenPLC ScadaBR, citing evidence of active exploitation.\nThe vulnerability in question is CVE-2021-26829 (CVSS score: 5.4), a cross-site scripting (XSS) flaw that affects Windows and Linux versions of the software via",
+    "published": "Sun, 30 Nov 2025 14:53:00 +0530",
+    "source_name": "The Hacker News",
+    "source_icon": "Newspaper",
+    "source_tag": "Tech News",
+    "domain": "thehackernews.com"
+  },
+  {
+    "title": "Legacy Python Bootstrap Scripts Create Domain-Takeover Risk in Multiple PyPI Packages",
+    "link": "https://thehackernews.com/2025/11/legacy-python-bootstrap-scripts-create.html",
+    "summary": "Cybersecurity researchers have discovered vulnerable code in legacy Python packages that could potentially pave the way for a supply chain compromise on the Python Package Index (PyPI) via a domain takeover attack.\nSoftware supply chain security company ReversingLabs said it found the \"vulnerability\" in bootstrap files provided by a build and deployment automation tool named \"zc.buildout.\"\n\"The",
+    "published": "Fri, 28 Nov 2025 21:57:00 +0530",
+    "source_name": "The Hacker News",
+    "source_icon": "Newspaper",
+    "source_tag": "Tech News",
+    "domain": "thehackernews.com"
+  },
+  {
+    "title": "North Korean Hackers Deploy 197 npm Packages to Spread Updated OtterCookie Malware",
+    "link": "https://thehackernews.com/2025/11/north-korean-hackers-deploy-197-npm.html",
+    "summary": "The North Korean threat actors behind the Contagious Interview campaign have continued to flood the npm registry with 197 more malicious packages since last month.\nAccording to Socket, these packages have been downloaded over 31,000 times, and are designed to deliver a variant of OtterCookie that brings together the features of BeaverTail and prior versions of OtterCookie.\n\nSome of the",
+    "published": "Fri, 28 Nov 2025 21:48:00 +0530",
+    "source_name": "The Hacker News",
+    "source_icon": "Newspaper",
+    "source_tag": "Tech News",
+    "domain": "thehackernews.com"
+  },
+  {
+    "title": "Why Organizations Are Turning to RPAM",
+    "link": "https://thehackernews.com/2025/11/why-organizations-are-turning-to-rpam.html",
+    "summary": "As IT environments become increasingly distributed and organizations adopt hybrid and remote work at scale, traditional perimeter-based security models and on-premises Privileged Access Management (PAM) solutions no longer suffice. IT administrators, contractors and third-party vendors now require secure access to critical systems from any location and on any device, without compromising",
+    "published": "Fri, 28 Nov 2025 16:39:00 +0530",
+    "source_name": "The Hacker News",
+    "source_icon": "Newspaper",
+    "source_tag": "Tech News",
+    "domain": "thehackernews.com"
+  },
+  {
+    "title": "MS Teams Guest Access Can Remove Defender Protection When Users Join External Tenants",
+    "link": "https://thehackernews.com/2025/11/ms-teams-guest-access-can-remove.html",
+    "summary": "Cybersecurity researchers have shed light on a cross-tenant blind spot that allows attackers to bypass Microsoft Defender for Office 365 protections via the guest access feature in Teams.\n\"When users operate as guests in another tenant, their protections are determined entirely by that hosting environment, not by their home organization,\" Ontinue security researcher Rhys Downing said in a report",
+    "published": "Fri, 28 Nov 2025 14:03:00 +0530",
+    "source_name": "The Hacker News",
+    "source_icon": "Newspaper",
+    "source_tag": "Tech News",
+    "domain": "thehackernews.com"
+  },
+  {
+    "title": "Bloody Wolf Expands Java-based NetSupport RAT Attacks in Kyrgyzstan and Uzbekistan",
+    "link": "https://thehackernews.com/2025/11/bloody-wolf-expands-java-based.html",
+    "summary": "The threat actor known as Bloody Wolf has been attributed to a cyber attack campaign that has targeted Kyrgyzstan since at least June 2025 with the goal of delivering NetSupport RAT.\nAs of October 2025, the activity has expanded to also single out Uzbekistan, Group-IB researchers Amirbek Kurbanov and Volen Kayo said in a report published in collaboration with Ukuk, a state enterprise under the",
+    "published": "Thu, 27 Nov 2025 23:43:00 +0530",
+    "source_name": "The Hacker News",
+    "source_icon": "Newspaper",
+    "source_tag": "Tech News",
+    "domain": "thehackernews.com"
+  },
+  {
+    "title": "Microsoft to Block Unauthorized Scripts in Entra ID Logins with 2026 CSP Update",
+    "link": "https://thehackernews.com/2025/11/microsoft-to-block-unauthorized-scripts.html",
+    "summary": "Microsoft has announced plans to improve the security of Entra ID authentication by blocking unauthorized script injection attacks starting a year from now.\nThe update to its Content Security Policy (CSP) aims to enhance the Entra ID sign-in experience at \"login.microsoftonline[.]com\" by only letting scripts from trusted Microsoft domains run.\n\"This update strengthens security and adds an extra",
+    "published": "Thu, 27 Nov 2025 21:07:00 +0530",
+    "source_name": "The Hacker News",
+    "source_icon": "Newspaper",
+    "source_tag": "Tech News",
+    "domain": "thehackernews.com"
+  },
+  {
+    "title": "Meet Rey, the Admin of ‘Scattered Lapsus$ Hunters’",
+    "link": "https://krebsonsecurity.com/2025/11/meet-rey-the-admin-of-scattered-lapsus-hunters/",
+    "summary": "A prolific cybercriminal group that calls itself \"Scattered LAPSUS$ Hunters\" made headlines regularly this year by stealing data from and publicly mass extorting dozens of major corporations. But the tables seem to have turned somewhat for \"Rey,\" the moniker chosen by the technical operator and public face of the hacker group: Earlier this week, Rey confirmed his real life identity and agreed to an interview after KrebsOnSecurity tracked him down and contacted his father.",
+    "published": "Wed, 26 Nov 2025 17:22:36 +0000",
+    "source_name": "Krebs on Security",
+    "source_icon": "User Secret",
+    "source_tag": "Expert Blog",
+    "domain": "krebsonsecurity.com"
+  },
+  {
+    "title": "Is Your Android TV Streaming Box Part of a Botnet?",
+    "link": "https://krebsonsecurity.com/2025/11/is-your-android-tv-streaming-box-part-of-a-botnet/",
+    "summary": "On the surface, the Superbox media streaming devices for sale at retailers like BestBuy and Walmart may seem like a steal: They offer unlimited access to more than 2,200 pay-per-view and streaming services like Netflix, ESPN and Hulu, all for a one-time fee of around $400. But security experts warn these TV boxes require intrusive software that forces the user's network to relay Internet traffic for others, traffic that is often tied to cybercrime activity such as advertising fraud and account takeovers.",
+    "published": "Mon, 24 Nov 2025 18:44:52 +0000",
+    "source_name": "Krebs on Security",
+    "source_icon": "User Secret",
+    "source_tag": "Expert Blog",
+    "domain": "krebsonsecurity.com"
+  },
+  {
+    "title": "Mozilla Says It’s Finally Done With Two-Faced Onerep",
+    "link": "https://krebsonsecurity.com/2025/11/mozilla-says-its-finally-done-with-two-faced-onerep/",
+    "summary": "In March 2024, Mozilla said it was winding down its collaboration with Onerep -- an identity protection service offered with the Firefox web browser that promises to remove users from hundreds of people-search sites -- after KrebsOnSecurity revealed Onerep's founder had created dozens of people-search services and was continuing to operate at least one of them. Sixteen months later, however, Mozilla is still promoting Onerep. This week, Mozilla announced their partnership with Onerep will officially end next month.",
+    "published": "Thu, 20 Nov 2025 19:06:51 +0000",
+    "source_name": "Krebs on Security",
+    "source_icon": "User Secret",
+    "source_tag": "Expert Blog",
+    "domain": "krebsonsecurity.com"
+  },
+  {
+    "title": "The Cloudflare Outage May Be a Security Roadmap",
+    "link": "https://krebsonsecurity.com/2025/11/the-cloudflare-outage-may-be-a-security-roadmap/",
+    "summary": "An intermittent outage at Cloudflare on Tuesday briefly knocked many of the Internet's top destinations offline. Some affected Cloudflare customers were able to pivot away from the platform temporarily so that visitors could still access their websites. But security experts say doing so may have also triggered an impromptu network penetration test for organizations that have come to rely on Cloudflare to block many types of abusive and malicious traffic.",
+    "published": "Wed, 19 Nov 2025 14:07:03 +0000",
+    "source_name": "Krebs on Security",
+    "source_icon": "User Secret",
+    "source_tag": "Expert Blog",
+    "domain": "krebsonsecurity.com"
+  },
+  {
+    "title": "Microsoft Patch Tuesday, November 2025 Edition",
+    "link": "https://krebsonsecurity.com/2025/11/microsoft-patch-tuesday-november-2025-edition/",
+    "summary": "Microsoft this week pushed security updates to fix more than 60 vulnerabilities in its Windows operating systems and supported software, including at least one zero-day bug that is already being exploited. Microsoft also fixed a glitch that prevented some Windows 10 users from taking advantage of an extra year of security updates, which is nice because the zero-day flaw and other critical weaknesses patched today affect all versions of Windows, including Windows 10.",
+    "published": "Sun, 16 Nov 2025 21:47:14 +0000",
+    "source_name": "Krebs on Security",
+    "source_icon": "User Secret",
+    "source_tag": "Expert Blog",
+    "domain": "krebsonsecurity.com"
+  },
+  {
+    "title": "Google Sues to Disrupt Chinese SMS Phishing Triad",
+    "link": "https://krebsonsecurity.com/2025/11/google-sues-to-disrupt-chinese-sms-phishing-triad/",
+    "summary": "Google is suing more than two dozen unnamed individuals allegedly involved in peddling a popular China-based mobile phishing service that helps scammers impersonate hundreds of trusted brands, blast out text message lures, and convert phished payment card data into mobile wallets from Apple and Google.",
+    "published": "Thu, 13 Nov 2025 14:47:22 +0000",
+    "source_name": "Krebs on Security",
+    "source_icon": "User Secret",
+    "source_tag": "Expert Blog",
+    "domain": "krebsonsecurity.com"
+  },
+  {
+    "title": "Drilling Down on Uncle Sam’s Proposed TP-Link Ban",
+    "link": "https://krebsonsecurity.com/2025/11/drilling-down-on-uncle-sams-proposed-tp-link-ban/",
+    "summary": "The U.S. government is reportedly preparing to ban the sale of wireless routers and other networking gear from TP-Link Systems, a tech company that currently enjoys an estimated 50% market share among home users and small businesses. Experts say while the proposed ban may have more to do with TP-Link's ties to China than any specific technical threats, much of the rest of the industry serving this market also sources hardware from China and ships products that are insecure fresh out of the box.",
+    "published": "Sun, 09 Nov 2025 18:14:40 +0000",
+    "source_name": "Krebs on Security",
+    "source_icon": "User Secret",
+    "source_tag": "Expert Blog",
+    "domain": "krebsonsecurity.com"
+  },
+  {
+    "title": "Cloudflare Scrubs Aisuru Botnet from Top Domains List",
+    "link": "https://krebsonsecurity.com/2025/11/cloudflare-scrubs-aisuru-botnet-from-top-domains-list/",
+    "summary": "For the past week, domains associated with the massive Aisuru botnet have repeatedly usurped Amazon, Apple, Google and Microsoft in Cloudflare's public ranking of the most frequently requested websites. Cloudflare responded by redacting Aisuru domain names from their top websites list. The chief executive at Cloudflare says Aisuru's overlords are using the botnet to boost their malicious domain rankings, while simultaneously attacking the company's domain name system (DNS) service.",
+    "published": "Thu, 06 Nov 2025 02:04:36 +0000",
+    "source_name": "Krebs on Security",
+    "source_icon": "User Secret",
+    "source_tag": "Expert Blog",
+    "domain": "krebsonsecurity.com"
+  },
+  {
+    "title": "Alleged Jabber Zeus Coder ‘MrICQ’ in U.S. Custody",
+    "link": "https://krebsonsecurity.com/2025/11/alleged-jabber-zeus-coder-mricq-in-u-s-custody/",
+    "summary": "A Ukrainian man indicted in 2012 for conspiring with a prolific hacking group to steal tens of millions of dollars from U.S. businesses was arrested in Italy and is now in custody in the United States, KrebsOnSecurity has learned.\n\nSources close to the investigation say Yuriy Igorevich Rybtsov, a 41-year-old from the Russia-controlled city of Donetsk, Ukraine, was previously referenced in U.S. federal charging documents only by his online handle \"MrICQ.\" According to a 13-year-old indictment filed by prosecutors in Nebraska, MrICQ was a developer for a cybercrime group known as \"Jabber Zeus.\"",
+    "published": "Sun, 02 Nov 2025 20:37:24 +0000",
+    "source_name": "Krebs on Security",
+    "source_icon": "User Secret",
+    "source_tag": "Expert Blog",
+    "domain": "krebsonsecurity.com"
+  },
+  {
+    "title": "Aisuru Botnet Shifts from DDoS to Residential Proxies",
+    "link": "https://krebsonsecurity.com/2025/10/aisuru-botnet-shifts-from-ddos-to-residential-proxies/",
+    "summary": "Aisuru, the botnet responsible for a series of record-smashing distributed denial-of-service (DDoS) attacks this year, recently was overhauled to support a more low-key, lucrative and sustainable business: Renting hundreds of thousands of infected Internet of Things (IoT) devices to proxy services that help cybercriminals anonymize their traffic. Experts says a glut of proxies from Aisuru and other sources is fueling large-scale data harvesting efforts tied to various artificial intelligence (AI) projects, helping content scrapers evade detection by routing their traffic through residential connections that appear to be regular Internet users.",
+    "published": "Wed, 29 Oct 2025 00:51:05 +0000",
+    "source_name": "Krebs on Security",
+    "source_icon": "User Secret",
+    "source_tag": "Expert Blog",
+    "domain": "krebsonsecurity.com"
+  },
+  {
+    "title": "Korea arrests suspects selling intimate videos from hacked IP cameras",
+    "link": "https://www.bleepingcomputer.com/news/security/korea-arrests-suspects-selling-intimate-videos-from-hacked-ip-cameras/",
+    "summary": "The Korean National Police have arrested four individuals suspected of hacking over 120,000 IP cameras across the country and then selling stolen footage to a foreign adult site. [...]",
+    "published": "Tue, 02 Dec 2025 16:42:48 -0500",
+    "source_name": "BleepingComputer",
+    "source_icon": "Laptop Code",
+    "source_tag": "Security News",
+    "domain": "www.bleepingcomputer.com"
+  },
+  {
+    "title": "FTC settlement requires Illuminate to delete unnecessary student data",
+    "link": "https://www.bleepingcomputer.com/news/security/ftc-settlement-requires-illuminate-to-delete-unnecessary-student-data/",
+    "summary": "The Federal Trade Commission (FTC) is proposing that education technology provider Illuminate Education to delete unnecessary student data and improve its security to settle allegations related to an incident in 2021 that exposed info of 10 million students. [...]",
+    "published": "Tue, 02 Dec 2025 15:50:13 -0500",
+    "source_name": "BleepingComputer",
+    "source_icon": "Laptop Code",
+    "source_tag": "Security News",
+    "domain": "www.bleepingcomputer.com"
+  },
+  {
+    "title": "ChatGPT is down worldwide, conversations dissapeared for users",
+    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-is-down-worldwide-conversations-dissapeared-for-users/",
+    "summary": "OpenAI's AI-powered ChatGPT is down worldwide with users receiving errors when attempting to access chats, with no reasons currently given. [...]",
+    "published": "Tue, 02 Dec 2025 14:52:16 -0500",
+    "source_name": "BleepingComputer",
+    "source_icon": "Laptop Code",
+    "source_tag": "Security News",
+    "domain": "www.bleepingcomputer.com"
+  },
+  {
+    "title": "Shai-Hulud 2.0 NPM malware attack exposed up to 400,000 dev secrets",
+    "link": "https://www.bleepingcomputer.com/news/security/shai-hulud-20-npm-malware-attack-exposed-up-to-400-000-dev-secrets/",
+    "summary": "The second Shai-Hulud attack last week exposed around 400,000 raw secrets after infecting hundreds of packages in the NPM (Node Package Manager) registry and publishing stolen data in 30,000 GitHub repositories. [...]",
+    "published": "Tue, 02 Dec 2025 14:06:20 -0500",
+    "source_name": "BleepingComputer",
+    "source_icon": "Laptop Code",
+    "source_tag": "Security News",
+    "domain": "www.bleepingcomputer.com"
+  },
+  {
+    "title": "Microsoft Defender portal outage disrupts threat hunting alerts",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-defender-portal-outage-blocks-access-to-security-alerts/",
+    "summary": "Microsoft is working to mitigate an ongoing incident that has been blocking access to some Defender XDR portal capabilities for the past 10 hours. [...]",
+    "published": "Tue, 02 Dec 2025 11:10:06 -0500",
+    "source_name": "BleepingComputer",
+    "source_icon": "Laptop Code",
+    "source_tag": "Security News",
+    "domain": "www.bleepingcomputer.com"
+  },
+  {
+    "title": "Cybercrime Goes SaaS: Renting Tools, Access, and Infrastructure",
+    "link": "https://www.bleepingcomputer.com/news/security/cybercrime-goes-saas-renting-tools-access-and-infrastructure/",
+    "summary": "Cybercrime has fully shifted to a subscription model, with phishing kits, Telegram OTP bots, infostealer logs, and even RATs now rented like SaaS tools. Varonis explains how this \"crime-as-a-service\" economy lowers the barrier to entry and gives low-skill attackers on-demand access to advanced capabilities. [...]",
+    "published": "Tue, 02 Dec 2025 10:10:20 -0500",
+    "source_name": "BleepingComputer",
+    "source_icon": "Laptop Code",
+    "source_tag": "Security News",
+    "domain": "www.bleepingcomputer.com"
+  },
+  {
+    "title": "North Korea lures engineers to rent identities in fake IT worker scheme",
+    "link": "https://www.bleepingcomputer.com/news/security/north-korea-lures-engineers-to-rent-identities-in-fake-it-worker-scheme/",
+    "summary": "In an unprecedented intelligence operation, security researchers exposed how North Korean IT recruiters target and lure developers into renting their identities for illicit fundraising. [...]",
+    "published": "Tue, 02 Dec 2025 09:57:26 -0500",
+    "source_name": "BleepingComputer",
+    "source_icon": "Laptop Code",
+    "source_tag": "Security News",
+    "domain": "www.bleepingcomputer.com"
+  },
+  {
+    "title": "Google fixes two Android zero days exploited in attacks, 107 flaws",
+    "link": "https://www.bleepingcomputer.com/news/security/google-fixes-two-android-zero-days-exploited-in-attacks-107-flaws/",
+    "summary": "Google has released the December 2025 Android security bulletin, addressing 107 vulnerabilities, including two flaws actively exploited in targeted attacks. [...]",
+    "published": "Tue, 02 Dec 2025 09:36:44 -0500",
+    "source_name": "BleepingComputer",
+    "source_icon": "Laptop Code",
+    "source_tag": "Security News",
+    "domain": "www.bleepingcomputer.com"
+  },
+  {
+    "title": "Fake Calendly invites spoof top brands to hijack ad manager accounts",
+    "link": "https://www.bleepingcomputer.com/news/security/fake-calendly-invites-spoof-top-brands-to-hijack-ad-manager-accounts/",
+    "summary": "An ongoing phishing campaign impersonates popular brands, such as Unilever, Disney, MasterCard, LVMH, and Uber, in Calendly-themed lures to steal Google Workspace and Facebook business account credentials. [...]",
+    "published": "Tue, 02 Dec 2025 09:00:00 -0500",
+    "source_name": "BleepingComputer",
+    "source_icon": "Laptop Code",
+    "source_tag": "Security News",
+    "domain": "www.bleepingcomputer.com"
+  },
+  {
+    "title": "Microsoft: KB5070311 triggers File Explorer white flash in dark mode",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-kb5070311-triggers-file-explorer-bright-white-flashes-in-dark-mode/",
+    "summary": "Microsoft has confirmed that the KB5070311 preview update is triggering bright white flashes when launching the File Explorer in dark mode on Windows 11 systems. [...]",
+    "published": "Tue, 02 Dec 2025 08:39:51 -0500",
+    "source_name": "BleepingComputer",
+    "source_icon": "Laptop Code",
+    "source_tag": "Security News",
+    "domain": "www.bleepingcomputer.com"
+  },
+  {
+    "title": "University of Pennsylvania confirms new data breach after Oracle hack",
+    "link": "https://www.bleepingcomputer.com/news/security/university-of-pennsylvania-confirms-data-theft-after-oracle-ebs-hack/",
+    "summary": "​The University of Pennsylvania (Penn) has confirmed a new data breach after attackers stole documents containing personal information from its Oracle E-Business Suite servers in August. [...]",
+    "published": "Tue, 02 Dec 2025 07:55:59 -0500",
+    "source_name": "BleepingComputer",
+    "source_icon": "Laptop Code",
+    "source_tag": "Security News",
+    "domain": "www.bleepingcomputer.com"
+  },
+  {
+    "title": "Windows 11 KB5070311 update fixes File Explorer freezes, search issues",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5070311-update-fixes-file-explorer-freezes-search-issues/",
+    "summary": "​​Microsoft has released the KB5070311 preview cumulative update for Windows 11 systems, which includes 49 changes, including fixes for File Explorer freezes and search issues. [...]",
+    "published": "Tue, 02 Dec 2025 06:19:31 -0500",
+    "source_name": "BleepingComputer",
+    "source_icon": "Laptop Code",
+    "source_tag": "Security News",
+    "domain": "www.bleepingcomputer.com"
+  },
+  {
+    "title": "Zafran Security Raises $60 Million in Series C Funding",
+    "link": "https://www.securityweek.com/zafran-security-raises-60-million-in-series-c-funding/",
+    "summary": "<p>The cybersecurity startup will use the investment to accelerate product innovation and global expansion.</p>\n<p>The post <a href=\"https://www.securityweek.com/zafran-security-raises-60-million-in-series-c-funding/\">Zafran Security Raises $60 Million in Series C Funding</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "published": "Tue, 02 Dec 2025 16:49:10 +0000",
+    "source_name": "SecurityWeek",
+    "source_icon": "Shield Check",
+    "source_tag": "Cyber Media",
+    "domain": "www.securityweek.com"
+  },
+  {
+    "title": "The Great Disconnect: Unmasking the ‘Two Separate Conversations’ in Security",
+    "link": "https://www.securityweek.com/the-great-disconnect-unmasking-the-two-separate-conversations-in-security/",
+    "summary": "<p>When familiar security concepts carry unfamiliar meanings for different audiences, teams talk past each other without even realizing it. This silent disconnect weakens communication, clarity, and outcomes.</p>\n<p>The post <a href=\"https://www.securityweek.com/the-great-disconnect-unmasking-the-two-separate-conversations-in-security/\">The Great Disconnect: Unmasking the &#8216;Two Separate Conversations&#8217; in Security</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "published": "Tue, 02 Dec 2025 14:30:00 +0000",
+    "source_name": "SecurityWeek",
+    "source_icon": "Shield Check",
+    "source_tag": "Cyber Media",
+    "domain": "www.securityweek.com"
+  },
+  {
+    "title": "Chrome, Edge Extensions Caught Tracking Users, Creating Backdoors",
+    "link": "https://www.securityweek.com/chrome-edge-extensions-caught-tracking-users-creating-backdoors/",
+    "summary": "<p>The extensions were seen profiling users, reading cookie data to create unique identifiers, and executing payloads with browser API access.</p>\n<p>The post <a href=\"https://www.securityweek.com/chrome-edge-extensions-caught-tracking-users-creating-backdoors/\">Chrome, Edge Extensions Caught Tracking Users, Creating Backdoors</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "published": "Tue, 02 Dec 2025 13:48:47 +0000",
+    "source_name": "SecurityWeek",
+    "source_icon": "Shield Check",
+    "source_tag": "Cyber Media",
+    "domain": "www.securityweek.com"
+  },
+  {
+    "title": "Saporo Raises $8 Million for Identity Security Platform",
+    "link": "https://www.securityweek.com/saporo-raises-8-million-for-identity-security-platform/",
+    "summary": "<p>The Swiss cybersecurity firm will scale its R&#038;D, sales and marketing teams as it pursues expansion across Europe.</p>\n<p>The post <a href=\"https://www.securityweek.com/saporo-raises-8-million-for-identity-security-platform/\">Saporo Raises $8 Million for Identity Security Platform</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "published": "Tue, 02 Dec 2025 12:17:09 +0000",
+    "source_name": "SecurityWeek",
+    "source_icon": "Shield Check",
+    "source_tag": "Cyber Media",
+    "domain": "www.securityweek.com"
+  },
+  {
+    "title": "Vulnerability in OpenAI Coding Agent Could Facilitate Attacks on Developers",
+    "link": "https://www.securityweek.com/vulnerability-in-openai-coding-agent-could-facilitate-attacks-on-developers/",
+    "summary": "<p>The Codex CLI vulnerability tracked as CVE-2025-61260 can be exploited for command execution.</p>\n<p>The post <a href=\"https://www.securityweek.com/vulnerability-in-openai-coding-agent-could-facilitate-attacks-on-developers/\">Vulnerability in OpenAI Coding Agent Could Facilitate Attacks on Developers</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "published": "Tue, 02 Dec 2025 12:02:32 +0000",
+    "source_name": "SecurityWeek",
+    "source_icon": "Shield Check",
+    "source_tag": "Cyber Media",
+    "domain": "www.securityweek.com"
+  },
+  {
+    "title": "Personal Information of 33.7 Million Stolen From Coupang",
+    "link": "https://www.securityweek.com/personal-information-of-33-7-million-stolen-from-coupang/",
+    "summary": "<p>Names, addresses, email addresses, and phone numbers were compromised in a five-month-long data breach.</p>\n<p>The post <a href=\"https://www.securityweek.com/personal-information-of-33-7-million-stolen-from-coupang/\">Personal Information of 33.7 Million Stolen From Coupang</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "published": "Tue, 02 Dec 2025 10:38:59 +0000",
+    "source_name": "SecurityWeek",
+    "source_icon": "Shield Check",
+    "source_tag": "Cyber Media",
+    "domain": "www.securityweek.com"
+  },
+  {
+    "title": "Android Zero-Days Patched in December 2025 Security Update",
+    "link": "https://www.securityweek.com/androids-december-2025-updates-patch-two-zero-days/",
+    "summary": "<p>Google warns that two out of the 107 vulnerabilities patched in Android this month have been exploited in limited, targeted attacks.</p>\n<p>The post <a href=\"https://www.securityweek.com/androids-december-2025-updates-patch-two-zero-days/\">Android Zero-Days Patched in December 2025 Security Update</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "published": "Tue, 02 Dec 2025 09:36:46 +0000",
+    "source_name": "SecurityWeek",
+    "source_icon": "Shield Check",
+    "source_tag": "Cyber Media",
+    "domain": "www.securityweek.com"
+  },
+  {
+    "title": "Facial Recognition’s Trust Problem",
+    "link": "https://www.securityweek.com/facial-recognitions-trust-problem/",
+    "summary": "<p>Two technologies — one for public safety, one for controlled entry — show why trust in facial recognition must be earned, not assumed.</p>\n<p>The post <a href=\"https://www.securityweek.com/facial-recognitions-trust-problem/\">Facial Recognition’s Trust Problem</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "published": "Mon, 01 Dec 2025 16:00:00 +0000",
+    "source_name": "SecurityWeek",
+    "source_icon": "Shield Check",
+    "source_tag": "Cyber Media",
+    "domain": "www.securityweek.com"
+  },
+  {
+    "title": "$29 Million Worth of Bitcoin Seized in Cryptomixer Takedown",
+    "link": "https://www.securityweek.com/29-million-worth-of-bitcoin-seized-in-cryptomixer-takedown/",
+    "summary": "<p>Cryptomixer was targeted by law enforcement in Operation Olympia for facilitating cybercrime and money laundering. </p>\n<p>The post <a href=\"https://www.securityweek.com/29-million-worth-of-bitcoin-seized-in-cryptomixer-takedown/\">$29 Million Worth of Bitcoin Seized in Cryptomixer Takedown</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "published": "Mon, 01 Dec 2025 15:37:35 +0000",
+    "source_name": "SecurityWeek",
+    "source_icon": "Shield Check",
+    "source_tag": "Cyber Media",
+    "domain": "www.securityweek.com"
+  },
+  {
+    "title": "New Albiriox Android Malware Developed by Russian Cybercriminals",
+    "link": "https://www.securityweek.com/new-albiriox-android-malware-developed-by-russian-cybercriminals/",
+    "summary": "<p>Albiriox is a banking trojan offered under a malware-as-a-service model for $720 per month.</p>\n<p>The post <a href=\"https://www.securityweek.com/new-albiriox-android-malware-developed-by-russian-cybercriminals/\">New Albiriox Android Malware Developed by Russian Cybercriminals</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "published": "Mon, 01 Dec 2025 14:31:12 +0000",
+    "source_name": "SecurityWeek",
+    "source_icon": "Shield Check",
+    "source_tag": "Cyber Media",
+    "domain": "www.securityweek.com"
+  },
+  {
+    "title": "Chrome 143 Released With Fix for 13 Vulnerabilities that Enables Arbitrary Code Execution",
+    "link": "https://cybersecuritynews.com/chrome-143-released/",
+    "summary": "<p>Google has officially promoted Chrome 143 to the Stable channel, rolling out version 143.0.7499.40 for Linux and 143.0.7499.40/41 for Windows and Mac. This significant update addresses 13 security vulnerabilities, including several high-severity flaws that could allow attackers to execute arbitrary code or compromise the browser’s rendering engine. The most critical vulnerability addressed in this release [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/chrome-143-released/\">Chrome 143 Released With Fix for 13 Vulnerabilities that Enables Arbitrary Code Execution</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "published": "Wed, 03 Dec 2025 03:22:21 +0000",
+    "source_name": "Cybersecuritynews",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "cybersecuritynews.com"
+  },
+  {
+    "title": "ChatGPT Down – Users Report Outage Worldwide, Conversations Disappeared for Users",
+    "link": "https://cybersecuritynews.com/chatgpt-down-3/",
+    "summary": "<p>Millions of users worldwide faced a significant disruption to their workflows early Wednesday morning as ChatGPT suffered a major service outage. The incident, which began shortly before 6:30 AM, rendered the popular AI chatbot inaccessible for many and caused alarming data visibility issues where conversation histories appeared to vanish completely. OpenAI has since confirmed that [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/chatgpt-down-3/\">ChatGPT Down &#8211; Users Report Outage Worldwide, Conversations Disappeared for Users</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "published": "Wed, 03 Dec 2025 02:29:08 +0000",
+    "source_name": "Cybersecuritynews",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "cybersecuritynews.com"
+  },
+  {
+    "title": "Hackers can Hijack Your DashCams in Seconds and Weaponize them for Future Attacks",
+    "link": "https://cybersecuritynews.com/hackers-can-hijack-your-dash-cams/",
+    "summary": "<p>Dashcams have become essential devices for drivers worldwide, serving as reliable witnesses in case of accidents or roadside disputes. However, a team of Singaporean cybersecurity researchers has uncovered a disturbing reality: these seemingly harmless devices can be hijacked within seconds and turned into powerful surveillance tools. The findings, presented at the Security Analyst Summit 2025, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-can-hijack-your-dash-cams/\">Hackers can Hijack Your DashCams in Seconds and Weaponize them for Future Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "published": "Tue, 02 Dec 2025 21:06:02 +0000",
+    "source_name": "Cybersecuritynews",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "cybersecuritynews.com"
+  },
+  {
+    "title": "Nisos Details Earlier Signs of Insider Detection via Authentication and Access Controls",
+    "link": "https://cybersecuritynews.com/nisos-details-earlier-signs-of-insider-detection/",
+    "summary": "<p>Insider threats remain one of the most challenging security problems that organizations face today. These threats typically do not show obvious warning signs at first. Instead, they reveal themselves through small, unusual activities that often blend into normal daily operations. Many companies struggle to identify these early indicators because they occur within legitimate user accounts [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/nisos-details-earlier-signs-of-insider-detection/\">Nisos Details Earlier Signs of Insider Detection via Authentication and Access Controls</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "published": "Tue, 02 Dec 2025 20:38:17 +0000",
+    "source_name": "Cybersecuritynews",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "cybersecuritynews.com"
+  },
+  {
+    "title": "Ukraine Hackers Attacking Russian Aerospace Companies and Other Defence-Related Sectors",
+    "link": "https://cybersecuritynews.com/ukraine-hackers-attacking-russian-aerospace-companies/",
+    "summary": "<p>Ukraine-linked hackers are stepping up cyberattacks against Russian aerospace and wider defence-related companies, using new custom malware to steal designs, schedules, and internal emails. The campaign targets both prime contractors and smaller suppliers, aiming to map production chains and expose weak points in Russia’s war industry. The tools used in this campaign are simple, but [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ukraine-hackers-attacking-russian-aerospace-companies/\">Ukraine Hackers Attacking Russian Aerospace Companies and Other Defence-Related Sectors</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "published": "Tue, 02 Dec 2025 20:06:19 +0000",
+    "source_name": "Cybersecuritynews",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "cybersecuritynews.com"
+  },
+  {
+    "title": "Hackers Leverage Evilginx to Undermine MFA Security Mimicking Legitimate SSO Sites",
+    "link": "https://cybersecuritynews.com/hackers-leverage-evilginx/",
+    "summary": "<p>Hackers are turning to Evilginx, a powerful adversary-in-the-middle tool, to get around multi-factor authentication and take over cloud accounts. The framework acts as a reverse proxy between the victim and real single sign-on pages, so the login screen looks and behaves just like the real thing. To the user, the fake site feels normal, with [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-leverage-evilginx/\">Hackers Leverage Evilginx to Undermine MFA Security Mimicking Legitimate SSO Sites</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "published": "Tue, 02 Dec 2025 19:40:42 +0000",
+    "source_name": "Cybersecuritynews",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "cybersecuritynews.com"
+  },
+  {
+    "title": "Salty2FA and Tycoon2FA Phishing Kits Attacking Enterprise Users to Steal Login Credentials",
+    "link": "https://cybersecuritynews.com/salty2fa-and-tycoon2fa-phishing-kits/",
+    "summary": "<p>A new type of phishing attack that combines two different phishing kits: Salty2FA and Tycoon2FA. This marks a significant change in the Phishing-as-a-Service (PhaaS) landscape. While phishing kits typically maintain unique signatures in their code and delivery mechanisms, recent campaigns targeting enterprise users have begun deploying payloads that combine elements from both frameworks. This convergence [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/salty2fa-and-tycoon2fa-phishing-kits/\">Salty2FA and Tycoon2FA Phishing Kits Attacking Enterprise Users to Steal Login Credentials</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "published": "Tue, 02 Dec 2025 18:18:54 +0000",
+    "source_name": "Cybersecuritynews",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "cybersecuritynews.com"
+  },
+  {
+    "title": "Water Saci Hackers Leveraging AI Tools to Attack WhatsApp Web Users",
+    "link": "https://cybersecuritynews.com/water-saci-hackers-leveraging-ai-tools/",
+    "summary": "<p>Cybercriminals targeting Brazilian users have aggressively escalated their tactics, launching a highly sophisticated campaign dubbed &#8220;Water Saci.&#8221; This new wave of attacks weaponizes WhatsApp Web, a platform implicitly trusted by millions, to deliver banking trojans and steal sensitive financial data. By compromising user accounts, the attackers send convincing messages to trusted contacts, creating a rapid, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/water-saci-hackers-leveraging-ai-tools/\">Water Saci Hackers Leveraging AI Tools to Attack WhatsApp Web Users</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "published": "Tue, 02 Dec 2025 18:15:59 +0000",
+    "source_name": "Cybersecuritynews",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "cybersecuritynews.com"
+  },
+  {
+    "title": "Researchers Expose Lazarus Recruitment Pipeline Live on Camera Through Honeypot Operation",
+    "link": "https://cybersecuritynews.com/lazarus-recruitment-live-on-camera/",
+    "summary": "<p>A collaborative investigation by Mauro Eldritch of BCA LTD, ANYRUN, and NorthScan has provided unprecedented visibility into how North Korean threat actors from the Lazarus Group recruit and operate against Western companies. Researchers documented the complete attack cycle in real-time, capturing live footage of attackers using compromised systems. This breakthrough reveals the human side of [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/lazarus-recruitment-live-on-camera/\">Researchers Expose Lazarus Recruitment Pipeline Live on Camera Through Honeypot Operation</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "published": "Tue, 02 Dec 2025 17:29:08 +0000",
+    "source_name": "Cybersecuritynews",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "cybersecuritynews.com"
+  },
+  {
+    "title": "SmartTube YouTube App for Android TV Compromised Following Exposure of Signing Keys",
+    "link": "https://cybersecuritynews.com/smarttube-youtube-app-for-android-tv-compromised/",
+    "summary": "<p>The Android TV community faces a significant security crisis as SmartTube, a popular third-party YouTube client, has been compromised due to exposed signing keys. Security researchers have identified malicious code embedded within official releases, prompting Google to forcibly disable the application on affected devices. The incident, which came to light through extensive community analysis, demonstrates [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/smarttube-youtube-app-for-android-tv-compromised/\">SmartTube YouTube App for Android TV Compromised Following Exposure of Signing Keys</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</",
+    "published": "Tue, 02 Dec 2025 15:00:14 +0000",
+    "source_name": "Cybersecuritynews",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "cybersecuritynews.com"
+  },
+  {
+    "title": "CISA Warns that Two Android Vulnerabilities Are Under Attack",
+    "link": "https://thecyberexpress.com/cisa-warns-android-vulnerabilities-attacked/",
+    "summary": "<p><img alt=\"CISA Warns Android Vulnerabilities Under Attack\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"853\" src=\"https://thecyberexpress.com/wp-content/uploads/pexels-nurseryart-369376.jpg\" title=\"CISA Warns that Two Android Vulnerabilities Are Under Attack 1\" width=\"1280\" /></p>CISA warned today that two Android zero-day vulnerabilities are under active attack, within hours of Google releasing patches for the flaws.\n\nBoth are high-severity Android framework vulnerabilities. CVE-2025-48572 is a Privilege Escalation vulnerability, while CVE-2025-48633 is an Information Disclosure vulnerability.\n\nBoth were among 107 Android vulnerabilities addressed by Google",
+    "published": "Tue, 02 Dec 2025 21:09:01 +0000",
+    "source_name": "Thecyberexpress",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "thecyberexpress.com"
+  },
+  {
+    "title": "Australia Establishes AI Safety Institute to Combat Emerging Threats from Frontier AI Systems",
+    "link": "https://thecyberexpress.com/australia-ai-safety-institute-national-ai-plan/",
+    "summary": "<p><img alt=\"APT31, Australian Parliament, AI Safety Institute, National AI Plan\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"667\" src=\"https://thecyberexpress.com/wp-content/uploads/shutterstock_660022984.webp\" title=\"Australia Establishes AI Safety Institute to Combat Emerging Threats from Frontier AI Systems 3\" width=\"1000\" /></p><p class=\"font-claude-response-body whitespace-normal break-words\">Australia's fragmented approach to AI oversight—with responsibilities scattered across privacy commissioners, consumer watchdogs, online safety regulators, and sector-specific agencies—required coordination to keep pace with rapidly evolving AI capabilities and thei",
+    "published": "Tue, 02 Dec 2025 16:38:19 +0000",
+    "source_name": "Thecyberexpress",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "thecyberexpress.com"
+  },
+  {
+    "title": "Critical SQL Injection Flaw Exposes Sensitive Data in Devolutions Server",
+    "link": "https://thecyberexpress.com/devolutions-server-sql-injection-flaw/",
+    "summary": "<p><img alt=\"SQL Injection\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"1280\" src=\"https://thecyberexpress.com/wp-content/uploads/SQL-Injection-1.webp\" title=\"Critical SQL Injection Flaw Exposes Sensitive Data in Devolutions Server 5\" width=\"1920\" /></p><span>A batch of new vulnerabilities in Devolutions Server targets </span><span>organizations that depend on the platform to manage privileged accounts, passwords, and sensitive authentication data. </span><span> </span>\n\n<span>Devolutions has released a security advisory, identified as DEVO-2025-0018, warning customers of multiple vulnerabilities, including a critical flaw that could enable attackers to extrac",
+    "published": "Tue, 02 Dec 2025 07:53:45 +0000",
+    "source_name": "Thecyberexpress",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "thecyberexpress.com"
+  },
+  {
+    "title": "FTC Action Hits Illuminate Education Over Massive Student Data Breach",
+    "link": "https://thecyberexpress.com/ftc-action-targets-illuminate-education/",
+    "summary": "<p><img alt=\"FTC action\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"720\" src=\"https://thecyberexpress.com/wp-content/uploads/FTC-action.webp\" title=\"FTC Action Hits Illuminate Education Over Massive Student Data Breach 7\" width=\"1280\" /></p>FTC action takes center stage as the U.S. Federal Trade Commission has announced strong enforcement steps against education technology (Edtech) provider Illuminate Education, following a <a href=\"https://thecyberexpress.com/illuminate-education-data-breach/\" rel=\"nofollow noopener\" target=\"_blank\">major data breach</a> that exposed the personal information of more than 10 million students across the United States.\n\nThe age",
+    "published": "Tue, 02 Dec 2025 07:09:12 +0000",
+    "source_name": "Thecyberexpress",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "thecyberexpress.com"
+  },
+  {
+    "title": "Qualcomm Issues Critical Security Alert Over Secure Boot Vulnerability",
+    "link": "https://thecyberexpress.com/qualcomm-2025-security-alert/",
+    "summary": "<p><img alt=\"Qualcomm security update\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"1280\" src=\"https://thecyberexpress.com/wp-content/uploads/Qualcomm.webp\" title=\"Qualcomm Issues Critical Security Alert Over Secure Boot Vulnerability 9\" width=\"1920\" /></p><span>Qualcomm warned partners and device manufacturers about multiple newly discovered vulnerabilities that span its chipset ecosystem. The Qualcomm released a detailed security bulletin on December 1, 2025, outlining six high-priority weaknesses in its proprietary software, including one flaw that directly compromises the secure boot process, one of the most sensitive stages in a device’s startup chain.</sp",
+    "published": "Tue, 02 Dec 2025 06:16:54 +0000",
+    "source_name": "Thecyberexpress",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "thecyberexpress.com"
+  },
+  {
+    "title": "GPS Spoofing Detected Across Major Indian Airports; Government Tightens Security",
+    "link": "https://thecyberexpress.com/india-confirms-gps-spoofing-attempts/",
+    "summary": "<p><img alt=\"GPS Spoofing\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"961\" src=\"https://thecyberexpress.com/wp-content/uploads/GPS-Spoofing.webp\" title=\"GPS Spoofing Detected Across Major Indian Airports; Government Tightens Security 11\" width=\"1280\" /></p>The Union government of India, the country’s central federal administration, on Monday confirmed several instances of GPS spoofing near Delhi’s Indira Gandhi International Airport (IGIA) and other major <a href=\"https://thecyberexpress.com/indian-airports-blue-screen-of-death-error/\" rel=\"noopener\" target=\"_blank\">airports</a>. Officials said that despite the interference, all flights continued to operate s",
+    "published": "Tue, 02 Dec 2025 05:37:04 +0000",
+    "source_name": "Thecyberexpress",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "thecyberexpress.com"
+  },
+  {
+    "title": "Cryptocurrency Mixing Service, Millions in Bitcoin Seized by Law Enforcement",
+    "link": "https://thecyberexpress.com/cryptocurrency-mixing-service-bitcoin-seized/",
+    "summary": "<p><img alt=\"cryptocurrency mixing service Cryptomixer seized by law enforcement\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"900\" src=\"https://thecyberexpress.com/wp-content/uploads/OP-Olympia-seizure-banner.jpeg.webp\" title=\"Cryptocurrency Mixing Service, Millions in Bitcoin Seized by Law Enforcement 13\" width=\"1600\" /></p>European law enforcement agencies have taken down an illegal cryptocurrency mixing service that they say has been used to facilitate cybercrime and money laundering.\n\nThe operation to take down the cryptocurrency mixing service ‘Cryptomixer’ was conducted between November 24 and 28 and was <a href=\"https://www.europol.europa.eu/media-press",
+    "published": "Mon, 01 Dec 2025 19:38:33 +0000",
+    "source_name": "Thecyberexpress",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "thecyberexpress.com"
+  },
+  {
+    "title": "Australian Man Gets 7 Years for ‘Evil Twin’ WiFi Attacks",
+    "link": "https://thecyberexpress.com/australian-man-jailed-evil-twin-wifi-attacks/",
+    "summary": "<p><img alt=\"Australian evil twin wifi attack\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"853\" src=\"https://thecyberexpress.com/wp-content/uploads/pexels-anntarazevich-6173663.jpg\" title=\"Australian Man Gets 7 Years for ‘Evil Twin’ WiFi Attacks 15\" width=\"1280\" /></p>An Australian man has been sentenced to more than seven years in jail on charges that he created ‘evil twin’ WiFi networks to hack into women’s online accounts to steal intimate photos and videos.\n\nThe Australian Federal Police (AFP) didn’t name the man in <a href=\"https://www.afp.gov.au/news-centre/media-release/wa-man-jailed-stealing-intimate-material-and-using-evil-twin-wifi\">announcing</a> th",
+    "published": "Mon, 01 Dec 2025 17:38:19 +0000",
+    "source_name": "Thecyberexpress",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "thecyberexpress.com"
+  },
+  {
+    "title": "Airbus Nears Completion of A320 Retrofit as Regulators Monitor Largest Emergency Recall in Company History",
+    "link": "https://thecyberexpress.com/airbus-a320-software-recall-retrofit/",
+    "summary": "<p><img alt=\"Airbus\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"1278\" src=\"https://thecyberexpress.com/wp-content/uploads/Airbus.webp\" title=\"Airbus Nears Completion of A320 Retrofit as Regulators Monitor Largest Emergency Recall in Company History 17\" width=\"1920\" /></p><span>Airbus has entered the final phase of its unprecedented global retrofit effort, confirming that fewer than 100 A320s in service still require updates after the discovery of a software vulnerability that triggered the largest emergency recall the manufacturer has ever executed. The company disclosed on Monday that nearly the entire A320-family fleet, about 6,000 aircraft worldwide, has n",
+    "published": "Mon, 01 Dec 2025 13:17:48 +0000",
+    "source_name": "Thecyberexpress",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "thecyberexpress.com"
+  },
+  {
+    "title": "Linux Kernel 6.18 Launches With Big Architectural Upgrades and Bcachefs Removal",
+    "link": "https://thecyberexpress.com/linux-kernel-6-18-release/",
+    "summary": "<p><img alt=\"Linux Kernel\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"1280\" src=\"https://thecyberexpress.com/wp-content/uploads/Linux-Kernel.webp\" title=\"Linux Kernel 6.18 Launches With Big Architectural Upgrades and Bcachefs Removal 19\" width=\"1920\" /></p><span>The Linux Kernel project reached another milestone with the official release of version 6.18, announced by Linus Torvalds. This update introduces a wide array of architectural changes, hardware enablement improvements, and feature adjustments, while also signaling a notable shift in how certain subsystems are maintained.</span><span> </span>\n\n<span>Although the release is immediately available from ke",
+    "published": "Mon, 01 Dec 2025 08:10:47 +0000",
+    "source_name": "Thecyberexpress",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "thecyberexpress.com"
+  },
+  {
+    "title": "The Congressional remedy for Salt Typhoon? More information sharing with industry",
+    "link": "https://cyberscoop.com/salt-typhoon-senate-commerce-hearing-fcc-telecom-cybersecurity/",
+    "summary": "<p>A year after Chinese hackers were found in U.S. telecom networks, Congress and federal agencies have taken few concrete actions to stop the next hack.</p>\n<p>The post <a href=\"https://cyberscoop.com/salt-typhoon-senate-commerce-hearing-fcc-telecom-cybersecurity/\">The Congressional remedy for Salt Typhoon? More information sharing with industry</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
+    "published": "Tue, 02 Dec 2025 18:57:43 +0000",
+    "source_name": "Cyberscoop",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "cyberscoop.com"
+  },
+  {
+    "title": "University of Pennsylvania joins growing pool of Oracle customers impacted by Clop attacks",
+    "link": "https://cyberscoop.com/university-pennsylvania-oracle-e-business-suite-clop-attacks/",
+    "summary": "<p>The Ivy League school said it was one of almost 100 organizations hit by the simultaneous attacks in August.</p>\n<p>The post <a href=\"https://cyberscoop.com/university-pennsylvania-oracle-e-business-suite-clop-attacks/\">University of Pennsylvania joins growing pool of Oracle customers impacted by Clop attacks</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
+    "published": "Tue, 02 Dec 2025 18:41:07 +0000",
+    "source_name": "Cyberscoop",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "cyberscoop.com"
+  },
+  {
+    "title": "Legislation would designate ‘critical cyber threat actors,’ direct sanctions against them",
+    "link": "https://cyberscoop.com/legislation-would-designate-critical-cyber-threat-actors-direct-sanctions-against-them/",
+    "summary": "<p>The bill is a bid at further deterring cyberattacks, a sentiment with growing focus on the Hill and in the Trump administration.</p>\n<p>The post <a href=\"https://cyberscoop.com/legislation-would-designate-critical-cyber-threat-actors-direct-sanctions-against-them/\">Legislation would designate ‘critical cyber threat actors,’ direct sanctions against them</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
+    "published": "Tue, 02 Dec 2025 18:30:06 +0000",
+    "source_name": "Cyberscoop",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "cyberscoop.com"
+  },
+  {
+    "title": "Google addresses 107 Android vulnerabilities, including two zero-days",
+    "link": "https://cyberscoop.com/android-security-update-december-2025/",
+    "summary": "<p>The company’s latest security update contains the second-highest number of defects patched so far this year.</p>\n<p>The post <a href=\"https://cyberscoop.com/android-security-update-december-2025/\">Google addresses 107 Android vulnerabilities, including two zero-days</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
+    "published": "Mon, 01 Dec 2025 22:17:43 +0000",
+    "source_name": "Cyberscoop",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "cyberscoop.com"
+  },
+  {
+    "title": "Authorities take down Cryptomixer, seize $28M in Switzerland",
+    "link": "https://cyberscoop.com/cryptomixer-takedown-seizure-europol/",
+    "summary": "<p>The cryptocurrency mixing service helped cybercriminals launder more than $1.5 billion in Bitcoin since it began operations in 2016, Europol said.</p>\n<p>The post <a href=\"https://cyberscoop.com/cryptomixer-takedown-seizure-europol/\">Authorities take down Cryptomixer, seize $28M in Switzerland</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
+    "published": "Mon, 01 Dec 2025 18:03:45 +0000",
+    "source_name": "Cyberscoop",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "cyberscoop.com"
+  },
+  {
+    "title": "Crisis24 shuts down emergency notification system in wake of ransomware attack",
+    "link": "https://cyberscoop.com/crisis24-onsolve-codered-emergency-system-ransomware/",
+    "summary": "<p>OnSolve CodeRED was damaged by the attack and has been nonoperational since earlier this month. Dozens of agencies and their respective users have been impacted by the outage and data theft.</p>\n<p>The post <a href=\"https://cyberscoop.com/crisis24-onsolve-codered-emergency-system-ransomware/\">Crisis24 shuts down emergency notification system in wake of ransomware attack</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
+    "published": "Wed, 26 Nov 2025 21:44:13 +0000",
+    "source_name": "Cyberscoop",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "cyberscoop.com"
+  },
+  {
+    "title": "Congress calls on Anthropic CEO to testify on Chinese Claude espionage campaign",
+    "link": "https://cyberscoop.com/house-homeland-asks-anthropic-ceo-to-testfy-on-chinese-espionage-campaign/",
+    "summary": "<p>The House Homeland Security Committee asked Dario Amodei to answer questions about the implications of the attack and how policymakers and AI companies can respond.</p>\n<p>The post <a href=\"https://cyberscoop.com/house-homeland-asks-anthropic-ceo-to-testfy-on-chinese-espionage-campaign/\">Congress calls on Anthropic CEO to testify on Chinese Claude espionage campaign</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
+    "published": "Wed, 26 Nov 2025 18:34:36 +0000",
+    "source_name": "Cyberscoop",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "cyberscoop.com"
+  },
+  {
+    "title": "New legislation targets scammers that use AI to deceive",
+    "link": "https://cyberscoop.com/new-legislation-targets-scammers-that-use-ai-to-deceive/",
+    "summary": "<p>Following a rash of AI-assisted impersonations of U.S. officials, the bill would raise the financial and criminal penalties around using the technology to defraud. </p>\n<p>The post <a href=\"https://cyberscoop.com/new-legislation-targets-scammers-that-use-ai-to-deceive/\">New legislation targets scammers that use AI to deceive</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
+    "published": "Wed, 26 Nov 2025 18:29:47 +0000",
+    "source_name": "Cyberscoop",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "cyberscoop.com"
+  },
+  {
+    "title": "‘Stranger Things’ emerge when OT security is stuck in the past",
+    "link": "https://cyberscoop.com/stranger-things-legacy-ot-security-op-ed/",
+    "summary": "<p>While 1980s nostalgia is all the rage with the return of 'Stranger Things,' clinging to legacy technology in operational environments brings real risks—not just retro charm.</p>\n<p>The post <a href=\"https://cyberscoop.com/stranger-things-legacy-ot-security-op-ed/\">‘Stranger Things’ emerge when OT security is stuck in the past</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
+    "published": "Wed, 26 Nov 2025 12:00:00 +0000",
+    "source_name": "Cyberscoop",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "cyberscoop.com"
+  },
+  {
+    "title": "Gainsight CEO downplays impact of attack that spread to Salesforce environments",
+    "link": "https://cyberscoop.com/gainsight-ceo-downplays-salesforce-attack/",
+    "summary": "<p>Details about the attack are scattered, and discrepancies remain about the number of companies impacted and the extent to which they are compromised.</p>\n<p>The post <a href=\"https://cyberscoop.com/gainsight-ceo-downplays-salesforce-attack/\">Gainsight CEO downplays impact of attack that spread to Salesforce environments</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
+    "published": "Tue, 25 Nov 2025 22:36:36 +0000",
+    "source_name": "Cyberscoop",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "cyberscoop.com"
+  },
+  {
+    "title": "Student Loan Breach Exposes 2.5M Records",
+    "link": "https://threatpost.com/student-loan-breach-exposes-2-5m-records/180492/",
+    "summary": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
+    "published": "Wed, 31 Aug 2022 12:57:48 +0000",
+    "source_name": "Threatpost",
+    "source_icon": "Alert Triangle",
+    "source_tag": "Kaspersky Lab",
+    "domain": "threatpost.com"
+  },
+  {
+    "title": "Watering Hole Attacks Push ScanBox Keylogger",
+    "link": "https://threatpost.com/watering-hole-attacks-push-scanbox-keylogger/180490/",
+    "summary": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
+    "published": "Tue, 30 Aug 2022 16:00:43 +0000",
+    "source_name": "Threatpost",
+    "source_icon": "Alert Triangle",
+    "source_tag": "Kaspersky Lab",
+    "domain": "threatpost.com"
+  },
+  {
+    "title": "Tentacles of ‘0ktapus’ Threat Group Victimize 130 Firms",
+    "link": "https://threatpost.com/0ktapus-victimize-130-firms/180487/",
+    "summary": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
+    "published": "Mon, 29 Aug 2022 14:56:19 +0000",
+    "source_name": "Threatpost",
+    "source_icon": "Alert Triangle",
+    "source_tag": "Kaspersky Lab",
+    "domain": "threatpost.com"
+  },
+  {
+    "title": "Ransomware Attacks are on the Rise",
+    "link": "https://threatpost.com/ransomware-attacks-are-on-the-rise/180481/",
+    "summary": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
+    "published": "Fri, 26 Aug 2022 16:44:27 +0000",
+    "source_name": "Threatpost",
+    "source_icon": "Alert Triangle",
+    "source_tag": "Kaspersky Lab",
+    "domain": "threatpost.com"
+  },
+  {
+    "title": "Cybercriminals Are Selling Access to Chinese Surveillance Cameras",
+    "link": "https://threatpost.com/cybercriminals-are-selling-access-to-chinese-surveillance-cameras/180478/",
+    "summary": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
+    "published": "Thu, 25 Aug 2022 18:47:15 +0000",
+    "source_name": "Threatpost",
+    "source_icon": "Alert Triangle",
+    "source_tag": "Kaspersky Lab",
+    "domain": "threatpost.com"
+  },
+  {
+    "title": "Twitter Whistleblower Complaint: The TL;DR Version",
+    "link": "https://threatpost.com/twitter-whistleblower-tldr-version/180472/",
+    "summary": "Twitter is blasted for security and privacy lapses by the company’s former head of security who alleges the social media giant’s actions amount to a national security risk.",
+    "published": "Wed, 24 Aug 2022 14:17:04 +0000",
+    "source_name": "Threatpost",
+    "source_icon": "Alert Triangle",
+    "source_tag": "Kaspersky Lab",
+    "domain": "threatpost.com"
+  },
+  {
+    "title": "Firewall Bug Under Active Attack Triggers CISA Warning",
+    "link": "https://threatpost.com/firewall-bug-under-active-attack-cisa-warning/180467/",
+    "summary": "CISA is warning that Palo Alto Networks’ PAN-OS is under active attack and needs to be patched ASAP.",
+    "published": "Tue, 23 Aug 2022 13:19:58 +0000",
+    "source_name": "Threatpost",
+    "source_icon": "Alert Triangle",
+    "source_tag": "Kaspersky Lab",
+    "domain": "threatpost.com"
+  },
+  {
+    "title": "Fake Reservation Links Prey on Weary Travelers",
+    "link": "https://threatpost.com/reservation-links-prey-on-travelers/180462/",
+    "summary": "Fake travel reservations are exacting more pain from the travel weary, already dealing with the misery of canceled flights and overbooked hotels.",
+    "published": "Mon, 22 Aug 2022 13:59:06 +0000",
+    "source_name": "Threatpost",
+    "source_icon": "Alert Triangle",
+    "source_tag": "Kaspersky Lab",
+    "domain": "threatpost.com"
+  },
+  {
+    "title": "iPhone Users Urged to Update to Patch 2 Zero-Days",
+    "link": "https://threatpost.com/iphone-users-urged-to-update-to-patch-2-zero-days-under-attack/180448/",
+    "summary": "Separate fixes to macOS and iOS patch respective flaws in the kernel and WebKit that can allow threat actors to take over devices and are under attack.",
+    "published": "Fri, 19 Aug 2022 15:25:56 +0000",
+    "source_name": "Threatpost",
+    "source_icon": "Alert Triangle",
+    "source_tag": "Kaspersky Lab",
+    "domain": "threatpost.com"
+  },
+  {
+    "title": "Google Patches Chrome’s Fifth Zero-Day of the Year",
+    "link": "https://threatpost.com/google-patches-chromes-fifth-zero-day-of-the-year/180432/",
+    "summary": "An insufficient validation input flaw, one of 11 patched in an update this week, could allow for arbitrary code execution and is under active attack.",
+    "published": "Thu, 18 Aug 2022 14:31:38 +0000",
+    "source_name": "Threatpost",
+    "source_icon": "Alert Triangle",
+    "source_tag": "Kaspersky Lab",
+    "domain": "threatpost.com"
+  },
+  {
+    "title": "Threat intelligence programs are broken, here is how to fix them",
+    "link": "https://www.helpnetsecurity.com/2025/12/03/isaca-threat-intelligence-programs-report/",
+    "summary": "<p>Security teams often gather large amounts of threat data but still struggle to improve detection or response. Analysts work through long lists of alerts, leaders get unclear insights, and executives see costs that do not lead to better outcomes. A recent report from ISACA notes that this gap remains wide across enterprises, and explains that organizations collect information at a pace that makes it hard to understand what matters. The issue is not access to &#8230; <a href=\"https://www.helpnetsecurity.com/2025/12/03/isaca-threat-intelligence-programs-report/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2025/12/03/i",
+    "published": "Wed, 03 Dec 2025 05:00:54 +0000",
+    "source_name": "Help Net Security",
+    "source_icon": "Shield",
+    "source_tag": "Security Portal",
+    "domain": "www.helpnetsecurity.com"
+  },
+  {
+    "title": "Google fixes Android vulnerabilities “under targeted exploitation” (CVE-2025-48633, CVE-2025-48572)",
+    "link": "https://www.helpnetsecurity.com/2025/12/02/android-cve-2025-48633-cve-2025-48572/",
+    "summary": "<p>Google has shipped patches for 51 Android vulnerabilities, including two high-severity flaws (CVE-2025-48633, CVE-2025-48572) that &#8220;may be under limited, targeted exploitation&#8221;. According to the December Android security bulletin, both vulnerabilities affect the Android Framework, which is a collection of core software components, libraries, and APIs that developers use to build Android apps. Their exact nature has yet to be revealed, but the bulletin notes that CVE-2025-48633 can be exploited by Android applications to access sensitive &#8230; <a href=\"https://www.helpnetsecurity.com/2025/12/02/android-cve-2025-48633-cve-2025-48572/\" rel=\"nofollow\">More <span class=\"meta-nav\"",
+    "published": "Tue, 02 Dec 2025 14:48:50 +0000",
+    "source_name": "Help Net Security",
+    "source_icon": "Shield",
+    "source_tag": "Security Portal",
+    "domain": "www.helpnetsecurity.com"
+  },
+  {
+    "title": "Forward Edge-AI delivers quantum-safe data diode and earns communications patent",
+    "link": "https://www.helpnetsecurity.com/2025/12/02/forward-edge-ai-isidore-quantum/",
+    "summary": "<p>Forward Edge-AI announced two major milestones in advancing quantum-resistant communications: the United States Patent and Trademark Office (USPTO) has issued a Notice of Allowance for its patent application covering attack-resilient, trust-verified communications, and the company has delivered its Isidore Quantum One-Way Data Diode to National Central University (NCU) in Taiwan. Breakthrough deployment to National Central University The delivery of Isidore Quantum to National Central University marks a significant milestone in cross-national research collaboration on next-generation &#8230; <a href=\"https://www.helpnetsecurity.com/2025/12/02/forward-edge-ai-isidore-quantum/\" rel=\"nofollo",
+    "published": "Tue, 02 Dec 2025 14:35:49 +0000",
+    "source_name": "Help Net Security",
+    "source_icon": "Shield",
+    "source_tag": "Security Portal",
+    "domain": "www.helpnetsecurity.com"
+  },
+  {
+    "title": "Span Cyber Security Arena 2026 to offer new perspectives on the development of cybersecurity",
+    "link": "https://www.helpnetsecurity.com/2025/12/02/span-cyber-security-arena-2026-conference/",
+    "summary": "<p>Through lectures, deep-dive presentations, best practice examples, and masterclasses, the focus of Span Cyber Security Arena 2026 will be on what strengthens our defense against cyber threats. Span Cyber Security Arena 2026 will be held in Poreč from May 20 to 22, 2026, at the Pical Resort 5* Valamar Collection. Keynote speakers are Sami Laiho and Joe Tidy. Sami Laiho is known as one of the world’s leading experts in Windows security. Laiho will provide &#8230; <a href=\"https://www.helpnetsecurity.com/2025/12/02/span-cyber-security-arena-2026-conference/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2025/12/02/span-",
+    "published": "Tue, 02 Dec 2025 12:14:25 +0000",
+    "source_name": "Help Net Security",
+    "source_icon": "Shield",
+    "source_tag": "Security Portal",
+    "domain": "www.helpnetsecurity.com"
+  },
+  {
+    "title": "Radiant Logic expands RadiantOne with composable remediation and unified identity observability",
+    "link": "https://www.helpnetsecurity.com/2025/12/02/radiant-logic-radiantone-platform-enhancements/",
+    "summary": "<p>Radiant Logic announced major enhancements to its RadiantOne Platform. The release introduces new AI-powered collaborative remediation, an agentic AI-first approach that leverages the Model Context Protocol (MCP) standard, and support for the Shared Signals Framework (SSF) with the Continuous Access Evaluation Profile (CAEP). Collectively, these capabilities transform visibility into continuous, actionable intelligence that triggers immediate responses to identity risks and policy violations, ensuring a more robust Zero Trust approach and a more resilient identity environment. &#8230; <a href=\"https://www.helpnetsecurity.com/2025/12/02/radiant-logic-radiantone-platform-enhancements/\" rel=",
+    "published": "Tue, 02 Dec 2025 11:33:58 +0000",
+    "source_name": "Help Net Security",
+    "source_icon": "Shield",
+    "source_tag": "Security Portal",
+    "domain": "www.helpnetsecurity.com"
+  },
+  {
+    "title": "How a noisy ransomware intrusion exposed a long-term espionage foothold",
+    "link": "https://www.helpnetsecurity.com/2025/12/02/threat-research-ransomware-espionage-attack/",
+    "summary": "<p>Getting breached by two separate and likely unconnected cyber attack groups is a nightmare scenario for any organization, but can result in an unexpected silver lining: the noisier intrusion can draw attention to a far stealthier threat that might otherwise linger undetected for months. A double whammy In a recently published report, threat researchers at Positive Technologies have detailed the findings of their investigation into two incidents at Russian companies, which they have tied to: &#8230; <a href=\"https://www.helpnetsecurity.com/2025/12/02/threat-research-ransomware-espionage-attack/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://",
+    "published": "Tue, 02 Dec 2025 10:51:22 +0000",
+    "source_name": "Help Net Security",
+    "source_icon": "Shield",
+    "source_tag": "Security Portal",
+    "domain": "www.helpnetsecurity.com"
+  },
+  {
+    "title": "MuddyWater cyber campaign adds new backdoors in latest wave of attacks",
+    "link": "https://www.helpnetsecurity.com/2025/12/02/eset-muddywater-cyber-campaign/",
+    "summary": "<p>ESET researchers say an Iran aligned threat group is refining its playbook again, and the latest activity shows how much its tactics have shifted. MuddyWater is a long running cyberespionage group, and new findings points to a campaign that hits a range of organizations in Israel, with one confirmed victim in Egypt. A wider set of targets and tools Researchers say the victims in Israel were in the technology, engineering, manufacturing, local government and educational &#8230; <a href=\"https://www.helpnetsecurity.com/2025/12/02/eset-muddywater-cyber-campaign/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2025/12/02/",
+    "published": "Tue, 02 Dec 2025 10:00:58 +0000",
+    "source_name": "Help Net Security",
+    "source_icon": "Shield",
+    "source_tag": "Security Portal",
+    "domain": "www.helpnetsecurity.com"
+  },
+  {
+    "title": "Skyflow delivers Runtime AI Data Security for protecting sensitive data in agentic workflows",
+    "link": "https://www.helpnetsecurity.com/2025/12/02/skyflow-runtime-ai-data-security-platform-aws/",
+    "summary": "<p>Skyflow announced the launch of its Runtime AI Data Security platform for AWS AgentCore. While AI models are improving every few months and the industry is investing hundreds of billions of dollars on AI infrastructure, most organizations still struggle to move from demos and prototypes to production-grade agentic applications. As enterprises and the startups and ISVs that serve them begin deploying agentic applications in production, they need a reliable way to protect sensitive customer data. &#8230; <a href=\"https://www.helpnetsecurity.com/2025/12/02/skyflow-runtime-ai-data-security-platform-aws/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"ht",
+    "published": "Tue, 02 Dec 2025 08:27:12 +0000",
+    "source_name": "Help Net Security",
+    "source_icon": "Shield",
+    "source_tag": "Security Portal",
+    "domain": "www.helpnetsecurity.com"
+  },
+  {
+    "title": "Upwind adds real-time AI security and posture management to its CNAPP",
+    "link": "https://www.helpnetsecurity.com/2025/12/02/upwind-ai-security-suite/",
+    "summary": "<p>Upwind announced the launch of its integrated AI security suite, expanding the company’s CNAPP to protect the growing enterprise AI attack surface. The suite introduces real-time AI security, AI posture management, AI agents, and runtime protection, allowing AI security to benefit from the same deep cloud context that already powers Upwind’s CNAPP across data security, API security, identity, and cloud detection and response. “AI security should not be a stand-alone security component,” said Amiram Shachar, &#8230; <a href=\"https://www.helpnetsecurity.com/2025/12/02/upwind-ai-security-suite/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://ww",
+    "published": "Tue, 02 Dec 2025 08:11:00 +0000",
+    "source_name": "Help Net Security",
+    "source_icon": "Shield",
+    "source_tag": "Security Portal",
+    "domain": "www.helpnetsecurity.com"
+  },
+  {
+    "title": "Creative cybersecurity strategies for resource-constrained institutions",
+    "link": "https://www.helpnetsecurity.com/2025/12/02/dennis-pickett-rti-international-research-institutions-cybersecurity/",
+    "summary": "<p>In this Help Net Security interview, Dennis Pickett, CISO at RTI International, talks about how research institutions can approach cybersecurity with limited resources and still build resilience. He discusses the tension between open research and the need to protect sensitive information, noting that workable solutions come from understanding how people get their jobs done. Pickett explains how security teams can partner with researchers to set guardrails that support innovation rather than slow it. He also &#8230; <a href=\"https://www.helpnetsecurity.com/2025/12/02/dennis-pickett-rti-international-research-institutions-cybersecurity/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</s",
+    "published": "Tue, 02 Dec 2025 07:00:51 +0000",
+    "source_name": "Help Net Security",
+    "source_icon": "Shield",
+    "source_tag": "Security Portal",
+    "domain": "www.helpnetsecurity.com"
+  },
+  {
+    "title": "Critical PickleScan Vulnerabilities Expose AI Model Supply Chains",
+    "link": "https://www.infosecurity-magazine.com/news/picklescan-flaws-expose-ai-supply/",
+    "summary": "3 critical zero-day flaws in PickleScan, affecting Python and PyTorch, allowed undetected attacks",
+    "published": "Tue, 02 Dec 2025 16:00:00 GMT",
+    "source_name": "Infosecurity Magazine",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "www.infosecurity-magazine.com"
+  },
+  {
+    "title": "ShadyPanda's Seven-Year Campaign Infects 4.3M Chrome and Edge Users",
+    "link": "https://www.infosecurity-magazine.com/news/shadypanda-infects-43m-chrome-edge/",
+    "summary": "Infected 4.3 million Chrome and Edge users via extensions; ShadyPanda exploited browser marketplaces",
+    "published": "Tue, 02 Dec 2025 15:10:00 GMT",
+    "source_name": "Infosecurity Magazine",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "www.infosecurity-magazine.com"
+  },
+  {
+    "title": "Google Releases Patches for Android Zero-Day Flaws Exploited in the Wild",
+    "link": "https://www.infosecurity-magazine.com/news/google-patches-android-0day/",
+    "summary": "Google said it found indications that two newly identified vulnerabilities affecting Android “may be under limited, targeted exploitation”",
+    "published": "Tue, 02 Dec 2025 11:15:00 GMT",
+    "source_name": "Infosecurity Magazine",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "www.infosecurity-magazine.com"
+  },
+  {
+    "title": "ICO Set to Check If Mobile Games Comply with Children’s Code",
+    "link": "https://www.infosecurity-magazine.com/news/ico-check-mobile-games-comply/",
+    "summary": "The UK Information Commissioner’s Office has launched an investigation into the mobile gaming sector",
+    "published": "Tue, 02 Dec 2025 10:30:00 GMT",
+    "source_name": "Infosecurity Magazine",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "www.infosecurity-magazine.com"
+  },
+  {
+    "title": "Most Companies Fear State-Sponsored Cyber-Attacks and Want More Government Help",
+    "link": "https://www.infosecurity-magazine.com/news/companies-fear-state-attacks-more/",
+    "summary": "New IO study claims 88% of US and UK firms are concerned about state-sponsored cyber-attacks",
+    "published": "Tue, 02 Dec 2025 09:40:00 GMT",
+    "source_name": "Infosecurity Magazine",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "www.infosecurity-magazine.com"
+  },
+  {
+    "title": "New Android Albiriox Malware Gains Traction in Dark Web Markets",
+    "link": "https://www.infosecurity-magazine.com/news/android-maas-malware-albiriox-dark/",
+    "summary": "Android malware Albiriox emerged as MaaS, offering device takeover and real-time fraud capabilities",
+    "published": "Mon, 01 Dec 2025 16:30:00 GMT",
+    "source_name": "Infosecurity Magazine",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "www.infosecurity-magazine.com"
+  },
+  {
+    "title": "South Korea's Coupang Confirms 34 Million Customer Data Leak",
+    "link": "https://www.infosecurity-magazine.com/news/south-korea-coupang-34m-customer/",
+    "summary": "The South Korean police are tracking the suspect behind a cyber-attack targeting e-commerce giant Coupang",
+    "published": "Mon, 01 Dec 2025 15:45:00 GMT",
+    "source_name": "Infosecurity Magazine",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "www.infosecurity-magazine.com"
+  },
+  {
+    "title": "Malware Manipulates AI Detection in Latest npm Package Breach",
+    "link": "https://www.infosecurity-magazine.com/news/malware-ai-detection-npm-package/",
+    "summary": "Malicious npm package targets AI security with misleading prompts, exploiting automated analysis",
+    "published": "Mon, 01 Dec 2025 15:00:00 GMT",
+    "source_name": "Infosecurity Magazine",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "www.infosecurity-magazine.com"
+  },
+  {
+    "title": "Cybersecurity M&A Roundup: Cyber Giants Strengthen AI Security Offerings",
+    "link": "https://www.infosecurity-magazine.com/news/cyber-deals-november-2025/",
+    "summary": "November 2025 saw cybersecurity giants like Palo Alto Networks, Bugcrowd and Zscaler invest in AI-powered security solutions",
+    "published": "Mon, 01 Dec 2025 13:00:00 GMT",
+    "source_name": "Infosecurity Magazine",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "www.infosecurity-magazine.com"
+  },
+  {
+    "title": "Europol Takes Down Illegal Cryptocurrency Mixing Service",
+    "link": "https://www.infosecurity-magazine.com/news/europol-takes-down-illegal/",
+    "summary": "Europol, alongside Swiss and German authorities, dismantled the illegal cryptocurrency mixing service ‘Cryptomixer’",
+    "published": "Mon, 01 Dec 2025 11:10:00 GMT",
+    "source_name": "Infosecurity Magazine",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "www.infosecurity-magazine.com"
+  },
+  {
+    "title": "Australian Man Gets Seven Years for Running “Evil Twin” Wi-Fi",
+    "link": "https://www.infosecurity-magazine.com/news/australian-man-seven-years-evil/",
+    "summary": "A Western Australia man will spend seven years behind bars after stealing intimate data via Wi-Fi",
+    "published": "Mon, 01 Dec 2025 10:30:00 GMT",
+    "source_name": "Infosecurity Magazine",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "www.infosecurity-magazine.com"
+  },
+  {
+    "title": "Royal Borough of Kensington and Chelsea Reveals Data Breach",
+    "link": "https://www.infosecurity-magazine.com/news/royal-borough-kensington-chelsea/",
+    "summary": "At least one London council has had data compromised after a suspected ransomware attack last week",
+    "published": "Mon, 01 Dec 2025 10:02:00 GMT",
+    "source_name": "Infosecurity Magazine",
+    "source_icon": "Link",
+    "source_tag": "News Site",
+    "domain": "www.infosecurity-magazine.com"
+  },
+  {
+    "title": "The best Walmart Cyber Monday deals are still live: Shop the top 35 sales while you can",
+    "link": "https://www.zdnet.com/article/cyber-monday-walmart-deals-tvs-tablets-smartwatches-still-live/",
+    "summary": "Cyber Monday is over, but many of Walmart's best deals are still live -- including on the Nintendo Switch 2, PS5, and Apple products.",
+    "published": "Wed, 03 Dec 2025 03:57:24 GMT",
+    "source_name": "ZDNet Security",
+    "source_icon": "Laptop",
+    "source_tag": "Tech Giant",
+    "domain": "www.zdnet.com"
+  },
+  {
+    "title": "The best Cyber Monday iPad deals still live include sales up to $100 off",
+    "link": "https://www.zdnet.com/article/cyber-monday-ipad-deals-amazon-walmart-best-buy-still-live/",
+    "summary": "Gifting an iPad this holiday season? Some Cyber Monday sales are still available, so take advantage of discounts on an iPad while supplies last.",
+    "published": "Wed, 03 Dec 2025 03:41:24 GMT",
+    "source_name": "ZDNet Security",
+    "source_icon": "Laptop",
+    "source_tag": "Tech Giant",
+    "domain": "www.zdnet.com"
+  },
+  {
+    "title": "These Cyber Monday TV deals are still live: Save up to $2,500 off LG, Samsung, Sony, TCL, & more",
+    "link": "https://www.zdnet.com/article/cyber-monday-tv-deals-live-amazon-best-buy-lg-last-chance/",
+    "summary": "Cyber Monday is over, but if you're in the market for a new TV, lots of deals are still live.",
+    "published": "Wed, 03 Dec 2025 03:34:33 GMT",
+    "source_name": "ZDNet Security",
+    "source_icon": "Laptop",
+    "source_tag": "Tech Giant",
+    "domain": "www.zdnet.com"
+  },
+  {
+    "title": "Is DeepSeek's new model the latest blow to proprietary AI?",
+    "link": "https://www.zdnet.com/article/is-deepseeks-new-model-the-latest-blow-to-proprietary-ai/",
+    "summary": "With impressive benchmark results, the Chinese AI lab's latest open-source release reignites questions about whether expensive models are worth it.",
+    "published": "Wed, 03 Dec 2025 03:00:36 GMT",
+    "source_name": "ZDNet Security",
+    "source_icon": "Laptop",
+    "source_tag": "Tech Giant",
+    "domain": "www.zdnet.com"
+  },
+  {
+    "title": "Our favorite Cyber Monday deals are still live: Shop Amazon, Best Buy, Lowe's sales now",
+    "link": "https://www.zdnet.com/article/cyber-monday-deals-2025-amazon-best-buy-hulu-still-live/",
+    "summary": "Black Friday and Cyber Monday are over, but major retailers are still offering big sales on items from Apple, Samsung, LG, Roku, and more.",
+    "published": "Wed, 03 Dec 2025 02:50:23 GMT",
+    "source_name": "ZDNet Security",
+    "source_icon": "Laptop",
+    "source_tag": "Tech Giant",
+    "domain": "www.zdnet.com"
+  },
+  {
+    "title": "Verizon is giving away a free iPhone, iPad, and Apple Watch for Cyber Monday - how the deal works",
+    "link": "https://www.zdnet.com/article/verizon-is-giving-away-a-free-iphone-ipad-and-apple-watch-for-cyber-monday-how-the-deal-works/",
+    "summary": "Save over $2,000 on Apple tech on Cyber Monday with this bundle offer from Verizon when you sign up for new lines. Here's what to know.",
+    "published": "Wed, 03 Dec 2025 02:14:00 GMT",
+    "source_name": "ZDNet Security",
+    "source_icon": "Laptop",
+    "source_tag": "Tech Giant",
+    "domain": "www.zdnet.com"
+  },
+  {
+    "title": "How to turn off motion smoothing on your TV (and why experts highly recommend doing so)",
+    "link": "https://www.zdnet.com/article/how-to-turn-off-motion-smoothing-on-your-tv-and-why-experts-highly-recommend-doing-so/",
+    "summary": "Motion smoothing can make games appear smoother, but it often compromises the quality of movies and TV shows. Here's how to put a stop to it.",
+    "published": "Wed, 03 Dec 2025 01:59:00 GMT",
+    "source_name": "ZDNet Security",
+    "source_icon": "Laptop",
+    "source_tag": "Tech Giant",
+    "domain": "www.zdnet.com"
+  },
+  {
+    "title": "I tried the viral $2,000 exoskeleton that boosts your strength - and it actually works",
+    "link": "https://www.zdnet.com/article/i-tried-the-viral-2000-exoskeleton-that-boosts-your-strength-and-it-actually-works/",
+    "summary": "I wasn't prepared for the immediate benefits of wearing the Hypershell X Ultra.",
+    "published": "Wed, 03 Dec 2025 01:57:00 GMT",
+    "source_name": "ZDNet Security",
+    "source_icon": "Laptop",
+    "source_tag": "Tech Giant",
+    "domain": "www.zdnet.com"
+  },
+  {
+    "title": "Best Cyber Monday tablet deals 2025: I'm tracking 15+ of the top sales still live today",
+    "link": "https://www.zdnet.com/article/cyber-monday-tablet-deals-oneplus-best-buy-amazon-still-live/",
+    "summary": "These lingering Cyber Monday tablet deals from Apple, Samsung, Microsoft, and more are ending soon.",
+    "published": "Wed, 03 Dec 2025 01:55:52 GMT",
+    "source_name": "ZDNet Security",
+    "source_icon": "Laptop",
+    "source_tag": "Tech Giant",
+    "domain": "www.zdnet.com"
+  },
+  {
+    "title": "5 Samsung bloatware apps you should delete ASAP (and likely won't miss)",
+    "link": "https://www.zdnet.com/article/5-samsung-bloatware-apps-you-should-delete-asap-and-likely-wont-miss/",
+    "summary": "Samsung phones come packed with apps - but some actually worsen the performance. Here are five I'd remove right now.",
+    "published": "Wed, 03 Dec 2025 01:47:00 GMT",
+    "source_name": "ZDNet Security",
+    "source_icon": "Laptop",
+    "source_tag": "Tech Giant",
+    "domain": "www.zdnet.com"
+  },
+  {
+    "title": "I changed 10 settings on my Samsung phone to instantly speed up the performance",
+    "link": "https://www.zdnet.com/article/i-changed-10-settings-on-my-samsung-phone-to-instantly-speed-up-the-performance/",
+    "summary": "Samsung phones are full of smart features, but most people overlook many of them. Here are a few that make a big impact.",
+    "published": "Wed, 03 Dec 2025 01:44:00 GMT",
+    "source_name": "ZDNet Security",
+    "source_icon": "Laptop",
+    "source_tag": "Tech Giant",
+    "domain": "www.zdnet.com"
+  },
+  {
+    "title": "Cyber Monday is over, but you can still shop my favorite deals on Apple, Sony, Bose and more",
+    "link": "https://www.zdnet.com/article/cyber-monday-best-buy-deals-meta-glasses-tvs-apple-watches-still-live/",
+    "summary": "Cyber Monday has ended, but Best Buy is still selling top tech at a discount. Shop my favorites.",
+    "published": "Wed, 03 Dec 2025 01:42:55 GMT",
+    "source_name": "ZDNet Security",
+    "source_icon": "Laptop",
+    "source_tag": "Tech Giant",
+    "domain": "www.zdnet.com"
+  },
+  {
+    "title": "Google's new Android 16 upgrades make a strong case for sticking with Pixel or Samsung",
+    "link": "https://www.zdnet.com/article/googles-new-android-16-upgrades-make-a-strong-case-for-sticking-with-pixel-or-samsung/",
+    "summary": "Android users are getting urgent call indicators, increased scam protection, pinned tabs in Chrome, and more.",
+    "published": "Wed, 03 Dec 2025 01:39:00 GMT",
+    "source_name": "ZDNet Security",
+    "source_icon": "Laptop",
+    "source_tag": "Tech Giant",
+    "domain": "www.zdnet.com"
+  },
+  {
+    "title": "Cyber Monday is over, but you can still shop my favorite Amazon sales on Hisense, Oura, and Apple",
+    "link": "https://www.zdnet.com/article/cyber-monday-amazon-deals-ps5-earbuds-tvs-still-live/",
+    "summary": "Amazon has lingering Cyber Monday deals that are too good to miss, like the Hisense Canvas TV for $350 off.",
+    "published": "Wed, 03 Dec 2025 01:34:53 GMT",
+    "source_name": "ZDNet Security",
+    "source_icon": "Laptop",
+    "source_tag": "Tech Giant",
+    "domain": "www.zdnet.com"
+  },
+  {
+    "title": "I found the best Cyber Monday Apple Watch deals still available today",
+    "link": "https://www.zdnet.com/article/cyber-monday-apple-watch-deals-amazon-best-buy-walmart-still-live/",
+    "summary": "Shop these Cyber Monday deals still available on Apple Watches, including the new Series 11, Ultra 2, and SE 3, before they're gone.",
+    "published": "Wed, 03 Dec 2025 01:22:03 GMT",
+    "source_name": "ZDNet Security",
+    "source_icon": "Laptop",
+    "source_tag": "Tech Giant",
+    "domain": "www.zdnet.com"
+  },
+  {
+    "title": "Best Cyber Monday laptop deals still live: Grab 20 sales on MacBooks, Lenovo, HP, & more",
+    "link": "https://www.zdnet.com/article/cyber-monday-laptop-deals-amazon-best-buy-walmart-still-available/",
+    "summary": "We've gathered the best Cyber Monday deals on laptops still live now, including the new MacBook Air M4 for 25% off.",
+    "published": "Wed, 03 Dec 2025 01:19:06 GMT",
+    "source_name": "ZDNet Security",
+    "source_icon": "Laptop",
+    "source_tag": "Tech Giant",
+    "domain": "www.zdnet.com"
+  },
+  {
+    "title": "I found the best Cyber Monday gaming PC deals on desktops, laptops, and more still live",
+    "link": "https://www.zdnet.com/article/cyber-monday-gaming-pc-deals-acer-amazon-best-buy-still-available/",
+    "summary": "Cyber Monday is over, but you still have a chance to snag great deals on gaming laptops, monitors, and more.",
+    "published": "Wed, 03 Dec 2025 01:12:13 GMT",
+    "source_name": "ZDNet Security",
+    "source_icon": "Laptop",
+    "source_tag": "Tech Giant",
+    "domain": "www.zdnet.com"
+  },
+  {
+    "title": "Google Pixel 10 Pro Fold vs. Samsung Galaxy Z Fold 7: We tried both, and here's who wins",
+    "link": "https://www.zdnet.com/article/google-pixel-10-pro-fold-vs-samsung-galaxy-z-fold-7-we-tried-both-and-heres-who-wins/",
+    "summary": "Samsung's and Google's flagship foldables target different users - here's how to choose the one that best suits you.",
+    "published": "Wed, 03 Dec 2025 01:11:00 GMT",
+    "source_name": "ZDNet Security",
+    "source_icon": "Laptop",
+    "source_tag": "Tech Giant",
+    "domain": "www.zdnet.com"
+  },
+  {
+    "title": "Bose just gave me a reason to retire my AirPods Pro - and this deal makes it easy",
+    "link": "https://www.zdnet.com/article/bose-just-gave-me-a-reason-to-retire-my-airpods-pro-and-this-deal-makes-it-easy/",
+    "summary": "The Bose QuietComfort Ultra 2 offer unmatched comfort and audio quality, in a portable form factor that's great for traveling.",
+    "published": "Wed, 03 Dec 2025 01:03:00 GMT",
+    "source_name": "ZDNet Security",
+    "source_icon": "Laptop",
+    "source_tag": "Tech Giant",
+    "domain": "www.zdnet.com"
+  },
+  {
+    "title": "I've tested dozens of robot vacuums, and these are the top deals still available",
+    "link": "https://www.zdnet.com/article/cyber-monday-robot-vacuum-deals-amazon-and-irobot-still-available/",
+    "summary": "These hand-picked deals on robot vacuums are ending soon, so act fast and grab them before they're gone.",
+    "published": "Wed, 03 Dec 2025 00:56:43 GMT",
+    "source_name": "ZDNet Security",
+    "source_icon": "Laptop",
+    "source_tag": "Tech Giant",
+    "domain": "www.zdnet.com"
+  }
+]
