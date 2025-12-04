@@ -1,0 +1,43 @@
+CYBERBRIEF • DAILY THREAT INTELLIGENCE
+Generated: Thursday, December 04, 2025 - 05:14 UTC
+================================================================================
+
+1. Link Cybersecuritynews  [News Site]
+   Title: Longwatch RCE Vulnerability Let Attackers Execute Remote Code With Elevated Privileges
+   Published: Wed, 03 Dec 2025 17:50:16 +0000
+   Link: https://cybersecuritynews.com/longwatch-rce-vulnerability/
+
+2. Link Thecyberexpress  [News Site]
+   Title: CISA Warns that Two Android Vulnerabilities Are Under Attack
+   Published: Tue, 02 Dec 2025 21:09:01 +0000
+   Link: https://thecyberexpress.com/cisa-warns-android-vulnerabilities-attacked/
+
+3. Shield Help Net Security  [Security Portal]
+   Title: Morphisec enhances Anti-Ransomware Suite to block evasive attacks across key blind spots
+   Published: Wed, 03 Dec 2025 08:20:57 +0000
+   Link: https://www.helpnetsecurity.com/2025/12/03/morphisec-anti-ransomware-assurance-suite-expansion/
+
+4. Link Cybersecuritynews  [News Site]
+   Title: Hackers Exploit Critical Yearn Finance’s yETH Pool Vulnerability to Steal $9 Million in Ethereum
+   Published: Wed, 03 Dec 2025 16:41:41 +0000
+   Link: https://cybersecuritynews.com/hackers-exploit-critical-yearn-finances-yeth-pool-vulnerability/
+
+5. Alert Triangle Threatpost  [Kaspersky Lab]
+   Title: Firewall Bug Under Active Attack Triggers CISA Warning
+   Published: Tue, 23 Aug 2022 13:19:58 +0000
+   Link: https://threatpost.com/firewall-bug-under-active-attack-cisa-warning/180467/
+
+6. User Secret Krebs on Security  [Expert Blog]
+   Title: Microsoft Patch Tuesday, November 2025 Edition
+   Published: Sun, 16 Nov 2025 21:47:14 +0000
+   Link: https://krebsonsecurity.com/2025/11/microsoft-patch-tuesday-november-2025-edition/
+
+7. Link Cybersecuritynews  [News Site]
+   Title: Shai-Hulud 2.0 Malware Attack Compromised 30,000 Repositories and Stolen 500 GitHub Usernames and Tokens
+   Published: Wed, 03 Dec 2025 15:20:02 +0000
+   Link: https://cybersecuritynews.com/shai-hulud-2-0-malware-attack-compromised-30000-repositories/
+
+
+Scanned 135 articles • Top 7 active threats selected
+Next auto-update: 08:00 AM UTC
+Stay safe, stay sharp!
