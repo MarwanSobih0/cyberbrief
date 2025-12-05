@@ -4,7 +4,7 @@ import os
 from datetime import datetime
 from glob import glob
 import pandas as pd
-import re  # NEW: for stripping HTML tags
+import re  # for stripping HTML tags
 
 # Configure Streamlit page
 st.set_page_config(page_title="CYBERBRIEF", page_icon="🛡️", layout="wide")
@@ -12,235 +12,237 @@ st.set_page_config(page_title="CYBERBRIEF", page_icon="🛡️", layout="wide")
 # ================== GLOBAL STYLE (CSS / UI THEME) ==================
 st.markdown(
     """
-    <style>
-    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&family=Rajdhani:wght@500;700&display=swap');
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&family=Rajdhani:wght@500;700&display=swap');
 
-    .stApp {
-        background: radial-gradient(circle at 0% 0%, #001a33 0, #000814 40%, #00010f 100%);
-        color: #f5f5f5;
-    }
+.stApp {
+    background: radial-gradient(circle at 0% 0%, #001a33 0, #000814 40%, #00010f 100%);
+    color: #f5f5f5;
+}
 
-    .main-title {
-        font-family: 'Orbitron', sans-serif;
-        font-size: 3.2rem;
-        text-align: center;
-        letter-spacing: 0.25rem;
-        background: linear-gradient(90deg,#00e0ff,#ff00ff);
-        -webkit-background-clip: text;
-        color: transparent;
-        text-shadow: 0 0 25px rgba(0,224,255,0.5);
-        margin-bottom: 0.1rem;
-        margin-top: 0.3rem;
-    }
+.main-title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3.2rem;
+    text-align: center;
+    letter-spacing: 0.25rem;
+    background: linear-gradient(90deg,#00e0ff,#ff00ff);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: 0 0 25px rgba(0,224,255,0.5);
+    margin-bottom: 0.1rem;
+    margin-top: 0.3rem;
+}
 
-    .main-subtitle {
-        font-family: 'Rajdhani', sans-serif;
-        font-size: 1.1rem;
-        text-align: center;
-        color: #b3ecff;
-        margin-bottom: 1.0rem;
-    }
+.main-subtitle {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.1rem;
+    text-align: center;
+    color: #b3ecff;
+    margin-bottom: 1.0rem;
+}
 
-    .news-date {
-        text-align: center;
-        font-family: 'Rajdhani', sans-serif;
-        font-size: 0.9rem;
-        color: #8be9ff;
-        margin-bottom: 0.8rem;
-    }
+.news-date {
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 0.9rem;
+    color: #8be9ff;
+    margin-bottom: 0.8rem;
+}
 
-    .top-alert {
-        position: fixed;
-        top: 0; left: 0; right: 0;
-        background: linear-gradient(90deg,#ff0055,#ff7700);
-        color: white;
-        font-family: 'Rajdhani', sans-serif;
-        font-size: 0.85rem;
-        text-align: center;
-        padding: 0.35rem 1rem;
-        z-index: 1000;
-        box-shadow: 0 0 30px rgba(255,0,85,0.8);
-    }
+.top-alert {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: linear-gradient(90deg,#ff0055,#ff7700);
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 0.85rem;
+    text-align: center;
+    padding: 0.35rem 1rem;
+    z-index: 1000;
+    box-shadow: 0 0 30px rgba(255,0,85,0.8);
+}
 
-    .metric-card {
-        border-radius: 0.9rem;
-        padding: 0.8rem 1rem;
-        background: linear-gradient(145deg,rgba(0,0,0,0.85),rgba(0,40,80,0.92));
-        border: 1px solid rgba(0,255,255,0.25);
-        box-shadow: 0 12px 26px rgba(0,0,0,0.8);
-    }
+.metric-card {
+    border-radius: 0.9rem;
+    padding: 0.8rem 1rem;
+    background: linear-gradient(145deg,rgba(0,0,0,0.85),rgba(0,40,80,0.92));
+    border: 1px solid rgba(0,255,255,0.25);
+    box-shadow: 0 12px 26px rgba(0,0,0,0.8);
+}
 
-    .metric-label {
-        font-family: 'Rajdhani', sans-serif;
-        font-size: 0.85rem;
-        color: #a0aec0;
-        letter-spacing: 0.08em;
-    }
+.metric-label {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 0.85rem;
+    color: #a0aec0;
+    letter-spacing: 0.08em;
+}
 
-    .metric-value {
-        font-family: 'Orbitron', sans-serif;
-        font-size: 1.7rem;
-        color: #00e0ff;
-    }
+.metric-value {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.7rem;
+    color: #00e0ff;
+}
 
-    .metric-extra {
-        font-family: 'Rajdhani', sans-serif;
-        font-size: 0.8rem;
-        color: #cbd5f5;
-        margin-top: 0.3rem;
-    }
+.metric-extra {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 0.8rem;
+    color: #cbd5f5;
+    margin-top: 0.3rem;
+}
 
-    .threat-pill {
-        display: inline-block;
-        padding: 0.15rem 0.55rem;
-        border-radius: 1000px;
-        font-size: 0.75rem;
-        font-family: 'Rajdhani', sans-serif;
-        letter-spacing: 0.08em;
-        border: 1px solid rgba(255,255,255,0.3);
-        margin-top: 0.35rem;
-    }
+.threat-pill {
+    display: inline-block;
+    padding: 0.15rem 0.55rem;
+    border-radius: 1000px;
+    font-size: 0.75rem;
+    font-family: 'Rajdhani', sans-serif;
+    letter-spacing: 0.08em;
+    border: 1px solid rgba(255,255,255,0.3);
+    margin-top: 0.35rem;
+}
 
-    .threat-low {
-        background: rgba(0,255,120,0.08);
-        border-color: rgba(0,255,120,0.6);
-        color: #7CFFB2;
-        box-shadow: 0 0 12px rgba(0,255,120,0.35);
-    }
-    .threat-medium {
-        background: rgba(0,210,255,0.08);
-        border-color: rgba(0,210,255,0.7);
-        color: #7AD8FF;
-        box-shadow: 0 0 12px rgba(0,210,255,0.35);
-    }
-    .threat-high {
-        background: rgba(255,170,0,0.1);
-        border-color: rgba(255,170,0,0.9);
-        color: #FFD27F;
-        box-shadow: 0 0 14px rgba(255,170,0,0.5);
-    }
-    .threat-critical {
-        background: rgba(255,0,90,0.12);
-        border-color: rgba(255,0,90,0.95);
-        color: #FF99C2;
-        box-shadow: 0 0 16px rgba(255,0,90,0.7);
-    }
+.threat-low {
+    background: rgba(0,255,120,0.08);
+    border-color: rgba(0,255,120,0.6);
+    color: #7CFFB2;
+    box-shadow: 0 0 12px rgba(0,255,120,0.35);
+}
+.threat-medium {
+    background: rgba(0,210,255,0.08);
+    border-color: rgba(0,210,255,0.7);
+    color: #7AD8FF;
+    box-shadow: 0 0 12px rgba(0,210,255,0.35);
+}
+.threat-high {
+    background: rgba(255,170,0,0.1);
+    border-color: rgba(255,170,0,0.9);
+    color: #FFD27F;
+    box-shadow: 0 0 14px rgba(255,170,0,0.5);
+}
+.threat-critical {
+    background: rgba(255,0,90,0.12);
+    border-color: rgba(255,0,90,0.95);
+    color: #FF99C2;
+    box-shadow: 0 0 16px rgba(255,0,90,0.7);
+}
 
-    .news-card {
-        position: relative;
-        border-radius: 0.9rem;
-        padding: 0.9rem 1rem;
-        margin-bottom: 0.7rem;
-        background: radial-gradient(circle at 0% 0%,rgba(0,255,255,0.08),transparent 45%),
-                    radial-gradient(circle at 100% 100%,rgba(255,0,255,0.10),transparent 50%),
-                    rgba(10,10,20,0.96);
-        border: 1px solid rgba(0,255,255,0.18);
-        box-shadow: 0 8px 18px rgba(0,0,0,0.7);
-        overflow: hidden;
-    }
+.news-card {
+    position: relative;
+    border-radius: 0.9rem;
+    padding: 0.9rem 1rem 0.8rem 1rem;
+    margin-bottom: 0.7rem;
+    background: radial-gradient(circle at 0% 0%,rgba(0,255,255,0.08),transparent 45%),
+                radial-gradient(circle at 100% 100%,rgba(255,0,255,0.10),transparent 50%),
+                rgba(10,10,20,0.96);
+    border: 1px solid rgba(0,255,255,0.18);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.7);
+    overflow: hidden;
+}
 
-    .news-rank {
-        position: absolute;
-        top: 0.45rem;
-        left: 0.9rem;
-        background: #020617;
-        color: #22d3ee;
-        border: 1px solid #22d3ee;
-        padding: 0.05rem 0.55rem;
-        border-radius: 999px;
-        font-family: 'Orbitron', sans-serif;
-        font-size: 0.78rem;
-        letter-spacing: 0.1em;
-        box-shadow: 0 0 10px rgba(34,211,238,0.6);
-    }
+.news-rank {
+    position: absolute;
+    top: 0.45rem;
+    left: 0.9rem;
+    background: #020617;
+    color: #22d3ee;
+    border: 1px solid #22d3ee;
+    padding: 0.05rem 0.55rem;
+    border-radius: 999px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 0.78rem;
+    letter-spacing: 0.1em;
+    box-shadow: 0 0 10px rgba(34,211,238,0.6);
+    z-index: 5;
+}
 
-    .news-title {
-        font-family: 'Rajdhani', sans-serif;
-        font-size: 1.05rem;
-        color: #e6f6ff;
-        margin-bottom: 0.2rem;
-        margin-left: 0.2rem;
-    }
+.news-title {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.05rem;
+    color: #e6f6ff;
+    margin-bottom: 0.2rem;
+    margin-left: 0.2rem;
+    margin-top: 0.2rem;
+}
 
-    .news-meta {
-        font-family: 'Rajdhani', sans-serif;
-        font-size: 0.8rem;
-        color: #9ae6ff;
-        margin-bottom: 0.3rem;
-        margin-left: 0.2rem;
-    }
+.news-meta {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 0.8rem;
+    color: #9ae6ff;
+    margin-bottom: 0.25rem;
+    margin-left: 0.2rem;
+}
 
-    .news-summary {
-        font-size: 0.85rem;
-        line-height: 1.5;
-        color: #e2e8f0;
-        margin-left: 0.2rem;
-        margin-right: 0.2rem;
-    }
+.news-summary {
+    font-size: 0.85rem;
+    line-height: 1.5;
+    color: #e2e8f0;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+}
 
-    .news-footer {
-        margin-top: 0.6rem;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 0.5rem;
-        flex-wrap: wrap;
-        margin-left: 0.2rem;
-        margin-right: 0.2rem;
-    }
+.news-footer {
+    margin-top: 0.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+}
 
-    .btn-link {
-        display: inline-block;
-        font-family: 'Rajdhani', sans-serif;
-        font-size: 0.85rem;
-        font-weight: 700;
-        color: #0ea5e9;
-        text-decoration: none;
-        padding: 0.25rem 0.7rem;
-        border-radius: 999px;
-        border: 1px solid rgba(56,189,248,0.7);
-        background: rgba(15,23,42,0.9);
-    }
-    .btn-link:hover {
-        background: rgba(56,189,248,0.1);
-    }
+.btn-link {
+    display: inline-block;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #0ea5e9;
+    text-decoration: none;
+    padding: 0.25rem 0.7rem;
+    border-radius: 999px;
+    border: 1px solid rgba(56,189,248,0.7);
+    background: rgba(15,23,42,0.9);
+}
+.btn-link:hover {
+    background: rgba(56,189,248,0.1);
+}
 
-    .btn-bookmark {
-        font-size: 0.8rem;
-        padding: 0.2rem 0.7rem;
-        border-radius: 999px;
-        border: 1px solid rgba(255,255,255,0.35);
-        background: transparent;
-        color: #f5f5f5;
-    }
-    .btn-bookmark:hover {
-        background: rgba(255,255,255,0.1);
-    }
+.btn-bookmark {
+    font-size: 0.8rem;
+    padding: 0.2rem 0.7rem;
+    border-radius: 999px;
+    border: 1px solid rgba(255,255,255,0.35);
+    background: transparent;
+    color: #f5f5f5;
+}
+.btn-bookmark:hover {
+    background: rgba(255,255,255,0.1);
+}
 
-    .chip {
-        display:inline-block;
-        padding:0.15rem 0.6rem;
-        border-radius:999px;
-        font-size:0.7rem;
-        border:1px solid rgba(148,163,184,0.9);
-        color:#cbd5f5;
-        margin-right:0.25rem;
-        margin-top:0.2rem;
-    }
+.chip {
+    display:inline-block;
+    padding:0.15rem 0.6rem;
+    border-radius:999px;
+    font-size:0.7rem;
+    border:1px solid rgba(148,163,184,0.9);
+    color:#cbd5f5;
+    margin-right:0.25rem;
+    margin-top:0.2rem;
+}
 
-    .learning-box {
-        border-radius: 1.0rem;
-        padding: 0.9rem 1.0rem;
-        background: rgba(8,47,73,0.85);
-        border: 1px solid rgba(56,189,248,0.7);
-        margin-bottom: 0.7rem;
-    }
+.learning-box {
+    border-radius: 1.0rem;
+    padding: 0.9rem 1.0rem;
+    background: rgba(8,47,73,0.85);
+    border: 1px solid rgba(56,189,248,0.7);
+    margin-bottom: 0.7rem;
+}
 
-    .small-muted {
-        font-size: 0.8rem;
-        color: #94a3b8;
-    }
-    </style>
+.small-muted {
+    font-size: 0.8rem;
+    color: #94a3b8;
+}
+</style>
     """,
     unsafe_allow_html=True,
 )
@@ -248,7 +250,6 @@ st.markdown(
 # ================== DATA LOADING HELPERS ==================
 
 def find_latest_news_file(pattern: str = "cybersecurity_news_*.json"):
-    """Find the most recent news JSON file based on the date in the filename."""
     files = glob(pattern)
     if not files:
         return None, None
@@ -265,7 +266,6 @@ def find_latest_news_file(pattern: str = "cybersecurity_news_*.json"):
 
 
 def classify_category(text: str) -> str:
-    """Simple keyword-based classifier to assign a high-level category."""
     t = text.lower()
     if any(w in t for w in ["ransomware","locker","encrypt","decryptor"]):
         return "Ransomware"
@@ -285,7 +285,6 @@ def classify_category(text: str) -> str:
 
 
 def fallback_score(item: dict) -> int:
-    """Compute an importance score if JSON doesn't have 'importance_score'."""
     title = item.get("title","")
     summary = item.get("summary","")
     text = (title + " " + summary).lower()
@@ -313,7 +312,6 @@ def fallback_score(item: dict) -> int:
 
 
 def prepare_news():
-    """Load latest JSON + ensure each item has category + importance_score."""
     fname, fdate = find_latest_news_file()
     if not fname:
         st.error("No news data found. Run the collector script first.")
@@ -337,11 +335,7 @@ def prepare_news():
     return data, fdate, fname
 
 
-# NEW: strip HTML tags from summaries so الصور و الأكواد ما تظهرش جوه الكارت
 def strip_html_tags(text: str) -> str:
-    """
-    Remove basic HTML tags from a string to avoid breaking our card layout.
-    """
     if not text:
         return ""
     clean = re.sub(r"<[^>]+>", "", text)
@@ -353,7 +347,6 @@ news, news_date, news_file = prepare_news()
 # ================== THREAT LEVEL & STATS ==================
 
 def score_to_level(score: int):
-    """Map numeric score to (label, css_class)."""
     if score >= 2000:
         return "CRITICAL", "threat-critical"
     if score >= 1400:
@@ -433,34 +426,34 @@ col1, col2, col3 = st.columns(3)
 with col1:
     st.markdown(
         f"""
-        <div class="metric-card">
-            <div class="metric-label">TOPICS TODAY</div>
-            <div class="metric-value">{len(news)}</div>
-            <div class="metric-extra">Unique stories in this snapshot</div>
-        </div>
+<div class="metric-card">
+    <div class="metric-label">TOPICS TODAY</div>
+    <div class="metric-value">{len(news)}</div>
+    <div class="metric-extra">Unique stories in this snapshot</div>
+</div>
         """,
         unsafe_allow_html=True,
     )
 with col2:
     st.markdown(
         f"""
-        <div class="metric-card">
-            <div class="metric-label">ACTIVE CATEGORIES</div>
-            <div class="metric-value">{len(all_categories)}</div>
-            <div class="metric-extra">{", ".join(all_categories)}</div>
-        </div>
+<div class="metric-card">
+    <div class="metric-label">ACTIVE CATEGORIES</div>
+    <div class="metric-value">{len(all_categories)}</div>
+    <div class="metric-extra">{", ".join(all_categories)}</div>
+</div>
         """,
         unsafe_allow_html=True,
     )
 with col3:
     st.markdown(
         f"""
-        <div class="metric-card">
-            <div class="metric-label">THREAT LEVEL</div>
-            <div class="metric-value">{threat_label}</div>
-            <span class="threat-pill {threat_css}">CURRENT SNAPSHOT</span>
-            <div class="metric-extra">Based on the highest severity story</div>
-        </div>
+<div class="metric-card">
+    <div class="metric-label">THREAT LEVEL</div>
+    <div class="metric-value">{threat_label}</div>
+    <span class="threat-pill {threat_css}">CURRENT SNAPSHOT</span>
+    <div class="metric-extra">Based on the highest severity story</div>
+</div>
         """,
         unsafe_allow_html=True,
     )
@@ -588,24 +581,24 @@ with tab_feed:
                 extra = f"<br><br><span class='small-muted'><b>Simple explanation:</b> {simple_explainer(item)}</span>"
 
             card_html = f"""
-            <div class="news-card">
-                <div class="news-rank">#{idx}</div>
-                <div class="news-title">{item.get('title','')}</div>
-                <div class="news-meta">
-                    Source: <b>{source}</b> • Category: <b>{category}</b> • Severity:
-                    <span class="threat-pill {css}">{lbl}</span>
-                </div>
-                <div class="news-summary">
-                    {summary_short}
-                    {extra}
-                </div>
-                <div class="news-footer">
-                    <a class="btn-link" href="{link}" target="_blank">🔗 Read full report</a>
-                    <span>
-                        <span class="chip">Score: {item.get('importance_score',0)}</span>
-                    </span>
-                </div>
-            </div>
+<div class="news-card">
+    <div class="news-rank">#{idx}</div>
+    <div class="news-title">{item.get('title','')}</div>
+    <div class="news-meta">
+        Source: <b>{source}</b> • Category: <b>{category}</b> • Severity:
+        <span class="threat-pill {css}">{lbl}</span>
+    </div>
+    <div class="news-summary">
+        {summary_short}
+        {extra}
+    </div>
+    <div class="news-footer">
+        <a class="btn-link" href="{link}" target="_blank">🔗 Read full report</a>
+        <span>
+            <span class="chip">Score: {item.get('importance_score',0)}</span>
+        </span>
+    </div>
+</div>
             """
 
             st.markdown(card_html, unsafe_allow_html=True)
@@ -661,21 +654,21 @@ with tab_bookmarks:
             link = item.get("link","#")
 
             card_html = f"""
-            <div class="news-card">
-                <div class="news-rank">#{idx}</div>
-                <div class="news-title">{item.get('title','')}</div>
-                <div class="news-meta">
-                    Source: <b>{item.get('source','Unknown')}</b> • Category: <b>{item.get('category','Other')}</b> • Severity:
-                    <span class="threat-pill {css}">{lbl}</span>
-                </div>
-                <div class="news-summary">
-                    {summary_short}
-                </div>
-                <div class="news-footer">
-                    <a class="btn-link" href="{link}" target="_blank">🔗 Read full report</a>
-                    <span class="chip">Score: {item.get('importance_score',0)}</span>
-                </div>
-            </div>
+<div class="news-card">
+    <div class="news-rank">#{idx}</div>
+    <div class="news-title">{item.get('title','')}</div>
+    <div class="news-meta">
+        Source: <b>{item.get('source','Unknown')}</b> • Category: <b>{item.get('category','Other')}</b> • Severity:
+        <span class="threat-pill {css}">{lbl}</span>
+    </div>
+    <div class="news-summary">
+        {summary_short}
+    </div>
+    <div class="news-footer">
+        <a class="btn-link" href="{link}" target="_blank">🔗 Read full report</a>
+        <span class="chip">Score: {item.get('importance_score',0)}</span>
+    </div>
+</div>
             """
 
             st.markdown(card_html, unsafe_allow_html=True)
@@ -710,10 +703,10 @@ with tab_learning:
     for cat in sorted(seen_cats):
         st.markdown(
             f"""
-            <div class="learning-box">
-                <b>{cat}</b><br>
-                <span class="small-muted">{simple_explainer({'category': cat})}</span>
-            </div>
+<div class="learning-box">
+    <b>{cat}</b><br>
+    <span class="small-muted">{simple_explainer({'category': cat})}</span>
+</div>
             """,
             unsafe_allow_html=True,
         )
