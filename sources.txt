@@ -1,3 +1,4 @@
+# Core cybersecurity news feeds
 https://feeds.feedburner.com/TheHackersNews
 https://krebsonsecurity.com/feed/
 https://www.bleepingcomputer.com/feed/
@@ -12,3 +13,35 @@ https://www.helpnetsecurity.com/feed/
 https://www.infosecurity-magazine.com/rss/news/
 https://www.theregister.com/security/rss
 https://www.zdnet.com/topic/security/rss.xml
+
+# ------------------------------------------------------------------
+# Additional high-quality security RSS feeds
+# NOTE: If any of these return an error, open the site and grab the
+# official RSS/Atom URL from their "RSS" or "Feed" link.
+# ------------------------------------------------------------------
+
+# Vendor / research blogs
+https://nakedsecurity.sophos.com/feed/
+https://securelist.com/feed/
+https://www.welivesecurity.com/feed/
+https://blog.malwarebytes.com/feed/
+https://unit42.paloaltonetworks.com/feed/
+https://blog.talosintelligence.com/feed/
+https://blogs.cisco.com/security/feed
+https://www.crowdstrike.com/blog/feed/
+https://www.trendmicro.com/en_us/research/rss.xml
+https://www.recordedfuture.com/feed
+https://www.fortinet.com/blog/threat-research.rss
+
+# Big-tech / advanced research (security focus)
+https://security.googleblog.com/feeds/posts/default
+https://googleprojectzero.blogspot.com/feeds/posts/default
+https://www.microsoft.com/en-us/security/blog/feed/
+https://blog.mozilla.org/security/feed/
+
+# Regional / extra sources (optional – enable what you need)
+# (You can comment/uncomment as needed)
+https://www.us-cert.gov/ncas/alerts.xml
+https://www.us-cert.gov/ncas/bulletins.xml
+https://www.ncsc.gov.uk/api/1/services/v1/news.rss
+https://www.enisa.europa.eu/news/enisa-news/RSS
