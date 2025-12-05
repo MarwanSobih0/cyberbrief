@@ -4,6 +4,7 @@ import os
 from datetime import datetime
 from glob import glob
 import pandas as pd
+import re  # NEW: for stripping HTML tags
 
 # Configure Streamlit page
 st.set_page_config(page_title="CYBERBRIEF", page_icon="🛡️", layout="wide")
@@ -21,31 +22,31 @@ st.markdown(
 
     .main-title {
         font-family: 'Orbitron', sans-serif;
-        font-size: 4rem;
+        font-size: 3.2rem;
         text-align: center;
         letter-spacing: 0.25rem;
         background: linear-gradient(90deg,#00e0ff,#ff00ff);
         -webkit-background-clip: text;
         color: transparent;
         text-shadow: 0 0 25px rgba(0,224,255,0.5);
-        margin-bottom: 0.2rem;
+        margin-bottom: 0.1rem;
         margin-top: 0.3rem;
     }
 
     .main-subtitle {
         font-family: 'Rajdhani', sans-serif;
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         text-align: center;
         color: #b3ecff;
-        margin-bottom: 1.5rem;
+        margin-bottom: 1.0rem;
     }
 
     .news-date {
         text-align: center;
         font-family: 'Rajdhani', sans-serif;
-        font-size: 1rem;
+        font-size: 0.9rem;
         color: #8be9ff;
-        margin-bottom: 1rem;
+        margin-bottom: 0.8rem;
     }
 
     .top-alert {
@@ -54,143 +55,159 @@ st.markdown(
         background: linear-gradient(90deg,#ff0055,#ff7700);
         color: white;
         font-family: 'Rajdhani', sans-serif;
-        font-size: 0.95rem;
+        font-size: 0.85rem;
         text-align: center;
-        padding: 0.45rem 1rem;
+        padding: 0.35rem 1rem;
         z-index: 1000;
         box-shadow: 0 0 30px rgba(255,0,85,0.8);
     }
 
     .metric-card {
-        border-radius: 1rem;
-        padding: 1rem 1.2rem;
+        border-radius: 0.9rem;
+        padding: 0.8rem 1rem;
         background: linear-gradient(145deg,rgba(0,0,0,0.85),rgba(0,40,80,0.92));
-        border: 1px solid rgba(0,255,255,0.35);
-        box-shadow: 0 20px 45px rgba(0,0,0,0.8);
+        border: 1px solid rgba(0,255,255,0.25);
+        box-shadow: 0 12px 26px rgba(0,0,0,0.8);
     }
 
     .metric-label {
         font-family: 'Rajdhani', sans-serif;
-        font-size: 0.95rem;
+        font-size: 0.85rem;
         color: #a0aec0;
         letter-spacing: 0.08em;
     }
 
     .metric-value {
         font-family: 'Orbitron', sans-serif;
-        font-size: 2.1rem;
+        font-size: 1.7rem;
         color: #00e0ff;
     }
 
     .metric-extra {
         font-family: 'Rajdhani', sans-serif;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         color: #cbd5f5;
-        margin-top: 0.4rem;
+        margin-top: 0.3rem;
     }
 
     .threat-pill {
         display: inline-block;
-        padding: 0.2rem 0.7rem;
+        padding: 0.15rem 0.55rem;
         border-radius: 1000px;
-        font-size: 0.8rem;
+        font-size: 0.75rem;
         font-family: 'Rajdhani', sans-serif;
         letter-spacing: 0.08em;
         border: 1px solid rgba(255,255,255,0.3);
-        margin-top: 0.4rem;
+        margin-top: 0.35rem;
     }
 
     .threat-low {
         background: rgba(0,255,120,0.08);
         border-color: rgba(0,255,120,0.6);
         color: #7CFFB2;
-        box-shadow: 0 0 18px rgba(0,255,120,0.4);
+        box-shadow: 0 0 12px rgba(0,255,120,0.35);
     }
     .threat-medium {
         background: rgba(0,210,255,0.08);
         border-color: rgba(0,210,255,0.7);
         color: #7AD8FF;
-        box-shadow: 0 0 18px rgba(0,210,255,0.4);
+        box-shadow: 0 0 12px rgba(0,210,255,0.35);
     }
     .threat-high {
         background: rgba(255,170,0,0.1);
         border-color: rgba(255,170,0,0.9);
         color: #FFD27F;
-        box-shadow: 0 0 22px rgba(255,170,0,0.55);
+        box-shadow: 0 0 14px rgba(255,170,0,0.5);
     }
     .threat-critical {
         background: rgba(255,0,90,0.12);
         border-color: rgba(255,0,90,0.95);
         color: #FF99C2;
-        box-shadow: 0 0 25px rgba(255,0,90,0.7);
+        box-shadow: 0 0 16px rgba(255,0,90,0.7);
     }
 
     .news-card {
         position: relative;
-        border-radius: 1.4rem;
-        padding: 1.4rem 1.6rem;
-        margin-bottom: 1.3rem;
-        background: radial-gradient(circle at 0% 0%,rgba(0,255,255,0.12),transparent 45%),
-                    radial-gradient(circle at 100% 100%,rgba(255,0,255,0.16),transparent 50%),
-                    rgba(0,0,0,0.88);
-        border: 1px solid rgba(0,255,255,0.3);
-        box-shadow: 0 26px 60px rgba(0,0,0,0.9);
+        border-radius: 0.9rem;
+        padding: 0.9rem 1rem;
+        margin-bottom: 0.7rem;
+        background: radial-gradient(circle at 0% 0%,rgba(0,255,255,0.08),transparent 45%),
+                    radial-gradient(circle at 100% 100%,rgba(255,0,255,0.10),transparent 50%),
+                    rgba(10,10,20,0.96);
+        border: 1px solid rgba(0,255,255,0.18);
+        box-shadow: 0 8px 18px rgba(0,0,0,0.7);
         overflow: hidden;
     }
 
     .news-rank {
         position: absolute;
-        top: -0.7rem;
-        right: 1.6rem;
-        background: linear-gradient(135deg,#ff00ff,#ff9900);
-        color: #000;
-        padding: 0.25rem 0.9rem;
+        top: 0.45rem;
+        left: 0.9rem;
+        background: #020617;
+        color: #22d3ee;
+        border: 1px solid #22d3ee;
+        padding: 0.05rem 0.55rem;
         border-radius: 999px;
         font-family: 'Orbitron', sans-serif;
-        font-size: 0.95rem;
-        box-shadow: 0 0 25px rgba(255,0,255,0.8);
+        font-size: 0.78rem;
+        letter-spacing: 0.1em;
+        box-shadow: 0 0 10px rgba(34,211,238,0.6);
     }
 
     .news-title {
         font-family: 'Rajdhani', sans-serif;
-        font-size: 1.35rem;
+        font-size: 1.05rem;
         color: #e6f6ff;
-        margin-bottom: 0.4rem;
+        margin-bottom: 0.2rem;
+        margin-left: 0.2rem;
     }
 
     .news-meta {
         font-family: 'Rajdhani', sans-serif;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         color: #9ae6ff;
         margin-bottom: 0.3rem;
+        margin-left: 0.2rem;
     }
 
     .news-summary {
-        font-size: 0.95rem;
-        line-height: 1.7;
+        font-size: 0.85rem;
+        line-height: 1.5;
         color: #e2e8f0;
+        margin-left: 0.2rem;
+        margin-right: 0.2rem;
     }
 
     .news-footer {
-        margin-top: 0.9rem;
+        margin-top: 0.6rem;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        gap: 0.6rem;
+        gap: 0.5rem;
         flex-wrap: wrap;
+        margin-left: 0.2rem;
+        margin-right: 0.2rem;
     }
 
     .btn-link {
+        display: inline-block;
         font-family: 'Rajdhani', sans-serif;
-        font-size: 0.95rem;
+        font-size: 0.85rem;
         font-weight: 700;
-        color: #ff8bff;
+        color: #0ea5e9;
         text-decoration: none;
+        padding: 0.25rem 0.7rem;
+        border-radius: 999px;
+        border: 1px solid rgba(56,189,248,0.7);
+        background: rgba(15,23,42,0.9);
+    }
+    .btn-link:hover {
+        background: rgba(56,189,248,0.1);
     }
 
     .btn-bookmark {
         font-size: 0.8rem;
-        padding: 0.25rem 0.8rem;
+        padding: 0.2rem 0.7rem;
         border-radius: 999px;
         border: 1px solid rgba(255,255,255,0.35);
         background: transparent;
@@ -204,7 +221,7 @@ st.markdown(
         display:inline-block;
         padding:0.15rem 0.6rem;
         border-radius:999px;
-        font-size:0.75rem;
+        font-size:0.7rem;
         border:1px solid rgba(148,163,184,0.9);
         color:#cbd5f5;
         margin-right:0.25rem;
@@ -212,11 +229,11 @@ st.markdown(
     }
 
     .learning-box {
-        border-radius: 1.2rem;
-        padding: 1.1rem 1.3rem;
+        border-radius: 1.0rem;
+        padding: 0.9rem 1.0rem;
         background: rgba(8,47,73,0.85);
         border: 1px solid rgba(56,189,248,0.7);
-        margin-bottom: 0.8rem;
+        margin-bottom: 0.7rem;
     }
 
     .small-muted {
@@ -318,6 +335,17 @@ def prepare_news():
             item["importance_score"] = fallback_score(item)
 
     return data, fdate, fname
+
+
+# NEW: strip HTML tags from summaries so الصور و الأكواد ما تظهرش جوه الكارت
+def strip_html_tags(text: str) -> str:
+    """
+    Remove basic HTML tags from a string to avoid breaking our card layout.
+    """
+    if not text:
+        return ""
+    clean = re.sub(r"<[^>]+>", "", text)
+    return clean.strip()
 
 
 news, news_date, news_file = prepare_news()
@@ -547,8 +575,11 @@ with tab_feed:
             lbl, css = score_to_level(item.get("importance_score",0))
             source = item.get("source","Unknown")
             category = item.get("category","Other")
-            summary = item.get("summary","") or ""
-            summary_short = summary if len(summary) <= 520 else summary[:520] + "…"
+
+            raw_summary = item.get("summary","") or ""
+            clean_summary = strip_html_tags(raw_summary)
+            summary_short = clean_summary if len(clean_summary) <= 520 else clean_summary[:520] + "…"
+
             link = item.get("link","#")
             bookmarked = is_bookmarked(item)
 
@@ -556,29 +587,28 @@ with tab_feed:
             if view_mode == "Simple Mode":
                 extra = f"<br><br><span class='small-muted'><b>Simple explanation:</b> {simple_explainer(item)}</span>"
 
-            st.markdown(
-                f"""
-                <div class="news-card">
-                    <div class="news-rank">#{idx}</div>
-                    <div class="news-title">{item.get('title','')}</div>
-                    <div class="news-meta">
-                        Source: <b>{source}</b> • Category: <b>{category}</b> • Severity:
-                        <span class="threat-pill {css}">{lbl}</span>
-                    </div>
-                    <div class="news-summary">
-                        {summary_short}
-                        {extra}
-                    </div>
-                    <div class="news-footer">
-                        <a class="btn-link" href="{link}" target="_blank">🔗 Read full report</a>
-                        <span>
-                            <span class="chip">Score: {item.get('importance_score',0)}</span>
-                        </span>
-                    </div>
+            card_html = f"""
+            <div class="news-card">
+                <div class="news-rank">#{idx}</div>
+                <div class="news-title">{item.get('title','')}</div>
+                <div class="news-meta">
+                    Source: <b>{source}</b> • Category: <b>{category}</b> • Severity:
+                    <span class="threat-pill {css}">{lbl}</span>
                 </div>
-                """,
-                unsafe_allow_html=True,
-            )
+                <div class="news-summary">
+                    {summary_short}
+                    {extra}
+                </div>
+                <div class="news-footer">
+                    <a class="btn-link" href="{link}" target="_blank">🔗 Read full report</a>
+                    <span>
+                        <span class="chip">Score: {item.get('importance_score',0)}</span>
+                    </span>
+                </div>
+            </div>
+            """
+
+            st.markdown(card_html, unsafe_allow_html=True)
 
             bm_label = "★ Remove bookmark" if bookmarked else "☆ Add to bookmarks"
             if st.button(bm_label, key=f"bm_{idx}"):
@@ -623,29 +653,32 @@ with tab_bookmarks:
     else:
         for idx, item in enumerate(bookmarks, start=1):
             lbl, css = score_to_level(item.get("importance_score",0))
-            summary = item.get("summary","") or ""
-            summary_short = summary if len(summary) <= 360 else summary[:360] + "…"
 
-            st.markdown(
-                f"""
-                <div class="news-card">
-                    <div class="news-rank">#{idx}</div>
-                    <div class="news-title">{item.get('title','')}</div>
-                    <div class="news-meta">
-                        Source: <b>{item.get('source','Unknown')}</b> • Category: <b>{item.get('category','Other')}</b> • Severity:
-                        <span class="threat-pill {css}">{lbl}</span>
-                    </div>
-                    <div class="news-summary">
-                        {summary_short}
-                    </div>
-                    <div class="news-footer">
-                        <a class="btn-link" href="{item.get('link','#')}" target="_blank">🔗 Read full report</a>
-                        <span class="chip">Score: {item.get('importance_score',0)}</span>
-                    </div>
+            raw_summary = item.get("summary","") or ""
+            clean_summary = strip_html_tags(raw_summary)
+            summary_short = clean_summary if len(clean_summary) <= 360 else clean_summary[:360] + "…"
+
+            link = item.get("link","#")
+
+            card_html = f"""
+            <div class="news-card">
+                <div class="news-rank">#{idx}</div>
+                <div class="news-title">{item.get('title','')}</div>
+                <div class="news-meta">
+                    Source: <b>{item.get('source','Unknown')}</b> • Category: <b>{item.get('category','Other')}</b> • Severity:
+                    <span class="threat-pill {css}">{lbl}</span>
                 </div>
-                """,
-                unsafe_allow_html=True,
-            )
+                <div class="news-summary">
+                    {summary_short}
+                </div>
+                <div class="news-footer">
+                    <a class="btn-link" href="{link}" target="_blank">🔗 Read full report</a>
+                    <span class="chip">Score: {item.get('importance_score',0)}</span>
+                </div>
+            </div>
+            """
+
+            st.markdown(card_html, unsafe_allow_html=True)
 
             if st.button("🗑 Remove", key=f"rm_{idx}"):
                 st.session_state["bookmarks"] = [
@@ -681,7 +714,8 @@ with tab_learning:
                 <b>{cat}</b><br>
                 <span class="small-muted">{simple_explainer({'category': cat})}</span>
             </div>
-            """
+            """,
+            unsafe_allow_html=True,
         )
 
     st.markdown(
