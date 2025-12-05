@@ -569,7 +569,9 @@ with tab_feed:
             source = item.get("source","Unknown")
             category = item.get("category","Other")
 
+            # Clean summary: cut any embedded footer HTML from old version, then strip tags
             raw_summary = item.get("summary","") or ""
+            raw_summary = raw_summary.split('<div class="news-footer">')[0]
             clean_summary = strip_html_tags(raw_summary)
             summary_short = clean_summary if len(clean_summary) <= 520 else clean_summary[:520] + "…"
 
@@ -648,6 +650,7 @@ with tab_bookmarks:
             lbl, css = score_to_level(item.get("importance_score",0))
 
             raw_summary = item.get("summary","") or ""
+            raw_summary = raw_summary.split('<div class="news-footer">')[0]
             clean_summary = strip_html_tags(raw_summary)
             summary_short = clean_summary if len(clean_summary) <= 360 else clean_summary[:360] + "…"
 
