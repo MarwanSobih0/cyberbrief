@@ -1,0 +1,43 @@
+CYBERBRIEF • DAILY THREAT INTELLIGENCE
+Generated: Friday, December 05, 2025 - 05:14 UTC
+================================================================================
+
+1. Link Cybersecuritynews  [News Site]
+   Title: CISA Warns of OpenPLC ScadaBR File Upload Vulnerability Exploited in Attacks
+   Published: Thu, 04 Dec 2025 15:59:11 +0000
+   Link: https://cybersecuritynews.com/cisa-warns-of-openplc-scadabr-file-upload-vulnerability-exploited-in-attacks/
+
+2. Link Cybersecuritynews  [News Site]
+   Title: CISA and NSA Warn of BRICKSTORM Malware Attacking VMware ESXi and Windows Environments
+   Published: Thu, 04 Dec 2025 18:03:24 +0000
+   Link: https://cybersecuritynews.com/brickstorm-attacking-vmware-esxi-and-windows/
+
+3. Link Thecyberexpress  [News Site]
+   Title: CISA Warns PRC Hackers Are Targeting VMware vSphere with BRICKSTORM Malware
+   Published: Thu, 04 Dec 2025 20:50:14 +0000
+   Link: https://thecyberexpress.com/cisa-prc-hackers-target-vmware-with-brickstorm/
+
+4. Link Cyberscoop  [News Site]
+   Title: Officials warn about expansive, ongoing China espionage threat riding on Brickstorm malware
+   Published: Thu, 04 Dec 2025 22:19:17 +0000
+   Link: https://cyberscoop.com/china-brickstorm-malware-cyber-espionage-campaign-cisa-dhs-alert/
+
+5. Link Cyberscoop  [News Site]
+   Title: Sean Plankey nomination to lead CISA appears to be over after Thursday vote
+   Published: Thu, 04 Dec 2025 18:52:05 +0000
+   Link: https://cyberscoop.com/sean-plankey-cisa-nomination-stalled-senate-holds/
+
+6. Laptop Code BleepingComputer  [Security News]
+   Title: CISA warns of Chinese "BrickStorm" malware attacks on VMware servers
+   Published: Thu, 04 Dec 2025 13:19:55 -0500
+   Link: https://www.bleepingcomputer.com/news/security/cisa-warns-of-chinese-brickstorm-malware-attacks-on-vmware-servers/
+
+7. Link Thecyberexpress  [News Site]
+   Title: Sanctioned Spyware Vendor Used iOS Zero-Day Exploit Chain Against Egyptian Targets
+   Published: Thu, 04 Dec 2025 19:47:38 +0000
+   Link: https://thecyberexpress.com/ios-zero-day-exploit-chain-egypt/
+
+
+Scanned 125 articles • Top 7 active threats selected
+Next auto-update: 08:00 AM UTC
+Stay safe, stay sharp!
