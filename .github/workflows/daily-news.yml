@@ -2,39 +2,76 @@ name: Daily Cyber News Collector
 
 on:
   schedule:
-    # 8:00 صباحاً مصر = 5:00 UTC
+    # 8:00 صباحاً تقريباً بتوقيت مصر ≈ 5:00 UTC
     - cron: '0 5 * * *'
   workflow_dispatch:
 
 permissions:
   contents: write  # يسمح بالكتابة والـ push
 
+concurrency:
+  group: daily-cyberbrief-collector
+  cancel-in-progress: false
+
 jobs:
   collect-news:
     runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        shell: bash
+        working-directory: .
+
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
-      
-    - name: Set up Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.11'
-        
-    - name: Install dependencies
-      run: |
-        pip install --upgrade pip
-        pip install feedparser requests
-        
-    - name: Run news collector
-      run: |
-        python daily_news_collector.py
-        
-    - name: Commit and push
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "Cyberbrief Bot"
-        git add cybersecurity_news_*.json CYBERBRIEF_*.txt || echo "No files to commit"
-        git diff --staged --quiet || git commit -m "🤖 Daily update: Cybersecurity news [$(date +%Y-%m-%d)]"
-        git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
-        git push || echo "Push failed, but files generated locally"
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # history كاملة علشان الـ commit والـ push يبقوا ثابتين
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'  # تفعيل cache للـ pip علشان الـ workflow يبقى أسرع
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          if [ -f requirements.txt ]; then
+            echo "Using requirements.txt..."
+            pip install -r requirements.txt
+          else
+            echo "requirements.txt not found — installing minimal deps..."
+            pip install feedparser requests
+          fi
+
+      - name: Run news collector
+        env:
+          # لو daily_news_collector.py بيعتمد على CYBERBRIEF_DIR
+          CYBERBRIEF_DIR: ${{ github.workspace }}
+        run: |
+          python daily_news_collector.py
+
+      - name: Commit and push if there are changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "Cyberbrief Bot"
+
+          # إضافة الملفات اللي بتتولد يومياً
+          git add cybersecurity_news_*.json CYBERBRIEF_*.txt || echo "No files to add"
+
+          # لو مفيش أي تغييرات، ما نعملش commit فاضي
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "🤖 Daily update: Cybersecurity news [$(date -u +'%Y-%m-%d %H:%M UTC')]"
+
+          # التأكد إن الـ remote شغال بالتوكن
+          git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+
+          # Push على نفس الـ branch اللي شغال عليه الworkflow (غالباً main)
+          git push origin HEAD
