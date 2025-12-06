@@ -4,12 +4,16 @@ import os
 from datetime import datetime
 from glob import glob
 import pandas as pd
-import re  # NEW: for stripping HTML tags
+import re
 
-# Configure Streamlit page
+# -----------------------------------------------------------------------------
+# Streamlit page config
+# -----------------------------------------------------------------------------
 st.set_page_config(page_title="CYBERBRIEF", page_icon="🛡️", layout="wide")
 
-# ================== GLOBAL STYLE (CSS / UI THEME) ==================
+# -----------------------------------------------------------------------------
+# GLOBAL STYLE (CSS / UI THEME)
+# -----------------------------------------------------------------------------
 st.markdown(
     """
 <style>
@@ -21,10 +25,9 @@ st.markdown(
 }
 
 /* HEADER */
-
 .main-title {
     font-family: 'Orbitron', sans-serif;
-    font-size: 3.2rem;
+    font-size: 3.0rem;
     text-align: center;
     letter-spacing: 0.25rem;
     background: linear-gradient(90deg,#00e0ff,#ff00ff);
@@ -34,15 +37,13 @@ st.markdown(
     margin-bottom: 0.1rem;
     margin-top: 0.3rem;
 }
-
 .main-subtitle {
     font-family: 'Rajdhani', sans-serif;
     font-size: 1.1rem;
     text-align: center;
     color: #b3ecff;
-    margin-bottom: 1.0rem;
+    margin-bottom: 0.8rem;
 }
-
 .news-date {
     text-align: center;
     font-family: 'Rajdhani', sans-serif;
@@ -52,7 +53,6 @@ st.markdown(
 }
 
 /* TOP ALERT BAR */
-
 .top-alert {
     position: fixed;
     top: 0; left: 0; right: 0;
@@ -67,7 +67,6 @@ st.markdown(
 }
 
 /* METRIC CARDS */
-
 .metric-card {
     border-radius: 0.9rem;
     padding: 0.8rem 1rem;
@@ -75,29 +74,25 @@ st.markdown(
     border: 1px solid rgba(0,255,255,0.25);
     box-shadow: 0 12px 26px rgba(0,0,0,0.8);
 }
-
 .metric-label {
     font-family: 'Rajdhani', sans-serif;
     font-size: 0.85rem;
     color: #a0aec0;
     letter-spacing: 0.08em;
 }
-
 .metric-value {
     font-family: 'Orbitron', sans-serif;
     font-size: 1.7rem;
     color: #00e0ff;
 }
-
 .metric-extra {
-    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Rajdhani', sanssans-serif;
     font-size: 0.8rem;
     color: #cbd5f5;
     margin-top: 0.3rem;
 }
 
 /* THREAT PILL */
-
 .threat-pill {
     display: inline-block;
     padding: 0.15rem 0.55rem;
@@ -108,7 +103,6 @@ st.markdown(
     border: 1px solid rgba(255,255,255,0.3);
     margin-top: 0.35rem;
 }
-
 .threat-low {
     background: rgba(0,255,120,0.08);
     border-color: rgba(0,255,120,0.6);
@@ -134,8 +128,7 @@ st.markdown(
     box-shadow: 0 0 16px rgba(255,0,90,0.7);
 }
 
-/* NEWS CARDS – smaller & cleaner */
-
+/* NEWS CARDS – smaller layout */
 .news-card {
     position: relative;
     border-radius: 0.9rem;
@@ -149,8 +142,7 @@ st.markdown(
     overflow: hidden;
 }
 
-/* رقم الترتيب – واضح جداً */
-
+/* rank badge – very clear */
 .news-rank {
     position: absolute;
     top: 0.45rem;
@@ -162,7 +154,7 @@ st.markdown(
     border-radius: 999px;
     font-family: 'Orbitron', sans-serif;
     font-size: 0.78rem;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.10em;
     box-shadow: 0 0 10px rgba(34,211,238,0.6);
     z-index: 5;
 }
@@ -175,7 +167,6 @@ st.markdown(
     margin-left: 0.2rem;
     margin-top: 0.2rem;
 }
-
 .news-meta {
     font-family: 'Rajdhani', sans-serif;
     font-size: 0.8rem;
@@ -183,7 +174,6 @@ st.markdown(
     margin-bottom: 0.25rem;
     margin-left: 0.2rem;
 }
-
 .news-summary {
     font-size: 0.85rem;
     line-height: 1.5;
@@ -203,8 +193,7 @@ st.markdown(
     margin-right: 0.2rem;
 }
 
-/* زر فتح الخبر الأصلي */
-
+/* main button: open original article */
 .btn-link {
     display: inline-block;
     font-family: 'Rajdhani', sans-serif;
@@ -221,22 +210,6 @@ st.markdown(
     background: rgba(56,189,248,0.1);
 }
 
-/* Bookmark button (Streamlit) */
-
-.btn-bookmark {
-    font-size: 0.8rem;
-    padding: 0.2rem 0.7rem;
-    border-radius: 999px;
-    border: 1px solid rgba(255,255,255,0.35);
-    background: transparent;
-    color: #f5f5f5;
-}
-.btn-bookmark:hover {
-    background: rgba(255,255,255,0.1);
-}
-
-/* Chip */
-
 .chip {
     display:inline-block;
     padding:0.15rem 0.6rem;
@@ -247,8 +220,6 @@ st.markdown(
     margin-right:0.25rem;
     margin-top:0.2rem;
 }
-
-/* Learning box */
 
 .learning-box {
     border-radius: 1.0rem;
@@ -262,26 +233,15 @@ st.markdown(
     font-size: 0.8rem;
     color: #94a3b8;
 }
-
-/* لو في أي صورة هتتزرع جوّه الكارت (من مصدر تاني) نخليها صغيرة */
-
-.news-card img {
-    max-width: 140px;
-    max-height: 140px;
-    border-radius: 0.6rem;
-    display: block;
-    margin: 0.4rem auto 0.2rem auto;
-    object-fit: cover;
-}
 </style>
     """,
     unsafe_allow_html=True,
 )
 
-# ================== DATA LOADING HELPERS ==================
-
+# -----------------------------------------------------------------------------
+# DATA HELPERS
+# -----------------------------------------------------------------------------
 def find_latest_news_file(pattern: str = "cybersecurity_news_*.json"):
-    """Find the most recent news JSON file based on the date in the filename."""
     files = glob(pattern)
     if not files:
         return None, None
@@ -298,7 +258,6 @@ def find_latest_news_file(pattern: str = "cybersecurity_news_*.json"):
 
 
 def classify_category(text: str) -> str:
-    """Simple keyword-based classifier to assign a high-level category."""
     t = text.lower()
     if any(w in t for w in ["ransomware","locker","encrypt","decryptor"]):
         return "Ransomware"
@@ -318,7 +277,6 @@ def classify_category(text: str) -> str:
 
 
 def fallback_score(item: dict) -> int:
-    """Compute an importance score if JSON doesn't have 'importance_score'."""
     title = item.get("title","")
     summary = item.get("summary","")
     text = (title + " " + summary).lower()
@@ -329,15 +287,12 @@ def fallback_score(item: dict) -> int:
     for word in ["zero-day","0-day","actively exploited","rce","remote code execution"]:
         if word in text:
             score += 600
-
     for word in ["ransomware","data breach","extortion","supply chain attack"]:
         if word in text:
             score += 450
-
     for word in ["phishing","smishing","malware","spyware","token theft","account takeover"]:
         if word in text:
             score += 250
-
     for marker in ["cisa","fbi","nsa","microsoft","google","apple"]:
         if marker in text:
             score += 150
@@ -345,11 +300,21 @@ def fallback_score(item: dict) -> int:
     return score
 
 
+def strip_html_tags(text: str) -> str:
+    """Remove HTML tags from text (to avoid showing <div>…</div> ككود)."""
+    if not text:
+        return ""
+    # لو فيه كارت قديم متخزن في الـ summary نقطع من أول الـ footer
+    text = text.split('<div class="news-footer">')[0]
+    clean = re.sub(r"<[^>]+>", "", text)
+    clean = re.sub(r"\s+", " ", clean)
+    return clean.strip()
+
+
 def prepare_news():
-    """Load latest JSON + ensure each item has category + importance_score."""
     fname, fdate = find_latest_news_file()
     if not fname:
-        st.error("No news data found. Run the collector script first.")
+        st.error("No news data found. Run daily_news_collector.py first.")
         st.stop()
 
     with open(fname, "r", encoding="utf-8") as f:
@@ -360,6 +325,11 @@ def prepare_news():
         st.stop()
 
     for item in data:
+        # source field compatible مع كل النسخ
+        if "source" not in item:
+            src = item.get("source_name") or item.get("domain") or "Unknown"
+            item["source"] = src
+
         if "category" not in item:
             item["category"] = classify_category(
                 f"{item.get('title','')}. {item.get('summary','')}"
@@ -370,20 +340,12 @@ def prepare_news():
     return data, fdate, fname
 
 
-# NEW: strip any HTML tags from summaries (عشان الصور والكود ما يبانوش)
-def strip_html_tags(text: str) -> str:
-    if not text:
-        return ""
-    clean = re.sub(r"<[^>]+>", "", text)
-    return clean.strip()
-
-
 news, news_date, news_file = prepare_news()
 
-# ================== THREAT LEVEL & STATS ==================
-
+# -----------------------------------------------------------------------------
+# THREAT LEVEL & BASIC STATS
+# -----------------------------------------------------------------------------
 def score_to_level(score: int):
-    """Map numeric score to (label, css_class)."""
     if score >= 2000:
         return "CRITICAL", "threat-critical"
     if score >= 1400:
@@ -401,16 +363,14 @@ for item in news:
     cat = item.get("category","Other")
     category_counts[cat] = category_counts.get(cat, 0) + 1
 
-# ================== TOP ALERT BAR ==================
-
+# -----------------------------------------------------------------------------
+# TOP ALERT BAR + HEADER
+# -----------------------------------------------------------------------------
 st.markdown(
     f"<div class='top-alert'>AUTO UPDATE TARGET: 08:00 PM LOCAL • CURRENT SNAPSHOT: {news_date.isoformat()}</div>",
     unsafe_allow_html=True,
 )
-
 st.markdown("<br><br>", unsafe_allow_html=True)
-
-# ================== HEADER ==================
 
 st.markdown("<div class='main-title'>CYBERBRIEF</div>", unsafe_allow_html=True)
 st.markdown("<div class='main-subtitle'>Daily Cybersecurity Brief • Curated Threat Intelligence</div>", unsafe_allow_html=True)
@@ -419,8 +379,9 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-# ================== SIDEBAR CONTROLS ==================
-
+# -----------------------------------------------------------------------------
+# SIDEBAR CONTROLS
+# -----------------------------------------------------------------------------
 all_categories = sorted({item.get("category","Other") for item in news})
 default_cats = all_categories.copy()
 
@@ -457,16 +418,17 @@ with st.sidebar:
     st.markdown(f"**Data file:** `{os.path.basename(news_file)}`")
     st.markdown(f"**Total stories:** `{len(news)}`")
 
-# ================== METRICS ROW ==================
-
+# -----------------------------------------------------------------------------
+# METRICS ROW
+# -----------------------------------------------------------------------------
 col1, col2, col3 = st.columns(3)
 with col1:
     st.markdown(
         f"""
 <div class="metric-card">
-    <div class="metric-label">TOPICS TODAY</div>
-    <div class="metric-value">{len(news)}</div>
-    <div class="metric-extra">Unique stories in this snapshot</div>
+<div class="metric-label">TOPICS TODAY</div>
+<div class="metric-value">{len(news)}</div>
+<div class="metric-extra">Unique stories in this snapshot</div>
 </div>
         """,
         unsafe_allow_html=True,
@@ -475,9 +437,9 @@ with col2:
     st.markdown(
         f"""
 <div class="metric-card">
-    <div class="metric-label">ACTIVE CATEGORIES</div>
-    <div class="metric-value">{len(all_categories)}</div>
-    <div class="metric-extra">{", ".join(all_categories)}</div>
+<div class="metric-label">ACTIVE CATEGORIES</div>
+<div class="metric-value">{len(all_categories)}</div>
+<div class="metric-extra">{", ".join(all_categories)}</div>
 </div>
         """,
         unsafe_allow_html=True,
@@ -486,10 +448,10 @@ with col3:
     st.markdown(
         f"""
 <div class="metric-card">
-    <div class="metric-label">THREAT LEVEL</div>
-    <div class="metric-value">{threat_label}</div>
-    <span class="threat-pill {threat_css}">CURRENT SNAPSHOT</span>
-    <div class="metric-extra">Based on the highest severity story</div>
+<div class="metric-label">THREAT LEVEL</div>
+<div class="metric-value">{threat_label}</div>
+<span class="threat-pill {threat_css}">CURRENT SNAPSHOT</span>
+<div class="metric-extra">Based on the highest severity story</div>
 </div>
         """,
         unsafe_allow_html=True,
@@ -497,8 +459,9 @@ with col3:
 
 st.markdown("<br>", unsafe_allow_html=True)
 
-# ================== FILTER LOGIC ==================
-
+# -----------------------------------------------------------------------------
+# FILTER LOGIC
+# -----------------------------------------------------------------------------
 def item_level(item):
     label, _css = score_to_level(item.get("importance_score",0))
     return label
@@ -536,8 +499,9 @@ def filter_items(items):
 
 filtered_news = filter_items(news)
 
-# ================== BOOKMARK SUPPORT ==================
-
+# -----------------------------------------------------------------------------
+# BOOKMARK SUPPORT
+# -----------------------------------------------------------------------------
 if "bookmarks" not in st.session_state:
     st.session_state["bookmarks"] = []
 
@@ -570,8 +534,9 @@ def is_bookmarked(item):
     item_id = make_item_id(item)
     return any(b["id"] == item_id for b in st.session_state["bookmarks"])
 
-# ================== SIMPLE EXPLAINER ==================
-
+# -----------------------------------------------------------------------------
+# SIMPLE EXPLAINER
+# -----------------------------------------------------------------------------
 def simple_explainer(item):
     cat = item.get("category","Other")
     mapping = {
@@ -581,17 +546,18 @@ def simple_explainer(item):
         "Phishing / Scams": "Fake emails/sites/messages trying to trick you into giving passwords or OTP codes.",
         "Policy / Law": "New regulations, legal actions, or fines related to cybersecurity and data privacy.",
         "AI & Security": "Use or abuse of AI models in cyber attacks or defensive security.",
-        "Critical Infrastructure": "Attacks targeting essential services like energy, water, hospitals or transport."
+        "Critical Infrastructure": "Attacks targeting essential services like energy, water, hospitals or transport.",
     }
     return mapping.get(cat, "Cybersecurity-related story in a general category.")
 
-# ================== TABS LAYOUT ==================
-
+# -----------------------------------------------------------------------------
+# TABS
+# -----------------------------------------------------------------------------
 tab_feed, tab_dashboard, tab_bookmarks, tab_learning = st.tabs(
     ["📰 News Feed", "📊 Dashboard", "⭐ Bookmarks", "📚 Learning Mode"]
 )
 
-# ---------- TAB: News Feed ----------
+# ================== TAB: News Feed ==================
 with tab_feed:
     if not filtered_news:
         st.warning("No results match the current filters / search.")
@@ -619,33 +585,30 @@ with tab_feed:
 
             card_html = f"""
 <div class="news-card">
-    <div class="news-rank">#{idx}</div>
-    <div class="news-title">{item.get('title','')}</div>
-    <div class="news-meta">
-        Source: <b>{source}</b> • Category: <b>{category}</b> • Severity:
-        <span class="threat-pill {css}">{lbl}</span>
-    </div>
-    <div class="news-summary">
-        {summary_short}
-        {extra}
-    </div>
-    <div class="news-footer">
-        <a class="btn-link" href="{link}" target="_blank">🔗 Read full report</a>
-        <span>
-            <span class="chip">Score: {item.get('importance_score',0)}</span>
-        </span>
-    </div>
+<div class="news-rank">#{idx}</div>
+<div class="news-title">{item.get('title','')}</div>
+<div class="news-meta">
+Source: <b>{source}</b> • Category: <b>{category}</b> • Severity:
+<span class="threat-pill {css}">{lbl}</span>
+</div>
+<div class="news-summary">
+{summary_short}
+{extra}
+</div>
+<div class="news-footer">
+<a class="btn-link" href="{link}" target="_blank">🔗 Open full article</a>
+<span><span class="chip">Score: {item.get('importance_score',0)}</span></span>
+</div>
 </div>
             """
 
-            # مهم: الـ HTML يبدأ من أول السطر عشان ما يتحولش لـ code block في Markdown
             st.markdown(card_html, unsafe_allow_html=True)
 
             bm_label = "★ Remove bookmark" if bookmarked else "☆ Add to bookmarks"
             if st.button(bm_label, key=f"bm_{idx}"):
                 toggle_bookmark(item)
 
-# ---------- TAB: Dashboard ----------
+# ================== TAB: Dashboard ==================
 with tab_dashboard:
     st.subheader("Threat landscape overview")
     st.write("Quick view of how today's stories are distributed by category and severity.")
@@ -675,7 +638,7 @@ with tab_dashboard:
         "- If there is even one **CRITICAL**-level story, it's worth reading carefully and checking impact on you/your org."
     )
 
-# ---------- TAB: Bookmarks ----------
+# ================== TAB: Bookmarks ==================
 with tab_bookmarks:
     st.subheader("Your bookmarked stories")
     bookmarks = st.session_state.get("bookmarks", [])
@@ -693,19 +656,19 @@ with tab_bookmarks:
 
             card_html = f"""
 <div class="news-card">
-    <div class="news-rank">#{idx}</div>
-    <div class="news-title">{item.get('title','')}</div>
-    <div class="news-meta">
-        Source: <b>{item.get('source','Unknown')}</b> • Category: <b>{item.get('category','Other')}</b> • Severity:
-        <span class="threat-pill {css}">{lbl}</span>
-    </div>
-    <div class="news-summary">
-        {summary_short}
-    </div>
-    <div class="news-footer">
-        <a class="btn-link" href="{link}" target="_blank">🔗 Read full report</a>
-        <span class="chip">Score: {item.get('importance_score',0)}</span>
-    </div>
+<div class="news-rank">#{idx}</div>
+<div class="news-title">{item.get('title','')}</div>
+<div class="news-meta">
+Source: <b>{item.get('source','Unknown')}</b> • Category: <b>{item.get('category','Other')}</b> • Severity:
+<span class="threat-pill {css}">{lbl}</span>
+</div>
+<div class="news-summary">
+{summary_short}
+</div>
+<div class="news-footer">
+<a class="btn-link" href="{link}" target="_blank">🔗 Open full article</a>
+<span class="chip">Score: {item.get('importance_score',0)}</span>
+</div>
 </div>
             """
 
@@ -717,7 +680,7 @@ with tab_bookmarks:
                 ]
                 st.experimental_rerun()
 
-# ---------- TAB: Learning ----------
+# ================== TAB: Learning ==================
 with tab_learning:
     st.subheader("Learning mode")
     st.write(
@@ -742,8 +705,8 @@ with tab_learning:
         st.markdown(
             f"""
 <div class="learning-box">
-    <b>{cat}</b><br>
-    <span class="small-muted">{simple_explainer({'category': cat})}</span>
+<b>{cat}</b><br>
+<span class="small-muted">{simple_explainer({'category': cat})}</span>
 </div>
             """,
             unsafe_allow_html=True,
