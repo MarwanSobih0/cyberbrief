@@ -21,28 +21,34 @@ REPORT_FILE = f"CYBERBRIEF_{TODAY_STR}.txt"
 
 # ================== CLEANUP OLD FILES ==================
 
-def cleanup_old_files(days: int = 7):
+def cleanup_old_files(days: int = 2):
     """
-    Remove old JSON/TXT files older than 'days' from BASE_DIR.
-    Keeps the last N days as a rolling history.
+    Remove old JSON files older than 'days' from BASE_DIR.
+    Keeps only the last <days> days of cybersecurity_news_*.json.
+    Does NOT touch CYBERBRIEF_*.txt.
     """
-    cutoff = datetime.utcnow() - timedelta(days=days)
+    today = datetime.utcnow().date()
+    cutoff = today - timedelta(days=days)
+
     for fname in os.listdir(BASE_DIR):
-        if not (fname.startswith("cybersecurity_news_") or fname.startswith("CYBERBRIEF_")):
+        # نتعامل فقط مع ملفات الـ JSON الخاصة بالأخبار
+        if not (fname.startswith("cybersecurity_news_") and fname.endswith(".json")):
             continue
-        if not fname.endswith(".json") and not fname.endswith(".txt"):
-            continue
+
         try:
-            date_part = fname.split("_")[-1].replace(".json", "").replace(".txt", "")
-            dt = datetime.strptime(date_part, "%Y-%m-%d")
+            # cybersecurity_news_YYYY-MM-DD.json
+            date_part = fname.replace("cybersecurity_news_", "").replace(".json", "")
+            file_date = datetime.strptime(date_part, "%Y-%m-%d").date()
         except Exception:
             # Ignore files with unexpected naming
             continue
-        if dt < cutoff:
+
+        if file_date < cutoff:
             try:
                 os.remove(os.path.join(BASE_DIR, fname))
-            except OSError:
-                pass
+                print(f"[CLEANUP] Removed old JSON: {fname} (date: {file_date}, cutoff: {cutoff})")
+            except OSError as e:
+                print(f"[CLEANUP] Failed to remove {fname}: {e}")
 
 # ================== LOAD RSS SOURCES ==================
 
@@ -217,7 +223,7 @@ def source_from_link(link: str):
 def collect():
     """
     Main collector:
-    - Clean old files
+    - Clean old JSON files (> 2 days)
     - Load RSS sources
     - Fetch feeds and parse entries
     - Compute importance_score and category
@@ -225,7 +231,8 @@ def collect():
     - De-duplicate similar titles into 'topics'
     - Save JSON + classic TXT report
     """
-    cleanup_old_files(days=7)
+    # هنا هنمسح الجيسون القديمة (أقدم من يومين)
+    cleanup_old_files(days=2)
 
     sources = load_sources(SOURCES_FILE)
     print(f"[+] Loaded {len(sources)} RSS feeds")
@@ -281,9 +288,7 @@ def collect():
                 "also_covered_by": []
             }
 
-            # De-duplicate topics:
-            # if a normalized title already exists, keep the higher score
-            # and record "also_covered_by".
+            # De-duplicate topics
             if key not in topics:
                 topics[key] = item
             else:
