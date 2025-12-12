@@ -1,0 +1,63 @@
+CYBERBRIEF • DAILY THREAT INTELLIGENCE
+Generated: Friday, December 12, 2025 - 05:16 UTC
+================================================================================
+
+Total topics: 322    •    Scanned raw articles: 332
+Severity breakdown:
+  CRITICAL: 24  |  HIGH: 30  |  MEDIUM: 45  |  LOW: 223
+
+Top 7 active threats:
+
+1. Alert Triangle  cisa.gov  [News Site]
+   Title    : Vulnerability Summary for the Week of November 10, 2025
+   Category : Ransomware    •    Severity: CRITICAL (score: 8640)
+   Published: 2025-11-17T12:52:15
+   Link     : https://www.cisa.gov/news-events/bulletins/sb25-321
+   Also covered by: cisa.gov, cisa.gov
+
+2. Alert Triangle  cisa.gov  [News Site]
+   Title    : Vulnerability Summary for the Week of September 15, 2025
+   Category : Ransomware    •    Severity: CRITICAL (score: 8400)
+   Published: 2025-09-22T17:14:41
+   Link     : https://www.cisa.gov/news-events/bulletins/sb25-265
+   Also covered by: cisa.gov
+
+3. Alert Triangle  cisa.gov  [News Site]
+   Title    : Vulnerability Summary for the Week of August 18, 2025
+   Category : Ransomware    •    Severity: CRITICAL (score: 7200)
+   Published: 2025-08-25T13:51:12
+   Link     : https://www.cisa.gov/news-events/bulletins/sb25-237
+   Also covered by: cisa.gov
+
+4. Alert Triangle  cisa.gov  [News Site]
+   Title    : Vulnerability Summary for the Week of December 1, 2025
+   Category : Ransomware    •    Severity: CRITICAL (score: 6560)
+   Published: 2025-12-08T13:55:45
+   Link     : https://www.cisa.gov/news-events/bulletins/sb25-342
+
+5. Alert Triangle  cisa.gov  [News Site]
+   Title    : Dridex Malware
+   Category : Ransomware    •    Severity: CRITICAL (score: 4960)
+   Published: 2022-11-17T20:57:05
+   Link     : https://www.cisa.gov/news-events/cybersecurity-advisories/aa19-339a
+
+6. Alert Triangle  cisa.gov  [News Site]
+   Title    : Publicly Available Tools Seen in Cyber Incidents Worldwide
+   Category : Ransomware    •    Severity: CRITICAL (score: 4880)
+   Published: 2022-11-17T20:57:05
+   Link     : https://www.cisa.gov/news-events/cybersecurity-advisories/aa18-284a
+
+7. Alert Triangle  cisa.gov  [News Site]
+   Title    : Critical Vulnerabilities in Microsoft Windows Operating Systems
+   Category : Vulnerability    •    Severity: CRITICAL (score: 4320)
+   Published: 2022-11-17T20:57:05
+   Link     : https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-014a
+
+Security Tips:
+• Never trust unsolicited links or attachments in email or messaging apps.
+• Enable multi-factor authentication (MFA) on email, banking, and admin accounts.
+• Keep browsers, VPNs, and endpoint security fully patched.
+
+Scanned 332 articles • Top 7 topics selected
+Next planned auto-update: 08:00 AM UTC
+Stay safe, stay sharp!
