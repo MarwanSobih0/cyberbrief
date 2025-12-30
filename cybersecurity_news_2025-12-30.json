@@ -157,16 +157,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Critical Zero-Day RCE Flaw in Networking Devices Exposes Over 70,000 Hosts",
-    "summary": "<p>A severe unauthenticated remote code execution vulnerability has been discovered in XSpeeder networking devices, potentially affecting more than 70,000 publicly accessible hosts worldwide. Tracked as CVE-2025-54322, the flaw allows attackers to gain root-level access without any authentication credentials. CVE ID Vulnerability Type Severity Affected Systems Authentication Required CVE-2025-54322 Unauthenticated Root RCE Critical ~70,000+ XSpeeder SXZOS [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-zero-day-rce-flaw-in-networking-devices/\">Critical Zero-Day RCE Flaw in Networking Devices Exposes Over 70,000 Hosts</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/critical-zero-day-rce-flaw-in-networking-devices/",
-    "published": "2025-12-29T12:19:13",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 2293,
-    "also_covered_by": []
-  },
-  {
     "title": "59,000 Servers Breached: Operation PCPcat Targets React and Next.js at Internet Scale",
     "summary": "<p><img alt=\"PCPcat\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"844\" src=\"https://thecyberexpress.com/wp-content/uploads/PCPcat.webp\" title=\"59,000 Servers Breached: Operation PCPcat Targets React and Next.js at Internet Scale 19\" width=\"1500\" /></p><span>A large-scale cyber espionage operation known as Operation PCPcat has shaken the modern web infrastructure, compromising more than 59,000 servers in just 48 hours. The campaign targets systems built on React frameworks, including widely deployed Next.js and React Servers, and has already resulted in the theft of hundreds of thousands of credentials.</span><span> </span>\n\n<span><a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/\" title=\"Security\">Security</a> researchers uncovered the campaign after observing unusual activity across multiple honeypot environments. Further investigation revealed a highly automated attack chain linked to a centralized command-and-control (C2) server hosted in Singapore. The attackers appear to be exploiting previously undocumented or recently disclosed <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-are-vulnerabilities/\" title=\"vulnerabilities\">vulnerabilities</a> to achieve remote code execution (RCE) at scale.</span><span> </span>\n\n<span>According to the <a href=\"https://beelzebub.ai/blog/threat-huntinga-analysis-of-a-nextjs-exploit-campaign/\" rel=\"nofollow noopener\" target=\"_blank\">data observed</a>, Operation PCPcat has scanned 91,505 IP addresses globally and successfully compromised 59,128 servers, yielding a 64.6% success rate. At its peak, the campaign was compromising approximately 41,000 servers per day, making it one of the fastest-moving attacks ever observed against React-based deployments.</span><span> </span>\n<h3><b><span>Exploited Vulnerabilities and Initial Access</span></b><span> </span></h3>\n<span>The attackers behind PCPcat are exploiting two critical vulnerabilities identified as CVE-2025-29927 and CVE-2025-66478. Both flaws reportedly impact Next.js deployments and allow attackers to execute <a href=\"https://thecyberexpress.com/microsoft-fixes-cve-2025-59287/\" rel=\"noopener\" target=\"_blank\">arbitrary code</a> remotely.</span><span> </span>\n\n<span>The attack begins with a mass scanning of publicly exposed domains running vulnerable React frameworks. Once a susceptible server is identified, the attackers use a technique known as prototype pollution, a well-known JavaScript <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/firewall-daily/vulnerabilities/\" title=\"vulnerability\">vulnerability</a> class. By injecting <a href=\"https://thecyberexpress.com/malicious-actors-macropack-red-team-payloads/\" rel=\"noopener\" target=\"_blank\">malicious payloads</a> through crafted JSON data, the attackers manipulate JavaScript object prototypes, ultimately tricking the server into executing unauthorized commands.</span><span> </span>\n\n<span>This approach allows the attackers to bypass traditional authentication mechanisms and gain full control of the affected <a href=\"https://thecyberexpress.com/amd-data-breach-on-dark-web/\" rel=\"noopener\" target=\"_blank\">React Servers</a> without needing valid credentials.</span>\n<h3><b><span>Credential Theft and Post-Exploitation Activity</span></b><span> </span></h3>\n<span>Once access is achieved, the <a class=\"wpil_keyword_link\" href=\"https://cyble.com/knowledge-hub/what-is-malware/\" rel=\"noopener\" target=\"_blank\" title=\"malware\">malware</a> deployed by Operation PCPcat behaves as a highly efficient credential stealer. It immediately searches for sensitive <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-data/\" title=\"data\">data</a> stored on the system, including:</span><span> </span>\n<ul>\n \t<li><span>.env</span><span> configuration files</span><span> </span></li>\n \t<li><span>SSH private keys</span><span> </span></li>\n \t<li><span>Cloud service credentials</span><span> </span></li>\n \t<li><span>System environment variables</span><span> </span></li>\n</ul>\n<span>The stolen data potentially grants attackers access to broader infrastructure components, such as <a href=\"https://thecyberexpress.com/espionage-western-critical-infrastructure/\" rel=\"noopener\" target=\"_blank\">AWS accounts</a>, Docker environments, and internal networks. Researchers estimate that the campaign has already exfiltrated between 300,000 and 590,000 credential sets, increasing the <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-are-risks-in-cybersecurity/\" title=\"risk\">risk</a> of follow-on attacks.</span><span> </span>\n<h3><b><span>Centralized Command-and-Control Infrastructure</span></b><span> </span></h3>\n<span>The compromised servers are managed through a centralized C2 server located at 67.217.57.240, hosted in Singapore. This server coordinates the operation by assigning new scanning targets and collecting stolen data from infected machines.</span><span> </span>\n\n<span>Notably, the attackers left an internal statistics dashboard publicly accessible, allowing researchers to directly observe the scope of the operation in real time. The dashboard confirmed the scale of the <a href=\"https://thecyberexpress.com/cl0p-ransomware-targets-gladinet-centrestack/\" rel=\"noopener\" target=\"_blank\">campaign</a> and revealed how efficiently PCPcat was spreading across vulnerable React Servers.</span><span> </span>\n<h3><b><span>Persistence and Self-Sustaining Propagation</span></b><span> </span></h3>\n<span>To maintain long-term access, the <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-malware/\" title=\"malware\">malware</a> installs proxy tools such as GOST and Fast Reverse Proxy on infected systems. These tools are configured as systemd services, ensuring that the malware automatically restarts whenever the <a href=\"https://thecyberexpress.com/devolutions-server-sql-injection-flaw/\" rel=\"noopener\" target=\"_blank\">server reboots</a>.</span><span> </span>\n\n<span>Each compromised machine is also programmed to request 2,000 new target IPs every 45 minutes from the C2 server. This design creates a self-sustaining infection loop, allowing Operation PCPcat to expand rapidly without direct operator involvement.</span>\n\n<span>This level of automation suggests a highly organized and well-resourced <a href=\"https://thecyberexpress.com/devolutions-server-sql-injection-flaw/\" rel=\"noopener\" target=\"_blank\">threat actor</a> rather than an opportunistic attack.</span><span> </span>\n<h3><b><span>Detection and Defensive Measures</span></b><span> </span></h3>\n<span>As Operation PCPcat evolves, organizations running React frameworks and React Servers should assume potential exposure and act quickly by auditing </span><span>.env</span><span> files, rotating credentials, reviewing logs for suspicious activity, monitoring outbound traffic to known C2 infrastructure, and using YARA signatures to detect the PCPcat credential <a class=\"wpil_keyword_link\" href=\"https://cyble.com/stealer/\" rel=\"noopener\" target=\"_blank\" title=\"stealer\">stealer</a>.</span>\n\n<span>The campaign highlights the growing risk to modern <a href=\"https://thecyberexpress.com/critical-splunk-vulnerabilities/\" rel=\"noopener\" target=\"_blank\">JavaScript</a> ecosystems, where widespread React and Next.js adoption, combined with misconfigurations or unpatched flaws, enables large-scale compromise, with possible long-term impacts on cloud and enterprise environments. </span><span> </span>\n\n<span>To stay ahead as attackers adapt their tactics, security teams can strengthen detection and response with Cyble’s AI-powered threat intelligence and book a </span><a href=\"https://cyble.com/request-demo/?utm_source=website&amp;utm_medium=footer_button\" rel=\"nofollow noopener\" target=\"_blank\"><b><span>free demo</span></b></a><span> with Cyble to gain real-time visibility into new cyber threats and protect their infrastructure proactively.</span><span> </span>",
     "link": "https://thecyberexpress.com/pcpcat-react-servers-nextjs-breach/",
@@ -377,16 +367,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Hacker Threw MacBook in River to Erase Evidence in Coupang Data Breach",
-    "summary": "<p>In a desperate attempt to cover his tracks, the hacker behind Coupang&#8217;s massive personal data leak hurled his MacBook Air into a nearby river, only for company investigators to fish it out days later. This cinematic twist emerged as South Korean e-commerce giant Coupang detailed its government-directed probe into the breach affecting 33.7 million customers, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hacker-macbook-river/\">Hacker Threw MacBook in River to Erase Evidence in Coupang Data Breach</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/hacker-macbook-river/",
-    "published": "2025-12-29T14:15:29",
-    "source": "cybersecuritynews.com",
-    "category": "Data Breach",
-    "importance_score": 1504,
-    "also_covered_by": []
-  },
-  {
     "title": "HTTPS certificate industry phasing out less secure domain validation methods",
     "summary": "<span class=\"byline-author\">Posted by Chrome Root Program Team </span>\n\n<p>\nSecure connections are the backbone of the modern web, but a certificate is only as trustworthy as the validation process and issuance practices behind it. Recently, the <a href=\"https://security.googleblog.com/2023/05/how-chrome-root-program-keeps-users-safe.html\">Chrome Root Program</a> and the <a href=\"https://cabforum.org/\">CA/Browser Forum</a> have taken decisive steps toward a more secure internet by adopting new security requirements for HTTPS certificate issuers.\n</p>\n<p>\nThese initiatives, driven by Ballots <a href=\"https://cabforum.org/2024/11/14/ballot-sc080v3-sunset-the-use-of-whois-to-identify-domain-contacts-and-relying-dcv-methods/\">SC-080</a>, <a href=\"https://cabforum.org/2025/11/20/ballot-sc-090-gradually-sunset-all-remaining-email-based-phone-based-and-crossover-validation-methods-from-sections-3.2.2.4-and-3.2.2.5/\">SC-090</a>, and <a href=\"https://cabforum.org/2025/11/12/ballot-sc-091-sunset-3.2.2.5.3-reverse-address-lookup-validation-proposal-of-new-dns-based-validation-using-persistent-dcv-txt-record-for-ip-addresses/\">SC-091</a>, will sunset 11 legacy methods for Domain Control Validation. By retiring these outdated practices, which rely on weaker verification signals like physical mail, phone calls, or emails, we are closing potential loopholes for attackers and pushing the ecosystem toward automated, cryptographically verifiable security.\n</p>\n<p>\nTo allow affected website operators to transition smoothly, the deprecation will be phased in, with its full security value realized by March 2028.\n</p>\n<p>\nThis effort is a key part of our public roadmap, “<a href=\"https://www.chromium.org/Home/chromium-security/root-ca-policy/moving-forward-together/\">Moving Forward, Together,</a>” launched in 2022. Our vision is to improve security by modernizing infrastructure and promoting agility through automation. While \"Moving Forward, Together\" sets the aspirational direction, the recent updates to the <a href=\"https://cabforum.org/working-groups/server/baseline-requirements/requirements/\">TLS Baseline Requirements</a> turn that vision into policy. This builds on our momentum from earlier this year, including the successful <a href=\"https://security.googleblog.com/2025/03/new-security-requirements-adopted-by.html\">advocacy for the adoption of other security enhancing initiatives</a> as industry-wide standards.\n</p>\n<p>\n<strong>What’s Domain Control Validation?</strong>\n</p>\n<p>\nDomain Control Validation is a security-critical process designed to ensure certificates are only issued to the legitimate domain operator. This prevents unauthorized entities from obtaining a certificate for a domain they do not control. Without this check, an attacker could obtain a valid certificate for a legitimate website and use it to impersonate that site or intercept web traffic.\n</p>\n<p>\nBefore issuing a certificate, a Certification Authority (CA) must verify that the requestor legitimately controls the domain. Most modern validation relies on “challenge-response” mechanisms, for example, a CA might provide a random value for the requestor to place in a specific location, like a DNS TXT record, which the CA then verifies. \n</p>\n<p>\nHistorically, other methods validated control through indirect means, such as looking up contact information in WHOIS records or sending an email to a domain contact. These methods have been proven vulnerable (<a href=\"https://labs.watchtowr.com/we-spent-20-to-achieve-rce-and-accidentally-became-the-admins-of-mobi/\">example</a>) and the recent efforts retire these weaker checks in favor of robust, automated alternatives. \n</p>\n<p>\n<strong>Raising the floor of security</strong>\n</p>\n<p>\nThe recently passed CA/Browser Forum Server Certificate Working Group Ballots introduce a phased sunset of the following Domain Control Validation methods. Alternative existing methods offer stronger security assurances against attackers trying to obtain fraudulent certificates – and the alternative methods are getting <a href=\"https://security.googleblog.com/2025/03/new-security-requirements-adopted-by.html\">stronger</a> over time, too.\n</p>\n<p>\nSunsetted methods relying on email:\n</p>\n<ul>\n\n<li><a href=\"https://cabforum.org/working-groups/server/baseline-requirements/requirements/#32242-email-fax-sms-or-postal-mail-to-domain-contact\">Email, Fax, SMS, or Postal Mail to Domain Contact</a></li>\n\n<li><a href=\"https://cabforum.org/working-groups/server/baseline-requirements/requirements/#32252-email-fax-sms-or-postal-mail-to-ip-address-contact\">Email, Fax, SMS, or Postal Mail to IP Address Contact</a></li>\n\n<li><a href=\"https://cabforum.org/working-groups/server/baseline-requirements/requirements/#32244-constructed-email-to-domain-contact\">Constructed Email to Domain Contact</a></li>\n\n<li><a href=\"https://cabforum.org/working-groups/server/baseline-requirements/requirements/#322413-email-to-dns-caa-contact\">Email to DNS CAA Contact</a></li>\n\n<li><a href=\"https://cabforum.org/working-groups/server/baseline-requirements/requirements/#322414-email-to-dns-txt-contact\">Email to DNS TXT Contact</a></li>\n</ul>\n<p>\nSunsetted methods relying on phone: \n</p>\n<ul>\n\n<li><a href=\"https://cabforum.org/working-groups/server/baseline-requirements/requirements/#32243-phone-contact-with-domain-contact\">Phone Contact with Domain Contact</a></li>\n\n<li><a href=\"https://cabforum.org/working-groups/server/baseline-requirements/requirements/#322416-phone-contact-with-dns-txt-record-phone-contact\">Phone Contact with DNS TXT Record Phone Contact</a></li>\n\n<li><a href=\"https://cabforum.org/working-groups/server/baseline-requirements/requirements/#322417-phone-contact-with-dns-caa-phone-contact\">Phone Contact with DNS CAA Phone Contact</a></li>\n\n<li><a href=\"https://cabforum.org/working-groups/server/baseline-requirements/requirements/#32255-phone-contact-with-ip-address-contact\">Phone Contact with IP Address Contact</a></li>\n</ul>\n<p>\nSunsetted method relying on a reverse lookup:\n</p>\n<ul>\n\n<li><a href=\"https://cabforum.org/working-groups/server/baseline-requirements/requirements/#32248-ip-address\">IP Address</a></li>\n\n<li><a href=\"https://cabforum.org/working-groups/server/baseline-requirements/requirements/#32253-reverse-address-lookup\">Reverse Address Lookup</a></li>\n</ul>\n<p>\nFor everyday users, these changes are invisible - and that’s the point. But, behind the scenes, they make it harder for attackers to trick a CA into issuing a certificate for a domain they don’t control. This reduces the risk that stale or indirect signals, (like outdated WHOIS data, complex phone and email ecosystems, or inherited infrastructure) can be abused. These changes push the ecosystem toward standardized (e.g., <a href=\"https://datatracker.ietf.org/doc/html/rfc8555/\">ACME</a>), modern, and auditable Domain Control Validation methods. They increase agility and resilience by encouraging site owners to transition to modern Domain Control Validation methods, creating opportunities for faster and more efficient certificate lifecycle management through <a href=\"https://blog.chromium.org/2023/10/unlocking-power-of-tls-certificate.html\">automation</a>.\n</p>\n<p>\nThese initiatives remove weak links in how trust is established on the internet. That leads to a safer browsing experience <strong>for everyone</strong>, not just users of a single browser, platform, or website.\n</p>",
     "link": "http://security.googleblog.com/2025/12/https-certificate-industry-phasing-out.html",
@@ -537,46 +517,6 @@
     "also_covered_by": []
   },
   {
-    "title": "MongoBleed Detector Tool Released to Detect MongoDB Vulnerability(CVE-2025-14847)",
-    "summary": "<p>An open-source detection tool to help organizations identify potential exploitation of MongoBleed (CVE-2025-14847), a critical memory disclosure vulnerability affecting MongoDB databases.​ The vulnerability allows attackers to extract sensitive information, including credentials, session tokens, and personally identifiable information, directly from server memory without requiring authentication. The flaw exists in MongoDB&#8217;s zlib decompression mechanism and affects versions [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/mongobleed-detector-tool-released/\">MongoBleed Detector Tool Released to Detect MongoDB Vulnerability(CVE-2025-14847)</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/mongobleed-detector-tool-released/",
-    "published": "2025-12-29T08:24:05",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 1090,
-    "also_covered_by": []
-  },
-  {
-    "title": "Operational Noise in Windows Event Logs During Advanced Cyberattacks",
-    "summary": "<p>&#8220;Threat actors are becoming more advanced, sophisticated, and are constantly changing their tactics.&#8221; This mantra has dominated cybersecurity discourse as organizations grapple with escalating breach volumes. Industry reports typically portray attackers as methodical operators executing flawless playbooks moving seamlessly from initial access to data exfiltration or ransomware deployment. The reality documented in Windows Event Logs [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/windows-event-logs/\">Operational Noise in Windows Event Logs During Advanced Cyberattacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/windows-event-logs/",
-    "published": "2025-12-29T05:46:44",
-    "source": "gbhackers.com",
-    "category": "Ransomware",
-    "importance_score": 1082,
-    "also_covered_by": []
-  },
-  {
-    "title": "Windows Event Logs Reveal the Messy Reality Behind ‘Sophisticated’ Cyberattacks",
-    "summary": "<p>Public reports about cyberattacks often present a polished picture—threat actors working methodically through a well-planned playbook with every action perfectly executed. This perception leads many to believe that modern attackers operate with machine-like precision, seamlessly moving from one objective to another without facing obstacles. However, this narrative masks a much different reality that becomes clear [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/windows-event-logs-reveal-the-messy-reality/\">Windows Event Logs Reveal the Messy Reality Behind &#8216;Sophisticated&#8217; Cyberattacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/windows-event-logs-reveal-the-messy-reality/",
-    "published": "2025-12-29T17:55:43",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 1078,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hacker Dumped MacBook in River in Attempt to Destroy Digital Evidence",
-    "summary": "<p>A former employee of South Korean e-commerce giant Coupang attempted to destroy evidence of a massive data theft by throwing his MacBook Air into a river, investigators revealed this week. The desperate act failed spectacularly, with forensic experts recovering the device and using its serial number to connect it to the accused perpetrator&#8217;s iCloud account. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hacker-dumped-macbook-in-river-to-destroy-digital-evidence/\">Hacker Dumped MacBook in River in Attempt to Destroy Digital Evidence</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/hacker-dumped-macbook-in-river-to-destroy-digital-evidence/",
-    "published": "2025-12-29T13:02:37",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 1072,
-    "also_covered_by": []
-  },
-  {
     "title": "Coupang to split $1.17 billion among 33.7 million data breach victims",
     "summary": "Coupang, the largest retailer in South Korea, announced $1.17 billion (1.685 trillion Won) total compensation for the 33.7 million customers whose information was exposed in the data breach discovered last month. [...]",
     "link": "https://www.bleepingcomputer.com/news/security/coupang-to-split-117-billion-among-337-million-data-breach-victims/",
@@ -634,16 +574,6 @@
     "source": "krebsonsecurity.com",
     "category": "Vulnerability",
     "importance_score": 978,
-    "also_covered_by": []
-  },
-  {
-    "title": "Silver Fox Hackers Target Indian Entities Using Income Tax Phishing Lures",
-    "summary": "<p>Threat intelligence researchers at CloudSEK have uncovered a sophisticated phishing campaign targeting Indian entities using Income Tax-themed lures, attributed to the Chinese-aligned Silver Fox APT group. The campaign employs an advanced multi-stage malware chain delivering Valley RAT, a modular remote access trojan with capabilities for long-term persistence and dynamic payload delivery. The discovery notes the [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/silver-fox-hackers/\">Silver Fox Hackers Target Indian Entities Using Income Tax Phishing Lures</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/silver-fox-hackers/",
-    "published": "2025-12-29T09:03:22",
-    "source": "gbhackers.com",
-    "category": "Phishing / Scams",
-    "importance_score": 976,
     "also_covered_by": []
   },
   {
@@ -737,16 +667,6 @@
     "also_covered_by": []
   },
   {
-    "title": "AI-Powered Phishing Kit Targets Microsoft Users for Credential Theft",
-    "summary": "<p>Security researchers have uncovered a sophisticated Spanish-language phishing kit targeting Microsoft Outlook users, revealing what appears to be a coordinated credential-theft operation with potential AI-assisted code development. The toolkit, tracked under the operational codename &#8220;Mycelial Mage,&#8221; demonstrates evolving anti-analysis capabilities and a deliberate shift toward ephemeral exfiltration channels using Telegram and Discord. The investigation, which [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ai-powered-phishing/\">AI-Powered Phishing Kit Targets Microsoft Users for Credential Theft</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/ai-powered-phishing/",
-    "published": "2025-12-29T07:10:32",
-    "source": "gbhackers.com",
-    "category": "Phishing / Scams",
-    "importance_score": 890,
-    "also_covered_by": []
-  },
-  {
     "title": "This month in security with Tony Anscombe – November 2025 edition",
     "summary": "Data exposure by top AI companies, the Akira ransomware haul, Operation Endgame against major malware families, and more of this month's cybersecurity news",
     "link": "https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-november-2025/",
@@ -784,16 +704,6 @@
     "source": "bleepingcomputer.com",
     "category": "Ransomware",
     "importance_score": 878,
-    "also_covered_by": []
-  },
-  {
-    "title": "New Phishing Kit with AI-assisted Development Attacking Microsoft Users to Steal Logins",
-    "summary": "<p>A Spanish-speaking phishing operation targeting Microsoft Outlook users has been active since March 2025, using a sophisticated kit that shows clear indicators of AI-assisted development. The campaign, tracked through a unique signature of four mushroom emojis embedded in the string &#8220;OUTL,&#8221; has been observed in over 75 distinct deployments. The operation captures email credentials along [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/new-phishing-kit-with-ai-assisted-development/\">New Phishing Kit with AI-assisted Development Attacking Microsoft Users to Steal Logins</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/new-phishing-kit-with-ai-assisted-development/",
-    "published": "2025-12-29T19:40:32",
-    "source": "cybersecuritynews.com",
-    "category": "Phishing / Scams",
-    "importance_score": 874,
     "also_covered_by": []
   },
   {
@@ -894,16 +804,6 @@
     "source": "unit42.paloaltonetworks.com",
     "category": "Ransomware",
     "importance_score": 756,
-    "also_covered_by": []
-  },
-  {
-    "title": "Silver Fox Hackers Attacking Indian Entities with Income Tax Phishing Lures",
-    "summary": "<p>Chinese threat actors operating under the name Silver Fox are targeting Indian organizations through sophisticated phishing campaigns that impersonate legitimate income tax documents. The attack campaign uses authentic-looking Income Tax Department emails to trick users into downloading a malicious executable disguised as a tax-related file. Once clicked, victims are redirected to a command-and-control server, which [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/silver-fox-hackers-attacking-indian-entities/\">Silver Fox Hackers Attacking Indian Entities with Income Tax Phishing Lures</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/silver-fox-hackers-attacking-indian-entities/",
-    "published": "2025-12-29T19:59:26",
-    "source": "cybersecuritynews.com",
-    "category": "Phishing / Scams",
-    "importance_score": 725,
     "also_covered_by": []
   },
   {
@@ -1127,26 +1027,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Hackers Launch 2.5 Million+ Malicious Requests Targeting Adobe ColdFusion Servers",
-    "summary": "<p>Security researchers have uncovered a massive coordinated exploitation campaign where threat actors launched over 2.5 million malicious requests against vulnerable systems during the Christmas 2025 holiday period. The campaign represents a sophisticated, multi-faceted initial access broker operation targeting Adobe ColdFusion servers alongside 46 additional technology stacks across nearly 800 vulnerabilities. The primary attack wave focused [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-launch-2-5-million-malicious-requests-targeting-adobe-coldfusion-servers/\">Hackers Launch 2.5 Million+ Malicious Requests Targeting Adobe ColdFusion Servers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/hackers-launch-2-5-million-malicious-requests-targeting-adobe-coldfusion-servers/",
-    "published": "2025-12-29T12:54:30",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 500,
-    "also_covered_by": []
-  },
-  {
-    "title": "New Bluetooth Headphone Vulnerabilities Allow Hackers to Hijack Connected Smartphones",
-    "summary": "<p>Security researchers have disclosed critical vulnerabilities in Airoha-based Bluetooth headphones that enable attackers to compromise connected smartphones through chained exploits. The three vulnerabilities CVE-2025-20700, CVE-2025-20701, and CVE-2025-20702 affect dozens of popular headphone models from Sony, Marshall, Jabra, Bose, and other manufacturers. The vulnerabilities center on missing authentication mechanisms and exposed debugging functionality in Airoha&#8217;s custom [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/new-bluetooth-headphone-vulnerabilities/\">New Bluetooth Headphone Vulnerabilities Allow Hackers to Hijack Connected Smartphones</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/new-bluetooth-headphone-vulnerabilities/",
-    "published": "2025-12-29T09:59:59",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 500,
-    "also_covered_by": []
-  },
-  {
     "title": "Security teams debate how much to trust AI",
     "summary": "<p>AI is reshaping how organizations operate, defend systems, and interpret risk. Reports reveal rising AI-driven attacks, hidden usage across enterprises, and widening gaps between innovation and security readiness. As adoption accelerates, companies face pressure to govern AI responsibly while preparing for threats that move faster than current defenses. Attackers keep finding new ways to fool AI Across the AI ecosystem, developers are adopting layered controls throughout the lifecycle. They combine training safeguards, deployment filters, and &#8230; <a href=\"https://www.helpnetsecurity.com/2025/12/30/ai-security-threats-readiness/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2025/12/30/ai-security-threats-readiness/\">Security teams debate how much to trust AI</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
     "link": "https://www.helpnetsecurity.com/2025/12/30/ai-security-threats-readiness/",
@@ -1174,26 +1054,6 @@
     "source": "helpnetsecurity.com",
     "category": "Other",
     "importance_score": 500,
-    "also_covered_by": []
-  },
-  {
-    "title": "OpenAI Strengthens ChatGPT Atlas Security to Block Prompt Injection Attacks",
-    "summary": "<p>OpenAI has deployed a significant security update to ChatGPT Atlas, its browser-based AI agent, implementing advanced defenses against prompt injection attacks. The update introduces an adversarially trained model combined with strengthened safeguards designed to protect users from increasingly sophisticated manipulation attempts. Prompt injection attacks represent a critical vulnerability for AI agents operating in web browsers. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/openai-strengthens-chatgpt-block-prompt-injection-attacks/\">OpenAI Strengthens ChatGPT Atlas Security to Block Prompt Injection Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/openai-strengthens-chatgpt-block-prompt-injection-attacks/",
-    "published": "2025-12-29T05:57:20",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 490,
-    "also_covered_by": []
-  },
-  {
-    "title": "Ubisoft Confirms Rainbow Six Siege Server Intrusion Linked to MongoBleed",
-    "summary": "<p>Ubisoft faced a coordinated security crisis today as hackers exploited the critical MongoBleed vulnerability (CVE-2025-14847) to infiltrate Rainbow Six Siege servers, causing widespread account tampering and service disruptions. In-Game Chaos Unfolds According to CSN, Players worldwide reported extraordinary account modifications beginning early this morning. Thousands of gamers discovered their accounts credited with millions of R6 [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ubisoft-confirms-rainbow-six-siege-server-intrusion/\">Ubisoft Confirms Rainbow Six Siege Server Intrusion Linked to MongoBleed</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/ubisoft-confirms-rainbow-six-siege-server-intrusion/",
-    "published": "2025-12-29T07:53:29",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 489,
     "also_covered_by": []
   },
   {
@@ -1267,16 +1127,6 @@
     "also_covered_by": []
   },
   {
-    "title": "New Vulnerabilities in Bluetooth Headphones Let Hackers Hijack Connected Smartphone",
-    "summary": "<p>Security researchers have disclosed critical vulnerabilities affecting widely used Bluetooth headphones and earbuds that could allow attackers to eavesdrop on conversations, steal sensitive data, and even hijack connected smartphones. The flaws, identified as CVE-2025-20700, CVE-2025-20701, and CVE-2025-20702, impact devices powered by Airoha Bluetooth System-on-Chips (SoCs), which are used by major manufacturers including Sony, Bose, JBL, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/bluetooth-headphones-vulnerabilities/\">New Vulnerabilities in Bluetooth Headphones Let Hackers Hijack Connected Smartphone</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/bluetooth-headphones-vulnerabilities/",
-    "published": "2025-12-29T15:19:19",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 481,
-    "also_covered_by": []
-  },
-  {
     "title": "How I ditched Google Photos for my own private self-hosted alternative - for free",
     "summary": "If you're ready to cut the cord with Google, this option lets you host and sync your photos on your own terms. Here's how.",
     "link": "https://www.zdnet.com/article/free-google-photos-alternative-self-hosted/",
@@ -1297,16 +1147,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Hunting Windows LPE Flaws Through Kernel Drivers and Named Pipes",
-    "summary": "<p>Security researchers from the Whitehat School recently completed an intensive bug-hunting project focused on identifying privilege escalation (LPE) flaws in Windows systems. The findings reveal critical vulnerabilities in two major attack surfaces: kernel drivers and named pipes areas that cybersecurity teams should prioritize immediately. The Kernel Driver Challenge Kernel drivers represent a significant security risk [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hunting-windows-lpe-flaws/\">Hunting Windows LPE Flaws Through Kernel Drivers and Named Pipes</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/hunting-windows-lpe-flaws/",
-    "published": "2025-12-29T07:10:02",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 477,
-    "also_covered_by": []
-  },
-  {
     "title": "Ransomware Attacks are on the Rise",
     "summary": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
     "link": "https://threatpost.com/ransomware-attacks-are-on-the-rise/180481/",
@@ -1317,36 +1157,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Hacktivist Proxy Operations Emerge as a Repeatable Model of Geopolitical Cyber Pressure",
-    "summary": "<p>A new form of cyber disruption is reshaping the landscape of modern conflict. Hacktivist groups are increasingly operating as strategic instruments of state pressure, launching coordinated attacks that align perfectly with geopolitical events such as sanctions announcements and military aid declarations. Unlike traditional cybercrime or isolated digital activism, these operations follow a consistent, repeatable pattern [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hacktivist-proxy-operations-emerge/\">Hacktivist Proxy Operations Emerge as a Repeatable Model of Geopolitical Cyber Pressure</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/hacktivist-proxy-operations-emerge/",
-    "published": "2025-12-29T15:04:58",
-    "source": "cybersecuritynews.com",
-    "category": "AI & Security",
-    "importance_score": 476,
-    "also_covered_by": []
-  },
-  {
-    "title": "Windows Vulnerabilities via Kernel Drivers and Named Pipes Allows Privilege Escalation",
-    "summary": "<p>Security researchers are increasingly focusing on privilege escalation attacks through two primary Windows attack surfaces: kernel drivers and named pipes. These vectors exploit fundamental trust boundary weaknesses between the user and kernel modes. Enabling attackers to escalate from standard user privileges to SYSTEM-level access. Kernel drivers present a significant LPE attack surface due to insufficient [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/windows-lpe-vulnerabilities/\">Windows Vulnerabilities via Kernel Drivers and Named Pipes Allows Privilege Escalation</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/windows-lpe-vulnerabilities/",
-    "published": "2025-12-29T10:37:11",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 471,
-    "also_covered_by": []
-  },
-  {
-    "title": "2.5 Million+ Malicious Request From Hackers Attacking Adobe ColdFusion Servers",
-    "summary": "<p>A coordinated exploitation campaign that generated more than 2.5 million malicious requests against Adobe ColdFusion servers and 47+ other technology platforms during the Christmas 2025 holiday period. The operation was attributed to a single threat actor operating from Japan-based infrastructure. This indicates an advanced scanning effort by attackers seeking both legacy and new vulnerabilities dating [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/coldfusion-servers-under-attack/\">2.5 Million+ Malicious Request From Hackers Attacking Adobe ColdFusion Servers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/coldfusion-servers-under-attack/",
-    "published": "2025-12-29T15:25:37",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 469,
-    "also_covered_by": []
-  },
-  {
     "title": "Top Ransomware Trends of 2025",
     "summary": "Infosecurity has selected some of the key ransomware statistics for 2025",
     "link": "https://www.infosecurity-magazine.com/news/top-ransomware-trends-of-2025/",
@@ -1354,16 +1164,6 @@
     "source": "infosecurity-magazine.com",
     "category": "Ransomware",
     "importance_score": 468,
-    "also_covered_by": []
-  },
-  {
-    "title": "OpenAI Hardened ChatGPT Atlas Against Prompt Injection Attacks",
-    "summary": "<p>OpenAI has rolled out a critical security update to ChatGPT Atlas, its browser-based AI agent, introducing advanced defenses against prompt injection attacks. The update marks a significant step in protecting users from emerging adversarial threats targeting agentic AI systems. What Are Prompt Injection Attacks? Prompt injection attacks exploit AI agents by embedding malicious instructions into [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openai-hardened-chatgpt-atlas/\">OpenAI Hardened ChatGPT Atlas Against Prompt Injection Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/openai-hardened-chatgpt-atlas/",
-    "published": "2025-12-29T07:56:15",
-    "source": "cybersecuritynews.com",
-    "category": "AI & Security",
-    "importance_score": 462,
     "also_covered_by": []
   },
   {
