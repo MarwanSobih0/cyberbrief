@@ -1077,16 +1077,6 @@
     "also_covered_by": []
   },
   {
-    "title": "U.S. Treasury Lifts Sanctions on Three Individuals Linked to Intellexa and Predator Spyware",
-    "summary": "The U.S. Department of the Treasury's Office of Foreign Assets Control (OFAC) on Tuesday removed three individuals linked to the Intellexa Consortium, the holding company behind a commercial spyware known as Predator, from the specially designated nationals list.\nThe names of the individuals are as follows -\n\nMerom Harpaz\nAndrea Nicola Constantino Hermes Gambazzi\nSara Aleksandra Fayssal Hamou",
-    "link": "https://thehackernews.com/2025/12/us-treasury-lifts-sanctions-on-three.html",
-    "published": "2025-12-31T05:17:00",
-    "source": "thehackernews.com",
-    "category": "Other",
-    "importance_score": 547,
-    "also_covered_by": []
-  },
-  {
     "title": "Google is testing a new image AI and it's going to be its fastest model",
     "summary": "Google is testing a new image AI model called \"Nano Banana 2 Flash,\" and it's going to be as good as the Gemini 3 Pro Nano Banana, but it'll be cheaper. [...]",
     "link": "https://www.bleepingcomputer.com/news/google/google-is-testing-a-new-image-ai-and-its-going-to-be-its-fastest-model/",
@@ -1434,6 +1424,16 @@
     "source": "thehackernews.com",
     "category": "Policy / Law",
     "importance_score": 383,
+    "also_covered_by": []
+  },
+  {
+    "title": "U.S. Treasury Lifts Sanctions on Three Individuals Linked to Intellexa and Predator Spyware",
+    "summary": "The U.S. Department of the Treasury's Office of Foreign Assets Control (OFAC) on Tuesday removed three individuals linked to the Intellexa Consortium, the holding company behind a commercial spyware known as Predator, from the specially designated nationals list.\nThe names of the individuals are as follows -\n\nMerom Harpaz\nAndrea Nicola Constantino Hermes Gambazzi\nSara Aleksandra Fayssal Hamou",
+    "link": "https://thehackernews.com/2025/12/us-treasury-lifts-sanctions-on-three.html",
+    "published": "2025-12-31T05:17:00",
+    "source": "thehackernews.com",
+    "category": "Other",
+    "importance_score": 382,
     "also_covered_by": []
   },
   {
