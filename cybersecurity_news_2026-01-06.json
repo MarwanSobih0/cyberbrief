@@ -288,6 +288,16 @@
     "also_covered_by": []
   },
   {
+    "title": "SMS Phishers Pivot to Points, Taxes, Fake Retailers",
+    "summary": "China-based phishing groups blamed for non-stop scam SMS messages about a supposed wayward package or unpaid toll fee are promoting a new offering, just in time for the holiday shopping season: Phishing kits for mass-creating fake but convincing e-commerce websites that convert customer payment card data into mobile wallets from Apple and Google. Experts say these same phishing groups also are now using SMS lures that promise unclaimed tax refunds and mobile rewards points.",
+    "link": "https://krebsonsecurity.com/2025/12/sms-phishers-pivot-to-points-taxes-fake-retailers/",
+    "published": "2025-12-04T23:02:34",
+    "source": "krebsonsecurity.com",
+    "category": "Vulnerability",
+    "importance_score": 1522,
+    "also_covered_by": []
+  },
+  {
     "title": "New Exploits for Unsecure SAP Systems",
     "summary": "<div>\n<h2><strong>Summary</strong></h2>\n</div>\n<p>The Cybersecurity and Infrastructure Security Agency (CISA) is issuing this activity alert in response to recently disclosed exploits that target unsecure configurations of SAP components. [<a href=\"https://github.com/msuiche/OPCDE/tree/master/2019/Emirates/(SAP)%20Gateway%20to%20Heaven%20-%20Dmitry%20Chastuhin%2C%20Mathieu%20Geli\" target=\"_blank\" title=\"(SAP) Gateway to Heaven - Dmitry Chastuhin, Mathieu Geli\">1</a>]</p>\n<div>\n<h2><strong>Technical Details</strong></h2>\n</div>\n<p>A presentation at the April 2019 Operation for Community Development and Empowerment (OPCDE) cybersecurity conference describes SAP systems with unsecure configurations exposed to the internet. Typically, SAP systems are not intended to be exposed to the internet as it is an untrusted network. Malicious cyber actors can attack and compromise these unsecure systems with publicly available exploit tools, termed “10KBLAZE.” The presentation details the new exploit tools and reports on systems exposed to the internet.</p>\n<h3>SAP Gateway ACL</h3>\n<p>The SAP Gateway allows non-SAP applications to communicate with SAP applications. If SAP Gateway access control lists (ACLs) are not configured properly (e.g., gw/acl_mode = 0), anonymous users can run operating system (OS) commands.[2] According to the OPCDE presentation, about 900 U.S. internet-facing systems were detected in this vulnerable condition.</p>\n<h3>SAP Router secinfo</h3>\n<p>The SAP router is a program that helps connect SAP systems with external networks. The default <code>secinfo</code> configuration for a SAP Gateway allows any internal host to run OS commands anonymously. If an attacker can access a misconfigured SAP router, the router can act as an internal host and proxy the attacker’s requests, which may result in remote code execution.</p>\n<p>According to the OPCDE presentation, 1,181 SAP routers were exposed to the internet. It is unclear if the exposed systems were confirmed to be vulnerable or were simply running the SAP router service.</p>\n<h3>SAP Message Server</h3>\n<p>SAP Message Servers act as brokers between Application Servers (AS). By default, Message Servers listen on a port 39XX and have no authentication. If an attacker can access a Message Server, they can redirect and/or execute legitimate man-in-the-middle (MITM) requests, thereby gaining credentials. Those credentials can be used to execute code or operations on AS servers (assuming the attacker can reach them). According to the OPCDE presentation, there are 693 Message Servers exposed to the internet in the United States. The Message Server ACL must be protected by the customer in all releases.</p>\n<h3>Signature</h3>\n<p>CISA worked with security researchers from Onapsis Inc.[<a href=\"https://www.onapsis.com/\" target=\"_blank\" title=\"Onapsis\">3</a>] to develop the following Snort signature that can be used to detect the exploits:</p>\n<p><code>alert tcp $EXTERNAL_NET any -&gt; $HOME_NET any (msg:\"10KBLAZE SAP Exploit execute attempt\"; flow:established,to_server; content:\"|06 cb 03|\"; offset:4; depth:3; content:\"SAPXPG_START_XPG\"; nocase; distance:0; fast_pattern; content:\"37D581E3889AF16DA00A000C290099D0001\"; nocase; distance:0; content:\"extprog\"; nocase; distance:0; sid:1; rev:1;)</code></p>\n<h2><strong>Mitigations</strong></h2>\n<p>CISA recommends administrators of SAP systems implement the following to mitigate the vulnerabilities included in the OPCDE presentation:</p>\n<ul>\n<li>Ensure a secure configuration of their SAP landscape.</li>\n<li>Restrict access to SAP Message Server.\n<ul>\n<li>Review SAP Notes 1408081 and 821875. Restrict authorized hosts via ACL files on Gateways (<code>gw/acl_mode </code>and <code>secinfo</code>) and Message Servers (<code>ms/acl_info</code>).[4], [5]</li>\n<li>Review SAP Note 1421005. Split MS internal/public:<code> rdisp/msserv=0 rdisp/msserv_internal=39NN</code>. [6]</li>\n<li>Restrict access to Message Server internal port (<code>tcp/39NN</code>) to clients or the internet.</li>\n<li>Enable Secure Network Communications (SNC) for clients.</li>\n</ul>\n</li>\n<li>Scan for exposed SAP components.\n<ul>\n<li>Ensure that SAP components are not exposed to the internet.</li>\n<li>Remove or secure any exposed SAP components.</li>\n</ul>\n</li>\n</ul>\n<div>\n<h2><strong>References</strong></h2>\n<p>[1] <a href=\"https://github.com/msuiche/OPCDE/tree/master/2019/Emirates/(SAP)%20Gateway%20to%20Heaven%20-%20Dmitry%20Chastuhin%2C%20Mathieu%20Geli\" target=\"_blank\" title=\"(SAP) Gateway to Heaven - Dmitry Chastuhin, Mathieu Geli\">Comae Technologies: Operation for Community Development and Empowerment (OPCDE) Cybersecurity Conference Materials</a><br />[2] SAP: Gateway Access Control Lists<br />[3] <a href=\"https://www.onapsis.com\" target=\"_blank\" title=\"Onapsis\">Onapsis Inc. website</a><br />[4] SAP Note 1408081<br />[5] SAP Note 821875<br />[6] SAP Note 1421005</p>\n<h2><strong>Revisions</strong></h2>\n</div>\n<p><strong>May 2, 2019:</strong> Initial version</p>",
     "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa19-122a",
@@ -425,6 +435,16 @@
     "source": "helpnetsecurity.com",
     "category": "Phishing / Scams",
     "importance_score": 1250,
+    "also_covered_by": []
+  },
+  {
+    "title": "Is Your Android TV Streaming Box Part of a Botnet?",
+    "summary": "On the surface, the Superbox media streaming devices for sale at retailers like BestBuy and Walmart may seem like a steal: They offer unlimited access to more than 2,200 pay-per-view and streaming services like Netflix, ESPN and Hulu, all for a one-time fee of around $400. But security experts warn these TV boxes require intrusive software that forces the user's network to relay Internet traffic for others, traffic that is often tied to cybercrime activity such as advertising fraud and account takeovers.",
+    "link": "https://krebsonsecurity.com/2025/11/is-your-android-tv-streaming-box-part-of-a-botnet/",
+    "published": "2025-11-24T18:44:52",
+    "source": "krebsonsecurity.com",
+    "category": "Vulnerability",
+    "importance_score": 1172,
     "also_covered_by": []
   },
   {
@@ -575,6 +595,16 @@
     "source": "unit42.paloaltonetworks.com",
     "category": "Vulnerability",
     "importance_score": 988,
+    "also_covered_by": []
+  },
+  {
+    "title": "Microsoft Patch Tuesday, December 2025 Edition",
+    "summary": "Microsoft today pushed updates to fix at least 56 security flaws in its Windows operating systems and supported software. This final Patch Tuesday of 2025 tackles one zero-day bug that is already being exploited, as well as two publicly disclosed vulnerabilities.",
+    "link": "https://krebsonsecurity.com/2025/12/microsoft-patch-tuesday-december-2025-edition/",
+    "published": "2025-12-09T23:18:29",
+    "source": "krebsonsecurity.com",
+    "category": "Vulnerability",
+    "importance_score": 978,
     "also_covered_by": []
   },
   {
@@ -1328,6 +1358,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Most Parked Domains Now Serving Malicious Content",
+    "summary": "Direct navigation -- the act of visiting a website by manually typing a domain name in a web browser -- has never been riskier: A new study finds the vast majority of \"parked\" domains -- mostly expired or dormant domain names, or common misspellings of popular websites -- are now configured to redirect visitors to sites that foist scams and malware.",
+    "link": "https://krebsonsecurity.com/2025/12/most-parked-domains-now-serving-malicious-content/",
+    "published": "2025-12-16T14:14:48",
+    "source": "krebsonsecurity.com",
+    "category": "Phishing / Scams",
+    "importance_score": 404,
+    "also_covered_by": []
+  },
+  {
     "title": "From awareness to action: Building a security-first culture for the agentic AI era",
     "summary": "<p>The insights gained from Cybersecurity Awareness Month, right through to Microsoft Ignite 2025, demonstrate that security remains a top priority for business leaders.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/microsoft-cloud/blog/2025/12/10/from-awareness-to-action-building-a-security-first-culture-for-the-agentic-ai-era/\">From awareness to action: Building a security-first culture for the agentic AI era</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
     "link": "https://www.microsoft.com/en-us/microsoft-cloud/blog/2025/12/10/from-awareness-to-action-building-a-security-first-culture-for-the-agentic-ai-era/",
@@ -1878,6 +1918,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Drones to Diplomas: How Russia’s Largest Private University is Linked to a $25M Essay Mill",
+    "summary": "A sprawling academic cheating network turbocharged by Google Ads that has generated nearly $25 million in revenue has curious connections to a Kremlin-connected oligarch whose Russian university builds drones for Russia's war against Ukraine.",
+    "link": "https://krebsonsecurity.com/2025/12/drones-to-diplomas-how-russias-largest-private-university-is-linked-to-a-25m-essay-mill/",
+    "published": "2025-12-06T14:45:03",
+    "source": "krebsonsecurity.com",
+    "category": "Other",
+    "importance_score": 252,
+    "also_covered_by": []
+  },
+  {
     "title": "Hackers claim to hack Resecurity, firm says it was a honeypot",
     "summary": "The ShinyHunters hacking group claims it breached the systems of cybersecurity firm Resecurity and stole internal data, while Resecurity says the attackers only accessed a deliberately deployed honeypot containing fake information used to monitor their activity. [...]",
     "link": "https://www.bleepingcomputer.com/news/security/hackers-claim-resecurity-hack-firm-says-it-was-a-honeypot/",
@@ -1998,6 +2048,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Mozilla Says It’s Finally Done With Two-Faced Onerep",
+    "summary": "In March 2024, Mozilla said it was winding down its collaboration with Onerep -- an identity protection service offered with the Firefox web browser that promises to remove users from hundreds of people-search sites -- after KrebsOnSecurity revealed Onerep's founder had created dozens of people-search services and was continuing to operate at least one of them. Sixteen months later, however, Mozilla is still promoting Onerep. This week, Mozilla announced their partnership with Onerep will officially end next month.",
+    "link": "https://krebsonsecurity.com/2025/11/mozilla-says-its-finally-done-with-two-faced-onerep/",
+    "published": "2025-11-20T19:06:51",
+    "source": "krebsonsecurity.com",
+    "category": "Other",
+    "importance_score": 156,
+    "also_covered_by": []
+  },
+  {
     "title": "Behind the Scenes: Fixing an In-the-Wild Firefox Exploit",
     "summary": "<p>At Mozilla, browser security is a critical mission, and part of that mission involves responding swiftly to new threats. Tuesday, around 8 AM Eastern time, we received a heads-up from &#8230; <a class=\"go\" href=\"https://blog.mozilla.org/security/2024/10/11/behind-the-scenes-fixing-an-in-the-wild-firefox-exploit/\">Read more</a></p>\n<p>The post <a href=\"https://blog.mozilla.org/security/2024/10/11/behind-the-scenes-fixing-an-in-the-wild-firefox-exploit/\">Behind the Scenes: Fixing an In-the-Wild Firefox Exploit</a> appeared first on <a href=\"https://blog.mozilla.org/security\">Mozilla Security Blog</a>.</p>",
     "link": "https://blog.mozilla.org/security/2024/10/11/behind-the-scenes-fixing-an-in-the-wild-firefox-exploit/",
@@ -2045,6 +2105,26 @@
     "source": "blog.mozilla.org",
     "category": "Other",
     "importance_score": 144,
+    "also_covered_by": []
+  },
+  {
+    "title": "Meet Rey, the Admin of ‘Scattered Lapsus$ Hunters’",
+    "summary": "A prolific cybercriminal group that calls itself \"Scattered LAPSUS$ Hunters\" made headlines regularly this year by stealing data from and publicly mass extorting dozens of major corporations. But the tables seem to have turned somewhat for \"Rey,\" the moniker chosen by the technical operator and public face of the hacker group: Earlier this week, Rey confirmed his real life identity and agreed to an interview after KrebsOnSecurity tracked him down and contacted his father.",
+    "link": "https://krebsonsecurity.com/2025/11/meet-rey-the-admin-of-scattered-lapsus-hunters/",
+    "published": "2025-11-26T17:22:36",
+    "source": "krebsonsecurity.com",
+    "category": "Other",
+    "importance_score": 142,
+    "also_covered_by": []
+  },
+  {
+    "title": "Dismantling Defenses: Trump 2.0 Cyber Year in Review",
+    "summary": "The Trump administration has pursued a staggering range of policy pivots this past year that threaten to weaken the nation’s ability and willingness to address a broad spectrum of technology challenges, from cybersecurity and privacy to countering disinformation, fraud and corruption. These shifts, along with the president’s efforts to restrict free speech and freedom of the press, have come at such a rapid clip that many readers probably aren’t even aware of them all.",
+    "link": "https://krebsonsecurity.com/2025/12/dismantling-defenses-trump-2-0-cyber-year-in-review/",
+    "published": "2025-12-19T15:14:55",
+    "source": "krebsonsecurity.com",
+    "category": "Phishing / Scams",
+    "importance_score": 141,
     "also_covered_by": []
   },
   {
@@ -2130,6 +2210,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Happy 16th Birthday, KrebsOnSecurity.com!",
+    "summary": "KrebsOnSecurity.com celebrates its 16th anniversary today! A huge \"thank you\" to all of our readers -- newcomers, long-timers and drive-by critics alike. Your engagement this past year here has been tremendous and truly a salve on a handful of dark days. Happily, comeuppance was a strong theme running through our coverage in 2025, with a primary focus on entities that enabled complex and globally-dispersed cybercrime services.",
+    "link": "https://krebsonsecurity.com/2025/12/happy-16th-birthday-krebsonsecurity-com/",
+    "published": "2025-12-29T20:23:26",
+    "source": "krebsonsecurity.com",
+    "category": "Other",
+    "importance_score": 128,
+    "also_covered_by": []
+  },
+  {
     "title": "The Dual-Use Dilemma of AI: Malicious LLMs",
     "summary": "<p>The line between research tool and threat creation engine is thin. We examine the capabilities of WormGPT 4 and KawaiiGPT, two malicious LLMs.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/dilemma-of-ai-malicious-llms/\">The Dual-Use Dilemma of AI: Malicious LLMs</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
     "link": "https://unit42.paloaltonetworks.com/dilemma-of-ai-malicious-llms/",
@@ -2167,6 +2257,16 @@
     "source": "unit42.paloaltonetworks.com",
     "category": "Other",
     "importance_score": 123,
+    "also_covered_by": []
+  },
+  {
+    "title": "The Kimwolf Botnet is Stalking Your Local Network",
+    "summary": "The story you are reading is a series of scoops nestled inside a far more urgent Internet-wide security advisory. The vulnerability at issue has been exploited for months already, and it's time for a broader awareness of the threat. The short version is that everything you thought you knew about the security of the internal network behind your Internet router probably is now dangerously out of date.",
+    "link": "https://krebsonsecurity.com/2026/01/the-kimwolf-botnet-is-stalking-your-local-network/",
+    "published": "2026-01-02T14:20:10",
+    "source": "krebsonsecurity.com",
+    "category": "Vulnerability",
+    "importance_score": 120,
     "also_covered_by": []
   },
   {
