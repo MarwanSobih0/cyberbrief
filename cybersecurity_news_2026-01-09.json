@@ -778,6 +778,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Credential stuffing: What it is and how to protect yourself",
+    "summary": "Reusing passwords may feel like a harmless shortcut – until a single breach opens the door to multiple accounts",
+    "link": "https://www.welivesecurity.com/en/cybersecurity/credential-stuffing-what-it-is-how-protect-yourself/",
+    "published": "2026-01-08T10:00:00",
+    "source": "welivesecurity.com",
+    "category": "Other",
+    "importance_score": 932,
+    "also_covered_by": []
+  },
+  {
     "title": "GoBruteforcer Botnet Targets Linux Servers",
     "summary": "The GoBruteforcer botnet has been observed targeting exposed Linux servers on services like FTP and MySQL",
     "link": "https://www.infosecurity-magazine.com/news/gobruteforcer-botnet-linux-servers/",
@@ -2926,16 +2936,6 @@
     "published": "2025-12-12T15:22:52",
     "source": "welivesecurity.com",
     "category": "Other",
-    "importance_score": 33,
-    "also_covered_by": []
-  },
-  {
-    "title": "What if your romantic AI chatbot can’t keep a secret?",
-    "summary": "Does your chatbot know too much? Here's why you should think twice before you tell your AI companion everything.",
-    "link": "https://www.welivesecurity.com/en/privacy/romantic-ai-chatbot-keep-secret/",
-    "published": "2025-11-17T10:00:00",
-    "source": "welivesecurity.com",
-    "category": "AI & Security",
     "importance_score": 33,
     "also_covered_by": []
   },
