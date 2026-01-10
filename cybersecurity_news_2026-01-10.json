@@ -508,6 +508,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Cybercriminals Exploit Maduro Arrest News to Spread Backdoor Malware",
+    "summary": "<p>Cybercriminals are leveraging reports of Venezuelan President Nicolás Maduro&#8217;s arrest on January 3, 2025, to distribute backdoor malware through a sophisticated social engineering campaign. Security researchers at Darktrace have uncovered a malicious operation that exploits this high-profile geopolitical event to compromise unsuspecting victims. Attack Method The threat actors likely used spear-phishing emails containing a ZIP [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cybercriminals-exploit-maduro-news-spread-malware/\">Cybercriminals Exploit Maduro Arrest News to Spread Backdoor Malware</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/cybercriminals-exploit-maduro-news-spread-malware/",
+    "published": "2026-01-10T05:07:19",
+    "source": "gbhackers.com",
+    "category": "Phishing / Scams",
+    "importance_score": 1237,
+    "also_covered_by": []
+  },
+  {
     "title": "Is Your Android TV Streaming Box Part of a Botnet?",
     "summary": "On the surface, the Superbox media streaming devices for sale at retailers like BestBuy and Walmart may seem like a steal: They offer unlimited access to more than 2,200 pay-per-view and streaming services like Netflix, ESPN and Hulu, all for a one-time fee of around $400. But security experts warn these TV boxes require intrusive software that forces the user's network to relay Internet traffic for others, traffic that is often tied to cybercrime activity such as advertising fraud and account takeovers.",
     "link": "https://krebsonsecurity.com/2025/11/is-your-android-tv-streaming-box-part-of-a-botnet/",
@@ -565,16 +575,6 @@
     "source": "helpnetsecurity.com",
     "category": "Vulnerability",
     "importance_score": 1100,
-    "also_covered_by": []
-  },
-  {
-    "title": "Trend Micro Apex Central Flaw Enable Remote Code Execution Attacks",
-    "summary": "<p>Trend Micro has issued a critical security update for Apex Central to address multiple remotely exploitable vulnerabilities, including a bug that allows unauthenticated attackers to execute code with SYSTEM-level privileges.  Organizations running vulnerable builds are urged to patch&#160;immediately&#160;to avoid both remote code execution and&#160;denial-of-service&#160;risks.​&#160; Critical flaws in Apex Central  The update targets Apex Central for Windows and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/trend-micro-apex-central-flaw/\">Trend Micro Apex Central Flaw Enable Remote Code Execution Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/trend-micro-apex-central-flaw/",
-    "published": "2026-01-09T09:25:32",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 1090,
     "also_covered_by": []
   },
   {
