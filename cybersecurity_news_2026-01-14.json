@@ -1596,16 +1596,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Your personal information is on the dark web. What happens next?",
-    "summary": "If your data is on the dark web, it’s probably only a matter of time before it’s abused for fraud or account hijacking. Here’s what to do.",
-    "link": "https://www.welivesecurity.com/en/privacy/information-dark-web-what-happens-next/",
-    "published": "2026-01-13T10:00:00",
-    "source": "welivesecurity.com",
-    "category": "Phishing / Scams",
-    "importance_score": 400,
-    "also_covered_by": []
-  },
-  {
     "title": "Introducing the Microsoft Defender Experts Suite: Elevate your security with expert-led services",
     "summary": "<p>Announcing Microsoft Defender Experts Suite, a integrated set of expert-led services that helps security teams keep pace with modern cyberattacks.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/01/06/introducing-the-microsoft-defender-experts-suite-elevate-your-security-with-expert-led-services/\">Introducing the Microsoft Defender Experts Suite: Elevate your security with expert-led services</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/01/06/introducing-the-microsoft-defender-experts-suite-elevate-your-security-with-expert-led-services/",
@@ -2634,6 +2624,16 @@
     "published": "2025-12-23T10:00:00",
     "source": "welivesecurity.com",
     "category": "Phishing / Scams",
+    "importance_score": 42,
+    "also_covered_by": []
+  },
+  {
+    "title": "PlushDaemon compromises network devices for adversary-in-the-middle attacks",
+    "summary": "ESET researchers have discovered a network implant used by the China-aligned PlushDaemon APT group to perform adversary-in-the-middle attacks",
+    "link": "https://www.welivesecurity.com/en/eset-research/plushdaemon-compromises-network-devices-for-adversary-in-the-middle-attacks/",
+    "published": "2025-11-19T09:55:00",
+    "source": "welivesecurity.com",
+    "category": "Other",
     "importance_score": 42,
     "also_covered_by": []
   },
