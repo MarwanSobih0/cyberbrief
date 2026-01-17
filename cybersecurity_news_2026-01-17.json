@@ -3108,6 +3108,16 @@
     "also_covered_by": []
   },
   {
+    "title": "The Architecture of Agentic Defense: Inside the Falcon Platform",
+    "summary": "No summary available",
+    "link": "https://www.crowdstrike.com/en-us/blog/architecture-of-agentic-defense-inside-the-falcon-platform/",
+    "published": "Jan 16, 2026 00:00:00-0800",
+    "source": "crowdstrike.com",
+    "category": "Other",
+    "importance_score": 6,
+    "also_covered_by": []
+  },
+  {
     "title": "CrowdStrike to Acquire Seraphic to Secure Work in Any Browser",
     "summary": "No summary available",
     "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-to-acquire-seraphic/",
@@ -3174,16 +3184,6 @@
     "published": "Dec 19, 2025 00:00:00-0600",
     "source": "crowdstrike.com",
     "category": "AI & Security",
-    "importance_score": 6,
-    "also_covered_by": []
-  },
-  {
-    "title": "Inside CrowdStrike&rsquo;s Science-Backed Approach to Building Expert SOC Agents",
-    "summary": "No summary available",
-    "link": "https://www.crowdstrike.com/en-us/blog/inside-crowdstrikes-science-backed-approach-to-building-soc-agents/",
-    "published": "Dec 19, 2025 00:00:00-0600",
-    "source": "crowdstrike.com",
-    "category": "Other",
     "importance_score": 6,
     "also_covered_by": []
   }
