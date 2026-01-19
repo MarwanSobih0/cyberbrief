@@ -116,6 +116,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Cisco 0-Day RCE Secure Email Gateway Vulnerability Exploited in the Wild",
+    "summary": "<p>Cisco has confirmed active exploitation of a critical zero-day remote code execution vulnerability in its Secure Email Gateway and Secure Email and Web Manager appliances. Tracked as CVE-2025-20393, the flaw allows unauthenticated attackers to execute arbitrary root-level commands via crafted HTTP requests to the Spam Quarantine feature. The vulnerability stems from insufficient validation of HTTP [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/cisco-0-day-rce-secure-email-gateway-vulnerability/\">Cisco 0-Day RCE Secure Email Gateway Vulnerability Exploited in the Wild</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/cisco-0-day-rce-secure-email-gateway-vulnerability/",
+    "published": "2026-01-16T10:15:29",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 2721,
+    "also_covered_by": []
+  },
+  {
     "title": "The Cyber Express Weekly Roundup: Leadership Changes, Blackouts, Malware, and AI Safety Actions",
     "summary": "<p><img alt=\"The Cyber Express Weekly Roundup\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"841\" src=\"https://thecyberexpress.com/wp-content/uploads/The-Cyber-Express-Weekly-Roundup-2.webp\" title=\"The Cyber Express Weekly Roundup: Leadership Changes, Blackouts, Malware, and AI Safety Actions 1\" width=\"1500\" /></p><span>The second week of 2026 continues to fetch new cybersecurity issues that affect national security, public stability, business operations, and technology governance. Developments this week ranged from senior intelligence leadership appointments and nationwide internet shutdowns to data breaches, new cybercrime services, and regulatory pressure on generative AI platforms.</span><span> </span>\n\n<span>Across regions and sectors, the incidents reflect how cyber <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-are-risks-in-cybersecurity/\" title=\"risks\">risks</a> now extend beyond technical environments into policy decisions, civil rights, financial systems, and public trust. Governments, enterprises, and technology providers faced challenges tied to resilience, accountability, and threat escalation, reinforcing cybersecurity’s role as a strategic issue rather than a purely operational one.</span><span> </span>\n<h3><b><span>The Cyber Express Weekly Roundup</span></b><span> </span></h3>\n<h4><b><span>X Tightens Grok AI Restrictions</span></b><span> </span></h4>\n<span>X (previously Twitter) introduced new restrictions on its AI chatbot Grok to prevent the creation of nonconsensual sexualized images, including content that may constitute child sexual abuse material. Measures include blocking sexualized image edits of real people, limiting image generation to paid users, and applying geoblocking where such content is illegal. The changes follow widespread abuse reports and ongoing investigations by U.S. and European authorities. </span><a href=\"https://thecyberexpress.com/x-tightens-grok-ai-controls/\" rel=\"noopener\" target=\"_blank\"><span>Read more…</span></a><span> </span>\n<h4><b><span>NSA Appoints Timothy Kosiba as Deputy Director</span></b><span> </span></h4>\n<span>The National Security Agency announced the appointment of Timothy Kosiba as its 21st Deputy Director, making him the agency’s senior civilian official responsible for strategy execution, policy, and operational priorities. Kosiba brings more than 30 years of experience across the U.S. intelligence community, including senior roles at the NSA and U.S. <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/cyber-news/\" title=\"Cyber\">Cyber</a> Command, overseas liaison assignments, and leadership of major operational units. </span><a href=\"https://thecyberexpress.com/national-security-agency-new-deputy-director/\" rel=\"noopener\" target=\"_blank\"><span>Read more…</span></a><span> </span>\n<h4><b><span>Iran Enters Fourth Day of Nationwide Internet Blackout</span></b><span> </span></h4>\n<span>Iran entered a fourth day of a nationwide <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-internet/\" title=\"internet\">internet</a> blackout amid widespread unrest linked to the collapse of the rial, now trading at 1.4 million to the U.S. dollar. Authorities reduced national connectivity to approximately 1%, cutting off communications for more than 80 million people. Reports indicate thousands have been detained and hundreds killed since protests began, drawing international concern over censorship, human rights, and crisis communications. </span><a href=\"https://thecyberexpress.com/internet-blackout-in-iran-continues/\" rel=\"noopener\" target=\"_blank\"><span>Read more…</span></a><span> </span>\n<h4><b><span>Dr. Amit Chaubey Warns of Expanding “Business Blast Radius”</span></b><span> </span></h4>\n<span>In an interview with <a href=\"https://thecyberexpress.com/\" rel=\"noopener\" target=\"_blank\">The Cyber Express</a>, Dr. Amit Chaubey said cyber incidents in 2026 are creating a broader “business blast radius,” extending beyond IT into national resilience, legal exposure, operational continuity, and public trust. He identified failures in external dependencies, such as cloud services, identity systems, connectivity, and key suppliers, as the primary drivers of large-scale disruption, warning that many organizations remain unprepared for sustained degraded operations. </span><a href=\"https://thecyberexpress.com/2026-business-blast-radius-dr-amit-chaubey/\" rel=\"noopener\" target=\"_blank\"><span>Read more…</span></a><span> </span>\n<h4><b><span>Endesa Data Breach Affects Energía XXI Customers</span></b><span> </span></h4>\n<span>Spanish energy provider Endesa disclosed a <a class=\"wpil_keyword_link\" href=\"https://cyble.com/knowledge-hub/what-is-a-data-breach/\" rel=\"noopener\" target=\"_blank\" title=\"data breach\">data breach</a> involving unauthorized access to its commercial platform, impacting customers of its regulated operator Energía XXI. Exposed <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-data/\" title=\"data\">data</a> includes identification details, contact information, national identity numbers, contract data, and possible payment information such as IBANs. Endesa stated that account passwords were not compromised and reported no evidence of data misuse as investigations continue. </span><a href=\"https://thecyberexpress.com/endesa-data-breach/\" rel=\"noopener\" target=\"_blank\"><span>Read more…</span></a><span> </span>\n<h4><b><span>New Android Banking Malware deVixor Identified</span></b><span> </span></h4>\n<span>Cyble researchers identified a new </span><a href=\"https://cyble.com/blog/devixor-an-evolving-android-banking-rat-with-ransomware-capabilities-targeting-iran/?__hstc=202258190.ded0a293f0c8c4ad740eada52c5e8147.1755003350690.1768305076596.1768560615809.74&amp;__hssc=202258190.5.1768560615809&amp;__hsfp=18479f0af5ad71e96e9ba971beaa5741\" rel=\"noopener\" target=\"_blank\"><span>Android banking malware</span></a><span> called deVixor, a remote access trojan combining credential theft, device surveillance, and ransomware functionality. Active since October, the <a class=\"wpil_keyword_link\" href=\"https://cyble.com/knowledge-hub/what-is-malware/\" rel=\"noopener\" target=\"_blank\" title=\"malware\">malware</a> targets Iranian users through phishing sites distributing malicious APKs and is operated as a service-based criminal platform using Telegram and Firebase infrastructure. Researchers noted the malware’s scalability and long-term operational design. </span><a href=\"https://thecyberexpress.com/android-banking-malware-devixor-ransomware/\" rel=\"noopener\" target=\"_blank\"><span>Read more…</span></a><span> </span>\n<h4><b><span>Microsoft Disrupts RedVDS Cybercrime Platform</span></b><span> </span></h4>\n<span>Microsoft announced the tak</span><span>edown of RedVDS, a cybercrime-as-a-service platform costing $24 per month that provided criminals with disposab</span><span>le virtual machines for <a class=\"wpil_keyword_link\" href=\"https://cyble.com/cybercrime/fraud/\" rel=\"noopener\" target=\"_blank\" title=\"fraud\">fraud</a> operations. In coordination with international law enforcement, Microsoft seized infrastructure linked to an estimated $40 million in reported U.S. fraud losses, with victims across healthcare, real estate, nonprofit, and other sectors. The action marks Microsoft’s 35th civil case against <a class=\"wpil_keyword_link\" href=\"https://cyble.com/cybercrime/\" rel=\"noopener\" target=\"_blank\" title=\"cybercrime\">cybercrime</a> infrastructure. </span><a href=\"https://thecyberexpress.com/redvds-service-dismantled/\" rel=\"noopener\" target=\"_blank\"><span>Read more…</span></a><span> </span>\n<h3><b><span>Weekly Roundup Takeaway</span></b><span> </span></h3>\n<span>This week’s events highlight how <a class=\"wpil_keyword_link\" href=\"https://cyble.com/knowledge-hub/what-is-cybersecurity/\" rel=\"noopener\" target=\"_blank\" title=\"cybersecurity\">cybersecurity</a> in 2026 directly affects governance, economic stability, civil rights, and technology accountability. From intelligence leadership changes and state-imposed internet shutdowns to advanced malware, large-scale fraud platforms, and <a href=\"https://thecyberexpress.com/european-commission-investigates-grok-ai/\" rel=\"noopener\" target=\"_blank\">AI safety enforcement</a>, cyber risks now demand coordinated action across policy, regulation, and operations rather than technical controls alone.</span><span> </span>",
     "link": "https://thecyberexpress.com/weekly-roundup-tce-cybersecurity/",
@@ -243,6 +253,16 @@
     "source": "helpnetsecurity.com",
     "category": "Ransomware",
     "importance_score": 1850,
+    "also_covered_by": []
+  },
+  {
+    "title": "Cisco Secure Email Gateway Zero-Day RCE Exploited in Active Attacks",
+    "summary": "<p>Cisco has confirmed an ongoing cyberattack campaign targeting Cisco Secure Email Gateway and Cisco Secure Email and Web Manager appliances,&#160;in which threat actors are&#160;executing arbitrary commands with root-level privileges on affected systems.&#160;&#160; The company became aware of the attack on December 10, 2025, following&#160;an&#160;investigation of a TAC&#160;support case that revealed evidence of persistent backdoors installed [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cisco-secure-email-gateway-zero-day-rce/\">Cisco Secure Email Gateway Zero-Day RCE Exploited in Active Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/cisco-secure-email-gateway-zero-day-rce/",
+    "published": "2026-01-16T12:57:24",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 1787,
     "also_covered_by": []
   },
   {
@@ -476,6 +496,26 @@
     "also_covered_by": []
   },
   {
+    "title": "Critical XSS Vulnerabilities in Meta Conversion API Enable Zero-Click Account Takeover",
+    "summary": "<p>Security researchers have uncovered two critical cross-site scripting (XSS) vulnerabilities in Meta&#8217;s Conversions API Gateway that could enable attackers to hijack Facebook accounts on a massive scale without any user interaction. The flaws affect Meta-owned domains, including facebook.com and meta.com, as well as potentially 100 million third-party deployments of the open-source gateway infrastructure. Understanding the [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-xss-vulnerabilities-in-meta-conversion-api/\">Critical XSS Vulnerabilities in Meta Conversion API Enable Zero-Click Account Takeover</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/critical-xss-vulnerabilities-in-meta-conversion-api/",
+    "published": "2026-01-17T06:45:41",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 1191,
+    "also_covered_by": []
+  },
+  {
+    "title": "NSA Publishes New Guidelines for Implementing a Zero Trust Security Model",
+    "summary": "<p>The National Security Agency has published the first two products in its Zero Trust Implementation Guidelines series, offering organizations practical recommendations for adopting&#160;Zero Trust security&#160;models.&#160;&#160; These foundational resources&#160;represent&#160;a significant step toward strengthening the cybersecurity posture of federal and private-sector entities.&#160; Foundational Documents Released  The NSA released the Zero Trust Implementation Primer and Discovery Phase guidelines [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/nsa-publishes-new-guidelines-zero-trust-security-model/\">NSA Publishes New Guidelines for Implementing a Zero Trust Security Model </a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/nsa-publishes-new-guidelines-zero-trust-security-model/",
+    "published": "2026-01-16T12:36:07",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 1100,
+    "also_covered_by": []
+  },
+  {
     "title": "Jen Easterly to Lead RSA Conference’s Ambitious Expansion Plans",
     "summary": "<p><img alt=\"Jen Easterly to Lead RSA Conference\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"600\" src=\"https://thecyberexpress.com/wp-content/uploads/Jen_Easterly_CEO_of_RSAC.jpg\" title=\"Jen Easterly to Lead RSA Conference&#039;s Ambitious Expansion Plans 12\" width=\"901\" /></p>Former CISA Director Jen Easterly will become CEO of RSA Conference LLC and its flagship annual cybersecurity conference, RSAC announced today.\n\nEasterly will guide RSAC’s ambitious growth plans amid the growing convergence of <a href=\"https://thecyberexpress.com/ai-security-is-top-cyber-concern/\">AI and cybersecurity</a>, the organization said. RSAC Conference became independent from security vendor RSA in 2022 and rebranded as RSAC last year.\n\nEasterly <a href=\"https://thecyberexpress.com/easterly-biden-cybersecurity-order/\">left CISA</a>, the U.S. Cybersecurity and Infrastructure Security Agency, amid the transition to the second Trump Administration a year ago. Since Easterly’s departure, the agency has faced staff cuts and departures, a <a href=\"https://thecyberexpress.com/cisa-acting-director-polygraph-test/\">polygraph controversy</a>, and her would-be successor, <a href=\"https://thecyberexpress.com/sean-plankey-nominated-next-cisa-director/\">Sean Plankey</a>, has yet to be confirmed and was <a href=\"https://www.whitehouse.gov/presidential-actions/2026/01/nominations-sent-to-the-senate-078c/\">renominated</a> for the role earlier this week.\n<h2>Jen Easterly Takes Over RSAC as AI and Security Converge</h2>\nIn a press release today, RSAC said Easterly takes over at an important moment, “as AI and <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-cybersecurity/\" title=\"cybersecurity\">cybersecurity</a> rapidly converge to reshape every aspect of the global technology ecosystem.”\n\nAs CEO, Easterly will provide direction for RSAC's portfolio, which includes its <a href=\"https://thecyberexpress.com/threat-groups-genai-use/\">annual cybersecurity conference</a> in San Francisco; international programming; the Innovation Sandbox contest that recognizes emerging cybersecurity startups; a growing professional membership program; education initiatives; and programs aimed at improving AI security, secure software development, and global collaboration.\n\n\"RSAC is not just a conference—it's the home of the global cybersecurity community,\" Easterly said in a statement. \"We're at a pivotal moment where cybersecurity and AI have become inseparable, and the world needs a trusted platform to bring together the people, ideas, and technologies that will shape the next decade. I'm honored to lead RSAC into its next chapter—expanding our international reach, strengthening our innovation ecosystem, and working with partners around the world to help build a future where technology is truly secure by design.\"\n<h3>RSAC Expands Beyond Annual Conference</h3>\nEasterly expanded on her comments in a LinkedIn <a href=\"https://www.linkedin.com/feed/update/urn:li:activity:7417601187962757120/\">post</a>, writing that “For 35 years, RSAC has been the place where defenders, practitioners, innovators, researchers, policymakers, founders, and engineers come together to understand what’s happening today...and to build what comes next.”\n\nShe referenced RSAC’s rebranding and expanded mission, noting that “as of last year, our borders are not confined to the flagship event in San Francisco. We are building RSAC to become a year-round hub for continuous learning and collaboration for the global cybersecurity community, revolving around our world-class content and unique insights.”\n\nThe West Point graduate and military veteran brings more than thirty years of experience to her new role, which also includes senior positions at the National <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/\" title=\"Security\">Security</a> Agency (NSA)—where she helped build the U.S. Cyber Command—and as a senior technology leader at Morgan Stanley. “Easterly is one of the most influential global voices on secure-by-design technology, AI as a force for reducing cyber <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-are-risks-in-cybersecurity/\" title=\"risk\">risk</a>, and the transformation of digital infrastructure through resilience and innovation,” RSAC said.\n\nHugh Thompson, Executive Chairman of RSAC and longtime Program Committee Chairman of the RSAC Conference, stated that \"there has never been a more important time for the cybersecurity and AI communities to come together. I am thrilled to partner with Jen, the team at RSAC, and our community, as we bring the world together for our 35th annual flagship event in March. Over the years some of the most important conversations in cybersecurity have happened at RSAC and I believe our 2026 conference will be the most impactful event we've ever had.\"\n\nRSAC 2026 Conference will take place at the Moscone Center in San Francisco March 23-26 and is expected to attract more than 40,000 attendees from around the world.\n\n&nbsp;",
     "link": "https://thecyberexpress.com/jen-easterly-to-lead-rsa-conference/",
@@ -516,6 +556,16 @@
     "also_covered_by": []
   },
   {
+    "title": "New Kerberos Relay Technique Exploits DNS CNAMEs to Bypass Existing Defenses",
+    "summary": "<p>A critical vulnerability in Windows Kerberos authentication that enables attackers to conduct credential-relay attacks by exploiting DNS CNAME records. Tracked as CVE-2026-20929, this flaw allows threat actors to force victims into requesting Kerberos service tickets for attacker-controlled systems, facilitating lateral movement and privilege escalation even when NTLM authentication is entirely disabled. CVE ID Vulnerability Name [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/new-kerberos-relay-technique-exploits-dns-cnames-to-bypass-existing-defenses/\">New Kerberos Relay Technique Exploits DNS CNAMEs to Bypass Existing Defenses</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/new-kerberos-relay-technique-exploits-dns-cnames-to-bypass-existing-defenses/",
+    "published": "2026-01-19T05:22:34",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 1095,
+    "also_covered_by": []
+  },
+  {
     "title": "Hackers Exploit c-ares DLL Side-Loading to Bypass Security and Deploy Malware",
     "summary": "Security experts have disclosed details of an active malware campaign that's exploiting a DLL side-loading vulnerability in a legitimate binary associated with the open-source c-ares library to bypass security controls and deliver a wide range of commodity trojans and stealers.\n\"Attackers achieve evasion by pairing a malicious libcares-2.dll with any signed version of the legitimate ahost.exe (",
     "link": "https://thehackernews.com/2026/01/hackers-exploit-c-ares-dll-side-loading.html",
@@ -523,6 +573,16 @@
     "source": "thehackernews.com",
     "category": "Vulnerability",
     "importance_score": 1043,
+    "also_covered_by": []
+  },
+  {
+    "title": "Best Security Awareness Training Platforms For 2026",
+    "summary": "<p>Security awareness training platforms empower organizations to combat rising cyber threats by educating employees on phishing, ransomware, and social engineering in 2026. These top 10 solutions deliver simulated attacks, personalized learning, and measurable risk reduction for businesses seeking robust human firewalls. Why Best Security Awareness Training Platforms Rising phishing success rates and AI-driven attacks make [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-security-awareness-training-platforms/\">Best Security Awareness Training Platforms For 2026</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/best-security-awareness-training-platforms/",
+    "published": "2026-01-17T04:29:23",
+    "source": "gbhackers.com",
+    "category": "Ransomware",
+    "importance_score": 1028,
     "also_covered_by": []
   },
   {
@@ -663,6 +723,16 @@
     "source": "thehackernews.com",
     "category": "Vulnerability",
     "importance_score": 931,
+    "also_covered_by": []
+  },
+  {
+    "title": "Cloudflare Acquired Open-source Web Framework Astro to Supercharge Development",
+    "summary": "<p>Cloudflare has acquired the team behind Astro, the popular open-source web framework for building fast, content-driven sites. Announced on January 16, 2026, the deal brings The Astro Technology Company&#8217;s full-time employees under Cloudflare&#8217;s umbrella to accelerate Astro&#8217;s development. Cloudflare positions the move as a commitment to open-source innovation, with Astro staying MIT-licensed, contribution-friendly, and platform-agnostic. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/cloudflare-acquired-astro/\">Cloudflare Acquired Open-source Web Framework Astro to Supercharge Development</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/cloudflare-acquired-astro/",
+    "published": "2026-01-16T16:47:14",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 930,
     "also_covered_by": []
   },
   {
@@ -846,6 +916,16 @@
     "also_covered_by": []
   },
   {
+    "title": "GhostPoster Malware Targets Chrome Users via 17 Rogue Extensions",
+    "summary": "<p>A sophisticated malware campaign has compromised users of Chrome, Firefox, and Edge by deploying 17 malicious extensions that employ advanced steganography techniques to evade detection. Collectively downloaded more than 840,000 times, the GhostPoster operation represents one of the most technically mature and persistent browser extension threats documented to date. The GhostPoster campaign leverages an uncommon [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ghostposter-malware/\">GhostPoster Malware Targets Chrome Users via 17 Rogue Extensions</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/ghostposter-malware/",
+    "published": "2026-01-19T05:05:13",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 723,
+    "also_covered_by": []
+  },
+  {
     "title": "Sources: DHS finalizing replacement for disbanded critical infrastructure security council",
     "summary": "<p>ANCHOR will restart conversations between government and industry around critical infrastructure security, with some changes around liability and other areas. </p>\n<p>The post <a href=\"https://cyberscoop.com/dhs-anchor-cipac-replacement-critical-infrastructure-cybersecurity-liability-protections/\">Sources: DHS finalizing replacement for disbanded critical infrastructure security council </a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
     "link": "https://cyberscoop.com/dhs-anchor-cipac-replacement-critical-infrastructure-cybersecurity-liability-protections/",
@@ -896,6 +976,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Microsoft January 2026 Security Update Causes Credential Prompt Failures in Remote Desktop Connections",
+    "summary": "<p>Microsoft has released an out-of-band emergency update to resolve a critical issue affecting Remote Desktop connections on Windows client devices. The problem emerged immediately following the installation of the January 2026 security update, identified as KB5074109. Administrators and users reported widespread credential prompt failures when attempting to sign in via the Windows App, significantly disrupting [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/remote-desktop-connections-prompt-failures/\">Microsoft January 2026 Security Update Causes Credential Prompt Failures in Remote Desktop Connections</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/remote-desktop-connections-prompt-failures/",
+    "published": "2026-01-18T09:37:45",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 629,
+    "also_covered_by": []
+  },
+  {
     "title": "CISO Role Reaches “Inflexion Point” With Executive-Level Titles",
     "summary": "IANS Research reveals a growth in executive-level CISO titles, amid resource challenges",
     "link": "https://www.infosecurity-magazine.com/news/ciso-role-inflexion-point/",
@@ -913,6 +1003,26 @@
     "source": "thehackernews.com",
     "category": "Vulnerability",
     "importance_score": 602,
+    "also_covered_by": []
+  },
+  {
+    "title": "Researchers Gain Access to StealC Malware Command-and-Control Systems",
+    "summary": "<p>Security researchers successfully exploited vulnerabilities in the StealC malware infrastructure, gaining access to operator control panels and exposing a threat actor&#8217;s identity through their own stolen session cookies. The breach highlights critical security failures in criminal operations built around credential theft. XSS Vulnerability Exposes StealC Operators StealC, an information-stealing malware operating under a Malware-as-a-Service model [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/researchers-gain-access-to-stealc-malware-command-and-control-systems/\">Researchers Gain Access to StealC Malware Command-and-Control Systems</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/researchers-gain-access-to-stealc-malware-command-and-control-systems/",
+    "published": "2026-01-17T05:53:52",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 589,
+    "also_covered_by": []
+  },
+  {
+    "title": "Researchers Breach StealC Infrastructure, Access Malware Control Panels",
+    "summary": "<p>Criminal infrastructure often fails for the same reasons it succeeds: it is rushed, reused, and poorly secured. Security researchers recently demonstrated this vulnerability by exploiting the very malware infrastructure designed to steal victims&#8217; credentials. StealC Malware and Its Infrastructure Weaknesses StealC is an infostealer malware distributed under a Malware-as-a-Service (MaaS) model since early 2023. The [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/researchers-breach-stealc-infrastructure/\">Researchers Breach StealC Infrastructure, Access Malware Control Panels</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/researchers-breach-stealc-infrastructure/",
+    "published": "2026-01-17T05:30:48",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 582,
     "also_covered_by": []
   },
   {
@@ -1046,6 +1156,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Google Begins Rolling Out Long-Awaited @gmail.com Email Feature to Users",
+    "summary": "<p>Google has&#160;initiated&#160;a gradual rollout of a highly requested feature that allows users to change their primary Google Account&#160;email address&#160;from one @gmail.com address to another.&#160; The functionality, which has been available in limited scenarios, is now being rolled out to all Google users. However, availability varies as the&#160;rollout progresses.&#160; How the Feature Works  The email change [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/google-begins-rolling-out-long-awaited-gmail-com/\">Google Begins Rolling Out Long-Awaited @gmail.com Email Feature to Users </a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/google-begins-rolling-out-long-awaited-gmail-com/",
+    "published": "2026-01-16T13:48:56",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 485,
+    "also_covered_by": []
+  },
+  {
     "title": "One million customers on alert as extortion group claims massive Brightspeed data haul",
     "summary": "The Crimson Collective claims to have stolen data on more than a million Brightspeed customers. The broadband provider is investigating.",
     "link": "https://www.malwarebytes.com/blog/news/2026/01/one-million-customers-on-alert-as-extortion-group-claims-massive-brightspeed-data-haul",
@@ -1053,6 +1173,16 @@
     "source": "malwarebytes.com",
     "category": "Data Breach",
     "importance_score": 484,
+    "also_covered_by": []
+  },
+  {
+    "title": "Google Vertex AI Flaw Lets Low-Privilege Users Escalate to Service Agent Roles",
+    "summary": "<p>Security researchers have discovered critical privilege escalation vulnerabilities in Google&#8217;s Vertex AI platform that allow attackers with minimal permissions to hijack high-privileged Service Agent accounts. The flaws affect the Vertex AI Agent Engine and Ray on Vertex AI, where default configurations enable low-privileged users to access powerful managed identities with project-wide permissions. As enterprises rapidly [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/google-vertex-ai-flaw/\">Google Vertex AI Flaw Lets Low-Privilege Users Escalate to Service Agent Roles</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/google-vertex-ai-flaw/",
+    "published": "2026-01-17T11:55:43",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 481,
     "also_covered_by": []
   },
   {
@@ -1076,6 +1206,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Windows 11 January Update Sparks Widespread Shutdown Complaints",
+    "summary": "<p>Microsoft&#8217;s latest security update for Windows 11 has triggered an unexpected problem affecting enterprise users: PCs equipped with Secure Launch are unable to shut down or hibernate properly. Instead of powering off, affected devices restart automatically, disrupting workflows and forcing users to work around the issue until a fix arrives. Secure Launch Devices Face Shutdown [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/windows-11-january-update-shutdown-complaints/\">Windows 11 January Update Sparks Widespread Shutdown Complaints</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/windows-11-january-update-shutdown-complaints/",
+    "published": "2026-01-17T05:04:10",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 472,
+    "also_covered_by": []
+  },
+  {
     "title": "How a simple link allowed hackers to bypass Copilot's security guardrails - and what Microsoft did about it",
     "summary": "Reprompt let attackers control Copilot and pull your data, even after you closed the chat.",
     "link": "https://www.zdnet.com/article/copilot-steal-data-reprompt-vulnerability-microsoft/",
@@ -1083,6 +1223,46 @@
     "source": "zdnet.com",
     "category": "Other",
     "importance_score": 472,
+    "also_covered_by": []
+  },
+  {
+    "title": "Mandiant Releases Rainbow Tables Enabling NTLMv1 Admin Password Hacking",
+    "summary": "<p>Google-owned Mandiant has publicly released a comprehensive dataset of Net-NTLMv1 rainbow tables, marking a significant escalation in demonstrating the security risks of legacy authentication protocols. The release underscores an urgent message: organizations must immediately migrate away from Net-NTLMv1, a deprecated protocol that has been cryptographically broken since 1999 and widely known to be insecure since [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/rainbow-tables-enabling-ntlmv1-hack/\">Mandiant Releases Rainbow Tables Enabling NTLMv1 Admin Password Hacking</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/rainbow-tables-enabling-ntlmv1-hack/",
+    "published": "2026-01-18T03:57:45",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 471,
+    "also_covered_by": []
+  },
+  {
+    "title": "Google’s Vertex AI Vulnerability Enables Low-Privileged Users to Gain Service Agent Roles",
+    "summary": "<p>Google’s Vertex AI contains default configurations that allow low-privileged users to escalate privileges by hijacking Service Agent roles. XM Cyber researchers identified two attack vectors in the Vertex AI Agent Engine and Ray on Vertex AI, which Google deemed &#8220;working as intended. Service Agents are managed identities that Google Cloud attaches to Vertex AI instances [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/google-vertex-ai-vulnerability/\">Google’s Vertex AI Vulnerability Enables Low-Privileged Users to Gain Service Agent Roles</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/google-vertex-ai-vulnerability/",
+    "published": "2026-01-17T11:14:19",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 465,
+    "also_covered_by": []
+  },
+  {
+    "title": "Google Rolls Out Long-Awaited @gmail.com Email Change Feature for Users",
+    "summary": "<p>Google is gradually rolling out the ability to change the @gmail.com email address associated with a Google Account to a new @gmail.com address. This feature, previously unavailable, addresses a common pain point for users who regret their original username choice but didn&#8217;t want to abandon years of emails, photos, and data. We already notified you [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/google-rolls-gmail-com-email-change/\">Google Rolls Out Long-Awaited @gmail.com Email Change Feature for Users</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/google-rolls-gmail-com-email-change/",
+    "published": "2026-01-16T07:56:54",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 456,
+    "also_covered_by": []
+  },
+  {
+    "title": "Windows 11 PCs Fail to Shut Down After January Security Update",
+    "summary": "<p>Microsoft&#8217;s January 13, 2026, security update for Windows 11 has triggered a frustrating bug: affected PCs refuse to shut down or hibernate, instead restarting. The issue is caused by KB5073455, which targets OS Build 22621.6491 on Windows 11 version 23H2. It was first reported on January 15 and arises from interference with Secure Launch, a [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/windows-11-pcs-fail-to-shut-down/\">Windows 11 PCs Fail to Shut Down After January Security Update</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/windows-11-pcs-fail-to-shut-down/",
+    "published": "2026-01-16T17:19:47",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 451,
     "also_covered_by": []
   },
   {
@@ -1483,6 +1663,26 @@
     "source": "zdnet.com",
     "category": "AI & Security",
     "importance_score": 320,
+    "also_covered_by": []
+  },
+  {
+    "title": "Argus – Python-powered Toolkit for Information Gathering and Reconnaissance",
+    "summary": "<p>Argus is a comprehensive Python-based toolkit designed for reconnaissance tasks in cybersecurity. The developers recently released version 2.0, expanding it to include 135 modules. This tool consolidates network analysis, web app scanning, and threat intelligence into one interface. Users access modules through an interactive CLI that supports searching, favorites, and batch runs. Network and infrastructure [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/argus-python-toolkit/\">Argus &#8211; Python-powered Toolkit for Information Gathering and Reconnaissance</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/argus-python-toolkit/",
+    "published": "2026-01-17T11:29:57",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 318,
+    "also_covered_by": []
+  },
+  {
+    "title": "Let’s Encrypt has made 6-day IP-based TLS certificates Generally Available",
+    "summary": "<p>Let’s Encrypt, a key provider of free TLS certificates, has rolled out short-lived and IP address-based certificates for general use. These new options became available starting in early 2026, addressing long-standing issues in certificate security. Short-lived certificates last just 160 hours, about six and a half days, while IP-based ones tie directly to IP addresses [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/lets-encrypt-6-day-tls-certificates/\">Let’s Encrypt has made 6-day IP-based TLS certificates Generally Available</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/lets-encrypt-6-day-tls-certificates/",
+    "published": "2026-01-17T16:17:54",
+    "source": "cybersecuritynews.com",
+    "category": "Ransomware",
+    "importance_score": 310,
     "also_covered_by": []
   },
   {
