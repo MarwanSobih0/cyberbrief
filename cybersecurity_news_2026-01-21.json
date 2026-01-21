@@ -398,16 +398,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Threat Actors Exploit LinkedIn for RAT Delivery in Enterprise Networks",
-    "summary": "<p>A sophisticated phishing campaign exploiting LinkedIn private messages has been identified, delivering remote access trojans (RATs) through a combination of DLL sideloading techniques and weaponized open-source Python pen-testing scripts, enabling attackers to establish persistent control over corporate systems while evading traditional security detection. These archives contain four key components: a genuine open-source PDF reader application, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/linkedin-exploited/\">Threat Actors Exploit LinkedIn for RAT Delivery in Enterprise Networks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/linkedin-exploited/",
-    "published": "2026-01-21T05:00:08",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 1333,
-    "also_covered_by": []
-  },
-  {
     "title": "HTTPS certificate industry phasing out less secure domain validation methods",
     "summary": "<span class=\"byline-author\">Posted by Chrome Root Program Team </span>\n\n<p>\nSecure connections are the backbone of the modern web, but a certificate is only as trustworthy as the validation process and issuance practices behind it. Recently, the <a href=\"https://security.googleblog.com/2023/05/how-chrome-root-program-keeps-users-safe.html\">Chrome Root Program</a> and the <a href=\"https://cabforum.org/\">CA/Browser Forum</a> have taken decisive steps toward a more secure internet by adopting new security requirements for HTTPS certificate issuers.\n</p>\n<p>\nThese initiatives, driven by Ballots <a href=\"https://cabforum.org/2024/11/14/ballot-sc080v3-sunset-the-use-of-whois-to-identify-domain-contacts-and-relying-dcv-methods/\">SC-080</a>, <a href=\"https://cabforum.org/2025/11/20/ballot-sc-090-gradually-sunset-all-remaining-email-based-phone-based-and-crossover-validation-methods-from-sections-3.2.2.4-and-3.2.2.5/\">SC-090</a>, and <a href=\"https://cabforum.org/2025/11/12/ballot-sc-091-sunset-3.2.2.5.3-reverse-address-lookup-validation-proposal-of-new-dns-based-validation-using-persistent-dcv-txt-record-for-ip-addresses/\">SC-091</a>, will sunset 11 legacy methods for Domain Control Validation. By retiring these outdated practices, which rely on weaker verification signals like physical mail, phone calls, or emails, we are closing potential loopholes for attackers and pushing the ecosystem toward automated, cryptographically verifiable security.\n</p>\n<p>\nTo allow affected website operators to transition smoothly, the deprecation will be phased in, with its full security value realized by March 2028.\n</p>\n<p>\nThis effort is a key part of our public roadmap, “<a href=\"https://www.chromium.org/Home/chromium-security/root-ca-policy/moving-forward-together/\">Moving Forward, Together,</a>” launched in 2022. Our vision is to improve security by modernizing infrastructure and promoting agility through automation. While \"Moving Forward, Together\" sets the aspirational direction, the recent updates to the <a href=\"https://cabforum.org/working-groups/server/baseline-requirements/requirements/\">TLS Baseline Requirements</a> turn that vision into policy. This builds on our momentum from earlier this year, including the successful <a href=\"https://security.googleblog.com/2025/03/new-security-requirements-adopted-by.html\">advocacy for the adoption of other security enhancing initiatives</a> as industry-wide standards.\n</p>\n<p>\n<strong>What’s Domain Control Validation?</strong>\n</p>\n<p>\nDomain Control Validation is a security-critical process designed to ensure certificates are only issued to the legitimate domain operator. This prevents unauthorized entities from obtaining a certificate for a domain they do not control. Without this check, an attacker could obtain a valid certificate for a legitimate website and use it to impersonate that site or intercept web traffic.\n</p>\n<p>\nBefore issuing a certificate, a Certification Authority (CA) must verify that the requestor legitimately controls the domain. Most modern validation relies on “challenge-response” mechanisms, for example, a CA might provide a random value for the requestor to place in a specific location, like a DNS TXT record, which the CA then verifies. \n</p>\n<p>\nHistorically, other methods validated control through indirect means, such as looking up contact information in WHOIS records or sending an email to a domain contact. These methods have been proven vulnerable (<a href=\"https://labs.watchtowr.com/we-spent-20-to-achieve-rce-and-accidentally-became-the-admins-of-mobi/\">example</a>) and the recent efforts retire these weaker checks in favor of robust, automated alternatives. \n</p>\n<p>\n<strong>Raising the floor of security</strong>\n</p>\n<p>\nThe recently passed CA/Browser Forum Server Certificate Working Group Ballots introduce a phased sunset of the following Domain Control Validation methods. Alternative existing methods offer stronger security assurances against attackers trying to obtain fraudulent certificates – and the alternative methods are getting <a href=\"https://security.googleblog.com/2025/03/new-security-requirements-adopted-by.html\">stronger</a> over time, too.\n</p>\n<p>\nSunsetted methods relying on email:\n</p>\n<ul>\n\n<li><a href=\"https://cabforum.org/working-groups/server/baseline-requirements/requirements/#32242-email-fax-sms-or-postal-mail-to-domain-contact\">Email, Fax, SMS, or Postal Mail to Domain Contact</a></li>\n\n<li><a href=\"https://cabforum.org/working-groups/server/baseline-requirements/requirements/#32252-email-fax-sms-or-postal-mail-to-ip-address-contact\">Email, Fax, SMS, or Postal Mail to IP Address Contact</a></li>\n\n<li><a href=\"https://cabforum.org/working-groups/server/baseline-requirements/requirements/#32244-constructed-email-to-domain-contact\">Constructed Email to Domain Contact</a></li>\n\n<li><a href=\"https://cabforum.org/working-groups/server/baseline-requirements/requirements/#322413-email-to-dns-caa-contact\">Email to DNS CAA Contact</a></li>\n\n<li><a href=\"https://cabforum.org/working-groups/server/baseline-requirements/requirements/#322414-email-to-dns-txt-contact\">Email to DNS TXT Contact</a></li>\n</ul>\n<p>\nSunsetted methods relying on phone: \n</p>\n<ul>\n\n<li><a href=\"https://cabforum.org/working-groups/server/baseline-requirements/requirements/#32243-phone-contact-with-domain-contact\">Phone Contact with Domain Contact</a></li>\n\n<li><a href=\"https://cabforum.org/working-groups/server/baseline-requirements/requirements/#322416-phone-contact-with-dns-txt-record-phone-contact\">Phone Contact with DNS TXT Record Phone Contact</a></li>\n\n<li><a href=\"https://cabforum.org/working-groups/server/baseline-requirements/requirements/#322417-phone-contact-with-dns-caa-phone-contact\">Phone Contact with DNS CAA Phone Contact</a></li>\n\n<li><a href=\"https://cabforum.org/working-groups/server/baseline-requirements/requirements/#32255-phone-contact-with-ip-address-contact\">Phone Contact with IP Address Contact</a></li>\n</ul>\n<p>\nSunsetted method relying on a reverse lookup:\n</p>\n<ul>\n\n<li><a href=\"https://cabforum.org/working-groups/server/baseline-requirements/requirements/#32248-ip-address\">IP Address</a></li>\n\n<li><a href=\"https://cabforum.org/working-groups/server/baseline-requirements/requirements/#32253-reverse-address-lookup\">Reverse Address Lookup</a></li>\n</ul>\n<p>\nFor everyday users, these changes are invisible - and that’s the point. But, behind the scenes, they make it harder for attackers to trick a CA into issuing a certificate for a domain they don’t control. This reduces the risk that stale or indirect signals, (like outdated WHOIS data, complex phone and email ecosystems, or inherited infrastructure) can be abused. These changes push the ecosystem toward standardized (e.g., <a href=\"https://datatracker.ietf.org/doc/html/rfc8555/\">ACME</a>), modern, and auditable Domain Control Validation methods. They increase agility and resilience by encouraging site owners to transition to modern Domain Control Validation methods, creating opportunities for faster and more efficient certificate lifecycle management through <a href=\"https://blog.chromium.org/2023/10/unlocking-power-of-tls-certificate.html\">automation</a>.\n</p>\n<p>\nThese initiatives remove weak links in how trust is established on the internet. That leads to a safer browsing experience <strong>for everyone</strong>, not just users of a single browser, platform, or website.\n</p>",
     "link": "http://security.googleblog.com/2025/12/https-certificate-industry-phasing-out.html",
@@ -478,16 +468,6 @@
     "also_covered_by": []
   },
   {
-    "title": "CISA Releases BRICKSTORM Malware Report with New YARA Rules for VMware vSphere",
-    "summary": "<p>The Cybersecurity and Infrastructure Security Agency has issued a malware analysis report on BRICKSTORM, a sophisticated backdoor linked to Chinese state-sponsored cyber operations. Released in December 2025 and updated through January 2026, the report identifies this threat targeting VMware vSphere platforms, specifically vCenter servers and ESXi environments. Organizations in government services and information technology sectors [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/cisa-releases-brickstorm-malware-report/\">CISA Releases BRICKSTORM Malware Report with New YARA Rules for VMware vSphere</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/cisa-releases-brickstorm-malware-report/",
-    "published": "2026-01-21T05:22:03",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 1278,
-    "also_covered_by": []
-  },
-  {
     "title": "Black Basta Ransomware Leader Added to EU Most Wanted and INTERPOL Red Notice",
     "summary": "Ukrainian and German law enforcement authorities have identified two Ukrainians suspected of working for the Russia-linked ransomware-as-a-service (RaaS) group Black Basta.\nIn addition, the group's alleged leader, a 35-year-old Russian national named Oleg Evgenievich Nefedov (Нефедов Олег Евгеньевич), has been added to the European Union's Most Wanted and INTERPOL's Red Notice lists, authorities",
     "link": "https://thehackernews.com/2026/01/black-basta-ransomware-hacker-leader.html",
@@ -518,16 +498,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Gootloader with Low Detection Rate Bypasses Most Security Tools",
-    "summary": "<p>Gootloader has reemerged as a serious threat after going dormant, returning in November 2025 with renewed capabilities designed to slip past modern security systems. This malware serves as an initial access broker, meaning its developers create the entry point for ransomware attacks and then hand over control to other threat actors who deploy the actual [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/gootloader-with-low-detection-rate/\">Gootloader with Low Detection Rate Bypasses Most Security Tools</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/gootloader-with-low-detection-rate/",
-    "published": "2026-01-20T17:51:44",
-    "source": "cybersecuritynews.com",
-    "category": "Ransomware",
-    "importance_score": 1153,
-    "also_covered_by": []
-  },
-  {
     "title": "Security leaders push for continuous controls as audits stay manual",
     "summary": "<p>Security teams say they want real-time insight into controls, but still rely on periodic checks that trail daily operations. New RegScale research shows how wide that gap remains and where organizations are directing time, staff, and budget to manage it. How organizations measure the ROI of AI tools in their GRC programs (Source: RegScale) Manual work still shapes compliance programs Manual processes continue to drive how organizations handle compliance. Security and risk teams spend thousands &#8230; <a href=\"https://www.helpnetsecurity.com/2026/01/21/regscale-continuous-controls-monitoring/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/01/21/regscale-continuous-controls-monitoring/\">Security leaders push for continuous controls as audits stay manual</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
     "link": "https://www.helpnetsecurity.com/2026/01/21/regscale-continuous-controls-monitoring/",
@@ -538,26 +508,6 @@
     "also_covered_by": []
   },
   {
-    "title": "New Study Finds GPT-5.2 Can Reliably Develop Zero-Day Exploits at Scale",
-    "summary": "<p>Advanced large language models can autonomously develop working exploits for zero-day vulnerabilities, marking a significant shift in the offensive cybersecurity landscape. The research demonstrates that artificial intelligence systems can now perform complex exploit development tasks that previously required specialized human expertise. The agents were challenged to develop exploits under realistic constraints, including modern security mitigations, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/gpt-5-2/\">New Study Finds GPT-5.2 Can Reliably Develop Zero-Day Exploits at Scale</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/gpt-5-2/",
-    "published": "2026-01-20T10:35:54",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 1082,
-    "also_covered_by": []
-  },
-  {
-    "title": "New Study Shows GPT-5.2 Can Reliably Develop Zero-Day Exploits at Scale",
-    "summary": "<p>A groundbreaking experiment has revealed that advanced language models can now create working exploits for previously unknown security vulnerabilities. Security researcher Sean Heelan recently tested two sophisticated systems built on GPT-5.2 and Opus 4.5, challenging them to develop exploits for a zero-day flaw in the QuickJS Javascript interpreter. The results point to a significant shift [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/new-study-shows-gpt-5-2-can-reliably/\">New Study Shows GPT-5.2 Can Reliably Develop Zero-Day Exploits at Scale</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/new-study-shows-gpt-5-2-can-reliably/",
-    "published": "2026-01-20T15:30:31",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 1065,
-    "also_covered_by": []
-  },
-  {
     "title": "Libbiosig, Grassroot DiCoM, Smallstep step-ca vulnerabilities",
     "summary": "<p>Cisco Talos&#x2019; Vulnerability Discovery &amp; Research team recently disclosed vulnerabilities in Biosig Project Libbiosig, Grassroot DiCoM, and Smallstep step-ca.</p><p>The vulnerabilities mentioned in this blog post have been patched by their respective vendors, all in adherence to<a href=\"https://sec.cloudapps.cisco.com/security/center/resources/vendor_vulnerability_policy.html\"><u> Cisco&#x2019;s third-party vulnerability disclosure policy</u></a>, except for Grassroot, as the</p>",
     "link": "https://blog.talosintelligence.com/libbiosig-grassroot-dicom-smallstep-step-ca-vulnerabilities/",
@@ -565,16 +515,6 @@
     "source": "blog.talosintelligence.com",
     "category": "Vulnerability",
     "importance_score": 1013,
-    "also_covered_by": []
-  },
-  {
-    "title": "New Spear Phishing Attack Leveraging Argentine Federal Court Rulings to Covert RAT for Remote Access",
-    "summary": "<p>A sophisticated spear-phishing campaign has emerged targeting Argentina&#8217;s judicial sector, exploiting trust in legitimate court communications to deliver a dangerous Remote Access Trojan. The campaign uses authentic-looking federal court documents about preventive detention reviews to trick legal professionals into downloading malware. Security experts have classified this attack as highly targeted, employing multi-stage infection techniques to [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/new-spear-phishing-attack-leveraging-argentine-federal-court-rulings/\">New Spear Phishing Attack Leveraging Argentine Federal Court Rulings to Covert RAT for Remote Access</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/new-spear-phishing-attack-leveraging-argentine-federal-court-rulings/",
-    "published": "2026-01-20T16:14:29",
-    "source": "cybersecuritynews.com",
-    "category": "Phishing / Scams",
-    "importance_score": 996,
     "also_covered_by": []
   },
   {
@@ -668,16 +608,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Raaga Confirms Major Data Breach Exposing Personal Information of 10.2Million Users",
-    "summary": "<p>Indian music streaming platform Raaga has become the latest victim of a significant&#160;cybersecurity&#160;incident after sensitive user data was posted for sale on a popular hacking forum in December 2025.&#160;&#160; The breach has exposed personal information from over 10 million users, raising serious concerns about account security and the risk of identity theft.&#160;&#160; The compromised database contains approximately [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/raaga-confirms-major-data-breach/\">Raaga Confirms Major Data Breach Exposing Personal Information of 10.2Million Users </a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/raaga-confirms-major-data-breach/",
-    "published": "2026-01-20T13:14:16",
-    "source": "gbhackers.com",
-    "category": "Data Breach",
-    "importance_score": 936,
-    "also_covered_by": []
-  },
-  {
     "title": "Five Malicious Chrome Extensions Impersonate Workday and NetSuite to Hijack Accounts",
     "summary": "Cybersecurity researchers have discovered five new malicious Google Chrome web browser extensions that masquerade as human resources (HR) and enterprise resource planning (ERP) platforms like Workday, NetSuite, and SuccessFactors to take control of victim accounts.\n\"The extensions work in concert to steal authentication tokens, block incident response capabilities, and enable complete account",
     "link": "https://thehackernews.com/2026/01/five-malicious-chrome-extensions.html",
@@ -695,36 +625,6 @@
     "source": "thehackernews.com",
     "category": "Phishing / Scams",
     "importance_score": 931,
-    "also_covered_by": []
-  },
-  {
-    "title": "Everest Ransomware Group Allegedly Claims Breach of McDonald’s India Systems",
-    "summary": "<p>The Everest ransomware group has claimed responsibility for a major cyberattack targeting McDonald&#8217;s India, allegedly exfiltrating 861 GB of sensitive corporate and customer data. The threat actors posted breach details on their dark web leak site on January 20, 2026, threatening public release if McDonald&#8217;s fails to respond within their specified deadline. Scope of Alleged [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/everest-ransomware-group-allegedly-claims-breach/\">Everest Ransomware Group Allegedly Claims Breach of McDonald’s India Systems</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/everest-ransomware-group-allegedly-claims-breach/",
-    "published": "2026-01-21T05:16:24",
-    "source": "gbhackers.com",
-    "category": "Ransomware",
-    "importance_score": 927,
-    "also_covered_by": []
-  },
-  {
-    "title": "Most SOCs Are Seeing Attacks Too Late. Here’s How to Fix It",
-    "summary": "<p>As cyber risk increasingly translates into financial loss, speed is everything. Yet most Security Operations Centers (SOCs) are detecting attacks only after significant damage has already occurred. The average data breach costs organizations $4.4 million, with costs escalating the longer attackers remain undetected inside networks. Delayed detection, often measured in days or weeks of dwell [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/most-socs-are-seeing-attacks-too-late/\">Most SOCs Are Seeing Attacks Too Late. Here&#8217;s How to Fix It </a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/most-socs-are-seeing-attacks-too-late/",
-    "published": "2026-01-20T17:47:58",
-    "source": "cybersecuritynews.com",
-    "category": "Data Breach",
-    "importance_score": 914,
-    "also_covered_by": []
-  },
-  {
-    "title": "Everest Ransomware Group Allegedly Claims to Have Breached McDonald’s India",
-    "summary": "<p>The Everest ransomware group has claimed responsibility for a major cyberattack targeting McDonald&#8217;s India, allegedly exfiltrating 861 GB of sensitive data. The threat actors posted details of the breach on their dark web leak site on January 20, 2026, threatening to publicly release the stolen information if the company fails to respond within a specified [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/mcdonalds-india-everest-ransomware/\">Everest Ransomware Group Allegedly Claims to Have Breached McDonald&#8217;s India</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/mcdonalds-india-everest-ransomware/",
-    "published": "2026-01-20T17:10:23",
-    "source": "cybersecuritynews.com",
-    "category": "Ransomware",
-    "importance_score": 910,
     "also_covered_by": []
   },
   {
@@ -858,16 +758,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Spear-Phishing Campaign Abuses Argentine Federal Court Rulings to Deliver Covert RAT",
-    "summary": "<p>Seqrite Labs has uncovered a sophisticated spear-phishing campaign targeting Argentina&#8217;s judicial sector with a multi-stage infection chain designed to deploy a stealthy Rust-based Remote Access Trojan (RAT). The campaign primarily targets Argentina&#8217;s judicial institutions, legal professionals, justice-adjacent government bodies, and academic legal organizations. Attackers abuse legitimate Argentine federal court rulings specifically, preventive detention review documents [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/spear-phishing-campaign-2/\">Spear-Phishing Campaign Abuses Argentine Federal Court Rulings to Deliver Covert RAT</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/spear-phishing-campaign-2/",
-    "published": "2026-01-20T11:53:42",
-    "source": "gbhackers.com",
-    "category": "Phishing / Scams",
-    "importance_score": 748,
-    "also_covered_by": []
-  },
-  {
     "title": "Phishing actors exploit complex routing and misconfigurations to spoof domains",
     "summary": "<p>Threat actors are exploiting complex routing scenarios and misconfigured spoof protections to send spoofed phishing emails, crafted to appear as internally sent messages.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/01/06/phishing-actors-exploit-complex-routing-and-misconfigurations-to-spoof-domains/\">Phishing actors exploit complex routing and misconfigurations to spoof domains</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/01/06/phishing-actors-exploit-complex-routing-and-misconfigurations-to-spoof-domains/",
@@ -875,16 +765,6 @@
     "source": "microsoft.com",
     "category": "Phishing / Scams",
     "importance_score": 743,
-    "also_covered_by": []
-  },
-  {
-    "title": "Gootloader Malware With Low Detection Rate Evades Most Security Tools",
-    "summary": "<p>Gootloader malware has resurfaced, employing sophisticated evasion techniques to exploit malformed ZIP archives and obfuscation mechanisms to bypass security detection systems. The Gootloader malware campaign, tracked as a partnership between Storm-0494 and Vanilla Tempest, has returned in late 2025 with an alarming ability to evade detection. The threat operates through a specialized delivery mechanism a [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/gootloader-malware/\">Gootloader Malware With Low Detection Rate Evades Most Security Tools</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/gootloader-malware/",
-    "published": "2026-01-20T12:56:13",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 723,
     "also_covered_by": []
   },
   {
@@ -965,16 +845,6 @@
     "source": "infosecurity-magazine.com",
     "category": "Ransomware",
     "importance_score": 633,
-    "also_covered_by": []
-  },
-  {
-    "title": "WPair – Scanner Tool to Detect WhisperPair Flaw in Google’s Fast Pair Protocol",
-    "summary": "<p>WPair is an Android application designed to identify and demonstrate the CVE-2025-36911 vulnerability affecting millions of Bluetooth audio devices worldwide. The tool addresses a critical authentication bypass flaw discovered by KU Leuven researchers in Google&#8217;s Fast Pair protocol, commonly referred to as WhisperPair.​ CVE-2025-36911 represents a systemic failure in Fast Pair implementations across multiple manufacturers [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/wpair-scanner-tool-to-detect-whisperpair-flaw/\">WPair &#8211; Scanner Tool to Detect WhisperPair Flaw in Google&#8217;s Fast Pair Protocol</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/wpair-scanner-tool-to-detect-whisperpair-flaw/",
-    "published": "2026-01-20T16:21:34",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 632,
     "also_covered_by": []
   },
   {
@@ -1108,40 +978,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Sprocket Security Appoints Eric Sheridan as Chief Technology Officer",
-    "summary": "<p>Madison, United States, January 20th, 2026, CyberNewsWire Veteran cybersecurity leader brings decades of experience and patented innovation to advance the next generation of proactive security solutions. Sprocket Security&#160;today announced the appointment of Eric Sheridan as Chief Technology Officer (CTO). In this role, Sheridan will lead the company&#8217;s technology vision and execution,&#160;accelerating&#160;innovation and&#160;advancing&#160;Sprocket Security&#8217;s mission to [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/sprocket-security-appoints-eric-sheridan-as-chief-technology-officer/\">Sprocket Security Appoints Eric Sheridan as Chief Technology Officer</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/sprocket-security-appoints-eric-sheridan-as-chief-technology-officer/",
-    "published": "2026-01-20T18:26:57",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 500,
-    "also_covered_by": [
-      "cybersecuritynews.com"
-    ]
-  },
-  {
-    "title": "One Identity Unveils Major Upgrade to Identity Manager, Strengthening Enterprise Identity Security",
-    "summary": "<p>Alisa Viejo, United States, January 20th, 2026, CyberNewsWire One Identity, a trusted leader in identity security, today announces a major upgrade to One Identity Manager, a top-rated IGA solution, strengthening identity governance as a critical security control for modern enterprise environments.&#160; One Identity Manager 10.0 introduces security-driven capabilities for risk-based governance, identity threat detection and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/one-identity-unveils-major-upgrade-to-identity-manager-strengthening-enterprise-identity-security/\">One Identity Unveils Major Upgrade to Identity Manager, Strengthening Enterprise Identity Security</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/one-identity-unveils-major-upgrade-to-identity-manager-strengthening-enterprise-identity-security/",
-    "published": "2026-01-20T18:16:29",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 500,
-    "also_covered_by": [
-      "cybersecuritynews.com"
-    ]
-  },
-  {
-    "title": "OPNsense 25.7.11 Enhances Network Visibility With Host Discovery Feature",
-    "summary": "<p>The&#160;OPNsense&#160;team has started the new year with the release of version 25.7.11, bringing a notable networking enhancement: a native host discovery service that deepens visibility into connected devices and tightens policy control across the&#160;firewall.&#160; Native host discovery improves network visibility.&#160;The headline feature in 25.7.11 is the new host discovery service, built on the&#160;hostwatch&#160;component.&#160; It automatically [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/opnsense-25-7-11-enhances-network-visibility-with-host-discovery-feature/\">OPNsense 25.7.11 Enhances Network Visibility With Host Discovery Feature</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/opnsense-25-7-11-enhances-network-visibility-with-host-discovery-feature/",
-    "published": "2026-01-20T11:09:30",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 500,
-    "also_covered_by": []
-  },
-  {
     "title": "HackerOne extends Safe Harbor protections to AI testing",
     "summary": "<p>HackerOne has unveiled the Good Faith AI Research Safe Harbor, a new industry framework that establishes authorisation and legal protections for researchers testing AI systems in good faith. As AI systems scale rapidly across critical products and services, legal ambiguity around testing can slow responsible research and increase risk. The new safe harbor removes that friction by giving organisations and AI researchers a shared standard to find and fix AI risks faster and with greater &#8230; <a href=\"https://www.helpnetsecurity.com/2026/01/20/hackerone-good-faith-ai-research-safe-harbor-framework/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/01/20/hackerone-good-faith-ai-research-safe-harbor-framework/\">HackerOne extends Safe Harbor protections to AI testing</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
     "link": "https://www.helpnetsecurity.com/2026/01/20/hackerone-good-faith-ai-research-safe-harbor-framework/",
@@ -1202,16 +1038,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Apache Airflow Flaws Expose Sensitive Workflow Data to Potential Attackers",
-    "summary": "<p>Apache Airflow has patched two separate credential-exposure vulnerabilities in versions before 3.1.6.   The flaws could allow attackers to extract sensitive authentication data embedded in proxy configurations and templated workflow fields through log files and the web UI, potentially compromising network&#160;infrastructure&#160;and sensitive data pipelines.&#160; The first vulnerability affects Apache Airflow versions before 3.1.6 and stems from [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/apache-airflow-flaws-expose-sensitive-workflow-data/\">Apache Airflow Flaws Expose Sensitive Workflow Data to Potential Attackers </a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/apache-airflow-flaws-expose-sensitive-workflow-data/",
-    "published": "2026-01-20T12:45:35",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 493,
-    "also_covered_by": []
-  },
-  {
     "title": "Best Ransomware Detection Tools",
     "summary": "Stop ransomware before encryption begins. Learn how intelligence-driven detection tools can help identify precursor behaviors and reduce false positives for faster response.",
     "link": "https://www.recordedfuture.com/blog/best-ransomware-detection-tools",
@@ -1269,16 +1095,6 @@
     "source": "threatpost.com",
     "category": "Ransomware",
     "importance_score": 477,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hacker Pleads Guilty For Stealing Supreme Court Documents and Leaking via Instagram",
-    "summary": "<p>Nicholas Moore, 24, from Springfield, Tennessee, pleaded guilty to unauthorized computer access and fraud, marking a significant case of government cybersecurity breach. Moore hacked multiple U.S. government systems and publicly disclosed sensitive information through social media, exposing critical vulnerabilities in federal digital infrastructure. Between August and October 2023, Moore executed a coordinated series of intrusions [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hacker-pleads-guilty/\">Hacker Pleads Guilty For Stealing Supreme Court Documents and Leaking via Instagram</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/hacker-pleads-guilty/",
-    "published": "2026-01-20T16:30:23",
-    "source": "cybersecuritynews.com",
-    "category": "Data Breach",
-    "importance_score": 475,
     "also_covered_by": []
   },
   {
