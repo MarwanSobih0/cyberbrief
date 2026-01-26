@@ -1158,6 +1158,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Incident response lessons learned the hard way",
+    "summary": "<p>In this Help Net Security video, Ryan Seymour, VP, Consulting and Education at ConnectSecure, shares lessons from more than two decades in cybersecurity incident response. He explains why many response failures are set in motion long before an attack begins. The focus is on how teams prepare to make decisions under pressure. Seymour walks through real incidents where plans looked complete on paper, yet teams hesitated when signals appeared. He shows how delays often come &#8230; <a href=\"https://www.helpnetsecurity.com/2026/01/26/incident-response-failures-video/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/01/26/incident-response-failures-video/\">Incident response lessons learned the hard way</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "link": "https://www.helpnetsecurity.com/2026/01/26/incident-response-failures-video/",
+    "published": "2026-01-26T05:30:25",
+    "source": "helpnetsecurity.com",
+    "category": "Other",
+    "importance_score": 500,
+    "also_covered_by": []
+  },
+  {
     "title": "AWS releases updated PCI PIN compliance report for payment cryptography",
     "summary": "<p>Amazon Web Services has published an updated Payment Card Industry Personal Identification Number (PCI PIN) compliance package for its AWS Payment Cryptography service, confirming a recent third-party audit of the platform. The report package is now accessible through AWS’s compliance portal. Two PCI PIN compliance reports included The update includes two primary deliverables. The first is a PCI PIN Attestation of Compliance (AOC) showing that a Qualified Security Assessor (QSA) validated AWS Payment Cryptography against &#8230; <a href=\"https://www.helpnetsecurity.com/2026/01/26/amazon-aws-pci-pin-compliance/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/01/26/amazon-aws-pci-pin-compliance/\">AWS releases updated PCI PIN compliance report for payment cryptography</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
     "link": "https://www.helpnetsecurity.com/2026/01/26/amazon-aws-pci-pin-compliance/",
@@ -1534,16 +1544,6 @@
     "published": "2026-01-23T06:30:04",
     "source": "helpnetsecurity.com",
     "category": "Other",
-    "importance_score": 350,
-    "also_covered_by": []
-  },
-  {
-    "title": "More employees get AI tools, fewer rely on them at work",
-    "summary": "<p>People across many organizations now have access to AI tools, and usage keeps spreading. Some groups rely on AI during regular work, others treat it as an occasional helper. That gap between access and routine use sits at the center of new research from Deloitte on enterprise AI adoption. The research draws on a global survey of more than 3,200 business and IT leaders conducted in late 2025. Respondents come from large organizations across industries &#8230; <a href=\"https://www.helpnetsecurity.com/2026/01/23/deloitte-enterprise-ai-adoption/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/01/23/deloitte-enterprise-ai-adoption/\">More employees get AI tools, fewer rely on them at work</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
-    "link": "https://www.helpnetsecurity.com/2026/01/23/deloitte-enterprise-ai-adoption/",
-    "published": "2026-01-23T06:00:42",
-    "source": "helpnetsecurity.com",
-    "category": "AI & Security",
     "importance_score": 350,
     "also_covered_by": []
   },
