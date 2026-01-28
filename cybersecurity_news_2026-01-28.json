@@ -198,6 +198,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Over 6,000 SmarterMail Servers Exposed to Actively Exploited RCE Vulnerability",
+    "summary": "<p>Approximately 6,000 vulnerable SmarterTools SmarterMail installations globally are all exposed to an actively exploited remote code execution vulnerability. The vulnerability, tracked as CVE-2026-23760, poses an immediate threat to organisations relying on SmarterMail for email and collaboration services. The Shadowserver Foundation integrated CVE-2026-23760 detection into their daily vulnerable HTTP scans, flagging susceptible servers based on version [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/over-6000-smartermail-servers-exposed/\">Over 6,000 SmarterMail Servers Exposed to Actively Exploited RCE Vulnerability</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/over-6000-smartermail-servers-exposed/",
+    "published": "2026-01-27T10:25:39",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 2292,
+    "also_covered_by": []
+  },
+  {
     "title": "Microsoft Ending Support for Windows 7 and Windows Server 2008 R2",
     "summary": "<div>\n<h3>Summary</h3>\n</div>\n<p><em><strong>Note</strong>: This alert does not apply to federally certified voting systems running Windows 7. Microsoft will continue to provide free security updates to those systems through the 2020 election. See Microsoft’s article, <a href=\"https://blogs.microsoft.com/on-the-issues/2019/09/20/extending-free-windows-7-security-updates-to-voting-systems/\">Extending free Windows 7 security updates to voting systems</a>, for more information.</em></p>\n<p>On January 14, 2020, Microsoft will end extended support for their Windows 7 and Windows Server 2008 R2 operating systems.<a href=\"https://www.microsoft.com/en-us/windows/windows-7-end-of-life-support-information\">[1]</a> After this date, these products will no longer receive free technical support, or software and security updates.</p>\n<p>Organizations that have regulatory obligations may find that they are unable to satisfy compliance requirements while running Windows 7 and Windows Server 2008 R2.</p>\n<div>\n<h3>Technical Details</h3>\n</div>\n<p>All software products have a lifecycle. “End of support” refers to the date when the software vendor will no longer provide automatic fixes, updates, or online technical assistance. <a href=\"https://support.microsoft.com/en-us/help/13853/windows-lifecycle-fact-sheet\">[2]</a></p>\n<p>For more information on end of support for Microsoft products see the <a href=\"https://www.microsoft.com/en-us/windows/windows-7-end-of-life-support-information\">Microsoft End of Support FAQ</a>.</p>\n<p>Systems running Windows 7 and Windows Server 2008 R2 will continue to work at their current capacity even after support ends on January 14, 2020. However, using unsupported software may increase the likelihood of malware and other security threats. Mission and business functions supported by systems running Windows 7 and Windows Server 2008 R2 could experience negative consequences resulting from unpatched vulnerabilities and software bugs. These negative consequences could include the loss of confidentiality, integrity, and availability of data, system resources, and business assets.</p>\n<div>\n<h3>Mitigations</h3>\n</div>\n<p>The Cybersecurity and Infrastructure Security Agency (CISA) encourages users and organizations to:</p>\n<ul>\n<li>Upgrade to a newer operating system.</li>\n<li>Identify affected devices to determine breadth of the problem and assess risk of not upgrading.&nbsp;</li>\n<li>Establish and execute a plan to systematically migrate to currently supported operating systems or employ a cloud-based service.&nbsp;</li>\n<li>Contact the operating system vendor to explore opportunities for fee-for-service maintenance, if unable to upgrade.&nbsp; &nbsp;</li>\n</ul>\n<div>\n<h3>References</h3>\n</div>\n<div class=\"field--item\"><a href=\"https://www.microsoft.com/en-us/windows/windows-7-end-of-life-support-information\">[1] Microsoft End of Support FAQ</a></div>\n<div class=\"field--item\"><a href=\"https://support.microsoft.com/en-us/help/13853/windows-lifecycle-fact-sheet\">[2] Microsoft Windows Lifecyle Fact Sheet</a></div>\n<div class=\"field--item\"><a href=\"https://docs.microsoft.com/en-us/windows/deployment/upgrade/windows-upgrade-and-migration-considerations\">[3] Microsoft Windows Upgrade and Migration Considerations</a></div>\n<div class=\"field--item\"><a href=\"https://www.computerworld.com/article/3431616/leaving-windows-7-here-are-some-non-windows-options.html\">[4] ComputerWorld: Leaving Windows 7? Here are Some non-Windows Options</a></div>\n<div class=\"field--item\"><a href=\"https://www.us-cert.gov/ncas/analysis-reports/AR19-133A\">[5] CISA Analysis Report AR19-133A: Microsoft Office 365 Security Observations</a></div>\n<div>\n<h3>Revisions</h3>\n</div>\n<p>October 17, 2019:  Initial version|October 18, 2019:  Added note</p>",
     "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa19-290a",
@@ -385,6 +395,16 @@
     "source": "security.googleblog.com",
     "category": "Vulnerability",
     "importance_score": 1540,
+    "also_covered_by": []
+  },
+  {
+    "title": "SMS Phishers Pivot to Points, Taxes, Fake Retailers",
+    "summary": "China-based phishing groups blamed for non-stop scam SMS messages about a supposed wayward package or unpaid toll fee are promoting a new offering, just in time for the holiday shopping season: Phishing kits for mass-creating fake but convincing e-commerce websites that convert customer payment card data into mobile wallets from Apple and Google. Experts say these same phishing groups also are now using SMS lures that promise unclaimed tax refunds and mobile rewards points.",
+    "link": "https://krebsonsecurity.com/2025/12/sms-phishers-pivot-to-points-taxes-fake-retailers/",
+    "published": "2025-12-04T23:02:34",
+    "source": "krebsonsecurity.com",
+    "category": "Vulnerability",
+    "importance_score": 1522,
     "also_covered_by": []
   },
   {
@@ -588,6 +608,56 @@
     "also_covered_by": []
   },
   {
+    "title": "Attackers Exploit React2Shell Vulnerability to Target IT Sector Systems",
+    "summary": "<p>Active exploitation of a critical vulnerability in React Server Components, tracked as CVE‑2025‑55182 (React2Shell), targeting companies across multiple industry sectors worldwide. React2Shell affects the Flight protocol, which facilitates client-server communication for React Server Components. The vulnerability stems from insecure deserialization servers accept client data without proper verification, enabling remote code execution under specific conditions. The [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/react2shell-vulnerability-4/\">Attackers Exploit React2Shell Vulnerability to Target IT Sector Systems</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/react2shell-vulnerability-4/",
+    "published": "2026-01-27T10:10:31",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 1090,
+    "also_covered_by": []
+  },
+  {
+    "title": "Critical vm2 Flaw Lets Attackers Bypass Sandbox and Execute Arbitrary Code in Node.js",
+    "summary": "<p>A critical vulnerability in the vm2 JavaScript sandbox library (versions ≤ 3.10.0) enables attackers to bypass sandbox protections and execute arbitrary code with full system privileges. The flaw exploits improper sanitization of Promise callback functions, allowing remote code execution without authentication or user interaction. Vulnerability Overview The vm2 library, deployed across 273,000 projects on npm, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-vm2-flaw-arbitrary-code-in-node-js/\">Critical vm2 Flaw Lets Attackers Bypass Sandbox and Execute Arbitrary Code in Node.js</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/critical-vm2-flaw-arbitrary-code-in-node-js/",
+    "published": "2026-01-27T10:56:56",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 1084,
+    "also_covered_by": []
+  },
+  {
+    "title": "Your Tier 1 Analyst at SOC Team Is Failing at Effective Triage. That’s a Business Problem",
+    "summary": "<p>Security Operations Centers&#160;live&#160;or die by their ability to respond quickly and accurately to alerts. At the heart of this process is&#160;alert&#160;triage — the&#160;initial&#160;evaluation that decides whether an alert is a real incident, a false positive, or something that needs immediate escalation. When Tier 1 analysts get triage wrong,&#160;detection speed collapses, response resources are misused, and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/your-tier-1-analyst-at-soc-team-is-failing-at-effective-triage/\">Your Tier 1 Analyst at SOC Team Is Failing at Effective Triage. That’s a Business Problem </a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/your-tier-1-analyst-at-soc-team-is-failing-at-effective-triage/",
+    "published": "2026-01-27T15:30:39",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 1084,
+    "also_covered_by": []
+  },
+  {
+    "title": "Attackers Exploiting React2Shell Vulnerability to Attack IT Sectors",
+    "summary": "<p>Threat actors have started targeting companies in the insurance, e-commerce, and IT sectors through a critical vulnerability tracked as CVE-2025-55182, commonly known as React2Shell. This flaw exists in the Flight protocol that handles client-server communication for React Server Components, allowing attackers to run unauthorized code on vulnerable servers. The vulnerability originates from insecure deserialization, where [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/attackers-exploiting-react2shell-vulnerability/\">Attackers Exploiting React2Shell Vulnerability to Attack IT Sectors</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/attackers-exploiting-react2shell-vulnerability/",
+    "published": "2026-01-27T15:48:44",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 1075,
+    "also_covered_by": []
+  },
+  {
+    "title": "MEDUSA Security Testing Tool With 74 Scanners and 180+ AI Agent Security Rules",
+    "summary": "<p>MEDUSA, an AI-first Static Application Security Testing (SAST) tool boasting 74 specialized scanners and over 180 AI agent security rules. This open-source CLI scanner targets modern development challenges like false positives and multi-language coverage. MEDUSA consolidates security scanning across 42+ languages and file types, including Python, JavaScript, Go, Rust, Java, Dockerfiles, Terraform, and Kubernetes manifests. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/medusa-security-testing-tool/\">MEDUSA Security Testing Tool With 74 Scanners and 180+ AI Agent Security Rules</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/medusa-security-testing-tool/",
+    "published": "2026-01-27T14:25:33",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 1073,
+    "also_covered_by": []
+  },
+  {
     "title": "New DynoWiper Malware Used in Attempted Sandworm Attack on Polish Power Sector",
     "summary": "The Russian nation-state hacking group known as Sandworm has been attributed to what has been described as the \"largest cyber attack\" targeting Poland's power system in the last week of December 2025.\nThe attack was unsuccessful, the country's energy minister, Milosz Motyka, said last week.\n\"The command of the cyberspace forces has diagnosed in the last days of the year the strongest attack on",
     "link": "https://thehackernews.com/2026/01/new-dynowiper-malware-used-in-attempted.html",
@@ -758,6 +828,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Hackers Exploit Teams Functionality to Steal Credentials Mimicking Microsoft Services",
+    "summary": "<p>A sophisticated phishing campaign has been identified in which threat actors are abusing legitimate Microsoft Teams functionality to distribute malicious content that appears to originate from trusted Microsoft services. By leveraging the platform&#8217;s &#8220;Invite a Guest&#8221; feature and crafting deceptive team names, attackers are bypassing traditional email security controls to deliver fraudulent billing notifications directly [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/teams-to-deliver-malicious-content/\">Hackers Exploit Teams Functionality to Steal Credentials Mimicking Microsoft Services</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/teams-to-deliver-malicious-content/",
+    "published": "2026-01-27T16:05:25",
+    "source": "cybersecuritynews.com",
+    "category": "Phishing / Scams",
+    "importance_score": 880,
+    "also_covered_by": []
+  },
+  {
     "title": "WhatsApp Rolls Out Lockdown-Style Security Mode to Protect Targeted Users From Spyware",
     "summary": "Meta on Tuesday announced it's adding Strict Account Settings on WhatsApp to secure certain users against advanced cyber attacks because of who they are and what they do.\nThe feature, similar to Lockdown Mode in Apple iOS and Advanced Protection in Android, aims to protect individuals, such as journalists or public-facing figures, from sophisticated spyware by trading some functionality for",
     "link": "https://thehackernews.com/2026/01/whatsapp-rolls-out-lockdown-style.html",
@@ -775,6 +855,16 @@
     "source": "bleepingcomputer.com",
     "category": "Data Breach",
     "importance_score": 872,
+    "also_covered_by": []
+  },
+  {
+    "title": "New Deepfake Phishing Attack Targets Bitcoin Users via Zoom and Teams",
+    "summary": "<p>A sophisticated deepfake-enabled phishing campaign is actively targeting Bitcoin users through fake Zoom and Microsoft Teams calls. The attackers are exploiting video conferencing, Telegram, and AI-generated identities to steal bitcoin and compromise victims’ digital lives. The attack chain begins on Telegram, where victims receive what appears to be a legitimate message or call request from [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/deepfake-phishing/\">New Deepfake Phishing Attack Targets Bitcoin Users via Zoom and Teams</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/deepfake-phishing/",
+    "published": "2026-01-27T09:08:31",
+    "source": "gbhackers.com",
+    "category": "Phishing / Scams",
+    "importance_score": 869,
     "also_covered_by": []
   },
   {
@@ -878,6 +968,16 @@
     "also_covered_by": []
   },
   {
+    "title": "G_Wagon NPM Package Exploits Users to Steal Browser Credentials with Obfuscated Payload",
+    "summary": "<p>A highly sophisticated infostealer malware disguised as a legitimate npm UI component library has been targeting developers through the ansi-universal-ui package. The malware, internally identified as &#8220;G_Wagon,&#8221; employs multi-stage obfuscation techniques to extract browser credentials, cryptocurrency wallets, cloud authentication keys, and messaging tokens from infected systems. Despite presenting itself as &#8220;a lightweight, modular UI component [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/g_wagon-npm-package/\">G_Wagon NPM Package Exploits Users to Steal Browser Credentials with Obfuscated Payload</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/g_wagon-npm-package/",
+    "published": "2026-01-27T13:11:09",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 742,
+    "also_covered_by": []
+  },
+  {
     "title": "Resurgence of a multi‑stage AiTM phishing and BEC campaign abusing SharePoint",
     "summary": "<p>Microsoft Defender Researchers uncovered a multi‑stage AiTM phishing and business email compromise (BEC) campaign targeting multiple organizations in the energy sector.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/01/21/multistage-aitm-phishing-bec-campaign-abusing-sharepoint/\">Resurgence of a multi‑stage AiTM phishing and BEC campaign abusing SharePoint </a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/01/21/multistage-aitm-phishing-bec-campaign-abusing-sharepoint/",
@@ -885,6 +985,46 @@
     "source": "microsoft.com",
     "category": "Phishing / Scams",
     "importance_score": 735,
+    "also_covered_by": []
+  },
+  {
+    "title": "ShinyHunters Group Targets Over 100 Enterprises, Including Canva, Atlassian, and Epic Games",
+    "summary": "<p>A surge in infrastructure deployment that mirrors the tactics of SLSH, a predatory alliance uniting three major threat actors: Scattered Spider, LAPSUS$, and ShinyHunters. A sophisticated identity-theft campaign has emerged, targeting Single Sign-On (SSO) platforms particularly Okta across more than 100 high-value enterprises. Unlike automated phishing campaigns, this operation is human-led. It relies on voice [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/shinyhunters-group/\">ShinyHunters Group Targets Over 100 Enterprises, Including Canva, Atlassian, and Epic Games</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/shinyhunters-group/",
+    "published": "2026-01-27T11:09:37",
+    "source": "gbhackers.com",
+    "category": "Phishing / Scams",
+    "importance_score": 729,
+    "also_covered_by": []
+  },
+  {
+    "title": "Hackers Exploit SEO Poisoning to Target Users Seeking Legitimate Tools",
+    "summary": "<p>Search engine optimization (SEO) poisoning techniques to trick users into downloading malicious software disguised as legitimate tools. This attack campaign involves manipulating search results to promote fake repositories and archives containing BAT executable files that impersonate popular applications. Once users execute these files, the malware establishes contact with command-and-control (C2) servers to deliver secondary payloads, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/seo-poisoning/\">Hackers Exploit SEO Poisoning to Target Users Seeking Legitimate Tools</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/seo-poisoning/",
+    "published": "2026-01-27T09:31:47",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 729,
+    "also_covered_by": []
+  },
+  {
+    "title": "Attackers Hijacking Official GitHub Desktop Repository to Distribute Malware as Official Installer",
+    "summary": "<p>Cybercriminals have discovered a dangerous way to trick developers into downloading malware by exploiting how GitHub works. The attack involves creating fake versions of the GitHub Desktop installer and making them appear legitimate to unsuspecting users. Between September and October 2025, this campaign primarily targeted users in Europe and the European Economic Area, though infections [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/attackers-hijacking-official-github-desktop-repository/\">Attackers Hijacking Official GitHub Desktop Repository to Distribute Malware as Official Installer</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/attackers-hijacking-official-github-desktop-repository/",
+    "published": "2026-01-27T17:02:24",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 726,
+    "also_covered_by": []
+  },
+  {
+    "title": "Attackers Hijack GitHub Desktop Repo to Spread Malware via Official Installer",
+    "summary": "<p>Threat actors have successfully exploited a design flaw in GitHub&#8217;s fork architecture to distribute malware disguised as the legitimate GitHub Desktop installer. The attack chain begins with a deceptively simple but effective technique. Attackers create throwaway GitHub accounts and fork the official GitHub Desktop repository. They then modify the download link in the README file [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/github-desktop-repo/\">Attackers Hijack GitHub Desktop Repo to Spread Malware via Official Installer</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/github-desktop-repo/",
+    "published": "2026-01-27T13:29:21",
+    "source": "gbhackers.com",
+    "category": "Policy / Law",
+    "importance_score": 720,
     "also_covered_by": []
   },
   {
@@ -905,16 +1045,6 @@
     "source": "thehackernews.com",
     "category": "AI & Security",
     "importance_score": 712,
-    "also_covered_by": []
-  },
-  {
-    "title": "Who Operates the Badbox 2.0 Botnet?",
-    "summary": "The cybercriminals in control of Kimwolf -- a disruptive botnet that has infected more than 2 million devices -- recently shared a screenshot indicating they'd compromised the control panel for Badbox 2.0, a vast China-based botnet powered by malicious software that comes pre-installed on many Android TV streaming boxes. Both the FBI and Google say they are hunting for the people behind Badbox 2.0, and thanks to bragging by the Kimwolf botmasters we may now have a much clearer idea about that.",
-    "link": "https://krebsonsecurity.com/2026/01/who-operates-the-badbox-2-0-botnet/",
-    "published": "2026-01-26T16:11:38",
-    "source": "krebsonsecurity.com",
-    "category": "Other",
-    "importance_score": 688,
     "also_covered_by": []
   },
   {
@@ -995,6 +1125,16 @@
     "source": "infosecurity-magazine.com",
     "category": "Data Breach",
     "importance_score": 634,
+    "also_covered_by": []
+  },
+  {
+    "title": "CISA Urges Public to Stay Alert Against Rising Natural Disaster Scams",
+    "summary": "<p>The Cybersecurity and Infrastructure Security Agency (CISA) has issued a critical advisory alerting the public to heightened risks of malicious cyber activity targeting disaster victims. As natural disasters strike communities, threat actors capitalize on the chaos and emotional vulnerability of affected populations by deploying sophisticated social engineering tactics disguised as legitimate relief efforts. According to [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cisa-urges-natural-disaster-scams/\">CISA Urges Public to Stay Alert Against Rising Natural Disaster Scams</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/cisa-urges-natural-disaster-scams/",
+    "published": "2026-01-27T11:15:31",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 630,
     "also_covered_by": []
   },
   {
@@ -1228,6 +1368,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Meta Faces Legal Action Over Claims of Accessing All WhatsApp User Messages",
+    "summary": "<p>A class-action lawsuit filed in San Francisco federal court accuses Meta Platforms of systematically misleading billions of WhatsApp users about the protection of their messages. The complaint alleges that despite marketing claims of unbreakable end-to-end encryption, Meta secretly stores, analyzes, and grants employee access to chat contents through internal tools. Plaintiffs from Australia, Brazil, India, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/meta-faces-legal-action-accessing-all-whatsapp-user-messages/\">Meta Faces Legal Action Over Claims of Accessing All WhatsApp User Messages</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/meta-faces-legal-action-accessing-all-whatsapp-user-messages/",
+    "published": "2026-01-27T09:06:15",
+    "source": "gbhackers.com",
+    "category": "Ransomware",
+    "importance_score": 485,
+    "also_covered_by": []
+  },
+  {
     "title": "Under Armour ransomware breach: data of 72 million customers appears on the dark web",
     "summary": "Customer data allegedly stolen during a ransomware attack on sportswear giant Under Armour is now circulating on the dark web.",
     "link": "https://www.malwarebytes.com/blog/news/2026/01/under-armour-ransomware-breach-data-of-72-million-customers-appears-on-the-dark-web",
@@ -1268,6 +1418,26 @@
     "also_covered_by": []
   },
   {
+    "title": "G_Wagon npm Package Attacking Users to Exfiltrates Browser Credentials using Obfuscated Payload",
+    "summary": "<p>On January 23rd, 2026, security researchers discovered a dangerous npm package named ansi-universal-ui that disguised itself as a legitimate user interface component library. The deceptive package description claimed to offer a lightweight UI system for modern web applications. However, beneath this innocent facade lay G_Wagon, a highly sophisticated multi-stage information stealer designed to harvest sensitive [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/g_wagon-npm-package-attacking-users/\">G_Wagon npm Package Attacking Users to Exfiltrates Browser Credentials using Obfuscated Payload</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/g_wagon-npm-package-attacking-users/",
+    "published": "2026-01-27T16:25:32",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 476,
+    "also_covered_by": []
+  },
+  {
+    "title": "Canva, Atlassian, Epic Games Among the 100+ Enterprises Targeted by ShinyHunters Group",
+    "summary": "<p>A major identity-theft operation is now targeting over 100 high-value organizations across multiple industries. The threat comes from SLSH, a dangerous alliance combining the tactics of Scattered Spider, LAPSUS$, and ShinyHunters. Unlike typical automated attacks, this campaign uses real people calling your employees while simultaneously running fake login pages that look exactly like your company&#8217;s [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/100-enterprises-targeted-by-shinyhunters-group/\">Canva, Atlassian, Epic Games Among the 100+ Enterprises Targeted by ShinyHunters Group</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/100-enterprises-targeted-by-shinyhunters-group/",
+    "published": "2026-01-27T16:05:20",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 475,
+    "also_covered_by": []
+  },
+  {
     "title": "Microsoft Releases Patch for Office Zero Day Amid Evidence of Exploitation",
     "summary": "Microsoft urged customers running Microsoft Office 2016 and 2019 to apply the patch to be protected",
     "link": "https://www.infosecurity-magazine.com/news/microsoft-patch-office-zero-day/",
@@ -1275,6 +1445,36 @@
     "source": "infosecurity-magazine.com",
     "category": "Other",
     "importance_score": 474,
+    "also_covered_by": []
+  },
+  {
+    "title": "Hackers are Leveraging SEO Poisoning to Attack Users Looking for Legitimate Tools",
+    "summary": "<p>Cybercriminals have adopted a deceptive strategy to compromise users searching for common software applications online. These attackers are using search engine optimization poisoning techniques to place malicious links at the top of search results. When unsuspecting users click on these links, they download infected files instead of legitimate tools. This growing threat targets individuals seeking [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-are-leveraging-seo-poisoning/\">Hackers are Leveraging SEO Poisoning to Attack Users Looking for Legitimate Tools</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/hackers-are-leveraging-seo-poisoning/",
+    "published": "2026-01-27T15:21:59",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 470,
+    "also_covered_by": []
+  },
+  {
+    "title": "Critical Vulnerability in VM2 Sandbox Library for Node.js Let Attackers run Untrusted Code",
+    "summary": "<p>A critical sandbox escape vulnerability has been identified in vm2. This widely used Node.js library provides sandbox isolation for executing untrusted code. The flaw, tracked as CVE-2026-22709 (GHSA-99p7-6v5w-7xg8), affects all versions up to and including 3.10.0 and carries a CVSS v3.1 base score of 10.0, indicating maximum severity. The vulnerability stems from incomplete callback sanitization [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/vm2-sandbox-vulnerability/\">Critical Vulnerability in VM2 Sandbox Library for Node.js Let Attackers run Untrusted Code</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/vm2-sandbox-vulnerability/",
+    "published": "2026-01-28T01:32:50",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 469,
+    "also_covered_by": []
+  },
+  {
+    "title": "Instagram, Facebook, and WhatsApp to Test New Premium Subscriptions",
+    "summary": "<p>Meta is gearing up to roll out premium subscription tiers across its flagship apps, Instagram, Facebook, and WhatsApp, offering users exclusive features to boost productivity, creativity, and AI-driven interactions. The company confirmed the plans to emphasize that core app experiences will remain free while paid tiers unlock advanced controls for sharing and connectivity. This move [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/meta-premium-subscriptions/\">Instagram, Facebook, and WhatsApp to Test New Premium Subscriptions</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/meta-premium-subscriptions/",
+    "published": "2026-01-27T16:57:30",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 460,
     "also_covered_by": []
   },
   {
