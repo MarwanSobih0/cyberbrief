@@ -1588,16 +1588,6 @@
     "also_covered_by": []
   },
   {
-    "title": "This month in security with Tony Anscombe – January 2026 edition",
-    "summary": "The trends that emerged in January offer useful clues about the risks and priorities that security teams are likely to contend with throughout the year",
-    "link": "https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-january-2026-edition/",
-    "published": "2026-01-30T15:20:16",
-    "source": "welivesecurity.com",
-    "category": "Other",
-    "importance_score": 404,
-    "also_covered_by": []
-  },
-  {
     "title": "Microsoft Security success stories: Why integrated security is the foundation of AI transformation",
     "summary": "<p>Discover how Ford, Icertis, and TriNet modernized security with Microsoft—embedding Zero Trust, automating defenses, and enabling secure AI innovation at scale.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/01/22/microsoft-security-success-stories-why-integrated-security-is-the-foundation-of-ai-transformation/\">Microsoft Security success stories: Why integrated security is the foundation of AI transformation</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/01/22/microsoft-security-success-stories-why-integrated-security-is-the-foundation-of-ai-transformation/",
@@ -1605,16 +1595,6 @@
     "source": "microsoft.com",
     "category": "AI & Security",
     "importance_score": 403,
-    "also_covered_by": []
-  },
-  {
-    "title": "DynoWiper update: Technical analysis and attribution",
-    "summary": "ESET researchers present technical details on a recent data destruction incident affecting a company in Poland’s energy sector",
-    "link": "https://www.welivesecurity.com/en/eset-research/dynowiper-update-technical-analysis-attribution/",
-    "published": "2026-01-30T10:28:38",
-    "source": "welivesecurity.com",
-    "category": "Other",
-    "importance_score": 397,
     "also_covered_by": []
   },
   {
@@ -2720,6 +2700,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Seeking symmetry during ATT&CK® season: How to harness today’s diverse analyst and tester landscape to paint a security masterpiece",
+    "summary": "Interpreting the vast cybersecurity vendor landscape through the lens of industry analysts and testing authorities can immensely enhance your cyber-resilience.",
+    "link": "https://www.welivesecurity.com/en/business-security/seeking-symmetry-attck-season-harness-todays-diverse-analyst-tester-landscape-paint-security-masterpiece/",
+    "published": "2025-12-10T15:03:51",
+    "source": "welivesecurity.com",
+    "category": "Other",
+    "importance_score": 46,
+    "also_covered_by": []
+  },
+  {
     "title": "Yet another DCOM object for lateral movement",
     "summary": "Kaspersky expert describes how DCOM interfaces can be abused to load malicious DLLs into memory using the Windows Registry and Control Panel.",
     "link": "https://securelist.com/lateral-movement-via-dcom-abusing-control-panel/118232/",
@@ -3064,6 +3054,16 @@
     "summary": "If you don’t look inside your environment, you can’t know its true state – and attackers count on that",
     "link": "https://www.welivesecurity.com/en/business-security/locks-socs-cat-box-what-schrodinger-can-teach-us-about-cybersecurity/",
     "published": "2025-12-11T10:00:00",
+    "source": "welivesecurity.com",
+    "category": "Other",
+    "importance_score": 30,
+    "also_covered_by": []
+  },
+  {
+    "title": "The big catch: How whaling attacks target top executives",
+    "summary": "Is your organization’s senior leadership vulnerable to a cyber-harpooning? Learn how to keep them safe.",
+    "link": "https://www.welivesecurity.com/en/business-security/big-catch-how-whaling-attacks-target-top-executives/",
+    "published": "2025-12-09T10:00:00",
     "source": "welivesecurity.com",
     "category": "Other",
     "importance_score": 30,
