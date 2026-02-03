@@ -345,6 +345,16 @@
     "also_covered_by": []
   },
   {
+    "title": "SMS Phishers Pivot to Points, Taxes, Fake Retailers",
+    "summary": "China-based phishing groups blamed for non-stop scam SMS messages about a supposed wayward package or unpaid toll fee are promoting a new offering, just in time for the holiday shopping season: Phishing kits for mass-creating fake but convincing e-commerce websites that convert customer payment card data into mobile wallets from Apple and Google. Experts say these same phishing groups also are now using SMS lures that promise unclaimed tax refunds and mobile rewards points.",
+    "link": "https://krebsonsecurity.com/2025/12/sms-phishers-pivot-to-points-taxes-fake-retailers/",
+    "published": "2025-12-04T23:02:34",
+    "source": "krebsonsecurity.com",
+    "category": "Vulnerability",
+    "importance_score": 1522,
+    "also_covered_by": []
+  },
+  {
     "title": "New Exploits for Unsecure SAP Systems",
     "summary": "<div>\n<h2><strong>Summary</strong></h2>\n</div>\n<p>The Cybersecurity and Infrastructure Security Agency (CISA) is issuing this activity alert in response to recently disclosed exploits that target unsecure configurations of SAP components. [<a href=\"https://github.com/msuiche/OPCDE/tree/master/2019/Emirates/(SAP)%20Gateway%20to%20Heaven%20-%20Dmitry%20Chastuhin%2C%20Mathieu%20Geli\" target=\"_blank\" title=\"(SAP) Gateway to Heaven - Dmitry Chastuhin, Mathieu Geli\">1</a>]</p>\n<div>\n<h2><strong>Technical Details</strong></h2>\n</div>\n<p>A presentation at the April 2019 Operation for Community Development and Empowerment (OPCDE) cybersecurity conference describes SAP systems with unsecure configurations exposed to the internet. Typically, SAP systems are not intended to be exposed to the internet as it is an untrusted network. Malicious cyber actors can attack and compromise these unsecure systems with publicly available exploit tools, termed “10KBLAZE.” The presentation details the new exploit tools and reports on systems exposed to the internet.</p>\n<h3>SAP Gateway ACL</h3>\n<p>The SAP Gateway allows non-SAP applications to communicate with SAP applications. If SAP Gateway access control lists (ACLs) are not configured properly (e.g., gw/acl_mode = 0), anonymous users can run operating system (OS) commands.[2] According to the OPCDE presentation, about 900 U.S. internet-facing systems were detected in this vulnerable condition.</p>\n<h3>SAP Router secinfo</h3>\n<p>The SAP router is a program that helps connect SAP systems with external networks. The default <code>secinfo</code> configuration for a SAP Gateway allows any internal host to run OS commands anonymously. If an attacker can access a misconfigured SAP router, the router can act as an internal host and proxy the attacker’s requests, which may result in remote code execution.</p>\n<p>According to the OPCDE presentation, 1,181 SAP routers were exposed to the internet. It is unclear if the exposed systems were confirmed to be vulnerable or were simply running the SAP router service.</p>\n<h3>SAP Message Server</h3>\n<p>SAP Message Servers act as brokers between Application Servers (AS). By default, Message Servers listen on a port 39XX and have no authentication. If an attacker can access a Message Server, they can redirect and/or execute legitimate man-in-the-middle (MITM) requests, thereby gaining credentials. Those credentials can be used to execute code or operations on AS servers (assuming the attacker can reach them). According to the OPCDE presentation, there are 693 Message Servers exposed to the internet in the United States. The Message Server ACL must be protected by the customer in all releases.</p>\n<h3>Signature</h3>\n<p>CISA worked with security researchers from Onapsis Inc.[<a href=\"https://www.onapsis.com/\" target=\"_blank\" title=\"Onapsis\">3</a>] to develop the following Snort signature that can be used to detect the exploits:</p>\n<p><code>alert tcp $EXTERNAL_NET any -&gt; $HOME_NET any (msg:\"10KBLAZE SAP Exploit execute attempt\"; flow:established,to_server; content:\"|06 cb 03|\"; offset:4; depth:3; content:\"SAPXPG_START_XPG\"; nocase; distance:0; fast_pattern; content:\"37D581E3889AF16DA00A000C290099D0001\"; nocase; distance:0; content:\"extprog\"; nocase; distance:0; sid:1; rev:1;)</code></p>\n<h2><strong>Mitigations</strong></h2>\n<p>CISA recommends administrators of SAP systems implement the following to mitigate the vulnerabilities included in the OPCDE presentation:</p>\n<ul>\n<li>Ensure a secure configuration of their SAP landscape.</li>\n<li>Restrict access to SAP Message Server.\n<ul>\n<li>Review SAP Notes 1408081 and 821875. Restrict authorized hosts via ACL files on Gateways (<code>gw/acl_mode </code>and <code>secinfo</code>) and Message Servers (<code>ms/acl_info</code>).[4], [5]</li>\n<li>Review SAP Note 1421005. Split MS internal/public:<code> rdisp/msserv=0 rdisp/msserv_internal=39NN</code>. [6]</li>\n<li>Restrict access to Message Server internal port (<code>tcp/39NN</code>) to clients or the internet.</li>\n<li>Enable Secure Network Communications (SNC) for clients.</li>\n</ul>\n</li>\n<li>Scan for exposed SAP components.\n<ul>\n<li>Ensure that SAP components are not exposed to the internet.</li>\n<li>Remove or secure any exposed SAP components.</li>\n</ul>\n</li>\n</ul>\n<div>\n<h2><strong>References</strong></h2>\n<p>[1] <a href=\"https://github.com/msuiche/OPCDE/tree/master/2019/Emirates/(SAP)%20Gateway%20to%20Heaven%20-%20Dmitry%20Chastuhin%2C%20Mathieu%20Geli\" target=\"_blank\" title=\"(SAP) Gateway to Heaven - Dmitry Chastuhin, Mathieu Geli\">Comae Technologies: Operation for Community Development and Empowerment (OPCDE) Cybersecurity Conference Materials</a><br />[2] SAP: Gateway Access Control Lists<br />[3] <a href=\"https://www.onapsis.com\" target=\"_blank\" title=\"Onapsis\">Onapsis Inc. website</a><br />[4] SAP Note 1408081<br />[5] SAP Note 821875<br />[6] SAP Note 1421005</p>\n<h2><strong>Revisions</strong></h2>\n</div>\n<p><strong>May 2, 2019:</strong> Initial version</p>",
     "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa19-122a",
@@ -975,16 +985,6 @@
     "also_covered_by": []
   },
   {
-    "title": "eScan Antivirus Update Servers Compromised to Deliver Multi-Stage Malware",
-    "summary": "The update infrastructure for eScan antivirus, a security solution developed by Indian cybersecurity company MicroWorld Technologies, has been compromised by unknown attackers to deliver a persistent downloader to enterprise and consumer systems.\n\"Malicious updates were distributed through eScan's legitimate update infrastructure, resulting in the deployment of multi-stage malware to enterprise",
-    "link": "https://thehackernews.com/2026/02/escan-antivirus-update-servers.html",
-    "published": "2026-02-02T05:47:00",
-    "source": "thehackernews.com",
-    "category": "Other",
-    "importance_score": 713,
-    "also_covered_by": []
-  },
-  {
     "title": "Open VSX Publisher Account Hijacked in Fresh GlassWorm Attack",
     "summary": "<p>A hacker published malicious versions of four established VS Code extensions to distribute a GlassWorm malware loader.</p>\n<p>The post <a href=\"https://www.securityweek.com/open-vsx-publisher-account-hijacked-in-fresh-glassworm-attack/\">Open VSX Publisher Account Hijacked in Fresh GlassWorm Attack</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
     "link": "https://www.securityweek.com/open-vsx-publisher-account-hijacked-in-fresh-glassworm-attack/",
@@ -1165,6 +1165,16 @@
     "also_covered_by": []
   },
   {
+    "title": "eScan Antivirus Update Servers Compromised to Deliver Multi-Stage Malware",
+    "summary": "The update infrastructure for eScan antivirus, a security solution developed by Indian cybersecurity company MicroWorld Technologies, has been compromised by unknown attackers to deliver a persistent downloader to enterprise and consumer systems.\n\"Malicious updates were distributed through eScan's legitimate update infrastructure, resulting in the deployment of multi-stage malware to enterprise",
+    "link": "https://thehackernews.com/2026/02/escan-antivirus-update-servers.html",
+    "published": "2026-02-02T05:47:00",
+    "source": "thehackernews.com",
+    "category": "Other",
+    "importance_score": 548,
+    "also_covered_by": []
+  },
+  {
     "title": "Microsoft fixes bug causing password sign-in option to disappear",
     "summary": "Microsoft has fixed a known issue that was causing the password sign-in option to disappear from the lock screen options after installing Windows 11 updates released since August 2025. [...]",
     "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-causing-password-sign-in-option-to-disappear/",
@@ -1222,16 +1232,6 @@
     "source": "unit42.paloaltonetworks.com",
     "category": "Other",
     "importance_score": 512,
-    "also_covered_by": []
-  },
-  {
-    "title": "Who Operates the Badbox 2.0 Botnet?",
-    "summary": "The cybercriminals in control of Kimwolf -- a disruptive botnet that has infected more than 2 million devices -- recently shared a screenshot indicating they'd compromised the control panel for Badbox 2.0, a vast China-based botnet powered by malicious software that comes pre-installed on many Android TV streaming boxes. Both the FBI and Google say they are hunting for the people behind Badbox 2.0, and thanks to bragging by the Kimwolf botmasters we may now have a much clearer idea about that.",
-    "link": "https://krebsonsecurity.com/2026/01/who-operates-the-badbox-2-0-botnet/",
-    "published": "2026-01-26T16:11:38",
-    "source": "krebsonsecurity.com",
-    "category": "Other",
-    "importance_score": 508,
     "also_covered_by": []
   },
   {
@@ -1312,16 +1312,6 @@
     "source": "security.googleblog.com",
     "category": "AI & Security",
     "importance_score": 489,
-    "also_covered_by": []
-  },
-  {
-    "title": "Please Don’t Feed the Scattered Lapsus ShinyHunters",
-    "summary": "A prolific data ransom gang that calls itself Scattered Lapsus ShinyHunters (SLSH) has a distinctive playbook when it seeks to extort payment from victim firms: Harassing, threatening and even swatting executives and their families, all while notifying journalists and regulators… <span class=\"read-more\"><a href=\"https://krebsonsecurity.com/2026/02/please-dont-feed-the-scattered-lapsus-shiny-hunters/\">Read More &#187;</a></span>",
-    "link": "https://krebsonsecurity.com/2026/02/please-dont-feed-the-scattered-lapsus-shiny-hunters/",
-    "published": "2026-02-02T16:15:16",
-    "source": "krebsonsecurity.com",
-    "category": "Other",
-    "importance_score": 488,
     "also_covered_by": []
   },
   {
@@ -1592,6 +1582,16 @@
     "source": "microsoft.com",
     "category": "AI & Security",
     "importance_score": 403,
+    "also_covered_by": []
+  },
+  {
+    "title": "A slippery slope: Beware of Winter Olympics scams and other cyberthreats",
+    "summary": "It’s snow joke – sporting events are a big draw for cybercriminals. Make sure you’re not on the losing side by following these best practices.",
+    "link": "https://www.welivesecurity.com/en/cybersecurity/slippery-slope-winter-olympics-scams-cyberthreats/",
+    "published": "2026-02-02T10:00:00",
+    "source": "welivesecurity.com",
+    "category": "Phishing / Scams",
+    "importance_score": 402,
     "also_covered_by": []
   },
   {
@@ -2082,6 +2082,16 @@
     "source": "cyberscoop.com",
     "category": "Other",
     "importance_score": 263,
+    "also_covered_by": []
+  },
+  {
+    "title": "Drones to Diplomas: How Russia’s Largest Private University is Linked to a $25M Essay Mill",
+    "summary": "A sprawling academic cheating network turbocharged by Google Ads that has generated nearly $25 million in revenue has curious connections to a Kremlin-connected oligarch whose Russian university builds drones for Russia's war against Ukraine.",
+    "link": "https://krebsonsecurity.com/2025/12/drones-to-diplomas-how-russias-largest-private-university-is-linked-to-a-25m-essay-mill/",
+    "published": "2025-12-06T14:45:03",
+    "source": "krebsonsecurity.com",
+    "category": "Other",
+    "importance_score": 252,
     "also_covered_by": []
   },
   {
@@ -2637,16 +2647,6 @@
     "also_covered_by": []
   },
   {
-    "title": "This month in security with Tony Anscombe – January 2026 edition",
-    "summary": "The trends that emerged in January offer useful clues about the risks and priorities that security teams are likely to contend with throughout the year",
-    "link": "https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-january-2026-edition/",
-    "published": "2026-01-30T15:20:16",
-    "source": "welivesecurity.com",
-    "category": "Other",
-    "importance_score": 44,
-    "also_covered_by": []
-  },
-  {
     "title": "Twitter Whistleblower Complaint: The TL;DR Version",
     "summary": "Twitter is blasted for security and privacy lapses by the company’s former head of security who alleges the social media giant’s actions amount to a national security risk.",
     "link": "https://threatpost.com/twitter-whistleblower-tldr-version/180472/",
@@ -2664,6 +2664,16 @@
     "source": "welivesecurity.com",
     "category": "Phishing / Scams",
     "importance_score": 43,
+    "also_covered_by": []
+  },
+  {
+    "title": "This month in security with Tony Anscombe – January 2026 edition",
+    "summary": "The trends from January offer useful clues about the risks and priorities that security teams are likely to contend with throughout the year",
+    "link": "https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-january-2026-edition/",
+    "published": "2026-01-30T15:20:16",
+    "source": "welivesecurity.com",
+    "category": "Other",
+    "importance_score": 42,
     "also_covered_by": []
   },
   {
@@ -2982,16 +2992,6 @@
     "link": "https://threatpost.com/cybercriminals-are-selling-access-to-chinese-surveillance-cameras/180478/",
     "published": "2022-08-25T18:47:15",
     "source": "threatpost.com",
-    "category": "Other",
-    "importance_score": 30,
-    "also_covered_by": []
-  },
-  {
-    "title": "Locks, SOCs and a cat in a box: What Schrödinger can teach us about cybersecurity",
-    "summary": "If you don’t look inside your environment, you can’t know its true state – and attackers count on that",
-    "link": "https://www.welivesecurity.com/en/business-security/locks-socs-cat-box-what-schrodinger-can-teach-us-about-cybersecurity/",
-    "published": "2025-12-11T10:00:00",
-    "source": "welivesecurity.com",
     "category": "Other",
     "importance_score": 30,
     "also_covered_by": []
