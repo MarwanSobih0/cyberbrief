@@ -3097,6 +3097,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Advanced Web Shell Detection and Prevention: A Deep Dive into CrowdStrike's Linux Sensor Capabilities",
+    "summary": "No summary available",
+    "link": "https://www.crowdstrike.com/en-us/blog/advanced-web-shell-detection-and-prevention/",
+    "published": "Feb 05, 2026 00:00:00-0600",
+    "source": "crowdstrike.com",
+    "category": "Other",
+    "importance_score": 6,
+    "also_covered_by": []
+  },
+  {
     "title": "What Security Teams Need to Know About OpenClaw, the AI Super Agent",
     "summary": "No summary available",
     "link": "https://www.crowdstrike.com/en-us/blog/what-security-teams-need-to-know-about-openclaw-ai-super-agent/",
@@ -3171,16 +3181,6 @@
     "summary": "No summary available",
     "link": "https://www.crowdstrike.com/en-us/blog/usb-drives-threaten-enterprise-security/",
     "published": "Jan 21, 2026 00:00:00-0600",
-    "source": "crowdstrike.com",
-    "category": "Other",
-    "importance_score": 6,
-    "also_covered_by": []
-  },
-  {
-    "title": "The Architecture of Agentic Defense: Inside the Falcon Platform",
-    "summary": "No summary available",
-    "link": "https://www.crowdstrike.com/en-us/blog/architecture-of-agentic-defense-inside-the-falcon-platform/",
-    "published": "Jan 16, 2026 00:00:00-0800",
     "source": "crowdstrike.com",
     "category": "Other",
     "importance_score": 6,
