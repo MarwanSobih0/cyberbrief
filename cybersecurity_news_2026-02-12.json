@@ -1315,6 +1315,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Picking an AI red teaming vendor is getting harder",
+    "summary": "<p>Vendor noise is already a problem in traditional security testing. AI red teaming has added another layer of confusion, with providers offering everything from consulting engagements to automated testing platforms. Many buyers still struggle to tell whether a vendor can test real-world AI system behavior or only run a packaged set of jailbreak prompts. This problem is addressed directly in OWASP’s Vendor Evaluation Criteria for AI Red Teaming Providers &#038; Tooling, a practical guide for &#8230; <a href=\"https://www.helpnetsecurity.com/2026/02/12/owasp-ai-red-teaming-vendors/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/02/12/owasp-ai-red-teaming-vendors/\">Picking an AI red teaming vendor is getting harder</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "link": "https://www.helpnetsecurity.com/2026/02/12/owasp-ai-red-teaming-vendors/",
+    "published": "2026-02-12T06:00:59",
+    "source": "helpnetsecurity.com",
+    "category": "AI & Security",
+    "importance_score": 500,
+    "also_covered_by": []
+  },
+  {
     "title": "Java security work is becoming a daily operational burden",
     "summary": "<p>Security teams in large enterprises already spend significant time tracking vulnerabilities across software supply chains, third-party libraries, and internal codebases. Java environments add another layer of exposure because so many mission-critical systems still run on the JVM. A 2026 Azul survey of more than 2,000 Java professionals found that 64% said more than half of their organization’s applications or workloads are built with Java or run on a Java Virtual Machine. That footprint means Java &#8230; <a href=\"https://www.helpnetsecurity.com/2026/02/12/report-oracle-java-security-risk/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/02/12/report-oracle-java-security-risk/\">Java security work is becoming a daily operational burden</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
     "link": "https://www.helpnetsecurity.com/2026/02/12/report-oracle-java-security-risk/",
@@ -1329,16 +1339,6 @@
     "summary": "<p>Kong has announced Kong Context Mesh, a product that automatically discovers enterprise APIs, transforms them into agent-consumable tools, and deploys them with runtime governance. “Organisations have spent years building APIs as the nervous system of the enterprise. Context Mesh allows them to reuse that investment to power agents instead of starting from scratch,” said Marco Palladino, CTO of Kong. “The challenge is that agents are only as good as the enterprise context they can reach. &#8230; <a href=\"https://www.helpnetsecurity.com/2026/02/11/kong-context-mesh-api-discovery/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/02/11/kong-context-mesh-api-discovery/\">Kong launches Context Mesh to turn enterprise APIs into agent-ready tools</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
     "link": "https://www.helpnetsecurity.com/2026/02/11/kong-context-mesh-api-discovery/",
     "published": "2026-02-11T14:24:29",
-    "source": "helpnetsecurity.com",
-    "category": "Other",
-    "importance_score": 500,
-    "also_covered_by": []
-  },
-  {
-    "title": "Yubico previews passkey-enabled digital signatures in upcoming YubiKey 5.8 firmware",
-    "summary": "<p>Yubico’s upcoming YubiKey 5.8 firmware introduces standardized APIs that integrate hardware-backed signatures with passkey authentication. To enable privacy-capable digital signatures using passkeys, expanded enterprise IdP support, and next-generation digital wallet use cases, the firmware adds support for FIDO CTAP 2.3 and preview WebAuthn signing extensions. “The adoption of CTAP 2.3, together with enhancements such as the W3C signing extension, enables usable digital signatures in web applications and services where digital signing is part of the &#8230; <a href=\"https://www.helpnetsecurity.com/2026/02/11/yubico-yubikey-yubikey-passkey-digital-signatures/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/02/11/yubico-yubikey-yubikey-passkey-digital-signatures/\">Yubico previews passkey-enabled digital signatures in upcoming YubiKey 5.8 firmware</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
-    "link": "https://www.helpnetsecurity.com/2026/02/11/yubico-yubikey-yubikey-passkey-digital-signatures/",
-    "published": "2026-02-11T08:54:11",
     "source": "helpnetsecurity.com",
     "category": "Other",
     "importance_score": 500,
