@@ -645,16 +645,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Patch Tuesday, February 2026 Edition",
-    "summary": "Microsoft today released updates to fix more than 50 security holes in its Windows operating systems and other software, including patches for a whopping six \"zero-day\" vulnerabilities that attackers are already exploiting in the wild.",
-    "link": "https://krebsonsecurity.com/2026/02/patch-tuesday-february-2026-edition/",
-    "published": "2026-02-10T21:49:53",
-    "source": "krebsonsecurity.com",
-    "category": "Vulnerability",
-    "importance_score": 969,
-    "also_covered_by": []
-  },
-  {
     "title": "Threat landscape for industrial automation systems in Q3 2025",
     "summary": "The report contains statistics on various threats detected and blocked on ICS computers in Q3 2025, including miners, ransomware, spyware, etc.",
     "link": "https://securelist.com/industrial-threat-report-q3-2025/118602/",
@@ -1112,16 +1102,6 @@
     "source": "bleepingcomputer.com",
     "category": "Other",
     "importance_score": 540,
-    "also_covered_by": []
-  },
-  {
-    "title": "Who Operates the Badbox 2.0 Botnet?",
-    "summary": "The cybercriminals in control of Kimwolf -- a disruptive botnet that has infected more than 2 million devices -- recently shared a screenshot indicating they'd compromised the control panel for Badbox 2.0, a vast China-based botnet powered by malicious software that comes pre-installed on many Android TV streaming boxes. Both the FBI and Google say they are hunting for the people behind Badbox 2.0, and thanks to bragging by the Kimwolf botmasters we may now have a much clearer idea about that.",
-    "link": "https://krebsonsecurity.com/2026/01/who-operates-the-badbox-2-0-botnet/",
-    "published": "2026-01-26T16:11:38",
-    "source": "krebsonsecurity.com",
-    "category": "Other",
-    "importance_score": 508,
     "also_covered_by": []
   },
   {
@@ -2015,16 +1995,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Patch Tuesday, January 2026 Edition",
-    "summary": "Microsoft today issued patches to plug at least 113 security holes in its various Windows operating systems and supported software. Eight of the vulnerabilities earned Microsoft's most-dire \"critical\" rating, and the company warns that attackers are already exploiting one of the bugs fixed today.",
-    "link": "https://krebsonsecurity.com/2026/01/patch-tuesday-january-2026-edition/",
-    "published": "2026-01-14T00:47:38",
-    "source": "krebsonsecurity.com",
-    "category": "Other",
-    "importance_score": 268,
-    "also_covered_by": []
-  },
-  {
     "title": "Check Point Announces Trio of Acquisitions Amid Solid 2025 Earnings Beat",
     "summary": "<p>Check Point has acquired Israeli cybersecurity companies Cyata, Cyclops, and Rotate.</p>\n<p>The post <a href=\"https://www.securityweek.com/check-point-announces-trio-of-acquisitions-amid-solid-2025-earnings-beat/\">Check Point Announces Trio of Acquisitions Amid Solid 2025 Earnings Beat</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
     "link": "https://www.securityweek.com/check-point-announces-trio-of-acquisitions-amid-solid-2025-earnings-beat/",
@@ -2265,16 +2235,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Kimwolf Botnet Lurking in Corporate, Govt. Networks",
-    "summary": "A new Internet-of-Things botnet called Kimwolf has spread to more than 2 million devices, forcing infected systems to participate in massive distributed denial-of-service (DDoS) attacks and to relay other malicious and abusive Internet traffic. Kimwolf's ability to scan the local networks of compromised systems for other IoT devices to infect makes it a sobering threat to organizations, and new research reveals Kimwolf is surprisingly prevalent in government and corporate networks.",
-    "link": "https://krebsonsecurity.com/2026/01/kimwolf-botnet-lurking-in-corporate-govt-networks/",
-    "published": "2026-01-20T18:19:13",
-    "source": "krebsonsecurity.com",
-    "category": "Other",
-    "importance_score": 145,
-    "also_covered_by": []
-  },
-  {
     "title": "Anatomy of an Attack: The Payroll Pirates and the Power of Social Engineering",
     "summary": "<p>Unit 42 breaks down a payroll attack fueled by social engineering. Learn how the breach happened and how to protect your organization from similar threats.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/social-engineering-payroll-pirates/\">Anatomy of an Attack: The Payroll Pirates and the Power of Social Engineering</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
     "link": "https://unit42.paloaltonetworks.com/social-engineering-payroll-pirates/",
@@ -2302,16 +2262,6 @@
     "source": "unit42.paloaltonetworks.com",
     "category": "Other",
     "importance_score": 142,
-    "also_covered_by": []
-  },
-  {
-    "title": "Dismantling Defenses: Trump 2.0 Cyber Year in Review",
-    "summary": "The Trump administration has pursued a staggering range of policy pivots this past year that threaten to weaken the nation’s ability and willingness to address a broad spectrum of technology challenges, from cybersecurity and privacy to countering disinformation, fraud and corruption. These shifts, along with the president’s efforts to restrict free speech and freedom of the press, have come at such a rapid clip that many readers probably aren’t even aware of them all.",
-    "link": "https://krebsonsecurity.com/2025/12/dismantling-defenses-trump-2-0-cyber-year-in-review/",
-    "published": "2025-12-19T15:14:55",
-    "source": "krebsonsecurity.com",
-    "category": "Phishing / Scams",
-    "importance_score": 141,
     "also_covered_by": []
   },
   {
@@ -2427,36 +2377,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Kimwolf Botnet Swamps Anonymity Network I2P",
-    "summary": "For the past week, the massive \"Internet of Things\" (IoT) botnet known as Kimwolf has been disrupting the The Invisible Internet Project (I2P), a decentralized, encrypted communications network designed to anonymize and secure online communications. I2P users started reporting disruptions in the network around the same time the Kimwolf botmasters began relying on it to evade takedown attempts against the botnet's control servers.",
-    "link": "https://krebsonsecurity.com/2026/02/kimwolf-botnet-swamps-anonymity-network-i2p/",
-    "published": "2026-02-11T16:08:11",
-    "source": "krebsonsecurity.com",
-    "category": "Ransomware",
-    "importance_score": 129,
-    "also_covered_by": []
-  },
-  {
-    "title": "Please Don’t Feed the Scattered Lapsus ShinyHunters",
-    "summary": "A prolific data ransom gang that calls itself Scattered Lapsus ShinyHunters (SLSH) has a distinctive playbook when it seeks to extort payment from victim firms: Harassing, threatening and even swatting executives and their families, all while notifying journalists and regulators… <span class=\"read-more\"><a href=\"https://krebsonsecurity.com/2026/02/please-dont-feed-the-scattered-lapsus-shiny-hunters/\">Read More &#187;</a></span>",
-    "link": "https://krebsonsecurity.com/2026/02/please-dont-feed-the-scattered-lapsus-shiny-hunters/",
-    "published": "2026-02-02T16:15:16",
-    "source": "krebsonsecurity.com",
-    "category": "Other",
-    "importance_score": 128,
-    "also_covered_by": []
-  },
-  {
-    "title": "Happy 16th Birthday, KrebsOnSecurity.com!",
-    "summary": "KrebsOnSecurity.com celebrates its 16th anniversary today! A huge \"thank you\" to all of our readers -- newcomers, long-timers and drive-by critics alike. Your engagement this past year here has been tremendous and truly a salve on a handful of dark days. Happily, comeuppance was a strong theme running through our coverage in 2025, with a primary focus on entities that enabled complex and globally-dispersed cybercrime services.",
-    "link": "https://krebsonsecurity.com/2025/12/happy-16th-birthday-krebsonsecurity-com/",
-    "published": "2025-12-29T20:23:26",
-    "source": "krebsonsecurity.com",
-    "category": "Other",
-    "importance_score": 128,
-    "also_covered_by": []
-  },
-  {
     "title": "The Shadow Campaigns: Uncovering Global Espionage",
     "summary": "<p>In 2025 a threat group compromised government and critical infrastructure in 37 countries, with reconnaissance in 155.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/shadow-campaigns-uncovering-global-espionage/\">The Shadow Campaigns: Uncovering Global Espionage</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
     "link": "https://unit42.paloaltonetworks.com/shadow-campaigns-uncovering-global-espionage/",
@@ -2464,26 +2384,6 @@
     "source": "unit42.paloaltonetworks.com",
     "category": "Critical Infrastructure",
     "importance_score": 127,
-    "also_covered_by": []
-  },
-  {
-    "title": "The Kimwolf Botnet is Stalking Your Local Network",
-    "summary": "The story you are reading is a series of scoops nestled inside a far more urgent Internet-wide security advisory. The vulnerability at issue has been exploited for months already, and it's time for a broader awareness of the threat. The short version is that everything you thought you knew about the security of the internal network behind your Internet router probably is now dangerously out of date.",
-    "link": "https://krebsonsecurity.com/2026/01/the-kimwolf-botnet-is-stalking-your-local-network/",
-    "published": "2026-01-02T14:20:10",
-    "source": "krebsonsecurity.com",
-    "category": "Vulnerability",
-    "importance_score": 120,
-    "also_covered_by": []
-  },
-  {
-    "title": "Who Benefited from the Aisuru and Kimwolf Botnets?",
-    "summary": "Our first story of 2026 revealed how a destructive new botnet called Kimwolf rapidly grew to infect more than two million devices by mass-compromising a vast number of unofficial Android TV streaming boxes. Today, we'll dig through digital clues left behind by the hackers, network operators, and cybercrime services that appear to have benefitted from Kimwolf's spread.",
-    "link": "https://krebsonsecurity.com/2026/01/who-benefited-from-the-aisuru-and-kimwolf-botnets/",
-    "published": "2026-01-08T23:23:43",
-    "source": "krebsonsecurity.com",
-    "category": "Other",
-    "importance_score": 110,
     "also_covered_by": []
   },
   {
