@@ -365,6 +365,16 @@
     "also_covered_by": []
   },
   {
+    "title": "SMS Phishers Pivot to Points, Taxes, Fake Retailers",
+    "summary": "China-based phishing groups blamed for non-stop scam SMS messages about a supposed wayward package or unpaid toll fee are promoting a new offering, just in time for the holiday shopping season: Phishing kits for mass-creating fake but convincing e-commerce websites that convert customer payment card data into mobile wallets from Apple and Google. Experts say these same phishing groups also are now using SMS lures that promise unclaimed tax refunds and mobile rewards points.",
+    "link": "https://krebsonsecurity.com/2025/12/sms-phishers-pivot-to-points-taxes-fake-retailers/",
+    "published": "2025-12-04T23:02:34",
+    "source": "krebsonsecurity.com",
+    "category": "Vulnerability",
+    "importance_score": 1522,
+    "also_covered_by": []
+  },
+  {
     "title": "Threat Actor Allegedly Selling Critical Severity OpenSea 0-day Exploit Chain on Hacking Forums",
     "summary": "<p>A threat actor is reportedly selling a purported critical severity zero-day exploit chain targeting OpenSea for $100,000 USD in Bitcoin or Monero. The listing claims the vulnerability remains unpatched and undisclosed, raising alarms in the NFT community. The exploit allegedly targets flaws in OpenSea&#8217;s Seaport protocol order validation logic across Ethereum Mainnet, Polygon, and Blast [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/opensea-0-day-exploit-chain/\">Threat Actor Allegedly Selling Critical Severity OpenSea 0-day Exploit Chain on Hacking Forums</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
     "link": "https://cybersecuritynews.com/opensea-0-day-exploit-chain/",
@@ -645,6 +655,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Microsoft Patch Tuesday, December 2025 Edition",
+    "summary": "Microsoft today pushed updates to fix at least 56 security flaws in its Windows operating systems and supported software. This final Patch Tuesday of 2025 tackles one zero-day bug that is already being exploited, as well as two publicly disclosed vulnerabilities.",
+    "link": "https://krebsonsecurity.com/2025/12/microsoft-patch-tuesday-december-2025-edition/",
+    "published": "2025-12-09T23:18:29",
+    "source": "krebsonsecurity.com",
+    "category": "Vulnerability",
+    "importance_score": 978,
+    "also_covered_by": []
+  },
+  {
     "title": "Phorpiex Phishing Delivers Low-Noise Global Group Ransomware",
     "summary": "High-volume phishing campaign delivers Phorpiex malware via malicious Windows Shortcut files",
     "link": "https://www.infosecurity-magazine.com/news/phorpiex-phishing-global-group/",
@@ -662,16 +682,6 @@
     "source": "unit42.paloaltonetworks.com",
     "category": "Vulnerability",
     "importance_score": 970,
-    "also_covered_by": []
-  },
-  {
-    "title": "Patch Tuesday, February 2026 Edition",
-    "summary": "Microsoft today released updates to fix more than 50 security holes in its Windows operating systems and other software, including patches for a whopping six \"zero-day\" vulnerabilities that attackers are already exploiting in the wild.",
-    "link": "https://krebsonsecurity.com/2026/02/patch-tuesday-february-2026-edition/",
-    "published": "2026-02-10T21:49:53",
-    "source": "krebsonsecurity.com",
-    "category": "Vulnerability",
-    "importance_score": 969,
     "also_covered_by": []
   },
   {
@@ -1175,16 +1185,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Who Operates the Badbox 2.0 Botnet?",
-    "summary": "The cybercriminals in control of Kimwolf -- a disruptive botnet that has infected more than 2 million devices -- recently shared a screenshot indicating they'd compromised the control panel for Badbox 2.0, a vast China-based botnet powered by malicious software that comes pre-installed on many Android TV streaming boxes. Both the FBI and Google say they are hunting for the people behind Badbox 2.0, and thanks to bragging by the Kimwolf botmasters we may now have a much clearer idea about that.",
-    "link": "https://krebsonsecurity.com/2026/01/who-operates-the-badbox-2-0-botnet/",
-    "published": "2026-01-26T16:11:38",
-    "source": "krebsonsecurity.com",
-    "category": "Other",
-    "importance_score": 508,
-    "also_covered_by": []
-  },
-  {
     "title": "New ransomware tactics to watch out for in 2026",
     "summary": "Ransomware groups made less money in 2025 despite a 47% increase in attacks, driving new tactics: bundled DDoS services, insider recruitment, and gig worker exploitation. Learn the emerging trends defenders must prepare for in 2026.",
     "link": "https://www.recordedfuture.com/blog/ransomware-tactics-2026",
@@ -1492,6 +1492,16 @@
     "source": "microsoft.com",
     "category": "Other",
     "importance_score": 408,
+    "also_covered_by": []
+  },
+  {
+    "title": "Most Parked Domains Now Serving Malicious Content",
+    "summary": "Direct navigation -- the act of visiting a website by manually typing a domain name in a web browser -- has never been riskier: A new study finds the vast majority of \"parked\" domains -- mostly expired or dormant domain names, or common misspellings of popular websites -- are now configured to redirect visitors to sites that foist scams and malware.",
+    "link": "https://krebsonsecurity.com/2025/12/most-parked-domains-now-serving-malicious-content/",
+    "published": "2025-12-16T14:14:48",
+    "source": "krebsonsecurity.com",
+    "category": "Phishing / Scams",
+    "importance_score": 404,
     "also_covered_by": []
   },
   {
@@ -1995,6 +2005,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Drones to Diplomas: How Russia’s Largest Private University is Linked to a $25M Essay Mill",
+    "summary": "A sprawling academic cheating network turbocharged by Google Ads that has generated nearly $25 million in revenue has curious connections to a Kremlin-connected oligarch whose Russian university builds drones for Russia's war against Ukraine.",
+    "link": "https://krebsonsecurity.com/2025/12/drones-to-diplomas-how-russias-largest-private-university-is-linked-to-a-25m-essay-mill/",
+    "published": "2025-12-06T14:45:03",
+    "source": "krebsonsecurity.com",
+    "category": "Other",
+    "importance_score": 252,
+    "also_covered_by": []
+  },
+  {
     "title": "Turning IBM QRadar Alerts into Action with Criminal IP",
     "summary": "Criminal IP now integrates with IBM QRadar SIEM and SOAR to bring external IP-based threat intelligence directly into detection and response workflows. See how risk scoring and automated enrichment help SOC teams prioritize high-risk IPs and accelerate investigations without leaving QRadar. [...]",
     "link": "https://www.bleepingcomputer.com/news/security/turning-ibm-qradar-alerts-into-action-with-criminal-ip/",
@@ -2324,26 +2344,6 @@
     "source": "unit42.paloaltonetworks.com",
     "category": "Other",
     "importance_score": 130,
-    "also_covered_by": []
-  },
-  {
-    "title": "Kimwolf Botnet Swamps Anonymity Network I2P",
-    "summary": "For the past week, the massive \"Internet of Things\" (IoT) botnet known as Kimwolf has been disrupting the The Invisible Internet Project (I2P), a decentralized, encrypted communications network designed to anonymize and secure online communications. I2P users started reporting disruptions in the network around the same time the Kimwolf botmasters began relying on it to evade takedown attempts against the botnet's control servers.",
-    "link": "https://krebsonsecurity.com/2026/02/kimwolf-botnet-swamps-anonymity-network-i2p/",
-    "published": "2026-02-11T16:08:11",
-    "source": "krebsonsecurity.com",
-    "category": "Ransomware",
-    "importance_score": 129,
-    "also_covered_by": []
-  },
-  {
-    "title": "Please Don’t Feed the Scattered Lapsus ShinyHunters",
-    "summary": "A prolific data ransom gang that calls itself Scattered Lapsus ShinyHunters (SLSH) has a distinctive playbook when it seeks to extort payment from victim firms: Harassing, threatening and even swatting executives and their families, all while notifying journalists and regulators… <span class=\"read-more\"><a href=\"https://krebsonsecurity.com/2026/02/please-dont-feed-the-scattered-lapsus-shiny-hunters/\">Read More &#187;</a></span>",
-    "link": "https://krebsonsecurity.com/2026/02/please-dont-feed-the-scattered-lapsus-shiny-hunters/",
-    "published": "2026-02-02T16:15:16",
-    "source": "krebsonsecurity.com",
-    "category": "Other",
-    "importance_score": 128,
     "also_covered_by": []
   },
   {
