@@ -347,6 +347,16 @@
     "also_covered_by": []
   },
   {
+    "title": "SMS Phishers Pivot to Points, Taxes, Fake Retailers",
+    "summary": "China-based phishing groups blamed for non-stop scam SMS messages about a supposed wayward package or unpaid toll fee are promoting a new offering, just in time for the holiday shopping season: Phishing kits for mass-creating fake but convincing e-commerce websites that convert customer payment card data into mobile wallets from Apple and Google. Experts say these same phishing groups also are now using SMS lures that promise unclaimed tax refunds and mobile rewards points.",
+    "link": "https://krebsonsecurity.com/2025/12/sms-phishers-pivot-to-points-taxes-fake-retailers/",
+    "published": "2025-12-04T23:02:34",
+    "source": "krebsonsecurity.com",
+    "category": "Vulnerability",
+    "importance_score": 1522,
+    "also_covered_by": []
+  },
+  {
     "title": "Apple discloses first actively exploited zero-day of 2026",
     "summary": "<p>The vendor said the memory-corruption defect was exploited to target specific people, but it did not describe the objectives of the attack.</p>\n<p>The post <a href=\"https://cyberscoop.com/apple-zero-day-vulnerability-cve-2026-20700/\">Apple discloses first actively exploited zero-day of 2026</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
     "link": "https://cyberscoop.com/apple-zero-day-vulnerability-cve-2026-20700/",
@@ -627,6 +637,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Microsoft Patch Tuesday, December 2025 Edition",
+    "summary": "Microsoft today pushed updates to fix at least 56 security flaws in its Windows operating systems and supported software. This final Patch Tuesday of 2025 tackles one zero-day bug that is already being exploited, as well as two publicly disclosed vulnerabilities.",
+    "link": "https://krebsonsecurity.com/2025/12/microsoft-patch-tuesday-december-2025-edition/",
+    "published": "2025-12-09T23:18:29",
+    "source": "krebsonsecurity.com",
+    "category": "Vulnerability",
+    "importance_score": 978,
+    "also_covered_by": []
+  },
+  {
     "title": "DNS OverDoS: Are Private Endpoints Too Private?",
     "summary": "<p>We've identified an aspect of Azure’s Private Endpoint architecture that could expose Azure resources to denial of service (DoS) attacks.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/dos-attacks-and-azure-private-endpoint/\">DNS OverDoS: Are Private Endpoints Too Private?</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
     "link": "https://unit42.paloaltonetworks.com/dos-attacks-and-azure-private-endpoint/",
@@ -634,16 +654,6 @@
     "source": "unit42.paloaltonetworks.com",
     "category": "Vulnerability",
     "importance_score": 970,
-    "also_covered_by": []
-  },
-  {
-    "title": "Patch Tuesday, February 2026 Edition",
-    "summary": "Microsoft today released updates to fix more than 50 security holes in its Windows operating systems and other software, including patches for a whopping six \"zero-day\" vulnerabilities that attackers are already exploiting in the wild.",
-    "link": "https://krebsonsecurity.com/2026/02/patch-tuesday-february-2026-edition/",
-    "published": "2026-02-10T21:49:53",
-    "source": "krebsonsecurity.com",
-    "category": "Vulnerability",
-    "importance_score": 969,
     "also_covered_by": []
   },
   {
@@ -1197,16 +1207,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Who Operates the Badbox 2.0 Botnet?",
-    "summary": "The cybercriminals in control of Kimwolf -- a disruptive botnet that has infected more than 2 million devices -- recently shared a screenshot indicating they'd compromised the control panel for Badbox 2.0, a vast China-based botnet powered by malicious software that comes pre-installed on many Android TV streaming boxes. Both the FBI and Google say they are hunting for the people behind Badbox 2.0, and thanks to bragging by the Kimwolf botmasters we may now have a much clearer idea about that.",
-    "link": "https://krebsonsecurity.com/2026/01/who-operates-the-badbox-2-0-botnet/",
-    "published": "2026-01-26T16:11:38",
-    "source": "krebsonsecurity.com",
-    "category": "Other",
-    "importance_score": 508,
-    "also_covered_by": []
-  },
-  {
     "title": "New ransomware tactics to watch out for in 2026",
     "summary": "Ransomware groups made less money in 2025 despite a 47% increase in attacks, driving new tactics: bundled DDoS services, insider recruitment, and gig worker exploitation. Learn the emerging trends defenders must prepare for in 2026.",
     "link": "https://www.recordedfuture.com/blog/ransomware-tactics-2026",
@@ -1644,6 +1644,16 @@
     "source": "microsoft.com",
     "category": "Other",
     "importance_score": 408,
+    "also_covered_by": []
+  },
+  {
+    "title": "Most Parked Domains Now Serving Malicious Content",
+    "summary": "Direct navigation -- the act of visiting a website by manually typing a domain name in a web browser -- has never been riskier: A new study finds the vast majority of \"parked\" domains -- mostly expired or dormant domain names, or common misspellings of popular websites -- are now configured to redirect visitors to sites that foist scams and malware.",
+    "link": "https://krebsonsecurity.com/2025/12/most-parked-domains-now-serving-malicious-content/",
+    "published": "2025-12-16T14:14:48",
+    "source": "krebsonsecurity.com",
+    "category": "Phishing / Scams",
+    "importance_score": 404,
     "also_covered_by": []
   },
   {
@@ -2157,6 +2167,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Drones to Diplomas: How Russia’s Largest Private University is Linked to a $25M Essay Mill",
+    "summary": "A sprawling academic cheating network turbocharged by Google Ads that has generated nearly $25 million in revenue has curious connections to a Kremlin-connected oligarch whose Russian university builds drones for Russia's war against Ukraine.",
+    "link": "https://krebsonsecurity.com/2025/12/drones-to-diplomas-how-russias-largest-private-university-is-linked-to-a-25m-essay-mill/",
+    "published": "2025-12-06T14:45:03",
+    "source": "krebsonsecurity.com",
+    "category": "Other",
+    "importance_score": 252,
+    "also_covered_by": []
+  },
+  {
     "title": "Palo Alto Networks’ Koi acquisition is all about keeping AI agents in check",
     "summary": "<p>The company says it will integrate Koi’s technology into its security offerings to improve visibility into AI-driven activity on workplace devices. </p>\n<p>The post <a href=\"https://cyberscoop.com/palo-alto-networks-acquires-koi-agentic-ai-security/\">Palo Alto Networks’ Koi acquisition is all about keeping AI agents in check</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
     "link": "https://cyberscoop.com/palo-alto-networks-acquires-koi-agentic-ai-security/",
@@ -2546,26 +2566,6 @@
     "source": "unit42.paloaltonetworks.com",
     "category": "Other",
     "importance_score": 130,
-    "also_covered_by": []
-  },
-  {
-    "title": "Kimwolf Botnet Swamps Anonymity Network I2P",
-    "summary": "For the past week, the massive \"Internet of Things\" (IoT) botnet known as Kimwolf has been disrupting the The Invisible Internet Project (I2P), a decentralized, encrypted communications network designed to anonymize and secure online communications. I2P users started reporting disruptions in the network around the same time the Kimwolf botmasters began relying on it to evade takedown attempts against the botnet's control servers.",
-    "link": "https://krebsonsecurity.com/2026/02/kimwolf-botnet-swamps-anonymity-network-i2p/",
-    "published": "2026-02-11T16:08:11",
-    "source": "krebsonsecurity.com",
-    "category": "Ransomware",
-    "importance_score": 129,
-    "also_covered_by": []
-  },
-  {
-    "title": "Please Don’t Feed the Scattered Lapsus ShinyHunters",
-    "summary": "A prolific data ransom gang that calls itself Scattered Lapsus ShinyHunters (SLSH) has a distinctive playbook when it seeks to extort payment from victim firms: Harassing, threatening and even swatting executives and their families, all while notifying journalists and regulators… <span class=\"read-more\"><a href=\"https://krebsonsecurity.com/2026/02/please-dont-feed-the-scattered-lapsus-shiny-hunters/\">Read More &#187;</a></span>",
-    "link": "https://krebsonsecurity.com/2026/02/please-dont-feed-the-scattered-lapsus-shiny-hunters/",
-    "published": "2026-02-02T16:15:16",
-    "source": "krebsonsecurity.com",
-    "category": "Other",
-    "importance_score": 128,
     "also_covered_by": []
   },
   {
@@ -3179,16 +3179,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Introducing &quot;AI Unlocked: Decoding Prompt Injection,&quot; a New Interactive Challenge",
-    "summary": "No summary available",
-    "link": "https://www.crowdstrike.com/en-us/blog/introducing-ai-unlocked-interactive-prompt-injection-challenge/",
-    "published": "Feb 18, 2026 00:00:00-0600",
-    "source": "crowdstrike.com",
-    "category": "Other",
-    "importance_score": 6,
-    "also_covered_by": []
-  },
-  {
     "title": "CrowdStrike Named a Customers&rsquo; Choice in 2026 Gartner&reg; Peer Insights&trade; Voice of the Customer for User Authentication",
     "summary": "No summary available",
     "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-customers-choice-2026-gartner-peer-insights-voc-user-authentication/",
@@ -3255,6 +3245,16 @@
     "published": "Feb 03, 2026 00:00:00-0800",
     "source": "crowdstrike.com",
     "category": "Other",
+    "importance_score": 6,
+    "also_covered_by": []
+  },
+  {
+    "title": "Secure AI with CrowdStrike: Real-World Stories of Protecting AI Workloads and Data",
+    "summary": "No summary available",
+    "link": "https://www.crowdstrike.com/en-us/blog/how-three-companies-secure-ai-with-crowdstrike/",
+    "published": "Feb 02, 2026 00:00:00-0800",
+    "source": "crowdstrike.com",
+    "category": "AI & Security",
     "importance_score": 6,
     "also_covered_by": []
   }
