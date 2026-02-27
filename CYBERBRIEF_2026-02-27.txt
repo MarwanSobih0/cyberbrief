@@ -1,10 +1,10 @@
 CYBERBRIEF • DAILY THREAT INTELLIGENCE
-Generated: Friday, February 27, 2026 - 05:45 UTC
+Generated: Friday, February 27, 2026 - 05:49 UTC
 ================================================================================
 
 Total topics: 325    •    Scanned raw articles: 334
 Severity breakdown:
-  CRITICAL: 22  |  HIGH: 14  |  MEDIUM: 49  |  LOW: 240
+  CRITICAL: 22  |  HIGH: 14  |  MEDIUM: 50  |  LOW: 239
 
 Top 7 active threats:
 

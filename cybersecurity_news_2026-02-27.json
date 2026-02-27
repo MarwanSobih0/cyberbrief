@@ -777,6 +777,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Microsoft Defender Discovers Trojanized Gaming Utility Campaign Stealing Data with RATs",
+    "summary": "<p>Microsoft Defender researchers have uncovered a new campaign that abuses trojanized gaming utilities to deliver multi‑stage malware with remote access, data theft, and payload delivery capabilities. Attackers are masquerading as popular tools such as Xeno.exe and RobloxPlayerBeta.exe, tricking gamers into launching the malicious chain via downloads shared through web browsers and chat platforms. Once a [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/gaming-utility-campaign/\">Microsoft Defender Discovers Trojanized Gaming Utility Campaign Stealing Data with RATs</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/gaming-utility-campaign/",
+    "published": "2026-02-27T05:48:36",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 878,
+    "also_covered_by": []
+  },
+  {
     "title": "Malicious Ads Bypass Google Ads Screening via New Campaign Platform Exploit",
     "summary": "<p>A sophisticated cloaking platform called 1Campaign, designed to help attackers run malicious Google Ads campaigns while evading detection. The service acts as a full‑service infrastructure for malvertising, filtering out researchers and automated scanners to keep phishing and cryptocurrency drainer sites online for extended periods. Operated by a developer using the alias DuppyMeister, 1Campaign has been [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/google-ads-screening/\">Malicious Ads Bypass Google Ads Screening via New Campaign Platform Exploit</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
     "link": "https://gbhackers.com/google-ads-screening/",
@@ -1414,16 +1424,6 @@
     "source": "unit42.paloaltonetworks.com",
     "category": "Phishing / Scams",
     "importance_score": 481,
-    "also_covered_by": []
-  },
-  {
-    "title": "Zyxel Vulnerabilities Allow Remote Attackers to Execute Commands via Command Injection",
-    "summary": "<p>Zyxel has rolled out critical security patches for multiple vulnerabilities affecting its 4G LTE/5G NR CPE, DSL/Ethernet CPE, Fiber ONTs, Security Routers, and Wireless Extenders. The flaws range from null pointer dereferences causing Denial-of-Service (DoS) to severe command injections allowing remote attackers to execute system commands. CVE ID Severity Vulnerability Type Attack Vector Impact CVE-2025-13942 [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/zyxel-vulnerabilities/\">Zyxel Vulnerabilities Allow Remote Attackers to Execute Commands via Command Injection</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/zyxel-vulnerabilities/",
-    "published": "2026-02-26T11:29:48",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 479,
     "also_covered_by": []
   },
   {
