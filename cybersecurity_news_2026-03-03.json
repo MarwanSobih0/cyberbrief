@@ -145,16 +145,6 @@
     "also_covered_by": []
   },
   {
-    "title": "MSHTML Framework 0-Day Exploited by APT28 Hackers Before Feb 2026’s Patch Tuesday Update",
-    "summary": "<p>A zero-day vulnerability in the Microsoft HTML (MSHTML) framework was actively exploited in the wild. The vulnerability, tracked as CVE-2026-21513, allows attackers to bypass security features and execute arbitrary files. With a CVSS score of 8.8, it impacts all Windows versions. Security researchers at Akamai discovered that the Russian state-sponsored threat group APT28 was targeting [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/mshtml-framework-0-day-exploited/\">MSHTML Framework 0-Day Exploited by APT28 Hackers Before Feb 2026’s Patch Tuesday Update</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/mshtml-framework-0-day-exploited/",
-    "published": "2026-03-02T16:06:33",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 2417,
-    "also_covered_by": []
-  },
-  {
     "title": "Rust in Android: move fast and fix things",
     "summary": "<span class=\"byline-author\">Posted by Jeff Vander Stoep, Android</span>\n\n<p>\n<a href=\"https://security.googleblog.com/2024/09/eliminating-memory-safety-vulnerabilities-Android.html\">Last year, we wrote</a> about why a memory safety strategy that focuses on vulnerability prevention in new code quickly yields durable and compounding gains. This year we look at how <strong>this approach isn’t just fixing things, but helping us move faster</strong>.\n</p>\n<p>\nThe 2025 data continues to validate the approach, with memory safety vulnerabilities falling below 20% of total vulnerabilities for the first time.\n</p>\n<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjROV8ZUdZiVSj1rnMTi-vP1Dg7mBFBM2FkHYgIm8qwzvgYFfDd7Jl4P5EhrvQse9UC9o5WQSREZBgBBIsVeQqHmXJwLoXTJqkzjlmKD8W5oAoZJ0YWQSibsNLUxJrHOM9bQ_h2mQJqIlZdKJiofA8m8xCO2QukDD1RtRgJ853N4YNXYlVnl02R1hLV8zgK/s1600/image2.png\" style=\"display: block; padding: 1em 0; text-align: center;\"><img alt=\"\" border=\"0\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjROV8ZUdZiVSj1rnMTi-vP1Dg7mBFBM2FkHYgIm8qwzvgYFfDd7Jl4P5EhrvQse9UC9o5WQSREZBgBBIsVeQqHmXJwLoXTJqkzjlmKD8W5oAoZJ0YWQSibsNLUxJrHOM9bQ_h2mQJqIlZdKJiofA8m8xCO2QukDD1RtRgJ853N4YNXYlVnl02R1hLV8zgK/s1600/image2.png\" /></a></div>\n<p style=\"text-align: center;\">\n\n    <em>Updated data for 2025. This data covers first-party and third-party (open source) code changes to the Android platform across C, C++, Java, Kotlin, and Rust. This post is published a couple of months before the end of 2025, but Android’s industry-standard 90-day patch window means that these results are very likely close to final. We can and will accelerate patching when necessary.</em>\n</p>\n<p>\nWe adopted Rust for its security and are seeing <strong>a 1000x reduction in memory safety vulnerability density compared to Android’s C and C++ code</strong>. But the biggest surprise was Rust's impact on software delivery. With Rust changes having <strong>a 4x lower rollback rate</strong> and spending <strong>25% less time in code review</strong>, the safer path is now also the faster one. \n</p>\n<p>\nIn this post, we dig into the data behind this shift and also cover:\n</p>\n<ul>\n\n<li><strong>How we’re expanding our reach:</strong> We're pushing to make secure code the default across our entire software stack. We have updates on Rust adoption in first-party apps, the Linux kernel, and firmware.</li>\n\n<li><strong>Our first rust memory safety vulnerability...almost:</strong> We'll analyze a near-miss memory safety bug in unsafe Rust: how it happened, how it was mitigated, and steps we're taking to prevent recurrence. It’s also a good chance to answer the question “if Rust can have memory safety issues, why bother at all?”</li>\n</ul>\n<h1>Building Better Software, Faster</h1>\n\n\n<p>\nDeveloping an operating system requires the low-level control and predictability of systems programming languages like C, C++, and Rust. While Java and Kotlin are important for Android platform development, their role is complementary to the systems languages rather than interchangeable. <a href=\"https://security.googleblog.com/2021/04/rust-in-android-platform.html\">We introduced Rust into Android</a> as a direct alternative to C and C++, offering a similar level of control but without many of their risks. We focus this analysis on new and actively developed code because our data shows this to be <a href=\"https://security.googleblog.com/2024/09/eliminating-memory-safety-vulnerabilities-Android.html\">an effective approach</a>.\n</p>\n<p>\nWhen we look at development in systems languages (excluding Java and Kotlin), two trends emerge: a steep rise in Rust usage and a slower but steady decline in new C++.\n</p>\n<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-MWhK4zEb7DBnAO8eF3DRxQ-T7p_LCkl7qApGBxda2fiHroOHwMQYlIfYHsZLakB6XiyOynkJbTVShIXe5pzqw7VXcZSAzflS7PyzUrM_8ZUVXOgudYo9bmgvhA7CVACfh5OS0wfOHbBczW_poHUfI8lngMWiuLs9Z5I0arQ-Z_e7WBzgSzOCUSHymx7Z/s1600/image1%20%281%29.png\" style=\"display: block; padding: 1em 0; text-align: center;\"><img alt=\"\" border=\"0\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-MWhK4zEb7DBnAO8eF3DRxQ-T7p_LCkl7qApGBxda2fiHroOHwMQYlIfYHsZLakB6XiyOynkJbTVShIXe5pzqw7VXcZSAzflS7PyzUrM_8ZUVXOgudYo9bmgvhA7CVACfh5OS0wfOHbBczW_poHUfI8lngMWiuLs9Z5I0arQ-Z_e7WBzgSzOCUSHymx7Z/s1600/image1%20%281%29.png\" /></a></div>\n<p style=\"text-align: center;\">\n<em>Net lines of code added: Rust vs. C++, first-party Android code.<br />This chart focuses on first-party (Google-developed) code (unlike the previous chart that included all first-party and third-party code in Android.) We only include systems languages, C/C++ (which is primarily C++), and Rust.</em>\n</p>\n<p>\nThe chart shows that the volume of new Rust code now rivals that of C++, enabling reliable comparisons of software development process metrics. To measure this, we use the DORA<sup id=\"fnref1\"><a href=\"http://feeds.feedburner.com/GoogleOnlineSecurityBlog#fn1\" rel=\"footnote\">1</a></sup> framework, a decade-long research program that has become the industry standard for evaluating software engineering team performance. <a href=\"https://dora.dev/guides/dora-metrics-four-keys/\">DORA metrics</a> focus on:\n</p>\n<ul>\n\n<li>Throughput: the velocity of delivering software changes.</li>\n\n<li>Stability: the quality of those changes.</li>\n</ul>\n<p>\nCross-language comparisons can be challenging. We use several techniques to ensure the comparisons are reliable.\n</p>\n<ul>\n\n<li>Similar sized changes: Rust and C++ have similar functionality density, though Rust is slightly denser. This difference favors C++, but the comparison is still valid. We use <a href=\"https://issues.gerritcodereview.com/issues/40007892\">Gerrit’s change size definitions</a>.</li>\n\n<li>Similar developer pools: We only consider first-party changes from Android platform developers. Most are software engineers at Google, and there is considerable overlap between pools with many contributing in both.</li>\n\n<li>Track trends over time: As Rust adoption increases, are metrics changing steadily, accelerating the pace, or reverting to the mean? </li>\n</ul>\n<h2>Throughput</h2>\n\n\n<p>\nCode review is a time-consuming and high-latency part of the development process. Reworking code is a primary source of these costly delays. Data shows that Rust code requires fewer revisions. This trend has been consistent since 2023. Rust changes of a similar size need about 20% fewer revisions than their C++ counterparts.\n</p>\n<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisLm7jCyRVHZIyKf4awb-HpBwUdYAFui-tdFR9IqyyMN-OcdC91wsriqWRMsyTKtceUN3sGwe1DfcvFJliEH98ps2yq42sAAPGQFKtJ446pYENZK55x6AECT480e0lSTRZLkgLdRYvd-CT1cw1uXidOjw_aOJPDalbapWiL-lK8MjRGhqtduhTFINxT4AZ/s1600/image3.png\" style=\"display: block; padding: 1em 0; text-align: center;\"><img alt=\"\" border=\"0\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisLm7jCyRVHZIyKf4awb-HpBwUdYAFui-tdFR9IqyyMN-OcdC91wsriqWRMsyTKtceUN3sGwe1DfcvFJliEH98ps2yq42sAAPGQFKtJ446pYENZK55x6AECT480e0lSTRZLkgLdRYvd-CT1cw1uXidOjw_aOJPDalbapWiL-lK8MjRGhqtduhTFINxT4AZ/s1600/image3.png\" /></a></div>\n<p>\n \n</p>\n<p>\nIn addition, Rust changes currently spend about 25% less time in code review compared to C++. We speculate that the significant change in favor of Rust between 2023 and 2024 is due to increased Rust expertise on the Android team.\n</p>\n<p>\n\n<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwkwkwfieBcBdcnJ1hyphenhyphenzN3YpbKpZgklKmySAgHablV87Y8zxx5JKuq1bHmMeoKGtFSKdVmttH2aUOgIyn424lKNF8z8BENijo9r687GGPF6k227fnj4eMQ4RTSqLTCysgLAli84iAI9TV6RxUwETfgLfGdsQL0BApI6QQpU_QsZ7Jb4HjBdxNosz3qS3W2/s1600/image4.png\" style=\"display: block; padding: 1em 0; text-align: center;\"><img alt=\"\" border=\"0\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwkwkwfieBcBdcnJ1hyphenhyphenzN3YpbKpZgklKmySAgHablV87Y8zxx5JKuq1bHmMeoKGtFSKdVmttH2aUOgIyn424lKNF8z8BENijo9r687GGPF6k227fnj4eMQ4RTSqLTCysgLAli84iAI9TV6RxUwETfgLfGdsQL0BApI6QQpU_QsZ7Jb4HjBdxNosz3qS3W2/s1600/image4.png\" /></a></div>\n<p>\nWhile less rework and faster code reviews offer modest productivity gains, the most significant improvements are in the stability and quality of the changes.\n</p>\n<h2>Stability</h2>\n\n\n<p>\nStable and high-quality changes differentiate Rust. DORA uses rollback rate for evaluating change stability. Rust's rollback rate is very low and continues to decrease, even as its adoption in Android surpasses C++.\n</p>\n<p>\n\n\n<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYEeeQLKTv1uwMOjS0-f87kVn2Zl4a76OBfi1aJJhyphenhyphen8-vgGR7ma84fyNRvWpIFT7VvqNNmgdUmxKh5GKjEhyuSm2krmFq3Q_T9T58XGNHBHqg1DIYRlgXxHoyh6_wpc-9PtrAlBebNZFjcV8gcdCYWgLFv8NZJngPQNp_HJhVvVWVxbD9lNob_i6O-L34m/s1600/image5.png\" style=\"display: block; padding: 1em 0; text-align: center;\"><img alt=\"\" border=\"0\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYEeeQLKTv1uwMOjS0-f87kVn2Zl4a76OBfi1aJJhyphenhyphen8-vgGR7ma84fyNRvWpIFT7VvqNNmgdUmxKh5GKjEhyuSm2krmFq3Q_T9T58XGNHBHqg1DIYRlgXxHoyh6_wpc-9PtrAlBebNZFjcV8gcdCYWgLFv8NZJngPQNp_HJhVvVWVxbD9lNob_i6O-L34m/s1600/image5.png\" /></a></div>\n<p>\n<strong>For medium and large changes, the rollback rate of Rust changes in Android is ~4x lower than C++. </strong>This low rollback rate doesn't just indicate stability; it actively improves overall development throughput. Rollbacks are highly disruptive to productivity, introducing organizational friction and mobilizing resources far beyond the developer who submitted the faulty change. Rollbacks necessitate rework and more code reviews, can also lead to build respins, postmortems, and blockage of other teams. Resulting postmortems often introduce new safeguards that add even more development overhead.</p>\n<p>\nIn a <a href=\"https://opensource.googleblog.com/2023/06/rust-fact-vs-fiction-5-insights-from-googles-rust-journey-2022.html\">self-reported survey from 2022</a>, Google software engineers reported that Rust is both easier to review and more likely to be correct. The hard data on rollback rates and review times validates those impressions.\n</p>\n<h2>Putting it all together</h2>\n\n\n<p>\nHistorically, security improvements often came at a cost. More security meant more process, slower performance, or delayed features, forcing trade-offs between security and other product goals. The shift to Rust is different: we are significantly improving security <em>and</em> key development efficiency and product stability metrics. \n</p>\n<h1>Expanding Our Reach</h1>\n\n\n<p>\nWith Rust support now mature for building Android system services and libraries, we are focused on bringing its security and productivity advantages elsewhere. \n</p>\n<ul>\n\n<li><strong>Kernel:</strong> Android’s 6.12 Linux kernel is our first kernel with Rust support enabled and our first production Rust driver. More exciting projects are underway, such as our ongoing <a href=\"https://www.collabora.com/news-and-blog/news-and-events/introducing-tyr-a-new-rust-drm-driver.html\">collaboration with Arm and Collabora on a Rust-based kernel-mode GPU driver</a>.</li>\n\n<li><strong>Firmware:</strong> The combination of high privilege, performance constraints, and limited applicability of many security measures makes firmware both high-risk, and challenging to secure. Moving firmware to Rust can yield a major improvement in security. We have been <a href=\"https://security.googleblog.com/2023/10/bare-metal-rust-in-android.html\">deploying Rust in firmware for years now</a>, and even released <a href=\"https://security.googleblog.com/2024/09/deploying-rust-in-existing-firmware.html\">tutorials</a>, <a href=\"https://google.github.io/comprehensive-rust/bare-metal.html\">training</a>, and <a href=\"https://github.com/google/aarch64-rt\">code</a> for the wider community. We’re particularly excited about our <a href=\"https://www.trustedfirmware.org/blog/rf-a-blog\">collaboration with Arm on Rusted Firmware-A</a>.</li>\n\n<li><strong>First-party applications:</strong> Rust is ensuring memory safety from the ground up in several security-critical Google applications, such as:</li> \n<ul>\n \n<li><a href=\"https://developers.google.com/nearby\">Nearby Presence</a>: The protocol for securely and privately discovering local devices over Bluetooth is implemented in Rust and is currently running in Google Play Services.</li>\n \n<li><a href=\"https://www.gsma.com/newsroom/article/rcs-encryption-a-leap-towards-secure-and-interoperable-messaging/\">MLS</a>: The protocol for secure RCS messaging is implemented in Rust and will be included in the Google Messages app in a future release.</li>\n \n<li>Chromium: Parsers for <a href=\"https://chromium-review.googlesource.com/c/chromium/src/+/6085801\">PNG</a>, <a href=\"https://crbug.com/40276029\">JSON</a>, and <a href=\"https://developer.chrome.com/blog/memory-safety-fonts\">web fonts</a> have been replaced with memory-safe implementations in Rust, making it easier for Chromium engineers to deal with data from the web while following the <a href=\"https://chromium.googlesource.com/chromium/src/+/main/docs/security/rule-of-2.md\">Rule of 2</a>.</li> \n</ul></li> \n</ul>\n<p>\n<br />These examples highlight Rust's role in reducing security risks, but <strong>memory-safe languages are only one part of a comprehensive memory safety strategy</strong>. We continue to employ a defense-in-depth approach, the value of which was clearly demonstrated in a recent near-miss.\n</p>\n<h1>Our First Rust Memory Safety Vulnerability...Almost</h1>\n\n\n<p>\nWe recently avoided shipping our very first Rust-based memory safety vulnerability: a linear buffer overflow in <a href=\"https://android.googlesource.com/platform/external/rust/crabbyavif/\">CrabbyAVIF</a>. It was a near-miss. To ensure <a href=\"https://android.googlesource.com/platform/external/rust/crabbyavif/+/5262cd9befecb4f8865925c23eb543f19967e050\">the patch</a> received high priority and was tracked through release channels, we assigned it the identifier <a href=\"https://source.android.com/docs/security/bulletin/2025-08-01\">CVE-2025-48530</a>. While it’s great that <strong>the vulnerability never made it into a public release</strong>, the near-miss offers valuable lessons. The following sections highlight key takeaways from our postmortem.\n</p>\n<h2>Scudo Hardened Allocator for the Win</h2>\n\n\n<p>\nA key finding is that <strong>Android’s Scudo hardened allocator deterministically rendered this vulnerability non-exploitable</strong> <a href=\"https://llvm.org/docs/ScudoHardenedAllocator.html\">due to guard pages surrounding secondary allocations</a>. While Scudo is Android’s default allocator, used on Google Pixel and many other devices, we continue to work with partners to make it mandatory. In the meantime, we will issue CVEs of sufficient severity for vulnerabilities that could be prevented by Scudo.\n</p>\n<p>\nIn addition to protecting against overflows, Scudo’s use of guard pages helped identify this issue by changing an overflow from silent memory corruption into a noisy crash. However, we did discover a gap in our crash reporting: it failed to clearly show that the crash was a result of an overflow, which slowed down triage and response. This has been fixed, and we now have a clear signal when overflows occur into Scudo guard pages.\n</p>\n<h2>Unsafe Review and Training</h2>\n\n\n<p>\nOperating system development requires unsafe code, typically C, C++, or unsafe Rust  (for example, for FFI and interacting with hardware), so simply banning unsafe code is not workable. When developers must use unsafe, they should understand how to do so soundly and responsibly\n</p>\n<p>\nTo that end, we are adding a new deep dive on unsafe code to our <a href=\"https://google.github.io/comprehensive-rust/\">Comprehensive Rust training</a>. This new module, currently in development, aims to teach developers how to reason about unsafe Rust code, soundness and undefined behavior, as well as best practices like safety comments and encapsulating unsafe code in safe abstractions.\n</p>\n<p>\nBetter understanding of unsafe Rust will lead to even higher quality and more secure code across the open source software ecosystem and within Android. As we'll discuss in the next section, our unsafe Rust is already really quite safe. It’s exciting to consider just how high the bar can go.\n</p>\n<h1>Comparing Vulnerability Densities</h1>\n\n\n<p>\nThis near-miss inevitably raises the question: \"If Rust can have memory safety vulnerabilities, then what’s the point?\"\n</p>\n<p>\nThe point is that the density is drastically lower. So much lower that it represents a major shift in security posture. Based on our near-miss, we can make a conservative estimate. With roughly 5 million lines of Rust in the Android platform and one potential memory safety vulnerability found (and fixed pre-release), our estimated vulnerability density for Rust is 0.2 vuln per 1 million lines (MLOC).\n</p>\n<p>\nOur historical data for C and C++ shows a density of closer to 1,000 memory safety vulnerabilities per MLOC. Our Rust code is currently tracking at a density orders of magnitude lower: <strong>a more than 1000x reduction.</strong>\n</p>\n<p>\nMemory safety rightfully receives significant focus because the vulnerability class is uniquely powerful and (historically) highly prevalent. High vulnerability density undermines otherwise solid security design because these flaws can be chained to bypass defenses, including those specifically targeting memory safety exploits. Significantly lowering vulnerability density does not just reduce the number of bugs; it dramatically boosts the effectiveness of our entire security architecture.\n</p>\n<p>\nThe primary security concern regarding Rust generally centers on the approximately 4% of code written within <code>unsafe{}</code> blocks. This subset of Rust has fueled significant speculation, misconceptions, and even theories that <a href=\"https://goto.ucsd.edu/~rjhala/hotos-ffi.pdf\">unsafe Rust might be more buggy than C</a>. Empirical evidence shows this to be quite wrong.\n</p>\n<p>\nOur data indicates that even a more conservative assumption, that a line of unsafe Rust is as likely to have a bug as a line of C or C++, significantly overestimates the risk of unsafe Rust. We don’t know for sure why this is the case, but there are likely several contributing factors:\n</p>\n<ul>\n\n<li>unsafe{} doesn't actually disable all or even most of Rust’s safety checks (a common misconception).</li>\n\n<li>The practice of encapsulation enables local reasoning about safety invariants.</li>\n\n<li>The additional scrutiny that unsafe{} blocks receive.</li>\n</ul>\n<h1>Final Thoughts</h1>\n\n\n<p>\nHistorically, we had to accept a trade-off: mitigating the risks of memory safety defects required substantial investments in static analysis, runtime mitigations, sandboxing, and reactive patching. This approach attempted to move fast and then pick up the pieces afterwards. These layered protections were essential, but they came at a high cost to performance and developer productivity, while still providing insufficient assurance.\n</p>\n<p>\nWhile C and C++ will persist, and both software and hardware safety mechanisms remain critical for layered defense, the transition to Rust is a different approach where the more secure path is also demonstrably more efficient. Instead of moving fast and <em>then</em> later fixing the mess, we can move faster <em>while</em> fixing things. And who knows, as our code gets increasingly safe, perhaps we can start to reclaim even more of that performance and productivity that we exchanged for security, all while also <em>improving</em> security.\n</p>\n<h1>Acknowledgments</h1>\n\n\n<p>\nThank you to the following individuals for their contributions to this post:\n</p>\n<ul>\n\n<li>Ivan Lozano for compiling the detailed postmortem on CVE-2025-48530.</li>\n\n<li>Chris Ferris for validating the postmortem’s findings and improving Scudo’s crash handling as a result.</li>\n\n<li>Dmytro Hrybenko for leading the effort to develop training for unsafe Rust and for providing extensive feedback on this post.</li>\n\n<li>Alex Rebert and Lars Bergstrom for their valuable suggestions and extensive feedback on this post.</li>\n\n<li>Peter Slatala, Matthew Riley, and Marshall Pierce for providing information on some of the places where Rust is being used in Google's apps.</li>\n</ul>\n<p>\nFinally, a tremendous thank you to the Android Rust team, and the entire Android organization for your relentless commitment to engineering excellence and continuous improvement.\n</p>\n\n<!-- Footnotes themselves at the bottom. -->\n\n<h2>Notes</h2>\n<div class=\"footnotes\">\n<hr />\n<ol><li id=\"fn1\">\n<p>\n     The DevOps Research and Assessment (DORA) program is published by Google Cloud.&nbsp;<a href=\"http://feeds.feedburner.com/GoogleOnlineSecurityBlog#fnref1\" rev=\"footnote\">&#8617;</a>\n\n</ol></div>",
     "link": "http://security.googleblog.com/2025/11/rust-in-android-move-fast-fix-things.html",
@@ -192,16 +182,6 @@
     "source": "thecyberexpress.com",
     "category": "Ransomware",
     "importance_score": 2150,
-    "also_covered_by": []
-  },
-  {
-    "title": "MSHTML Zero-Day in Windows Exploited by APT28 Prior to Feb 2026 Security Update",
-    "summary": "<p>Microsoft released its Patch Tuesday updates, addressing 59 vulnerabilities, including a critical zero-day flaw in the Windows MSHTML framework. Tracked as CVE-2026-21513, this actively exploited vulnerability allows attackers to bypass security features and execute arbitrary code. APT28 is a well-documented advanced persistent threat group known for sophisticated malware campaigns. Security researchers from Akamai discovered that [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/mshtml-zero-day-in-windows-exploited-by-apt28/\">MSHTML Zero-Day in Windows Exploited by APT28 Prior to Feb 2026 Security Update</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/mshtml-zero-day-in-windows-exploited-by-apt28/",
-    "published": "2026-03-02T13:35:12",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 2088,
     "also_covered_by": []
   },
   {
@@ -555,26 +535,6 @@
     "also_covered_by": []
   },
   {
-    "title": "UXSS Vulnerability in DuckDuckGo Browser’s AutoConsent JS Bridge Allows Cross-Origin Attacks",
-    "summary": "<p>A critical vulnerability was recently discovered in the DuckDuckGo browser for Android, exposing users to Universal Cross-Site Scripting (UXSS) attacks. This flaw, found in the browser&#8217;s AutoConsent JS bridge, allows malicious code from an untrusted source to run on a trusted webpage. Security researcher Dhiraj Mishra reported the vulnerability via HackerOne. It has since been [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/uxss-vulnerability-in-duckduckgo-browsers/\">UXSS Vulnerability in DuckDuckGo Browser’s AutoConsent JS Bridge Allows Cross-Origin Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/uxss-vulnerability-in-duckduckgo-browsers/",
-    "published": "2026-03-02T12:47:44",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 1078,
-    "also_covered_by": []
-  },
-  {
-    "title": "TPMS Flaw in Toyota, Mercedes, and Other Major Brands Enables Covert Vehicle Tracking",
-    "summary": "<p>Tire pressure monitoring systems (TPMS) in popular brands like Toyota, Mercedes, and many others quietly broadcast radio signals that can be turned into a powerful vehicle‑tracking tool. New research shows that these routine safety messages can be harvested at scale, allowing anyone with cheap hardware to map where cars go, when they move, and even [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/tpms-flaw/\">TPMS Flaw in Toyota, Mercedes, and Other Major Brands Enables Covert Vehicle Tracking</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/tpms-flaw/",
-    "published": "2026-03-02T13:26:15",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 1060,
-    "also_covered_by": []
-  },
-  {
     "title": "VShell and SparkRAT Observed in Exploitation of BeyondTrust Critical Vulnerability (CVE-2026-1731)",
     "summary": "<p>CVE-2026-1731 is an RCE vulnerability in identity platform BeyondTrust. This flaw allows attackers control of systems without login credentials.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/beyondtrust-cve-2026-1731/\">VShell and SparkRAT Observed in Exploitation of BeyondTrust Critical Vulnerability (CVE-2026-1731)</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
     "link": "https://unit42.paloaltonetworks.com/beyondtrust-cve-2026-1731/",
@@ -655,16 +615,6 @@
     "also_covered_by": []
   },
   {
-    "title": "GTFire Phishing Campaign Exploits Google Services to Bypass Detection and Harvest Credentials",
-    "summary": "<p>GTFire is a large-scale phishing scheme that abuses multiple Google services to hide malicious infrastructure, evade security tools, and steal credentials from organizations worldwide. GTFire is a credential-harvesting operation that chains Google Firebase Hosting and Google Translate to deliver phishing pages that look like legitimate brand logins. Attackers host fake login portals on Firebase .web. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/gtfire-phishing-campaign/\">GTFire Phishing Campaign Exploits Google Services to Bypass Detection and Harvest Credentials</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/gtfire-phishing-campaign/",
-    "published": "2026-03-02T12:03:05",
-    "source": "gbhackers.com",
-    "category": "Phishing / Scams",
-    "importance_score": 879,
-    "also_covered_by": []
-  },
-  {
     "title": "Alabama man pleads guilty to hacking, extorting hundreds of women",
     "summary": "A 22-year-old Alabama man pleaded guilty to extortion, cyberstalking, and computer fraud charges after hijacking the social media accounts of hundreds of young women (including minors). [...]",
     "link": "https://www.bleepingcomputer.com/news/security/alabama-man-pleads-guilty-to-hacking-extorting-hundreds-of-women/",
@@ -672,28 +622,6 @@
     "source": "bleepingcomputer.com",
     "category": "Phishing / Scams",
     "importance_score": 876,
-    "also_covered_by": []
-  },
-  {
-    "title": "Chrome Gemini Vulnerability Lets Attackers Access Victims’ Camera and Microphone Remotely",
-    "summary": "<p>A high-severity security vulnerability has been discovered in Google Chrome&#8217;s integrated Gemini AI assistant, exposing users to unauthorized camera and microphone access, local file theft, and phishing attacks, all without requiring any user interaction beyond launching the browser&#8217;s built-in AI panel. Tracked as CVE-2026-0628, the flaw was uncovered by researchers at Palo Alto Networks&#8217; Unit [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/chrome-gemini-vulnerability/\">Chrome Gemini Vulnerability Lets Attackers Access Victims&#8217; Camera and Microphone Remotely</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/chrome-gemini-vulnerability/",
-    "published": "2026-03-02T17:02:48",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 874,
-    "also_covered_by": [
-      "gbhackers.com"
-    ]
-  },
-  {
-    "title": "GTFire Phishing Scheme Abuses Google Services to Evade Detection and Steal Credentials",
-    "summary": "<p>A new phishing campaign called GTFire is abusing two of Google&#8217;s most trusted services — Firebase and Google Translate — to harvest login credentials from victims around the world. What makes this campaign dangerous is its ability to hide malicious activity behind legitimate Google-owned domains, allowing phishing links to pass through email filters and web [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/gtfire-phishing-scheme-abuses-google-services/\">GTFire Phishing Scheme Abuses Google Services to Evade Detection and Steal Credentials</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/gtfire-phishing-scheme-abuses-google-services/",
-    "published": "2026-03-02T15:21:13",
-    "source": "cybersecuritynews.com",
-    "category": "Phishing / Scams",
-    "importance_score": 864,
     "also_covered_by": []
   },
   {
@@ -817,16 +745,6 @@
     "also_covered_by": []
   },
   {
-    "title": "OCRFix Botnet Trojan Leveraging ClickFix Phishing and EtherHiding to Conceal Blockchain-Based Command Infrastructure",
-    "summary": "<p>A newly identified botnet trojan campaign, dubbed OCRFix, has been discovered combining social engineering tricks with blockchain-based command infrastructure to quietly build a network of compromised machines. The campaign blends the well-known ClickFix phishing technique with EtherHiding — a method that stores attacker instructions directly on a public blockchain, making takedowns nearly impossible.​ The attack [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ocrfix-botnet-trojan-leveraging-clickfix-phishing-and-etherhiding/\">OCRFix Botnet Trojan Leveraging ClickFix Phishing and EtherHiding to Conceal Blockchain-Based Command Infrastructure</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/ocrfix-botnet-trojan-leveraging-clickfix-phishing-and-etherhiding/",
-    "published": "2026-03-02T11:37:38",
-    "source": "cybersecuritynews.com",
-    "category": "Phishing / Scams",
-    "importance_score": 740,
-    "also_covered_by": []
-  },
-  {
     "title": "US-Israel and Iran Trade Cyberattacks: Pro-West Hacks Cause Disruption as Tehran Retaliates",
     "summary": "<p>Both sides conduct hacking and other attacks, including the deployment of wiper malware, DDoS, and disruptions to critical infrastructure. </p>\n<p>The post <a href=\"https://www.securityweek.com/us-israel-and-iran-trade-cyberattacks-pro-west-hacks-cause-disruption-as-tehran-retaliates/\">US-Israel and Iran Trade Cyberattacks: Pro-West Hacks Cause Disruption as Tehran Retaliates</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
     "link": "https://www.securityweek.com/us-israel-and-iran-trade-cyberattacks-pro-west-hacks-cause-disruption-as-tehran-retaliates/",
@@ -914,16 +832,6 @@
     "source": "infosecurity-magazine.com",
     "category": "Vulnerability",
     "importance_score": 624,
-    "also_covered_by": []
-  },
-  {
-    "title": "PoC Exploit Released for Windows Error Reporting ALPC Privilege Escalation",
-    "summary": "<p>A critical local privilege escalation (LPE) vulnerability affecting Microsoft Windows has recently come to light following the public release of a Proof-of-Concept (PoC) exploit. Tracked as CVE-2026-20817, this security flaw resides within the Windows Error Reporting (WER) service. The vulnerability allows an authenticated user with low-level privileges to execute arbitrary malicious code with full SYSTEM [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/poc-windows-alpc-privilege-escalation/\">PoC Exploit Released for Windows Error Reporting ALPC Privilege Escalation</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/poc-windows-alpc-privilege-escalation/",
-    "published": "2026-03-02T16:29:56",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 620,
     "also_covered_by": []
   },
   {
@@ -1147,16 +1055,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Proof-of-Concept Released for Windows ALPC Privilege Escalation via Error Reporting",
-    "summary": "<p>A high-severity local privilege escalation (LPE) vulnerability, identified as CVE-2026-20817, has been publicly documented following the release of a proof-of-concept (PoC) exploit. Discovered in the Windows Error Reporting (WER) service, the flaw allows an authenticated, low-privileged user to execute arbitrary code with SYSTEM-level access. Vulnerability Overview Feature Details CVE ID CVE-2026-20817&#160;​ Severity Score CVSS 7.8 [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/proof-of-concept-released-for-windows-alpc-privilege-escalation/\">Proof-of-Concept Released for Windows ALPC Privilege Escalation via Error Reporting</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/proof-of-concept-released-for-windows-alpc-privilege-escalation/",
-    "published": "2026-03-02T13:04:29",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 494,
-    "also_covered_by": []
-  },
-  {
     "title": "Best Ransomware Detection Tools",
     "summary": "Stop ransomware before encryption begins. Learn how intelligence-driven detection tools can help identify precursor behaviors and reduce false positives for faster response.",
     "link": "https://www.recordedfuture.com/blog/best-ransomware-detection-tools",
@@ -1257,26 +1155,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Hackers Attacking SonicWall Firewalls from 4,000+ unique IP Addresses to Exploit Vulnerabilities",
-    "summary": "<p>A large-scale reconnaissance campaign is actively targeting SonicWall firewalls across the internet, with attackers using more than 4,000 unique IP addresses to map vulnerable devices before launching exploitation attempts. Between February 22 and February 25, 2026, threat actors generated 84,142 scanning sessions against SonicWall SonicOS infrastructure, originating from 4,305 distinct IP addresses across 20 autonomous [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-attacking-sonicwall-firewalls/\">Hackers Attacking SonicWall Firewalls from 4,000+ unique IP Addresses to Exploit Vulnerabilities</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/hackers-attacking-sonicwall-firewalls/",
-    "published": "2026-03-02T12:26:55",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 479,
-    "also_covered_by": []
-  },
-  {
-    "title": "AuraStealer Infostealer Targeting Users with 48 C2 Domains in Ongoing Campaigns",
-    "summary": "<p>Threat actors are actively deploying a new infostealer dubbed “AuraStealer,” backed by a growing customer base, 48 identified command‑and‑control (C2) domains, and multiple ongoing campaigns abusing popular platforms like TikTok and cracked‑software sites. AuraStealer emerged on Russian‑language cybercrime forums in mid‑2025, positioning itself as a successor and competitor to LummaC2 in the wake of Lumma’s [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/aurastealer-infostealer/\">AuraStealer Infostealer Targeting Users with 48 C2 Domains in Ongoing Campaigns</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/aurastealer-infostealer/",
-    "published": "2026-03-03T05:13:20",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 477,
-    "also_covered_by": []
-  },
-  {
     "title": "Ransomware Attacks are on the Rise",
     "summary": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
     "link": "https://threatpost.com/ransomware-attacks-are-on-the-rise/180481/",
@@ -1284,48 +1162,6 @@
     "source": "threatpost.com",
     "category": "Ransomware",
     "importance_score": 477,
-    "also_covered_by": []
-  },
-  {
-    "title": "Link11 Releases European Cyber Report 2026: DDoS Attacks Become a Constant Threat",
-    "summary": "<p>Frankfurt am Main, Germany, March 2nd, 2026, CyberNewswire Link11 has published its European Cyber Report 2026, revealing that DDoS attacks reached a new level in 2025 and have become a permanent stress factor for digital infrastructures. The report shows that the number of documented attacks in the Link11 network rose by 75% in 2025, following [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/link11-releases-european-cyber-report-2026-ddos-attacks-become-a-constant-threat/\">Link11 Releases European Cyber Report 2026: DDoS Attacks Become a Constant Threat</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/link11-releases-european-cyber-report-2026-ddos-attacks-become-a-constant-threat/",
-    "published": "2026-03-02T14:23:15",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 476,
-    "also_covered_by": [
-      "cybersecuritynews.com"
-    ]
-  },
-  {
-    "title": "OneUptime Command Injection Vulnerability Poses Major Risk of Full System Takeover",
-    "summary": "<p>A critical command injection vulnerability, identified as CVE-2026-27728, has been discovered in OneUptime, a platform for monitoring and managing online services. This flaw allows authenticated users to execute arbitrary operating system commands on the Probe server, posing a significant risk of a full system takeover. Organizations using versions prior to 10.0.7 are urged to patch [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/oneuptime-command-injection-vulnerability/\">OneUptime Command Injection Vulnerability Poses Major Risk of Full System Takeover</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/oneuptime-command-injection-vulnerability/",
-    "published": "2026-03-02T12:15:26",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 476,
-    "also_covered_by": []
-  },
-  {
-    "title": "Claude AI Suffers Global Outage: Elevated Errors Disrupt Web Interface and APIs",
-    "summary": "<p>On March 2, 2026, Anthropic&#8217;s artificial intelligence assistant, Claude, experienced a significant global outage that disrupted workflows for users and developers worldwide. Organizations relying on the AI model for daily threat intelligence reporting, code generation, and automated security analysis faced temporary operational downtime as the platform struggled with elevated error rates. The technical difficulties initiated [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/claude-ai-suffers-global-outage/\">Claude AI Suffers Global Outage: Elevated Errors Disrupt Web Interface and APIs</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/claude-ai-suffers-global-outage/",
-    "published": "2026-03-02T15:52:36",
-    "source": "cybersecuritynews.com",
-    "category": "AI & Security",
-    "importance_score": 476,
-    "also_covered_by": []
-  },
-  {
-    "title": "DuckDuckGo Browser UXSS Flaw in Auto Consent JS Bridge Enables Cross-Origin Code Execution",
-    "summary": "<p>A critical Universal Cross-Site Scripting (UXSS) vulnerability was recently discovered in the DuckDuckGo Android browser. This flaw allowed untrusted, cross-origin iframes to execute arbitrary JavaScript in the top-level origin, tracked with a high-severity CVSS score of 8.6. The vulnerability was originally detailed in a Medium post by security researcher Dhiraj Mishra. The vulnerability stems from [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/duckduckgo-browser-uxss-vulnerability/\">DuckDuckGo Browser UXSS Flaw in Auto Consent JS Bridge Enables Cross-Origin Code Execution</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/duckduckgo-browser-uxss-vulnerability/",
-    "published": "2026-03-02T16:15:03",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 473,
     "also_covered_by": []
   },
   {
@@ -1366,26 +1202,6 @@
     "source": "zdnet.com",
     "category": "AI & Security",
     "importance_score": 469,
-    "also_covered_by": []
-  },
-  {
-    "title": "Langflow CSV Agent Flaw Could Let Attackers Execute Arbitrary Code",
-    "summary": "<p>A critical vulnerability has been discovered in Langflow, a popular low-code tool used for building applications with Large Language Models (LLMs). The flaw, tracked as CVE-2026-27966, resides in the software&#8217;s CSV Agent node and could allow malicious actors to execute unauthorized code on affected servers. With a maximum severity score of 10.0 out of 10, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/langflow-csv-agent-flaw/\">Langflow CSV Agent Flaw Could Let Attackers Execute Arbitrary Code</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/langflow-csv-agent-flaw/",
-    "published": "2026-03-02T12:00:23",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 462,
-    "also_covered_by": []
-  },
-  {
-    "title": "Criminal IP to Present Decision-Ready Threat Intelligence at RSAC™ 2026",
-    "summary": "<p>Torrance, United States / California, March 2nd, 2026, CyberNewswire March 23–26, 2026 &#124; Booth N-6555, Moscone Center, San Francisco Criminal IP, an AI-powered cybersecurity platform specializing in Attack Surface Management (ASM) and Cyber Threat Intelligence (CTI), will participate in the RSAC 2026 Conference, taking place from March 23 to 26 at the Moscone Center in [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/criminal-ip-rsac-2026/\">Criminal IP to Present Decision-Ready Threat Intelligence at RSAC™ 2026</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/criminal-ip-rsac-2026/",
-    "published": "2026-03-02T15:51:11",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 457,
     "also_covered_by": []
   },
   {

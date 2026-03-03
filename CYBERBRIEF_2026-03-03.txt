@@ -1,10 +1,10 @@
 CYBERBRIEF • DAILY THREAT INTELLIGENCE
-Generated: Tuesday, March 03, 2026 - 05:43 UTC
+Generated: Tuesday, March 03, 2026 - 05:45 UTC
 ================================================================================
 
-Total topics: 314    •    Scanned raw articles: 324
+Total topics: 296    •    Scanned raw articles: 304
 Severity breakdown:
-  CRITICAL: 21  |  HIGH: 13  |  MEDIUM: 39  |  LOW: 241
+  CRITICAL: 19  |  HIGH: 13  |  MEDIUM: 34  |  LOW: 230
 
 Top 7 active threats:
 
@@ -57,6 +57,6 @@ Security Tips:
 • Enable multi-factor authentication (MFA) on email, banking, and admin accounts.
 • Keep browsers, VPNs, and endpoint security fully patched.
 
-Scanned 324 articles • Top 7 topics selected
+Scanned 304 articles • Top 7 topics selected
 Next planned auto-update: 08:00 AM UTC
 Stay safe, stay sharp!
