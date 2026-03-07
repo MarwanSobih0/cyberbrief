@@ -805,6 +805,16 @@
     "also_covered_by": []
   },
   {
+    "title": "February 2026 Patch Tuesday: Six Zero-Days Among 59 CVEs Patched",
+    "summary": "No summary available",
+    "link": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-february-2026/",
+    "published": "Feb 10, 2026 00:00:00-0600",
+    "source": "crowdstrike.com",
+    "category": "Vulnerability",
+    "importance_score": 786,
+    "also_covered_by": []
+  },
+  {
     "title": "Zero-Click FreeScout Bug Enables Remote Code Execution",
     "summary": "Ox Security warns that Mail2Shell could enable threat actors to hijack FreeScout systems without user interaction",
     "link": "https://www.infosecurity-magazine.com/news/zeroclick-freescout-bug-remote/",
@@ -3174,16 +3184,6 @@
     "source": "malwarebytes.com",
     "category": "Other",
     "importance_score": 18,
-    "also_covered_by": []
-  },
-  {
-    "title": "Falcon Next-Gen SIEM Simplifies Onboarding with Sensor-Native Log Collection",
-    "summary": "No summary available",
-    "link": "https://www.crowdstrike.com/en-us/blog/falcon-next-gen-siem-simplifies-onboarding-with-sensor-native-log-collection/",
-    "published": "Mar 06, 2026 00:00:00-0600",
-    "source": "crowdstrike.com",
-    "category": "Other",
-    "importance_score": 6,
     "also_covered_by": []
   },
   {
