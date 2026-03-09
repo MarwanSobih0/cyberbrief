@@ -385,6 +385,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Critical ExifTool Vulnerability Allows Malicious Images to Execute Code on macOS",
+    "summary": "<p>Many users believe macOS is inherently resistant to malware, but a newly discovered vulnerability proves otherwise. Kaspersky’s Global Research and Analysis Team (GReAT) recently uncovered a critical flaw, tracked as CVE-2026-3102, within ExifTool. ExifTool is a widely popular open-source application and library for extracting and editing file metadata. If a macOS user processes a specially [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-exiftool-vulnerability/\">Critical ExifTool Vulnerability Allows Malicious Images to Execute Code on macOS</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/critical-exiftool-vulnerability/",
+    "published": "2026-03-09T05:54:23",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 1325,
+    "also_covered_by": []
+  },
+  {
     "title": "Critical Vulnerabilities in Ivanti EPMM Exploited",
     "summary": "<p>We discuss widespread exploitation of Ivanti EPMM zero-day vulns CVE-2026-1281 and CVE-2026-1340. Attackers are deploying web shells and backdoors.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/ivanti-cve-2026-1281-cve-2026-1340/\">Critical Vulnerabilities in Ivanti EPMM Exploited</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
     "link": "https://unit42.paloaltonetworks.com/ivanti-cve-2026-1281-cve-2026-1340/",
@@ -555,6 +565,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Patch Tuesday, February 2026 Edition",
+    "summary": "Microsoft today released updates to fix more than 50 security holes in its Windows operating systems and other software, including patches for a whopping six \"zero-day\" vulnerabilities that attackers are already exploiting in the wild.",
+    "link": "https://krebsonsecurity.com/2026/02/patch-tuesday-february-2026-edition/",
+    "published": "2026-02-10T21:49:53",
+    "source": "krebsonsecurity.com",
+    "category": "Vulnerability",
+    "importance_score": 969,
+    "also_covered_by": []
+  },
+  {
     "title": "Women in Cybersecurity Reveal the Skills That Built Their Confidence",
     "summary": "<p><img alt=\"Women in Cybersecurity initiative\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"533\" src=\"https://thecyberexpress.com/wp-content/uploads/Women-in-Cybersecurity-initiative.jpg\" title=\"Women in Cybersecurity Reveal the Skills That Built Their Confidence 1\" width=\"800\" /></p><p>As <a href=\"https://thecyberexpress.com/ai-women-in-cybersecurity-winning-combination/\" rel=\"noopener\" target=\"_blank\">International Women’s Day</a> is marked on 8 March, conversations around representation, leadership, and opportunity across industries take renewed focus. In cybersecurity — a field that continues to evolve at remarkable speed — women in cybersecurity are playing a growing role in strengthening digital resilience, shaping security strategies, and mentoring the next generation of professionals.</p>\n<p>Their journeys often involve navigating complex challenges while continuously adapting to new technologies, emerging threats, and changing security landscapes.</p>\n<p>As part of its <strong>Women in Cybersecurity initiative</strong>, <a href=\"https://thecyberexpress.com/\" rel=\"noopener\" target=\"_blank\"><em>The Cyber Express</em> </a>asked cybersecurity leaders a simple but important question:</p>\n<p><strong>“Which skill or mindset has played the biggest role in building your confidence and growth in <a class=\"wpil_keyword_link\" href=\"https://cyble.com/knowledge-hub/what-is-cybersecurity/\" rel=\"noopener\" target=\"_blank\" title=\"cybersecurity\">cybersecurity</a>?”</strong></p>\n<p>From curiosity and continuous learning to calm decision-making and structured problem-solving, their responses highlight the perspectives that have helped them grow and succeed in the cybersecurity industry.</p>\n<p>Here’s what they shared.</p>\n\n<h3><strong>Women’s Day 2026: Voices of Women in Cybersecurity</strong></h3>\n<h4><a href=\"https://www.linkedin.com/in/carmenmarsh/\" rel=\"nofollow noopener\" target=\"_blank\"><strong>Carmen Marsh </strong></a></h4>\n<strong>President &amp; CEO at United Cybersecurity Alliance (Europe, US, Middle East &amp; Japan)</strong>\n\nCuriosity. Disciplined, courageous curiosity.\n\nCybersecurity is not a static profession. It is an evolving battlefield of technology, psychology, geopolitics, and human behavior. The moment you believe you know enough, you become obsolete.\n\nI have always believed in expanding beyond what is required of me. Not just mastering the tools of today, but understanding the patterns shaping tomorrow. Reading outside your lane. Engaging with peers. Asking uncomfortable questions. Challenging assumptions.\n\nJust as important is stepping out of isolation. Cybersecurity can feel technical and solitary, but the community is extraordinary. When you connect with mentors, peers, and diverse voices, you realize you are not alone in navigating complexity. That shared learning builds both competence and confidence.\n\nGrowth in cybersecurity is not about ego. It is about intellectual humility and relentless evolution.\n\nThat mindset changes everything.\n<h4><a href=\"https://www.linkedin.com/in/lisamfitzgerald/\" rel=\"nofollow noopener\" target=\"_blank\"><span style=\"color: #ff0000;\"><strong>Lisa Fitzgerald</strong></span></a></h4>\n<strong>Partner, Norton Rose Fulbright</strong>\n\nStaying ‘cyber-calm’ is critical. Cyber-attacks are generally times of crisis for organisations. As a legal adviser, our role is to ensure certain steps are taken in a timely, methodical and strategic manner. It can seem like a clinical role – ensuring the information needed is gathered, mitigation obligations are in place and notification deadlines are met – but interacting with various stakeholders who are under great stress requires a very human and calm approach.\n<h4><a href=\"https://www.linkedin.com/in/hannahsuarez/\" rel=\"nofollow noopener\" target=\"_blank\"><span style=\"color: #ff0000;\"><strong>Hannah Suarez</strong></span></a></h4>\n<strong>CISO, Loyalty Status Co</strong>\n\nI find that knowing when to specialize and when to generalize is a great asset. Specialization enables you to build and explore new and deeper threads of knowledge in a given area, and generalization allows you to build those threads into something more and to connect these threads into other areas. I don't believe in the dichotomy that you can only be one or the other.\n<h4><a href=\"https://www.linkedin.com/in/sheeba-armoogum/\" rel=\"nofollow noopener\" target=\"_blank\"><span style=\"color: #ff0000;\"><strong>Dr Sheeba Armoogum</strong></span></a></h4>\n<strong>Associate Professor in Cybersecurity, University of Mauritius</strong>\n\nMy personal focus has been on ongoing learning. I make sure to stay up to date daily on new cybercrime trends, <a class=\"wpil_keyword_link\" href=\"https://cyble.com/knowledge-hub/different-types-of-threat-intelligence/\" rel=\"noopener\" target=\"_blank\" title=\"threat intelligence\">threat intelligence</a>, and policy changes. Since cybersecurity evolves quickly, keeping informed helps me stay competent and confident.\n<h4><a href=\"https://www.linkedin.com/in/sofiascozzari/\" rel=\"nofollow noopener\" target=\"_blank\"><span style=\"color: #ff0000;\"><strong>Sofia Scozzari</strong></span></a></h4>\n<strong>CEO &amp; Founder, Hackmanac</strong>\n\nCuriosity has always been my primary driver and the strongest catalyst for my growth.\nAnother key mindset for me has been embracing constant innovation, anticipating change, rather than just react to it. Finally, I strongly believe that dedicating time to education and awareness is essential. Cybersecurity is often perceived as overly technical and complex, confined to specialists. In reality, however, it is also a business issue. Managers and C-level executives make strategic decisions about budgets and asset protection. Therefore, it is crucial that they understand the real impact of cyber <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-are-risks-in-cybersecurity/\" title=\"risk\">risk</a> and threats on their organization.\n<h4><a href=\"https://www.linkedin.com/in/bonnie-butlin/\" rel=\"nofollow noopener\" target=\"_blank\"><strong>Bonnie Butlin</strong></a></h4>\n<strong>Co-Founder and Executive Director, Security Partners' Forum</strong>\n\nI did not come into security and cybersecurity as a technical or cybersecurity expert, and had to accept that understanding and addressing cybersecurity in my work is unavoidable. Over time, understanding cybersecurity, particularly as the field continues to develop and mature, has become a true asset for my work. It allows me to enhance my work with additional perspectives and understanding, for example, on threats and operations in the cybersecurity space, which directly or indirectly cross over into other areas of security and society.\n<h4><a href=\"https://www.linkedin.com/in/dr-priyanka-sunder-pd-co-founder-chrio-securemojo-national-cyber-security-scholar-ncss-23255517/\" rel=\"nofollow noopener\" target=\"_blank\"><span style=\"color: #ff0000;\"><strong>Dr. Priyanka Sunder</strong></span></a></h4>\n<strong>CHRIO and Co-founder Secure Mojo</strong>\n\nPersonally, continuous learning and moving out of your comfort zone has benefitted me in building my confidence, credibility, professional brand and network. It has also helped me solve real life problems and align my career aspirations with my IKIGAI – my purpose or calling. I don’t look as growth as linear or hierarchical for me growth is measured in terms of knowledge across multiple domains (related or un-related), improving soft skills and solving deep-seated problems be it people, process, technology or <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-data/\" title=\"data\">data</a> security. Every aspect of growth be it intrinsic or extrinsic, linear or vertical, regional role or bigger portfolio is a way to showcase your strengths and bring value additions to your team and organisation and communities at large. Follow you calling, make your career your calling instead of trading time and health for money.\n<h4><a href=\"https://www.linkedin.com/in/sabitha-sriram-080816178/\" rel=\"nofollow noopener\" target=\"_blank\"><span style=\"color: #ff0000;\"><strong>Sabitha Sriram </strong></span></a></h4>\n<strong>Security and Risk Consultant</strong>\n\nI think working for passion, strategic thinking, learning orientation and soft skills help a lot to excel in this domain.\n<h4><a href=\"https://www.linkedin.com/in/bree-kagwe/\" rel=\"nofollow noopener\" target=\"_blank\"><span style=\"color: #ff0000;\"><strong>Bree Kagwe</strong></span></a></h4>\n<strong>Ethical <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-a-hacker/\" title=\"Hacker\">Hacker</a> | Simplifying Cybersecurity For Women In Offensive Security</strong>\n\nStructured problem-solving. Instead of getting overwhelmed by a big challenge, I focus on the next logical step. Being okay with not knowing everything, as long as you know how to find the next step, has been the biggest boost to my confidence.",
     "link": "https://thecyberexpress.com/women-in-cybersecurity-give-to-gain/",
@@ -602,16 +622,6 @@
     "source": "helpnetsecurity.com",
     "category": "Vulnerability",
     "importance_score": 950,
-    "also_covered_by": []
-  },
-  {
-    "title": "Apache ActiveMQ Flaw Enables DoS Attacks via Malformed Network Packets",
-    "summary": "<p>Security researchers have uncovered a significant vulnerability in Apache ActiveMQ, a popular open-source message broker used by enterprises to route data between applications. Tracked as CVE-2025-66168, this security flaw allows malicious actors to trigger unexpected broker behavior and potential denial-of-service (DoS) conditions by sending specifically crafted, malformed network packets. A successful attack against a message [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/apache-activemq-flaw-enables-dos-attacks/\">Apache ActiveMQ Flaw Enables DoS Attacks via Malformed Network Packets</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/apache-activemq-flaw-enables-dos-attacks/",
-    "published": "2026-03-06T10:25:03",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 934,
     "also_covered_by": []
   },
   {
@@ -985,6 +995,26 @@
     "also_covered_by": []
   },
   {
+    "title": "How AI Assistants are Moving the Security Goalposts",
+    "summary": "AI-based assistants or \"agents\" -- autonomous programs that have access to the user's computer, files, online services and can automate virtually any task -- are growing in popularity with developers and IT workers. But as so many eyebrow-raising headlines over the past few weeks have shown, these powerful and assertive new tools are rapidly shifting the security priorities for organizations, while blurring the lines between data and code, trusted co-worker and insider threat, ninja hacker and novice code jockey.",
+    "link": "https://krebsonsecurity.com/2026/03/how-ai-assistants-are-moving-the-security-goalposts/",
+    "published": "2026-03-08T23:35:42",
+    "source": "krebsonsecurity.com",
+    "category": "AI & Security",
+    "importance_score": 514,
+    "also_covered_by": []
+  },
+  {
+    "title": "Who Operates the Badbox 2.0 Botnet?",
+    "summary": "The cybercriminals in control of Kimwolf -- a disruptive botnet that has infected more than 2 million devices -- recently shared a screenshot indicating they'd compromised the control panel for Badbox 2.0, a vast China-based botnet powered by malicious software that comes pre-installed on many Android TV streaming boxes. Both the FBI and Google say they are hunting for the people behind Badbox 2.0, and thanks to bragging by the Kimwolf botmasters we may now have a much clearer idea about that.",
+    "link": "https://krebsonsecurity.com/2026/01/who-operates-the-badbox-2-0-botnet/",
+    "published": "2026-01-26T16:11:38",
+    "source": "krebsonsecurity.com",
+    "category": "Other",
+    "importance_score": 508,
+    "also_covered_by": []
+  },
+  {
     "title": "New ransomware tactics to watch out for in 2026",
     "summary": "Ransomware groups made less money in 2025 despite a 47% increase in attacks, driving new tactics: bundled DDoS services, insider recruitment, and gig worker exploitation. Learn the emerging trends defenders must prepare for in 2026.",
     "link": "https://www.recordedfuture.com/blog/ransomware-tactics-2026",
@@ -1212,6 +1242,16 @@
     "source": "zdnet.com",
     "category": "Other",
     "importance_score": 471,
+    "also_covered_by": []
+  },
+  {
+    "title": "‘Starkiller’ Phishing Service Proxies Real Login Pages, MFA",
+    "summary": "Most phishing websites are little more than static copies of login pages for popular online destinations, and they are often quickly taken down by anti-abuse activists and security firms. But a stealthy new phishing-as-a-service offering lets customers sidestep both of these pitfalls: It uses cleverly disguised links to load the target brand's real website, and then acts as a relay between the target and the legitimate site -- forwarding the victim's username, password and multi-factor authentication (MFA) code to the legitimate site and returning its responses.",
+    "link": "https://krebsonsecurity.com/2026/02/starkiller-phishing-service-proxies-real-login-pages-mfa/",
+    "published": "2026-02-20T20:00:30",
+    "source": "krebsonsecurity.com",
+    "category": "Phishing / Scams",
+    "importance_score": 470,
     "also_covered_by": []
   },
   {
@@ -1895,6 +1935,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Patch Tuesday, January 2026 Edition",
+    "summary": "Microsoft today issued patches to plug at least 113 security holes in its various Windows operating systems and supported software. Eight of the vulnerabilities earned Microsoft's most-dire \"critical\" rating, and the company warns that attackers are already exploiting one of the bugs fixed today.",
+    "link": "https://krebsonsecurity.com/2026/01/patch-tuesday-january-2026-edition/",
+    "published": "2026-01-14T00:47:38",
+    "source": "krebsonsecurity.com",
+    "category": "Other",
+    "importance_score": 268,
+    "also_covered_by": []
+  },
+  {
     "title": "ArmorCode Raises $16 Million for Exposure Management Platform",
     "summary": "<p>The company will accelerate platform development, expand go-to-market efforts, and invest in product innovation.</p>\n<p>The post <a href=\"https://www.securityweek.com/armorcode-raises-16-million-for-exposure-management-platform/\">ArmorCode Raises $16 Million for Exposure Management Platform</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
     "link": "https://www.securityweek.com/armorcode-raises-16-million-for-exposure-management-platform/",
@@ -2135,6 +2185,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Who is the Kimwolf Botmaster “Dort”?",
+    "summary": "In early January 2026, KrebsOnSecurity revealed how a security researcher disclosed a vulnerability that was used to assemble Kimwolf, the world's largest and most disruptive botnet. Since then, the person in control of Kimwolf -- who goes by the handle \"Dort\" -- has coordinated a barrage of distributed denial-of-service (DDoS), doxing and email flooding attacks against the researcher and this author, and more recently caused a SWAT team to be sent to the researcher's home. This post examines what is knowable about Dort based on public information.",
+    "link": "https://krebsonsecurity.com/2026/02/who-is-the-kimwolf-botmaster-dort/",
+    "published": "2026-02-28T12:01:57",
+    "source": "krebsonsecurity.com",
+    "category": "Vulnerability",
+    "importance_score": 165,
+    "also_covered_by": []
+  },
+  {
     "title": "Behind the Scenes: Fixing an In-the-Wild Firefox Exploit",
     "summary": "<p>At Mozilla, browser security is a critical mission, and part of that mission involves responding swiftly to new threats. Tuesday, around 8 AM Eastern time, we received a heads-up from &#8230; <a class=\"go\" href=\"https://blog.mozilla.org/security/2024/10/11/behind-the-scenes-fixing-an-in-the-wild-firefox-exploit/\">Read more</a></p>\n<p>The post <a href=\"https://blog.mozilla.org/security/2024/10/11/behind-the-scenes-fixing-an-in-the-wild-firefox-exploit/\">Behind the Scenes: Fixing an In-the-Wild Firefox Exploit</a> appeared first on <a href=\"https://blog.mozilla.org/security\">Mozilla Security Blog</a>.</p>",
     "link": "https://blog.mozilla.org/security/2024/10/11/behind-the-scenes-fixing-an-in-the-wild-firefox-exploit/",
@@ -2152,6 +2212,16 @@
     "source": "blog.mozilla.org",
     "category": "Other",
     "importance_score": 150,
+    "also_covered_by": []
+  },
+  {
+    "title": "Kimwolf Botnet Lurking in Corporate, Govt. Networks",
+    "summary": "A new Internet-of-Things botnet called Kimwolf has spread to more than 2 million devices, forcing infected systems to participate in massive distributed denial-of-service (DDoS) attacks and to relay other malicious and abusive Internet traffic. Kimwolf's ability to scan the local networks of compromised systems for other IoT devices to infect makes it a sobering threat to organizations, and new research reveals Kimwolf is surprisingly prevalent in government and corporate networks.",
+    "link": "https://krebsonsecurity.com/2026/01/kimwolf-botnet-lurking-in-corporate-govt-networks/",
+    "published": "2026-01-20T18:19:13",
+    "source": "krebsonsecurity.com",
+    "category": "Other",
+    "importance_score": 145,
     "also_covered_by": []
   },
   {
@@ -2277,6 +2347,26 @@
     "also_covered_by": []
   },
   {
+    "title": "Kimwolf Botnet Swamps Anonymity Network I2P",
+    "summary": "For the past week, the massive \"Internet of Things\" (IoT) botnet known as Kimwolf has been disrupting the The Invisible Internet Project (I2P), a decentralized, encrypted communications network designed to anonymize and secure online communications. I2P users started reporting disruptions in the network around the same time the Kimwolf botmasters began relying on it to evade takedown attempts against the botnet's control servers.",
+    "link": "https://krebsonsecurity.com/2026/02/kimwolf-botnet-swamps-anonymity-network-i2p/",
+    "published": "2026-02-11T16:08:11",
+    "source": "krebsonsecurity.com",
+    "category": "Ransomware",
+    "importance_score": 129,
+    "also_covered_by": []
+  },
+  {
+    "title": "Please Don’t Feed the Scattered Lapsus ShinyHunters",
+    "summary": "A prolific data ransom gang that calls itself Scattered Lapsus ShinyHunters (SLSH) has a distinctive playbook when it seeks to extort payment from victim firms: Harassing, threatening and even swatting executives and their families, all while notifying journalists and regulators… <span class=\"read-more\"><a href=\"https://krebsonsecurity.com/2026/02/please-dont-feed-the-scattered-lapsus-shiny-hunters/\">Read More &#187;</a></span>",
+    "link": "https://krebsonsecurity.com/2026/02/please-dont-feed-the-scattered-lapsus-shiny-hunters/",
+    "published": "2026-02-02T16:15:16",
+    "source": "krebsonsecurity.com",
+    "category": "Other",
+    "importance_score": 128,
+    "also_covered_by": []
+  },
+  {
     "title": "The Shadow Campaigns: Uncovering Global Espionage",
     "summary": "<p>In 2025 a threat group compromised government and critical infrastructure in 37 countries, with reconnaissance in 155.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/shadow-campaigns-uncovering-global-espionage/\">The Shadow Campaigns: Uncovering Global Espionage</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
     "link": "https://unit42.paloaltonetworks.com/shadow-campaigns-uncovering-global-espionage/",
@@ -2284,6 +2374,16 @@
     "source": "unit42.paloaltonetworks.com",
     "category": "Critical Infrastructure",
     "importance_score": 127,
+    "also_covered_by": []
+  },
+  {
+    "title": "Who Benefited from the Aisuru and Kimwolf Botnets?",
+    "summary": "Our first story of 2026 revealed how a destructive new botnet called Kimwolf rapidly grew to infect more than two million devices by mass-compromising a vast number of unofficial Android TV streaming boxes. Today, we'll dig through digital clues left behind by the hackers, network operators, and cybercrime services that appear to have benefitted from Kimwolf's spread.",
+    "link": "https://krebsonsecurity.com/2026/01/who-benefited-from-the-aisuru-and-kimwolf-botnets/",
+    "published": "2026-01-08T23:23:43",
+    "source": "krebsonsecurity.com",
+    "category": "Other",
+    "importance_score": 110,
     "also_covered_by": []
   },
   {
