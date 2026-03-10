@@ -565,16 +565,6 @@
     "also_covered_by": []
   },
   {
-    "title": "MaaS VIP Keylogger Campaign Uses Steganography to Steal Credentials at Scale",
-    "summary": "<p>A large-scale spear-phishing campaign distributing a&#160;VIP Keylogger&#160;variant sold as Malware-as-a-Service (MaaS). The campaign employs steganography, in-memory execution, and modular payload design to evade defenses while harvesting credentials across browsers, email clients, and collaboration tools. Researchers observed fraudulent purchase-order emails that encouraged victims to open an attached RAR file. The compressed archive contained an executable disguised [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/maas-vip-keylogger-campaign/\">MaaS VIP Keylogger Campaign Uses Steganography to Steal Credentials at Scale</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/maas-vip-keylogger-campaign/",
-    "published": "2026-03-09T11:10:39",
-    "source": "gbhackers.com",
-    "category": "Phishing / Scams",
-    "importance_score": 993,
-    "also_covered_by": []
-  },
-  {
     "title": "VShell and SparkRAT Observed in Exploitation of BeyondTrust Critical Vulnerability (CVE-2026-1731)",
     "summary": "<p>CVE-2026-1731 is an RCE vulnerability in identity platform BeyondTrust. This flaw allows attackers control of systems without login credentials.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/beyondtrust-cve-2026-1731/\">VShell and SparkRAT Observed in Exploitation of BeyondTrust Critical Vulnerability (CVE-2026-1731)</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
     "link": "https://unit42.paloaltonetworks.com/beyondtrust-cve-2026-1731/",
@@ -1334,6 +1324,16 @@
     "source": "zdnet.com",
     "category": "Other",
     "importance_score": 480,
+    "also_covered_by": []
+  },
+  {
+    "title": "Anthropic Files Lawsuit Against U.S. Government Over Claude Risk Designation",
+    "summary": "<p>Anthropic has launched an unprecedented lawsuit against the U.S. government after being designated a &#8220;supply chain risk&#8220;. The legal action, filed in a California federal court, targets the executive office of President Donald Trump, Defense Secretary Pete Hegseth, and 16 government agencies. The dispute centers on Anthropic CEO Dario Amodei&#8217;s refusal to allow the military [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/anthropic-files-lawsuit-against-u-s-government/\">Anthropic Files Lawsuit Against U.S. Government Over Claude Risk Designation</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/anthropic-files-lawsuit-against-u-s-government/",
+    "published": "2026-03-10T05:41:37",
+    "source": "gbhackers.com",
+    "category": "Policy / Law",
+    "importance_score": 477,
     "also_covered_by": []
   },
   {
