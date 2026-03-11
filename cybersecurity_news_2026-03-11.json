@@ -315,16 +315,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Microsoft Patch Tuesday, March 2026 Edition",
-    "summary": "Microsoft Corp. today pushed security updates to fix at least 77 vulnerabilities in its Windows operating systems and other software. There are no pressing \"zero-day\" flaws this month (compared to February's five zero-day treat), but as usual some patches may deserve more rapid attention from organizations using Windows. Here are a few highlights from this month's Patch Tuesday.",
-    "link": "https://krebsonsecurity.com/2026/03/microsoft-patch-tuesday-march-2026-edition/",
-    "published": "2026-03-11T00:32:51",
-    "source": "krebsonsecurity.com",
-    "category": "Vulnerability",
-    "importance_score": 1374,
-    "also_covered_by": []
-  },
-  {
     "title": "Messenger can warn you about sketchy links without knowing what you clicked",
     "summary": "<p>Meta’s Advanced browsing protection (ABP) helps Messenger identify and warn users about potentially harmful websites they open from a chat. Malicious sites can try to steal passwords, collect personal information, or install malware. Advanced browsing protection (Source: Meta) “In its standard setting, Safe Browsing uses on-device models to analyze malicious links shared in chats. But we’ve extended this further with an advanced setting called Advanced Browsing Protection (ABP) that leverages a continually updated watchlist of &#8230; <a href=\"https://www.helpnetsecurity.com/2026/03/10/messenger-advanced-browsing-protection/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/03/10/messenger-advanced-browsing-protection/\">Messenger can warn you about sketchy links without knowing what you clicked</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
     "link": "https://www.helpnetsecurity.com/2026/03/10/messenger-advanced-browsing-protection/",
@@ -732,16 +722,6 @@
     "source": "securelist.com",
     "category": "Other",
     "importance_score": 982,
-    "also_covered_by": []
-  },
-  {
-    "title": "Patch Tuesday, February 2026 Edition",
-    "summary": "Microsoft today released updates to fix more than 50 security holes in its Windows operating systems and other software, including patches for a whopping six \"zero-day\" vulnerabilities that attackers are already exploiting in the wild.",
-    "link": "https://krebsonsecurity.com/2026/02/patch-tuesday-february-2026-edition/",
-    "published": "2026-02-10T21:49:53",
-    "source": "krebsonsecurity.com",
-    "category": "Vulnerability",
-    "importance_score": 969,
     "also_covered_by": []
   },
   {
@@ -1305,16 +1285,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Who Operates the Badbox 2.0 Botnet?",
-    "summary": "The cybercriminals in control of Kimwolf -- a disruptive botnet that has infected more than 2 million devices -- recently shared a screenshot indicating they'd compromised the control panel for Badbox 2.0, a vast China-based botnet powered by malicious software that comes pre-installed on many Android TV streaming boxes. Both the FBI and Google say they are hunting for the people behind Badbox 2.0, and thanks to bragging by the Kimwolf botmasters we may now have a much clearer idea about that.",
-    "link": "https://krebsonsecurity.com/2026/01/who-operates-the-badbox-2-0-botnet/",
-    "published": "2026-01-26T16:11:38",
-    "source": "krebsonsecurity.com",
-    "category": "Other",
-    "importance_score": 508,
-    "also_covered_by": []
-  },
-  {
     "title": "New ransomware tactics to watch out for in 2026",
     "summary": "Ransomware groups made less money in 2025 despite a 47% increase in attacks, driving new tactics: bundled DDoS services, insider recruitment, and gig worker exploitation. Learn the emerging trends defenders must prepare for in 2026.",
     "link": "https://www.recordedfuture.com/blog/ransomware-tactics-2026",
@@ -1552,16 +1522,6 @@
     "source": "infosecurity-magazine.com",
     "category": "Data Breach",
     "importance_score": 471,
-    "also_covered_by": []
-  },
-  {
-    "title": "‘Starkiller’ Phishing Service Proxies Real Login Pages, MFA",
-    "summary": "Most phishing websites are little more than static copies of login pages for popular online destinations, and they are often quickly taken down by anti-abuse activists and security firms. But a stealthy new phishing-as-a-service offering lets customers sidestep both of these pitfalls: It uses cleverly disguised links to load the target brand's real website, and then acts as a relay between the target and the legitimate site -- forwarding the victim's username, password and multi-factor authentication (MFA) code to the legitimate site and returning its responses.",
-    "link": "https://krebsonsecurity.com/2026/02/starkiller-phishing-service-proxies-real-login-pages-mfa/",
-    "published": "2026-02-20T20:00:30",
-    "source": "krebsonsecurity.com",
-    "category": "Phishing / Scams",
-    "importance_score": 470,
     "also_covered_by": []
   },
   {
@@ -1875,16 +1835,6 @@
     "also_covered_by": []
   },
   {
-    "title": "How AI Assistants are Moving the Security Goalposts",
-    "summary": "AI-based assistants or \"agents\" -- autonomous programs that have access to the user's computer, files, online services and can automate virtually any task -- are growing in popularity with developers and IT workers. But as so many eyebrow-raising headlines over the past few weeks have shown, these powerful and assertive new tools are rapidly shifting the security priorities for organizations, while blurring the lines between data and code, trusted co-worker and insider threat, ninja hacker and novice code jockey.",
-    "link": "https://krebsonsecurity.com/2026/03/how-ai-assistants-are-moving-the-security-goalposts/",
-    "published": "2026-03-08T23:35:42",
-    "source": "krebsonsecurity.com",
-    "category": "AI & Security",
-    "importance_score": 334,
-    "also_covered_by": []
-  },
-  {
     "title": "PromptSpy ushers in the era of Android threats using GenAI",
     "summary": "ESET researchers discover PromptSpy, the first known Android malware to abuse generative AI in its execution flow",
     "link": "https://www.welivesecurity.com/en/eset-research/promptspy-ushers-in-era-android-threats-using-genai/",
@@ -2195,16 +2145,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Patch Tuesday, January 2026 Edition",
-    "summary": "Microsoft today issued patches to plug at least 113 security holes in its various Windows operating systems and supported software. Eight of the vulnerabilities earned Microsoft's most-dire \"critical\" rating, and the company warns that attackers are already exploiting one of the bugs fixed today.",
-    "link": "https://krebsonsecurity.com/2026/01/patch-tuesday-january-2026-edition/",
-    "published": "2026-01-14T00:47:38",
-    "source": "krebsonsecurity.com",
-    "category": "Other",
-    "importance_score": 268,
-    "also_covered_by": []
-  },
-  {
     "title": "What cybersecurity actually does for your business",
     "summary": "The ability to continue operating safely in an unsafe environment where competitors cannot is a competitive advantage that is rarely measured or discussed",
     "link": "https://www.welivesecurity.com/en/business-security/what-cybersecurity-actually-does-for-your-business/",
@@ -2445,16 +2385,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Who is the Kimwolf Botmaster “Dort”?",
-    "summary": "In early January 2026, KrebsOnSecurity revealed how a security researcher disclosed a vulnerability that was used to assemble Kimwolf, the world's largest and most disruptive botnet. Since then, the person in control of Kimwolf -- who goes by the handle \"Dort\" -- has coordinated a barrage of distributed denial-of-service (DDoS), doxing and email flooding attacks against the researcher and this author, and more recently caused a SWAT team to be sent to the researcher's home. This post examines what is knowable about Dort based on public information.",
-    "link": "https://krebsonsecurity.com/2026/02/who-is-the-kimwolf-botmaster-dort/",
-    "published": "2026-02-28T12:01:57",
-    "source": "krebsonsecurity.com",
-    "category": "Vulnerability",
-    "importance_score": 165,
-    "also_covered_by": []
-  },
-  {
     "title": "Behind the Scenes: Fixing an In-the-Wild Firefox Exploit",
     "summary": "<p>At Mozilla, browser security is a critical mission, and part of that mission involves responding swiftly to new threats. Tuesday, around 8 AM Eastern time, we received a heads-up from &#8230; <a class=\"go\" href=\"https://blog.mozilla.org/security/2024/10/11/behind-the-scenes-fixing-an-in-the-wild-firefox-exploit/\">Read more</a></p>\n<p>The post <a href=\"https://blog.mozilla.org/security/2024/10/11/behind-the-scenes-fixing-an-in-the-wild-firefox-exploit/\">Behind the Scenes: Fixing an In-the-Wild Firefox Exploit</a> appeared first on <a href=\"https://blog.mozilla.org/security\">Mozilla Security Blog</a>.</p>",
     "link": "https://blog.mozilla.org/security/2024/10/11/behind-the-scenes-fixing-an-in-the-wild-firefox-exploit/",
@@ -2472,16 +2402,6 @@
     "source": "blog.mozilla.org",
     "category": "Other",
     "importance_score": 150,
-    "also_covered_by": []
-  },
-  {
-    "title": "Kimwolf Botnet Lurking in Corporate, Govt. Networks",
-    "summary": "A new Internet-of-Things botnet called Kimwolf has spread to more than 2 million devices, forcing infected systems to participate in massive distributed denial-of-service (DDoS) attacks and to relay other malicious and abusive Internet traffic. Kimwolf's ability to scan the local networks of compromised systems for other IoT devices to infect makes it a sobering threat to organizations, and new research reveals Kimwolf is surprisingly prevalent in government and corporate networks.",
-    "link": "https://krebsonsecurity.com/2026/01/kimwolf-botnet-lurking-in-corporate-govt-networks/",
-    "published": "2026-01-20T18:19:13",
-    "source": "krebsonsecurity.com",
-    "category": "Other",
-    "importance_score": 145,
     "also_covered_by": []
   },
   {
@@ -2604,26 +2524,6 @@
     "source": "unit42.paloaltonetworks.com",
     "category": "Other",
     "importance_score": 130,
-    "also_covered_by": []
-  },
-  {
-    "title": "Kimwolf Botnet Swamps Anonymity Network I2P",
-    "summary": "For the past week, the massive \"Internet of Things\" (IoT) botnet known as Kimwolf has been disrupting the The Invisible Internet Project (I2P), a decentralized, encrypted communications network designed to anonymize and secure online communications. I2P users started reporting disruptions in the network around the same time the Kimwolf botmasters began relying on it to evade takedown attempts against the botnet's control servers.",
-    "link": "https://krebsonsecurity.com/2026/02/kimwolf-botnet-swamps-anonymity-network-i2p/",
-    "published": "2026-02-11T16:08:11",
-    "source": "krebsonsecurity.com",
-    "category": "Ransomware",
-    "importance_score": 129,
-    "also_covered_by": []
-  },
-  {
-    "title": "Please Don’t Feed the Scattered Lapsus ShinyHunters",
-    "summary": "A prolific data ransom gang that calls itself Scattered Lapsus ShinyHunters (SLSH) has a distinctive playbook when it seeks to extort payment from victim firms: Harassing, threatening and even swatting executives and their families, all while notifying journalists and regulators… <span class=\"read-more\"><a href=\"https://krebsonsecurity.com/2026/02/please-dont-feed-the-scattered-lapsus-shiny-hunters/\">Read More &#187;</a></span>",
-    "link": "https://krebsonsecurity.com/2026/02/please-dont-feed-the-scattered-lapsus-shiny-hunters/",
-    "published": "2026-02-02T16:15:16",
-    "source": "krebsonsecurity.com",
-    "category": "Other",
-    "importance_score": 128,
     "also_covered_by": []
   },
   {
@@ -3177,6 +3077,16 @@
     "also_covered_by": []
   },
   {
+    "title": "March 2026 Patch Tuesday: Eight Critical Vulnerabilities and Two Publicly Disclosed Among 82 CVEs Patched",
+    "summary": "No summary available",
+    "link": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-march-2026/",
+    "published": "Mar 10, 2026 00:00:00-0500",
+    "source": "crowdstrike.com",
+    "category": "Other",
+    "importance_score": 6,
+    "also_covered_by": []
+  },
+  {
     "title": "Falcon for XIoT Extends Asset Protection to Healthcare Environments",
     "summary": "No summary available",
     "link": "https://www.crowdstrike.com/en-us/blog/falcon-for-xiot-extends-asset-protection-to-healthcare-environments/",
@@ -3251,16 +3161,6 @@
     "summary": "No summary available",
     "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-customers-choice-2026-gartner-peer-insights-voc-user-authentication/",
     "published": "Feb 12, 2026 00:00:00-0600",
-    "source": "crowdstrike.com",
-    "category": "Other",
-    "importance_score": 6,
-    "also_covered_by": []
-  },
-  {
-    "title": "How to Scale SOC Automation with Falcon Fusion SOAR",
-    "summary": "No summary available",
-    "link": "https://www.crowdstrike.com/en-us/blog/how-to-scale-soc-automation-with-falcon-fusion-soar/",
-    "published": "Feb 11, 2026 00:00:00-0600",
     "source": "crowdstrike.com",
     "category": "Other",
     "importance_score": 6,
