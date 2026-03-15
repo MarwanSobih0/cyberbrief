@@ -275,6 +275,26 @@
     "also_covered_by": []
   },
   {
+    "title": "Global Authorities Take Down 45,000 Malicious IPs Used in Ransomware Campaigns",
+    "summary": "<p>An unprecedented international law enforcement effort has successfully dismantled a massive cybercrime network. Coordinated by INTERPOL, the initiative targeted critical infrastructure used in phishing, malware, and ransomware campaigns worldwide. Operation Synergia III Dubbed &#8220;Operation Synergia III,&#8221; the global crackdown took place between July 18, 2025, and January 31, 2026. The operation brought together law enforcement [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/global-authorities-take-down-45000-malicious-ips/\">Global Authorities Take Down 45,000 Malicious IPs Used in Ransomware Campaigns</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/global-authorities-take-down-45000-malicious-ips/",
+    "published": "2026-03-14T04:27:39",
+    "source": "gbhackers.com",
+    "category": "Ransomware",
+    "importance_score": 1890,
+    "also_covered_by": []
+  },
+  {
+    "title": "Authorities Crack Down on 45,000 Malicious IPs Powering Ransomware Attacks",
+    "summary": "<p>In a massive international crackdown on cybercrime, law enforcement agencies from 72 countries have successfully dismantled over 45,000 malicious IP addresses and servers. Coordinated by INTERPOL, &#8220;Operation Synergia III&#8221; targeted the critical infrastructure behind devastating ransomware, malware, and phishing campaigns worldwide. Running from July 18, 2025, to January 31, 2026, the operation highlights unprecedented cross-border [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/authorities-crack-down-on-45000-malicious-ips/\">Authorities Crack Down on 45,000 Malicious IPs Powering Ransomware Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/authorities-crack-down-on-45000-malicious-ips/",
+    "published": "2026-03-14T04:33:53",
+    "source": "cybersecuritynews.com",
+    "category": "Ransomware",
+    "importance_score": 1881,
+    "also_covered_by": []
+  },
+  {
     "title": "Sustaining Digital Certificate Security - Upcoming Changes to the Chrome Root Store",
     "summary": "<span class=\"byline-author\">Posted by Chrome Root Program, Chrome Security Team</span>\n\n<p>\n<em>Note: Google Chrome communicated its removal of default trust of Chunghwa Telecom and Netlock in the public forum on May 30, 2025.</em>\n</p>\n<p>\nThe <a href=\"https://googlechrome.github.io/chromerootprogram/\">Chrome Root Program Policy</a> states that Certification Authority (CA) certificates included in the <a href=\"https://chromium.googlesource.com/chromium/src/+/main/net/data/ssl/chrome_root_store/root_store.md\">Chrome Root Store</a> must provide value to Chrome end users that exceeds the risk of their continued inclusion. It also describes many of the <a href=\"https://googlechrome.github.io/chromerootprogram/#51-incident-reports\">factors</a> we consider significant when CA Owners disclose and respond to incidents. When things don’t go right, we expect CA Owners to commit to meaningful and demonstrable change resulting in evidenced continuous improvement.  \n</p>\n<p>\nChrome's confidence in the reliability of Chunghwa Telecom and Netlock as CA Owners included in the Chrome Root Store has diminished due to patterns of concerning behavior observed over the past year. These patterns represent a loss of integrity and fall short of expectations, eroding trust in these CA Owners as publicly-trusted certificate issuers trusted by default in Chrome. To safeguard Chrome’s users, and preserve the integrity of the <a href=\"https://security.googleblog.com/2023/05/how-chrome-root-program-keeps-users-safe.html#:~:text=Chrome%20uses%20digital,the%20%E2%80%9CWeb%20PKI.%E2%80%9D\">Chrome Root Store</a>, we are taking the following action.\n</p>\n<p>\n<span style=\"text-decoration: underline;\">Upcoming change in Chrome 139 and higher:</span>\n</p>\n<ul>\n\n<li>Transport Layer Security (TLS) server authentication certificates validating to the following root CA certificates whose earliest Signed Certificate Timestamp (SCT) is dated after July 31, 2025 11:59:59 PM UTC, will no longer be trusted by default.</li> \n<ul>\n \n<li><a href=\"https://crt.sh/?q=c0a6f4dc63a24bfdcf54ef2a6a082a0a72de35803e2ff5ff527ae5d87206dfd5\">OU=ePKI Root Certification Authority,O=Chunghwa Telecom Co., Ltd.,C=TW</a></li>\n \n<li><a href=\"https://crt.sh/?q=f015ce3cc239bfef064be9f1d2c417e1a0264a0a94be1f0c8d121864eb6949cc\">CN=HiPKI Root CA - G1,O=Chunghwa Telecom Co., Ltd.,C=TW</a></li>\n \n<li><a href=\"https://crt.sh/?q=6c61dac3a2def031506be036d2a6fe401994fbd13df9c8d466599274c446ec98\">CN=NetLock Arany (Class Gold) Főtanúsítvány,OU=Tanúsítványkiadók (Certification Services),O=NetLock Kft.,L=Budapest,C=HU</a></li></ul>\n  \n</li><li>\nTLS server authentication certificates validating to the above set of roots whose <em>earliest</em> SCT is <span style=\"text-decoration: underline;\">on or before</span> <strong>July 31, 2025 11:59:59 PM UTC,</strong> will be unaffected by this change. </li>\n</ul>\n<p>\nThis approach attempts to minimize disruption to existing subscribers using a previously announced Chrome <a href=\"https://source.chromium.org/chromium/chromium/src/+/main:net/cert/root_store.proto;drc=a783c3bab474ff68e675e2753f91c92ca817e072;l=15?q=f:root_store.proto&amp;ss=chromium\">feature</a> to remove default trust based on the SCTs in certificates. \n</p>\n<p>\nAdditionally, should a Chrome user or enterprise <a href=\"https://chromium.googlesource.com/chromium/src/+/main/net/data/ssl/chrome_root_store/faq.md#How-does-the-Chrome-Certificate-Verifier-integrate-with-platform-trust-stores-for-local-trust-decisions\">explicitly trust</a> any of the above certificates on a platform and version of Chrome <a href=\"https://chromium.googlesource.com/chromium/src/+/main/net/data/ssl/chrome_root_store/faq.md#when-did-these-features-land\">relying</a> on the <a href=\"https://chromium.googlesource.com/chromium/src/+/main/net/data/ssl/chrome_root_store/root_store.md\">Chrome Root Store</a> (e.g., explicit trust is conveyed through a Group Policy Object on Windows), the SCT-based constraints described above will be overridden and certificates will function as they do today.  \n</p>\n<p>\nTo further minimize risk of disruption, website operators are encouraged to review the “Frequently Asked Questions\" listed below.\n</p>\n<h3>Why is Chrome taking action?</h3>\n\n\n<p>\nCAs serve a privileged and trusted role on the internet that underpin encrypted connections between browsers and websites. With this tremendous responsibility comes an expectation of adhering to reasonable and consensus-driven security and compliance expectations, including those defined by the <a href=\"https://cabforum.org/working-groups/server/baseline-requirements/requirements/\">CA/Browser Forum TLS Baseline Requirements</a>.  \n</p>\n<p>\nOver the past several months and years, we have observed a pattern of compliance failures, unmet improvement commitments, and the absence of tangible, measurable progress in response to publicly disclosed incident reports. When these factors are considered in aggregate and considered against the inherent risk each publicly-trusted CA poses to the internet, continued public trust is no longer justified. \n</p>\n<h3>When will this action happen?</h3>\n\n\n<p>\nThe action of Chrome, by default, no longer trusting new TLS certificates issued by these CAs will begin on approximately August 1, 2025, affecting certificates issued at that point or later.\n</p>\n<p>\nThis action will occur in Versions of <a href=\"https://chromiumdash.appspot.com/schedule\">Chrome 139</a> and greater on Windows, macOS, ChromeOS, Android, and Linux. Apple policies prevent the Chrome Certificate Verifier and corresponding Chrome Root Store from being used on Chrome for iOS.\n</p>\n<h3>What is the user impact of this action?</h3>\n\n\n<p>\nBy default, Chrome users in the above populations who navigate to a website serving a certificate from Chunghwa Telecom or Netlock issued <strong>after</strong> July 31, 2025 will see a full page interstitial <a href=\"https://untrusted-root.badssl.com/\">similar to this one</a>.\n</p>\n<p>\nCertificates issued by other CAs are not impacted by this action.\n</p>\n<h3>How can a website operator tell if their website is affected?</h3>\n\n\n<p>\nWebsite operators can determine if they are affected by this action by using the Chrome Certificate Viewer.\n</p>\n<p>\n<span style=\"text-decoration: underline;\">Use the Chrome Certificate Viewer</span>\n</p>\n<ul>\n\n<li>Navigate to a website (e.g., <a href=\"https://www.google.com\">https://www.google.com</a>)</li>\n\n<li>Click the “Tune\" icon</li>\n\n<li>Click “Connection is Secure\" </li>\n\n<li>Click “Certificate is Valid\" (the Chrome Certificate Viewer will open)</li> \n<ul>\n \n<li><strong>Website owner action is <span style=\"text-decoration: underline;\">not</span> required</strong>, if the “Organization (O)” field listed beneath the “Issued By\" heading <strong>does not</strong> contain “Chunghwa Telecom\" ,  “行政院” ,  “NETLOCK Ltd.”, or “NETLOCK Kft.”</li>\n \n<li><strong>Website owner action is required</strong>, if the “Organization (O)” field listed beneath the “Issued By\" heading contains “Chunghwa Telecom\" ,  “行政院” ,  “NETLOCK Ltd.”, or “NETLOCK Kft.”</li> \n</ul></li> \n</ul>\n<h3>What does an affected website operator do?</h3>\n\n\n<p>\nWe recommend that affected website operators transition to a new publicly-trusted CA Owner as soon as reasonably possible. To avoid adverse website user impact, action <strong>must</strong> be completed <strong>before</strong> the existing certificate(s) expire if expiry is planned to take place <strong>after</strong> July 31, 2025. \n</p>\n<p>\nWhile website operators could delay the impact of blocking action by choosing to collect and install a new TLS certificate issued from Chunghwa Telecom or Netlock before Chrome’s blocking action begins on August 1, 2025, website operators will inevitably need to collect and install a new TLS certificate from one of the many other CAs included in the <a href=\"https://chromium.googlesource.com/chromium/src/+/main/net/data/ssl/chrome_root_store/root_store.md\">Chrome Root Store</a>.\n</p>\n<h3>Can I test these changes before they take effect?</h3>\n\n\n<p>\nYes.\n</p>\n<p>\nA command-line flag was added beginning in Chrome 128 that allows administrators and power users to simulate the effect of an SCTNotAfter distrust constraint as described in this blog post.\n</p>\n<p>\n<span style=\"text-decoration: underline;\">How to: Simulate an SCTNotAfter distrust</span></p><p>1. Close all open versions of Chrome</p><p>2. Start Chrome using the following command-line flag, substituting variables described below with actual values</p>\n\n<div class=\"code\">\n<i>--test-crs-constraints=$[Comma Separated List of Trust Anchor Certificate SHA256 Hashes]:sctnotafter=$[epoch_timestamp]</i>\n</div><p>\n\n</p><p>\n3. Evaluate the effects of the flag with test websites</p><p>\n\n<p>\nLearn more about command-line flags <a href=\"https://developer.chrome.com/docs/web-platform/chrome-flags#command-line_flags\">here</a>.\n</p>\n<h3>I use affected certificates for my internal enterprise network, do I need to do anything?</h3>\n\n\n<p>\nBeginning in Chrome 127, enterprises can override Chrome Root Store constraints like those described in this blog post by installing the corresponding root CA certificate as a <a href=\"https://chromium.googlesource.com/chromium/src/+/main/net/data/ssl/chrome_root_store/faq.md#How-does-the-Chrome-Certificate-Verifier-integrate-with-platform-trust-stores-for-local-trust-decisions\">locally-trusted root</a> on the platform Chrome is running (e.g., installed in the Microsoft Certificate Store as a Trusted Root CA).\n</p>\n<h3>How do enterprises add a CA as locally-trusted?</h3>\n\n\n<p>\nCustomer organizations should use <a href=\"https://chromeenterprise.google/policies/#CACertificates\">this</a> enterprise policy or defer to platform provider guidance for trusting root CA certificates. \n</p>\n<h3>What about other Google products?</h3>\n\n\n<p>\nOther Google product team updates may be made available in the future.\n</p>",
     "link": "http://security.googleblog.com/2025/05/sustaining-digital-certificate-security-chrome-root-store-changes.html",
@@ -292,6 +312,16 @@
     "source": "security.googleblog.com",
     "category": "Vulnerability",
     "importance_score": 1680,
+    "also_covered_by": []
+  },
+  {
+    "title": "Two Newly Discovered Chrome Zero-Days Exploited in the Wild to Run Malicious Code",
+    "summary": "<p>Google has released an urgent security update for its Chrome desktop browser to address two critical zero-day vulnerabilities. Tracked as CVE-2026-3909 and CVE-2026-3910, both flaws are categorized as high-severity and are confirmed to be actively exploited by attackers in the wild. Users are strongly advised to update their browsers immediately to protect against potential malicious [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/two-newly-discovered-chrome-zero-days-exploited/\">Two Newly Discovered Chrome Zero-Days Exploited in the Wild to Run Malicious Code</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/two-newly-discovered-chrome-zero-days-exploited/",
+    "published": "2026-03-13T07:40:19",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 1677,
     "also_covered_by": []
   },
   {
@@ -375,6 +405,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Starbucks Data Breach Exposes Personal Data of Hundreds of Users",
+    "summary": "<p>Starbucks Corporation recently disclosed a targeted cybersecurity incident that compromised the personal and financial information of 889 individuals. This internal platform is utilized by the company to manage human resources, employee benefits, and payroll details. While the number of impacted users represents a small fraction of the company&#8217;s global workforce, the highly sensitive nature of [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/starbucks-data-breach-exposes-personal-data/\">Starbucks Data Breach Exposes Personal Data of Hundreds of Users</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/starbucks-data-breach-exposes-personal-data/",
+    "published": "2026-03-13T11:17:41",
+    "source": "gbhackers.com",
+    "category": "Data Breach",
+    "importance_score": 1376,
+    "also_covered_by": []
+  },
+  {
     "title": "ATM Jackpotting Suspect Added to FBI’s Ten Most Wanted List",
     "summary": "<p><img alt=\"ATM Jackpotting Case\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"768\" src=\"https://thecyberexpress.com/wp-content/uploads/ATM-Jackpotting-Case.webp\" title=\"ATM Jackpotting Suspect Added to FBI’s Ten Most Wanted List 3\" width=\"1408\" /></p>ATM jackpotting, once considered a niche cybercrime technique, has now reached a level where it is drawing the attention of the highest levels of law enforcement. The <a href=\"https://thecyberexpress.com/fbi-warns-alaskans-of-impersonation-scams/\" rel=\"noopener\" target=\"_blank\">FBI</a> has added Anibal Alexander Canelon Aguirre, an alleged leader of a global ATM jackpotting operation, to its Ten Most Wanted Fugitives list, highlighting the growing threat posed by cyber-enabled financial crime.\n\nThe announcement was made by FBI Omaha Special Agent in Charge Eugene Kowel and U.S. Attorney for the District of Nebraska Lesley Woods, who said Aguirre allegedly orchestrated a large-scale <a href=\"https://thecyberexpress.com/fbi-flags-rise-in-atm-jackpotting-attacks/\" rel=\"noopener\" target=\"_blank\">ATM jackpotting</a> conspiracy that targeted banks across the United States. Authorities believe the operation generated millions of dollars that ultimately supported Tren de Aragua, a transnational gang designated as a foreign terrorist organization.\n<h3><strong>ATM Jackpotting at the Center of the Case</strong></h3>\nAt the heart of the investigation is ATM jackpotting, a <a class=\"wpil_keyword_link\" href=\"https://cyble.com/cyberattack/\" rel=\"noopener\" target=\"_blank\" title=\"cyberattack\">cyberattack</a> technique in which criminals install ATM malware to force machines to dispense cash without authorization. Instead of physically robbing a bank vault, attackers exploit software <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-are-vulnerabilities/\" title=\"vulnerabilities\">vulnerabilities</a> in the ATM system.\n\n<a href=\"https://www.fbi.gov/contact-us/field-offices/omaha/news/leader-of-atm-jackpotting-conspiracy-that-funneled-money-to-tren-de-aragua-added-to-fbi-list-of-ten-most-wanted-fugitives\" rel=\"nofollow noopener\" target=\"_blank\">According to investigators</a>, Aguirre allegedly led teams that traveled across the United States to carry out these attacks. Once the ATM jackpotting <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-malware/\" title=\"malware\">malware</a> was installed, cash withdrawals could be triggered on command, allowing crews to quickly empty machines.\n\nLaw enforcement officials say this was not a series of isolated attacks. The operation allegedly involved a coordinated network where the stolen money moved through complex laundering channels before reaching the criminal organization behind the scheme.\n\n[caption id=\"attachment_110176\" align=\"aligncenter\" width=\"626\"]<img alt=\"ATM Jackpotting\" class=\"wp-image-110176 size-full\" height=\"798\" src=\"https://thecyberexpress.com/wp-content/uploads/ATM-Jackpotting.png\" width=\"626\" /> Image Source: FBI[/caption]\n<h3><strong>Charges Linked to Cybercrime and Financial Fraud</strong></h3>\nA federal arrest warrant for Aguirre was issued on December 9, 2025, in the U.S. District Court for the District of Nebraska. Prosecutors have charged him with multiple offenses connected to the ATM jackpotting conspiracy, including:\n<ul>\n \t<li>Conspiracy to commit bank <a class=\"wpil_keyword_link\" href=\"https://cyble.com/cybercrime/fraud/\" rel=\"noopener\" target=\"_blank\" title=\"fraud\">fraud</a></li>\n \t<li>Conspiracy to commit bank burglary and damage a protected computer system</li>\n \t<li>Conspiracy to commit money laundering</li>\n \t<li>Conspiracy to provide material support to terrorists</li>\n</ul>\nThe case is being investigated through Joint Task Force Vulcan, working alongside the Computer Crime and Intellectual Property Section (CCIPS) of the U.S. Department of Justice.\n\nOfficials say the charges reflect the scale and seriousness of the alleged <a class=\"wpil_keyword_link\" href=\"https://cyble.com/cybercrime/\" rel=\"noopener\" target=\"_blank\" title=\"cybercrime\">cybercrime</a> network.\n<h3><strong>Why ATM Jackpotting Is Now a National Security Concern</strong></h3>\nFor years, ATM jackpotting attacks were largely viewed as financial crimes affecting banks and ATM operators. But this case demonstrates how cybercrime techniques can intersect with organized crime and even terrorism financing.\n\nSpecial Agent Eugene Kowel said the alleged ATM jackpotting operation created a “multimillion-dollar revenue stream” that ultimately supported the activities of Tren de Aragua.\n\nThis development signals an important shift in how authorities view ATM jackpotting malware attacks. What once looked like opportunistic <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/cyber-news/\" title=\"cyber\">cyber</a> theft is now seen as a tool that organized criminal groups can use to generate funds at scale.\n\nThe decision to place Aguirre on the FBI Ten Most Wanted list—a list historically reserved for violent offenders—shows how seriously authorities are treating the threat.\n<h3><strong>First Cyber Fugitive on the FBI’s Most Wanted List</strong></h3>\nAguirre’s addition to the list is significant for another reason. He is the first cyber fugitive to appear on the FBI’s Ten Most Wanted Fugitives list since it was created in 1950.\n\nThe list has included 540 fugitives over the decades, and more than 500 have been captured or located, often with assistance from the public. The FBI believes public awareness could once again play a key role in locating Aguirre.\n\nOfficials say the suspect should be considered armed and dangerous. He is described as a 49-year-old man with black and gray hair, approximately 5’5” to 5’7” tall, and weighing about 190 pounds. Authorities say he has connections in Venezuela and Mexico and speaks Spanish.\n<h3><strong>Public Help Could Be Critical</strong></h3>\nThe FBI is offering a reward of up to $1 million for information leading to Aguirre’s arrest. Investigators are urging anyone with information to contact the FBI tip line or submit information online.\n\nBeyond the manhunt, the case serves as a reminder that ATM jackpotting attacks are no longer just technical exploits. When cybercrime merges with organized criminal networks, the financial damage can quickly turn into a broader <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/\" title=\"security\">security</a> issue.",
     "link": "https://thecyberexpress.com/atm-jackpotting-leader-added-to-fbi-list/",
@@ -455,6 +495,26 @@
     "also_covered_by": []
   },
   {
+    "title": "FortiGate Firewalls Exploited in Wave of Attacks to Breach Networks and Steal Credentials",
+    "summary": "<p>A series of intrusions in early 2026 in which threat actors compromised FortiGate Next-Generation Firewalls (NGFW) to establish persistent footholds within enterprise environments. Each case was intercepted during the lateral movement phase before the attackers could fully achieve their objectives. The attack wave uncovered by SentinelOne closely tracks three high-severity Fortinet vulnerabilities disclosed between December [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fortigate-firewalls-exploited/\">FortiGate Firewalls Exploited in Wave of Attacks to Breach Networks and Steal Credentials</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/fortigate-firewalls-exploited/",
+    "published": "2026-03-15T02:41:19",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 1227,
+    "also_covered_by": []
+  },
+  {
+    "title": "Microsoft Releases Out-of-Band Patch to Fix Critical RRAS RCE Vulnerabilities in Windows 11",
+    "summary": "<p>Microsoft released an out-of-band hotpatch update on March 13, 2026, addressing serious security vulnerabilities in Windows 11 versions 24H2 and 25H2. Tracked as KB5084597 and targeting OS Builds 26200.7982 and 26100.7982, this update patches three actively concerning flaws in the Windows Routing and Remote Access Service (RRAS) management tool, and notably, it does so without [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/windows-11-out-of-band-update/\">Microsoft Releases Out-of-Band Patch to Fix Critical RRAS RCE Vulnerabilities in Windows 11</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/windows-11-out-of-band-update/",
+    "published": "2026-03-15T05:18:46",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 1215,
+    "also_covered_by": []
+  },
+  {
     "title": "DirectX, OpenFOAM, Libbiosig vulnerabilities",
     "summary": "<p>Cisco Talos&#x2019; Vulnerability Discovery &amp; Research team recently disclosed vulnerabilities in the BioSig Project Libbiosig library and OpenCFD OpenFOAM, as well as an unpatched vulnerability in Microsoft DirectX.</p><p>The vulnerabilities mentioned in this blog post have been patched by their respective vendors, all in adherence to<a href=\"https://sec.cloudapps.cisco.com/security/center/resources/vendor_vulnerability_policy.html\"><u> Cisco&#x2019;s</u></a></p>",
     "link": "https://blog.talosintelligence.com/directx-openfoam-libbiosig-vulnerabilities/",
@@ -492,6 +552,46 @@
     "source": "bleepingcomputer.com",
     "category": "Ransomware",
     "importance_score": 1206,
+    "also_covered_by": []
+  },
+  {
+    "title": "Authorities Shut Down Proxy Service Linked to Malware Campaign Targeting Thousands of Users",
+    "summary": "<p> A coordinated international law enforcement operation successfully dismantled SocksEscort, a massive malicious residential proxy network. Led by the U.S. Justice Department alongside several European allies, the operation disrupted a sophisticated infrastructure that compromised thousands of residential and small business routers globally. By executing seizure warrants against dozens of U.S.-registered domains, authorities effectively halted a criminal [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/authorities-shut-down-proxy-service/\">Authorities Shut Down Proxy Service Linked to Malware Campaign Targeting Thousands of Users</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/authorities-shut-down-proxy-service/",
+    "published": "2026-03-13T11:44:05",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 1195,
+    "also_covered_by": []
+  },
+  {
+    "title": "Malicious npm Packages Posing as Solara Executor Target Discord, Browsers, and Crypto Wallets",
+    "summary": "<p>JFrog security researchers Guy Korolevski and Meitar Palas uncovered a sophisticated supply chain attack on the npm ecosystem on March 12, 2026, in which threat actors disguised an information-stealing malware as a legitimate Roblox script executor. The campaign, self-named Cipher stealer, used two malicious packages bluelite-bot-manager and test-logsmodule-v-zisko, to deliver a Windows executable capable of harvesting Discord credentials, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/malicious-npm-packages-target-discord-browsers-and-crypto-wallets/\">Malicious npm Packages Posing as Solara Executor Target Discord, Browsers, and Crypto Wallets</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/malicious-npm-packages-target-discord-browsers-and-crypto-wallets/",
+    "published": "2026-03-14T08:20:43",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 1191,
+    "also_covered_by": []
+  },
+  {
+    "title": "Authorities Dismantle Malicious Proxy Service Used to Deploy Malware Attacking Thousands of Users",
+    "summary": "<p>An international law enforcement operation led by the U.S. Justice Department has successfully dismantled SocksEscort, a massive residential proxy network. The malicious service compromised thousands of home and small business routers worldwide, enabling cybercriminals to mask their identities while executing large-scale financial fraud. The coordinated takedown resulted in the seizure of dozens of U.S.-registered internet [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/authorities-dismantle-malicious-proxy-service/\">Authorities Dismantle Malicious Proxy Service Used to Deploy Malware Attacking Thousands of Users</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/authorities-dismantle-malicious-proxy-service/",
+    "published": "2026-03-13T14:44:44",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 1182,
+    "also_covered_by": []
+  },
+  {
+    "title": "GlassWorm Campaign Uses 72 Malicious Open VSX Extensions to Broaden Reach",
+    "summary": "<p>In a major escalation of supply chain attacks, the GlassWorm malware campaign has evolved to infect developer environments using transitive dependencies. On March 13, 2026, the Socket Research Team reported identifying at least 72 new malicious Open VSX extensions linked to this campaign. Instead of placing the malicious payload directly into an initial extension, threat [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/glassworm-campaign-uses-72-malicious-open-vsx-extensions/\">GlassWorm Campaign Uses 72 Malicious Open VSX Extensions to Broaden Reach</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/glassworm-campaign-uses-72-malicious-open-vsx-extensions/",
+    "published": "2026-03-14T07:28:42",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 1166,
     "also_covered_by": []
   },
   {
@@ -765,6 +865,26 @@
     "also_covered_by": []
   },
   {
+    "title": "Critical LangSmith Account Takeover Vulnerability Puts Users at Risk",
+    "summary": "<p>Miggo Security researchers have identified a critical vulnerability in LangSmith, tracked as CVE-2026-25750, that exposes users to potential token theft and complete account takeover. As a central hub for debugging and monitoring large language model data, LangSmith processes billions of events daily, making this a high-stakes security flaw for enterprise AI environments. The vulnerability stems [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/critical-langsmith-account-takeover-vulnerability/\">Critical LangSmith Account Takeover Vulnerability Puts Users at Risk</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/critical-langsmith-account-takeover-vulnerability/",
+    "published": "2026-03-14T05:02:31",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 819,
+    "also_covered_by": []
+  },
+  {
+    "title": "Iran War Bait Fuels TA453, TA473 Phishing Campaigns",
+    "summary": "<p>TA453, TA473, and several emerging threat clusters are exploiting breaking news about the Iran war to run highly targeted phishing campaigns against governments and policy organizations across the Middle East and beyond. These operations blend traditional espionage with opportunistic credential theft and malware delivery, often abusing compromised government accounts and trusted cloud services to increase [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/iran-war-bait/\">Iran War Bait Fuels TA453, TA473 Phishing Campaigns</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/iran-war-bait/",
+    "published": "2026-03-13T09:32:53",
+    "source": "gbhackers.com",
+    "category": "Phishing / Scams",
+    "importance_score": 817,
+    "also_covered_by": []
+  },
+  {
     "title": "Accertify’s Attack State targets credential stuffing and ATO attacks",
     "summary": "<p>Accertify has announced the launch of Attack State, a new capability in its Account Protection solution designed to help organizations detect and respond to coordinated login attacks and other automated threats targeting customer accounts. Attack State analyzes login activity continuously and compares it to the organization’s broader traffic patterns to determine when a client’s environment may be under active attack. By comparing expected network behavior with real-time activity, the capability identifies anomalies associated with bot-driven &#8230; <a href=\"https://www.helpnetsecurity.com/2026/03/13/accertify-attack-state/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/03/13/accertify-attack-state/\">Accertify’s Attack State targets credential stuffing and ATO attacks</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
     "link": "https://www.helpnetsecurity.com/2026/03/13/accertify-attack-state/",
@@ -855,6 +975,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Loblaw Data Breach – Hackers Accessed IT Network and Customer Information",
+    "summary": "<p>Canada’s largest food and pharmacy retailer has announced an ongoing investigation into a recent corporate data breach.On March 10, 2026, the company notified its customers that unauthorized threat actors successfully infiltrated a segment of its IT network. The security incident was discovered after Loblaw detected suspicious activity within its infrastructure. According to the company, the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/loblaw-data-breach/\">Loblaw Data Breach &#8211; Hackers Accessed IT Network and Customer Information</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/loblaw-data-breach/",
+    "published": "2026-03-13T14:55:56",
+    "source": "cybersecuritynews.com",
+    "category": "Data Breach",
+    "importance_score": 763,
+    "also_covered_by": []
+  },
+  {
     "title": "OfferUp scammers are out in force: Here’s what you should know",
     "summary": "The mobile marketplace app has a growing number of users, but not all of them are genuine. Watch out for these common scams.",
     "link": "https://www.welivesecurity.com/en/scams/offerup-scammers-out-force-heres-what-you-should-know/",
@@ -862,6 +992,16 @@
     "source": "welivesecurity.com",
     "category": "Vulnerability",
     "importance_score": 757,
+    "also_covered_by": []
+  },
+  {
+    "title": "GlassWorm Spreads via 72 Malicious Open VSX Extensions Hidden in Transitive Dependencies",
+    "summary": "<p>The GlassWorm malware campaign has evolved, significantly escalating its attacks on software developers. Instead of embedding malware directly into initial releases, the threat actors are now using transitive dependencies to sneak malicious code into developer environments. This stealthy approach allows a seemingly safe package to pull in a separate, infected extension only after establishing trust. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/glassworm-spreads-via-72-malicious-open-vsx-extensions/\">GlassWorm Spreads via 72 Malicious Open VSX Extensions Hidden in Transitive Dependencies</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/glassworm-spreads-via-72-malicious-open-vsx-extensions/",
+    "published": "2026-03-14T07:01:10",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 735,
     "also_covered_by": []
   },
   {
@@ -1042,6 +1182,16 @@
     "source": "welivesecurity.com",
     "category": "Ransomware",
     "importance_score": 578,
+    "also_covered_by": []
+  },
+  {
+    "title": "Storm-2561 Uses SEO Poisoning, Fake Signed VPN Apps to Steal Enterprise Credentials",
+    "summary": "<p>A financially motivated threat actor tracked as Storm-2561 is running a credential theft campaign that abuses SEO poisoning and fake, signed VPN installers to steal enterprise VPN credentials. Active since May 2025, Storm-2561 continues to exploit user trust in search results, known VPN brands, and code-signing certificates to distribute malware disguised as legitimate remote access [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/storm-2561-uses-seo-poisoning/\">Storm-2561 Uses SEO Poisoning, Fake Signed VPN Apps to Steal Enterprise Credentials</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/storm-2561-uses-seo-poisoning/",
+    "published": "2026-03-13T11:11:07",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 573,
     "also_covered_by": []
   },
   {
@@ -1285,6 +1435,36 @@
     "also_covered_by": []
   },
   {
+    "title": "Microsoft Confirms Windows 11 24H2/25H2 Bug Blocks Access to the System Drive C",
+    "summary": "<p>Microsoft has officially acknowledged a critical bug affecting Windows 11 users on certain Samsung devices, in which the system drive (C:) becomes completely inaccessible after installing the February 2026 security update. The company is now actively investigating the issue in coordination with Samsung. After installing the February 2026 Patch Tuesday update (KB5077181, OS Build 26100.7840), [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/windows-11-bug-drive-c/\">Microsoft Confirms Windows 11 24H2/25H2 Bug Blocks Access to the System Drive C</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/windows-11-bug-drive-c/",
+    "published": "2026-03-14T02:45:40",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 464,
+    "also_covered_by": []
+  },
+  {
+    "title": "Apple Releases Emergency iOS 15.8.7 Update to Block ‘Coruna’ Exploit Kit",
+    "summary": "<p>Apple has rolled out an emergency security update, iOS 15.8.7 and iPadOS 15.8.7, to protect users of older iPhones and iPads from a sophisticated threat known as the Coruna exploit kit. Released on March 11, 2026, this critical patch backports several major security fixes that were previously issued for newer devices running iOS 16 and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/apple-releases-emergency-ios-15-8-7-update/\">Apple Releases Emergency iOS 15.8.7 Update to Block ‘Coruna’ Exploit Kit</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/apple-releases-emergency-ios-15-8-7-update/",
+    "published": "2026-03-13T08:56:00",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 462,
+    "also_covered_by": []
+  },
+  {
+    "title": "Apple Released Emergency Updates for iOS 15.8.7 to Thwart ‘Coruna’ Exploit Kit",
+    "summary": "<p>Apple has rolled out an emergency security update, iOS 15.8.7 and iPadOS 15.8.7, to protect older devices from a severe threat known as the &#8216;Coruna&#8217; exploit kit. Released on March 11, 2026, this critical patch backports fixes from newer iOS versions, ensuring that users on legacy hardware are not left vulnerable to advanced cyberattacks. The [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/apple-released-emergency-updates/\">Apple Released Emergency Updates for iOS 15.8.7 to Thwart ‘Coruna’ Exploit Kit</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/apple-released-emergency-updates/",
+    "published": "2026-03-13T11:59:15",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 457,
+    "also_covered_by": []
+  },
+  {
     "title": "GlassWorm Supply-Chain Attack Abuses 72 Open VSX Extensions to Target Developers",
     "summary": "Cybersecurity researchers have flagged a new iteration of the GlassWorm campaign that they say represents a \"significant escalation\" in how it propagates through the Open VSX registry.\n\"Instead of requiring every malicious listing to embed the loader directly, the threat actor is now abusing extensionPack and extensionDependencies to turn initially standalone-looking extensions into transitive",
     "link": "https://thehackernews.com/2026/03/glassworm-supply-chain-attack-abuses-72.html",
@@ -1495,6 +1675,16 @@
     "also_covered_by": []
   },
   {
+    "title": "AI-HealthTech Innovator Humata Health Partners with AccuKnox for Zero Trust CNAPP",
+    "summary": "<p>Menlo Park, California, USA, March 13th, 2026, CyberNewswire AI-HealthTech innovator Humata Health announced that it is partnering with AccuKnox, a leader in Code to Cognition Security, Zero Trust Cloud-Native Application Protection Platform (CNAPP), to streamline security for its SaaS platform.&#160; Healthcare Security Requirements&#160; To meet&#160;HIPAA&#160;mandates, the company adopted an on-prem deployment supported by AccuKnox. By [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ai-healthtech-innovator-humata-health-partners-with-accuknox-for-zero-trust-cnapp/\">AI-HealthTech Innovator Humata Health Partners with AccuKnox for Zero Trust CNAPP</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/ai-healthtech-innovator-humata-health-partners-with-accuknox-for-zero-trust-cnapp/",
+    "published": "2026-03-13T11:43:00",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 350,
+    "also_covered_by": []
+  },
+  {
     "title": "India Introduces Bug Bounty Program to Target Gaps in Aadhaar Ecosystem",
     "summary": "<p><img alt=\"UIDAI Bug Bounty\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"1934\" src=\"https://thecyberexpress.com/wp-content/uploads/UIDAI-Bug-Bounty-1-scaled.webp\" title=\"India Introduces Bug Bounty Program to Target Gaps in Aadhaar Ecosystem 22\" width=\"2800\" /></p><span>The Unique Identification Authority of India has introduced a structured UIDAI bug bounty program designed to strengthen the cybersecurity of India’s Aadhaar ecosystem. The initiative is one of the authority’s first organized efforts to engage independent cybersecurity professionals and ethical hackers in identifying vulnerabilities across its digital platforms.</span><span> </span>\n\n<span>As part of the broader Indian government bug bounty efforts to protect critical digital infrastructure, the program invites experts to report potential <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/\" title=\"security\">security</a> weaknesses before they can be exploited responsibly.</span><span> </span>\n<h3><b><span>UIDAI Bug Bounty Program Targets Key Aadhaar Platforms</span></b><span> </span></h3>\n<span>Under the new UIDAI bug bounty initiative, a <a href=\"https://www.pib.gov.in/PressReleasePage.aspx?PRID=2238233&amp;reg=3&amp;lang=1\" rel=\"nofollow noopener\" target=\"_blank\">panel of 20 experienced security researchers and ethical hackers</a> has been selected to participate in the program. These experts will assess several critical digital assets managed by UIDAI, including the official website, the myAadhaar portal, and the Secure QR Code application used in Aadhaar authentication processes.</span><span> </span>\n\n<span>The <a href=\"https://thecyberexpress.com/code-formatting-tools-share-secrets/\" rel=\"noopener\" target=\"_blank\">researchers</a> will examine these platforms to uncover potential vulnerabilities in the systems. Once a flaw is identified, participants must follow responsible disclosure practices by reporting it directly to UIDAI through the program’s official channels.</span><span> </span>\n\n<span>Each reported <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/firewall-daily/vulnerabilities/\" title=\"vulnerability\">vulnerability</a> will be evaluated and categorized by severity. Like other major Indian government bug bounty initiatives, the program uses a four-tier classification system: Critical, High, Medium, and Low <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-are-risks-in-cybersecurity/\" title=\"risk\">risk</a>. Rewards will be granted to participating researchers depending on the seriousness and potential impact of the discovered issue.</span><span> </span>\n\n<span>The Indian government has stated that the UIDAI bug bounty program is intended to proactively identify and address <a href=\"https://thecyberexpress.com/cyber-attacks-on-the-energy-sector-renewable/\" rel=\"noopener\" target=\"_blank\">security gaps</a> before they can be exploited by malicious actors.</span><span> </span>\n<h3><b><span>Collaboration with Cybersecurity Firm</span></b><span> </span></h3>\n<span>To manage and coordinate the initiative effectively, UIDAI is implementing the program in collaboration with ComOlho IT Private Limited, a <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-cybersecurity/\" title=\"cybersecurity\">cybersecurity</a> solutions provider. The company will assist in overseeing the vulnerability submission process, coordinating with researchers, and supporting the overall management of the UIDAI bug bounty program.</span><span> </span>\n\n<span>The collaboration is expected to streamline communication between <a href=\"https://thecyberexpress.com/germany-drafts-law-to-shield-ethical-hackers/\" rel=\"noopener\" target=\"_blank\">ethical hackers</a> and government teams responsible for maintaining the Aadhaar infrastructure.</span><span> </span>\n\n<span>According to UIDAI, ensuring robust information security has become increasingly important as more services move to digital platforms. Aadhaar, which is used across numerous public and private services in India, requires a resilient cybersecurity framework to protect sensitive user <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-data/\" title=\"data\">data</a>.</span><span> </span>\n\n<span>The authority already maintains multiple layers of protection across its systems. These include regular security audits, vulnerability assessments, penetration testing, and continuous monitoring of digital infrastructure. The UIDAI bug bounty program adds a defensive layer by enabling external experts to discover <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-are-vulnerabilities/\" title=\"vulnerabilities\">vulnerabilities</a> that may not be detected during internal security checks.</span><span> </span>\n\n<span>By inviting independent researchers to test its systems, the Indian government's bug bounty initiative aims to enhance the resilience of Aadhaar’s digital architecture and ensure that potential weaknesses are addressed promptly.</span><span> </span>\n<h3><b><span>Bug Bounty Program Becoming Standard Security Practice</span></b><span> </span></h3>\n<span>The Ministry of Electronics and Information Technology (MeitY) noted that bug bounty programs are widely adopted by leading technology companies around the world to improve the security and reliability of digital systems. Through the UIDAI bug bounty program, the Indian government is applying similar practices within its public digital infrastructure.</span><span> </span>\n\n<span>The UIDAI bug bounty program also forms part of a broader network of Indian government bug bounty and vulnerability disclosure initiatives designed to safeguard digital infrastructure.</span><span> </span>\n\n<span>One of the key programs is run by the Indian Computer Emergency Response Team (CERT-In), which facilitates responsible vulnerability disclosure policies aimed at</span><span> protecting the </span><span>country’s “Digital India” infrastructure. CERT-In enables researchers to report vulnerabilities affecting government digital services.</span><span> </span>\n\n<span>Another initiative is managed by the National Critical Information Infrastructure Protection Centre (NCIIPC). The organization encourages security researchers to identify and report critical <a href=\"https://thecyberexpress.com/government-cyber-security-gains-momentum-in-uk/\" rel=\"noopener\" target=\"_blank\">vulnerabilities</a> in government websites and infrastructure, particularly those under the .gov.in domain.</span><span> </span>\n\n<span>In addition to these programs, specific platforms have also launched targeted bug bounty initiatives. For example, the government’s Aarogya Setu application previously ran a bug bounty program offering rewards of up to INR 1 lakh (1,083 USD) for valid vulnerability reports.</span><span> </span>\n<h3><b><span>How Researchers Can Participate</span></b></h3>\n<span>Participation in many Indian government bug bounty programs is open to cybersecurity professionals and ethical hackers. Vulnerabilities affecting government infrastructure can typically be reported through CERT-In’s disclosure channels.</span><span> </span>\n\n<span>For NCIIPC initiatives, researchers are required to complete a Vulnerability Disclosure Form and submit it via email to </span><a href=\"mailto:rvdp@nciipc.gov.in\" rel=\"nofollow noopener\" target=\"_blank\"><span>rvdp@nciipc.gov.in</span></a><span>. Some programs, including the UIDAI bug bounty, may involve stricter eligibility requirements. In certain cases, researchers must demonstrate a strong track record in cybersecurity, such as appearing in the top 100 recognized bug bounty leaderboards.</span><span> </span>\n\n<span>Most Indian government bug bounty programs are free to participate in, and several offer <a href=\"https://thecyberexpress.com/exploitable-bug-airline-wi-fi-service/\" rel=\"noopener\" target=\"_blank\">monetary rewards</a> for high-impact vulnerability discoveries.</span><span> </span>",
     "link": "https://thecyberexpress.com/uidai-bug-bounty-program-aadhaar-security/",
@@ -1642,6 +1832,16 @@
     "source": "infosecurity-magazine.com",
     "category": "Policy / Law",
     "importance_score": 325,
+    "also_covered_by": []
+  },
+  {
+    "title": "New Critical AdGuard Home Flaw Lets Attackers Bypass Authentication",
+    "summary": "<p>AdGuard Home, a highly popular network-wide ad and tracker blocking solution, has recently issued an emergency security hotfix to address a critical flaw. This severe vulnerability, officially tracked under the identifier CVE-2026-32136, has been assigned a maximum severity rating of 9.8 out of 10 on the Common Vulnerability Scoring System scale. The security defect enables [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/new-critical-adguard-home-flaw/\">New Critical AdGuard Home Flaw Lets Attackers Bypass Authentication</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/new-critical-adguard-home-flaw/",
+    "published": "2026-03-13T12:07:16",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 317,
     "also_covered_by": []
   },
   {
