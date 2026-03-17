@@ -495,6 +495,16 @@
     "also_covered_by": []
   },
   {
+    "title": "CISA Flags Actively Exploited Wing FTP Vulnerability Leaking Server Paths",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a medium-severity security flaw impacting Wing FTP to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\nThe vulnerability, CVE-2025-47813 (CVSS score: 4.3), is an information disclosure vulnerability that leaks the installation path of the application under certain conditions",
+    "link": "https://thehackernews.com/2026/03/cisa-flags-actively-exploited-wing-ftp.html",
+    "published": "2026-03-17T05:23:00",
+    "source": "thehackernews.com",
+    "category": "Data Breach",
+    "importance_score": 1263,
+    "also_covered_by": []
+  },
+  {
     "title": "DirectX, OpenFOAM, Libbiosig vulnerabilities",
     "summary": "<p>Cisco Talos&#x2019; Vulnerability Discovery &amp; Research team recently disclosed vulnerabilities in the BioSig Project Libbiosig library and OpenCFD OpenFOAM, as well as an unpatched vulnerability in Microsoft DirectX.</p><p>The vulnerabilities mentioned in this blog post have been patched by their respective vendors, all in adherence to<a href=\"https://sec.cloudapps.cisco.com/security/center/resources/vendor_vulnerability_policy.html\"><u> Cisco&#x2019;s</u></a></p>",
     "link": "https://blog.talosintelligence.com/directx-openfoam-libbiosig-vulnerabilities/",
@@ -1642,16 +1652,6 @@
     "source": "microsoft.com",
     "category": "Other",
     "importance_score": 386,
-    "also_covered_by": []
-  },
-  {
-    "title": "How to Scale Phishing Detection in Your SOC: 3 Steps for CISOs",
-    "summary": "Phishing has quietly turned into one of the hardest enterprise threats to expose early. Instead of crude lures and obvious payloads, modern campaigns rely on trusted infrastructure, legitimate-looking authentication flows, and encrypted traffic that conceals malicious behavior from traditional detection layers. For CISOs, the priority is now clear: scale phishing detection in a way that helps",
-    "link": "https://thehackernews.com/2026/03/how-to-scale-phishing-detection-in-your.html",
-    "published": "2026-03-12T13:30:00",
-    "source": "thehackernews.com",
-    "category": "Ransomware",
-    "importance_score": 382,
     "also_covered_by": []
   },
   {
