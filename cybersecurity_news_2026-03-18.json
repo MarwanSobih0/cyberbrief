@@ -555,6 +555,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Global fraud losses climb to $442 billion",
+    "summary": "<p>Online fraud is reaching more victims and generating larger losses, driven by digital tools and organized networks operating across borders. Global trends in financial fraud (Source: Interpol) In INTERPOL’s March 2026 Global Financial Fraud Threat Assessment, financial fraud sits among the top five global crime threats, with a 54% rise in fraud related Notices and Diffusions from 2024 to 2025. “Estimating the financial cost of fraud is challenging for a number of reasons, including significant &#8230; <a href=\"https://www.helpnetsecurity.com/2026/03/18/online-fraud-victims-losses-interpol-report/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/03/18/online-fraud-victims-losses-interpol-report/\">Global fraud losses climb to $442 billion</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "link": "https://www.helpnetsecurity.com/2026/03/18/online-fraud-victims-losses-interpol-report/",
+    "published": "2026-03-18T06:00:08",
+    "source": "helpnetsecurity.com",
+    "category": "Vulnerability",
+    "importance_score": 1100,
+    "also_covered_by": []
+  },
+  {
     "title": "SCW Trust Agent: AI tracks AI influence in code to reduce software risk",
     "summary": "<p>Secure Code Warrior has announced SCW Trust Agent: AI, a governance solution designed to make AI influence in software development visible, attributable, and enforceable at the point of commit, enabling enterprises to scale AI coding tools with measurable control over software risk. Organizations can trace which AI models influenced specific commits, correlate that influence with vulnerability exposure, and take corrective action before insecure code reaches production. According to Sonar’s 2026 State of Code Developer Survey, &#8230; <a href=\"https://www.helpnetsecurity.com/2026/03/17/secure-code-warrior-trust-agent-ai-governance/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/03/17/secure-code-warrior-trust-agent-ai-governance/\">SCW Trust Agent: AI tracks AI influence in code to reduce software risk</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
     "link": "https://www.helpnetsecurity.com/2026/03/17/secure-code-warrior-trust-agent-ai-governance/",
@@ -1201,16 +1211,6 @@
     "published": "2026-03-17T13:20:26",
     "source": "helpnetsecurity.com",
     "category": "AI & Security",
-    "importance_score": 500,
-    "also_covered_by": []
-  },
-  {
-    "title": "Intel 471 debuts integrated platform for external threat management",
-    "summary": "<p>Intel 471 has announced its latest product offering, the Cyber Threat Exposure Bundle, on its Verity471 platform. This new bundle combines Attack Surface Exposure, Third-Party Exposure, and Brand Exposure into a single solution, providing users with a standardized view to identify, prioritize, and remediate external risks. By integrating these solutions, organizations are better equipped to tackle a sophisticated threat landscape with enhanced visibility and intelligence, without disrupting business operations. “Since launching Verity471 in 2025, we &#8230; <a href=\"https://www.helpnetsecurity.com/2026/03/17/intel-471-cyber-threat-exposure-bundle/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/03/17/intel-471-cyber-threat-exposure-bundle/\">Intel 471 debuts integrated platform for external threat management</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
-    "link": "https://www.helpnetsecurity.com/2026/03/17/intel-471-cyber-threat-exposure-bundle/",
-    "published": "2026-03-17T12:44:27",
-    "source": "helpnetsecurity.com",
-    "category": "Other",
     "importance_score": 500,
     "also_covered_by": []
   },
