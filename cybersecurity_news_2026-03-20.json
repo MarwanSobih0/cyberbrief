@@ -3169,6 +3169,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Secure Homegrown AI Agents with CrowdStrike Falcon AIDR and NVIDIA NeMo Guardrails",
+    "summary": "No summary available",
+    "link": "https://www.crowdstrike.com/en-us/blog/secure-homegrown-ai-agents-with-crowdstrike-falcon-aidr-and-nvidia-nemo-guardrails/",
+    "published": "Mar 19, 2026 00:00:00-0500",
+    "source": "crowdstrike.com",
+    "category": "AI & Security",
+    "importance_score": 6,
+    "also_covered_by": []
+  },
+  {
     "title": "Falcon Platform for Government Now Offers Falcon for XIoT to Secure Connected Assets",
     "summary": "No summary available",
     "link": "https://www.crowdstrike.com/en-us/blog/falcon-platform-for-government-now-offers-falcon-for-xiot-to-secure-connected-assets/",
@@ -3243,16 +3253,6 @@
     "summary": "No summary available",
     "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-achieves-ncsc-cir-certification-for-incident-response/",
     "published": "Mar 02, 2026 00:00:00-0600",
-    "source": "crowdstrike.com",
-    "category": "Other",
-    "importance_score": 6,
-    "also_covered_by": []
-  },
-  {
-    "title": "CrowdStrike 2026 Global Threat Report: The Evasive Adversary Wields AI",
-    "summary": "No summary available",
-    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-global-threat-report-findings/",
-    "published": "Feb 24, 2026 00:00:00-0600",
     "source": "crowdstrike.com",
     "category": "Other",
     "importance_score": 6,
