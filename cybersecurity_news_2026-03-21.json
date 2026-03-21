@@ -3177,16 +3177,6 @@
     "also_covered_by": []
   },
   {
-    "title": "From Scanner to Stealer: Inside the trivy-action Supply Chain Compromise",
-    "summary": "No summary available",
-    "link": "https://www.crowdstrike.com/en-us/blog/from-scanner-to-stealer-inside-the-trivy-action-supply-chain-compromise/",
-    "published": "Mar 20, 2026 00:00:00-0500",
-    "source": "crowdstrike.com",
-    "category": "Other",
-    "importance_score": 6,
-    "also_covered_by": []
-  },
-  {
     "title": "Secure Homegrown AI Agents with CrowdStrike Falcon AIDR and NVIDIA NeMo Guardrails",
     "summary": "No summary available",
     "link": "https://www.crowdstrike.com/en-us/blog/secure-homegrown-ai-agents-with-crowdstrike-falcon-aidr-and-nvidia-nemo-guardrails/",
@@ -3261,6 +3251,16 @@
     "summary": "No summary available",
     "link": "https://www.crowdstrike.com/en-us/blog/falcon-next-gen-siem-simplifies-onboarding-with-sensor-native-log-collection/",
     "published": "Mar 06, 2026 00:00:00-0600",
+    "source": "crowdstrike.com",
+    "category": "Other",
+    "importance_score": 6,
+    "also_covered_by": []
+  },
+  {
+    "title": "CrowdStrike Achieves NCSC CIR Assurance for Incident Response",
+    "summary": "No summary available",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-achieves-ncsc-cir-certification-for-incident-response/",
+    "published": "Mar 02, 2026 00:00:00-0600",
     "source": "crowdstrike.com",
     "category": "Other",
     "importance_score": 6,
