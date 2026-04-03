@@ -845,6 +845,16 @@
     "also_covered_by": []
   },
   {
+    "title": "North Korea-Linked Hackers Hit Axios npm in Supply Chain Attack",
+    "summary": "<p>A major software supply chain attack has been uncovered after threat actors compromised the widely used Axios npm package, impacting developers and organizations worldwide. The incident, detected on March 31, 2026, involved the use of stolen maintainer credentials to inject malicious code into the popular HTTP client library. Axios is one of the most widely [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/axios-npm-in-supply-chain/\">North Korea-Linked Hackers Hit Axios npm in Supply Chain Attack</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/axios-npm-in-supply-chain/",
+    "published": "2026-04-03T06:07:49",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 911,
+    "also_covered_by": []
+  },
+  {
     "title": "New Akira Lookalike Ransomware Campaign Targeting Windows Users in South America",
     "summary": "<p>A new and dangerous ransomware campaign has surfaced across South America, targeting Windows users with a carefully crafted strain that closely imitates the well-known Akira ransomware. While the two may appear nearly identical on the surface, this new threat is built on an entirely different foundation — one that quietly borrows from another notorious ransomware [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/new-akira-lookalike-ransomware-campaign/\">New Akira Lookalike Ransomware Campaign Targeting Windows Users in South America</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
     "link": "https://cybersecuritynews.com/new-akira-lookalike-ransomware-campaign/",
@@ -1192,16 +1202,6 @@
     "source": "krebsonsecurity.com",
     "category": "Other",
     "importance_score": 622,
-    "also_covered_by": []
-  },
-  {
-    "title": "NoVoice on Google Play Exploits 22 Flaws to Hit Millions of Android Users",
-    "summary": "<p>NoVoice is a new Android rootkit campaign that hid in more than 50 apps on Google Play, exploiting 22 vulnerabilities to hijack millions of older and unpatched Android devices and even clone WhatsApp sessions. The apps posed as everyday utilities such as cleaners, casual games, and gallery tools, and behaved normally to avoid raising suspicion. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/novoice-on-google-play/\">NoVoice on Google Play Exploits 22 Flaws to Hit Millions of Android Users</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/novoice-on-google-play/",
-    "published": "2026-04-02T09:25:43",
-    "source": "gbhackers.com",
-    "category": "Policy / Law",
-    "importance_score": 609,
     "also_covered_by": []
   },
   {
