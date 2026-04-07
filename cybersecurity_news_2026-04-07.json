@@ -3169,16 +3169,6 @@
     "also_covered_by": []
   },
   {
-    "title": "How CrowdStrike is Accelerating Exposure Evaluation as Adversaries Gain Speed",
-    "summary": "No summary available",
-    "link": "https://www.crowdstrike.com/en-us/blog/how-crowdstrike-accelerates-exposure-evaluation-against-threats/",
-    "published": "Apr 06, 2026 00:00:00-0500",
-    "source": "crowdstrike.com",
-    "category": "Other",
-    "importance_score": 6,
-    "also_covered_by": []
-  },
-  {
     "title": "STARDUST CHOLLIMA Likely Compromises Axios npm Package",
     "summary": "No summary available",
     "link": "https://www.crowdstrike.com/en-us/blog/stardust-chollima-likely-compromises-axios-npm-package/",
@@ -3255,6 +3245,16 @@
     "published": "Mar 24, 2026 00:00:00-0500",
     "source": "crowdstrike.com",
     "category": "Other",
+    "importance_score": 6,
+    "also_covered_by": []
+  },
+  {
+    "title": "New CrowdStrike Innovations Secure AI Agents and Govern Shadow AI Across Endpoints, SaaS, and Cloud",
+    "summary": "No summary available",
+    "link": "https://www.crowdstrike.com/en-us/blog/new-crowdstrike-innovations-secure-ai-agents-govern-shadow-ai/",
+    "published": "Mar 23, 2026 00:00:00-0500",
+    "source": "crowdstrike.com",
+    "category": "AI & Security",
     "importance_score": 6,
     "also_covered_by": []
   }
