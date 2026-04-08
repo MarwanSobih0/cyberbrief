@@ -2145,6 +2145,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Falcon Next-Gen SIEM Supports Third-Party EDR Tools, Starting with Microsoft Defender",
+    "summary": "No summary available",
+    "link": "https://www.crowdstrike.com/en-us/blog/falcon-next-gen-siem-supports-third-party-edr-tools-starting-with-microsoft-defender/",
+    "published": "Mar 23, 2026 00:00:00-0500",
+    "source": "crowdstrike.com",
+    "category": "Other",
+    "importance_score": 201,
+    "also_covered_by": []
+  },
+  {
     "title": "Killer robots are here. Now what? (Lock and Code S07E07)",
     "summary": "This week on the Lock and Code podcast, we speak with Peter Asaro about killer robots, how to stop them, and their obvious consequences.",
     "link": "https://www.malwarebytes.com/blog/podcast/2026/04/killer-robots-are-here-now-what-lock-and-code-s07e07",
@@ -3156,16 +3166,6 @@
     "source": "welivesecurity.com",
     "category": "Other",
     "importance_score": 16,
-    "also_covered_by": []
-  },
-  {
-    "title": "Anthropic Claude Mythos Preview: The More Capable AI Becomes, the More Security It Needs",
-    "summary": "No summary available",
-    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-founding-member-anthropic-mythos-frontier-model-to-secure-ai/",
-    "published": "Apr 07, 2026 00:00:00-0500",
-    "source": "crowdstrike.com",
-    "category": "AI & Security",
-    "importance_score": 6,
     "also_covered_by": []
   },
   {
