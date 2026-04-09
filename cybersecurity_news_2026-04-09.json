@@ -565,6 +565,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Germany Doxes “UNKN,” Head of RU Ransomware Gangs REvil, GandCrab",
+    "summary": "An elusive hacker who went by the handle \"UNKN\" and ran the early Russian ransomware groups GandCrab and REvil now has a name and a face. Authorities in Germany say 31-year-old Russian Daniil Maksimovich Shchukin headed both cybercrime gangs and helped carry out at least 130 acts of computer sabotage and extortion against victims across the country between 2019 and 2021.",
+    "link": "https://krebsonsecurity.com/2026/04/germany-doxes-unkn-head-of-ru-ransomware-gangs-revil-gandcrab/",
+    "published": "2026-04-06T02:07:17",
+    "source": "krebsonsecurity.com",
+    "category": "Ransomware",
+    "importance_score": 1191,
+    "also_covered_by": []
+  },
+  {
     "title": "Year in Review: Vulnerabilities old and new and something React2",
     "summary": "The year was characterized by an unending beat-down on infrastructure that relied on older enmeshed dependencies (e.g., Log4j and PHPUnit), while React2Shell rocketed to the highest percentage of attacks for the entire year within the last three weeks of 2025.",
     "link": "https://blog.talosintelligence.com/year-in-review-vulnerabilities-old-and-new-and-something-react2/",
@@ -712,6 +722,16 @@
     "source": "securelist.com",
     "category": "Other",
     "importance_score": 1034,
+    "also_covered_by": []
+  },
+  {
+    "title": "Microsoft Patch Tuesday, March 2026 Edition",
+    "summary": "Microsoft Corp. today pushed security updates to fix at least 77 vulnerabilities in its Windows operating systems and other software. There are no pressing \"zero-day\" flaws this month (compared to February's five zero-day treat), but as usual some patches may deserve more rapid attention from organizations using Windows. Here are a few highlights from this month's Patch Tuesday.",
+    "link": "https://krebsonsecurity.com/2026/03/microsoft-patch-tuesday-march-2026-edition/",
+    "published": "2026-03-11T00:32:51",
+    "source": "krebsonsecurity.com",
+    "category": "Vulnerability",
+    "importance_score": 1014,
     "also_covered_by": []
   },
   {
@@ -1105,6 +1125,16 @@
     "also_covered_by": []
   },
   {
+    "title": "‘CanisterWorm’ Springs Wiper Attack Targeting Iran",
+    "summary": "A financially motivated data theft and extortion group is attempting to inject itself into the Iran war, unleashing a worm that spreads through poorly secured cloud services and wipes data on infected systems that use Iran's time zone or have Farsi set as the default language.",
+    "link": "https://krebsonsecurity.com/2026/03/canisterworm-springs-wiper-attack-targeting-iran/",
+    "published": "2026-03-23T15:43:04",
+    "source": "krebsonsecurity.com",
+    "category": "Other",
+    "importance_score": 622,
+    "also_covered_by": []
+  },
+  {
     "title": "Microsoft Confirms Windows 11 Update Breaks Start Menu Search",
     "summary": "<p>Microsoft recently addressed a disruptive server-side flaw that completely disabled Start Menu search functionality for some Windows 11 23H2 users. The tech giant quickly acknowledged the incident and deployed an automatic fix behind the scenes. Because the repair happens directly on Microsoft&#8217;s servers, users do not need to search for or install any additional software [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/microsoft-confirms-windows-11-update/\">Microsoft Confirms Windows 11 Update Breaks Start Menu Search</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
     "link": "https://gbhackers.com/microsoft-confirms-windows-11-update/",
@@ -1425,6 +1455,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Russia Hacked Routers to Steal Microsoft Office Tokens",
+    "summary": "Hackers linked to Russia's military intelligence units are using known flaws in older Internet routers to mass harvest authentication tokens from Microsoft Office users, security experts warned today. The spying campaign allowed state-backed Russian hackers to quietly siphon authentication tokens from users on more than 18,000 networks without deploying any malicious software or code.",
+    "link": "https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/",
+    "published": "2026-04-07T17:02:44",
+    "source": "krebsonsecurity.com",
+    "category": "Policy / Law",
+    "importance_score": 475,
+    "also_covered_by": []
+  },
+  {
     "title": "Analyzing the Current State of AI Use in Malware",
     "summary": "<p>Unit 42 research explores how AI is currently used in malware, from superficial integrations to advanced decision-making, and its future impact. </p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/ai-use-in-malware/\">Analyzing the Current State of AI Use in Malware</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
     "link": "https://unit42.paloaltonetworks.com/ai-use-in-malware/",
@@ -1452,6 +1492,16 @@
     "source": "infosecurity-magazine.com",
     "category": "Policy / Law",
     "importance_score": 473,
+    "also_covered_by": []
+  },
+  {
+    "title": "‘Starkiller’ Phishing Service Proxies Real Login Pages, MFA",
+    "summary": "Most phishing websites are little more than static copies of login pages for popular online destinations, and they are often quickly taken down by anti-abuse activists and security firms. But a stealthy new phishing-as-a-service offering lets customers sidestep both of these pitfalls: It uses cleverly disguised links to load the target brand's real website, and then acts as a relay between the target and the legitimate site -- forwarding the victim's username, password and multi-factor authentication (MFA) code to the legitimate site and returning its responses.",
+    "link": "https://krebsonsecurity.com/2026/02/starkiller-phishing-service-proxies-real-login-pages-mfa/",
+    "published": "2026-02-20T20:00:30",
+    "source": "krebsonsecurity.com",
+    "category": "Phishing / Scams",
+    "importance_score": 470,
     "also_covered_by": []
   },
   {
@@ -2335,6 +2385,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Who is the Kimwolf Botmaster “Dort”?",
+    "summary": "In early January 2026, KrebsOnSecurity revealed how a security researcher disclosed a vulnerability that was used to assemble Kimwolf, the world's largest and most disruptive botnet. Since then, the person in control of Kimwolf -- who goes by the handle \"Dort\" -- has coordinated a barrage of distributed denial-of-service (DDoS), doxing and email flooding attacks against the researcher and this author, and more recently caused a SWAT team to be sent to the researcher's home. This post examines what is knowable about Dort based on public information.",
+    "link": "https://krebsonsecurity.com/2026/02/who-is-the-kimwolf-botmaster-dort/",
+    "published": "2026-02-28T12:01:57",
+    "source": "krebsonsecurity.com",
+    "category": "Vulnerability",
+    "importance_score": 165,
+    "also_covered_by": []
+  },
+  {
     "title": "When an Attacker Meets a Group of Agents: Navigating Amazon Bedrock's Multi-Agent Applications",
     "summary": "<p>Unit 42 research on multi-agent AI systems on Amazon Bedrock reveals new attack surfaces and prompt injection risks. Learn how to secure your AI applications.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/amazon-bedrock-multiagent-applications/\">When an Attacker Meets a Group of Agents: Navigating Amazon Bedrock&#039;s Multi-Agent Applications</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
     "link": "https://unit42.paloaltonetworks.com/amazon-bedrock-multiagent-applications/",
@@ -2352,6 +2412,16 @@
     "source": "unit42.paloaltonetworks.com",
     "category": "AI & Security",
     "importance_score": 155,
+    "also_covered_by": []
+  },
+  {
+    "title": "How AI Assistants are Moving the Security Goalposts",
+    "summary": "AI-based assistants or \"agents\" -- autonomous programs that have access to the user's computer, files, online services and can automate virtually any task -- are growing in popularity with developers and IT workers. But as so many eyebrow-raising headlines over the past few weeks have shown, these powerful and assertive new tools are rapidly shifting the security priorities for organizations, while blurring the lines between data and code, trusted co-worker and insider threat, ninja hacker and novice code jockey.",
+    "link": "https://krebsonsecurity.com/2026/03/how-ai-assistants-are-moving-the-security-goalposts/",
+    "published": "2026-03-08T23:35:42",
+    "source": "krebsonsecurity.com",
+    "category": "AI & Security",
+    "importance_score": 154,
     "also_covered_by": []
   },
   {
@@ -2382,6 +2452,16 @@
     "source": "unit42.paloaltonetworks.com",
     "category": "Other",
     "importance_score": 148,
+    "also_covered_by": []
+  },
+  {
+    "title": "Feds Disrupt IoT Botnets Behind Huge DDoS Attacks",
+    "summary": "The U.S. Justice Department joined authorities in Canada and Germany in dismantling the online infrastructure behind four highly disruptive botnets that compromised more than three million hacked Internet of Things (IoT) devices, such as routers and web cameras. The feds say the four botnets -- named Aisuru, Kimwolf, JackSkid and Mossad -- are responsible for a series of recent record-smashing distributed denial-of-service (DDoS) attacks capable of knocking nearly any target offline.",
+    "link": "https://krebsonsecurity.com/2026/03/feds-disrupt-iot-botnets-behind-huge-ddos-attacks/",
+    "published": "2026-03-20T00:49:19",
+    "source": "krebsonsecurity.com",
+    "category": "Other",
+    "importance_score": 146,
     "also_covered_by": []
   },
   {
@@ -2427,6 +2507,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Iran-Backed Hackers Claim Wiper Attack on Medtech Firm Stryker",
+    "summary": "A hacktivist group with links to Iran's intelligence agencies is claiming responsibility for a data-wiping attack against Stryker, a global medical technology company based in Michigan. News reports out of Ireland, Stryker's largest hub outside of the United States, said the company sent home more than 5,000 workers there today. Meanwhile, a voicemail message at Stryker's main U.S. headquarters says the company is currently experiencing a building emergency.",
+    "link": "https://krebsonsecurity.com/2026/03/iran-backed-hackers-claim-wiper-attack-on-medtech-firm-stryker/",
+    "published": "2026-03-11T16:20:13",
+    "source": "krebsonsecurity.com",
+    "category": "Other",
+    "importance_score": 138,
+    "also_covered_by": []
+  },
+  {
     "title": "Firefox Security Response to pwn2own 2025",
     "summary": "<p>At Mozilla, we consider security to be a paramount aspect of the web. This is why not only does Firefox have a long running bug bounty program but also mature &#8230; <a class=\"go\" href=\"https://blog.mozilla.org/security/2025/05/17/firefox-security-response-to-pwn2own-2025/\">Read more</a></p>\n<p>The post <a href=\"https://blog.mozilla.org/security/2025/05/17/firefox-security-response-to-pwn2own-2025/\">Firefox Security Response to pwn2own 2025</a> appeared first on <a href=\"https://blog.mozilla.org/security\">Mozilla Security Blog</a>.</p>",
     "link": "https://blog.mozilla.org/security/2025/05/17/firefox-security-response-to-pwn2own-2025/",
@@ -2454,6 +2544,16 @@
     "source": "blog.mozilla.org",
     "category": "Other",
     "importance_score": 131,
+    "also_covered_by": []
+  },
+  {
+    "title": "Kimwolf Botnet Swamps Anonymity Network I2P",
+    "summary": "For the past week, the massive \"Internet of Things\" (IoT) botnet known as Kimwolf has been disrupting the The Invisible Internet Project (I2P), a decentralized, encrypted communications network designed to anonymize and secure online communications. I2P users started reporting disruptions in the network around the same time the Kimwolf botmasters began relying on it to evade takedown attempts against the botnet's control servers.",
+    "link": "https://krebsonsecurity.com/2026/02/kimwolf-botnet-swamps-anonymity-network-i2p/",
+    "published": "2026-02-11T16:08:11",
+    "source": "krebsonsecurity.com",
+    "category": "Ransomware",
+    "importance_score": 129,
     "also_covered_by": []
   },
   {
