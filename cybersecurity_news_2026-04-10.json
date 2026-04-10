@@ -305,16 +305,6 @@
     "also_covered_by": []
   },
   {
-    "title": "China-Linked Storm-1175 Exploits Zero-Days to Rapidly Deploy Medusa Ransomware",
-    "summary": "A&nbsp;China-based threat actor known for deploying Medusa ransomware has been linked to the weaponization of a combination of zero-day and N-day vulnerabilities to orchestrate \"high-velocity\" attacks and break into susceptible internet-facing&nbsp;systems.\n\"The threat actor's high operational tempo and proficiency in identifying exposed perimeter assets have proven successful, with recent",
-    "link": "https://thehackernews.com/2026/04/china-linked-storm-1175-exploits-zero.html",
-    "published": "2026-04-07T06:35:00",
-    "source": "thehackernews.com",
-    "category": "Ransomware",
-    "importance_score": 1427,
-    "also_covered_by": []
-  },
-  {
     "title": "Eurail Confirms Security Breach Affecting Over 300,000 U.S. Individuals",
     "summary": "<p><img alt=\"Eurail data breach\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"768\" src=\"https://thecyberexpress.com/wp-content/uploads/Eurail-data-breach.webp\" title=\"Eurail Confirms Security Breach Affecting Over 300,000 U.S. Individuals 15\" width=\"1376\" /></p>The Eurail data breach has exposed personal information of <a href=\"https://justice.oregon.gov/consumer/DataBreach\" rel=\"nofollow noopener\" target=\"_blank\">approximately 308,777 individuals</a> in the United States, according to a disclosure by Eurail B.V., the Netherlands-based company that manages the official online sales platform for Eurail and Interrail rail passes. Among those affected are<a href=\"https://mm.nh.gov/files/uploads/doj/remote-docs/eurail-bv-20260327.pdf\" rel=\"nofollow noopener\" target=\"_blank\"> 242 residents</a> of New Hampshire.\n\nThe <a href=\"https://thecyberexpress.com/eurail-breach-data-on-dark-web-for-sale/\" rel=\"noopener\" target=\"_blank\">Eurail data breach</a> occurred between late December 2025 and early January 2026, when an unauthorized actor gained access to Eurail’s network and transferred files. The company identified the issue after detecting unusual activity within its systems and later confirmed the exposure of personal <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-data/\" title=\"data\">data</a>.\n<h3><strong>Eurail Data Breach Timeline and Response</strong></h3>\nFollowing the detection of suspicious activity, Eurail activated its incident response procedures and initiated an investigation with third-party <a class=\"wpil_keyword_link\" href=\"https://cyble.com/knowledge-hub/what-is-cybersecurity/\" rel=\"noopener\" target=\"_blank\" title=\"cybersecurity\">cybersecurity</a> experts. Law enforcement was also notified and is continuing to investigate the incident.\n\nAccording to the company, the unauthorized access took place on December 26, 2025, when files were transferred from its network. The investigation concluded that these files contained personal information, with the final determination made on February 25, 2026.\n\nEurail began notifying affected individuals and state authorities on March 27, 2026, reporting the breach to attorneys <a class=\"wpil_keyword_link\" href=\"https://cyble.com/general/\" rel=\"noopener\" target=\"_blank\" title=\"general\">general</a> in California, New Hampshire, Oregon, and Vermont. A <a href=\"https://oag.ca.gov/system/files/Eurail_%20CA%20App%20%26%20Sample_0.pdf\" rel=\"nofollow noopener\" target=\"_blank\">public notice was also issued </a>on the European Youth Portal.\n<h3><strong>Information Compromised in the Eurail Data Breach</strong></h3>\nThe company confirmed that the Eurail <a class=\"wpil_keyword_link\" href=\"https://cyble.com/knowledge-hub/what-is-a-data-breach/\" rel=\"noopener\" target=\"_blank\" title=\"data breach\">data breach</a> involved sensitive personal information, including:\n<ul>\n \t<li>Names</li>\n \t<li>Passport numbers</li>\n</ul>\nWhile this represents the confirmed data for U.S. individuals, earlier findings suggest that the broader impact may be more extensive. Previous disclosures linked to the incident indicated that additional data types were compromised, including financial and health-related information.\n<h3><strong>Broader Exposure Linked to Eurail Data Breach</strong></h3>\nEarlier this year, Eurail confirmed that data from a prior breach was being offered for <a href=\"https://thecyberexpress.com/eurail-breach-data-on-dark-web-for-sale/\" rel=\"noopener\" target=\"_blank\">sale on the dark web</a>, with samples appearing on Telegram. This development suggested that the incident extended beyond initial containment and had evolved into a wider data exposure situation.\n\nThe earlier dataset reportedly included passport details, bank account IBANs, email addresses, phone numbers, and health information, in addition to names. The combination of such data increases the risk of identity theft, financial <a class=\"wpil_keyword_link\" href=\"https://cyble.com/cybercrime/fraud/\" rel=\"noopener\" target=\"_blank\" title=\"fraud\">fraud</a>, and long-term misuse.\n\nThe breach is also believed to have affected customers who purchased Eurail or Interrail passes through partner channels, as well as participants in the DiscoverEU program, which issued its own warning that sensitive personal details, including passport copies and financial information, may have been exposed.\n<h3><strong>Company Measures and Security Actions</strong></h3>\nIn response to the Eurail data breach, the company has taken several steps, including terminating unauthorized access, strengthening internal <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/\" title=\"security\">security</a> measures, and continuing its cooperation with law enforcement and cybersecurity experts.\n\nEurail stated that it takes the protection of customer information seriously and is working to prevent similar incidents in the future. The investigation into the full scope of the breach is ongoing.\n<h3><strong>What Affected Individuals Should Do</strong></h3>\nEurail has advised customers to stay alert to suspicious communications, especially any requests for personal information. Individuals are encouraged not to share sensitive data with unknown or unsolicited contacts claiming to represent the company.\n\nThe company also recommends that users monitor their financial accounts and review credit reports regularly for any unauthorized activity. In the United States, consumers can obtain a free annual credit report from each of the three major credit bureaus.\n\nThose who suspect misuse of their information are advised to contact the <a href=\"https://thecyberexpress.com/ftc-complaint-against-sendit-app-ceo/\" rel=\"noopener\" target=\"_blank\">Federal Trade Commission</a>, reach out to their state’s attorney general office, and report the matter to local law enforcement.\n<h3><strong>A Growing Risk Around Travel Data</strong></h3>\nThe Eurail data breach highlights the risks associated with large-scale travel platforms that handle sensitive identity and financial information. With passport numbers and other personal identifiers involved, the exposure can lead to long-term consequences for affected individuals.\n\nAs investigations continue, the incident reinforces the need for stronger data protection measures and constant monitoring across systems that manage sensitive traveler information.",
     "link": "https://thecyberexpress.com/eurail-data-breach-update/",
@@ -435,6 +425,16 @@
     "also_covered_by": []
   },
   {
+    "title": "China-Linked Storm-1175 Exploits Zero-Days to Rapidly Deploy Medusa Ransomware",
+    "summary": "A&nbsp;China-based threat actor known for deploying Medusa ransomware has been linked to the weaponization of a combination of zero-day and N-day vulnerabilities to orchestrate \"high-velocity\" attacks and break into susceptible internet-facing&nbsp;systems.\n\"The threat actor's high operational tempo and proficiency in identifying exposed perimeter assets have proven successful, with recent",
+    "link": "https://thehackernews.com/2026/04/china-linked-storm-1175-exploits-zero.html",
+    "published": "2026-04-07T06:35:00",
+    "source": "thehackernews.com",
+    "category": "Ransomware",
+    "importance_score": 1262,
+    "also_covered_by": []
+  },
+  {
     "title": "U.S. Treasury Rolls Out Cybersecurity Information Sharing Initiative as Crypto Attacks Rise",
     "summary": "<p><img alt=\"digital asset cybersecurity initiative\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"768\" src=\"https://thecyberexpress.com/wp-content/uploads/digital-asset-cybersecurity-initiative.webp\" title=\"U.S. Treasury Rolls Out Cybersecurity Information Sharing Initiative as Crypto Attacks Rise 3\" width=\"1376\" /></p>The <a href=\"https://thecyberexpress.com/treasury-sanctions-iranian-behind-nemesis/\" rel=\"noopener\" target=\"_blank\">U.S. Department of the Treasury</a> has unveiled a new digital asset cybersecurity initiative, aimed at strengthening defenses across the rapidly growing digital asset ecosystem. The initiative, announced by the Treasury’s Office of Cybersecurity and Critical Infrastructure Protection (OCCIP), seeks to provide timely and actionable cyber threat intelligence to eligible U.S.-based digital asset firms.\n\nThe move comes amid escalating cyberattacks targeting cryptocurrency platforms and follows recommendations outlined in the federal <a href=\"https://www.whitehouse.gov/wp-content/uploads/2025/07/Digital-Assets-Report-EO14178.pdf\" rel=\"nofollow noopener\" target=\"_blank\">report</a> <em>“Strengthening American Leadership in Digital Financial Technology.”</em>\n<h3><strong>Understanding About Digital Asset Cybersecurity Initiative </strong></h3>\nAt its core, the digital asset cybersecurity initiative will extend high-quality <a class=\"wpil_keyword_link\" href=\"https://cyble.com/knowledge-hub/different-types-of-threat-intelligence/\" rel=\"noopener\" target=\"_blank\" title=\"threat intelligence\">threat intelligence</a>, previously reserved for traditional financial institutions—to digital asset companies and industry organizations. This includes insights that help firms detect, prevent, and respond to <a href=\"https://thecyberexpress.com/?s=cyber+threats\" rel=\"noopener\" target=\"_blank\">cyber threats</a> affecting their platforms, customers, and infrastructure.\n\n“Digital asset firms are an increasingly important part of the U.S. financial sector, and their resilience is critical to the health of the broader system,” <a href=\"https://home.treasury.gov/news/press-releases/sb0437\" rel=\"nofollow noopener\" target=\"_blank\">said</a> Luke Pettit, Assistant Secretary for Financial Institutions.\n\n“By extending access to the same high-quality <a class=\"wpil_keyword_link\" href=\"https://cyble.com/knowledge-hub/what-is-cybersecurity/\" rel=\"noopener\" target=\"_blank\" title=\"cybersecurity\">cybersecurity</a> information used by traditional financial institutions, Treasury is helping promote a more secure and responsible digital asset ecosystem,” he added further.\n\nEligible firms that meet Treasury criteria will receive this information at no cost, signaling a broader push to align cybersecurity standards across financial sectors.\n<h3><strong>Rising Threats Drive Urgency for Digital Asset Cybersecurity</strong></h3>\nThe digital asset cybersecurity initiative comes at a time when cyber threats against <a href=\"https://thecyberexpress.com/fbi-warns-of-cryptocurrency-scam/\" rel=\"noopener\" target=\"_blank\">cryptocurrency platforms</a> are intensifying in both scale and complexity. Treasury officials emphasized that the initiative directly responds to this evolving threat landscape.\n\n“Cyber threats targeting digital asset platforms are growing in frequency and sophistication,” said Cory Wilson, Deputy Assistant Secretary for Cybersecurity. “This initiative expands access to actionable threat information that helps firms strengthen defenses, reduce <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-are-risks-in-cybersecurity/\" title=\"risk\">risk</a>, and respond more effectively to incidents.”\n\nRecent incidents emphasize the urgency. Alleged North Korean hackers <a href=\"https://fortune.com/2026/04/02/latest-crypto-hack-sees-thieves-make-off-with-280-million-from-solana-defi-platform-drift/\" rel=\"nofollow noopener\" target=\"_blank\">reportedly</a> stole $280 million from crypto platform Drift using a complex attack. Industry-wide losses exceeded $3.4 billion last year, with billions more lost annually over the past five years.\n\nIn another case, Bitcoin ATM operator Bitcoin Depot <a href=\"https://thecyberexpress.com/bitcoin-depot-cyberattack/\" rel=\"noopener\" target=\"_blank\">disclosed a cyberattack</a> on March 23 that resulted in losses exceeding $3.6 million. Additional breaches this year have reported losses of $26 million and $40 million, highlighting persistent <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-are-vulnerabilities/\" title=\"vulnerabilities\">vulnerabilities</a> across the sector.\n<h3><strong>Government Push Amid Ongoing Crypto Crime</strong></h3>\nDespite increased enforcement efforts, cybercriminals and nation-state actors continue to <a class=\"wpil_keyword_link\" href=\"https://cyble.com/exploit/\" rel=\"noopener\" target=\"_blank\" title=\"exploit\">exploit</a> weaknesses in the digital asset ecosystem. U.S. authorities, including the <a href=\"https://thecyberexpress.com/justice-department-seizes-heartsender-websites/\" rel=\"noopener\" target=\"_blank\">Justice Department</a>, have ramped up prosecutions and issued repeated warnings about infiltration attempts, particularly by North Korean threat groups.\n\nHowever, these measures have had limited success in curbing attacks. Threat actors continue to exploit coding flaws, <a class=\"wpil_keyword_link\" href=\"https://cyble.com/knowledge-hub/what-is-social-engineering/\" rel=\"noopener\" target=\"_blank\" title=\"social engineering\">social engineering</a> tactics, and employee vulnerabilities to gain access to crypto platforms.\n\nThe digital asset cybersecurity initiative is designed to complement these efforts by shifting focus toward proactive defense and real-time intelligence sharing rather than reactive enforcement alone.\n<h3><strong>Strengthening the Future of Digital Finance</strong></h3>\nTreasury officials also framed the digital asset cybersecurity initiative as a foundational step for the future of digital finance. As digital assets become more integrated into mainstream financial systems, cybersecurity is emerging as a critical pillar for sustainable growth.\n\n“This initiative reflects the principles of the GENIUS Act by promoting responsible innovation grounded in strong cybersecurity and operational resilience,” said Tyler Williams, Counselor to the Secretary for Digital Assets.\n\n“As digital assets become more integrated into the financial system, access to timely and actionable <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/cyber-news/\" title=\"cyber\">cyber</a> threat information is essential to protecting consumers and safeguarding the stability of U.S. financial markets,” Williams added.\n\nThe broader federal strategy emphasizes balancing innovation with <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/\" title=\"security\">security</a>. The Treasury’s report highlights the need for regulatory clarity, risk mitigation, and public-private collaboration to support the long-term growth of digital assets while addressing illicit finance and cyber risks.\n<h3><strong>A Step Toward Industry-Wide Cyber Resilience</strong></h3>\nWith cyberattacks continuing to disrupt the <a href=\"https://thecyberexpress.com/?s=crypto+ecosystem\">crypto ecosystem</a>, the digital asset cybersecurity initiative represents a significant step toward improving industry-wide resilience. By bridging the gap between traditional financial cybersecurity frameworks and emerging digital asset platforms, the initiative aims to create a more secure and stable environment for innovation.\n\nAs digital assets evolve from niche technology to a core component of global finance, initiatives like this may play a key role in shaping how the industry manages risk, and whether it can keep pace with increasing cyber threats.",
     "link": "https://thecyberexpress.com/digital-asset-cybersecurity-initiative/",
@@ -455,13 +455,13 @@
     "also_covered_by": []
   },
   {
-    "title": "Microsoft suspends dev accounts for high-profile open source projects",
-    "summary": "Microsoft has suspended developer accounts used to maintain multiple high-profile open-source projects without proper notification and no way to quickly reinstate them, effectively blocking them from publishing new software builds and security patches for Windows users. [...]",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-suspends-dev-accounts-for-high-profile-open-source-projects/",
-    "published": "2026-04-09T06:46:26",
-    "source": "bleepingcomputer.com",
+    "title": "CISA Warns of Critical Ivanti EPMM Code Injection Vulnerability Exploited in Attacks",
+    "summary": "<p>The Cybersecurity and Infrastructure Security Agency (CISA) has issued an urgent warning regarding a critical security flaw in Ivanti Endpoint Manager Mobile (EPMM). The agency recently added this flaw, tracked as CVE-2026-1340, to its Known Exploited Vulnerabilities (KEV) catalog after confirming it is being actively exploited in real-world cyberattacks. This means the software fails to [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ivanti-epmm-code-injection-vulnerability/\">CISA Warns of Critical Ivanti EPMM Code Injection Vulnerability Exploited in Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/ivanti-epmm-code-injection-vulnerability/",
+    "published": "2026-04-09T10:54:46",
+    "source": "cybersecuritynews.com",
     "category": "Vulnerability",
-    "importance_score": 1230,
+    "importance_score": 1219,
     "also_covered_by": []
   },
   {
@@ -612,6 +612,36 @@
     "source": "gbhackers.com",
     "category": "Vulnerability",
     "importance_score": 1083,
+    "also_covered_by": []
+  },
+  {
+    "title": "Microsoft suspends dev accounts for high-profile open source projects",
+    "summary": "Microsoft has suspended developer accounts used to maintain multiple high-profile open-source projects without proper notification and no way to quickly reinstate them, effectively blocking them from publishing new software builds and security patches for Windows users. [...]",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-suspends-dev-accounts-for-high-profile-open-source-projects/",
+    "published": "2026-04-09T06:46:26",
+    "source": "bleepingcomputer.com",
+    "category": "Vulnerability",
+    "importance_score": 1065,
+    "also_covered_by": []
+  },
+  {
+    "title": "Hackers Impersonate Linux Foundation Leader in Slack to Target Open Source Developers",
+    "summary": "<p>Open source developers are facing a growing and sophisticated threat — one that does not rely on complex exploits or hidden vulnerabilities but instead uses something far simpler: trust. A social engineering campaign is actively targeting developers through Slack, where an attacker poses as a respected Linux Foundation community leader to trick victims into downloading [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-impersonate-linux-foundation-leader/\">Hackers Impersonate Linux Foundation Leader in Slack to Target Open Source Developers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/hackers-impersonate-linux-foundation-leader/",
+    "published": "2026-04-09T11:26:52",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 1065,
+    "also_covered_by": []
+  },
+  {
+    "title": "AWS Patches Critical RCE and Escalate Privileges in Research and Engineering Studio",
+    "summary": "<p>Amazon Web Services (AWS) has released an important security bulletin addressing three severe vulnerabilities in its Research and Engineering Studio (RES). These flaws could allow authenticated attackers to execute arbitrary commands as root and escalate privileges within a targeted cloud environment. AWS Research and Engineering Studio is an open-source web portal designed to help administrators [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/aws-patches/\">AWS Patches Critical RCE and Escalate Privileges in Research and Engineering Studio</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/aws-patches/",
+    "published": "2026-04-10T06:16:36",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 1064,
     "also_covered_by": []
   },
   {
@@ -772,6 +802,16 @@
     "source": "bleepingcomputer.com",
     "category": "Vulnerability",
     "importance_score": 875,
+    "also_covered_by": []
+  },
+  {
+    "title": "Hackers Use ClickFix and Malicious DMG Files to Deliver notnullOSX on macOS",
+    "summary": "<p>A new macOS info-stealer named notnullOSX has surfaced, targeting crypto holders with wallets above $10,000. Written in Go, it uses two parallel attack paths — ClickFix social engineering and malicious DMG disk image files — to silently compromise Apple Mac systems. The malware is highly targeted, with operators hand-picking each victim through an affiliate panel [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-use-clickfix-to-deliver-notnullosx/\">Hackers Use ClickFix and Malicious DMG Files to Deliver notnullOSX on macOS</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/hackers-use-clickfix-to-deliver-notnullosx/",
+    "published": "2026-04-09T14:23:37",
+    "source": "cybersecuritynews.com",
+    "category": "Phishing / Scams",
+    "importance_score": 861,
     "also_covered_by": []
   },
   {
@@ -955,6 +995,16 @@
     "also_covered_by": []
   },
   {
+    "title": "MuddyWater Uses Russian MaaS in New ChainShell Attack",
+    "summary": "<p>MuddyWater is now weaponizing a Russian malware-as-a-service (MaaS) platform to run a new operation dubbed “ChainShell”, blending Iranian state targeting with commercially developed cybercrime tooling. The assessment is based on a misconfigured command‑and‑control (C2) web server, 15 malware samples, and a previously undocumented JavaScript/Node.js payload named ChainShell. Investigators conclude that MuddyWater is running at least [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/maas-in-new-chainshell-attack/\">MuddyWater Uses Russian MaaS in New ChainShell Attack</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/maas-in-new-chainshell-attack/",
+    "published": "2026-04-10T06:50:33",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 728,
+    "also_covered_by": []
+  },
+  {
     "title": "Threat actor abuse of AI accelerates from tool to cyberattack surface",
     "summary": "<p>Generative AI is upgrading cyberattacks, from 450% higher phishing click‑through rates to industrialized MFA bypass.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/04/02/threat-actor-abuse-of-ai-accelerates-from-tool-to-cyberattack-surface/\">Threat actor abuse of AI accelerates from tool to cyberattack surface</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/04/02/threat-actor-abuse-of-ai-accelerates-from-tool-to-cyberattack-surface/",
@@ -962,6 +1012,26 @@
     "source": "microsoft.com",
     "category": "Phishing / Scams",
     "importance_score": 718,
+    "also_covered_by": []
+  },
+  {
+    "title": "Hackers Use Fake Security Software to Deliver LucidRook Malware in Taiwan Attacks",
+    "summary": "<p>A newly identified malware called LucidRook has been spotted targeting organizations across Taiwan, hiding inside what appears to be legitimate security software. The attackers went out of their way to make it look convincingly real, forging the icon and application name of a well-known cybersecurity product to trick victims into running it. The campaign focuses [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-use-fake-security-software-to-deliver-lucidrook/\">Hackers Use Fake Security Software to Deliver LucidRook Malware in Taiwan Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/hackers-use-fake-security-software-to-deliver-lucidrook/",
+    "published": "2026-04-09T12:02:07",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 715,
+    "also_covered_by": []
+  },
+  {
+    "title": "New STX RAT Uses Hidden Remote Desktop and Infostealer Features to Evade Detection",
+    "summary": "<p>A newly discovered remote access trojan called STX RAT has emerged as a serious cybersecurity threat in 2026, combining hidden remote desktop access with credential-stealing features to quietly compromise targeted machines. The malware gets its name from the Start of Text (STX) magic byte \\x02 that it prepends to every message sent to its command-and-control (C2) server—a [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/new-stx-rat-uses-hidden-remote-desktop/\">New STX RAT Uses Hidden Remote Desktop and Infostealer Features to Evade Detection</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/new-stx-rat-uses-hidden-remote-desktop/",
+    "published": "2026-04-09T13:38:21",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 714,
     "also_covered_by": []
   },
   {
@@ -1085,16 +1155,6 @@
     "also_covered_by": []
   },
   {
-    "title": "ClickFix Campaign Abuses macOS Script Editor to Deploy Atomic Stealer",
-    "summary": "<p>A refreshed ClickFix campaign that swaps macOS Terminal for Script Editor to deliver an Atomic Stealer payload to unsuspecting Mac users quietly. By abusing the applescript:// URL scheme, attackers sidestep Apple’s new paste-protection in Terminal on macOS Tahoe 26.4 while preserving the same underlying “click-to-fix” social engineering pattern. Traditional ClickFix chains rely on fake support or “system cleanup” pages [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/macos-script-editor-abused/\">ClickFix Campaign Abuses macOS Script Editor to Deploy Atomic Stealer</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/macos-script-editor-abused/",
-    "published": "2026-04-09T11:28:55",
-    "source": "gbhackers.com",
-    "category": "Phishing / Scams",
-    "importance_score": 628,
-    "also_covered_by": []
-  },
-  {
     "title": "‘CanisterWorm’ Springs Wiper Attack Targeting Iran",
     "summary": "A financially motivated data theft and extortion group is attempting to inject itself into the Iran war, unleashing a worm that spreads through poorly secured cloud services and wipes data on infected systems that use Iran's time zone or have Farsi set as the default language.",
     "link": "https://krebsonsecurity.com/2026/03/canisterworm-springs-wiper-attack-targeting-iran/",
@@ -1112,6 +1172,16 @@
     "source": "blog.talosintelligence.com",
     "category": "Phishing / Scams",
     "importance_score": 618,
+    "also_covered_by": []
+  },
+  {
+    "title": "New ClickFix Campaign Uses macOS Script Editor to Deliver Atomic Stealer",
+    "summary": "<p>A newly discovered ClickFix campaign is targeting macOS users through a technique that completely bypasses Terminal, using Script Editor to drop the Atomic Stealer infostealer onto compromised systems. This campaign marks a clear shift in how attackers are responding to Apple&#8217;s tightening security controls — a sharp reminder that social engineering can work around almost [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/new-clickfix-campaign-uses-macos-script-editor/\">New ClickFix Campaign Uses macOS Script Editor to Deliver Atomic Stealer</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/new-clickfix-campaign-uses-macos-script-editor/",
+    "published": "2026-04-09T15:01:04",
+    "source": "cybersecuritynews.com",
+    "category": "Phishing / Scams",
+    "importance_score": 615,
     "also_covered_by": []
   },
   {
@@ -1355,16 +1425,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Technical Details Released for Critical Cisco SSM Command Execution Vulnerability",
-    "summary": "<p>Security researchers have published technical details regarding a highly critical vulnerability in the Cisco Smart Software Manager On-Prem (SSM On-Prem). Tracked as CVE-2026-20160, this flaw carries a near-maximum CVSS score of 9.8. It allows remote, unauthenticated attackers to execute commands as a root user. With no workarounds available, organizations must apply patches immediately to secure [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/technical-details-critical-cisco-ssm-command-execution-vulnerability/\">Technical Details Released for Critical Cisco SSM Command Execution Vulnerability</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/technical-details-critical-cisco-ssm-command-execution-vulnerability/",
-    "published": "2026-04-09T11:24:22",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 486,
-    "also_covered_by": []
-  },
-  {
     "title": "Atomic Stealer MacOS ClickFix Attack Bypasses Apple Security Warnings",
     "summary": "macOS 26.4 update introduced security warnings into Terminal to prevent ClickFix attacks, so attackers have shifted to Script Editor instead",
     "link": "https://www.infosecurity-magazine.com/news/atomic-stealer-macos-clickfix/",
@@ -1382,6 +1442,26 @@
     "source": "malwarebytes.com",
     "category": "Other",
     "importance_score": 484,
+    "also_covered_by": []
+  },
+  {
+    "title": "Juniper Networks Default Credential Vulnerability Allows Unauthorized Full Access",
+    "summary": "<p>Juniper Networks has issued a critical security alert regarding a severe vulnerability in its Support Insights (JSI) Virtual Lightweight Collector (vLWC). Tracked as CVE-2026-33784, this default credential flaw carries a near-maximum CVSS v3.1 severity score of 9.8. If left unresolved, the vulnerability allows remote, unauthenticated attackers to seize complete control over affected network devices. The [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/juniper-networks-default-credential-vulnerability/\">Juniper Networks Default Credential Vulnerability Allows Unauthorized Full Access</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/juniper-networks-default-credential-vulnerability/",
+    "published": "2026-04-10T06:48:17",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 483,
+    "also_covered_by": []
+  },
+  {
+    "title": "GitLab Patches Multiple Vulnerabilities That Enables DoS and Code Injection Attacks",
+    "summary": "<p>GitLab has released urgent security updates (versions 18.10.3, 18.9.5, and 18.8.9) for its Community Edition (CE) and Enterprise Edition (EE) to address high-severity flaws that enable Denial-of-Service (DoS) and code-injection attacks. GitLab strongly advises all administrators of self-managed systems to upgrade immediately to protect their instances. High-Severity Vulnerabilities The latest security release resolves three high-severity [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/gitlab-patches-multiple-vulnerabilities-2/\">GitLab Patches Multiple Vulnerabilities That Enables DoS and Code Injection Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/gitlab-patches-multiple-vulnerabilities-2/",
+    "published": "2026-04-09T10:33:15",
+    "source": "cybersecuritynews.com",
+    "category": "Policy / Law",
+    "importance_score": 482,
     "also_covered_by": []
   },
   {
@@ -1421,6 +1501,16 @@
     "published": "2026-04-07T17:02:44",
     "source": "krebsonsecurity.com",
     "category": "Policy / Law",
+    "importance_score": 475,
+    "also_covered_by": []
+  },
+  {
+    "title": "Single Line of Code Can jailbreak 11 AI models Including ChatGPT, Claude, and Gemini",
+    "summary": "<p>A newly detailed jailbreak technique known as &#8220;sockpuppeting&#8221; allows attackers to bypass the safety guardrails of 11 major large language models (LLMs) using a single line of code. Unlike complex attacks, this method exploits APIs that support assistant prefill to inject fake acceptance messages, forcing models to answer prohibited requests. The attack exploits &#8220;assistant prefill,&#8221; [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/single-line-of-code-can-jailbreak-11-ai-models/\">Single Line of Code Can jailbreak 11 AI models Including ChatGPT, Claude, and Gemini</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/single-line-of-code-can-jailbreak-11-ai-models/",
+    "published": "2026-04-10T06:40:44",
+    "source": "cybersecuritynews.com",
+    "category": "AI & Security",
     "importance_score": 475,
     "also_covered_by": []
   },
@@ -1475,6 +1565,16 @@
     "also_covered_by": []
   },
   {
+    "title": "WhatsApp Introduces Username Feature for Connecting Without Sharing Phone Numbers",
+    "summary": "<p>WhatsApp is preparing to roll out a long-anticipated username feature that will allow users to communicate without ever revealing their phone numbers, a significant privacy upgrade for one of the world&#8217;s most widely used messaging platforms. First spotted by WABetaInfo in the WhatsApp beta for iOS 26.1.10.70, the username system is compatible across Android, iOS, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/whatsapp-username-feature/\">WhatsApp Introduces Username Feature for Connecting Without Sharing Phone Numbers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/whatsapp-username-feature/",
+    "published": "2026-04-10T02:57:40",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 460,
+    "also_covered_by": []
+  },
+  {
     "title": "The threat hunter’s gambit",
     "summary": "Bill discusses why obsessing over strategy games is actually a secret weapon to outsmart threat actors.",
     "link": "https://blog.talosintelligence.com/the-threat-hunters-gambit/",
@@ -1512,16 +1612,6 @@
     "source": "thehackernews.com",
     "category": "Other",
     "importance_score": 438,
-    "also_covered_by": []
-  },
-  {
-    "title": "$3.6 Million Stolen in Bitcoin Depot Hack",
-    "summary": "<p>A hacker transferred more than 50 bitcoin from the Bitcoin ATM operator’s wallets after stealing credentials. </p>\n<p>The post <a href=\"https://www.securityweek.com/3-6-million-stolen-in-bitcoin-depot-hack/\">$3.6 Million Stolen in Bitcoin Depot Hack</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-    "link": "https://www.securityweek.com/3-6-million-stolen-in-bitcoin-depot-hack/",
-    "published": "2026-04-09T06:41:40",
-    "source": "securityweek.com",
-    "category": "Other",
-    "importance_score": 421,
     "also_covered_by": []
   },
   {
@@ -2172,6 +2262,16 @@
     "source": "securelist.com",
     "category": "Other",
     "importance_score": 258,
+    "also_covered_by": []
+  },
+  {
+    "title": "$3.6 Million Stolen in Bitcoin Depot Hack",
+    "summary": "<p>A hacker transferred more than 50 bitcoin from the Bitcoin ATM operator’s wallets after stealing credentials. </p>\n<p>The post <a href=\"https://www.securityweek.com/3-6-million-stolen-in-bitcoin-depot-hack/\">$3.6 Million Stolen in Bitcoin Depot Hack</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "link": "https://www.securityweek.com/3-6-million-stolen-in-bitcoin-depot-hack/",
+    "published": "2026-04-09T06:41:40",
+    "source": "securityweek.com",
+    "category": "Other",
+    "importance_score": 256,
     "also_covered_by": []
   },
   {
