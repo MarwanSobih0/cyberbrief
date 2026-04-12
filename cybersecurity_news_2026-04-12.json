@@ -505,6 +505,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Ransomware Gangs Expand Use of EDR Killers Beyond Vulnerable Drivers, ESET Warns",
+    "summary": "<p>In recent years, Endpoint Detection and Response (EDR) killers have become a standard, highly effective weapon in modern ransomware intrusions. Before launching their file-encrypting malware, cybercriminals routinely deploy specialized tools to bypass security software. According to a comprehensive new report by ESET Research, the threat landscape has grown far beyond the well-known Bring Your Own [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ransomware-gangs-expand-use-of-edr-killers/\">Ransomware Gangs Expand Use of EDR Killers Beyond Vulnerable Drivers, ESET Warns</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/ransomware-gangs-expand-use-of-edr-killers/",
+    "published": "2026-04-11T05:13:11",
+    "source": "cybersecuritynews.com",
+    "category": "Ransomware",
+    "importance_score": 1021,
+    "also_covered_by": []
+  },
+  {
     "title": "Microsoft Patch Tuesday, March 2026 Edition",
     "summary": "Microsoft Corp. today pushed security updates to fix at least 77 vulnerabilities in its Windows operating systems and other software. There are no pressing \"zero-day\" flaws this month (compared to February's five zero-day treat), but as usual some patches may deserve more rapid attention from organizations using Windows. Here are a few highlights from this month's Patch Tuesday.",
     "link": "https://krebsonsecurity.com/2026/03/microsoft-patch-tuesday-march-2026-edition/",
@@ -602,6 +612,36 @@
     "source": "securityweek.com",
     "category": "Vulnerability",
     "importance_score": 927,
+    "also_covered_by": []
+  },
+  {
+    "title": "Hackers Exploit GitHub Copilot Flaw to Exfiltrate Sensitive Data",
+    "summary": "<p>A high-severity flaw in GitHub Copilot Chat recently allowed attackers to silently steal sensitive data like API keys and private source code. Tracked as CVE-2025-59145 with a critical CVSS score of 9.6, this vulnerability required no malicious code execution. Instead, hackers used a clever prompt injection technique known as &#8220;CamoLeak.&#8221; A security researcher publicly disclosed [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-exploit-github-copilot-flaw/\">Hackers Exploit GitHub Copilot Flaw to Exfiltrate Sensitive Data</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/hackers-exploit-github-copilot-flaw/",
+    "published": "2026-04-10T13:02:12",
+    "source": "gbhackers.com",
+    "category": "Data Breach",
+    "importance_score": 922,
+    "also_covered_by": []
+  },
+  {
+    "title": "OpenAI Warns macOS Users to Update ChatGPT and Codex Immediately",
+    "summary": "<p>OpenAI has disclosed a security incident tied to the compromise of Axios, a widely used third-party JavaScript developer library, as part of a broader software supply chain attack detected on March 31, 2026. While the company confirmed no user data, API keys, or systems were compromised, it is taking aggressive precautionary measures to protect its [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openai-macos-users/\">OpenAI Warns macOS Users to Update ChatGPT and Codex Immediately</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/openai-macos-users/",
+    "published": "2026-04-11T16:56:52",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 898,
+    "also_covered_by": []
+  },
+  {
+    "title": "Google Locks Chrome Sessions to Devices to Stop Cookie Theft",
+    "summary": "<p>Google has officially launched a major security upgrade to protect users from session hijacking. Starting with Chrome version 146 for Windows users, Device Bound Session Credentials (DBSC) is now publicly available. This new feature aims to stop malware from stealing web cookies and using them to bypass passwords and multi-factor authentication. Support for macOS users [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/chrome-sessions-to-devices-to-stop-cookie-theft/\">Google Locks Chrome Sessions to Devices to Stop Cookie Theft</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/chrome-sessions-to-devices-to-stop-cookie-theft/",
+    "published": "2026-04-11T08:34:30",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 868,
     "also_covered_by": []
   },
   {
@@ -935,6 +975,26 @@
     "also_covered_by": []
   },
   {
+    "title": "Google Launches Gmail End-to-End Encryption for Android and iOS",
+    "summary": "<p>Google has officially rolled out End-to-End Encryption (E2EE) for the Gmail application on Android and iOS devices. This major update targets users utilizing Gmail client-side encryption. It allows organisations to handle sensitive data confidentially directly from their smartphones or tablets. The feature ensures compliance with strict data sovereignty rules while keeping the workflow entirely mobile. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/gmail-end-to-end-encryption-for-android-and-ios/\">Google Launches Gmail End-to-End Encryption for Android and iOS</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/gmail-end-to-end-encryption-for-android-and-ios/",
+    "published": "2026-04-11T08:56:34",
+    "source": "cybersecuritynews.com",
+    "category": "Ransomware",
+    "importance_score": 619,
+    "also_covered_by": []
+  },
+  {
+    "title": "Google Unveils Device-Bound Chrome Sessions in Anti-Cookie-Theft Move",
+    "summary": "<p>Google officially announced the public rollout of Device Bound Session Credentials (DBSC) for Windows users on Chrome 146. According to the Google Account Security and Chrome teams, this major security update aims to eliminate session hijacking, a primary method for attackers to compromise user accounts. The feature will also expand to macOS in an upcoming [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/device-bound-chrome-sessions-in-anti-cookie-theft-move/\">Google Unveils Device-Bound Chrome Sessions in Anti-Cookie-Theft Move</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/device-bound-chrome-sessions-in-anti-cookie-theft-move/",
+    "published": "2026-04-11T06:52:58",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 611,
+    "also_covered_by": []
+  },
+  {
     "title": "The long road to your crypto: ClipBanker and its marathon infection chain",
     "summary": "Threat actors are distributing a Trojan disguised as Proxifier software; through a multi-stage infection chain, it delivers ClipBanker – malware that replaces cryptocurrency wallet addresses in the clipboard.",
     "link": "https://securelist.com/clipbanker-malware-distributed-via-trojanized-proxifier/119341/",
@@ -962,6 +1022,16 @@
     "source": "malwarebytes.com",
     "category": "Other",
     "importance_score": 580,
+    "also_covered_by": []
+  },
+  {
+    "title": "Middle East Espionage Attack Uses Fake Secure Messaging Apps to Deliver ProSpy",
+    "summary": "<p>Hackers are impersonating popular secure messaging apps to deploy a sophisticated Android spyware tool called ProSpy against journalists, activists, and political figures across the Middle East, in a hack‑for‑hire campaign linked to the BITTER APT group. The campaign has been active since at least 2022. It primarily targets civil society members and potentially government officials in countries [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/secure-messaging-apps-2/\">Middle East Espionage Attack Uses Fake Secure Messaging Apps to Deliver ProSpy</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/secure-messaging-apps-2/",
+    "published": "2026-04-10T09:09:43",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 573,
     "also_covered_by": []
   },
   {
@@ -1145,6 +1215,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Storm-2755 Uses AiTM Hijacking to Divert Employee Salaries",
+    "summary": "<p>Hackers are abusing adversary-in-the-middle (AiTM) session hijacking to steal employee salaries in a new “payroll pirate” campaign tracked by Microsoft as Storm-2755 and targeting Canadian users. By hijacking live Microsoft 365 sessions, the group redirects payroll deposits to attacker-controlled bank accounts while bypassing multifactor authentication (MFA) and blending in with normal user activity. The group’s [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/storm-2755-uses-aitm/\">Storm-2755 Uses AiTM Hijacking to Divert Employee Salaries</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/storm-2755-uses-aitm/",
+    "published": "2026-04-10T14:04:12",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 472,
+    "also_covered_by": []
+  },
+  {
     "title": "‘Starkiller’ Phishing Service Proxies Real Login Pages, MFA",
     "summary": "Most phishing websites are little more than static copies of login pages for popular online destinations, and they are often quickly taken down by anti-abuse activists and security firms. But a stealthy new phishing-as-a-service offering lets customers sidestep both of these pitfalls: It uses cleverly disguised links to load the target brand's real website, and then acts as a relay between the target and the legitimate site -- forwarding the victim's username, password and multi-factor authentication (MFA) code to the legitimate site and returning its responses.",
     "link": "https://krebsonsecurity.com/2026/02/starkiller-phishing-service-proxies-real-login-pages-mfa/",
@@ -1152,6 +1232,26 @@
     "source": "krebsonsecurity.com",
     "category": "Phishing / Scams",
     "importance_score": 470,
+    "also_covered_by": []
+  },
+  {
+    "title": "France to Replace Windows with Linux on Government Desktops",
+    "summary": "<p>France has taken a decisive step toward digital sovereignty, announcing plans to migrate government workstations from Microsoft Windows to Linux. The move was formally declared during an interministerial seminar held on April 8, 2026, organized by the Interministerial Directorate for Digital Affairs (DINUM), the National Cybersecurity Agency of France (ANSSI), the Directorate General for Enterprises [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/france-replace-windows-linux/\">France to Replace Windows with Linux on Government Desktops</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/france-replace-windows-linux/",
+    "published": "2026-04-10T17:29:05",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 463,
+    "also_covered_by": []
+  },
+  {
+    "title": "Anthropic Launches Claude Beta for Word, Bringing AI-Powered Editing to Microsoft Docs",
+    "summary": "<p>Anthropic has officially launched Claude for Word in public beta, bringing its AI assistant directly into Microsoft Word as a native sidebar add-in for Team and Enterprise users on both Mac and Windows platforms. The integration marks a significant step in Anthropic&#8217;s push to embed Claude into everyday productivity workflows beyond chat-based interactions. Claude for [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/claude-beta-for-word/\">Anthropic Launches Claude Beta for Word, Bringing AI-Powered Editing to Microsoft Docs</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/claude-beta-for-word/",
+    "published": "2026-04-11T02:10:43",
+    "source": "cybersecuritynews.com",
+    "category": "AI & Security",
+    "importance_score": 461,
     "also_covered_by": []
   },
   {
@@ -1435,6 +1535,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Hackers Use AiTM Session Hijacking to Redirect Employee Salaries in New Storm-2755 Campaign",
+    "summary": "<p>A financially motivated threat group called Storm-2755 has launched a campaign that quietly reroutes employee salary payments to attacker-controlled bank accounts. Targeting Canadian workers, the group uses adversary-in-the-middle (AiTM) techniques to hijack authenticated sessions and bypass multi-factor authentication (MFA), in what researchers have labeled &#8220;payroll pirate&#8221; attacks.​ The campaign starts with SEO poisoning and malvertising. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-use-aitm-session-hijacking/\">Hackers Use AiTM Session Hijacking to Redirect Employee Salaries in New Storm-2755 Campaign</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/hackers-use-aitm-session-hijacking/",
+    "published": "2026-04-10T17:44:07",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 336,
+    "also_covered_by": []
+  },
+  {
     "title": "The best AR and MR glasses in 2026: Expert tested and reviewed",
     "summary": "We tested the best AR and MR glasses that seamlessly blend digital content with the real world for immersive work and entertainment experiences.",
     "link": "https://www.zdnet.com/article/best-ar-and-mr-glasses/",
@@ -1485,6 +1595,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Claude and ChatGPT Exploited in Sweeping Cyber Campaign Against Government Agencies",
+    "summary": "<p>In a groundbreaking technical report released by Gambit Security researcher Eyal Sela, new details have emerged about a massive cyberattack targeting government infrastructure. A single threat actor successfully leveraged artificial intelligence platforms to breach nine Mexican government agencies. The campaign, which operated from late December 2025 through mid-February 2026, resulted in the exfiltration of hundreds [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/claude-and-chatgpt-exploited/\">Claude and ChatGPT Exploited in Sweeping Cyber Campaign Against Government Agencies</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/claude-and-chatgpt-exploited/",
+    "published": "2026-04-11T03:49:27",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 332,
+    "also_covered_by": []
+  },
+  {
     "title": "Microsoft's Windows Insider Program is no longer a confusing mess",
     "summary": "Did Microsoft finally fix its preview program for Windows 11? Here's what's changing - including one upgrade I didn't see coming.",
     "link": "https://www.zdnet.com/article/microsoft-windows-insider-program-simplified/",
@@ -1502,6 +1622,16 @@
     "source": "zdnet.com",
     "category": "Other",
     "importance_score": 331,
+    "also_covered_by": []
+  },
+  {
+    "title": "HPE Aruba Private 5G Vulnerability Opens Door to Credential Theft Attacks",
+    "summary": "<p>A newly disclosed security flaw in HPE Aruba Networking Private 5G Core On-Prem is putting enterprise networks at severe risk of credential theft. Documented under the security bulletin HPESBNW05032EN_US, this vulnerability targets the platform&#8217;s graphical user interface and allows threat actors to silently harvest administrative login details. The security defect, officially tracked as CVE-2026-23818, stems [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hpe-aruba-private-5g-vulnerability/\">HPE Aruba Private 5G Vulnerability Opens Door to Credential Theft Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/hpe-aruba-private-5g-vulnerability/",
+    "published": "2026-04-10T09:07:39",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 330,
     "also_covered_by": []
   },
   {
@@ -1525,6 +1655,16 @@
     "also_covered_by": []
   },
   {
+    "title": "TP-Link Devices at Risk as Multiple Security Flaws Enable Takeover",
+    "summary": "<p>Cybersecurity researchers have uncovered five significant security vulnerabilities in the TP-Link Archer AX53 v1.0 router. If left unpatched, these critical flaws could allow attackers to take full control of the device, steal sensitive network data, and compromise connected systems. Because routers serve as the primary gateway for all internet traffic, compromising this device gives attackers [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/tp-link-devices-at-risk-as-multiple-security-flaws/\">TP-Link Devices at Risk as Multiple Security Flaws Enable Takeover</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/tp-link-devices-at-risk-as-multiple-security-flaws/",
+    "published": "2026-04-10T08:53:36",
+    "source": "gbhackers.com",
+    "category": "Policy / Law",
+    "importance_score": 327,
+    "also_covered_by": []
+  },
+  {
     "title": "Google Chrome Rolls Out Protection Against Infostealers Targeting Session Cookies",
     "summary": "Chrome’s Device Bound Session Credentials is designed to block infostealers from harvesting session cookie",
     "link": "https://www.infosecurity-magazine.com/news/google-chrome-protection/",
@@ -1535,6 +1675,16 @@
     "also_covered_by": []
   },
   {
+    "title": "EngageSDK Vulnerability puts millions of crypto wallets at risk",
+    "summary": "<p>A newly disclosed vulnerability in the widely used Android library EngageSDK has raised serious concerns across the cryptocurrency ecosystem, potentially exposing millions of users to data theft and unauthorized access. Security researchers identified a critical “intent redirection” vulnerability in EngageSDK, a third-party Android SDK commonly used for push notifications and in-app messaging. The issue allows [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/engagesdk-vulnerability/\">EngageSDK Vulnerability puts millions of crypto wallets at risk</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/engagesdk-vulnerability/",
+    "published": "2026-04-10T13:44:56",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 324,
+    "also_covered_by": []
+  },
+  {
     "title": "2025 Identity Threat Landscape Report: Inside the Infostealer Economy: Credential Threats in 2025",
     "summary": "Recorded Future's 2025 Identity Threat Landscape Report analyzes hundreds of millions of compromised credentials to reveal how infostealer malware is evolving, which systems attackers are targeting, and what security teams must do to get ahead of credential-based breaches.",
     "link": "https://www.recordedfuture.com/blog/identity-trend-report-march-blog",
@@ -1542,6 +1692,56 @@
     "source": "recordedfuture.com",
     "category": "Other",
     "importance_score": 318,
+    "also_covered_by": []
+  },
+  {
+    "title": "Iranian APT alert: 5,219 Rockwell PLCs exposed online",
+    "summary": "<p>Censys has warned that more than 5,000 Rockwell Automation/Allen-Bradley PLCs are currently exposed to the internet as Iranian-affiliated APT actors actively target these devices across U.S. critical infrastructure. The same operators were previously associated with a November 2023 campaign that compromised at least 75 Unitronics PLCs in U.S. water and wastewater facilities, showing a continuing [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/iranian-apt-alert/\">Iranian APT alert: 5,219 Rockwell PLCs exposed online</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/iranian-apt-alert/",
+    "published": "2026-04-10T10:00:00",
+    "source": "gbhackers.com",
+    "category": "Critical Infrastructure",
+    "importance_score": 316,
+    "also_covered_by": []
+  },
+  {
+    "title": "Hackers Use Fake BTS World Tour Ticket Sites to Scam Fans Across Multiple Countries",
+    "summary": "<p>Cybercriminals are capitalizing on the excitement around BTS&#8217;s long-awaited return to the world stage by setting up fraudulent ticket websites that steal money from unsuspecting fans. The campaign has already reached fans across nine countries, making it one of the most geographically widespread concert ticket scams seen in recent years.​ BTS, one of the biggest [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-use-fake-bts-world-tour-ticket-sites/\">Hackers Use Fake BTS World Tour Ticket Sites to Scam Fans Across Multiple Countries</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/hackers-use-fake-bts-world-tour-ticket-sites/",
+    "published": "2026-04-10T13:43:31",
+    "source": "cybersecuritynews.com",
+    "category": "Phishing / Scams",
+    "importance_score": 315,
+    "also_covered_by": []
+  },
+  {
+    "title": "Hacker Uses Claude and ChatGPT to Breach Multiple Government Agencies",
+    "summary": "<p>A single threat actor compromised nine Mexican government agencies and stole hundreds of millions of citizen records in a highly sophisticated cyberattack. The campaign, which ran from late December 2025 through mid-February 2026, highlights a dangerous shift in the modern threat landscape. Researchers at Gambit Security recently released a full technical report detailing how the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hacker-uses-claude-and-chatgpt-to-breach/\">Hacker Uses Claude and ChatGPT to Breach Multiple Government Agencies</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/hacker-uses-claude-and-chatgpt-to-breach/",
+    "published": "2026-04-11T03:40:28",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 313,
+    "also_covered_by": []
+  },
+  {
+    "title": "EngageSDK Vulnerability Exposes Millions of Crypto Wallet Users to Cyberattacks",
+    "summary": "<p>A serious security flaw found inside a widely used Android library called EngageSDK has put over 30 million cryptocurrency wallet users at risk of financial theft and personal data exposure. The vulnerability, described as an intent redirection flaw, allowed malicious apps on the same device to break through Android&#8217;s built-in security sandbox and gain unauthorized [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/engagesdk-vulnerability-exposes-millions/\">EngageSDK Vulnerability Exposes Millions of Crypto Wallet Users to Cyberattacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/engagesdk-vulnerability-exposes-millions/",
+    "published": "2026-04-10T17:58:02",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 313,
+    "also_covered_by": []
+  },
+  {
+    "title": "Fake BTS Tour Ticket Scams Target Fans Worldwide",
+    "summary": "<p>Cybercriminals are exploiting the massive hype around BTS’s return to the global stage by launching a wave of fake ticketing websites targeting fans across multiple countries. The K-pop group recently reunited after nearly four years, during which members completed mandatory military service in South Korea. Their upcoming “ARIRANG” world tour has triggered overwhelming demand and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fake-bts-tour-ticket/\">Fake BTS Tour Ticket Scams Target Fans Worldwide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/fake-bts-tour-ticket/",
+    "published": "2026-04-10T11:17:45",
+    "source": "gbhackers.com",
+    "category": "Phishing / Scams",
+    "importance_score": 311,
     "also_covered_by": []
   },
   {
