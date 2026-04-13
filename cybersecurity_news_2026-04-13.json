@@ -235,6 +235,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Adobe Fixes Actively Exploited Zero-Day in Acrobat Reader",
+    "summary": "<p>Adobe has released an emergency security update to address a critical zero-day vulnerability in Acrobat and Reader for Windows and macOS. According to Adobe&#8217;s APSB26-43 bulletin, the flaw is currently being exploited in the wild, prompting a Priority 1 rating from the company. Designated as CVE-2026-34621, this vulnerability is an Improperly Controlled Modification of Object [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/adobe-fixes-exploited-zero-day-in-acrobat-reader/\">Adobe Fixes Actively Exploited Zero-Day in Acrobat Reader</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/adobe-fixes-exploited-zero-day-in-acrobat-reader/",
+    "published": "2026-04-13T04:41:57",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 1671,
+    "also_covered_by": []
+  },
+  {
     "title": "Architecting Security for Agentic Capabilities in Chrome",
     "summary": "<span class=\"byline-author\">Posted by Nathan Parker, Chrome security team</span>\n\n<p>\nChrome has been advancing the web’s security for well over 15 years, and we’re committed to meeting new challenges and opportunities with AI. Billions of people trust Chrome to keep them safe by default, and this is a responsibility we take seriously. Following the <a href=\"https://blog.google/products/chrome/new-ai-features-for-chrome/\">recent launch of Gemini in Chrome</a> and the <a href=\"https://www.youtube.com/watch?v=khX5-VHoYds&amp;t=206s\">preview of agentic capabilities</a>, we want to share our approach and some new innovations to improve the safety of agentic browsing. \n</p>\n<p>\nThe primary new threat facing all agentic browsers is <a href=\"https://storage.googleapis.com/deepmind-media/Security%20and%20Privacy/Gemini_Security_Paper.pdf\">indirect prompt injection</a>. It can appear in malicious sites, third-party content in iframes, or from user-generated content like user reviews, and can cause the agent to take unwanted actions such as initiating financial transactions or exfiltrating sensitive data. Given this open challenge, we are investing in a <a href=\"https://security.googleblog.com/2025/06/mitigating-prompt-injection-attacks.html\">layered defense</a> that includes both deterministic and probabilistic defenses to make it difficult and costly for attackers to cause harm. \n</p>\n<p>\nDesigning safe agentic browsing for Chrome has involved deep collaboration of security experts across Google. We built on Gemini's <a href=\"https://deepmind.google/blog/advancing-geminis-security-safeguards/\">existing protections</a> and <a href=\"https://storage.googleapis.com/gweb-research2023-media/pubtools/1018686.pdf\">agent security principles</a> and have implemented several new layers for Chrome.\n</p>\n<p>\nWe’re introducing a<strong> user alignment critic</strong> where the agent’s actions are vetted by a separate model that is isolated from untrusted content. We’re also extending Chrome’s<strong> origin-isolation capabilities</strong> to constrain what origins the agent can interact with, to just those that are relevant to the task. Our layered defense also includes <strong>user confirmations</strong> for critical steps, <strong>real-time detection of threats</strong>, and <strong>red-teaming and response</strong>. We’ll step through these layers below.\n</p>\n<h3 style=\"text-align: left;\">Checking agent outputs with User Alignment Critic </h3>\n\n\n<p>\nThe main planning model for Gemini uses page content shared in Chrome to decide what action to take next. Exposure to untrusted web content means it is inherently vulnerable to indirect prompt injection. We use techniques like <a href=\"https://arxiv.org/abs/2403.14720\">spotlighting</a> that direct the model to strongly prefer following user and system instructions over what’s on the page, and we’ve upstreamed known attacks to train the Gemini model to avoid falling for them. \n</p>\n<p>\nTo further bolster model alignment beyond spotlighting, we’re introducing the <em>User Alignment Critic</em> — a separate model built with Gemini that acts as a high-trust system component. This architecture is inspired partially by the <a href=\"https://simonwillison.net/2023/Apr/25/dual-llm-pattern/\">dual-LLM pattern</a> as well as <a href=\"https://arxiv.org/abs/2503.18813\">CaMeL research</a> from Google DeepMind.\n</p>\n<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWezV0Nm7TXPTsmJ83a-cznJhyphenhyphen_xkl8w37tAJPFxy8BudVH2r1KXm8j2qsaaMd-OynODzr0wR7eNNVgt_DFYXipqlX5YdnWag8w7YdaLRLSJDu7yp9yOppF4NXjVcD3xIP-cTDCMaRGpL32I6fpMuyeW1nAdfpfj4ikl-2yfyuBGwMW39FgCM0pFuZj8gY/s1600/Chrome_Agent%20Safety_Blog%20Graphics_User_AlignmentCriticFlowChart.png\" style=\"display: block; padding: 1em 0; text-align: center;\"><img alt=\"\" border=\"0\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWezV0Nm7TXPTsmJ83a-cznJhyphenhyphen_xkl8w37tAJPFxy8BudVH2r1KXm8j2qsaaMd-OynODzr0wR7eNNVgt_DFYXipqlX5YdnWag8w7YdaLRLSJDu7yp9yOppF4NXjVcD3xIP-cTDCMaRGpL32I6fpMuyeW1nAdfpfj4ikl-2yfyuBGwMW39FgCM0pFuZj8gY/s1600/Chrome_Agent%20Safety_Blog%20Graphics_User_AlignmentCriticFlowChart.png\" /></a></div>\n<p style=\"text-align: center;\">\n<em>A flow chart that depicts the User Alignment Critic: a trusted component that vets each action before it reaches the browser.</em>\n</p>\n<p>\nThe User Alignment Critic runs after the planning is complete to double-check each proposed action. Its primary focus is task alignment: determining whether the proposed action serves the user’s stated goal. If the action is misaligned, the Alignment Critic will veto it. This component is architected to see only metadata about the proposed action and not any unfiltered untrustworthy web content, thus ensuring it cannot be poisoned directly from the web. It has less context, but it also has a simpler job — just approve or reject an action.\n</p>\n<p>\nThis is a powerful, extra layer of defense against both goal-hijacking and data exfiltration within the action step. When an action is rejected, the Critic provides feedback to the planning model to re-formulate its plan, and the planner can return control to the user if there are repeated failures. \n</p>\n<h3 style=\"text-align: left;\">Enforcing stronger security<strong> bound</strong>aries with Origin Sets </h3>\n\n\n<p>\n<a href=\"https://www.chromium.org/Home/chromium-security/site-isolation/\">Site Isolation</a> and the <a href=\"https://web.dev/articles/same-origin-policy\">same-origin policy</a> are fundamental boundaries in Chrome’s security model and we’re carrying forward these concepts into the agentic world. By their nature, agents must operate across websites (e.g. collecting ingredients on one site and filling a shopping cart on another). But if an unrestricted agent is compromised and can interact with arbitrary sites, it can create what is effectively a Site Isolation bypass. That can have a severe impact when the agent operates on a local browser like Chrome, with logged-in sites vulnerable to data exfiltration. To address this, we’re extending those principles with <em>Agent Origin Sets</em>. Our design architecturally limits the agent to only access data from origins that are related to the task at hand, or data that the user has chosen to share with the agent. This prevents a compromised agent from acting arbitrarily on unrelated origins.\n</p>\n<p>\nFor each task on the web, a trustworthy <em>gating function</em> decides which origins proposed by the planner are relevant to the task. The design is to separate these into two sets, tracked for each session:\n</p>\n<ul>\n\n<li><strong>Read-only origins</strong> are those from which Gemini is permitted to consume content. If an iframe’s origin isn’t on the list, the model will not see that content.</li>\n\n<li><strong>Read-writable origins </strong>are those on which the agent is allowed to actuate (e.g., click, type) in addition to reading from. </li>\n</ul>\n<p>\nThis delineation enforces that only data from a limited set of origins is available to the agent, and this data can only be passed on to the writable origins. This bounds the threat vector of cross-origin data leaks. This also gives the browser the ability to enforce some of that separation, such as by not even sending to the model data that is outside the readable set. This reduces the model’s exposure to unnecessary cross-site data. Like the Alignment Critic, the gating functions that calculate these origin sets are not exposed to untrusted web content. The planner can also use context from pages the user explicitly shared in that session, but it cannot add new origins without the gating function’s approval. Outside of web origins, the planning model may ingest other non-web content such as from tool calls, so we also delineate those into read-vs-write calls and similarly check that those calls are appropriate for the task.\n</p>\n<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghyphenhyphenn4DpTjbnJ-VbmzsZDkXeH_6UuBKqmwMaLUPxclu_fmX_-pQaXZ0hmBDvPrBSGX8KeAtdPAasNQRzJuQyG7uMboFixcv4RM-hbJACo263iJ8Cr04JE1PaST2Tcb3x1KfB9ETFj9rYhgpeQO-yXAO7OBHIzzXpaJue0mfqDfqlE6eRYleLz2Y0ZG7MOTu/s1600/Chrome_Agent-Safety_Blog_Read-Writable-Origins.png\" style=\"display: block; padding: 1em 0; text-align: center;\"><img alt=\"\" border=\"0\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghyphenhyphenn4DpTjbnJ-VbmzsZDkXeH_6UuBKqmwMaLUPxclu_fmX_-pQaXZ0hmBDvPrBSGX8KeAtdPAasNQRzJuQyG7uMboFixcv4RM-hbJACo263iJ8Cr04JE1PaST2Tcb3x1KfB9ETFj9rYhgpeQO-yXAO7OBHIzzXpaJue0mfqDfqlE6eRYleLz2Y0ZG7MOTu/s1600/Chrome_Agent-Safety_Blog_Read-Writable-Origins.png\" /></a></div>\n<p style=\"text-align: center;\">\n<em>Iframes from origins that aren’t related to the user’s task are not shown to the model.</em>\n</p>\n<p>\nPage navigations can happen in several ways: If the planner decides to navigate to a new origin that isn’t yet in the readable set, that origin is checked for relevancy by a variant of the User Alignment critic before Chrome adds it and starts the navigation. And since model-generated URLs could exfiltrate private information, we have a deterministic check to restrict them to known, public URLs. If a page in Chrome navigates on its own to a new origin, it’ll get vetted by the same critic.\n</p>\n<p>\nGetting the balance right on the first iteration is hard without seeing how users’ tasks interact with these guardrails. We’ve initially implemented a simpler version of origin gating that just tracks the read-writeable set. We will tune the gating functions and other aspects of this system to reduce unnecessary friction while improving security. We think this architecture will provide a powerful security primitive that can be audited and reasoned about within the client, as it provides guardrails against cross-origin sensitive data exfiltration and unwanted actions.\n</p>\n<h3 style=\"text-align: left;\">Transparency and control for sensitive actions</h3>\n\n\n<p>\nWe designed the agentic capabilities in Chrome to give the user both transparency and control when they need it most. As the agent works in a tab, it details each step in a work log, allowing the user to observe the agent's actions as they happen. The user can pause to take over or stop a task at any time. \n</p>\n<p>\nThis transparency is paired with several layers of deterministic and model-based checks to trigger user confirmations before the agent takes an impactful action. These serve as guardrails against both model mistakes and adversarial input by putting the user in the loop at key moments.\n</p>\n<p>\nFirst, the agent will require a user confirmation before it navigates to certain sensitive sites, such as those dealing with banking transactions or personal medical information. This is based on a deterministic check against a list of sensitive sites. Second, it’ll confirm before allowing Chrome to sign-in to a site via Google Password Manager – the model does not have direct access to stored passwords. Lastly, before any sensitive web actions like completing a purchase or payment, sending messages, or other consequential actions, the agent will try to pause and either get permission from the user before proceeding or ask the user to complete the next step. Like our other safety classifiers, we’re constantly working to improve the accuracy to catch edge cases and grey areas.  \n</p>\n<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOjVhWn_oxNqPIu9-EvQgbwgqzTSp1O_dGOtC-mRTFHcC05Wf-ZY-wUfRHNsYGdnSDvSiVrtW86qsxoeehjaYGBIeuEQuR3oupKhKadZHa0_cyynv2rhWLZQuqcK_o5trwCa6xkCmuDvJDesvfqQrUzgwo-7EC74Zu1dGeJ-2BDnpo6G9Tg6e1M30SVRY5/s1600/Chrome_Agent%20Safety_Blog%20Graphics__Gemini%20in%20Chrome%203.png\" style=\"display: block; padding: 1em 0; text-align: center;\"><img alt=\"\" border=\"0\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOjVhWn_oxNqPIu9-EvQgbwgqzTSp1O_dGOtC-mRTFHcC05Wf-ZY-wUfRHNsYGdnSDvSiVrtW86qsxoeehjaYGBIeuEQuR3oupKhKadZHa0_cyynv2rhWLZQuqcK_o5trwCa6xkCmuDvJDesvfqQrUzgwo-7EC74Zu1dGeJ-2BDnpo6G9Tg6e1M30SVRY5/s1600/Chrome_Agent%20Safety_Blog%20Graphics__Gemini%20in%20Chrome%203.png\" /></a></div>\n<p style=\"text-align: center;\">\n<em>Illustrative example of when the agent gets to a payment page, it stops and asks the user to complete the final step.  </em>\n</p>\n<h3 style=\"text-align: left;\">Detecting “social engineering” of agents </h3>\n\n\n<p>\nIn addition to the structural defenses of alignment checks, origin gating, and confirmations, we have several processes to detect and respond to threats. While the agent is active, it checks every page it sees for indirect prompt injection. This is in addition to Chrome’s <a href=\"https://blog.google/products/chrome/google-chrome-safe-browsing-real-time/\">real-time scanning with Safe Browsing</a> and <a href=\"https://security.googleblog.com/2025/05/using-ai-to-stop-tech-support-scams-in.html\">on-device AI</a> that detect more traditional scams. This prompt-injection classifier runs in parallel to the planning model’s inference, and will prevent actions from being taken based on content that the classifier determined has intentionally targeted the model to do something unaligned with the user’s goal. While it cannot flag everything that might influence the model with malicious intent, it is a valuable layer in our defense-in-depth.\n</p>\n<h3 style=\"text-align: left;\">Continuous auditing, monitoring, response </h3>\n\n\n<p>\nTo validate the security of this set of layered defenses, we’ve built automated red-teaming systems to generate malicious sandboxed sites that try to derail the agent in Chrome. We start with a set of diverse attacks crafted by security researchers, and expand on them using LLMs following a <a href=\"https://storage.googleapis.com/deepmind-media/Security%20and%20Privacy/Gemini_Security_Paper.pdf\">technique</a> we adapted for browser agents. Our continuous testing prioritizes defenses against broad-reach vectors such as user-generated content on social media sites and content delivered via ads. We also prioritize attacks that could lead to lasting harm, such as financial transactions or the leaking of sensitive credentials. The attack success rate across these give immediate feedback to any engineering changes we make, so we can prevent regressions and target improvements. Chrome’s auto-update capabilities allow us to get fixes out to users very quickly, so we can stay ahead of attackers.\n</p>\n<h3 style=\"text-align: left;\">Collaborating across the community</h3>\n\n\n<p>\nWe have a long-standing commitment to working with the broader security research community to advance security together, and this includes agentic safety. We’ve updated our Vulnerability Rewards Program (VRP) guidelines to clarify how external researchers can focus on agentic capabilities in Chrome. We want to hear about any serious vulnerabilities in this system, and will pay up to $20,000 for those that demonstrate breaches in the <a href=\"https://chromium.googlesource.com/chromium/src/+/HEAD/docs/security/faq.md#ai-features\">security boundaries</a>. The full details are available in <a href=\"https://bughunters.google.com/about/rules/chrome-friends/5745167867576320/chrome-vulnerability-reward-program-rules\">VRP rules</a>.\n</p>\n<h3 style=\"text-align: left;\">Looking forward</h3>\n\n\n<p>\nThe upcoming introduction of agentic capabilities in Chrome brings new demands for browser security, and we've approached this challenge with the same rigor that has defined Chrome's security model from its inception. By extending some core principles like origin-isolation and layered defenses, and introducing a trusted-model architecture, we're building a secure foundation for Gemini’s agentic experiences in Chrome. This is an evolving space, and while we're proud of the initial protections we've implemented, we recognize that security for web agents is still an emerging domain. We remain committed to continuous innovation and collaboration with the security community to ensure Chrome users can explore this new era of the web safely.\n</p>",
     "link": "http://security.googleblog.com/2025/12/architecting-security-for-agentic.html",
@@ -445,16 +455,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Germany Doxes “UNKN,” Head of RU Ransomware Gangs REvil, GandCrab",
-    "summary": "An elusive hacker who went by the handle \"UNKN\" and ran the early Russian ransomware groups GandCrab and REvil now has a name and a face. Authorities in Germany say 31-year-old Russian Daniil Maksimovich Shchukin headed both cybercrime gangs and helped carry out at least 130 acts of computer sabotage and extortion against victims across the country between 2019 and 2021.",
-    "link": "https://krebsonsecurity.com/2026/04/germany-doxes-unkn-head-of-ru-ransomware-gangs-revil-gandcrab/",
-    "published": "2026-04-06T02:07:17",
-    "source": "krebsonsecurity.com",
-    "category": "Ransomware",
-    "importance_score": 1191,
-    "also_covered_by": []
-  },
-  {
     "title": "Mitigating the Axios npm supply chain compromise",
     "summary": "<p>On March 31, 2026, the popular HTTP client Axios experienced a supply chain attack, causing two newly published npm packages for version updates to download from command and control (C2) that Microsoft Threat Intelligence has attributed to the North Korean state actor Sapphire Sleet. Although the malicious versions are no longer available for download, since Axios is one of the most widely used HTTP clients in the JavaScript ecosystem, this compromise exposed hundreds to potentially millions of users.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/\">Mitigating the Axios npm supply chain compromise</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
@@ -515,13 +515,13 @@
     "also_covered_by": []
   },
   {
-    "title": "Microsoft Patch Tuesday, March 2026 Edition",
-    "summary": "Microsoft Corp. today pushed security updates to fix at least 77 vulnerabilities in its Windows operating systems and other software. There are no pressing \"zero-day\" flaws this month (compared to February's five zero-day treat), but as usual some patches may deserve more rapid attention from organizations using Windows. Here are a few highlights from this month's Patch Tuesday.",
-    "link": "https://krebsonsecurity.com/2026/03/microsoft-patch-tuesday-march-2026-edition/",
-    "published": "2026-03-11T00:32:51",
-    "source": "krebsonsecurity.com",
-    "category": "Vulnerability",
-    "importance_score": 1014,
+    "title": "Ransomware Gangs Expand Use of EDR Killers Beyond Vulnerable Drivers, ESET Warns",
+    "summary": "<p>In recent years, Endpoint Detection and Response (EDR) killers have become a standard, highly effective weapon in modern ransomware intrusions. Before launching their file-encrypting malware, cybercriminals routinely deploy specialized tools to bypass security software. According to a comprehensive new report by ESET Research, the threat landscape has grown far beyond the well-known Bring Your Own [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ransomware-gangs-expand-use-of-edr-killers/\">Ransomware Gangs Expand Use of EDR Killers Beyond Vulnerable Drivers, ESET Warns</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/ransomware-gangs-expand-use-of-edr-killers/",
+    "published": "2026-04-11T05:13:11",
+    "source": "cybersecuritynews.com",
+    "category": "Ransomware",
+    "importance_score": 1021,
     "also_covered_by": []
   },
   {
@@ -602,6 +602,16 @@
     "source": "securityweek.com",
     "category": "Vulnerability",
     "importance_score": 927,
+    "also_covered_by": []
+  },
+  {
+    "title": "EDR Killers Broaden Ransomware Tactics, ESET Warns",
+    "summary": "<p>Ransomware gangs are rapidly expanding their use of EDR killers, moving beyond vulnerable drivers to a broader mix of scripts, anti‑rootkits, and driverless techniques. The company’s latest telemetry-backed study tracks almost 90 distinct EDR killers actively used in the wild. It warns that these tools have become a predictable, standard stage in modern ransomware operations. In [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/edr-killers/\">EDR Killers Broaden Ransomware Tactics, ESET Warns</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/edr-killers/",
+    "published": "2026-04-13T05:35:18",
+    "source": "gbhackers.com",
+    "category": "Ransomware",
+    "importance_score": 909,
     "also_covered_by": []
   },
   {
@@ -712,6 +722,26 @@
     "source": "helpnetsecurity.com",
     "category": "Phishing / Scams",
     "importance_score": 750,
+    "also_covered_by": []
+  },
+  {
+    "title": "OpenAI Warns macOS Users to Update ChatGPT and Codex Immediately",
+    "summary": "<p>OpenAI has disclosed a security incident tied to the compromise of Axios, a widely used third-party JavaScript developer library, as part of a broader software supply chain attack detected on March 31, 2026. While the company confirmed no user data, API keys, or systems were compromised, it is taking aggressive precautionary measures to protect its [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openai-macos-users/\">OpenAI Warns macOS Users to Update ChatGPT and Codex Immediately</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/openai-macos-users/",
+    "published": "2026-04-11T16:56:52",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 748,
+    "also_covered_by": []
+  },
+  {
+    "title": "Google Locks Chrome Sessions to Devices to Stop Cookie Theft",
+    "summary": "<p>Google has officially launched a major security upgrade to protect users from session hijacking. Starting with Chrome version 146 for Windows users, Device Bound Session Credentials (DBSC) is now publicly available. This new feature aims to stop malware from stealing web cookies and using them to bypass passwords and multi-factor authentication. Support for macOS users [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/chrome-sessions-to-devices-to-stop-cookie-theft/\">Google Locks Chrome Sessions to Devices to Stop Cookie Theft</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/chrome-sessions-to-devices-to-stop-cookie-theft/",
+    "published": "2026-04-11T08:34:30",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 718,
     "also_covered_by": []
   },
   {
@@ -855,6 +885,26 @@
     "also_covered_by": []
   },
   {
+    "title": "Google Brings End-to-End Encrypted Gmail to Android and iPhone",
+    "summary": "<p>Google has officially expanded Gmail’s end-to-end encryption (E2EE) feature to Android and iOS devices, empowering organizations and users to protect the confidentiality of email content directly from their mobile devices. This enhancement is part of Gmail’s client-side encryption (CSE) program, enabling stricter compliance controls and preserving data sovereignty across regulated industries. With this new rollout, Gmail users can [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/gmail-to-android-and-iphone/\">Google Brings End-to-End Encrypted Gmail to Android and iPhone</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/gmail-to-android-and-iphone/",
+    "published": "2026-04-13T04:58:46",
+    "source": "gbhackers.com",
+    "category": "Ransomware",
+    "importance_score": 630,
+    "also_covered_by": []
+  },
+  {
+    "title": "The Complete Guide To SPF Flattening For Office 365, Google Workspace, And Saas Senders",
+    "summary": "<p>Modern email ecosystems rely heavily on authentication to ensure messages are trusted and delivered successfully, and Sender Policy Framework (SPF) plays a critical role in this process. However, as organizations adopt platforms like Microsoft Office 365, Google Workspace, and various SaaS email senders, SPF records can quickly become complex and&#160;exceed the strict 10 DNS lookup [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/the-complete-guide-to-spf-flattening-for-office-365-google-workspace-and-saas-senders/\">The Complete Guide To SPF Flattening For Office 365, Google Workspace, And Saas Senders </a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/the-complete-guide-to-spf-flattening-for-office-365-google-workspace-and-saas-senders/",
+    "published": "2026-04-11T13:59:48",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 630,
+    "also_covered_by": []
+  },
+  {
     "title": "Storm-1175 Exploits Flaws in High-Velocity Medusa Attacks",
     "summary": "Microsoft has released a new report about the Storm-1175 group and its connection to Medusa ransomware",
     "link": "https://www.infosecurity-magazine.com/news/storm1175-medusa-attacks/",
@@ -872,16 +922,6 @@
     "source": "infosecurity-magazine.com",
     "category": "Vulnerability",
     "importance_score": 624,
-    "also_covered_by": []
-  },
-  {
-    "title": "‘CanisterWorm’ Springs Wiper Attack Targeting Iran",
-    "summary": "A financially motivated data theft and extortion group is attempting to inject itself into the Iran war, unleashing a worm that spreads through poorly secured cloud services and wipes data on infected systems that use Iran's time zone or have Farsi set as the default language.",
-    "link": "https://krebsonsecurity.com/2026/03/canisterworm-springs-wiper-attack-targeting-iran/",
-    "published": "2026-03-23T15:43:04",
-    "source": "krebsonsecurity.com",
-    "category": "Other",
-    "importance_score": 622,
     "also_covered_by": []
   },
   {
@@ -1065,6 +1105,16 @@
     "also_covered_by": []
   },
   {
+    "title": "WordPress Plugin Vulnerability Enables Admin Takeover via Auth Bypass",
+    "summary": "<p>A newly disclosed vulnerability, tracked as CVE-2026-1492, has been identified in the User Registration &#38; Membership plugin for WordPress, exposing websites to critical authentication bypass and privilege escalation risks. Affecting versions up to 5.1.2, the vulnerability allows remote attackers to gain full administrative access without valid credentials. The affected plugin, widely used to manage user registration and membership [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/wordpress-plugin-vulnerability-6/\">WordPress Plugin Vulnerability Enables Admin Takeover via Auth Bypass</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/wordpress-plugin-vulnerability-6/",
+    "published": "2026-04-13T06:35:01",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 484,
+    "also_covered_by": []
+  },
+  {
     "title": "Your router may be vulnerable to Russian hackers, FBI warns: 5 steps to take now",
     "summary": "The FBI and NSA warn that Russian hackers are exploiting vulnerable routers, but there are ways you can take to protect yourself.",
     "link": "https://www.zdnet.com/article/router-vulnerable-russian-hackers-fbi-warning/",
@@ -1082,6 +1132,26 @@
     "source": "malwarebytes.com",
     "category": "Data Breach",
     "importance_score": 481,
+    "also_covered_by": []
+  },
+  {
+    "title": "WhatsApp’s “End-to-End Encryption by Default” Claim Called Consumer Fraud by Pavel Durov",
+    "summary": "<p>Telegram founder Pavel Durov has publicly criticized WhatsApp, labeling its &#8220;end-to-end encryption by default&#8221; claim as a massive consumer fraud. He argues that while messages may be encrypted during transit, the default backup settings leave the vast majority of user conversations completely unprotected. In a recent statement on the social media platform X, Durov highlighted [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/whatsapps-end-to-end-encryption-consumer-fraud/\">WhatsApp’s “End-to-End Encryption by Default” Claim Called Consumer Fraud by Pavel Durov</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/whatsapps-end-to-end-encryption-consumer-fraud/",
+    "published": "2026-04-13T04:57:48",
+    "source": "gbhackers.com",
+    "category": "Ransomware",
+    "importance_score": 480,
+    "also_covered_by": []
+  },
+  {
+    "title": "WhatsApp’s ‘End-to-End Encryption by Default’ Claim Called Major Consumer Fraud by Pavel Durov",
+    "summary": "<p>Telegram founder Pavel Durov has accused WhatsApp of perpetrating what he calls &#8220;the biggest consumer fraud in history,&#8221; alleging that the platform&#8217;s widely marketed end-to-end encryption (E2EE) claims are fundamentally misleading, leaving the private messages of billions of users exposed on unencrypted cloud servers. In a post published on April 9, 2026, Durov asserted that [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/whatsapp-end-to-end-encryption-pavel-durov/\">WhatsApp&#8217;s &#8216;End-to-End Encryption by Default&#8217; Claim Called Major Consumer Fraud by Pavel Durov</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/whatsapp-end-to-end-encryption-pavel-durov/",
+    "published": "2026-04-13T02:46:24",
+    "source": "cybersecuritynews.com",
+    "category": "Ransomware",
+    "importance_score": 478,
     "also_covered_by": []
   },
   {
@@ -1115,13 +1185,53 @@
     "also_covered_by": []
   },
   {
-    "title": "‘Starkiller’ Phishing Service Proxies Real Login Pages, MFA",
-    "summary": "Most phishing websites are little more than static copies of login pages for popular online destinations, and they are often quickly taken down by anti-abuse activists and security firms. But a stealthy new phishing-as-a-service offering lets customers sidestep both of these pitfalls: It uses cleverly disguised links to load the target brand's real website, and then acts as a relay between the target and the legitimate site -- forwarding the victim's username, password and multi-factor authentication (MFA) code to the legitimate site and returning its responses.",
-    "link": "https://krebsonsecurity.com/2026/02/starkiller-phishing-service-proxies-real-login-pages-mfa/",
-    "published": "2026-02-20T20:00:30",
-    "source": "krebsonsecurity.com",
-    "category": "Phishing / Scams",
-    "importance_score": 470,
+    "title": "Storm-2755 Uses AiTM Hijacking to Divert Employee Salaries",
+    "summary": "<p>Hackers are abusing adversary-in-the-middle (AiTM) session hijacking to steal employee salaries in a new “payroll pirate” campaign tracked by Microsoft as Storm-2755 and targeting Canadian users. By hijacking live Microsoft 365 sessions, the group redirects payroll deposits to attacker-controlled bank accounts while bypassing multifactor authentication (MFA) and blending in with normal user activity. The group’s [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/storm-2755-uses-aitm/\">Storm-2755 Uses AiTM Hijacking to Divert Employee Salaries</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/storm-2755-uses-aitm/",
+    "published": "2026-04-10T14:04:12",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 472,
+    "also_covered_by": []
+  },
+  {
+    "title": "Google Launches Gmail End-to-End Encryption for Android and iOS Users",
+    "summary": "<p>Google has officially rolled out End-to-End Encryption (E2EE) for the Gmail application on Android and iOS devices. This major update targets users utilizing Gmail client-side encryption. It allows organizations to handle sensitive data confidentially directly from their smartphones or tablets. The feature ensures compliance with strict data sovereignty rules while keeping the workflow entirely mobile. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/gmail-end-to-end-encryption-for-android-and-ios/\">Google Launches Gmail End-to-End Encryption for Android and iOS Users</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/gmail-end-to-end-encryption-for-android-and-ios/",
+    "published": "2026-04-11T08:56:34",
+    "source": "cybersecuritynews.com",
+    "category": "Ransomware",
+    "importance_score": 471,
+    "also_covered_by": []
+  },
+  {
+    "title": "Elon Musk Announces XChat Launch With Self-Destructing Messages",
+    "summary": "<p>Elon Musk has officially announced the launch of XChat, a new secure messaging application scheduled to release on iOS devices on April 17. The platform builds upon the existing direct messaging infrastructure of X (formerly Twitter) but introduces a dedicated environment with advanced privacy controls. This launch represents a significant milestone in Musk&#8217;s long-term vision [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/elon-musk-announces-xchat-launch/\">Elon Musk Announces XChat Launch With Self-Destructing Messages</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/elon-musk-announces-xchat-launch/",
+    "published": "2026-04-13T05:07:24",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 469,
+    "also_covered_by": []
+  },
+  {
+    "title": "Google Unveils Device-Bound Chrome Sessions in Anti-Cookie-Theft Move",
+    "summary": "<p>Google officially announced the public rollout of Device Bound Session Credentials (DBSC) for Windows users on Chrome 146. According to the Google Account Security and Chrome teams, this major security update aims to eliminate session hijacking, a primary method for attackers to compromise user accounts. The feature will also expand to macOS in an upcoming [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/device-bound-chrome-sessions-in-anti-cookie-theft-move/\">Google Unveils Device-Bound Chrome Sessions in Anti-Cookie-Theft Move</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/device-bound-chrome-sessions-in-anti-cookie-theft-move/",
+    "published": "2026-04-11T06:52:58",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 461,
+    "also_covered_by": []
+  },
+  {
+    "title": "Anthropic Launches Claude Beta for Word, Bringing AI-Powered Editing to Microsoft Docs",
+    "summary": "<p>Anthropic has officially launched Claude for Word in public beta, bringing its AI assistant directly into Microsoft Word as a native sidebar add-in for Team and Enterprise users on both Mac and Windows platforms. The integration marks a significant step in Anthropic&#8217;s push to embed Claude into everyday productivity workflows beyond chat-based interactions. Claude for [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/claude-beta-for-word/\">Anthropic Launches Claude Beta for Word, Bringing AI-Powered Editing to Microsoft Docs</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/claude-beta-for-word/",
+    "published": "2026-04-11T02:10:43",
+    "source": "cybersecuritynews.com",
+    "category": "AI & Security",
+    "importance_score": 461,
     "also_covered_by": []
   },
   {
@@ -1355,6 +1465,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Hackers Use AiTM Session Hijacking to Redirect Employee Salaries in New Storm-2755 Campaign",
+    "summary": "<p>A financially motivated threat group called Storm-2755 has launched a campaign that quietly reroutes employee salary payments to attacker-controlled bank accounts. Targeting Canadian workers, the group uses adversary-in-the-middle (AiTM) techniques to hijack authenticated sessions and bypass multi-factor authentication (MFA), in what researchers have labeled &#8220;payroll pirate&#8221; attacks.​ The campaign starts with SEO poisoning and malvertising. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-use-aitm-session-hijacking/\">Hackers Use AiTM Session Hijacking to Redirect Employee Salaries in New Storm-2755 Campaign</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/hackers-use-aitm-session-hijacking/",
+    "published": "2026-04-10T17:44:07",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 336,
+    "also_covered_by": []
+  },
+  {
     "title": "30 years later, I returned to Enlightenment Linux to test the Elive beta - and it's much better",
     "summary": "This Debian-based distro brings back the old-school desktop environment but shrugs off the boring UI. It's still missing some features, though.",
     "link": "https://www.zdnet.com/article/elive-linux/",
@@ -1392,6 +1512,16 @@
     "source": "welivesecurity.com",
     "category": "AI & Security",
     "importance_score": 333,
+    "also_covered_by": []
+  },
+  {
+    "title": "Claude and ChatGPT Exploited in Sweeping Cyber Campaign Against Government Agencies",
+    "summary": "<p>In a groundbreaking technical report released by Gambit Security researcher Eyal Sela, new details have emerged about a massive cyberattack targeting government infrastructure. A single threat actor successfully leveraged artificial intelligence platforms to breach nine Mexican government agencies. The campaign, which operated from late December 2025 through mid-February 2026, resulted in the exfiltration of hundreds [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/claude-and-chatgpt-exploited/\">Claude and ChatGPT Exploited in Sweeping Cyber Campaign Against Government Agencies</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/claude-and-chatgpt-exploited/",
+    "published": "2026-04-11T03:49:27",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 332,
     "also_covered_by": []
   },
   {
@@ -1465,6 +1595,16 @@
     "also_covered_by": []
   },
   {
+    "title": "EngageSDK Vulnerability puts millions of crypto wallets at risk",
+    "summary": "<p>A newly disclosed vulnerability in the widely used Android library EngageSDK has raised serious concerns across the cryptocurrency ecosystem, potentially exposing millions of users to data theft and unauthorized access. Security researchers identified a critical “intent redirection” vulnerability in EngageSDK, a third-party Android SDK commonly used for push notifications and in-app messaging. The issue allows [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/engagesdk-vulnerability/\">EngageSDK Vulnerability puts millions of crypto wallets at risk</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/engagesdk-vulnerability/",
+    "published": "2026-04-10T13:44:56",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 324,
+    "also_covered_by": []
+  },
+  {
     "title": "How I disabled 'fast startup' on my Windows 11 laptop to stop overnight battery drain",
     "summary": "Putting your computer to sleep isn't always the best way to preserve its battery. Here's why.",
     "link": "https://www.zdnet.com/article/sleep-vs-hibernate-does-modern-standby-save-battery-on-windows/",
@@ -1495,6 +1635,26 @@
     "also_covered_by": []
   },
   {
+    "title": "Hacker Uses Claude and ChatGPT to Breach Multiple Government Agencies",
+    "summary": "<p>A single threat actor compromised nine Mexican government agencies and stole hundreds of millions of citizen records in a highly sophisticated cyberattack. The campaign, which ran from late December 2025 through mid-February 2026, highlights a dangerous shift in the modern threat landscape. Researchers at Gambit Security recently released a full technical report detailing how the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hacker-uses-claude-and-chatgpt-to-breach/\">Hacker Uses Claude and ChatGPT to Breach Multiple Government Agencies</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/hacker-uses-claude-and-chatgpt-to-breach/",
+    "published": "2026-04-11T03:40:28",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 313,
+    "also_covered_by": []
+  },
+  {
+    "title": "EngageSDK Vulnerability Exposes Millions of Crypto Wallet Users to Cyberattacks",
+    "summary": "<p>A serious security flaw found inside a widely used Android library called EngageSDK has put over 30 million cryptocurrency wallet users at risk of financial theft and personal data exposure. The vulnerability, described as an intent redirection flaw, allowed malicious apps on the same device to break through Android&#8217;s built-in security sandbox and gain unauthorized [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/engagesdk-vulnerability-exposes-millions/\">EngageSDK Vulnerability Exposes Millions of Crypto Wallet Users to Cyberattacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/engagesdk-vulnerability-exposes-millions/",
+    "published": "2026-04-10T17:58:02",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 313,
+    "also_covered_by": []
+  },
+  {
     "title": "GrayCharlie Hijacks Law Firm Sites in Suspected Supply-Chain Attack",
     "summary": "GrayCharlie turns compromised WordPress sites into malware delivery machines. Discover how this threat actor chains fake browser updates and ClickFix lures to deploy NetSupport RAT, Stealc, and SectopRAT.",
     "link": "https://www.recordedfuture.com/research/graycharlie-hijacks-law-firm-sites-suspected-supply-chain-attack",
@@ -1502,16 +1662,6 @@
     "source": "recordedfuture.com",
     "category": "Policy / Law",
     "importance_score": 301,
-    "also_covered_by": []
-  },
-  {
-    "title": "Russia Hacked Routers to Steal Microsoft Office Tokens",
-    "summary": "Hackers linked to Russia's military intelligence units are using known flaws in older Internet routers to mass harvest authentication tokens from Microsoft Office users, security experts warned today. The spying campaign allowed state-backed Russian hackers to quietly siphon authentication tokens from users on more than 18,000 networks without deploying any malicious software or code.",
-    "link": "https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/",
-    "published": "2026-04-07T17:02:44",
-    "source": "krebsonsecurity.com",
-    "category": "Policy / Law",
-    "importance_score": 295,
     "also_covered_by": []
   },
   {
@@ -1975,16 +2125,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Who is the Kimwolf Botmaster “Dort”?",
-    "summary": "In early January 2026, KrebsOnSecurity revealed how a security researcher disclosed a vulnerability that was used to assemble Kimwolf, the world's largest and most disruptive botnet. Since then, the person in control of Kimwolf -- who goes by the handle \"Dort\" -- has coordinated a barrage of distributed denial-of-service (DDoS), doxing and email flooding attacks against the researcher and this author, and more recently caused a SWAT team to be sent to the researcher's home. This post examines what is knowable about Dort based on public information.",
-    "link": "https://krebsonsecurity.com/2026/02/who-is-the-kimwolf-botmaster-dort/",
-    "published": "2026-02-28T12:01:57",
-    "source": "krebsonsecurity.com",
-    "category": "Vulnerability",
-    "importance_score": 165,
-    "also_covered_by": []
-  },
-  {
     "title": "Understanding and Anticipating Venezuelan Government Actions",
     "summary": "Explore an in-depth analysis of Venezuela’s political landscape following the January 2026 US operation to capture Nicolás Maduro. This executive summary examines Acting President Delcy Rodríguez’s transition strategy, her pragmatic re-engagement with Washington, and the internal threats posed by PSUV rivals like Diosdado Cabello. Gain insights into the \"three-phase\" US plan for stabilization, the 2026 Organic Hydrocarbons Law reforms, and the outlook for economic recovery versus the existential threat of competitive elections. Essential intelligence for organizations monitoring Latin American geopolitical risk and energy sector investments.",
     "link": "https://www.recordedfuture.com/research/understanding-and-anticipating-venezuelan-government-actions",
@@ -2015,16 +2155,6 @@
     "also_covered_by": []
   },
   {
-    "title": "How AI Assistants are Moving the Security Goalposts",
-    "summary": "AI-based assistants or \"agents\" -- autonomous programs that have access to the user's computer, files, online services and can automate virtually any task -- are growing in popularity with developers and IT workers. But as so many eyebrow-raising headlines over the past few weeks have shown, these powerful and assertive new tools are rapidly shifting the security priorities for organizations, while blurring the lines between data and code, trusted co-worker and insider threat, ninja hacker and novice code jockey.",
-    "link": "https://krebsonsecurity.com/2026/03/how-ai-assistants-are-moving-the-security-goalposts/",
-    "published": "2026-03-08T23:35:42",
-    "source": "krebsonsecurity.com",
-    "category": "AI & Security",
-    "importance_score": 154,
-    "also_covered_by": []
-  },
-  {
     "title": "Behind the Scenes: Fixing an In-the-Wild Firefox Exploit",
     "summary": "<p>At Mozilla, browser security is a critical mission, and part of that mission involves responding swiftly to new threats. Tuesday, around 8 AM Eastern time, we received a heads-up from &#8230; <a class=\"go\" href=\"https://blog.mozilla.org/security/2024/10/11/behind-the-scenes-fixing-an-in-the-wild-firefox-exploit/\">Read more</a></p>\n<p>The post <a href=\"https://blog.mozilla.org/security/2024/10/11/behind-the-scenes-fixing-an-in-the-wild-firefox-exploit/\">Behind the Scenes: Fixing an In-the-Wild Firefox Exploit</a> appeared first on <a href=\"https://blog.mozilla.org/security\">Mozilla Security Blog</a>.</p>",
     "link": "https://blog.mozilla.org/security/2024/10/11/behind-the-scenes-fixing-an-in-the-wild-firefox-exploit/",
@@ -2052,16 +2182,6 @@
     "source": "unit42.paloaltonetworks.com",
     "category": "Other",
     "importance_score": 148,
-    "also_covered_by": []
-  },
-  {
-    "title": "Feds Disrupt IoT Botnets Behind Huge DDoS Attacks",
-    "summary": "The U.S. Justice Department joined authorities in Canada and Germany in dismantling the online infrastructure behind four highly disruptive botnets that compromised more than three million hacked Internet of Things (IoT) devices, such as routers and web cameras. The feds say the four botnets -- named Aisuru, Kimwolf, JackSkid and Mossad -- are responsible for a series of recent record-smashing distributed denial-of-service (DDoS) attacks capable of knocking nearly any target offline.",
-    "link": "https://krebsonsecurity.com/2026/03/feds-disrupt-iot-botnets-behind-huge-ddos-attacks/",
-    "published": "2026-03-20T00:49:19",
-    "source": "krebsonsecurity.com",
-    "category": "Other",
-    "importance_score": 146,
     "also_covered_by": []
   },
   {
@@ -2104,16 +2224,6 @@
     "source": "blog.mozilla.org",
     "category": "Other",
     "importance_score": 139,
-    "also_covered_by": []
-  },
-  {
-    "title": "Iran-Backed Hackers Claim Wiper Attack on Medtech Firm Stryker",
-    "summary": "A hacktivist group with links to Iran's intelligence agencies is claiming responsibility for a data-wiping attack against Stryker, a global medical technology company based in Michigan. News reports out of Ireland, Stryker's largest hub outside of the United States, said the company sent home more than 5,000 workers there today. Meanwhile, a voicemail message at Stryker's main U.S. headquarters says the company is currently experiencing a building emergency.",
-    "link": "https://krebsonsecurity.com/2026/03/iran-backed-hackers-claim-wiper-attack-on-medtech-firm-stryker/",
-    "published": "2026-03-11T16:20:13",
-    "source": "krebsonsecurity.com",
-    "category": "Other",
-    "importance_score": 138,
     "also_covered_by": []
   },
   {
@@ -2164,16 +2274,6 @@
     "source": "blog.mozilla.org",
     "category": "Other",
     "importance_score": 131,
-    "also_covered_by": []
-  },
-  {
-    "title": "Kimwolf Botnet Swamps Anonymity Network I2P",
-    "summary": "For the past week, the massive \"Internet of Things\" (IoT) botnet known as Kimwolf has been disrupting the The Invisible Internet Project (I2P), a decentralized, encrypted communications network designed to anonymize and secure online communications. I2P users started reporting disruptions in the network around the same time the Kimwolf botmasters began relying on it to evade takedown attempts against the botnet's control servers.",
-    "link": "https://krebsonsecurity.com/2026/02/kimwolf-botnet-swamps-anonymity-network-i2p/",
-    "published": "2026-02-11T16:08:11",
-    "source": "krebsonsecurity.com",
-    "category": "Ransomware",
-    "importance_score": 129,
     "also_covered_by": []
   },
   {
