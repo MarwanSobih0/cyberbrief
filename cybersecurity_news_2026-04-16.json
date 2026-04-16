@@ -275,16 +275,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Nginx-UI Flaw Actively Exploited to Enable Full Server Takeover",
-    "summary": "<p>A severe vulnerability in nginx-ui, a widely used open-source web interface for managing Nginx servers, is currently being actively exploited in the wild. Tracked as CVE-2026-33032 with a maximum CVSS base score of 9.8, this critical flaw allows remote attackers to completely take over servers without providing any passwords or credentials. According to cybersecurity researchers [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/nginx-ui-flaw-actively-exploited/\">Nginx-UI Flaw Actively Exploited to Enable Full Server Takeover</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/nginx-ui-flaw-actively-exploited/",
-    "published": "2026-04-16T05:38:15",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 1668,
-    "also_covered_by": []
-  },
-  {
     "title": "Microsoft drops its second-largest monthly batch of defects on record",
     "summary": "<p>The vendor disclosed one actively exploited zero-day vulnerability in Microsoft Office SharePoint that allows attackers to view information and make changes to disclosed information.</p>\n<p>The post <a href=\"https://cyberscoop.com/microsoft-patch-tuesday-april-2026/\">Microsoft drops its second-largest monthly batch of defects on record</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
     "link": "https://cyberscoop.com/microsoft-patch-tuesday-april-2026/",
@@ -495,16 +485,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Hackers Using Google Cloud Storage to Bypass Email Filters and Deliver Remcos RAT",
-    "summary": "<p>Cybercriminals are always looking for smarter ways to bypass security, and their latest method is both simple and effective. Instead of building suspicious new websites, attackers now use Google Cloud Storage, a widely trusted platform, to host phishing pages that deliver dangerous malware. This lets them bypass email filters, reputation checks, and traditional web security [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-using-google-cloud-storage-to-bypass-email-filters/\">Hackers Using Google Cloud Storage to Bypass Email Filters and Deliver Remcos RAT</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/hackers-using-google-cloud-storage-to-bypass-email-filters/",
-    "published": "2026-04-15T12:47:15",
-    "source": "cybersecuritynews.com",
-    "category": "Phishing / Scams",
-    "importance_score": 1119,
-    "also_covered_by": []
-  },
-  {
     "title": "‘By Design’ Flaw in MCP Could Enable Widespread AI Supply Chain Attacks",
     "summary": "<p>Researchers warn that a flaw in Anthropic’s Model Context Protocol allows unsanitized commands to execute silently, enabling full system compromise across widely used AI environments.</p>\n<p>The post <a href=\"https://www.securityweek.com/by-design-flaw-in-mcp-could-enable-widespread-ai-supply-chain-attacks/\">‘By Design’ Flaw in MCP Could Enable Widespread AI Supply Chain Attacks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
     "link": "https://www.securityweek.com/by-design-flaw-in-mcp-could-enable-widespread-ai-supply-chain-attacks/",
@@ -545,16 +525,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Splunk Enterprise and Cloud Platform Exposed to Dangerous RCE Vulnerability",
-    "summary": "<p>Splunk has disclosed a high-severity vulnerability affecting both its Enterprise and Cloud Platform environments. Tracked as CVE-2026-20204, this flaw allows attackers to execute arbitrary code remotely. With a CVSS score of 7.1, the vulnerability requires immediate attention from system administrators and security threat hunters. Vulnerability Details The security defect stems from the improper handling and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/splunk-enterprise-and-cloud-platform-rce-vulnerability/\">Splunk Enterprise and Cloud Platform Exposed to Dangerous RCE Vulnerability</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/splunk-enterprise-and-cloud-platform-rce-vulnerability/",
-    "published": "2026-04-16T05:03:02",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 1084,
-    "also_covered_by": []
-  },
-  {
     "title": "Just Three Ransomware Gangs Accounted for 40% of Attacks Last Month",
     "summary": "Qilin, Akira and Dragonforce were responsible for 40% of 672 ransomware incidents reported in March, says Check Point",
     "link": "https://www.infosecurity-magazine.com/news/three-ransomware-gangs-40-percent/",
@@ -562,16 +532,6 @@
     "source": "infosecurity-magazine.com",
     "category": "Ransomware",
     "importance_score": 1079,
-    "also_covered_by": []
-  },
-  {
-    "title": "New PHP Composer Vulnerability Let Attackers Execute Arbitrary Commands",
-    "summary": "<p>PHP Composer released urgent security updates to address two critical command injection vulnerabilities. PHP Composer is an essential dependency management tool used globally by developers, making any code execution flaws highly concerning. These specific bugs reside in the Perforce Version Control System (VCS) driver and allow attackers to execute arbitrary commands on a victim&#8217;s machine. Users [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/php-composer-vulnerability/\">New PHP Composer Vulnerability Let Attackers Execute Arbitrary Commands</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/php-composer-vulnerability/",
-    "published": "2026-04-15T14:08:50",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 1066,
     "also_covered_by": []
   },
   {
@@ -652,16 +612,6 @@
     "source": "thehackernews.com",
     "category": "Phishing / Scams",
     "importance_score": 988,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hackers Hide Backdoor in Trusted WordPress Plugins for 8 Months Before Activating Malware",
-    "summary": "<p>A group of trusted WordPress plugins quietly carried a hidden backdoor for eight full months, and nobody noticed until the damage had already been done. The attack, uncovered in April 2026, did not begin with a dramatic breach. It started with the silent purchase of a legitimate plugin business on a public marketplace, setting the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-hide-backdoor-in-trusted-wordpress-plugins/\">Hackers Hide Backdoor in Trusted WordPress Plugins for 8 Months Before Activating Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/hackers-hide-backdoor-in-trusted-wordpress-plugins/",
-    "published": "2026-04-15T12:14:21",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 958,
     "also_covered_by": []
   },
   {
@@ -795,16 +745,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Google, Microsoft, Meta Accused of Tracking Users Even After Privacy Opt-Out",
-    "summary": "<p>A recent independent audit conducted by privacy technology firm webXray has revealed that major technology companies, including Google, Microsoft, and Meta, are actively tracking users who have explicitly opted out of data sharing. The findings suggest widespread, industrial-scale non-compliance with the California Consumer Privacy Act (CCPA), potentially exposing these corporations and website publishers to billions [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/google-microsoft-meta-accused-of-tracking-users/\">Google, Microsoft, Meta Accused of Tracking Users Even After Privacy Opt-Out</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/google-microsoft-meta-accused-of-tracking-users/",
-    "published": "2026-04-15T13:00:21",
-    "source": "gbhackers.com",
-    "category": "Policy / Law",
-    "importance_score": 785,
-    "also_covered_by": []
-  },
-  {
     "title": "New Lua-based malware “LucidRook” observed in targeted attacks against Taiwanese organizations",
     "summary": "Cisco Talos uncovered a cluster of activity we track as UAT-10362 conducting spear-phishing campaigns against Taiwanese non-governmental organizations (NGOs) and suspected universities to deliver a newly identified malware family, “LucidRook.”",
     "link": "https://blog.talosintelligence.com/new-lua-based-malware-lucidrook/",
@@ -875,16 +815,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Google, Microsoft, Meta Tracking You Even if You Opt Out – New Research",
-    "summary": "<p>In a massive blow to consumer privacy, a new forensic audit reveals that tech giants Google, Microsoft, and Meta are systematically ignoring legally defined privacy opt-out signals. According to the March 2026 California Privacy Audit conducted by webXray, 194 online advertising services are setting tracking cookies even after users explicitly invoke the Global Privacy Control [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/google-microsoft-meta-tracking-even-you-opt-out/\">Google, Microsoft, Meta Tracking You Even if You Opt Out &#8211; New Research</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/google-microsoft-meta-tracking-even-you-opt-out/",
-    "published": "2026-04-15T14:16:38",
-    "source": "cybersecuritynews.com",
-    "category": "Policy / Law",
-    "importance_score": 766,
-    "also_covered_by": []
-  },
-  {
     "title": "Threat Brief: Widespread Impact of the Axios Supply Chain Attack",
     "summary": "<p>Unit 42 discusses the supply chain attack targeting Axios. Learn about the full attack chain, from the dropper to forensic cleanup.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/axios-supply-chain-attack/\">Threat Brief: Widespread Impact of the Axios Supply Chain Attack</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
     "link": "https://unit42.paloaltonetworks.com/axios-supply-chain-attack/",
@@ -912,16 +842,6 @@
     "source": "thecyberexpress.com",
     "category": "Vulnerability",
     "importance_score": 750,
-    "also_covered_by": []
-  },
-  {
-    "title": "Fake Adobe Reader Download Drops ScreenConnect via Fileless Loader",
-    "summary": "<p>A deceptive campaign in which attackers distributed a fake Adobe Acrobat Reader installer that secretly deployed ConnectWise’s ScreenConnect via a complex in‑memory execution chain. Although ScreenConnect is a legitimate remote‑access tool, it was repurposed for unauthorized system control and data collection. The attack chain started when victims landed on a phishing site designed to mimic Adobe’s official download page. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fake-adobe-reader-download/\">Fake Adobe Reader Download Drops ScreenConnect via Fileless Loader</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/fake-adobe-reader-download/",
-    "published": "2026-04-16T06:45:24",
-    "source": "gbhackers.com",
-    "category": "Phishing / Scams",
-    "importance_score": 728,
     "also_covered_by": []
   },
   {
@@ -1065,36 +985,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Hackers Abuse Google Discover With AI-Generated Content to Push Malicious Notifications",
-    "summary": "<p>A newly identified threat operation is exploiting one of the most widely used content discovery tools on Android and Chrome devices — Google&#8217;s Discovery feed — to deliver malicious push notifications to unsuspecting users across multiple countries. The operation, named Pushpaganda by researchers, combines AI-generated content, aggressive social engineering, and deceptive browser behavior to manipulate real users [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-abuse-google-discover-with-ai-generated-content/\">Hackers Abuse Google Discover With AI-Generated Content to Push Malicious Notifications</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/hackers-abuse-google-discover-with-ai-generated-content/",
-    "published": "2026-04-16T04:34:27",
-    "source": "cybersecuritynews.com",
-    "category": "Phishing / Scams",
-    "importance_score": 631,
-    "also_covered_by": []
-  },
-  {
-    "title": "Top 10 Best API Security Providers Protecting Web Apps in 2026",
-    "summary": "<p>In the intricate tapestry of the modern digital world, Application Programming Interfaces (APIs) are the invisible threads that connect everything. They power mobile applications, enable seamless third-party integrations, facilitate microservices communication, and drive the functionality of countless web applications. From fetching live weather data to processing financial transactions, APIs are the foundational glue of our [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-api-security-providers/\">Top 10 Best API Security Providers Protecting Web Apps in 2026</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/best-api-security-providers/",
-    "published": "2026-04-15T13:06:37",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 628,
-    "also_covered_by": []
-  },
-  {
-    "title": "Microsoft Releases Cumulative Update KB5083769 for Windows 11, Version 25H2 and 24H2",
-    "summary": "<p>Microsoft has officially released the April 2026 Patch Tuesday cumulative update, KB5083769, for Windows 11 versions 25H2 and 24H2. Released on April 14, 2026, this mandatory security update addresses system vulnerabilities. It brings significant structural enhancements, advancing the operating system to OS Builds 26200.8246 and 26100.8246, respectively. This update combines the latest security patches with [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-cumulative-update-windows-11/\">Microsoft Releases Cumulative Update KB5083769 for Windows 11, Version 25H2 and 24H2</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/microsoft-cumulative-update-windows-11/",
-    "published": "2026-04-15T14:14:05",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 623,
-    "also_covered_by": []
-  },
-  {
     "title": "‘CanisterWorm’ Springs Wiper Attack Targeting Iran",
     "summary": "A financially motivated data theft and extortion group is attempting to inject itself into the Iran war, unleashing a worm that spreads through poorly secured cloud services and wipes data on infected systems that use Iran's time zone or have Farsi set as the default language.",
     "link": "https://krebsonsecurity.com/2026/03/canisterworm-springs-wiper-attack-targeting-iran/",
@@ -1102,36 +992,6 @@
     "source": "krebsonsecurity.com",
     "category": "Other",
     "importance_score": 622,
-    "also_covered_by": []
-  },
-  {
-    "title": "Critical Chrome Flaws Allow Arbitrary Code Execution – Patch Immediately",
-    "summary": "<p>Google has released an urgent security update for its Chrome web browser to address 31 vulnerabilities, including five rated as critical. The stable channel has been updated to version 147.0.7727.101/102 for Windows and Mac, and 147.0.7727.101 for Linux. This update is currently rolling out globally over the coming days and weeks. Users are strongly advised [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-chrome-flaws-allow-arbitrary-code-execution/\">Critical Chrome Flaws Allow Arbitrary Code Execution &#8211; Patch Immediately</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/critical-chrome-flaws-allow-arbitrary-code-execution/",
-    "published": "2026-04-16T04:54:41",
-    "source": "gbhackers.com",
-    "category": "Policy / Law",
-    "importance_score": 621,
-    "also_covered_by": []
-  },
-  {
-    "title": "AI Content Hijacks Google Discover to Deliver Malicious Alerts",
-    "summary": "<p>A new large-scale cyber operation is exploiting Google’s Discovery feed to spread malicious notifications and scams through AI-generated content. Pushpaganda begins with threat actors creating around 113 fake domains filled with AI-written articles and clickbait headlines. These posts are crafted to appear in Google’s Discovery feed the stream of news and personalized content visible on [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ai-content-hijacks-google/\">AI Content Hijacks Google Discover to Deliver Malicious Alerts</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/ai-content-hijacks-google/",
-    "published": "2026-04-16T05:02:22",
-    "source": "gbhackers.com",
-    "category": "Phishing / Scams",
-    "importance_score": 618,
-    "also_covered_by": []
-  },
-  {
-    "title": "Windows Active Directory Vulnerability Allows Attackers to Execute Malicious Code",
-    "summary": "<p>Microsoft has released urgent security updates to address a critical vulnerability in Windows Active Directory that allows attackers to execute malicious code. Disclosed on April 14, 2026, the vulnerability poses a significant risk to enterprise networks by potentially granting threat actors deep access to core identity and access management servers. Microsoft urges administrators to apply [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/windows-active-directory-vulnerability/\">Windows Active Directory Vulnerability Allows Attackers to Execute Malicious Code</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/windows-active-directory-vulnerability/",
-    "published": "2026-04-15T14:11:19",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 618,
     "also_covered_by": []
   },
   {
@@ -1445,16 +1305,6 @@
     "also_covered_by": []
   },
   {
-    "title": "1,250+ C2 Servers Mapped Across Russian Hosting Across 165 Providers",
-    "summary": "<p>Cybersecurity researchers have uncovered a large and organized network of malicious infrastructure quietly running inside Russia&#8217;s commercial hosting ecosystem. Over a three-month window from January 1 to April 1, 2026, more than 1,250 active command-and-control (C2) servers were detected across 165 Russian infrastructure providers, spanning shared hosting platforms, virtual server environments, and telecommunications networks. A [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/1250-c2-servers-mapped-across-russian-hosting/\">1,250+ C2 Servers Mapped Across Russian Hosting Across 165 Providers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/1250-c2-servers-mapped-across-russian-hosting/",
-    "published": "2026-04-16T06:14:44",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 478,
-    "also_covered_by": []
-  },
-  {
     "title": "I found a way to roll back buggy Google Services updates on Android - in just a few clicks",
     "summary": "If Google Services update on your Android is giving you problems, there's an easy fix - no factory reset needed.",
     "link": "https://www.zdnet.com/article/roll-back-buggy-google-services-updates-on-android/",
@@ -1485,36 +1335,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Cisco Webex Vulnerability Allows User Impersonation Attacks",
-    "summary": "<p>Cisco has released an urgent security advisory warning organizations of a critical vulnerability in its Webex communication platform. Tracked as CVE-2026-20184, this severe flaw could allow unauthenticated, remote attackers to entirely bypass security checks and impersonate any legitimate user within the service. Understanding the Vulnerability According to the official Cisco Security Advisory published on April [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cisco-webex-vulnerability-2/\">Cisco Webex Vulnerability Allows User Impersonation Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/cisco-webex-vulnerability-2/",
-    "published": "2026-04-16T06:49:27",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 474,
-    "also_covered_by": []
-  },
-  {
-    "title": "MuddyWater-Style Hackers Scan 12,000+ Systems Before Hitting Middle East Critical Sectors",
-    "summary": "<p>A sophisticated cyber campaign bearing strong operational similarities to the MuddyWater threat group has been caught sweeping more than 12,000 internet-exposed systems across multiple regions before launching focused attacks on high-value targets in the Middle East. The operation targeted critical sectors including aviation, energy, and government, with confirmed data theft from at least one Egyptian [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/muddywater-style-hackers-scan-12000-systems/\">MuddyWater-Style Hackers Scan 12,000+ Systems Before Hitting Middle East Critical Sectors</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/muddywater-style-hackers-scan-12000-systems/",
-    "published": "2026-04-15T13:08:56",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 474,
-    "also_covered_by": []
-  },
-  {
-    "title": "Top 10 Best Application Security Testing Companies in 2026",
-    "summary": "<p>In the rapidly evolving digital landscape of 2026, applications are the backbone of every enterprise. From customer-facing web portals and mobile apps to intricate internal systems and APIs, software drives business operations, innovation, and customer engagement. However, this ubiquity also makes applications a prime target for cyber attackers. A single vulnerability can lead to devastating [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/application-security-testing-companies/\">Top 10 Best Application Security Testing Companies in 2026</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/application-security-testing-companies/",
-    "published": "2026-04-15T13:00:47",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 471,
-    "also_covered_by": []
-  },
-  {
     "title": "‘Starkiller’ Phishing Service Proxies Real Login Pages, MFA",
     "summary": "Most phishing websites are little more than static copies of login pages for popular online destinations, and they are often quickly taken down by anti-abuse activists and security firms. But a stealthy new phishing-as-a-service offering lets customers sidestep both of these pitfalls: It uses cleverly disguised links to load the target brand's real website, and then acts as a relay between the target and the legitimate site -- forwarding the victim's username, password and multi-factor authentication (MFA) code to the legitimate site and returning its responses.",
     "link": "https://krebsonsecurity.com/2026/02/starkiller-phishing-service-proxies-real-login-pages-mfa/",
@@ -1532,26 +1352,6 @@
     "source": "securityweek.com",
     "category": "Policy / Law",
     "importance_score": 463,
-    "also_covered_by": []
-  },
-  {
-    "title": "Russian Hosting Tied to 1,250+ C2 Servers Across 165 Providers",
-    "summary": "<p>More than 1,250 C2 servers were identified across 165 Russian infrastructure providers within the past 3 months. Infrastructure analytics and ISP mapping are exposing the hidden backbone of cyber threats operating inside Russian networks. By looking beyond single IPs or one-off indicators, analysts used Host Radar and HuntSQL to map more than 1,250 active command‑and‑control [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/1250-c2-servers/\">Russian Hosting Tied to 1,250+ C2 Servers Across 165 Providers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/1250-c2-servers/",
-    "published": "2026-04-16T06:05:54",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 462,
-    "also_covered_by": []
-  },
-  {
-    "title": "Adobe Acrobat Reader Vulnerabilities Let Attackers Execute Arbitrary Code",
-    "summary": "<p>Adobe has released a critical security bulletin on April 14, 2026, to address multiple vulnerabilities in Adobe Acrobat and Reader for Windows and macOS. According to the official advisory, successful exploitation of these flaws could allow attackers to execute arbitrary code or read arbitrary files on a targeted system. While these threats carry high severity [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/adobe-acrobat-reader-vulnerabilities-patch/\">Adobe Acrobat Reader Vulnerabilities Let Attackers Execute Arbitrary Code</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/adobe-acrobat-reader-vulnerabilities-patch/",
-    "published": "2026-04-15T14:05:46",
-    "source": "cybersecuritynews.com",
-    "category": "Policy / Law",
-    "importance_score": 460,
     "also_covered_by": []
   },
   {
