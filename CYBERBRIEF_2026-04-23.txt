@@ -1,0 +1,63 @@
+CYBERBRIEF • DAILY THREAT INTELLIGENCE
+Generated: Thursday, April 23, 2026 - 06:57 UTC
+================================================================================
+
+Total topics: 317    •    Scanned raw articles: 324
+Severity breakdown:
+  CRITICAL: 20  |  HIGH: 10  |  MEDIUM: 48  |  LOW: 239
+
+Top 7 active threats:
+
+1. Alert Triangle  cisa.gov  [News Site]
+   Title    : Vulnerability Summary for the Week of April 6, 2026
+   Category : Ransomware    •    Severity: CRITICAL (score: 8880)
+   Published: 2026-04-13T18:34:53
+   Link     : https://www.cisa.gov/news-events/bulletins/sb26-103
+   Also covered by: cisa.gov
+
+2. Alert Triangle  cisa.gov  [News Site]
+   Title    : Vulnerability Summary for the Week of January 26, 2026
+   Category : Ransomware    •    Severity: CRITICAL (score: 8480)
+   Published: 2026-02-02T13:26:07
+   Link     : https://www.cisa.gov/news-events/bulletins/sb26-033
+   Also covered by: cisa.gov
+
+3. Alert Triangle  cisa.gov  [News Site]
+   Title    : Vulnerability Summary for the Week of December 15, 2025
+   Category : Ransomware    •    Severity: CRITICAL (score: 7680)
+   Published: 2025-12-22T13:52:39
+   Link     : https://www.cisa.gov/news-events/bulletins/sb25-356
+   Also covered by: cisa.gov, cisa.gov
+
+4. Alert Triangle  cisa.gov  [News Site]
+   Title    : Vulnerability Summary for the Week of February 2, 2026
+   Category : Ransomware    •    Severity: CRITICAL (score: 7200)
+   Published: 2026-02-09T15:19:35
+   Link     : https://www.cisa.gov/news-events/bulletins/sb26-040
+
+5. Alert Triangle  cisa.gov  [News Site]
+   Title    : Countering Chinese State-Sponsored Actors Compromise of Networks Worldwide to Feed Global Espionage System
+   Category : Ransomware    •    Severity: CRITICAL (score: 5760)
+   Published: 2025-08-25T13:36:40
+   Link     : https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a
+
+6. Alert Triangle  cisa.gov  [News Site]
+   Title    : #StopRansomware: Interlock
+   Category : Ransomware    •    Severity: CRITICAL (score: 5680)
+   Published: 2025-07-21T14:11:24
+   Link     : https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-203a
+
+7. Alert Triangle  cisa.gov  [News Site]
+   Title    : Fast Flux: A National Security Threat
+   Category : Ransomware    •    Severity: CRITICAL (score: 4960)
+   Published: 2025-04-01T19:00:21
+   Link     : https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-093a
+
+Security Tips:
+• Never trust unsolicited links or attachments in email or messaging apps.
+• Enable multi-factor authentication (MFA) on email, banking, and admin accounts.
+• Keep browsers, VPNs, and endpoint security fully patched.
+
+Scanned 324 articles • Top 7 topics selected
+Next planned auto-update: 08:00 AM UTC
+Stay safe, stay sharp!
