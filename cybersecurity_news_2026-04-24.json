@@ -427,16 +427,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Malicious npm Package Turns Hugging Face Into Malware CDN and Exfiltration Backend",
-    "summary": "<p>A rogue npm package named js-logger-pack has been caught quietly turning Hugging Face, a widely trusted AI model hosting platform, into both a malware delivery network and a stolen data storage backend. The campaign marks a clear shift in how attackers abuse legitimate cloud services to run supply chain attacks while staying hidden. The package appeared harmless [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/malicious-npm-package-turns-hugging-face/\">Malicious npm Package Turns Hugging Face Into Malware CDN and Exfiltration Backend</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/malicious-npm-package-turns-hugging-face/",
-    "published": "2026-04-23T19:30:03",
-    "source": "cybersecuritynews.com",
-    "category": "Data Breach",
-    "importance_score": 1162,
-    "also_covered_by": []
-  },
-  {
     "title": "New Mirai campaign exploits RCE flaw in EoL D-Link routers",
     "summary": "A new Mirai-based malware campaign is actively exploiting CVE-2025-29635, a high-severity command-injection vulnerability affecting D-Link DIR-823X routers, to enlist devices into the botnet. [...]",
     "link": "https://www.bleepingcomputer.com/news/security/new-mirai-campaign-exploits-rce-flaw-in-eol-d-link-routers/",
@@ -454,16 +444,6 @@
     "source": "cyberscoop.com",
     "category": "Ransomware",
     "importance_score": 1144,
-    "also_covered_by": []
-  },
-  {
-    "title": "Outlook Mailboxes Abused to Conceal Linux GoGra Backdoor Traffic",
-    "summary": "<p>The Harvester APT group has quietly expanded its espionage arsenal with a new Linux variant of its GoGra backdoor, one that cleverly hides its command-and-control (C2) traffic within Microsoft Outlook mailboxes, making it significantly harder to detect with traditional network defenses. Researchers from Symantec and Carbon Black Threat Hunter Team discovered the malware. They linked [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/outlook-mailboxes-abused/\">Outlook Mailboxes Abused to Conceal Linux GoGra Backdoor Traffic</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/outlook-mailboxes-abused/",
-    "published": "2026-04-23T11:20:05",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 1117,
     "also_covered_by": []
   },
   {
@@ -517,26 +497,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Hackers Exploit Ollama Model Uploads to Leak Server Data",
-    "summary": "<p>Cybersecurity researchers have uncovered a severe, unpatched vulnerability in Ollama, a popular open-source platform used for running large language models locally. Tracked as CVE-2026-5757, this critical flaw exists in Ollama’s model quantization engine. If exploited, it allows an unauthenticated attacker to steal sensitive server data by simply uploading a maliciously crafted AI model file. How [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-exploit-ollama-model-uploads-to-leak-server-data/\">Hackers Exploit Ollama Model Uploads to Leak Server Data</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/hackers-exploit-ollama-model-uploads-to-leak-server-data/",
-    "published": "2026-04-24T06:57:18",
-    "source": "gbhackers.com",
-    "category": "Data Breach",
-    "importance_score": 1077,
-    "also_covered_by": []
-  },
-  {
-    "title": "Vercel Confirms Security Breach Affecting Customer Accounts",
-    "summary": "<p>Vercel has confirmed a security breach involving unauthorised access to certain internal systems, and the company says the incident affected a limited number of customer accounts and stored data. The cloud platform provider disclosed that it is actively investigating the incident with help from outside incident response experts and has also notified law enforcement. According [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/vercel-confirms-security-breach/\">Vercel Confirms Security Breach Affecting Customer Accounts</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/vercel-confirms-security-breach/",
-    "published": "2026-04-23T13:12:40",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 1066,
-    "also_covered_by": []
-  },
-  {
     "title": "Protecting Cookies with Device Bound Session Credentials",
     "summary": "<span class=\"byline-author\">Posted by Ben Ackerman, Chrome team,  Daniel Rubery, Chrome team and Guillaume Ehinger, Google Account Security team</span>\n\n<p>\nFollowing our April 2024 <a href=\"https://blog.chromium.org/2024/04/fighting-cookie-theft-using-device.html\">announcement</a>, Device Bound Session Credentials (DBSC) is now entering public availability for Windows users on Chrome 146, and expanding to macOS in an upcoming Chrome release. This project represents a significant step forward in our ongoing efforts to combat session theft, which remains a prevalent threat in the modern security landscape.\n</p>\n<p>\nSession theft typically occurs when a user inadvertently downloads malware onto their device. Once active, the malware can silently extract existing session cookies from the browser or wait for the user to log in to new accounts, before exfiltrating these tokens to an attacker-controlled server. Infostealer malware families, such as LummaC2, have become increasingly sophisticated at harvesting these credentials. Because cookies often have extended lifetimes, attackers can use them to gain unauthorized access to a user’s accounts without ever needing their passwords; this access is then often bundled, traded, or sold among threat actors.\n</p>\n<p>\nCrucially, once sophisticated malware has gained access to a machine, it can read the local files and memory where browsers store authentication cookies. As a result, there is no reliable way to prevent cookie exfiltration using software alone on any operating system. Historically, mitigating session theft relied on detecting the stolen credentials after the fact using a complex set of abuse heuristics – a reactive approach that persistent attackers could often circumvent. DBSC fundamentally changes the web's capability to defend against this threat by shifting the paradigm from reactive detection to proactive prevention, ensuring that successfully exfiltrated cookies cannot be used to access users’ accounts.\n</p>\n<h3>How DBSC Works</h3>\n\n\n<p>\nDBSC protects against session theft by cryptographically binding authentication sessions to a specific device. It does this using hardware-backed security modules, such as the Trusted Platform Module (TPM) on Windows and the Secure Enclave on macOS, to generate a unique public/private key pair that cannot be exported from the machine. The issuance of new short-lived session cookies is contingent upon Chrome proving possession of the corresponding private key to the server. Because attackers cannot steal this key, any exfiltrated cookies quickly expire and become useless to those attackers. This design allows large and small websites to upgrade to secure, hardware-bound sessions by adding dedicated registration and refresh endpoints to their backends, while maintaining complete compatibility with their existing front-end. The browser handles the complex cryptography and cookie rotation in the background, allowing the web app to continue using standard cookies for access just as it always has. \n</p>\n<p>\nGoogle rolled out an early version of this protocol over the last year. For sessions protected by DBSC, we have observed a significant reduction in session theft since its launch.\n</p>\n<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjk4eZvzfBqPL0Xf1ckUo7l58eyeZKSzIelxjLOiOE_XHYNZc-qdx24Sv9n3tgRgc2xOzKZvcHsCksprOlxwd-gIRQaLPsOu2jjuCV4e6G1_ImsXhQeOean1CWndOiQuikT94gbvZLlWfktpCBRtxh9dJkxjpfvradSkzWD1Wqxohg9TJUdyC1kC88y6Abu/s1600/Screenshot%202026-04-09%20at%2010.11.22%E2%80%AFAM.png\" style=\"display: block; padding: 1em 0; text-align: center;\"><img alt=\"\" border=\"0\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjk4eZvzfBqPL0Xf1ckUo7l58eyeZKSzIelxjLOiOE_XHYNZc-qdx24Sv9n3tgRgc2xOzKZvcHsCksprOlxwd-gIRQaLPsOu2jjuCV4e6G1_ImsXhQeOean1CWndOiQuikT94gbvZLlWfktpCBRtxh9dJkxjpfvradSkzWD1Wqxohg9TJUdyC1kC88y6Abu/s1600/Screenshot%202026-04-09%20at%2010.11.22%E2%80%AFAM.png\" /></a></div>\n<p style=\"text-align: center;\">\n<em>An overview of the DBSC protocol showing the interaction between the browser and server.</em>\n</p>\n<h3>Private by design</h3>\n\n\n<p>\nA core tenet of the DBSC architecture is the preservation of user privacy. Each session is backed by a distinct key, preventing websites from using these credentials to correlate a user's activity across different sessions or sites on the same device. Furthermore, the protocol is designed to be lean: it does not leak device identifiers or attestation data to the server beyond the per-session public key required to certify proof of possession. This minimal information exchange ensures DBSC helps secure sessions without enabling cross-site tracking or acting as a device fingerprinting mechanism.\n</p>\n<h3>Engagement with the ecosystem</h3>\n\n\n<p>\nDBSC was designed from the beginning to be an open web standard through the W3C process and adoption by the Web Application Security Working Group. Through this process we partnered with Microsoft to design the standard to ensure it works for the web and got input from many in the industry that are responsible for web security.\n</p>\n<p>\nAdditionally, over the past year, we have also conducted two Origin Trials to ensure DBSC effectively serves the requirements of the broader web community. Many web platforms, including Okta, actively participated in these trials and their own testing and provided essential feedback to ensure the protocol effectively addresses their diverse needs.\n</p>\n<p>\nIf you are a web developer and are looking for a way to secure your users against session theft, refer to our <a href=\"https://developer.chrome.com/docs/web-platform/device-bound-session-credentials\">developer guide</a> for implementation details. Additionally, all the details about DBSC can be found on the <a href=\"https://w3c.github.io/webappsec-dbsc/\">spec</a> and the corresponding <a href=\"https://github.com/w3c/webappsec-dbsc\">github</a>. Feel free to use the <a href=\"https://github.com/w3c/webappsec-dbsc/issues\">issues</a> page to report bugs or provide feature requests.\n</p>\n<h3>Future improvements</h3>\n\n\n<p>\nAs we continue to evolve the DBSC standard, future iterations will focus on increasing support across diverse ecosystems and introducing advanced capabilities tailored for complex enterprise environments. Key areas of ongoing development include:\n</p>\n<ul>\n\n<li><strong>Securing Federated Identity: </strong>In modern enterprise environments, Single Sign-On (SSO) is ubiquitous. We are expanding the DBSC protocol to support cross-origin bindings, ensuring that a relying party (RP) session remains continuously bound to the same original device key used by the Identity Provider (IdP). This guarantees that the high-assurance security of the initial device binding is maintained throughout the entire federated login process, creating an unbroken chain of trust.</li>\n\n<li><strong>Advanced Registration Capabilities:</strong> While DBSC provides robust protection for established cookies, some environments require an even stronger foundation when the session is first created. We are developing mechanisms to bind DBSC sessions to pre-existing, trusted key material rather than generating a new key at sign-in. This advanced capability enables websites to integrate complementary technologies, such as mTLS certificates or hardware security keys, creating a highly secure registration environment.</li>\n\n<li><strong>Broader Device Support:</strong> We are also actively exploring the potential addition of software-based keys to extend protections to devices without dedicated secure hardware.",
     "link": "http://security.googleblog.com/2026/04/protecting-cookies-with-device-bound.html",
@@ -554,16 +514,6 @@
     "source": "thehackernews.com",
     "category": "Ransomware",
     "importance_score": 1043,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hackers Leverage Microsoft Teams to Breach Organizations Posing as IT Helpdesk Staff",
-    "summary": "<p>A newly identified threat group, UNC6692, has been caught running a sophisticated multistage intrusion campaign that uses Microsoft Teams impersonation, a custom modular malware suite, and cloud infrastructure abuse to deeply penetrate enterprise networks, all without exploiting a single software vulnerability. Google Threat Intelligence Group (GTIG) and Mandiant researchers disclosed the campaign on April 22, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-teams-breach-organizations/\">Hackers Leverage Microsoft Teams to Breach Organizations Posing as IT Helpdesk Staff</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/microsoft-teams-breach-organizations/",
-    "published": "2026-04-24T02:20:41",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 1024,
     "also_covered_by": []
   },
   {
@@ -627,16 +577,6 @@
     "also_covered_by": []
   },
   {
-    "title": "AI-Assisted Lazarus Campaign Targets Developers With Backdoored Coding Challenges",
-    "summary": "<p>A North Korean state-sponsored threat group is running an active campaign that tricks software developers into installing malware through fake job interviews and rigged coding tests. The group, tracked by cybersecurity firm Expel as HexagonalRodent (also called Expel-TA-0001), is widely believed to be a subgroup or spin-off within the broader Lazarus hacking ecosystem tied to [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ai-assisted-lazarus-campaign-targets/\">AI-Assisted Lazarus Campaign Targets Developers With Backdoored Coding Challenges</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/ai-assisted-lazarus-campaign-targets/",
-    "published": "2026-04-23T18:16:15",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 964,
-    "also_covered_by": []
-  },
-  {
     "title": "EU Rolls Out NCAF 2.0 Framework to Boost National Cybersecurity Readiness",
     "summary": "<p><img alt=\"NCAF 2.0\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"660\" src=\"https://thecyberexpress.com/wp-content/uploads/NCAF-2.0.webp\" title=\"EU Rolls Out NCAF 2.0 Framework to Boost National Cybersecurity Readiness 7\" width=\"1171\" /></p><span>The European Union Agency for Cybersecurity (ENISA) has released the updated version of the National Capabilities Assessment Framework (NCAF 2.0), providing EU Member States with a structured, adaptable methodology to evaluate and enhance their national cybersecurity capabilities. </span><span>This revised framework is designed to support national authorities in assessing the maturity of their National Cybersecurity Strategies (NCSSs), ultimately strengthening the EU's collective cybersecurity posture.</span><span> </span>\n\n<span>The National Capabilities Assessment Framework (NCAF) 2.0 offers EU Member States a comprehensive tool for evaluating their <a href=\"https://www.enisa.europa.eu/news/assess-your-national-cybersecurity-capabilities-and-maturity-with-the-updated-enisa-framework\" rel=\"nofollow noopener\" target=\"_blank\">cybersecurity preparedness</a> and progress. Through this framework, countries can assess the maturity of their National <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/\" title=\"Cybersecurity\">Cybersecurity</a> Strategies (NCSSs), identify strengths and weaknesses, and make targeted improvements. NCAF 2.0 is built around a flexible, evidence-based approach that provides valuable insights into both strategic and operational <a class=\"wpil_keyword_link\" href=\"https://cyble.com/knowledge-hub/what-is-cybersecurity/\" rel=\"noopener\" target=\"_blank\" title=\"cybersecurity\">cybersecurity</a> initiatives.</span><span> </span>\n<h3><b><span>How is NCAF 2.0 Different?</span></b></h3>\n<span>NCAF 2.0 is a refined maturity model that helps countries assess their cybersecurity efforts across various stages of development. This model evaluates both the process and outcomes of national cybersecurity strategies, offering Member States an ongoing opportunity to track progress and align with <a href=\"https://thecyberexpress.com/enisa-and-commission/\" rel=\"noopener\" target=\"_blank\">EU cybersecurity</a> standards.</span><span> </span>\n\n<span>NCAF 2.0 builds upon the success of its predecessor by introducing several key updates aimed at strengthening the cybersecurity capabilities of EU Member States. These updates include:</span><span> </span>\n<ul>\n \t<li><span>New descriptions of maturity levels reflect the dynamic nature of cybersecurity challenges, enabling more accurate assessments of national capabilities. </span><span> </span></li>\n \t<li><span>The fr</span><span>amework includes updated goals that address emerging <a class=\"wpil_keyword_link\" href=\"https://cyble.com/knowledge-hub/what-are-cyber-threats/\" rel=\"noopener\" target=\"_blank\" title=\"cybersecurity threats\">cybersecurity threats</a> and align with evolving EU policies, such as the NIS2 Directive, which came into force in January 2023. </span><span> </span></li>\n \t<li><span>A set of comprehensive questions designed to assess the maturity of various cybersecurity areas, including governance, risk management, and <a class=\"wpil_keyword_link\" href=\"https://cyble.com/knowledge-hub/what-is-incident-response/\" rel=\"noopener\" target=\"_blank\" title=\"incident response\">incident response</a>. </span><span> </span></li>\n</ul>\n<span>NCAF 2.0 is crucial in supporting the EU’s broader <a href=\"https://thecyberexpress.com/sec-2025-examination-agenda/\" rel=\"noopener\" target=\"_blank\">cybersecurity agenda</a>, especially in helping Member States comply with regulatory frameworks such as the NIS2 Directive. This directive requires countries to establish robust NCSSs, setting clear goals for addressing current and future cybersecurity <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-are-risks-in-cybersecurity/\" title=\"risks\">risks</a>.</span><span> </span>\n<h3><b><span>Who Can Benefit from NCAF 2.0?</span></b><span> </span></h3>\n<span>The primary beneficiaries of NCAF 2.0 are policymakers, cybersecurity experts, and government officials responsible for shaping and implementing NCSSs. The framework offers a valuable self-assessment tool for evaluating a country’s progress and improving national cybersecurity strategies. </span><span> </span>\n\n<span>By providing a structured methodology for assessing cybersecurity efforts, NCAF 2.0 enables national authorities to make data-driven decisions that enhance their overall security posture.</span><span> </span>\n\n<span>Additionally, the framework promotes mutual learning and best practice sharing among EU Member States, fostering collaboration on key <a href=\"https://thecyberexpress.com/fda-cybersecurity-guidance-qmsr-update/\" rel=\"noopener\" target=\"_blank\">cybersecurity issues</a>. By aligning national strategies with EU-wide cybersecurity goals, NCAF 2.0 contributes to strengthening the EU’s collective defense against <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/cyber-news/\" title=\"cyber\">cyber</a> threats.</span><span> </span>\n<h3><b><span>The EU Cybersecurity Landscape</span></b><span> </span></h3>\n<span>The release of NCAF 2.0 marks a significant step forward in enhancing EU cybersecurity. For over a decade, ENISA has supported EU Member States in developing and refining their national cybersecurity strategies. NCAF 2.0 builds this legacy, offering an updated tool for assessing progress and adapting to emerging threats.</span><span> </span>\n\n<span>As the EU cybersecurity landscape evolves, NCAF 2.0 ensures that national cybersecurity strategies remain relevant and effective. By continuously updating the framework in response to new developments in technology and legislation, ENISA helps Member States stay ahead of cyber threats and maintain a good defense against modern cyber risks.</span>\n<h3><b><span>Challenges in Assessing National Cybersecurity Strategies</span></b><span> </span></h3>\n<span>Developing and evaluating effective National Cybersecurity Strategies (NCSSs) is a complex task that presents numerous challenges for EU Member States. Some of the most common difficulties include:</span><span> </span>\n<ul>\n \t<li><b><span>Coordination Across Stakeholders</span></b><span>: Ensuring effective collaboration between government agencies, businesses, and cybersecurity experts can be difficult, especially in countries with fragmented governance structures. </span><span> </span></li>\n \t<li><b><span>Adapting to Evolving Threats</span></b><span>: As cyber threats continue to evolve, national strategies must be flexible and adaptive. Member States must continuously update their plans to address emerging risks. </span><span> </span></li>\n \t<li><b><span>Measuring Effectiveness</span></b><span>: It is not enough to track the implementation of cybersecurity measures; it is also important to assess the long-term impact and success of these efforts. This requires a comprehensive evaluation of outcomes, not just outputs. </span><span> </span></li>\n</ul>\n<span>NCAF 2.0 helps address these challenges by providing a clear, structured framework for evaluating cybersecurity capabilities. The maturity model allows countries to track progress over time, identify gaps, and ensure their strategies are evolving to meet new challenges.</span><span> </span>\n<h3><b><span>The Benefits of Using NCAF 2.0</span></b><span> </span></h3>\n<span>NCAF 2.0 offers several advantages for EU Member States:</span><span> </span>\n<ol>\n \t<li><b><span>Self-Assessment and Continuous Improvement</span></b><span>: The framework provides a voluntary tool for Member States to evaluate their cybersecurity maturity and track progress over time. By identifying gaps and areas for improvement, countries can strengthen their cybersecurity capabilities. </span><span> </span></li>\n \t<li><b><span>Alignment with EU Regulations</span></b><span>: NCAF 2.0 is aligned with key EU legislation, including the NIS2 Directive and the Cyber Resilience Act. This ensures that national strategies comply with EU-wide cybersecurity standards. </span><span> </span></li>\n \t<li><b><span>Support for Peer Reviews</span></b><span>: NCAF 2.0 can be used as part of the voluntary peer review process established under NIS2. This allows Member States to collaborate, share best practices, and enhance their collective cybersecurity efforts. </span><span> </span></li>\n</ol>\n<span>Through these benefits, NCAF 2.0 plays a crucial role in strengthening the cybersecurity posture of <a href=\"https://thecyberexpress.com/eu-age-verification-app/\" rel=\"noopener\" target=\"_blank\">EU Member States</a> and enhancing their resilience to cyber threats.</span><span> </span>\n<h3><b><span>Maturity Levels in NCAF</span></b><span> </span></h3>\n<span>The maturity model in NCAF 2.0 is structured around five levels, each representing a stage of development in national cybersecurity capabilities:</span><span> </span>\n<ul>\n \t<li><b><span>Level 1: Foundation</span></b><span>: Countries at this level have begun their cybersecurity journey but lack a comprehensive, coordinated approach. </span><span> </span></li>\n \t<li><b><span>Level 2: Developing</span></b><span>: At this stage, national strategies are in place, but implementation is still in the early stages. </span><span> </span></li>\n \t<li><b><span>Level 3: Established</span></b><span>: Member States at this level have a well-established cybersecurity framework with clear governance structures and resource allocation.</span><span> </span></li>\n \t<li><b><span>Level 4: Mature</span></b><span>: A mature cybersecurity strategy is aligned across all sectors, with ongoing evaluations and adjustments based on performance <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-data/\" title=\"data\">data</a>. </span><span> </span></li>\n \t<li><b><span>Level 5: Advanced</span></b><span>: Countries at this level demonstrate an adaptive, forward-looking cybersecurity strategy that is responsive to emerging threats and technological advancements. </span><span> </span></li>\n</ul>\n<span>While reaching Level 5 may be an idealized goal for many countries, the model provides a clear roadmap for progress, helping Member States identify where they currently stand and where they should aim to be.</span><span> </span>",
     "link": "https://thecyberexpress.com/ncaf-2-0-framework-eu-cybersecurity/",
@@ -664,6 +604,16 @@
     "source": "helpnetsecurity.com",
     "category": "Data Breach",
     "importance_score": 950,
+    "also_covered_by": []
+  },
+  {
+    "title": "Government adoption of AI agents could outpace the private sector",
+    "summary": "According to a new survey, most government leaders expect that AI will surpass the internet, PCs, and even smartphones in its impact on the workforce.",
+    "link": "https://www.zdnet.com/article/government-adoption-of-ai-agents-may-outpace-the-private-sector/",
+    "published": "2026-04-24T07:00:36",
+    "source": "zdnet.com",
+    "category": "Vulnerability",
+    "importance_score": 937,
     "also_covered_by": []
   },
   {
@@ -697,16 +647,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Ransomware Gang Unveils Custom Data-Theft Tool",
-    "summary": "<p>Ransomware operators introduced a custom-built data exfiltration tool, signaling a notable evolution in attack techniques. Unlike most ransomware groups that rely on publicly available utilities such as Rclone or MegaSync, Trigona affiliates are now using a proprietary tool to steal sensitive data with greater precision and stealth. Trigona, active since late 2022, operates as a [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/custom-data-theft-tool/\">Ransomware Gang Unveils Custom Data-Theft Tool</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/custom-data-theft-tool/",
-    "published": "2026-04-24T04:51:31",
-    "source": "gbhackers.com",
-    "category": "Ransomware",
-    "importance_score": 911,
-    "also_covered_by": []
-  },
-  {
     "title": "PowMix botnet targets Czech workforce",
     "summary": "Cisco Talos discovered an ongoing malicious campaign, operating since at least December 2025, affecting a broader workforce in the Czech Republic with a previously undocumented botnet we call “PowMix.”",
     "link": "https://blog.talosintelligence.com/powmix-botnet-targets-czech-workforce/",
@@ -717,16 +657,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Bitwarden CLI Compromised in Supply Chain Attack via GitHub Actions",
-    "summary": "<p>Socket has confirmed that Bitwarden CLI version 2026.4.0 was compromised as part of the ongoing Checkmarx supply chain campaign, exposing millions of users and thousands of enterprises to credential theft and CI/CD pipeline infiltration. The attack targeted @bitwarden/cli 2026.4.0 on npm, injecting a malicious file named bw1.js into the package contents. Bitwarden CLI is used [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/bitwarden-cli-compromised/\">Bitwarden CLI Compromised in Supply Chain Attack via GitHub Actions</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/bitwarden-cli-compromised/",
-    "published": "2026-04-23T16:24:31",
-    "source": "cybersecuritynews.com",
-    "category": "Critical Infrastructure",
-    "importance_score": 908,
-    "also_covered_by": []
-  },
-  {
     "title": "UNC6692 Impersonates IT Helpdesk via Microsoft Teams to Deploy SNOW Malware",
     "summary": "A previously undocumented threat activity cluster known as UNC6692 has been observed leveraging social engineering tactics via Microsoft Teams to deploy a custom malware suite on compromised hosts.\n\"As with many other intrusions in recent years, UNC6692 relied heavily on impersonating IT helpdesk employees, convincing their victim to accept a Microsoft Teams chat invitation from an account",
     "link": "https://thehackernews.com/2026/04/unc6692-impersonates-it-helpdesk-via.html",
@@ -734,16 +664,6 @@
     "source": "thehackernews.com",
     "category": "Phishing / Scams",
     "importance_score": 877,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hackers Impersonate IT Helpdesk Staff to Breach Firms via Microsoft Teams",
-    "summary": "<p>A newly identified cyber threat group, UNC6692, is using a clever mix of social engineering and custom malware to infiltrate corporate networks. By impersonating IT helpdesk personnel on Microsoft Teams, these hackers trick employees into downloading a sophisticated malware suite that steals sensitive company data. The Social Engineering Trap The attack begins with an aggressive [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-impersonate-it-helpdesk-staff-microsoft-teams/\">Hackers Impersonate IT Helpdesk Staff to Breach Firms via Microsoft Teams</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/hackers-impersonate-it-helpdesk-staff-microsoft-teams/",
-    "published": "2026-04-24T04:48:28",
-    "source": "gbhackers.com",
-    "category": "Phishing / Scams",
-    "importance_score": 876,
     "also_covered_by": []
   },
   {
@@ -774,16 +694,6 @@
     "source": "bleepingcomputer.com",
     "category": "Ransomware",
     "importance_score": 869,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hackers Use Outlook Mailboxes to Hide Linux GoGra Backdoor Communications",
-    "summary": "<p>A nation-state-linked hacking group has found a clever way to hide its malicious activity inside Microsoft Outlook mailboxes, making its attacks much harder to detect by standard security tools. The Harvester APT group, believed to be a nation-state-backed threat actor active since at least 2021, has developed a new Linux version of its GoGra backdoor. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-use-outlook-mailboxes/\">Hackers Use Outlook Mailboxes to Hide Linux GoGra Backdoor Communications</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/hackers-use-outlook-mailboxes/",
-    "published": "2026-04-23T12:02:59",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 854,
     "also_covered_by": []
   },
   {
@@ -897,16 +807,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Fake TradingView AI Agent Site is Delivering Needle Stealer Malware via Fake TradingClaw",
-    "summary": "<p>A new malware campaign is tricking traders into downloading a data-stealing tool by impersonating the popular financial platform TradingView. Attackers set up a fake website promoting something called TradingClaw, which they describe as an AI-powered trading assistant. Once a visitor downloads and runs what they believe is a helpful trading tool, they unknowingly install Needle [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fake-tradingview-ai-agent-site/\">Fake TradingView AI Agent Site is Delivering Needle Stealer Malware via Fake TradingClaw</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/fake-tradingview-ai-agent-site/",
-    "published": "2026-04-23T12:53:24",
-    "source": "cybersecuritynews.com",
-    "category": "Policy / Law",
-    "importance_score": 715,
-    "also_covered_by": []
-  },
-  {
     "title": "ThreatsDay Bulletin: $290M DeFi Hack, macOS LotL Abuse, ProxySmart SIM Farms +25 New Stories",
     "summary": "You scroll past one incident and see another that feels familiar, like it should have been fixed years ago, but it still works with small changes. Same bugs. Same mistakes.\nThe supply chain is messy. Packages you did not check are stealing data, adding backdoors, and spreading. Attacking the systems behind apps is easier than breaking the apps themselves. The exploits are simple but still work",
     "link": "https://thehackernews.com/2026/04/threatsday-bulletin-290m-defi-hack.html",
@@ -934,16 +834,6 @@
     "source": "securelist.com",
     "category": "Phishing / Scams",
     "importance_score": 708,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hackers Abuse Fake Wallpaper App and YouTube Channel to Spread notnullOSX Malware",
-    "summary": "<p>A new macOS malware called notnullOSX has surfaced in early 2026, specifically built to steal cryptocurrency from Mac users who hold digital assets worth more than $10,000. The threat is real, active, and carefully constructed to look completely legitimate at every step of its infection process. The story behind this malware goes back to 2023, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-abuse-fake-wallpaper-app/\">Hackers Abuse Fake Wallpaper App and YouTube Channel to Spread notnullOSX Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/hackers-abuse-fake-wallpaper-app/",
-    "published": "2026-04-23T13:40:35",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 705,
     "also_covered_by": []
   },
   {
@@ -1074,16 +964,6 @@
     "source": "infosecurity-magazine.com",
     "category": "Ransomware",
     "importance_score": 622,
-    "also_covered_by": []
-  },
-  {
-    "title": "Microsoft Teams Issue Blocking Users From Joining Meetings Following Edge browser update",
-    "summary": "<p>Microsoft is actively investigating a known issue preventing some users from joining Microsoft Teams meetings on Windows devices, following a recent update to the Microsoft Edge browser. The disruption is affecting organizations, including those using NHSmail infrastructure, with reports indicating that scheduled meetings and link-based meeting joins are the primary points of failure. The issue [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-teams-issue-blocking-users/\">Microsoft Teams Issue Blocking Users From Joining Meetings Following Edge browser update</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/microsoft-teams-issue-blocking-users/",
-    "published": "2026-04-24T04:44:49",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 621,
     "also_covered_by": []
   },
   {
@@ -1317,16 +1197,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Hackers Exploit SS7 and Diameter Flaws to Track Mobile Users Globally",
-    "summary": "<p>A recent investigation by Citizen Lab has uncovered sophisticated, multi-year surveillance campaigns exploiting foundational vulnerabilities in global mobile networks. The report, titled &#8220;Bad Connection,&#8221; reveals how suspected commercial surveillance vendors (CSVs) weaponize the SS7 and Diameter signaling protocols to covertly track high-profile individuals across the globe without interacting directly with their devices. These findings underscore [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-exploit-ss7-and-diameter-flaws/\">Hackers Exploit SS7 and Diameter Flaws to Track Mobile Users Globally</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/hackers-exploit-ss7-and-diameter-flaws/",
-    "published": "2026-04-24T05:14:54",
-    "source": "gbhackers.com",
-    "category": "Policy / Law",
-    "importance_score": 491,
-    "also_covered_by": []
-  },
-  {
     "title": "Bad Apples: Weaponizing native macOS primitives for movement and execution",
     "summary": "Cisco Talos documents several macOS living-off-the-land (LOTL) techniques, demonstrating that native pathways for movement and execution remain accessible to those who understand the underlying architecture.",
     "link": "https://blog.talosintelligence.com/bad-apples-weaponizing-native-macos-primitives-for-movement-and-execution/",
@@ -1457,46 +1327,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Bitwarden CLI Compromised After Malicious GitHub Actions Workflow",
-    "summary": "<p>Cybersecurity researchers at Socket have uncovered a major supply chain compromise affecting the Bitwarden CLI. Attackers successfully abused a GitHub Action in Bitwarden’s CI/CD pipeline to inject malicious code into the popular password manager&#8217;s npm package. This breach is part of the broader, ongoing Checkmarx supply chain campaign. Bitwarden CLI Compromised The compromised package, identified [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/bitwarden-cli-compromised/\">Bitwarden CLI Compromised After Malicious GitHub Actions Workflow</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/bitwarden-cli-compromised/",
-    "published": "2026-04-24T04:31:19",
-    "source": "gbhackers.com",
-    "category": "Critical Infrastructure",
-    "importance_score": 473,
-    "also_covered_by": []
-  },
-  {
-    "title": "GitLab Fixes Flaws That Could Allow Attackers to Hijack User Sessions",
-    "summary": "<p>GitLab has released emergency security patches addressing 11 vulnerabilities across its Community Edition (CE) and Enterprise Edition (EE), including three high-severity flaws that could allow attackers to execute malicious code, forge requests, and steal user session tokens. On April 22, 2026, GitLab released versions 18.11.1, 18.10.4, and 18.9.6 for both CE and EE deployments. GitLab.com has already been [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/gitlab-fixes-flaws/\">GitLab Fixes Flaws That Could Allow Attackers to Hijack User Sessions</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/gitlab-fixes-flaws/",
-    "published": "2026-04-23T11:34:14",
-    "source": "gbhackers.com",
-    "category": "Policy / Law",
-    "importance_score": 473,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hackers Abuse SS7 and Diameter Protocols to Track Mobile Users Worldwide",
-    "summary": "<p>A major investigation has revealed that sophisticated threat actors are exploiting fundamental vulnerabilities in global mobile networks to track users worldwide. By abusing legacy 3G SS7 and 4G Diameter signaling protocols, hackers are successfully bypassing telecom firewalls to conduct silent, cross-border espionage. The extensive Citizen Lab research uncovered two distinct surveillance threat actors, identified as [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-abuse-ss7-and-diameter-protocols/\">Hackers Abuse SS7 and Diameter Protocols to Track Mobile Users Worldwide</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/hackers-abuse-ss7-and-diameter-protocols/",
-    "published": "2026-04-24T06:11:03",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 473,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hackers Track 900+ React2Shell Exploits via Telegram Bots",
-    "summary": "<p>Hackers are using Telegram bots and AI tooling to run a structured, at-scale exploitation campaign abusing the critical React2Shell vulnerability (CVE-2025-55182), with evidence of 900+ confirmed compromises. Investigators found an exposed server tied to the Bissa scanner platform, used for multi-victim exploitation, staging, and validation rather than simple data dumping. Logs and project artifacts show [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/900-react2shell-exploited/\">Hackers Track 900+ React2Shell Exploits via Telegram Bots</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/900-react2shell-exploited/",
-    "published": "2026-04-24T05:36:43",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 471,
-    "also_covered_by": []
-  },
-  {
     "title": "Apple Fixes iOS Notification Bug Exposing Deleted Messages",
     "summary": "Apple patches iOS flaw that retained deleted notifications, exposing message data",
     "link": "https://www.infosecurity-magazine.com/news/apple-ios-notification-bug-deleted/",
@@ -1504,26 +1334,6 @@
     "source": "infosecurity-magazine.com",
     "category": "Policy / Law",
     "importance_score": 470,
-    "also_covered_by": []
-  },
-  {
-    "title": "North Korean Hackers Use Fake IT Worker Scheme to Infiltrate Companies and Evade Sanctions",
-    "summary": "<p>North Korea has been running one of the most quietly effective cyber fraud operations in recent years. State-sponsored operatives working for the Pyongyang regime have been posing as legitimate remote IT workers to get hired by companies around the world, earning salaries that flow directly back to fund the country&#8217;s weapons programs. This scheme, active [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/north-korean-hackers-use-fake-it-worker-scheme/\">North Korean Hackers Use Fake IT Worker Scheme to Infiltrate Companies and Evade Sanctions</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/north-korean-hackers-use-fake-it-worker-scheme/",
-    "published": "2026-04-23T19:48:03",
-    "source": "cybersecuritynews.com",
-    "category": "Phishing / Scams",
-    "importance_score": 465,
-    "also_covered_by": []
-  },
-  {
-    "title": "China-Linked Hackers Hide Behind Compromised Routers",
-    "summary": "<p>Hackers linked to China are increasingly abusing compromised routers and edge devices to build covert networks, enabling stealthy cyber operations that are harder to detect and block. Instead of relying on dedicated servers or purchased hosting, threat actors are now leveraging large-scale botnets made up of hacked small office/home office (SOHO) routers, IoT devices, and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/compromised-routers/\">China-Linked Hackers Hide Behind Compromised Routers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/compromised-routers/",
-    "published": "2026-04-24T06:26:11",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 460,
     "also_covered_by": []
   },
   {
@@ -1934,16 +1744,6 @@
     "source": "malwarebytes.com",
     "category": "Phishing / Scams",
     "importance_score": 331,
-    "also_covered_by": []
-  },
-  {
-    "title": "The best Amazon Fire TV Stick VPNs of 2026: Expert tested and reviewed",
-    "summary": "These tried-and-tested VPNs will work with your Amazon Fire TV Stick, giving you more privacy and freedom when streaming.",
-    "link": "https://www.zdnet.com/article/best-vpn-for-firestick/",
-    "published": "2026-04-23T10:45:33",
-    "source": "zdnet.com",
-    "category": "Other",
-    "importance_score": 330,
     "also_covered_by": []
   },
   {
