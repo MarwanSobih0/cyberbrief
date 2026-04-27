@@ -1809,16 +1809,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Copperhelm Raises $7 Million for Agentic Cloud Security Platform",
-    "summary": "<p>The Israel-based company, which just emerged from stealth mode, was founded by cloud and security experts from RSA, McAfee, and Unity.</p>\n<p>The post <a href=\"https://www.securityweek.com/copperhelm-raises-7-million-for-agentic-cloud-security-platform/\">Copperhelm Raises $7 Million for Agentic Cloud Security Platform</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-    "link": "https://www.securityweek.com/copperhelm-raises-7-million-for-agentic-cloud-security-platform/",
-    "published": "2026-04-24T07:31:09",
-    "source": "securityweek.com",
-    "category": "Other",
-    "importance_score": 276,
-    "also_covered_by": []
-  },
-  {
     "title": "Researcher claims Claude Desktop installs “spyware” on macOS",
     "summary": "A security researcher claims Claude Desktop installed spyware on his Mac. We examine the findings.",
     "link": "https://www.malwarebytes.com/blog/news/2026/04/researcher-claims-claude-desktop-installs-spyware-on-macos",
@@ -2378,6 +2368,16 @@
     "source": "unit42.paloaltonetworks.com",
     "category": "Vulnerability",
     "importance_score": 128,
+    "also_covered_by": []
+  },
+  {
+    "title": "Copperhelm Raises $7 Million for Agentic Cloud Security Platform",
+    "summary": "<p>The Israel-based company, which just emerged from stealth mode, was founded by cloud and security experts from RSA, McAfee, and Unity.</p>\n<p>The post <a href=\"https://www.securityweek.com/copperhelm-raises-7-million-for-agentic-cloud-security-platform/\">Copperhelm Raises $7 Million for Agentic Cloud Security Platform</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "link": "https://www.securityweek.com/copperhelm-raises-7-million-for-agentic-cloud-security-platform/",
+    "published": "2026-04-24T07:31:09",
+    "source": "securityweek.com",
+    "category": "Other",
+    "importance_score": 111,
     "also_covered_by": []
   },
   {
