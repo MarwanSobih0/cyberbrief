@@ -877,11 +877,11 @@
     "also_covered_by": []
   },
   {
-    "title": "New Silver Fox Campaign Uses Fake Tax Audit Alerts and Software Updates to Deliver Malware",
-    "summary": "<p>Silver Fox, a China-based threat group has launched a new wave of attacks targeting businesses and individuals across Asia, using fake tax audit notifications and counterfeit software update alerts to install dangerous malware on victim systems. The campaign reflects a sharp rise in socially engineered attacks that exploit the trust people place in official-looking messages [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/new-silver-fox-campaign-uses-fake-tax-audit-alerts/\">New Silver Fox Campaign Uses Fake Tax Audit Alerts and Software Updates to Deliver Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/new-silver-fox-campaign-uses-fake-tax-audit-alerts/",
-    "published": "2026-04-28T11:54:14",
-    "source": "cybersecuritynews.com",
+    "title": "LofyStealer Targets Minecraft Players via Node.js Loader and Browser Injection",
+    "summary": "<p>Minecraft players are being lured with a fake hacking tool called “Slinky” that secretly installs a powerful infostealer dubbed LofyStealer (also tracked as GrabBot), linked to the Brazilian cybercrime group LofyGang. The malware uses a Node. js-based loader and an in-memory C++ payload to steal browser data and exfiltrate it to a command-and-control (C2) server [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/lofystealer-targets-minecraft-players/\">LofyStealer Targets Minecraft Players via Node.js Loader and Browser Injection</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/lofystealer-targets-minecraft-players/",
+    "published": "2026-04-29T07:19:44",
+    "source": "gbhackers.com",
     "category": "Other",
     "importance_score": 719,
     "also_covered_by": []
@@ -904,16 +904,6 @@
     "source": "thehackernews.com",
     "category": "Other",
     "importance_score": 711,
-    "also_covered_by": []
-  },
-  {
-    "title": "Fake Tax Audits and Updates Fuel Silver Fox Malware Campaign",
-    "summary": "<p>A China-linked threat group known as Silver Fox is running a new wave of cyber campaigns using fake tax audit notifications and software update lures to deliver malware across Asia. Active since at least 2022, the group initially focused on financially motivated attacks but, since 2024, has evolved into a dual-purpose operation combining cybercrime and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/silver-fox-malware-campaign/\">Fake Tax Audits and Updates Fuel Silver Fox Malware Campaign</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/silver-fox-malware-campaign/",
-    "published": "2026-04-28T11:38:00",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 709,
     "also_covered_by": []
   },
   {
@@ -1334,6 +1324,16 @@
     "source": "gbhackers.com",
     "category": "Data Breach",
     "importance_score": 474,
+    "also_covered_by": []
+  },
+  {
+    "title": "New BlueNoroff Campaign Uses Fileless PowerShell and AI-Generated Zoom Lures",
+    "summary": "<p>A dangerous new cyber campaign from North Korea&#8217;s Lazarus Group is targeting cryptocurrency and Web3 professionals using fake Zoom meeting interfaces, fileless PowerShell scripts, and AI-generated deepfake content. The group behind this activity is BlueNoroff, a financially motivated subgroup known for stealing digital assets. This campaign has spread across more than 20 countries, with the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/new-bluenoroff-campaign-uses-fileless-powershell/\">New BlueNoroff Campaign Uses Fileless PowerShell and AI-Generated Zoom Lures</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/new-bluenoroff-campaign-uses-fileless-powershell/",
+    "published": "2026-04-29T07:19:40",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 471,
     "also_covered_by": []
   },
   {
