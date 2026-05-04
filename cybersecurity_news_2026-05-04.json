@@ -257,26 +257,6 @@
     "also_covered_by": []
   },
   {
-    "title": "FreeBSD Systems at Risk From DHCP Client RCE Vulnerability",
-    "summary": "<p>The FreeBSD Project has issued a critical security advisory (FreeBSD-SA-26:12.dhclient) to address a severe Remote Code Execution (RCE) vulnerability in its default IPv4 DHCP client. Tracked as CVE-2026-42511, this flaw allows local network attackers to execute arbitrary code with root privileges. Discovered by Joshua Rogers of the AISLE Research Team, the vulnerability affects all supported [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/freebsd-systems-at-risk-from-dhcp-client-rce-vulnerability/\">FreeBSD Systems at Risk From DHCP Client RCE Vulnerability</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/freebsd-systems-at-risk-from-dhcp-client-rce-vulnerability/",
-    "published": "2026-05-04T06:58:26",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 1676,
-    "also_covered_by": []
-  },
-  {
-    "title": "Threat Actors Use AI to Automate 0-Day Discovery and Exploitation at Machine Speed",
-    "summary": "<p>The way cyberattacks are launched has fundamentally changed. Threat actors are no longer spending months hunting for software flaws by hand. With artificial intelligence in their toolkit, they can now discover and exploit zero-day vulnerabilities in minutes, placing organizations across every sector at serious risk. For years, finding a zero-day required deep technical skill, long [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/threat-actors-use-ai-to-automate-0-day-discovery/\">Threat Actors Use AI to Automate 0-Day Discovery and Exploitation at Machine Speed</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/threat-actors-use-ai-to-automate-0-day-discovery/",
-    "published": "2026-05-04T07:42:00",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 1669,
-    "also_covered_by": []
-  },
-  {
     "title": "Architecting Security for Agentic Capabilities in Chrome",
     "summary": "<span class=\"byline-author\">Posted by Nathan Parker, Chrome security team</span>\n\n<p>\nChrome has been advancing the web’s security for well over 15 years, and we’re committed to meeting new challenges and opportunities with AI. Billions of people trust Chrome to keep them safe by default, and this is a responsibility we take seriously. Following the <a href=\"https://blog.google/products/chrome/new-ai-features-for-chrome/\">recent launch of Gemini in Chrome</a> and the <a href=\"https://www.youtube.com/watch?v=khX5-VHoYds&amp;t=206s\">preview of agentic capabilities</a>, we want to share our approach and some new innovations to improve the safety of agentic browsing. \n</p>\n<p>\nThe primary new threat facing all agentic browsers is <a href=\"https://storage.googleapis.com/deepmind-media/Security%20and%20Privacy/Gemini_Security_Paper.pdf\">indirect prompt injection</a>. It can appear in malicious sites, third-party content in iframes, or from user-generated content like user reviews, and can cause the agent to take unwanted actions such as initiating financial transactions or exfiltrating sensitive data. Given this open challenge, we are investing in a <a href=\"https://security.googleblog.com/2025/06/mitigating-prompt-injection-attacks.html\">layered defense</a> that includes both deterministic and probabilistic defenses to make it difficult and costly for attackers to cause harm. \n</p>\n<p>\nDesigning safe agentic browsing for Chrome has involved deep collaboration of security experts across Google. We built on Gemini's <a href=\"https://deepmind.google/blog/advancing-geminis-security-safeguards/\">existing protections</a> and <a href=\"https://storage.googleapis.com/gweb-research2023-media/pubtools/1018686.pdf\">agent security principles</a> and have implemented several new layers for Chrome.\n</p>\n<p>\nWe’re introducing a<strong> user alignment critic</strong> where the agent’s actions are vetted by a separate model that is isolated from untrusted content. We’re also extending Chrome’s<strong> origin-isolation capabilities</strong> to constrain what origins the agent can interact with, to just those that are relevant to the task. Our layered defense also includes <strong>user confirmations</strong> for critical steps, <strong>real-time detection of threats</strong>, and <strong>red-teaming and response</strong>. We’ll step through these layers below.\n</p>\n<h3 style=\"text-align: left;\">Checking agent outputs with User Alignment Critic </h3>\n\n\n<p>\nThe main planning model for Gemini uses page content shared in Chrome to decide what action to take next. Exposure to untrusted web content means it is inherently vulnerable to indirect prompt injection. We use techniques like <a href=\"https://arxiv.org/abs/2403.14720\">spotlighting</a> that direct the model to strongly prefer following user and system instructions over what’s on the page, and we’ve upstreamed known attacks to train the Gemini model to avoid falling for them. \n</p>\n<p>\nTo further bolster model alignment beyond spotlighting, we’re introducing the <em>User Alignment Critic</em> — a separate model built with Gemini that acts as a high-trust system component. This architecture is inspired partially by the <a href=\"https://simonwillison.net/2023/Apr/25/dual-llm-pattern/\">dual-LLM pattern</a> as well as <a href=\"https://arxiv.org/abs/2503.18813\">CaMeL research</a> from Google DeepMind.\n</p>\n<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWezV0Nm7TXPTsmJ83a-cznJhyphenhyphen_xkl8w37tAJPFxy8BudVH2r1KXm8j2qsaaMd-OynODzr0wR7eNNVgt_DFYXipqlX5YdnWag8w7YdaLRLSJDu7yp9yOppF4NXjVcD3xIP-cTDCMaRGpL32I6fpMuyeW1nAdfpfj4ikl-2yfyuBGwMW39FgCM0pFuZj8gY/s1600/Chrome_Agent%20Safety_Blog%20Graphics_User_AlignmentCriticFlowChart.png\" style=\"display: block; padding: 1em 0; text-align: center;\"><img alt=\"\" border=\"0\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWezV0Nm7TXPTsmJ83a-cznJhyphenhyphen_xkl8w37tAJPFxy8BudVH2r1KXm8j2qsaaMd-OynODzr0wR7eNNVgt_DFYXipqlX5YdnWag8w7YdaLRLSJDu7yp9yOppF4NXjVcD3xIP-cTDCMaRGpL32I6fpMuyeW1nAdfpfj4ikl-2yfyuBGwMW39FgCM0pFuZj8gY/s1600/Chrome_Agent%20Safety_Blog%20Graphics_User_AlignmentCriticFlowChart.png\" /></a></div>\n<p style=\"text-align: center;\">\n<em>A flow chart that depicts the User Alignment Critic: a trusted component that vets each action before it reaches the browser.</em>\n</p>\n<p>\nThe User Alignment Critic runs after the planning is complete to double-check each proposed action. Its primary focus is task alignment: determining whether the proposed action serves the user’s stated goal. If the action is misaligned, the Alignment Critic will veto it. This component is architected to see only metadata about the proposed action and not any unfiltered untrustworthy web content, thus ensuring it cannot be poisoned directly from the web. It has less context, but it also has a simpler job — just approve or reject an action.\n</p>\n<p>\nThis is a powerful, extra layer of defense against both goal-hijacking and data exfiltration within the action step. When an action is rejected, the Critic provides feedback to the planning model to re-formulate its plan, and the planner can return control to the user if there are repeated failures. \n</p>\n<h3 style=\"text-align: left;\">Enforcing stronger security<strong> bound</strong>aries with Origin Sets </h3>\n\n\n<p>\n<a href=\"https://www.chromium.org/Home/chromium-security/site-isolation/\">Site Isolation</a> and the <a href=\"https://web.dev/articles/same-origin-policy\">same-origin policy</a> are fundamental boundaries in Chrome’s security model and we’re carrying forward these concepts into the agentic world. By their nature, agents must operate across websites (e.g. collecting ingredients on one site and filling a shopping cart on another). But if an unrestricted agent is compromised and can interact with arbitrary sites, it can create what is effectively a Site Isolation bypass. That can have a severe impact when the agent operates on a local browser like Chrome, with logged-in sites vulnerable to data exfiltration. To address this, we’re extending those principles with <em>Agent Origin Sets</em>. Our design architecturally limits the agent to only access data from origins that are related to the task at hand, or data that the user has chosen to share with the agent. This prevents a compromised agent from acting arbitrarily on unrelated origins.\n</p>\n<p>\nFor each task on the web, a trustworthy <em>gating function</em> decides which origins proposed by the planner are relevant to the task. The design is to separate these into two sets, tracked for each session:\n</p>\n<ul>\n\n<li><strong>Read-only origins</strong> are those from which Gemini is permitted to consume content. If an iframe’s origin isn’t on the list, the model will not see that content.</li>\n\n<li><strong>Read-writable origins </strong>are those on which the agent is allowed to actuate (e.g., click, type) in addition to reading from. </li>\n</ul>\n<p>\nThis delineation enforces that only data from a limited set of origins is available to the agent, and this data can only be passed on to the writable origins. This bounds the threat vector of cross-origin data leaks. This also gives the browser the ability to enforce some of that separation, such as by not even sending to the model data that is outside the readable set. This reduces the model’s exposure to unnecessary cross-site data. Like the Alignment Critic, the gating functions that calculate these origin sets are not exposed to untrusted web content. The planner can also use context from pages the user explicitly shared in that session, but it cannot add new origins without the gating function’s approval. Outside of web origins, the planning model may ingest other non-web content such as from tool calls, so we also delineate those into read-vs-write calls and similarly check that those calls are appropriate for the task.\n</p>\n<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghyphenhyphenn4DpTjbnJ-VbmzsZDkXeH_6UuBKqmwMaLUPxclu_fmX_-pQaXZ0hmBDvPrBSGX8KeAtdPAasNQRzJuQyG7uMboFixcv4RM-hbJACo263iJ8Cr04JE1PaST2Tcb3x1KfB9ETFj9rYhgpeQO-yXAO7OBHIzzXpaJue0mfqDfqlE6eRYleLz2Y0ZG7MOTu/s1600/Chrome_Agent-Safety_Blog_Read-Writable-Origins.png\" style=\"display: block; padding: 1em 0; text-align: center;\"><img alt=\"\" border=\"0\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghyphenhyphenn4DpTjbnJ-VbmzsZDkXeH_6UuBKqmwMaLUPxclu_fmX_-pQaXZ0hmBDvPrBSGX8KeAtdPAasNQRzJuQyG7uMboFixcv4RM-hbJACo263iJ8Cr04JE1PaST2Tcb3x1KfB9ETFj9rYhgpeQO-yXAO7OBHIzzXpaJue0mfqDfqlE6eRYleLz2Y0ZG7MOTu/s1600/Chrome_Agent-Safety_Blog_Read-Writable-Origins.png\" /></a></div>\n<p style=\"text-align: center;\">\n<em>Iframes from origins that aren’t related to the user’s task are not shown to the model.</em>\n</p>\n<p>\nPage navigations can happen in several ways: If the planner decides to navigate to a new origin that isn’t yet in the readable set, that origin is checked for relevancy by a variant of the User Alignment critic before Chrome adds it and starts the navigation. And since model-generated URLs could exfiltrate private information, we have a deterministic check to restrict them to known, public URLs. If a page in Chrome navigates on its own to a new origin, it’ll get vetted by the same critic.\n</p>\n<p>\nGetting the balance right on the first iteration is hard without seeing how users’ tasks interact with these guardrails. We’ve initially implemented a simpler version of origin gating that just tracks the read-writeable set. We will tune the gating functions and other aspects of this system to reduce unnecessary friction while improving security. We think this architecture will provide a powerful security primitive that can be audited and reasoned about within the client, as it provides guardrails against cross-origin sensitive data exfiltration and unwanted actions.\n</p>\n<h3 style=\"text-align: left;\">Transparency and control for sensitive actions</h3>\n\n\n<p>\nWe designed the agentic capabilities in Chrome to give the user both transparency and control when they need it most. As the agent works in a tab, it details each step in a work log, allowing the user to observe the agent's actions as they happen. The user can pause to take over or stop a task at any time. \n</p>\n<p>\nThis transparency is paired with several layers of deterministic and model-based checks to trigger user confirmations before the agent takes an impactful action. These serve as guardrails against both model mistakes and adversarial input by putting the user in the loop at key moments.\n</p>\n<p>\nFirst, the agent will require a user confirmation before it navigates to certain sensitive sites, such as those dealing with banking transactions or personal medical information. This is based on a deterministic check against a list of sensitive sites. Second, it’ll confirm before allowing Chrome to sign-in to a site via Google Password Manager – the model does not have direct access to stored passwords. Lastly, before any sensitive web actions like completing a purchase or payment, sending messages, or other consequential actions, the agent will try to pause and either get permission from the user before proceeding or ask the user to complete the next step. Like our other safety classifiers, we’re constantly working to improve the accuracy to catch edge cases and grey areas.  \n</p>\n<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOjVhWn_oxNqPIu9-EvQgbwgqzTSp1O_dGOtC-mRTFHcC05Wf-ZY-wUfRHNsYGdnSDvSiVrtW86qsxoeehjaYGBIeuEQuR3oupKhKadZHa0_cyynv2rhWLZQuqcK_o5trwCa6xkCmuDvJDesvfqQrUzgwo-7EC74Zu1dGeJ-2BDnpo6G9Tg6e1M30SVRY5/s1600/Chrome_Agent%20Safety_Blog%20Graphics__Gemini%20in%20Chrome%203.png\" style=\"display: block; padding: 1em 0; text-align: center;\"><img alt=\"\" border=\"0\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOjVhWn_oxNqPIu9-EvQgbwgqzTSp1O_dGOtC-mRTFHcC05Wf-ZY-wUfRHNsYGdnSDvSiVrtW86qsxoeehjaYGBIeuEQuR3oupKhKadZHa0_cyynv2rhWLZQuqcK_o5trwCa6xkCmuDvJDesvfqQrUzgwo-7EC74Zu1dGeJ-2BDnpo6G9Tg6e1M30SVRY5/s1600/Chrome_Agent%20Safety_Blog%20Graphics__Gemini%20in%20Chrome%203.png\" /></a></div>\n<p style=\"text-align: center;\">\n<em>Illustrative example of when the agent gets to a payment page, it stops and asks the user to complete the final step.  </em>\n</p>\n<h3 style=\"text-align: left;\">Detecting “social engineering” of agents </h3>\n\n\n<p>\nIn addition to the structural defenses of alignment checks, origin gating, and confirmations, we have several processes to detect and respond to threats. While the agent is active, it checks every page it sees for indirect prompt injection. This is in addition to Chrome’s <a href=\"https://blog.google/products/chrome/google-chrome-safe-browsing-real-time/\">real-time scanning with Safe Browsing</a> and <a href=\"https://security.googleblog.com/2025/05/using-ai-to-stop-tech-support-scams-in.html\">on-device AI</a> that detect more traditional scams. This prompt-injection classifier runs in parallel to the planning model’s inference, and will prevent actions from being taken based on content that the classifier determined has intentionally targeted the model to do something unaligned with the user’s goal. While it cannot flag everything that might influence the model with malicious intent, it is a valuable layer in our defense-in-depth.\n</p>\n<h3 style=\"text-align: left;\">Continuous auditing, monitoring, response </h3>\n\n\n<p>\nTo validate the security of this set of layered defenses, we’ve built automated red-teaming systems to generate malicious sandboxed sites that try to derail the agent in Chrome. We start with a set of diverse attacks crafted by security researchers, and expand on them using LLMs following a <a href=\"https://storage.googleapis.com/deepmind-media/Security%20and%20Privacy/Gemini_Security_Paper.pdf\">technique</a> we adapted for browser agents. Our continuous testing prioritizes defenses against broad-reach vectors such as user-generated content on social media sites and content delivered via ads. We also prioritize attacks that could lead to lasting harm, such as financial transactions or the leaking of sensitive credentials. The attack success rate across these give immediate feedback to any engineering changes we make, so we can prevent regressions and target improvements. Chrome’s auto-update capabilities allow us to get fixes out to users very quickly, so we can stay ahead of attackers.\n</p>\n<h3 style=\"text-align: left;\">Collaborating across the community</h3>\n\n\n<p>\nWe have a long-standing commitment to working with the broader security research community to advance security together, and this includes agentic safety. We’ve updated our Vulnerability Rewards Program (VRP) guidelines to clarify how external researchers can focus on agentic capabilities in Chrome. We want to hear about any serious vulnerabilities in this system, and will pay up to $20,000 for those that demonstrate breaches in the <a href=\"https://chromium.googlesource.com/chromium/src/+/HEAD/docs/security/faq.md#ai-features\">security boundaries</a>. The full details are available in <a href=\"https://bughunters.google.com/about/rules/chrome-friends/5745167867576320/chrome-vulnerability-reward-program-rules\">VRP rules</a>.\n</p>\n<h3 style=\"text-align: left;\">Looking forward</h3>\n\n\n<p>\nThe upcoming introduction of agentic capabilities in Chrome brings new demands for browser security, and we've approached this challenge with the same rigor that has defined Chrome's security model from its inception. By extending some core principles like origin-isolation and layered defenses, and introducing a trusted-model architecture, we're building a secure foundation for Gemini’s agentic experiences in Chrome. This is an evolving space, and while we're proud of the initial protections we've implemented, we recognize that security for web agents is still an emerging domain. We remain committed to continuous innovation and collaboration with the security community to ensure Chrome users can explore this new era of the web safely.\n</p>",
     "link": "http://security.googleblog.com/2025/12/architecting-security-for-agentic.html",
@@ -507,36 +487,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Trellix Source Code Breach Exposes Repository to Unauthorized Access",
-    "summary": "<p>Leading cybersecurity firm Trellix has announced a security incident involving unauthorized access to a portion of its source code repository. The breach highlights a growing trend of threat actors targeting top-tier security vendors to uncover potential software vulnerabilities. The Breach and Immediate Response In a recent public statement, Trellix confirmed that a threat actor had [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/trellix-source-code-breach-exposes-repository/\">Trellix Source Code Breach Exposes Repository to Unauthorized Access</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/trellix-source-code-breach-exposes-repository/",
-    "published": "2026-05-04T06:56:41",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 1074,
-    "also_covered_by": []
-  },
-  {
-    "title": "AI-Powered Threat Actors Accelerate 0-Day Discovery at Machine Speed",
-    "summary": "<p>Threat actors are already using AI models as autonomous operators to discover and exploit 0‑days in minutes, thereby collapsing the time and cost required to run complex intrusion campaigns. This shift, first clearly visible in late 2025 operations, is forcing defenders to rethink detection, containment, and even how they define insider risk. Until 2025, attackers [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ai-powered-threat-actors/\">AI-Powered Threat Actors Accelerate 0-Day Discovery at Machine Speed</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/ai-powered-threat-actors/",
-    "published": "2026-05-04T07:29:23",
-    "source": "gbhackers.com",
-    "category": "Policy / Law",
-    "importance_score": 1063,
-    "also_covered_by": []
-  },
-  {
-    "title": "FreeBSD DHCP Client Vulnerability Enables Remote Code Execution as Root",
-    "summary": "<p>The FreeBSD Project has released a critical security advisory addressing a severe flaw in its default IPv4 DHCP client. Tracked as&#160;CVE-2026-42511, this vulnerability allows a local network attacker to execute arbitrary code as root, granting them complete control over the compromised machine. Discovered by Joshua Rogers of the AISLE Research Team, the vulnerability affects all [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/freebsd-dhcp-client-vulnerability/\">FreeBSD DHCP Client Vulnerability Enables Remote Code Execution as Root</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/freebsd-dhcp-client-vulnerability/",
-    "published": "2026-05-04T06:25:03",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 1062,
-    "also_covered_by": []
-  },
-  {
     "title": "Protecting Cookies with Device Bound Session Credentials",
     "summary": "<span class=\"byline-author\">Posted by Ben Ackerman, Chrome team,  Daniel Rubery, Chrome team and Guillaume Ehinger, Google Account Security team</span>\n\n<p>\nFollowing our April 2024 <a href=\"https://blog.chromium.org/2024/04/fighting-cookie-theft-using-device.html\">announcement</a>, Device Bound Session Credentials (DBSC) is now entering public availability for Windows users on Chrome 146, and expanding to macOS in an upcoming Chrome release. This project represents a significant step forward in our ongoing efforts to combat session theft, which remains a prevalent threat in the modern security landscape.\n</p>\n<p>\nSession theft typically occurs when a user inadvertently downloads malware onto their device. Once active, the malware can silently extract existing session cookies from the browser or wait for the user to log in to new accounts, before exfiltrating these tokens to an attacker-controlled server. Infostealer malware families, such as LummaC2, have become increasingly sophisticated at harvesting these credentials. Because cookies often have extended lifetimes, attackers can use them to gain unauthorized access to a user’s accounts without ever needing their passwords; this access is then often bundled, traded, or sold among threat actors.\n</p>\n<p>\nCrucially, once sophisticated malware has gained access to a machine, it can read the local files and memory where browsers store authentication cookies. As a result, there is no reliable way to prevent cookie exfiltration using software alone on any operating system. Historically, mitigating session theft relied on detecting the stolen credentials after the fact using a complex set of abuse heuristics – a reactive approach that persistent attackers could often circumvent. DBSC fundamentally changes the web's capability to defend against this threat by shifting the paradigm from reactive detection to proactive prevention, ensuring that successfully exfiltrated cookies cannot be used to access users’ accounts.\n</p>\n<h3>How DBSC Works</h3>\n\n\n<p>\nDBSC protects against session theft by cryptographically binding authentication sessions to a specific device. It does this using hardware-backed security modules, such as the Trusted Platform Module (TPM) on Windows and the Secure Enclave on macOS, to generate a unique public/private key pair that cannot be exported from the machine. The issuance of new short-lived session cookies is contingent upon Chrome proving possession of the corresponding private key to the server. Because attackers cannot steal this key, any exfiltrated cookies quickly expire and become useless to those attackers. This design allows large and small websites to upgrade to secure, hardware-bound sessions by adding dedicated registration and refresh endpoints to their backends, while maintaining complete compatibility with their existing front-end. The browser handles the complex cryptography and cookie rotation in the background, allowing the web app to continue using standard cookies for access just as it always has. \n</p>\n<p>\nGoogle rolled out an early version of this protocol over the last year. For sessions protected by DBSC, we have observed a significant reduction in session theft since its launch.\n</p>\n<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjk4eZvzfBqPL0Xf1ckUo7l58eyeZKSzIelxjLOiOE_XHYNZc-qdx24Sv9n3tgRgc2xOzKZvcHsCksprOlxwd-gIRQaLPsOu2jjuCV4e6G1_ImsXhQeOean1CWndOiQuikT94gbvZLlWfktpCBRtxh9dJkxjpfvradSkzWD1Wqxohg9TJUdyC1kC88y6Abu/s1600/Screenshot%202026-04-09%20at%2010.11.22%E2%80%AFAM.png\" style=\"display: block; padding: 1em 0; text-align: center;\"><img alt=\"\" border=\"0\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjk4eZvzfBqPL0Xf1ckUo7l58eyeZKSzIelxjLOiOE_XHYNZc-qdx24Sv9n3tgRgc2xOzKZvcHsCksprOlxwd-gIRQaLPsOu2jjuCV4e6G1_ImsXhQeOean1CWndOiQuikT94gbvZLlWfktpCBRtxh9dJkxjpfvradSkzWD1Wqxohg9TJUdyC1kC88y6Abu/s1600/Screenshot%202026-04-09%20at%2010.11.22%E2%80%AFAM.png\" /></a></div>\n<p style=\"text-align: center;\">\n<em>An overview of the DBSC protocol showing the interaction between the browser and server.</em>\n</p>\n<h3>Private by design</h3>\n\n\n<p>\nA core tenet of the DBSC architecture is the preservation of user privacy. Each session is backed by a distinct key, preventing websites from using these credentials to correlate a user's activity across different sessions or sites on the same device. Furthermore, the protocol is designed to be lean: it does not leak device identifiers or attestation data to the server beyond the per-session public key required to certify proof of possession. This minimal information exchange ensures DBSC helps secure sessions without enabling cross-site tracking or acting as a device fingerprinting mechanism.\n</p>\n<h3>Engagement with the ecosystem</h3>\n\n\n<p>\nDBSC was designed from the beginning to be an open web standard through the W3C process and adoption by the Web Application Security Working Group. Through this process we partnered with Microsoft to design the standard to ensure it works for the web and got input from many in the industry that are responsible for web security.\n</p>\n<p>\nAdditionally, over the past year, we have also conducted two Origin Trials to ensure DBSC effectively serves the requirements of the broader web community. Many web platforms, including Okta, actively participated in these trials and their own testing and provided essential feedback to ensure the protocol effectively addresses their diverse needs.\n</p>\n<p>\nIf you are a web developer and are looking for a way to secure your users against session theft, refer to our <a href=\"https://developer.chrome.com/docs/web-platform/device-bound-session-credentials\">developer guide</a> for implementation details. Additionally, all the details about DBSC can be found on the <a href=\"https://w3c.github.io/webappsec-dbsc/\">spec</a> and the corresponding <a href=\"https://github.com/w3c/webappsec-dbsc\">github</a>. Feel free to use the <a href=\"https://github.com/w3c/webappsec-dbsc/issues\">issues</a> page to report bugs or provide feature requests.\n</p>\n<h3>Future improvements</h3>\n\n\n<p>\nAs we continue to evolve the DBSC standard, future iterations will focus on increasing support across diverse ecosystems and introducing advanced capabilities tailored for complex enterprise environments. Key areas of ongoing development include:\n</p>\n<ul>\n\n<li><strong>Securing Federated Identity: </strong>In modern enterprise environments, Single Sign-On (SSO) is ubiquitous. We are expanding the DBSC protocol to support cross-origin bindings, ensuring that a relying party (RP) session remains continuously bound to the same original device key used by the Identity Provider (IdP). This guarantees that the high-assurance security of the initial device binding is maintained throughout the entire federated login process, creating an unbroken chain of trust.</li>\n\n<li><strong>Advanced Registration Capabilities:</strong> While DBSC provides robust protection for established cookies, some environments require an even stronger foundation when the session is first created. We are developing mechanisms to bind DBSC sessions to pre-existing, trusted key material rather than generating a new key at sign-in. This advanced capability enables websites to integrate complementary technologies, such as mTLS certificates or hardware security keys, creating a highly secure registration environment.</li>\n\n<li><strong>Broader Device Support:</strong> We are also actively exploring the potential addition of software-based keys to extend protections to devices without dedicated secure hardware.",
     "link": "http://security.googleblog.com/2026/04/protecting-cookies-with-device-bound.html",
@@ -647,26 +597,6 @@
     "also_covered_by": []
   },
   {
-    "title": "cPanelSniper PoC Exploit Disclosed as 44,000 Servers Reportedly Compromised",
-    "summary": "<p>A critical zero-day vulnerability in cPanel and WebHost Manager (WHM) is under massive active exploitation following the public release of a sophisticated proof-of-concept exploit. Tracked as CVE-2026-41940, this flaw has already compromised tens of thousands of servers worldwide. The vulnerability, identified as CVE-2026-41940, is a severe authentication bypass flaw affecting cPanel and WHM. It carries [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cpanelsniper-poc-exploit-disclosed/\">cPanelSniper PoC Exploit Disclosed as 44,000 Servers Reportedly Compromised</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/cpanelsniper-poc-exploit-disclosed/",
-    "published": "2026-05-02T04:56:50",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 928,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hackers Breach Government and Military Servers by Exploiting cPanel Vulnerability",
-    "summary": "<p>A sophisticated adversarial campaign targeting South-East Asian government and military infrastructure, combining rapid exploitation of a critical cPanel authentication bypass with a custom zero-day exploit chain against an Indonesian defense-sector portal and ultimately pivoting to exfiltrate over 4GB of sensitive Chinese railway documents. The campaign&#8217;s initial access vector centered on CVE-2026-41940, a critical CVSS 9.8 [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/cpanel-vulnerability-exploited/\">Hackers Breach Government and Military Servers by Exploiting cPanel Vulnerability</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/cpanel-vulnerability-exploited/",
-    "published": "2026-05-02T16:15:02",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 927,
-    "also_covered_by": []
-  },
-  {
     "title": "Edtech Firm Instructure Discloses Data Breach Amid Hacker Leak Threats",
     "summary": "<p>Hackers disrupted services and stole names, email addresses, student ID numbers, and user messages.</p>\n<p>The post <a href=\"https://www.securityweek.com/edtech-firm-instructure-discloses-data-breach/\">Edtech Firm Instructure Discloses Data Breach Amid Hacker Leak Threats</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
     "link": "https://www.securityweek.com/edtech-firm-instructure-discloses-data-breach/",
@@ -677,26 +607,6 @@
     "also_covered_by": []
   },
   {
-    "title": "cPanelSniper – PoC Exploit Disclosed for cPanel Vulnerability, 44,000 Servers Compromised",
-    "summary": "<p>A weaponized proof-of-concept (PoC) exploit framework dubbed &#8220;cPanelSniper&#8221; has been publicly released for CVE-2026-41940, a maximum-severity authentication bypass in cPanel &#38; WHM that has already led to the compromise of tens of thousands of servers worldwide with attack activity traced as far back as late February 2026. CVE-2026-41940 is a critical pre-authentication flaw rooted in [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/cpanelsniper-poc-exploit/\">cPanelSniper &#8211; PoC Exploit Disclosed for cPanel Vulnerability, 44,000 Servers Compromised</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/cpanelsniper-poc-exploit/",
-    "published": "2026-05-02T02:57:59",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 921,
-    "also_covered_by": []
-  },
-  {
-    "title": "Trellix Source Code Breach – Hackers Gain Unauthorized Access to Repository",
-    "summary": "<p>Cybersecurity giant Trellix has disclosed a significant security incident involving unauthorized access to a portion of its source code repository. The company confirmed the breach in an official statement published on its website, stating it immediately engaged leading forensic experts upon discovering the intrusion. Threat actors gained unauthorized access to part of Trellix&#8217;s internal source [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/trellix-source-code-breach/\">Trellix Source Code Breach &#8211; Hackers Gain Unauthorized Access to Repository</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/trellix-source-code-breach/",
-    "published": "2026-05-02T16:38:36",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 918,
-    "also_covered_by": []
-  },
-  {
     "title": "PowMix botnet targets Czech workforce",
     "summary": "Cisco Talos discovered an ongoing malicious campaign, operating since at least December 2025, affecting a broader workforce in the Czech Republic with a previously undocumented botnet we call “PowMix.”",
     "link": "https://blog.talosintelligence.com/powmix-botnet-targets-czech-workforce/",
@@ -704,46 +614,6 @@
     "source": "blog.talosintelligence.com",
     "category": "Vulnerability",
     "importance_score": 909,
-    "also_covered_by": []
-  },
-  {
-    "title": "DigiCert Root Certificates Incorrectly Detected as Malware by Microsoft Defender",
-    "summary": "<p>On May 3, 2026, system administrators and everyday users worldwide experienced a sudden, massive spike in severe security alerts from Microsoft Defender. The native Windows security platform began aggressively flagging system files as &#8220;Trojan:Win32/Cerdigent.A!dha.&#8221; This unexpected detection caused widespread panic across IT departments, leading many professionals to believe a sophisticated threat actor had actively compromised [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/digicert-root-certificates-incorrectly-detected-as-malware/\">DigiCert Root Certificates Incorrectly Detected as Malware by Microsoft Defender</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/digicert-root-certificates-incorrectly-detected-as-malware/",
-    "published": "2026-05-04T06:55:40",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 894,
-    "also_covered_by": []
-  },
-  {
-    "title": "Microsoft Defender Mistakenly Flags DigiCert Root Certificates as Malware",
-    "summary": "<p>Microsoft Defender triggered widespread false positive alerts after a faulty security update caused it to flag two legitimate DigiCert root certificates as malicious, potentially disrupting SSL/TLS validation and code-signing operations across enterprise environments worldwide. A Defender antimalware signature update released around April 30, 2026, introduced a detection labeled Trojan:Win32/Cerdigent.A!dha, which incorrectly identified registry entries belonging [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/defender-flags-digicert-root-certificates/\">Microsoft Defender Mistakenly Flags DigiCert Root Certificates as Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/defender-flags-digicert-root-certificates/",
-    "published": "2026-05-03T16:55:13",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 886,
-    "also_covered_by": []
-  },
-  {
-    "title": "Email Bombing, Fake IT Support Calls Drive Microsoft Teams Phishing Surge",
-    "summary": "<p>Email bombing campaigns combined with fake IT support outreach are driving a surge in sophisticated Microsoft Teams phishing attacks. The attacks typically begin with email bombing, where victims are flooded with spam messages to create confusion and urgency. Shortly after, threat actors initiate contact via Microsoft Teams, impersonating internal IT support or helpdesk personnel. Posing [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/microsoft-teams-phishing-surge/\">Email Bombing, Fake IT Support Calls Drive Microsoft Teams Phishing Surge</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/microsoft-teams-phishing-surge/",
-    "published": "2026-05-04T07:14:26",
-    "source": "gbhackers.com",
-    "category": "Phishing / Scams",
-    "importance_score": 872,
-    "also_covered_by": []
-  },
-  {
-    "title": "Email Bombing and Fake IT Support Calls Fuel New Microsoft Teams Phishing Attacks",
-    "summary": "<p>A new wave of cyberattacks is targeting employees through a combination of inbox flooding and fake IT support contacts on Microsoft Teams, tricking users into handing over remote access to their own devices. These attacks have been growing steadily since the start of 2026, and security researchers warn they are far from slowing down. The [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/email-bombing-and-fake-it-support-calls/\">Email Bombing and Fake IT Support Calls Fuel New Microsoft Teams Phishing Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/email-bombing-and-fake-it-support-calls/",
-    "published": "2026-05-04T06:12:49",
-    "source": "cybersecuritynews.com",
-    "category": "Phishing / Scams",
-    "importance_score": 855,
     "also_covered_by": []
   },
   {
@@ -877,16 +747,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Attackers Abuse Google AppSheet, Netlify, and Telegram in Facebook Phishing Campaign",
-    "summary": "<p>A sophisticated cybercriminal operation dubbed &#8220;AccountDumpling&#8221; has compromised approximately 30,000 Facebook accounts worldwide. Discovered by Guardio Labs, this Vietnamese-linked campaign abuses Google&#8217;s AppSheet platform to bypass traditional email security filters. By routing fully authenticated phishing lures through legitimate channels, the attackers successfully harvest credentials and identity documents. These stolen Facebook Business accounts are subsequently monetized [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/attackers-abuse-google-appsheet-netlify-and-telegram/\">Attackers Abuse Google AppSheet, Netlify, and Telegram in Facebook Phishing Campaign</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/attackers-abuse-google-appsheet-netlify-and-telegram/",
-    "published": "2026-05-02T05:36:35",
-    "source": "cybersecuritynews.com",
-    "category": "Phishing / Scams",
-    "importance_score": 750,
-    "also_covered_by": []
-  },
-  {
     "title": "ChatGPT advanced account security adds passkeys and hardware keys",
     "summary": "<p>Journalists, elected officials, researchers, and political dissidents have spent years adapting their accounts to phishing-resistant authentication on consumer platforms. ChatGPT now joins that list. OpenAI has introduced Advanced Account Security, an opt-in setting that strips password-based sign-in from ChatGPT and Codex accounts and replaces it with passkeys or physical security keys. What enrollment changes Enrolled accounts use passkeys or hardware security keys for sign-in, with password login disabled. Email and SMS account recovery are removed, &#8230; <a href=\"https://www.helpnetsecurity.com/2026/05/04/openai-chatgpt-advanced-account-security/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/05/04/openai-chatgpt-advanced-account-security/\">ChatGPT advanced account security adds passkeys and hardware keys</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
     "link": "https://www.helpnetsecurity.com/2026/05/04/openai-chatgpt-advanced-account-security/",
@@ -897,16 +757,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Massive Facebook Phishing Operation Leverages AppSheet, Netlify, and Telegram",
-    "summary": "<p>Cybersecurity researchers at Guardio Labs have uncovered a massive phishing operation dubbed AccountDumpling that has compromised more than 30,000 Facebook accounts worldwide. Unlike conventional phishing campaigns that rely on spoofed domains or compromised SMTP servers, this Vietnamese-linked operation abuses Google AppSheet to deliver fully authenticated malicious emails. Because the messages originate from legitimate Google infrastructure, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/massive-facebook-phishing-operation/\">Massive Facebook Phishing Operation Leverages AppSheet, Netlify, and Telegram</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/massive-facebook-phishing-operation/",
-    "published": "2026-05-02T05:54:32",
-    "source": "gbhackers.com",
-    "category": "Phishing / Scams",
-    "importance_score": 739,
-    "also_covered_by": []
-  },
-  {
     "title": "Story retracted",
     "summary": "BleepingComputer initially published a story about a new data breach at Instructure. Shortly after publication, we determined that the information was incorrect and primarily based on outdated details from a prior incident. The article has been retracted, and we regret the error. [...]",
     "link": "https://www.bleepingcomputer.com/news/security/story-retracted/",
@@ -914,16 +764,6 @@
     "source": "bleepingcomputer.com",
     "category": "Data Breach",
     "importance_score": 738,
-    "also_covered_by": []
-  },
-  {
-    "title": "Attackers Deploy AiTM Phishing Pages to Access SharePoint, HubSpot, and Google Workspace",
-    "summary": "<p>Threat actors are rapidly shifting their intrusion tradecraft toward high-speed, SaaS-centric attacks that completely bypass traditional endpoint security. Since October 2025, security researchers have tracked two distinct adversaries, identified as CORDIAL SPIDER and SNARKY SPIDER, conducting aggressive data theft campaigns. These groups operate almost exclusively within trusted SaaS environments such as SharePoint, HubSpot, and Google [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/attackers-deploy-aitm-phishing-page/\">Attackers Deploy AiTM Phishing Pages to Access SharePoint, HubSpot, and Google Workspace</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/attackers-deploy-aitm-phishing-page/",
-    "published": "2026-05-02T06:36:19",
-    "source": "cybersecuritynews.com",
-    "category": "Phishing / Scams",
-    "importance_score": 731,
     "also_covered_by": []
   },
   {
@@ -1327,16 +1167,6 @@
     "also_covered_by": []
   },
   {
-    "title": "MOVEit Authentication Bypass Vulnerability Sparks Security Concerns",
-    "summary": "<p>Progress Software has issued a critical security alert for its MOVEit Automation software. Two severe vulnerabilities have been discovered that could allow attackers to bypass authentication and escalate their privileges. Because of the critical nature of these flaws, administrators are urged to apply the latest security patches immediately to prevent unauthorized access and data exposure. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/moveit-authentication-bypass-vulnerability/\">MOVEit Authentication Bypass Vulnerability Sparks Security Concerns</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/moveit-authentication-bypass-vulnerability/",
-    "published": "2026-05-04T07:00:15",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 474,
-    "also_covered_by": []
-  },
-  {
     "title": "Medtronic Confirms Data Breach After ShinyHunters Claims",
     "summary": "Medtronic confirms IT breach as ShinyHunters claims millions of records accesseda",
     "link": "https://www.infosecurity-magazine.com/news/medtronic-data-breach-shinyhunters/",
@@ -1647,18 +1477,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Criminal IP and Securonix ThreatQ Collaborate to Enhance Threat Intelligence Operations",
-    "summary": "<p>Torrance, United States / California, May 1st, 2026, CyberNewswire Criminal IP partners with Securonix to integrate Criminal IP’s Threat Intelligence into ThreatQ, allowing organizations to incorporate external IP intelligence into their existing workflows, helping security teams accelerate analysis and response with more actionable context. Unlike traditional intelligence feeds, Criminal IP provides visibility into how assets [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/criminal-ip-securonix-threatq-collaboration/\">Criminal IP and Securonix ThreatQ Collaborate to Enhance Threat Intelligence Operations</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/criminal-ip-securonix-threatq-collaboration/",
-    "published": "2026-05-01T17:41:49",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 339,
-    "also_covered_by": [
-      "bleepingcomputer.com"
-    ]
-  },
-  {
     "title": "I compared this premium Linux laptop to my MacBook Pro - it won in surprising ways",
     "summary": "The latest Tuxedo InfinityBook Max 15 is an impressive Linux machine for everyday use, but it's not necessarily the best option for professionals.",
     "link": "https://www.zdnet.com/article/tuxedo-infinitybook-max-15-review/",
@@ -1666,16 +1484,6 @@
     "source": "zdnet.com",
     "category": "Other",
     "importance_score": 336,
-    "also_covered_by": []
-  },
-  {
-    "title": "EtherRAT Uses SEO Poisoning and Fake GitHub Pages to Target Enterprise Admins",
-    "summary": "<p>A newly uncovered cyber campaign dubbed “EtherRAT” is raising concerns across enterprise environments, as attackers combine SEO poisoning, GitHub abuse, and blockchain-based infrastructure to target high-privilege IT professionals. Instead of broadly targeting users, the attackers deliberately impersonate trusted administrative tools, increasing the likelihood that victims already have elevated system access. The attack chain begins with [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/etherrat-uses-seo-poisoning/\">EtherRAT Uses SEO Poisoning and Fake GitHub Pages to Target Enterprise Admins</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/etherrat-uses-seo-poisoning/",
-    "published": "2026-05-01T11:17:25",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 335,
     "also_covered_by": []
   },
   {
@@ -1766,16 +1574,6 @@
     "source": "malwarebytes.com",
     "category": "Other",
     "importance_score": 317,
-    "also_covered_by": []
-  },
-  {
-    "title": "Multiple Exim Mail Server Vulnerabilities Leads to Crash with Malicious DNS data",
-    "summary": "<p>The Exim development team has released version 4.99.2 to address four newly discovered security vulnerabilities affecting their mail server software. These flaws allow attackers to potentially crash servers, corrupt memory, or leak sensitive information. Because Exim is one of the most widely used message transfer agents on the internet, system administrators need to apply this [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/exim-mail-server-vulnerabilities/\">Multiple Exim Mail Server Vulnerabilities Leads to Crash with Malicious DNS data</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/exim-mail-server-vulnerabilities/",
-    "published": "2026-05-02T11:14:18",
-    "source": "cybersecuritynews.com",
-    "category": "Data Breach",
-    "importance_score": 313,
     "also_covered_by": []
   },
   {
@@ -1906,6 +1704,16 @@
     "source": "blog.talosintelligence.com",
     "category": "Other",
     "importance_score": 232,
+    "also_covered_by": []
+  },
+  {
+    "title": "Criminal IP and Securonix ThreatQ Collaborate to Enhance Threat Intelligence Operations",
+    "summary": "Raw threat intel isn't enough without real-world context. Criminal IP has partnered with Securonix to integrate exposure-based intelligence into ThreatQ, automating analysis and speeding up investigations. [...]",
+    "link": "https://www.bleepingcomputer.com/news/security/criminal-ip-and-securonix-threatq-collaborate-to-enhance-threat-intelligence-operations/",
+    "published": "2026-05-01T14:02:12",
+    "source": "bleepingcomputer.com",
+    "category": "Other",
+    "importance_score": 222,
     "also_covered_by": []
   },
   {
