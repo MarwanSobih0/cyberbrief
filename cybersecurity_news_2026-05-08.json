@@ -585,46 +585,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Product showcase: NetGuard open-source firewall for Android",
-    "summary": "<p>NetGuard is a free, open-source firewall for Android phones and tablets that provides users with a simple way to block internet access. Android does not allow VPN services to be chained, so the app uses the Android VPN service to route all internet traffic through itself. NetGuard can be used without root access, although it also works on rooted devices. Activating NetGuard To activate the firewall, I enabled NetGuard using the switch in the action &#8230; <a href=\"https://www.helpnetsecurity.com/2026/05/08/product-showcase-netguard-open-source-firewall-android/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/05/08/product-showcase-netguard-open-source-firewall-android/\">Product showcase: NetGuard open-source firewall for Android</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
-    "link": "https://www.helpnetsecurity.com/2026/05/08/product-showcase-netguard-open-source-firewall-android/",
-    "published": "2026-05-08T05:00:48",
-    "source": "helpnetsecurity.com",
-    "category": "Vulnerability",
-    "importance_score": 1100,
-    "also_covered_by": []
-  },
-  {
-    "title": "What Mozilla learned running an AI security bug hunting pipeline on Firefox",
-    "summary": "<p>Over the past several months, Mozilla ran an agentic harness powered by Claude Mythos Preview across Firefox&#8217;s source code, identifying 271 security bugs that were fixed in Firefox 150, with additional fixes shipped in versions 149.0.2 and 150.0.1. Over 100 people contributed code to get those patches out. The bugs spanned a wide range of subsystems. Among the disclosed reports: a 15-year-old flaw in the HTML &#60;legend&#62; element, a 20-year-old XSLT bug involving reentrant key() &#8230; <a href=\"https://www.helpnetsecurity.com/2026/05/07/mozilla-firefox-claude-ai-security-bug-hunting/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/05/07/mozilla-firefox-claude-ai-security-bug-hunting/\">What Mozilla learned running an AI security bug hunting pipeline on Firefox</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
-    "link": "https://www.helpnetsecurity.com/2026/05/07/mozilla-firefox-claude-ai-security-bug-hunting/",
-    "published": "2026-05-07T16:00:50",
-    "source": "helpnetsecurity.com",
-    "category": "Vulnerability",
-    "importance_score": 1100,
-    "also_covered_by": []
-  },
-  {
-    "title": "One keypress is all it takes to compromise four AI coding tools",
-    "summary": "<p>Developers clone unfamiliar repositories all the time. Open-source projects, work from teammates, sample code from a tutorial, a library someone recommended on a forum. The convention is old and reasonable: you look at what&#8217;s inside before you run it. AI coding assistants that work from the command line have inherited that convention, and a new piece of research from Adversa AI shows where the convention breaks. The research, called TrustFall, covers four agentic coding tools: &#8230; <a href=\"https://www.helpnetsecurity.com/2026/05/07/trustfall-ai-coding-cli-vulnerability-research/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/05/07/trustfall-ai-coding-cli-vulnerability-research/\">One keypress is all it takes to compromise four AI coding tools</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
-    "link": "https://www.helpnetsecurity.com/2026/05/07/trustfall-ai-coding-cli-vulnerability-research/",
-    "published": "2026-05-07T13:00:26",
-    "source": "helpnetsecurity.com",
-    "category": "Vulnerability",
-    "importance_score": 1100,
-    "also_covered_by": []
-  },
-  {
-    "title": "State-sponsored hackers likely behind zero-day attacks on Palo Alto firewalls",
-    "summary": "<p>Palo Alto Networks believes the in-the-wild exploitation of a zero-day vulnerability (CVE-2026-0300) in its firewalls is likely the work of state-sponsored threat actors. A flaw with no patch (yet) CVE-2026-0300 is a buffer overflow vulnerability in the User-ID Authentication Portal service of Palo Alto Networks PAN-OS software, and can be exploited by unauthenticated attackers sending specially crafted packets to internet-facing User-ID Authentication Portals. The flaw affects Palo Alto Networks&#8217; PA-Series and VM-Series firewalls, and the &#8230; <a href=\"https://www.helpnetsecurity.com/2026/05/07/state-sponsored-hackers-zero-day-attacks-palo-alto-firewalls/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/05/07/state-sponsored-hackers-zero-day-attacks-palo-alto-firewalls/\">State-sponsored hackers likely behind zero-day attacks on Palo Alto firewalls</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
-    "link": "https://www.helpnetsecurity.com/2026/05/07/state-sponsored-hackers-zero-day-attacks-palo-alto-firewalls/",
-    "published": "2026-05-07T11:39:09",
-    "source": "helpnetsecurity.com",
-    "category": "Vulnerability",
-    "importance_score": 1100,
-    "also_covered_by": []
-  },
-  {
     "title": "PAN-OS RCE Exploit Under Active Use Enabling Root Access and Espionage",
     "summary": "Palo Alto Networks has disclosed that threat actors may have attempted to unsuccessfully exploit a recently disclosed critical security flaw as early as April 9, 2026.\nThe vulnerability in question is CVE-2026-0300 (CVSS score: 9.3/8.7), a buffer overflow vulnerability in the User-ID Authentication Portal service of Palo Alto Networks PAN-OS software that could allow an unauthenticated attacker",
     "link": "https://thehackernews.com/2026/05/pan-os-rce-exploit-under-active-use.html",
@@ -1321,66 +1281,6 @@
     "published": "2026-05-07T05:48:53",
     "source": "thecyberexpress.com",
     "category": "Vulnerability",
-    "importance_score": 500,
-    "also_covered_by": []
-  },
-  {
-    "title": "May 2026 Patch Tuesday forecast: AI starts driving security industry changes",
-    "summary": "<p>Project Glasswing. This is one of three major security industry changes I’ll cover today. The Anthropic Mythos vulnerability discovery model has already proven to be game changing in its ability to identify new vulnerabilities in software. Many of these vulnerabilities have existed for 10 to 15 years without human discovery. In a recent announcement from Mozilla, they discovered 271 vulnerabilities when running it against Firefox 150 prior to release. This sheer volume of new vulnerabilities &#8230; <a href=\"https://www.helpnetsecurity.com/2026/05/08/may-2026-patch-tuesday-forecast/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/05/08/may-2026-patch-tuesday-forecast/\">May 2026 Patch Tuesday forecast: AI starts driving security industry changes</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
-    "link": "https://www.helpnetsecurity.com/2026/05/08/may-2026-patch-tuesday-forecast/",
-    "published": "2026-05-08T06:19:11",
-    "source": "helpnetsecurity.com",
-    "category": "Vulnerability",
-    "importance_score": 500,
-    "also_covered_by": []
-  },
-  {
-    "title": "Roblox chat moderation gets bypassed by leet speak and code words",
-    "summary": "<p>Roblox runs an automated chat filter at the scale of billions of messages per day. An independent audit of about two million chat messages from four of the platform&#8217;s most popular games shows that filter missing a wide range of harmful interactions, including grooming attempts, sexual content directed at minors, threats of violence, and references to self-harm. Researchers from the University of Arizona and Arizona State University collected the messages from public servers covering the &#8230; <a href=\"https://www.helpnetsecurity.com/2026/05/08/roblox-chat-moderation-issues/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/05/08/roblox-chat-moderation-issues/\">Roblox chat moderation gets bypassed by leet speak and code words</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
-    "link": "https://www.helpnetsecurity.com/2026/05/08/roblox-chat-moderation-issues/",
-    "published": "2026-05-08T06:00:49",
-    "source": "helpnetsecurity.com",
-    "category": "Policy / Law",
-    "importance_score": 500,
-    "also_covered_by": []
-  },
-  {
-    "title": "Mental health apps are collecting more than emotional conversations",
-    "summary": "<p>People use mental health apps to talk about depression, trauma and suicidal thoughts in moments they may not share with anyone else. Many users likely assume those conversations carry protections similar to therapy sessions. In reality, mental health apps operate without the same confidentiality and privacy standards that govern licensed therapists. A new academic study examining 25 popular Android mental health and therapy apps found that every app contained at least one undisclosed tracker absent &#8230; <a href=\"https://www.helpnetsecurity.com/2026/05/08/android-mental-health-apps-privacy-risks/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/05/08/android-mental-health-apps-privacy-risks/\">Mental health apps are collecting more than emotional conversations</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
-    "link": "https://www.helpnetsecurity.com/2026/05/08/android-mental-health-apps-privacy-risks/",
-    "published": "2026-05-08T05:30:25",
-    "source": "helpnetsecurity.com",
-    "category": "Other",
-    "importance_score": 500,
-    "also_covered_by": []
-  },
-  {
-    "title": "Your coworker might be selling company logins, and thinks it’s fine",
-    "summary": "<p>Employee behavior once considered unacceptable is becoming tolerated across various industries, particularly in IT and telecommunications, and at all levels of seniority, including leadership. Cifas Workplace Fraud Trends research, based on a survey of 2,000 UK employees working at companies with more than 1,000 staff, shows that employee-driven fraud, such as selling login credentials or secretly working for competitors, is being viewed as justifiable. “These findings reflect a broader shift in workplace behaviors when faced &#8230; <a href=\"https://www.helpnetsecurity.com/2026/05/08/workplace-fraud-trends-report/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/05/08/workplace-fraud-trends-report/\">Your coworker might be selling company logins, and thinks it&#8217;s fine</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
-    "link": "https://www.helpnetsecurity.com/2026/05/08/workplace-fraud-trends-report/",
-    "published": "2026-05-08T04:30:37",
-    "source": "helpnetsecurity.com",
-    "category": "Phishing / Scams",
-    "importance_score": 500,
-    "also_covered_by": []
-  },
-  {
-    "title": "New infosec products of the week: May 8, 2026",
-    "summary": "<p>Here’s a look at the most interesting products from the past week LastPass, Operant AI, Sysdig, and VIAVI. Operant AI Endpoint Protector secures AI agents and MCP tools Operant AI has launched Operant Endpoint Protector, a new addition to its AI Defense Platform that enables enterprise IT and security teams to discover, detect, and defend against threats across every AI tool, coding agent, and Model Context Protocol (MCP)-connected workflow used by employees, directly at the &#8230; <a href=\"https://www.helpnetsecurity.com/2026/05/08/new-infosec-products-of-the-week-may-8-2026/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/05/08/new-infosec-products-of-the-week-may-8-2026/\">New infosec products of the week: May 8, 2026</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
-    "link": "https://www.helpnetsecurity.com/2026/05/08/new-infosec-products-of-the-week-may-8-2026/",
-    "published": "2026-05-08T04:00:50",
-    "source": "helpnetsecurity.com",
-    "category": "AI & Security",
-    "importance_score": 500,
-    "also_covered_by": []
-  },
-  {
-    "title": "$250 million cryptocurrency heist funded luxury fashion, nightclub parties, and private jets",
-    "summary": "<p>20-year-old California resident Marlon Ferro, known online as “GothFerrari,” was sentenced to 78 months in prison for his role in a cryptocurrency theft operation tied to more than $250 million in stolen digital assets. Federal prosecutors said Ferro participated in a criminal network active between late 2023 and early 2025. Members of the group, based in California, Connecticut, New York, Florida, and overseas, carried out roles that included database hacking, target identification, fraudulent phone calls, &#8230; <a href=\"https://www.helpnetsecurity.com/2026/05/07/crypto-theft-home-burglary-scheme/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/05/07/crypto-theft-home-burglary-scheme/\">$250 million cryptocurrency heist funded luxury fashion, nightclub parties, and private jets</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
-    "link": "https://www.helpnetsecurity.com/2026/05/07/crypto-theft-home-burglary-scheme/",
-    "published": "2026-05-07T13:50:04",
-    "source": "helpnetsecurity.com",
-    "category": "Phishing / Scams",
     "importance_score": 500,
     "also_covered_by": []
   },
