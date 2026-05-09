@@ -266,16 +266,6 @@
     "also_covered_by": []
   },
   {
-    "title": "New PamDOORa Backdoor Attacking Linux Systems to Steal SSH Credentials",
-    "summary": "<p>A new backdoor called PamDOORa has emerged as a serious and growing threat to Linux systems, targeting one of the most trusted components of the operating system to silently steal SSH credentials. The malware was advertised for sale on a Russian-speaking cybercrime forum called Rehub, with its complete source code initially listed at $1,600 before [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/new-pamdoora-backdoor-attacking-linux-systems/\">New PamDOORa Backdoor Attacking Linux Systems to Steal SSH Credentials</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/new-pamdoora-backdoor-attacking-linux-systems/",
-    "published": "2026-05-08T19:12:46",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 1556,
-    "also_covered_by": []
-  },
-  {
     "title": "Architecting Security for Agentic Capabilities in Chrome",
     "summary": "<span class=\"byline-author\">Posted by Nathan Parker, Chrome security team</span>\n\n<p>\nChrome has been advancing the web’s security for well over 15 years, and we’re committed to meeting new challenges and opportunities with AI. Billions of people trust Chrome to keep them safe by default, and this is a responsibility we take seriously. Following the <a href=\"https://blog.google/products/chrome/new-ai-features-for-chrome/\">recent launch of Gemini in Chrome</a> and the <a href=\"https://www.youtube.com/watch?v=khX5-VHoYds&amp;t=206s\">preview of agentic capabilities</a>, we want to share our approach and some new innovations to improve the safety of agentic browsing. \n</p>\n<p>\nThe primary new threat facing all agentic browsers is <a href=\"https://storage.googleapis.com/deepmind-media/Security%20and%20Privacy/Gemini_Security_Paper.pdf\">indirect prompt injection</a>. It can appear in malicious sites, third-party content in iframes, or from user-generated content like user reviews, and can cause the agent to take unwanted actions such as initiating financial transactions or exfiltrating sensitive data. Given this open challenge, we are investing in a <a href=\"https://security.googleblog.com/2025/06/mitigating-prompt-injection-attacks.html\">layered defense</a> that includes both deterministic and probabilistic defenses to make it difficult and costly for attackers to cause harm. \n</p>\n<p>\nDesigning safe agentic browsing for Chrome has involved deep collaboration of security experts across Google. We built on Gemini's <a href=\"https://deepmind.google/blog/advancing-geminis-security-safeguards/\">existing protections</a> and <a href=\"https://storage.googleapis.com/gweb-research2023-media/pubtools/1018686.pdf\">agent security principles</a> and have implemented several new layers for Chrome.\n</p>\n<p>\nWe’re introducing a<strong> user alignment critic</strong> where the agent’s actions are vetted by a separate model that is isolated from untrusted content. We’re also extending Chrome’s<strong> origin-isolation capabilities</strong> to constrain what origins the agent can interact with, to just those that are relevant to the task. Our layered defense also includes <strong>user confirmations</strong> for critical steps, <strong>real-time detection of threats</strong>, and <strong>red-teaming and response</strong>. We’ll step through these layers below.\n</p>\n<h3 style=\"text-align: left;\">Checking agent outputs with User Alignment Critic </h3>\n\n\n<p>\nThe main planning model for Gemini uses page content shared in Chrome to decide what action to take next. Exposure to untrusted web content means it is inherently vulnerable to indirect prompt injection. We use techniques like <a href=\"https://arxiv.org/abs/2403.14720\">spotlighting</a> that direct the model to strongly prefer following user and system instructions over what’s on the page, and we’ve upstreamed known attacks to train the Gemini model to avoid falling for them. \n</p>\n<p>\nTo further bolster model alignment beyond spotlighting, we’re introducing the <em>User Alignment Critic</em> — a separate model built with Gemini that acts as a high-trust system component. This architecture is inspired partially by the <a href=\"https://simonwillison.net/2023/Apr/25/dual-llm-pattern/\">dual-LLM pattern</a> as well as <a href=\"https://arxiv.org/abs/2503.18813\">CaMeL research</a> from Google DeepMind.\n</p>\n<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWezV0Nm7TXPTsmJ83a-cznJhyphenhyphen_xkl8w37tAJPFxy8BudVH2r1KXm8j2qsaaMd-OynODzr0wR7eNNVgt_DFYXipqlX5YdnWag8w7YdaLRLSJDu7yp9yOppF4NXjVcD3xIP-cTDCMaRGpL32I6fpMuyeW1nAdfpfj4ikl-2yfyuBGwMW39FgCM0pFuZj8gY/s1600/Chrome_Agent%20Safety_Blog%20Graphics_User_AlignmentCriticFlowChart.png\" style=\"display: block; padding: 1em 0; text-align: center;\"><img alt=\"\" border=\"0\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWezV0Nm7TXPTsmJ83a-cznJhyphenhyphen_xkl8w37tAJPFxy8BudVH2r1KXm8j2qsaaMd-OynODzr0wR7eNNVgt_DFYXipqlX5YdnWag8w7YdaLRLSJDu7yp9yOppF4NXjVcD3xIP-cTDCMaRGpL32I6fpMuyeW1nAdfpfj4ikl-2yfyuBGwMW39FgCM0pFuZj8gY/s1600/Chrome_Agent%20Safety_Blog%20Graphics_User_AlignmentCriticFlowChart.png\" /></a></div>\n<p style=\"text-align: center;\">\n<em>A flow chart that depicts the User Alignment Critic: a trusted component that vets each action before it reaches the browser.</em>\n</p>\n<p>\nThe User Alignment Critic runs after the planning is complete to double-check each proposed action. Its primary focus is task alignment: determining whether the proposed action serves the user’s stated goal. If the action is misaligned, the Alignment Critic will veto it. This component is architected to see only metadata about the proposed action and not any unfiltered untrustworthy web content, thus ensuring it cannot be poisoned directly from the web. It has less context, but it also has a simpler job — just approve or reject an action.\n</p>\n<p>\nThis is a powerful, extra layer of defense against both goal-hijacking and data exfiltration within the action step. When an action is rejected, the Critic provides feedback to the planning model to re-formulate its plan, and the planner can return control to the user if there are repeated failures. \n</p>\n<h3 style=\"text-align: left;\">Enforcing stronger security<strong> bound</strong>aries with Origin Sets </h3>\n\n\n<p>\n<a href=\"https://www.chromium.org/Home/chromium-security/site-isolation/\">Site Isolation</a> and the <a href=\"https://web.dev/articles/same-origin-policy\">same-origin policy</a> are fundamental boundaries in Chrome’s security model and we’re carrying forward these concepts into the agentic world. By their nature, agents must operate across websites (e.g. collecting ingredients on one site and filling a shopping cart on another). But if an unrestricted agent is compromised and can interact with arbitrary sites, it can create what is effectively a Site Isolation bypass. That can have a severe impact when the agent operates on a local browser like Chrome, with logged-in sites vulnerable to data exfiltration. To address this, we’re extending those principles with <em>Agent Origin Sets</em>. Our design architecturally limits the agent to only access data from origins that are related to the task at hand, or data that the user has chosen to share with the agent. This prevents a compromised agent from acting arbitrarily on unrelated origins.\n</p>\n<p>\nFor each task on the web, a trustworthy <em>gating function</em> decides which origins proposed by the planner are relevant to the task. The design is to separate these into two sets, tracked for each session:\n</p>\n<ul>\n\n<li><strong>Read-only origins</strong> are those from which Gemini is permitted to consume content. If an iframe’s origin isn’t on the list, the model will not see that content.</li>\n\n<li><strong>Read-writable origins </strong>are those on which the agent is allowed to actuate (e.g., click, type) in addition to reading from. </li>\n</ul>\n<p>\nThis delineation enforces that only data from a limited set of origins is available to the agent, and this data can only be passed on to the writable origins. This bounds the threat vector of cross-origin data leaks. This also gives the browser the ability to enforce some of that separation, such as by not even sending to the model data that is outside the readable set. This reduces the model’s exposure to unnecessary cross-site data. Like the Alignment Critic, the gating functions that calculate these origin sets are not exposed to untrusted web content. The planner can also use context from pages the user explicitly shared in that session, but it cannot add new origins without the gating function’s approval. Outside of web origins, the planning model may ingest other non-web content such as from tool calls, so we also delineate those into read-vs-write calls and similarly check that those calls are appropriate for the task.\n</p>\n<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghyphenhyphenn4DpTjbnJ-VbmzsZDkXeH_6UuBKqmwMaLUPxclu_fmX_-pQaXZ0hmBDvPrBSGX8KeAtdPAasNQRzJuQyG7uMboFixcv4RM-hbJACo263iJ8Cr04JE1PaST2Tcb3x1KfB9ETFj9rYhgpeQO-yXAO7OBHIzzXpaJue0mfqDfqlE6eRYleLz2Y0ZG7MOTu/s1600/Chrome_Agent-Safety_Blog_Read-Writable-Origins.png\" style=\"display: block; padding: 1em 0; text-align: center;\"><img alt=\"\" border=\"0\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghyphenhyphenn4DpTjbnJ-VbmzsZDkXeH_6UuBKqmwMaLUPxclu_fmX_-pQaXZ0hmBDvPrBSGX8KeAtdPAasNQRzJuQyG7uMboFixcv4RM-hbJACo263iJ8Cr04JE1PaST2Tcb3x1KfB9ETFj9rYhgpeQO-yXAO7OBHIzzXpaJue0mfqDfqlE6eRYleLz2Y0ZG7MOTu/s1600/Chrome_Agent-Safety_Blog_Read-Writable-Origins.png\" /></a></div>\n<p style=\"text-align: center;\">\n<em>Iframes from origins that aren’t related to the user’s task are not shown to the model.</em>\n</p>\n<p>\nPage navigations can happen in several ways: If the planner decides to navigate to a new origin that isn’t yet in the readable set, that origin is checked for relevancy by a variant of the User Alignment critic before Chrome adds it and starts the navigation. And since model-generated URLs could exfiltrate private information, we have a deterministic check to restrict them to known, public URLs. If a page in Chrome navigates on its own to a new origin, it’ll get vetted by the same critic.\n</p>\n<p>\nGetting the balance right on the first iteration is hard without seeing how users’ tasks interact with these guardrails. We’ve initially implemented a simpler version of origin gating that just tracks the read-writeable set. We will tune the gating functions and other aspects of this system to reduce unnecessary friction while improving security. We think this architecture will provide a powerful security primitive that can be audited and reasoned about within the client, as it provides guardrails against cross-origin sensitive data exfiltration and unwanted actions.\n</p>\n<h3 style=\"text-align: left;\">Transparency and control for sensitive actions</h3>\n\n\n<p>\nWe designed the agentic capabilities in Chrome to give the user both transparency and control when they need it most. As the agent works in a tab, it details each step in a work log, allowing the user to observe the agent's actions as they happen. The user can pause to take over or stop a task at any time. \n</p>\n<p>\nThis transparency is paired with several layers of deterministic and model-based checks to trigger user confirmations before the agent takes an impactful action. These serve as guardrails against both model mistakes and adversarial input by putting the user in the loop at key moments.\n</p>\n<p>\nFirst, the agent will require a user confirmation before it navigates to certain sensitive sites, such as those dealing with banking transactions or personal medical information. This is based on a deterministic check against a list of sensitive sites. Second, it’ll confirm before allowing Chrome to sign-in to a site via Google Password Manager – the model does not have direct access to stored passwords. Lastly, before any sensitive web actions like completing a purchase or payment, sending messages, or other consequential actions, the agent will try to pause and either get permission from the user before proceeding or ask the user to complete the next step. Like our other safety classifiers, we’re constantly working to improve the accuracy to catch edge cases and grey areas.  \n</p>\n<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOjVhWn_oxNqPIu9-EvQgbwgqzTSp1O_dGOtC-mRTFHcC05Wf-ZY-wUfRHNsYGdnSDvSiVrtW86qsxoeehjaYGBIeuEQuR3oupKhKadZHa0_cyynv2rhWLZQuqcK_o5trwCa6xkCmuDvJDesvfqQrUzgwo-7EC74Zu1dGeJ-2BDnpo6G9Tg6e1M30SVRY5/s1600/Chrome_Agent%20Safety_Blog%20Graphics__Gemini%20in%20Chrome%203.png\" style=\"display: block; padding: 1em 0; text-align: center;\"><img alt=\"\" border=\"0\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOjVhWn_oxNqPIu9-EvQgbwgqzTSp1O_dGOtC-mRTFHcC05Wf-ZY-wUfRHNsYGdnSDvSiVrtW86qsxoeehjaYGBIeuEQuR3oupKhKadZHa0_cyynv2rhWLZQuqcK_o5trwCa6xkCmuDvJDesvfqQrUzgwo-7EC74Zu1dGeJ-2BDnpo6G9Tg6e1M30SVRY5/s1600/Chrome_Agent%20Safety_Blog%20Graphics__Gemini%20in%20Chrome%203.png\" /></a></div>\n<p style=\"text-align: center;\">\n<em>Illustrative example of when the agent gets to a payment page, it stops and asks the user to complete the final step.  </em>\n</p>\n<h3 style=\"text-align: left;\">Detecting “social engineering” of agents </h3>\n\n\n<p>\nIn addition to the structural defenses of alignment checks, origin gating, and confirmations, we have several processes to detect and respond to threats. While the agent is active, it checks every page it sees for indirect prompt injection. This is in addition to Chrome’s <a href=\"https://blog.google/products/chrome/google-chrome-safe-browsing-real-time/\">real-time scanning with Safe Browsing</a> and <a href=\"https://security.googleblog.com/2025/05/using-ai-to-stop-tech-support-scams-in.html\">on-device AI</a> that detect more traditional scams. This prompt-injection classifier runs in parallel to the planning model’s inference, and will prevent actions from being taken based on content that the classifier determined has intentionally targeted the model to do something unaligned with the user’s goal. While it cannot flag everything that might influence the model with malicious intent, it is a valuable layer in our defense-in-depth.\n</p>\n<h3 style=\"text-align: left;\">Continuous auditing, monitoring, response </h3>\n\n\n<p>\nTo validate the security of this set of layered defenses, we’ve built automated red-teaming systems to generate malicious sandboxed sites that try to derail the agent in Chrome. We start with a set of diverse attacks crafted by security researchers, and expand on them using LLMs following a <a href=\"https://storage.googleapis.com/deepmind-media/Security%20and%20Privacy/Gemini_Security_Paper.pdf\">technique</a> we adapted for browser agents. Our continuous testing prioritizes defenses against broad-reach vectors such as user-generated content on social media sites and content delivered via ads. We also prioritize attacks that could lead to lasting harm, such as financial transactions or the leaking of sensitive credentials. The attack success rate across these give immediate feedback to any engineering changes we make, so we can prevent regressions and target improvements. Chrome’s auto-update capabilities allow us to get fixes out to users very quickly, so we can stay ahead of attackers.\n</p>\n<h3 style=\"text-align: left;\">Collaborating across the community</h3>\n\n\n<p>\nWe have a long-standing commitment to working with the broader security research community to advance security together, and this includes agentic safety. We’ve updated our Vulnerability Rewards Program (VRP) guidelines to clarify how external researchers can focus on agentic capabilities in Chrome. We want to hear about any serious vulnerabilities in this system, and will pay up to $20,000 for those that demonstrate breaches in the <a href=\"https://chromium.googlesource.com/chromium/src/+/HEAD/docs/security/faq.md#ai-features\">security boundaries</a>. The full details are available in <a href=\"https://bughunters.google.com/about/rules/chrome-friends/5745167867576320/chrome-vulnerability-reward-program-rules\">VRP rules</a>.\n</p>\n<h3 style=\"text-align: left;\">Looking forward</h3>\n\n\n<p>\nThe upcoming introduction of agentic capabilities in Chrome brings new demands for browser security, and we've approached this challenge with the same rigor that has defined Chrome's security model from its inception. By extending some core principles like origin-isolation and layered defenses, and introducing a trusted-model architecture, we're building a secure foundation for Gemini’s agentic experiences in Chrome. This is an evolving space, and while we're proud of the initial protections we've implemented, we recognize that security for web agents is still an emerging domain. We remain committed to continuous innovation and collaboration with the security community to ensure Chrome users can explore this new era of the web safely.\n</p>",
     "link": "http://security.googleblog.com/2025/12/architecting-security-for-agentic.html",
@@ -283,16 +273,6 @@
     "source": "security.googleblog.com",
     "category": "Data Breach",
     "importance_score": 1540,
-    "also_covered_by": []
-  },
-  {
-    "title": "Trellix Investigates RansomHouse Breach Claims Involving Source Code Repository",
-    "summary": "<p>Leading cybersecurity firm Trellix is actively investigating a potential security incident following claims made by the RansomHouse extortion group. The threat actors recently listed Trellix on their dark web leak site, alleging a successful cyberattack against the prominent security vendor. The RansomHouse Breach Claims Threat intelligence platform VenariX first highlighted the development, noting on X [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/trellix-investigates-ransomhouse-breach/\">Trellix Investigates RansomHouse Breach Claims Involving Source Code Repository</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/trellix-investigates-ransomhouse-breach/",
-    "published": "2026-05-08T09:04:17",
-    "source": "gbhackers.com",
-    "category": "Data Breach",
-    "importance_score": 1530,
     "also_covered_by": []
   },
   {
@@ -306,16 +286,6 @@
     "also_covered_by": []
   },
   {
-    "title": "NVIDIA Confirms GeForce Data Breach Exposed Users’ Personal Data",
-    "summary": "<p>GFN Cloud Internet Services, operating as the regional NVIDIA GeForce NOW cloud gaming partner, GFN.AM has officially confirmed a significant data breach. The security incident exposed personal information of users registered on their streaming platform. While the company has now secured its database, the delayed discovery of the network intrusion highlights ongoing challenges in protecting [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/nvidia-confirms-geforce-data-breach/\">NVIDIA Confirms GeForce Data Breach Exposed Users’ Personal Data</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/nvidia-confirms-geforce-data-breach/",
-    "published": "2026-05-09T03:21:57",
-    "source": "gbhackers.com",
-    "category": "Data Breach",
-    "importance_score": 1522,
-    "also_covered_by": []
-  },
-  {
     "title": "NVIDIA confirms GeForce NOW data breach affecting Armenian users",
     "summary": "NVIDIA has confirmed in a statement for BleepingComputer that GeForce NOW user information has been exposed in a data breach. [...]",
     "link": "https://www.bleepingcomputer.com/news/security/nvidia-confirms-geforce-now-data-breach-affecting-armenian-users/",
@@ -326,16 +296,6 @@
     "also_covered_by": []
   },
   {
-    "title": "NVIDIA Data Breach Reportedly Exposes Personal Information of GeForce Users",
-    "summary": "<p>A data breach at GFN.AM, an authorized NVIDIA GeForce NOW cloud gaming service provider operating under &#8220;GFN CLOUD INTERNET SERVICES&#8221; LLC, has exposed personal information belonging to registered users. The company disclosed the incident on May 5, 2026, revealing that unauthorized access to its database occurred as far back as March 9, 2026, nearly two [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/nvidia-data-breach-geforce-users/\">NVIDIA Data Breach Reportedly Exposes Personal Information of GeForce Users</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/nvidia-data-breach-geforce-users/",
-    "published": "2026-05-09T03:33:48",
-    "source": "cybersecuritynews.com",
-    "category": "Data Breach",
-    "importance_score": 1509,
-    "also_covered_by": []
-  },
-  {
     "title": "Ivanti customers confront yet another actively exploited zero-day",
     "summary": "<p>Attackers are hitting a frequent target in the network edge space, intruding victim networks through a defect in a widely used mobile endpoint security product.</p>\n<p>The post <a href=\"https://cyberscoop.com/ivanti-epmm-zero-day-vulnerability-exploited/\">Ivanti customers confront yet another actively exploited zero-day</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
     "link": "https://cyberscoop.com/ivanti-epmm-zero-day-vulnerability-exploited/",
@@ -343,16 +303,6 @@
     "source": "cyberscoop.com",
     "category": "Vulnerability",
     "importance_score": 1449,
-    "also_covered_by": []
-  },
-  {
-    "title": "Vidar Infostealer Campaign Steals Passwords, Cookies, Crypto Wallets, and Device Data",
-    "summary": "<p>A highly evasive multi-stage malware campaign deploying the Vidar Infostealer. First discovered in late 2018 and built on the Arkei stealer source code, Vidar is notorious for aggressively harvesting user credentials, browser session cookies, cryptocurrency wallets, and detailed system data. According to an analysis by researcher Mahadev Joshi, this recent campaign utilizes AutoIt scripting and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/vidar-infostealer-campaign-steals-passwords-cookies/\">Vidar Infostealer Campaign Steals Passwords, Cookies, Crypto Wallets, and Device Data</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/vidar-infostealer-campaign-steals-passwords-cookies/",
-    "published": "2026-05-09T04:03:07",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 1332,
     "also_covered_by": []
   },
   {
@@ -456,16 +406,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Hackers Use Fake OpenClaw Installer to Steal Crypto Wallet and Password Manager Credentials",
-    "summary": "<p>A dangerous new infostealer campaign is targeting some of the most sensitive data people store on their computers. Disguised as a legitimate installer for OpenClaw, a popular open-source personal AI assistant, the malware silently takes over systems and goes after over 250 browser extensions tied to crypto wallets and password managers. The campaign has been [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-use-fake-openclaw-installer/\">Hackers Use Fake OpenClaw Installer to Steal Crypto Wallet and Password Manager Credentials</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/hackers-use-fake-openclaw-installer/",
-    "published": "2026-05-08T17:15:20",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 1312,
-    "also_covered_by": []
-  },
-  {
     "title": "Fake Moustache Trick Raises Questions Over UK Online Safety Act Age Checks",
     "summary": "<p><img alt=\"Online Safety Act\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"768\" src=\"https://thecyberexpress.com/wp-content/uploads/Online-Safety-Act.webp\" title=\"Fake Moustache Trick Raises Questions Over UK Online Safety Act Age Checks 3\" width=\"1264\" /></p><span>The rollout of the UK’s Online Safety Act in July 2025 was intended to create a safer digital environment for children through stricter age verification rules, tighter moderation standards, and stronger protections against harmful online content. However, early evidence suggests that many of the safeguards introduced under the legislation can still be bypassed with surprisingly simple tactics, including a fake moustache drawn with makeup.</span><span> </span>\n\n<span>Recent findings have raised concerns among parents, researchers, and digital safety experts about the effectiveness of current age verification systems. While the Online Safety Act has led to some improvements in children’s online experiences, critics argue that enforcement remains inconsistent and that many platforms are still vulnerable to manipulation.</span><span> </span>\n\n<span>One of the most widely <a href=\"https://www.internetmatters.org/wp-content/uploads/2026/04/Internet-Matters-Online-Safety-Act-Report-May-2026.pdf\" rel=\"nofollow noopener\" target=\"_blank\">discussed examples</a> involved a 12-year-old boy who reportedly used an eyebrow pencil to create a fake moustache before facing a facial age estimation check. According to the report, the altered appearance convinced the system that he was 15 years old, allowing him to bypass restrictions designed for younger users. The incident has become a symbol of broader concerns about the reliability of AI-driven age-verification technologies.</span><span> </span>\n<h3><b><span>Online Safety Act Faces Early Challenges</span></b><span> </span></h3>\n<span>The Online Safety Act was introduced to strengthen online child protection measures by requiring platforms to implement stricter checks and reduce children’s exposure to harmful material. The legislation also aimed to improve reporting tools and create safer digital spaces for younger users.</span><span> </span>\n\n<span>Despite those goals, the report suggests that loopholes remain widespread. Children have reportedly been bypassing protection through several methods, including entering false birthdates, borrowing adult credentials, sharing accounts, and using <a href=\"https://thecyberexpress.com/vulnerability-in-adaptive-security-appliance/\" rel=\"noopener\" target=\"_blank\">VPN services</a>. More</span><span> </span><span>advanced attempts have also involved spoofing facial recognition systems used in age verification processes.</span><span> </span>\n\n<span>Survey <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-data/\" title=\"data\">data</a> cited in the findings revealed that nearly half of children believe current age verification systems are easy to evade. Around one-third admitted to bypassing these systems in recent months.</span><span> </span>\n\n<span>The fake moustache example particularly highlighted weaknesses in facial age estimation tools that rely heavily on visual indicators rather than stronger forms of identity confirmation. Experts argue that systems based primarily on appearance can be vulnerable to minor cosmetic changes, lighting adjustments, or <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/how-to-find-hidden-cameras-using-mobile-phones/\" title=\"camera\">camera</a> manipulation.</span><span> </span>\n<h3><b><span>Mixed Results Following Online Safety Act Rollout</span></b><span> </span></h3>\n<span>Although concerns over age verification remain significant, the report noted that the Online Safety Act has produced some positive outcomes. Approximately half of the surveyed children said they were now seeing more age-appropriate content online. In addition, around 40% of both children and parents stated that the <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-internet/\" title=\"internet\">internet</a> feels somewhat safer since the legislation came into effect.</span><span> </span>\n\n<span>Many children also appeared supportive of increased online protections. The findings showed that younger users generally approved of stricter platform rules, reduced interaction with strangers, and limitations placed on high-risk platform features.</span><span> </span>\n\n<span>Around 90% of children who noticed stronger moderation systems and improved reporting tools viewed those changes positively. Researchers said this indicates that many younger users are willing to engage with safer digital environments when protections are implemented effectively.</span><span> </span>\n\n<span>Still, the improvements have not been universal. Within just one month of new child protection codes being introduced under the Online Safety Act, nearly half of the children surveyed reported encountering harmful content online. This included violent material, hate speech, and body image-related content, all categories the legislation specifically aims to regulate.</span><span> </span>\n<h3><b><span>Privacy Concerns Grow Around Age Verification</span></b><span> </span></h3>\n<span>The expansion of age verification requirements has also triggered growing concerns over privacy and data <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/\" title=\"security\">security</a>. More than half of the children surveyed said they had been asked to verify their age within a recent two-mon</span><span>th period. These checks were reportedly common across major platforms, including TikTok, YouTube, Google services, and Roblox.</span><span> </span>\n\n<span>Many platforms now rely on technologies such as facial age estimation, government-issued identification checks, and third-party age assurance providers to comply with the Online Safety Act. While users generally described the systems as easy to complete, concerns remain about how sensitive data is collected, stored, and potentially reused.</span><span> </span>\n\n<span>Parents expressed unease about whether biometric information and identity documents submitted during age verification could later be retained by companies or accessed by government agencies. Those concerns have intensified calls for more centralized and privacy-focused verification systems instead of fragmented checks spread across multiple online services.</span><span> </span>\n\n<span>Experts argue that current approaches may not strike the right balance between <a href=\"https://thecyberexpress.com/dsa-child-protection-investigation/\" rel=\"noopener\" target=\"_blank\">child safety</a> and personal privacy. They warn that if the weaknesses exposed by tactics like the fake moustache incident are not addressed, public trust in these systems could continue to decline.</span><span> </span>",
     "link": "https://thecyberexpress.com/online-safety-act-age-verification/",
@@ -516,16 +456,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Hackers Leveraged Hugging Face and ClawHub With 575+ Malicious Skills to Deploy Malware",
-    "summary": "<p>An active malware distribution campaign abusing two prominent AI platforms, Hugging Face and ClawHub, to deliver trojans, cryptominers, and infostealers disguised as legitimate AI tools and agent extensions. The campaign marks a significant evolution in supply chain attacks, shifting from traditional software repositories to trusted AI ecosystems. Within the OpenClaw ecosystem distributed through ClawHub, Acronis [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-leverage-hugging-face-and-clawhub/\">Hackers Leveraged Hugging Face and ClawHub With 575+ Malicious Skills to Deploy Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/hackers-leverage-hugging-face-and-clawhub/",
-    "published": "2026-05-08T13:53:18",
-    "source": "cybersecuritynews.com",
-    "category": "Policy / Law",
-    "importance_score": 1176,
-    "also_covered_by": []
-  },
-  {
     "title": "CloudZ Malware Abuses Phone Link to Steal SMS OTPs",
     "summary": "Cisco Talos uncovers CloudZ RAT and Pheno plugin abusing Microsoft Phone Link to intercept SMS OTPs",
     "link": "https://www.infosecurity-magazine.com/news/cloudz-rat-pheno-phone-link-otp/",
@@ -573,26 +503,6 @@
     "source": "helpnetsecurity.com",
     "category": "Vulnerability",
     "importance_score": 1100,
-    "also_covered_by": []
-  },
-  {
-    "title": "Cline Kanban WebSocket Vulnerability Enables Malicious Sites to Take Over AI Coding Agents",
-    "summary": "<p>Cline, a widely adopted open-source AI coding agent, has recently patched a severe vulnerability in its local Kanban server. Trusted by developers with deep access to source code, cloud credentials, and terminals, Cline automates complex coding tasks. However, researchers from Oasis Security uncovered a critical flaw (CVSS 9.7) that allows malicious websites to silently hijack [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cline-kanban-websocket-vulnerability/\">Cline Kanban WebSocket Vulnerability Enables Malicious Sites to Take Over AI Coding Agents</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/cline-kanban-websocket-vulnerability/",
-    "published": "2026-05-08T10:49:21",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 1075,
-    "also_covered_by": []
-  },
-  {
-    "title": "Fake Moustache Fools Age Checks, Sparks Online Safety Act Fears",
-    "summary": "<p>A critical gaps in age verification systems introduced under the Online Safety Act, with children easily bypassing safeguards using simple tricks including drawing fake facial hair to appear older on camera. The Online Safety Act, which came into force in July 2025, was designed to strengthen protections for children online by enforcing stricter age checks, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fake-moustache-fools-age-checks/\">Fake Moustache Fools Age Checks, Sparks Online Safety Act Fears</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/fake-moustache-fools-age-checks/",
-    "published": "2026-05-08T09:18:59",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 1062,
     "also_covered_by": []
   },
   {
@@ -856,16 +766,6 @@
     "also_covered_by": []
   },
   {
-    "title": "TCLBANKER Malware Targets Users Through Self-Propagating WhatsApp and Outlook Worm Modules",
-    "summary": "<p>A highly sophisticated Brazilian banking trojan named TCLBANKER, tracked under the campaign REF3076, this malware represents a major update to the older Maverick and SORVEPOTEL families. It stands out because it uses a fake, signed Logitech installer to infect systems and spreads automatically via WhatsApp and Microsoft Outlook. The attack begins when a user downloads [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/tclbanker-malware-targets-users-whatsapp-outlook-worm-modules/\">TCLBANKER Malware Targets Users Through Self-Propagating WhatsApp and Outlook Worm Modules</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/tclbanker-malware-targets-users-whatsapp-outlook-worm-modules/",
-    "published": "2026-05-09T06:00:28",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 871,
-    "also_covered_by": []
-  },
-  {
     "title": "ShinyHunters claims nearly 9,000 schools affected by Canvas data breach",
     "summary": "<p>The group that stole data from Instructure users claims that it will release the data of students from nearly 9,000 education institutions around the country.</p>\n<p>The post <a href=\"https://edscoop.com/shinyhunters-claims-nearly-9000-schools-affected-by-canvas-data-breach/\">ShinyHunters claims nearly 9,000 schools affected by Canvas data breach</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
     "link": "https://edscoop.com/shinyhunters-claims-nearly-9000-schools-affected-by-canvas-data-breach/",
@@ -946,46 +846,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Hackers Deploy Modular RAT With Credential Theft and Screenshot Capture Capabilities",
-    "summary": "<p>A newly identified malware campaign is targeting senior executives and government investigators across Southeast Asia, using a modular Remote Access Trojan capable of stealing credentials, capturing screenshots, and maintaining deep persistence on infected systems. The operation, dubbed Operation GriefLure, is running two simultaneous campaigns hitting Vietnam&#8217;s military-linked telecom sector and the Philippine healthcare industry. What [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-deploy-modular-rat-with-credential-theft/\">Hackers Deploy Modular RAT With Credential Theft and Screenshot Capture Capabilities</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/hackers-deploy-modular-rat-with-credential-theft/",
-    "published": "2026-05-08T19:01:42",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 735,
-    "also_covered_by": []
-  },
-  {
-    "title": "Modular RAT Campaign Steals Credentials and Captures Screenshots",
-    "summary": "<p>A sophisticated spear-phishing campaign, dubbed Operation GriefLure, targeting senior executives in Vietnam and the Philippines with a stealthy modular remote access trojan (RAT). The campaign focuses on high-value organizations, including Viettel Group Vietnam’s largest military-backed telecom provider and St. Luke’s Medical Center (SLMC) in the Philippines, demonstrating a calculated approach to regional cyber-espionage. What sets Operation [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/modular-rat-campaign/\">Modular RAT Campaign Steals Credentials and Captures Screenshots</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/modular-rat-campaign/",
-    "published": "2026-05-08T11:45:28",
-    "source": "gbhackers.com",
-    "category": "Phishing / Scams",
-    "importance_score": 731,
-    "also_covered_by": []
-  },
-  {
-    "title": "ZiChatBot Malware Abuses Zulip APIs for Stealthy C2 Operations",
-    "summary": "<p>A new cross‑platform malware family, dubbed ZiChatBot, that abuses the trusted Python Package Index (PyPI) ecosystem and the Zulip team chat platform to run a stealthy command‑and‑control (C2) channel. During routine threat hunting, analysts observed a series of malicious wheel packages being uploaded to PyPI, initially appearing as legitimate utilities. The three fraudulent projects – uuid32-utils, colorinal, and termncolor – [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/zichatbot-malware-abuses-zulip/\">ZiChatBot Malware Abuses Zulip APIs for Stealthy C2 Operations</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/zichatbot-malware-abuses-zulip/",
-    "published": "2026-05-08T09:55:32",
-    "source": "gbhackers.com",
-    "category": "Phishing / Scams",
-    "importance_score": 729,
-    "also_covered_by": []
-  },
-  {
-    "title": "Pam Backdoor Targets Linux Systems to Steal SSH Credentials",
-    "summary": "<p>A newly observed Linux backdoor technique, dubbed Pam, is exploiting the flexibility of Pluggable Authentication Modules (PAM) to capture SSH credentials and maintain persistence on compromised systems stealthily. Since its introduction in 1991 by Linus Torvalds, Linux has been designed for simplicity, modularity, and flexibility. This modular architecture allows administrators to customize nearly every component, from [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/pam-backdoor-targets-linux-systems/\">Pam Backdoor Targets Linux Systems to Steal SSH Credentials</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/pam-backdoor-targets-linux-systems/",
-    "published": "2026-05-08T13:23:31",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 728,
-    "also_covered_by": []
-  },
-  {
     "title": "Canvas login portals hacked in mass ShinyHunters extortion campaign",
     "summary": "The ShinyHunters extortion gang has breached education technology giant Instructure again, this time exploiting another vulnerability to deface Canvas login portals for hundreds of colleges and universities. [...]",
     "link": "https://www.bleepingcomputer.com/news/security/canvas-login-portals-hacked-in-mass-shinyhunters-extortion-campaign/",
@@ -1023,16 +883,6 @@
     "source": "securityweek.com",
     "category": "Other",
     "importance_score": 711,
-    "also_covered_by": []
-  },
-  {
-    "title": "New ZiChatBot Malware Uses Zulip REST APIs as Command and Control Server",
-    "summary": "<p>A newly discovered malware called ZiChatBot has been found quietly using the REST APIs of a legitimate team chat application called Zulip to receive and carry out commands from its operators. This approach is unusual because the malware never communicates with a private server that security tools could flag or block, making it harder to [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/new-zichatbot-malware-uses-zulip-rest-apis/\">New ZiChatBot Malware Uses Zulip REST APIs as Command and Control Server</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/new-zichatbot-malware-uses-zulip-rest-apis/",
-    "published": "2026-05-08T14:06:50",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 703,
     "also_covered_by": []
   },
   {
@@ -1123,16 +973,6 @@
     "source": "malwarebytes.com",
     "category": "Vulnerability",
     "importance_score": 628,
-    "also_covered_by": []
-  },
-  {
-    "title": "Critical Microsoft 365 Copilot Vulnerabilities Expose sensitive Information",
-    "summary": "<p>Microsoft has disclosed and fully remediated three critical information disclosure vulnerabilities affecting Microsoft 365 Copilot and Copilot Chat in Microsoft Edge, all released on May 7, 2026, requiring no action from end users or administrators. Microsoft&#8217;s Security Response Center published advisories for CVE-2026-26129, CVE-2026-26164, and CVE-2026-33111 as part of its ongoing commitment to transparency in [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-365-copilot-vulnerabilities-data/\">Critical Microsoft 365 Copilot Vulnerabilities Expose sensitive Information</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/microsoft-365-copilot-vulnerabilities-data/",
-    "published": "2026-05-09T02:34:14",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 625,
     "also_covered_by": []
   },
   {
@@ -1446,26 +1286,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Critical Vulnerability in Rancher Fleet Enables Full Cluster-Admin Privileges",
-    "summary": "<p>The SUSE Rancher Security team disclosed a critical vulnerability tracked as CVE-2026-41050. This severe flaw affects Rancher Fleet, a popular GitOps tool for managing Kubernetes clusters at scale. The vulnerability completely breaks the platform&#8217;s core multi-tenant isolation mechanism, allowing malicious users to bypass security boundaries and steal sensitive data. According to an analysis by Lyrie [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-vulnerability-in-rancher-fleet/\">Critical Vulnerability in Rancher Fleet Enables Full Cluster-Admin Privileges</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/critical-vulnerability-in-rancher-fleet/",
-    "published": "2026-05-08T08:54:21",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 480,
-    "also_covered_by": []
-  },
-  {
-    "title": "Fake OpenClaw Installer Targets Crypto Wallets and Password Managers",
-    "summary": "<p>Hackers are abusing a fake OpenClaw installer to deploy a modular Rust-based infostealer framework dubbed Hologram, aimed at harvesting credentials from more than 250 crypto wallet and password manager browser extensions while hiding behind trusted cloud and messaging services. The site delivers an archive named OpenClaw_x64.7z containing a 130MB Rust-compiled executable, OpenClaw_x64.exe, padded with fake documentation [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fake-openclaw-installer/\">Fake OpenClaw Installer Targets Crypto Wallets and Password Managers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/fake-openclaw-installer/",
-    "published": "2026-05-08T11:01:15",
-    "source": "gbhackers.com",
-    "category": "Policy / Law",
-    "importance_score": 477,
-    "also_covered_by": []
-  },
-  {
     "title": "Ransomware Attacks are on the Rise",
     "summary": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
     "link": "https://threatpost.com/ransomware-attacks-are-on-the-rise/180481/",
@@ -1476,16 +1296,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Let’s Encrypt Halts Certificate Issuance After Cross-Signed Root Certificate Incident",
-    "summary": "<p>Let&#8217;s Encrypt temporarily suspended all certificate issuance on May 8, 2026, after engineers identified a critical issue involving a cross-signed certificate linking the organization&#8217;s Generation X root to its upcoming Generation Y root infrastructure. The incident triggered a complete shutdown of issuance across both production and staging environments before services were restored within hours. At [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/lets-encrypt-halts-certificate-issuance/\">Let&#8217;s Encrypt Halts Certificate Issuance After Cross-Signed Root Certificate Incident</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/lets-encrypt-halts-certificate-issuance/",
-    "published": "2026-05-09T03:00:51",
-    "source": "cybersecuritynews.com",
-    "category": "Ransomware",
-    "importance_score": 476,
-    "also_covered_by": []
-  },
-  {
     "title": "Threat Activity Enablers: The Backbone of Today’s Threat Landscape",
     "summary": "Behind every ransomware demand, botnet, or threat activity group is a server sitting in a data center.",
     "link": "https://www.recordedfuture.com/blog/threat-activity-enablers",
@@ -1493,16 +1303,6 @@
     "source": "recordedfuture.com",
     "category": "Ransomware",
     "importance_score": 475,
-    "also_covered_by": []
-  },
-  {
-    "title": "Škoda Security Incident Exposes Customers Data From Online Shop",
-    "summary": "<p>Škoda Auto has disclosed a significant IT security incident affecting its official online shop, revealing that unauthorized individuals exploited a vulnerability in the platform&#8217;s standard shop software to gain temporary unauthorized access to customer data. During routine technical security monitoring, Škoda&#8217;s IT team identified that attackers had leveraged a flaw in the shop&#8217;s underlying software [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/skoda-security-incident/\">Škoda Security Incident Exposes Customers Data From Online Shop</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/skoda-security-incident/",
-    "published": "2026-05-08T17:53:56",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 467,
     "also_covered_by": []
   },
   {
