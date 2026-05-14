@@ -246,6 +246,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Windows BitLocker 0-Day Vulnerability Enables Access to Encrypted Drives",
+    "summary": "<p>Two new unpatched Windows BitLocker zero-day vulnerabilities significantly compromise Microsoft&#8217;s ecosystem. The exploits include a critical BitLocker encryption bypass called YellowKey and a privilege escalation flaw named GreenPlasma. The most critical of these flaws, dubbed &#8220;YellowKey,&#8221; enables a total bypass of BitLocker encryption, granting attackers completely unrestricted access to locked system drives. Following Microsoft&#8217;s recent [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/windows-bitlocker-0-day-vulnerability/\">Windows BitLocker 0-Day Vulnerability Enables Access to Encrypted Drives</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/windows-bitlocker-0-day-vulnerability/",
+    "published": "2026-05-14T03:01:04",
+    "source": "cybersecuritynews.com",
+    "category": "Ransomware",
+    "importance_score": 1834,
+    "also_covered_by": []
+  },
+  {
     "title": "Threat Brief: Exploitation of PAN-OS Captive Portal Zero-Day for Unauthenticated Remote Code Execution",
     "summary": "<p>Unit 42 details CVE-2026-0300, a buffer overflow vulnerability in the PAN-OS User-ID Authentication Portal. Read now for details. </p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/captive-portal-zero-day/\">Threat Brief: Exploitation of PAN-OS Captive Portal Zero-Day for Unauthenticated Remote Code Execution</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
     "link": "https://unit42.paloaltonetworks.com/captive-portal-zero-day/",
@@ -286,6 +296,26 @@
     "also_covered_by": []
   },
   {
+    "title": "Windows BitLocker 0-Day Vulnerability Exposes Encrypted Drives to Unauthorized Access",
+    "summary": "<p>A newly disclosed Windows zero-day, YellowKey, is attracting significant attention because it can bypass BitLocker protection and expose data on encrypted drives without requiring the victim’s recovery key in the public attack scenario described by researchers and media reports. The issue was published by the researcher known as Nightmare-Eclipse, who released materials showing attacks against [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/windows-bitlocker-0-day-vulnerability/\">Windows BitLocker 0-Day Vulnerability Exposes Encrypted Drives to Unauthorized Access</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/windows-bitlocker-0-day-vulnerability/",
+    "published": "2026-05-14T04:48:07",
+    "source": "gbhackers.com",
+    "category": "Ransomware",
+    "importance_score": 1678,
+    "also_covered_by": []
+  },
+  {
+    "title": "Critical 18-Year-Old NGINX Vulnerability Enables Remote Code Execution Attacks",
+    "summary": "<p>A critical heap buffer overflow vulnerability has been discovered in the source code of NGINX, present since 2008. This vulnerability has been publicly disclosed, along with a working proof-of-concept exploit that can enable unauthenticated remote code execution (RCE) against one of the most widely used web servers in the world. Assigned a CVSS score of [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/18-year-old-nginx-rce-vulnerability/\">Critical 18-Year-Old NGINX Vulnerability Enables Remote Code Execution Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/18-year-old-nginx-rce-vulnerability/",
+    "published": "2026-05-14T06:27:20",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 1657,
+    "also_covered_by": []
+  },
+  {
     "title": "CVE-2025-68670: discovering an RCE vulnerability in xrdp",
     "summary": "During a security assessment of Kaspersky USB Redirector, we discovered CVE-2025-68670: a pre-auth RCE in the xrdp server component. Project maintainers promptly patched the vulnerability.",
     "link": "https://securelist.com/cve-2025-68670/119742/",
@@ -323,6 +353,16 @@
     "source": "recordedfuture.com",
     "category": "Ransomware",
     "importance_score": 1391,
+    "also_covered_by": []
+  },
+  {
+    "title": "Foxconn Confirms Cyberattack After Nitrogen Ransomware Gang Claim",
+    "summary": "<p>Foxconn has officially confirmed a cyberattack targeting its North American operations after the Nitrogen ransomware gang publicly listed the company on its data leak site, claiming to have stolen a staggering 8 terabytes of sensitive data. The Nitrogen ransomware group made its move on Monday, posting Foxconn on its breach and extortion portal and asserting [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/foxconn-confirms-cyberattack/\">Foxconn Confirms Cyberattack After Nitrogen Ransomware Gang Claim</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/foxconn-confirms-cyberattack/",
+    "published": "2026-05-13T14:18:25",
+    "source": "cybersecuritynews.com",
+    "category": "Ransomware",
+    "importance_score": 1354,
     "also_covered_by": []
   },
   {
@@ -546,6 +586,46 @@
     "also_covered_by": []
   },
   {
+    "title": "Critical MongoDB Vulnerability Allow Attackers to Execute Arbitrary Code",
+    "summary": "<p>A newly disclosed critical vulnerability in MongoDB could allow threat actors to execute arbitrary code, potentially handing them complete control over affected servers and exposing millions of records to theft. The vulnerability, officially tracked as CVE-2026-8053, directly impacts MongoDB Server deployments. Arbitrary code execution is one of the most severe types of security flaws in [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/mongodb-rce-vulnerability/\">Critical MongoDB Vulnerability Allow Attackers to Execute Arbitrary Code</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/mongodb-rce-vulnerability/",
+    "published": "2026-05-14T05:54:28",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 1062,
+    "also_covered_by": []
+  },
+  {
+    "title": "Gentlemen RaaS Exploits Fortinet and Cisco Edge Devices for Initial Access",
+    "summary": "<p>The Gentlemen ransomware-as-a-service (RaaS) operation is turning exposed Fortinet and Cisco edge devices into a fast lane into enterprise networks and doing it at scale. What began as a rising RaaS brand in mid‑2025 has, by early 2026, evolved into one of the most active programs on the underground, with hundreds of victims and a [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fortinet-and-cisco-edge-devices-exploited/\">Gentlemen RaaS Exploits Fortinet and Cisco Edge Devices for Initial Access</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/fortinet-and-cisco-edge-devices-exploited/",
+    "published": "2026-05-14T06:22:09",
+    "source": "gbhackers.com",
+    "category": "Ransomware",
+    "importance_score": 1061,
+    "also_covered_by": []
+  },
+  {
+    "title": "The Gentlemen RaaS Leverages Fortinet and Cisco Edge Devices for Initial Access",
+    "summary": "<p>A ransomware group that only surfaced in mid-2025 has already made a significant mark on the threat landscape. The Gentlemen, a ransomware-as-a-service (RaaS) operation, has quickly risen to become one of the most active ransomware programs in the world, with around 332 published victims in just the first five months of 2026 alone. The group [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/the-gentlemen-raas-leverages-fortinet-and-cisco-edge-devices/\">The Gentlemen RaaS Leverages Fortinet and Cisco Edge Devices for Initial Access</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/the-gentlemen-raas-leverages-fortinet-and-cisco-edge-devices/",
+    "published": "2026-05-14T05:44:45",
+    "source": "cybersecuritynews.com",
+    "category": "Ransomware",
+    "importance_score": 1061,
+    "also_covered_by": []
+  },
+  {
+    "title": "ClickFix Evolves with 10-Year-Old Open-Source Python SOCKS5 Proxy",
+    "summary": "<p>A cyberattack campaign that tricks users into running malicious commands on their own computers has taken a dangerous new turn. The technique, known as &#8220;ClickFix,&#8221; has been circulating for some time, but a recent incident revealed that attackers are now pairing it with a 10-year-old open-source Python tool to create a far more resilient form [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/clickfix-evolves-with-python-socks5-proxy/\">ClickFix Evolves with 10-Year-Old Open-Source Python SOCKS5 Proxy</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/clickfix-evolves-with-python-socks5-proxy/",
+    "published": "2026-05-13T11:06:52",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 1056,
+    "also_covered_by": []
+  },
+  {
     "title": "Signal responds to phishing attacks with new in-app security warnings",
     "summary": "<p>Signal is adding new protections for users following recent phishing and social engineering attacks. In March, the FBI and CISA issued a warning stating that Signal had become a primary target of Russian intelligence-linked hackers. Dutch and German security authorities were among the first to identify phishing campaigns targeting Signal users. The scheme centered on Signal’s “linked devices” feature. Attackers contacted targets while posing as trusted entities, including support teams or known contacts. Victims were &#8230; <a href=\"https://www.helpnetsecurity.com/2026/05/13/signal-phishing-social-engineering-protections/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/05/13/signal-phishing-social-engineering-protections/\">Signal responds to phishing attacks with new in-app security warnings</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
     "link": "https://www.helpnetsecurity.com/2026/05/13/signal-phishing-social-engineering-protections/",
@@ -666,6 +746,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Foxconn Hit by Cyberattack, Nitrogen Ransomware Gang Claims Involvement",
+    "summary": "<p>In a massive blow to the global electronics supply chain, manufacturing giant Foxconn has confirmed a major cyberattack on its North American operations. The notorious Nitrogen ransomware gang has claimed responsibility, boasting that it stole a staggering 8 terabytes of highly sensitive data from the tech manufacturer&#8217;s systems. The Nitrogen group escalated the situation on [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/foxconn-hit-by-cyberattack-nitrogen-ransomware-gang/\">Foxconn Hit by Cyberattack, Nitrogen Ransomware Gang Claims Involvement</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/foxconn-hit-by-cyberattack-nitrogen-ransomware-gang/",
+    "published": "2026-05-14T05:17:30",
+    "source": "gbhackers.com",
+    "category": "Ransomware",
+    "importance_score": 925,
+    "also_covered_by": []
+  },
+  {
     "title": "716,000 Impacted by OpenLoop Health Data Breach",
     "summary": "<p>The telehealth platform was hacked in January, and users’ personal information was exfiltrated from its systems.</p>\n<p>The post <a href=\"https://www.securityweek.com/716000-impacted-by-openloop-health-data-breach/\">716,000 Impacted by OpenLoop Health Data Breach</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
     "link": "https://www.securityweek.com/716000-impacted-by-openloop-health-data-breach/",
@@ -686,6 +776,16 @@
     "also_covered_by": [
       "blogs.cisco.com"
     ]
+  },
+  {
+    "title": "Critical Fortinet FortiSandbox Vulnerability Enables Code Execution Attacks",
+    "summary": "<p>The ultimate irony in cybersecurity has just struck the very tool designed to catch and isolate deadly malware has become an open door for hackers. A newly disclosed, highly critical flaw in Fortinet’s FortiSandbox platform gives remote attackers the terrifying ability to execute malicious code with absolutely zero credentials. By exploiting this vulnerability, cybercriminals can [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fortinet-fortisandbox-vulnerability/\">Critical Fortinet FortiSandbox Vulnerability Enables Code Execution Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/fortinet-fortisandbox-vulnerability/",
+    "published": "2026-05-14T03:28:00",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 872,
+    "also_covered_by": []
   },
   {
     "title": "Foxconn confirms cyberattack claimed by Nitrogen ransomware gang",
@@ -818,6 +918,16 @@
     "also_covered_by": []
   },
   {
+    "title": "iOS 26.5 Brings End-to-end Encrypted RCS Messaging Between iPhone and Android",
+    "summary": "<p>For years, texting between an iPhone and an Android phone meant your messages traveled without any real privacy protection. That long-standing gap is now being addressed, as Apple and Google have jointly launched a beta rollout of end-to-end encrypted messaging over Rich Communication Services, better known as RCS. Starting May 11, 2026, this milestone update [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ios-26-5-brings-end-to-end-encrypted-rcs-messaging/\">iOS 26.5 Brings End-to-end Encrypted RCS Messaging Between iPhone and Android</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/ios-26-5-brings-end-to-end-encrypted-rcs-messaging/",
+    "published": "2026-05-13T09:11:32",
+    "source": "cybersecuritynews.com",
+    "category": "Ransomware",
+    "importance_score": 762,
+    "also_covered_by": []
+  },
+  {
     "title": "Cloud workload security: Mind the gaps",
     "summary": "As IT infrastructure expands, visibility and control often lag behind – until an incident forces a reckoning",
     "link": "https://www.welivesecurity.com/en/business-security/cloud-workload-security-mind-gaps/",
@@ -845,6 +955,16 @@
     "source": "microsoft.com",
     "category": "Phishing / Scams",
     "importance_score": 722,
+    "also_covered_by": []
+  },
+  {
+    "title": "How Top SOCs and MSSPs Prevent Phishing Incidents Missed by Email Filters",
+    "summary": "<p>Email filters are important, but they&#160;can’t&#160;remove phishing risk on their own.&#160;Today’s campaigns are built to slip through the cracks, using fresh domains, CAPTCHA checks, fake login pages, OTP theft, and even legitimate RMM tools.&#160; For security leaders, the bigger issue is business exposure. One missed email can slow response, create uncertainty, and leave teams unsure [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/socs-mssps-phishing-prevention/\">How Top SOCs and MSSPs Prevent Phishing Incidents Missed by Email Filters </a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/socs-mssps-phishing-prevention/",
+    "published": "2026-05-13T14:32:46",
+    "source": "cybersecuritynews.com",
+    "category": "Phishing / Scams",
+    "importance_score": 714,
     "also_covered_by": []
   },
   {
@@ -955,6 +1075,16 @@
     "source": "blogs.cisco.com",
     "category": "Vulnerability",
     "importance_score": 637,
+    "also_covered_by": []
+  },
+  {
+    "title": "Microsoft Teams Vulnerability Allows Hackers to Perform Spoofing Attacks",
+    "summary": "<p>A newly discovered security flaw in Microsoft Teams for Android could allow attackers to carry out dangerous spoofing attacks. By exploiting improperly secured files, hackers can trick users and compromise sensitive corporate information. Microsoft has rapidly issued an official security update to address the vulnerability before malicious actors can weaponize it against organizations. Microsoft Teams [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/microsoft-teams-spoofing-vulnerability/\">Microsoft Teams Vulnerability Allows Hackers to Perform Spoofing Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/microsoft-teams-spoofing-vulnerability/",
+    "published": "2026-05-13T16:39:37",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 627,
     "also_covered_by": []
   },
   {
@@ -1278,6 +1408,16 @@
     "also_covered_by": []
   },
   {
+    "title": "PoC Exploit Released for Fragnesia Linux Flaw Enabling Root Access",
+    "summary": "<p>A newly discovered Linux local privilege escalation vulnerability, dubbed &#8220;Fragnesia,&#8221; is sending shockwaves through the cybersecurity community. This critical flaw grants attackers immediate root access to compromised systems. A Proof of Concept (PoC) exploit is already available online, escalating the urgency for system administrators to apply patches immediately. Fragnesia Linux Flaw Fragnesia belongs to the [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/poc-exploit-released-for-fragnesia-linux-flaw/\">PoC Exploit Released for Fragnesia Linux Flaw Enabling Root Access</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/poc-exploit-released-for-fragnesia-linux-flaw/",
+    "published": "2026-05-14T05:07:47",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 483,
+    "also_covered_by": []
+  },
+  {
     "title": "Googlebook looks promising, but one big laptop brand is conspicuously absent",
     "summary": "Google announced that five major laptop brands will release new Googlebooks, but the one I most expected to see was notably absent.",
     "link": "https://www.zdnet.com/article/googlebook-looks-promising-but-one-big-question-remains-unanswered/",
@@ -1308,6 +1448,16 @@
     "also_covered_by": []
   },
   {
+    "title": "MongoDB Security Flaw Enables Arbitrary Code Execution on Vulnerable Systems",
+    "summary": "<p>The foundation of countless modern applications is under an emerging threat. A severe vulnerability in MongoDB could allow attackers to execute unauthorised code on targeted database servers undetected. Tracked officially as CVE-2026-8053, this critical flaw serves as a potential gateway to complete system compromise, forcing database administrators to respond rapidly to secure their sensitive infrastructure. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/mongodb-security-flaw/\">MongoDB Security Flaw Enables Arbitrary Code Execution on Vulnerable Systems</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/mongodb-security-flaw/",
+    "published": "2026-05-14T06:47:33",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 476,
+    "also_covered_by": []
+  },
+  {
     "title": "Threat Activity Enablers: The Backbone of Today’s Threat Landscape",
     "summary": "Behind every ransomware demand, botnet, or threat activity group is a server sitting in a data center.",
     "link": "https://www.recordedfuture.com/blog/threat-activity-enablers",
@@ -1315,6 +1465,26 @@
     "source": "recordedfuture.com",
     "category": "Ransomware",
     "importance_score": 475,
+    "also_covered_by": []
+  },
+  {
+    "title": "Seedworm APT Abuses Signed Binaries for DLL Sideloading",
+    "summary": "<p>Seedworm also known as MuddyWater, Temp Zagros, and Static Kitten is widely attributed to Iran’s Ministry of Intelligence and Security (MOIS). An Iran-linked cyber-espionage group has launched a stealthy global campaign, abusing trusted software to infiltrate high-value targets quietly. The campaign impacted at least nine organizations across four continents, spanning sectors such as industrial manufacturing, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/seedworm-apt-abuses-signed-binaries/\">Seedworm APT Abuses Signed Binaries for DLL Sideloading</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/seedworm-apt-abuses-signed-binaries/",
+    "published": "2026-05-14T05:02:02",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 474,
+    "also_covered_by": []
+  },
+  {
+    "title": "New Exim BDAT GnuTLS Vulnerability Enables Code Execution Attacks",
+    "summary": "<p>A critical, stealthy vulnerability is lurking deep within Exim, the software powering a massive share of the world&#8217;s email infrastructure. Sitting exposed on the internet&#8217;s front lines, these message transfer agents are highly lucrative targets for ruthless threat actors. This newly unmasked memory corruption flaw arms attackers with the terrifying ability to remotely execute malicious [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/exim-bdat-gnutls-vulnerability/\">New Exim BDAT GnuTLS Vulnerability Enables Code Execution Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/exim-bdat-gnutls-vulnerability/",
+    "published": "2026-05-14T06:52:32",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 473,
     "also_covered_by": []
   },
   {
@@ -1338,6 +1508,26 @@
     "also_covered_by": []
   },
   {
+    "title": "Packagist Warns: Update Composer Now After GitHub Actions Token Leak",
+    "summary": "<p>A sudden change in GitHub’s token format has triggered an unexpected security vulnerability in Composer, exposing sensitive authentication tokens in CI/CD logs and forcing Packagist to issue an urgent warning to PHP developers worldwide. The issue stems from a mismatch between GitHub’s updated token structure and Composer’s outdated validation logic. As a result, certain GitHub [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/github-actions-token-leak/\">Packagist Warns: Update Composer Now After GitHub Actions Token Leak</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/github-actions-token-leak/",
+    "published": "2026-05-14T07:08:30",
+    "source": "gbhackers.com",
+    "category": "Data Breach",
+    "importance_score": 467,
+    "also_covered_by": []
+  },
+  {
+    "title": "Fragnesia Linux Vulnerability Let Attackers Gain Root Privileges – PoC Released",
+    "summary": "<p>A newly disclosed Linux kernel vulnerability dubbed Fragnesia allows any local unprivileged user to escalate privileges to root without requiring a race condition, making it one of the more reliable local privilege escalation exploits seen in recent years. Discovered by William Bowling of the V12 security team, Fragnesia joins a growing class of dangerous kernel [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fragnesia-linux-vulnerability/\">Fragnesia Linux Vulnerability Let Attackers Gain Root Privileges – PoC Released</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/fragnesia-linux-vulnerability/",
+    "published": "2026-05-13T13:48:15",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 458,
+    "also_covered_by": []
+  },
+  {
     "title": "Phishing and MFA exploitation: Targeting the keys to the kingdom",
     "summary": "In 2025, attackers increasingly targeted weaknesses in multi-factor authentication (MFA) workflows, and phishing attacks leveraged valid, compromised credentials to launch lures from trusted accounts. The trends focused entirely on trust, or the lack thereof, in everyday business operations.",
     "link": "https://blog.talosintelligence.com/phishing-and-mfa-exploitation-targeting-the-keys-to-the-kingdom/",
@@ -1355,6 +1545,16 @@
     "source": "securityweek.com",
     "category": "AI & Security",
     "importance_score": 451,
+    "also_covered_by": []
+  },
+  {
+    "title": "Critical SandboxJS Escape Vulnerability Enables Host Takeover",
+    "summary": "<p>A critical security flaw has been found in SandboxJS, a widely used JavaScript sandboxing library available on npm. The vulnerability allows attackers to break out of the sandbox entirely and run any code they want directly on the host system. Tracked as CVE-2026-43898, it carries a maximum severity score of 10.0, which is as serious [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/critical-sandboxjs-escape-vulnerability/\">Critical SandboxJS Escape Vulnerability Enables Host Takeover</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/critical-sandboxjs-escape-vulnerability/",
+    "published": "2026-05-13T10:30:21",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 449,
     "also_covered_by": []
   },
   {
