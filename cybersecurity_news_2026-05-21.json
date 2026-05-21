@@ -118,16 +118,6 @@
     "also_covered_by": []
   },
   {
-    "title": "New NGINX 0-Day RCE “nginx-poolslip” Affects Millions of NGINX Servers",
-    "summary": "<p>A newly disclosed zero-day remote code execution (RCE) vulnerability, dubbed nginx-poolslip, has been identified in NGINX version 1.31.0, the latest stable release of the widely deployed web server software. The discovery was made by security agent Vega, operating under the NebSec security team, and publicly disclosed via X (formerly Twitter) on May 21, 2026. Just [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/nginx-0-day-rce-nginx-poolslip/\">New NGINX 0-Day RCE &#8220;nginx-poolslip&#8221; Affects Millions of NGINX Servers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/nginx-0-day-rce-nginx-poolslip/",
-    "published": "2026-05-21T08:01:20",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 2860,
-    "also_covered_by": []
-  },
-  {
     "title": "Patch Tuesday, April 2026 Edition",
     "summary": "Microsoft today pushed software updates to fix a staggering 167 security vulnerabilities in its Windows operating systems and related software, including a SharePoint Server zero-day and a publicly disclosed weakness in Windows Defender dubbed \"BlueHammer.\" Separately, Google Chrome fixed its fourth zero-day of 2026, and an emergency update for Adobe Reader nixes an actively exploited flaw that can lead to remote code execution.",
     "link": "https://krebsonsecurity.com/2026/04/patch-tuesday-april-2026-edition/",
@@ -358,16 +348,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Mini Shai-Hulud Hits @antv npm Packages, Targets CI/CD Secrets",
-    "summary": "<p>An Active and sophisticated supply chain attack targeting the widely used @antv npm ecosystem, where a threat actor compromised a maintainer account and pushed malicious package updates designed to steal sensitive CI/CD credentials. The campaign, dubbed “Mini Shai-Hulud,” demonstrates how deeply embedded open-source libraries can be weaponized to infiltrate modern development pipelines at scale. The [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/antv-npm-packages/\">Mini Shai-Hulud Hits @antv npm Packages, Targets CI/CD Secrets</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/antv-npm-packages/",
-    "published": "2026-05-21T07:14:12",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 1519,
-    "also_covered_by": []
-  },
-  {
     "title": "Pardus Linux Vulnerability Chain Enables Complete System Takeover",
     "summary": "<p><img alt=\"Pardus Linux\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"614\" src=\"https://thecyberexpress.com/wp-content/uploads/Pardus-Linux.webp\" title=\"Pardus Linux Vulnerability Chain Enables Complete System Takeover 3\" width=\"1126\" /></p><span>A critical local privilege escalation vulnerability chain tracked as CVE-2026–5140 has exposed serious security weaknesses in Pardus Linux. Researchers revealed that the flaws allow any unprivileged local user to gain full root access without authentication, potentially leading to complete system compromise within seconds.</span><span> </span>\n\n<span>The <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/firewall-daily/vulnerabilities/\" title=\"vulnerability\">vulnerability</a> affects the </span><span>pardus-update</span><span> package, which handles system updates through graphical tools and privileged Python helper scripts. The issue received a CVSS v3.1 score of 9.3, classifying it as “Critical.” The published vector is:</span><span> </span>\n\n<span>CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H</span><span> </span>\n\n<span>Maintained by TÜBİTAK, Pardus Linux is widely used across Turkish government institutions, schools, and enterprise environments. Researchers stated that the attack chain behind CVE-2026–5140 combines three separate <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-are-vulnerabilities/\" title=\"vulnerabilities\">vulnerabilities</a>: a Polkit authorization bypass, a CRLF injection flaw, and an untrusted search path issue.</span><span> </span>\n<h3><b><span>Polkit Misconfiguration Opens the Door</span></b><span> </span></h3>\n<span>The <a href=\"https://nullsecurityx.medium.com/local-privilege-escalation-in-pardus-linux-how-three-bugs-chain-into-a-full-root-shell-b082b2ec5666\" rel=\"nofollow noopener\" target=\"_blank\">first issue was identified</a> in the file:</span><span> </span>\n\n<span>/usr/share/polkit-1/actions/tr.org.pardus.pkexec.pardus-update.policy</span><span> </span>\n\n<span>Researchers discovered that several privileged actions were configured with unrestricted access permissions:</span><span> </span>\n\n<span>&lt;defaults&gt;</span>\n<span> &lt;allow_any&gt;yes&lt;/allow_any&gt;</span>\n<span> &lt;allow_inactive&gt;yes&lt;/allow_inactive&gt;</span>\n<span> &lt;allow_active&gt;yes&lt;/allow_active&gt;</span>\n<span>&lt;/defaults&gt;</span><span> </span>\n\n<span>Because of this configuration, any local user could execute privileged operations through </span><span>pkexec</span><span> without entering an <a href=\"https://thecyberexpress.com/apache-syncope-cve-2025-65998-flaw/\" rel=\"noopener\" target=\"_blank\">administrator password</a>. The vulnerable actions included </span><span>aptupdateaction</span><span>, </span><span>autoaptupgradeaction</span><span>, and </span><span>systemsettingswrite</span><span>.</span><span> </span>\n\n<span>This allowed attackers to run the following scripts as root:</span><span> </span>\n<ul>\n \t<li><span>SystemSettingsWrite.py</span><span> </span><span> </span></li>\n \t<li><span>AutoAptUpgrade.py</span><span> </span><span> </span></li>\n</ul>\n<h3><b><span>CRLF Injection Enables Configuration Manipulation</span></b><strong> in Pardus Linux</strong></h3>\n<span>The second flaw in CVE-2026–5140 involved </span><span>SystemSettingsWrite.py</span><span>, which writes user-controlled input into the configuration file:</span><span> </span>\n\n<span>/etc/pardus/pardus-update.conf</span><span> </span>\n\n<span>Although <a href=\"https://thecyberexpress.com/microsoft-gaming-data-leak-security-concerns/\" rel=\"noopener\" target=\"_blank\">Python’s</a> </span><span>ConfigParser</span><span> sanitizes newline characters (</span><span>\\n</span><span>), it does not properly filter carriage returns (</span><span>\\r</span><span>). Attackers could <a class=\"wpil_keyword_link\" href=\"https://cyble.com/exploit/\" rel=\"noopener\" target=\"_blank\" title=\"exploit\">exploit</a> this weakness using the following payload:</span><span> </span>\n\n<span>123\\rcustom_sourcesd_path=/tmp/pwn.list</span><span> </span>\n\n<span>The injected carriage return caused the parser to interpret the second part as a new configuration entry:</span><span> </span>\n\n<span>custom_sourcesd_path=/tmp/pwn.list</span><span> </span>\n\n<span>This gave attackers control over the <a class=\"wpil_keyword_link\" href=\"https://cyble.com/apt/\" rel=\"noopener\" target=\"_blank\" title=\"APT\">APT</a> source configuration used by the update system.</span><span> </span>\n<h3><b><span>Malicious Repository Leads to Root Access</span></b><span> </span></h3>\n<span>The final stage of CVE-2026–5140 targeted </span><span>AutoAptUpgrade.py</span><span>, which copied attacker-controlled </span><span>.list</span><span> files directly into </span><span>/etc/apt/sources.list.d/</span><span> without validating the source path.</span><span> </span>\n\n<span>Researchers demonstrated a proof-of-concept attack by creating a malicious Debian package that modified </span><span>/bin/bash</span><span> with the SUID bit through a </span><span>postinst</span><span> script:</span><span> </span>\n\n<span>#!/bin/sh</span>\n<span>chmod +s /bin/bash</span>\n<span>exit 0</span><span> </span>\n\n<span>The exploit was triggered with two commands:</span><span> </span>\n\n<span>pkexec /usr/share/pardus/pardus-update/src/SystemSettingsWrite.py write \\</span>\n<span>lastupgrade $'123\\rcustom_sourcesd_path=/tmp/pwn.list'</span><span> </span>\n\n<span>pkexec /usr/share/pardus/pardus-update/src/AutoAptUpgrade.py</span><span> </span>\n\n<span>After execution, attackers could gain a root shell using:</span><span> </span>\n\n<span>/bin/bash -p</span><span> </span>\n\n<span>Researchers confirmed the attack provided full administrative access, including the ability to read sensitive files, install persistent backdoors, overwrite system files, and completely take over vulnerable Pardus Linux systems.</span><span> </span>\n\n<span>The vulnerability was discovered and documented on March 13, 2026, by Çağrı Eser. Researchers advised administrators to harden Polkit rules immediately, sanitize CRLF characters in user input, and restrict APT source paths to trusted directories to mitigate CVE-2026–5140.</span><span> </span>",
     "link": "https://thecyberexpress.com/cve-2026-5140-pardus-linux-root-access-flaw/",
@@ -508,26 +488,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Gremlin Stealer Stores C2 URLs and Exfiltration Paths in Encrypted Resource Sections",
-    "summary": "<p>A newly analyzed variant of the Gremlin stealer malware has raised alarms by hiding its command-and-control (C2) addresses and data exfiltration paths inside encrypted resource sections of a compiled program. This approach makes the malware harder to detect through traditional scanning, allowing it to operate silently on infected systems before stealing sensitive data. Gremlin stealer [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/gremlin-stealer-stores-c2-urls/\">Gremlin Stealer Stores C2 URLs and Exfiltration Paths in Encrypted Resource Sections</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/gremlin-stealer-stores-c2-urls/",
-    "published": "2026-05-21T02:01:14",
-    "source": "cybersecuritynews.com",
-    "category": "Ransomware",
-    "importance_score": 1316,
-    "also_covered_by": []
-  },
-  {
-    "title": "Microsoft Releases Mitigation for YellowKey BitLocker Bypass CVE-2026-45585 Exploit",
-    "summary": "Microsoft on Tuesday released a mitigation for a BitLocker bypass vulnerability named YellowKey following its public disclosure last week.\n\nThe zero-day flaw, now tracked as CVE-2026-45585, carries a CVSS score of 6.8. It has been described as a BitLocker security feature bypass.\n\n\"Microsoft is aware of a security feature bypass vulnerability in Windows publicly referred to as 'YellowKey,'\" the",
-    "link": "https://thehackernews.com/2026/05/microsoft-releases-mitigation-for.html",
-    "published": "2026-05-20T08:28:26",
-    "source": "thehackernews.com",
-    "category": "Ransomware",
-    "importance_score": 1263,
-    "also_covered_by": []
-  },
-  {
     "title": "Microsoft Open-Sources RAMPART and Clarity to Secure AI Agents During Development",
     "summary": "Microsoft has unveiled two new open-source tools called RAMPART and Clarity to assist developers in better testing the security of artificial intelligence (AI) agents.\n\nRAMPART, short for Risk Assessment and Measurement Platform for Agentic Red Teaming, functions as a Pytest-native safety and security testing framework for writing and running safety and security tests for AI agents, covering",
     "link": "https://thehackernews.com/2026/05/microsoft-open-sources-rampart-and.html",
@@ -608,16 +568,6 @@
     "also_covered_by": []
   },
   {
-    "title": "WantToCry Ransomware Exploits SMB to Encrypt Remote Files",
-    "summary": "<p>A new ransomware campaign named “WantToCry” that leverages exposed Server Message Block (SMB) services to gain access and encrypt victim data without deploying traditional malware on compromised systems. This approach significantly reduces the detection surface, making it harder for conventional security tools to identify the attack. The name “WantToCry” appears to reference the infamous WannaCry [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/wanttocry-ransomware-exploits-smb/\">WantToCry Ransomware Exploits SMB to Encrypt Remote Files</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/wanttocry-ransomware-exploits-smb/",
-    "published": "2026-05-21T05:02:13",
-    "source": "gbhackers.com",
-    "category": "Ransomware",
-    "importance_score": 1171,
-    "also_covered_by": []
-  },
-  {
     "title": "Cybercrime service disrupted for abusing Microsoft platform to sign malware",
     "summary": "Microsoft says it has disrupted a malware-signing-as-a-service (MSaaS) operation that abused the company's Artifact Signing service to generate fraudulent code-signing certificates used by ransomware gangs and other cybercriminals. [...]",
     "link": "https://www.bleepingcomputer.com/news/security/cybercrime-service-disrupted-for-abusing-microsoft-platform-to-sign-malware/",
@@ -625,16 +575,6 @@
     "source": "bleepingcomputer.com",
     "category": "Ransomware",
     "importance_score": 1164,
-    "also_covered_by": []
-  },
-  {
-    "title": "WantToCry Ransomware Abuses SMB Services to Remotely Encrypt Files",
-    "summary": "<p>A ransomware strain called WantToCry has been targeting businesses by abusing a widely used file-sharing protocol to encrypt files without dropping any malware on the victim&#8217;s system. The attacks mark a notable shift in how ransomware operators approach campaigns, serving as a warning to any organization that still has file-sharing services exposed to the open [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/wanttocry-ransomware-abuses-smb-services/\">WantToCry Ransomware Abuses SMB Services to Remotely Encrypt Files</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/wanttocry-ransomware-abuses-smb-services/",
-    "published": "2026-05-21T07:30:46",
-    "source": "cybersecuritynews.com",
-    "category": "Ransomware",
-    "importance_score": 1159,
     "also_covered_by": []
   },
   {
@@ -668,6 +608,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Microsoft Releases Mitigation for YellowKey BitLocker Bypass CVE-2026-45585 Exploit",
+    "summary": "Microsoft on Tuesday released a mitigation for a BitLocker bypass vulnerability named YellowKey following its public disclosure last week.\n\nThe zero-day flaw, now tracked as CVE-2026-45585, carries a CVSS score of 6.8. It has been described as a BitLocker security feature bypass.\n\n\"Microsoft is aware of a security feature bypass vulnerability in Windows publicly referred to as 'YellowKey,'\" the",
+    "link": "https://thehackernews.com/2026/05/microsoft-releases-mitigation-for.html",
+    "published": "2026-05-20T08:28:26",
+    "source": "thehackernews.com",
+    "category": "Ransomware",
+    "importance_score": 1098,
+    "also_covered_by": []
+  },
+  {
     "title": "GitHub Breached — Employee Device Hack Led to Exfiltration of 3,800+ Internal Repos",
     "summary": "GitHub on Tuesday said it's investigating unauthorized access to its internal repositories after the notorious threat actor known as TeamPCP listed the platform's source code and internal organizations for sale on a cybercrime forum.\n\n\"While we currently have no evidence of impact to customer information stored outside of GitHub's internal repositories (such as our customers' enterprises,",
     "link": "https://thehackernews.com/2026/05/github-investigating-teampcp-claimed.html",
@@ -695,16 +645,6 @@
     "source": "malwarebytes.com",
     "category": "Vulnerability",
     "importance_score": 1083,
-    "also_covered_by": []
-  },
-  {
-    "title": "Claude Code’s Network Sandbox Vulnerability Exposes User Credentials and Source Code",
-    "summary": "<p>Anthropic&#8217;s Claude Code AI coding assistant harbored a critical network sandbox bypass for over five months, allowing attackers to exfiltrate credentials, source code, and environment variables from developer systems, and the company issued no public advisory for either incident. Security researcher Aonan Guan has publicly disclosed a second complete bypass of Claude Code&#8217;s network sandbox, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/claude-codes-network-sandbox-vulnerability/\">Claude Code&#8217;s Network Sandbox Vulnerability Exposes User Credentials and Source Code</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/claude-codes-network-sandbox-vulnerability/",
-    "published": "2026-05-21T02:45:20",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 1075,
     "also_covered_by": []
   },
   {
@@ -868,16 +808,6 @@
     "also_covered_by": []
   },
   {
-    "title": "BadIIS Malware Hijacks IIS Servers to Redirect Users to Illicit Sites",
-    "summary": "<p>A new variant of the BadIIS malware that hijacks Microsoft IIS web servers to redirect users to illicit websites, highlighting an evolving malware-as-a-service (MaaS) ecosystem operated by Chinese-speaking cybercrime groups. The newly analyzed variant is marked by embedded “demo.pdb” strings, which Talos used to trace its development history. Evidence suggests the malware has been actively [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/badiis-malware-hijacks-iis/\">BadIIS Malware Hijacks IIS Servers to Redirect Users to Illicit Sites</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/badiis-malware-hijacks-iis/",
-    "published": "2026-05-21T05:34:21",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 871,
-    "also_covered_by": []
-  },
-  {
     "title": "Former CISA nominee Sean Plankey named US CEO of defense startup",
     "summary": "<p>UFORCE, a London-based company founded by Ukrainians, is looking to make drones in America.</p>\n<p>The post <a href=\"https://cyberscoop.com/former-cisa-nominee-sean-plankey-named-us-ceo-of-defense-startup/\">Former CISA nominee Sean Plankey named US CEO of defense startup</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
     "link": "https://cyberscoop.com/former-cisa-nominee-sean-plankey-named-us-ceo-of-defense-startup/",
@@ -985,16 +915,6 @@
     "source": "cyberscoop.com",
     "category": "Phishing / Scams",
     "importance_score": 740,
-    "also_covered_by": []
-  },
-  {
-    "title": "Indian Student Data Weaponized in Phishing and Financial Fraud Campaigns",
-    "summary": "<p>A growing trend in India where student data is increasingly being exploited for cybercrime activities, including phishing, impersonation, social engineering, and financial fraud. As educational institutions rapidly adopt digital platforms for admissions, fee payments, examinations, and communication, the volume of sensitive student information stored across systems has expanded significantly, creating new opportunities for threat actors. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/phishing-and-financial-fraud-campaigns/\">Indian Student Data Weaponized in Phishing and Financial Fraud Campaigns</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/phishing-and-financial-fraud-campaigns/",
-    "published": "2026-05-21T08:07:48",
-    "source": "gbhackers.com",
-    "category": "Phishing / Scams",
-    "importance_score": 737,
     "also_covered_by": []
   },
   {
@@ -1157,16 +1077,6 @@
     "source": "zdnet.com",
     "category": "Other",
     "importance_score": 630,
-    "also_covered_by": []
-  },
-  {
-    "title": "P2PInfect Botnet Targets Kubernetes via Exposed Redis",
-    "summary": "<p>A persistent P2Pinfect botnet campaign targeting Google Kubernetes Engine (GKE) clusters through exposed Redis instances, highlighting how a single cloud misconfiguration can enable long-term compromise. In several investigated environments, attackers maintained access for up to six months, with consistent botnet activity detected through FortiCNAPP composite alerts. The intrusion chain began with publicly exposed Redis services, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/p2pinfect-botnet-targets-kubernetes/\">P2PInfect Botnet Targets Kubernetes via Exposed Redis</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/p2pinfect-botnet-targets-kubernetes/",
-    "published": "2026-05-21T06:41:45",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 629,
     "also_covered_by": []
   },
   {
@@ -1440,26 +1350,6 @@
     "also_covered_by": []
   },
   {
-    "title": "New GhostTree Attack Causes EDR Tools to Hang, Leaving Files Unscanned",
-    "summary": "<p>A newly disclosed attack technique dubbed “GhostTree” is raising concerns among defenders after researchers demonstrated how it can disrupt endpoint detection and response (EDR) tools and bypass file scanning mechanisms on Windows systems. The technique, discovered by Varonis Threat Labs, abuses NTFS junctions to create recursive directory structures that can cause security tools to hang indefinitely. New [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/new-ghosttree-attack-causes-edr-tools/\">New GhostTree Attack Causes EDR Tools to Hang, Leaving Files Unscanned</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/new-ghosttree-attack-causes-edr-tools/",
-    "published": "2026-05-21T04:54:28",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 478,
-    "also_covered_by": []
-  },
-  {
-    "title": "Critical Drupal Vulnerability Could Leave Sites Open to Cyberattack",
-    "summary": "<p>The Drupal Security Team has issued a warning about a highly critical vulnerability affecting Drupal core, with a security release scheduled for May 20, 2026 (PSA-2026-05-18). The flaw carries a severity rating of 20/25, indicating a significant risk that attackers could compromise affected websites shortly after public disclosure. According to the advisory, the security update [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-drupal-vulnerability-could-leave-sites-open-to-cyberattack/\">Critical Drupal Vulnerability Could Leave Sites Open to Cyberattack</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/critical-drupal-vulnerability-could-leave-sites-open-to-cyberattack/",
-    "published": "2026-05-21T07:38:31",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 477,
-    "also_covered_by": []
-  },
-  {
     "title": "Ransomware Attacks are on the Rise",
     "summary": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
     "link": "https://threatpost.com/ransomware-attacks-are-on-the-rise/180481/",
@@ -1500,56 +1390,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Two U.S. Executives Plead Guilty in India-Based Tech Support Fraud Schemes",
-    "summary": "<p>Two U.S.-based business executives have pleaded guilty to their roles in enabling large-scale tech-support fraud operations linked to call centers in India, according to the U.S. Department of Justice. Adam Young, 42, former CEO of a telecommunications services company based in Miami, and Harrison Gevirtz, 33, former CSO from Las Vegas, admitted to knowingly supporting [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/two-u-s-executives-plead-guilty/\">Two U.S. Executives Plead Guilty in India-Based Tech Support Fraud Schemes</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/two-u-s-executives-plead-guilty/",
-    "published": "2026-05-21T05:43:31",
-    "source": "gbhackers.com",
-    "category": "Phishing / Scams",
-    "importance_score": 468,
-    "also_covered_by": []
-  },
-  {
-    "title": "Trapdoor Android Ad Fraud Operation Uses 455 Malicious Apps to Generate Fake Clicks",
-    "summary": "<p>A large-scale ad fraud operation called Trapdoor has been discovered targeting Android users through 455 malicious apps, quietly generating fake ad clicks and draining real advertising budgets across the digital ecosystem. At its peak, the operation produced 659 million fraudulent bid requests in a single day and accumulated well over 24 million downloads on affected [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/trapdoor-android-ad-fraud-operation-uses-455-malicious-apps/\">Trapdoor Android Ad Fraud Operation Uses 455 Malicious Apps to Generate Fake Clicks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/trapdoor-android-ad-fraud-operation-uses-455-malicious-apps/",
-    "published": "2026-05-20T20:08:29",
-    "source": "cybersecuritynews.com",
-    "category": "Phishing / Scams",
-    "importance_score": 468,
-    "also_covered_by": []
-  },
-  {
-    "title": "PoC Released for PinTheft Linux Flaw Enabling Root Privilege Escalation",
-    "summary": "<p>A public proof-of-concept (PoC) exploit called “PinTheft” has been released for a newly disclosed Linux kernel flaw that allows local attackers to escalate privileges to root on certain systems. PinTheft is a Linux local privilege escalation (LPE) exploit that targets a reference-counting bug in the Reliable Datagram Sockets (RDS) zerocopy send path and turns it [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/poc-released-for-pintheft-linux-flaw/\">PoC Released for PinTheft Linux Flaw Enabling Root Privilege Escalation</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/poc-released-for-pintheft-linux-flaw/",
-    "published": "2026-05-21T05:32:58",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 467,
-    "also_covered_by": []
-  },
-  {
-    "title": "Void Botnet Uses Ethereum Smart Contracts for Seizure-Resistant C2 Infrastructure",
-    "summary": "<p>A new botnet called Void has emerged on the cybercrime underground, bringing a troubling twist to how attackers manage their operations remotely. Instead of relying on traditional servers that authorities can seize or shut down, Void Botnet routes its commands through Ethereum smart contracts, placing its infrastructure entirely beyond the reach of conventional takedown efforts. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/void-botnet-uses-ethereum-smart-contracts/\">Void Botnet Uses Ethereum Smart Contracts for Seizure-Resistant C2 Infrastructure</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/void-botnet-uses-ethereum-smart-contracts/",
-    "published": "2026-05-20T21:38:12",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 466,
-    "also_covered_by": []
-  },
-  {
-    "title": "New GhostTree Attack Causing EDR Products to Hang and Leave Files Unscanned",
-    "summary": "<p>A novel evasion technique called GhostTree, which exploits NTFS junctions to create recursive directory loops. Uncovered by Varonis Threat Labs, this method traps Endpoint Detection and Response (EDR) scanners in infinite paths, causing them to hang and ignore malicious payloads. NTFS junctions function as advanced shortcuts that redirect applications from one directory to another seamlessly. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ghosttree-attack-edr-products/\">New GhostTree Attack Causing EDR Products to Hang and Leave Files Unscanned</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/ghosttree-attack-edr-products/",
-    "published": "2026-05-21T04:16:29",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 465,
-    "also_covered_by": []
-  },
-  {
     "title": "AI-Powered App Attacks Are Faster, More Frequent and Harder to Stop",
     "summary": "<p>Digital.ai’s latest threat report warns that agentic AI has erased the distinction between emerging and primary targets, enabling attackers to strike mobile apps within hours of release across every industry.</p>\n<p>The post <a href=\"https://www.securityweek.com/ai-powered-app-attacks-are-faster-more-frequent-and-harder-to-stop/\">AI-Powered App Attacks Are Faster, More Frequent and Harder to Stop</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
     "link": "https://www.securityweek.com/ai-powered-app-attacks-are-faster-more-frequent-and-harder-to-stop/",
@@ -1560,26 +1400,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Two U.S. Executives Plead Guilty in India-Based Tech-Support Fraud Schemes",
-    "summary": "<p>Two former executives of a U.S.-based call routing and analytics company have pleaded guilty to federal charges for knowingly enabling India-based call centers to defraud thousands of American victims through elaborate tech-support scam operations spanning nearly six years. Former CEO Adam Young, 42, of Miami, FL, and former CSO Harrison Gevirtz, 33, of Las Vegas, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/u-s-executives-plead-guilty-tech-support/\">Two U.S. Executives Plead Guilty in India-Based Tech-Support Fraud Schemes</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/u-s-executives-plead-guilty-tech-support/",
-    "published": "2026-05-21T04:59:46",
-    "source": "cybersecuritynews.com",
-    "category": "Phishing / Scams",
-    "importance_score": 460,
-    "also_covered_by": []
-  },
-  {
-    "title": "Nine-Year-Old Kernel Flaw Puts Linux SSH Private Keys at Risk",
-    "summary": "<p>A newly disclosed Linux kernel vulnerability, tracked as CVE-2026-46333, poses a serious risk to SSH private keys and other sensitive credentials. The flaw, present in the kernel since 2016, allows a local attacker to escalate from a basic shell account to full root access on many popular Linux distributions. Nine-Year-Old Kernel Flaw The issue lies [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/nine-year-old-kernel-flaw/\">Nine-Year-Old Kernel Flaw Puts Linux SSH Private Keys at Risk</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/nine-year-old-kernel-flaw/",
-    "published": "2026-05-21T07:10:25",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 458,
-    "also_covered_by": []
-  },
-  {
     "title": "Virtual Event Today: Threat Detection & Incident Response Summit",
     "summary": "<p>Don't miss this virtual event as we explore how to cut through alert fatigue, leverage AI and unified platforms to accelerate investigations, and apply actionable threat intelligence.</p>\n<p>The post <a href=\"https://www.securityweek.com/virtual-event-today-threat-detection-incident-response-summit/\">Virtual Event Today: Threat Detection &amp; Incident Response Summit</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
     "link": "https://www.securityweek.com/virtual-event-today-threat-detection-incident-response-summit/",
@@ -1587,26 +1407,6 @@
     "source": "securityweek.com",
     "category": "AI & Security",
     "importance_score": 455,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hackers Use Fake Income Tax Assessment Pages to Infect Windows Systems",
-    "summary": "<p>A new threat campaign is targeting Windows users in India by disguising malicious files as official income tax documents. Researchers have tracked the operation under the name TAX#TRIDENT, and it has shown the ability to pivot across multiple delivery methods while keeping the same convincing tax lure intact. The attack does not rely on any [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-use-fake-income-tax-assessment-pages/\">Hackers Use Fake Income Tax Assessment Pages to Infect Windows Systems</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/hackers-use-fake-income-tax-assessment-pages/",
-    "published": "2026-05-20T22:13:36",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 454,
-    "also_covered_by": []
-  },
-  {
-    "title": "Dark Web Brokers Repackage Old Breaches as Fresh Corporate Data Leaks",
-    "summary": "<p>A wave of fake data leak claims is flooding dark web forums, and most of what is being sold turns out to be recycled material from old breaches. Threat actors operating in Chinese-language cybercrime ecosystems are packaging this stale data and marketing it as fresh corporate intelligence, tricking organizations into wasting time and money on [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/dark-web-brokers-repackage-old-breaches/\">Dark Web Brokers Repackage Old Breaches as Fresh Corporate Data Leaks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/dark-web-brokers-repackage-old-breaches/",
-    "published": "2026-05-21T01:50:17",
-    "source": "cybersecuritynews.com",
-    "category": "Data Breach",
-    "importance_score": 453,
     "also_covered_by": []
   },
   {
