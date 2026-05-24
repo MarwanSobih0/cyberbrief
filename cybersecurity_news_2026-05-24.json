@@ -178,26 +178,6 @@
     "also_covered_by": []
   },
   {
-    "title": "LiteSpeed cPanel Plugin 0-Day Exploited for Server Root Access",
-    "summary": "<p>A critical zero-day privilege escalation vulnerability in the LiteSpeed User-End cPanel plugin is being actively exploited in the wild, enabling any authenticated cPanel user to execute arbitrary scripts as&#160;root&#160;and gain full server control. Tracked as&#160;CVE-2026-48172&#160;with a maximum CVSS score of&#160;10.0, the flaw has been patched as of May 21, 2026. The root cause is a&#160;logic [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/litespeed-cpanel-plugin-0-day-exploited/\">LiteSpeed cPanel Plugin 0-Day Exploited for Server Root Access</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/litespeed-cpanel-plugin-0-day-exploited/",
-    "published": "2026-05-23T09:17:38",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 2275,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hackers Compromise Laravel-Lang Packages via 700 GitHub Repos",
-    "summary": "<p>A sophisticated and active supply chain attack has struck the Laravel-Lang open-source organization, compromising over 700 historical package versions across four widely used PHP localization repositories. The attack, detected on May 22, 2026, and reported by both&#160;Aikido Security&#160;and&#160;the Socket Research Team, introduces a fully functional remote code execution (RCE) backdoor that executes automatically via Composer&#8217;s [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/compromise-laravel-lang-packages/\">Hackers Compromise Laravel-Lang Packages via 700 GitHub Repos</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/compromise-laravel-lang-packages/",
-    "published": "2026-05-23T07:22:25",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 2232,
-    "also_covered_by": []
-  },
-  {
     "title": "The Cyber Express Weekly Roundup: Supply Chain Breaches, AI Content Enforcement, And Event Disruption Attacks",
     "summary": "<p><img alt=\"weekly roundup TCE The Cyber Express\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"660\" src=\"https://thecyberexpress.com/wp-content/uploads/weekly-roundup-TCE-The-Cyber-Express.webp\" title=\"The Cyber Express Weekly Roundup: Supply Chain Breaches, AI Content Enforcement, And Event Disruption Attacks 1\" width=\"1168\" /></p><span>The global cybersecurity landscape continues to evolve rapidly as attackers expand their focus on developer ecosystems, public-facing institutions, and anonymization infrastructure. At the same time, regulators and law enforcement agencies are stepping up enforcement efforts around AI misuse and cybercrime-enabling services.</span>\n\n<span>This week’s weekly roundup developments highlight how cyber threats are becoming increasingly distributed across platforms and industries, with supply chain compromises, operational disruptions, and policy enforcement actions shaping the broader risk environment.</span>\n<h3><b><span>The Cyber Express Weekly Roundup</span></b><span> </span></h3>\n<h4><b><span>Austria Blocks Hundreds of Cyberattacks During Eurovision Week in Vienna</span></b><span> </span></h4>\n<span>Austria successfully prevented nearly 500 <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-a-cyber-attack/\" title=\"cyberattack\">cyberattack</a> attempts targeting systems connected to Eurovision operations during the contest week in Vienna. Officials stated that the attacks were intended to disrupt event infrastructure and associated services, but no major operational failures were recorded. </span><a href=\"https://thecyberexpress.com/austria-blocks-eurovision-cyberattack-attempts/\"><b><span>Read more...</span></b></a><span> </span>\n<h4><b><span>Massive npm Supply Chain Attack Hits AntV Ecosystem</span></b><span> </span></h4>\n<span>A large-scale software supply chain compromise has impacted more than 300 npm packages within the AntV ecosystem following the hijacking of a trusted maintainer account. The compromised packages were reportedly modified as part of the “Mini Shai-Hulud” <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-malware/\" title=\"malware\">malware</a> campaign, which targeted developer environments and widely used JavaScript libraries. </span><a href=\"https://thecyberexpress.com/hundreds-of-antv-packages-compromised/\"><b><span>Read more...</span></b></a><span> </span>\n<h4><b><span>Chanhassen Dinner Theatres Cyberattack Disrupts Operations and Ticketing Systems</span></b><span> </span></h4>\n<span>A cyberattack targeting <a href=\"https://chanhassendt.com/\" rel=\"nofollow noopener\" target=\"_blank\">Chanhassen Dinner Theatres</a> disrupted key operational systems, including ticketing, payment processing, and customer communications, forcing additional cancellations of scheduled performances of </span><i><span>“Guys and Dolls.” </span></i><span>The disruption comes amid concurrent operational challenges, including an illness outbreak affecting performers and attendees, further complicating recovery efforts. </span><a href=\"https://thecyberexpress.com/chanhassen-dinner-theatres-cyberattack/\"><b><span>Read more...</span></b></a><span> </span>\n<h4><b><span>FTC Targets AI “Nudify” Platforms Over TAKE IT DOWN Act Violations</span></b><span> </span></h4>\n<span>The U.S. Federal Trade Commission has issued formal warnings to multiple AI-powered “nudify” platforms over alleged violations of the TAKE IT DOWN Act, which requires rapid removal of nonconsensual intimate content upon valid request. According to regulators, several platforms failed to implement compliant removal workflows, including the mandated 48-hour takedown requirement. </span><a href=\"https://thecyberexpress.com/take-it-down-act-drives-ftc-against-ai-content/\"><b><span>Read more...</span></b></a><span> </span>\n<h4><b><span>GitHub Confirms Internal Repository Breach via Malicious VS Code Extension</span></b><span> </span></h4>\n<span>GitHub has confirmed a security incident in which attackers accessed thousands of internal repositories after compromising an employee's device through a malicious Visual Studio Code extension. The company stated that there is no evidence of customer repository compromise or enterprise <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-data/\" title=\"data\">data</a> exposure, and that the incident was contained following detection. </span><a href=\"https://thecyberexpress.com/github-cyberattack-teampcp/\"><b><span>Read more...</span></b></a><span> </span>\n<h4><b><span>European Authorities Shut Down VPN Service Used in Ransomware Operations</span></b><span> </span></h4>\n<span>European law enforcement agencies have seized the infrastructure of a VPN service known as First VPN during “Operation Saffron,” targeting its alleged use in supporting <a class=\"wpil_keyword_link\" href=\"https://cyble.com/knowledge-hub/what-is-ransomware/\" rel=\"noopener\" target=\"_blank\" title=\"ransomware\">ransomware</a> and cybercriminal operations. Authorities dismantled 33 servers and detained the suspected administrator in Ukraine. </span><a href=\"https://thecyberexpress.com/first-vpn-service-seized/\"><b><span>Read more...</span></b></a><span> </span>\n<h3><b><span>Weekly Cybersecurity Takeaway</span></b><span> </span></h3>\n<span>This week’s weekly roundup reflects a <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/\" title=\"cybersecurity\">cybersecurity</a> landscape defined by ecosystem-level compromise rather than isolated incidents. Supply chain attacks continue to target developer tooling and open-source ecosystems, while AI-related enforcement actions signal growing regulatory pressure around synthetic content abuse.</span><span> </span>\n\n<span>At the same time, law enforcement actions against anonymization infrastructure demonstrate a stronger focus on disrupting the operational backbone of cybercriminal networks. Taken together, these <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/cyber-security-events/\" title=\"events\">events</a> highlight a shifting threat environment where compromise of platforms, dependencies, and infrastructure can cascade across multiple industries simultaneously.</span><span> </span>",
     "link": "https://thecyberexpress.com/tce-weekly-roundup-cybersecurity-supply-chain/",
@@ -235,16 +215,6 @@
     "source": "security.googleblog.com",
     "category": "Data Breach",
     "importance_score": 1959,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hackers Compromised 233 Versions of Laravel-Lang Packages by Hacking 700 GitHub Repos",
-    "summary": "<p>A highly sophisticated supply chain attack has compromised the Laravel-Lang ecosystem, injecting credential-stealing remote code execution backdoors into 233 package versions across 700 GitHub repositories. Discovered in May 2026 by Socket and Aikido, threat actors manipulated GitHub tags to distribute malware through Composer&#8217;s autoloader, granting complete remote access to developer environments. The attackers bypassed direct [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/laravel-lang-packages-compromised/\">Hackers Compromised 233 Versions of Laravel-Lang Packages by Hacking 700 GitHub Repos</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/laravel-lang-packages-compromised/",
-    "published": "2026-05-23T05:34:00",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 1879,
     "also_covered_by": []
   },
   {
@@ -325,26 +295,6 @@
     "source": "unit42.paloaltonetworks.com",
     "category": "Other",
     "importance_score": 1538,
-    "also_covered_by": []
-  },
-  {
-    "title": "Claude Mythos Preview Discovers 10,000+ 0-Days in Glasswing",
-    "summary": "<p>Anthropic has published an update on Project Glasswing, its collaborative AI-powered vulnerability discovery initiative launched last month, revealing that Claude Mythos, the company&#8217;s most capable and tightly restricted model, has already surfaced more than 10,000 high- or critical-severity zero-day vulnerabilities across the world&#8217;s most systemically important software. The findings represent one of the most significant [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/claude-mythos-preview-0-day/\">Claude Mythos Preview Discovers 10,000+ 0-Days in Glasswing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/claude-mythos-preview-0-day/",
-    "published": "2026-05-23T05:54:54",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 1530,
-    "also_covered_by": []
-  },
-  {
-    "title": "Anthropic’s Claude Mythos Preview Uncovers 10,000+ 0-Days in Project Glasswing",
-    "summary": "<p>Anthropic has revealed the staggering initial results of Project Glasswing, a collaborative cybersecurity initiative designed to secure critical infrastructure using advanced AI before malicious actors can exploit it. In its first month, the project leveraged the unreleased Claude Mythos Preview model to autonomously discover over 10,000 high- and critical-severity zero-day vulnerabilities across the world&#8217;s most [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/anthropics-claude-mythos-preview-0-days/\">Anthropic&#8217;s Claude Mythos Preview Uncovers 10,000+ 0-Days in Project Glasswing</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/anthropics-claude-mythos-preview-0-days/",
-    "published": "2026-05-23T03:40:43",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 1527,
     "also_covered_by": []
   },
   {
@@ -518,16 +468,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Hackers Backdoor Popular art-template npm Package to Launch Watering-Hole Attacks",
-    "summary": "<p>A widely-used JavaScript templating library called art-template has been weaponized to deliver a sophisticated iOS browser exploit kit through a supply chain attack. The backdoored package silently dropped malicious code into end users&#8217; browsers, turning everyday web applications into watering holes targeting Apple device owners worldwide. The attack began when the art-template npm package, originally [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-backdoor-popular-art-template-npm-package/\">Hackers Backdoor Popular art-template npm Package to Launch Watering-Hole Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/hackers-backdoor-popular-art-template-npm-package/",
-    "published": "2026-05-22T22:08:05",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 1175,
-    "also_covered_by": []
-  },
-  {
     "title": "Laravel Lang packages hijacked to deploy credential-stealing malware",
     "summary": "A supply chain attack targeting the Laravel Lang localization packages has exposed developers to a sophisticated credential-stealing malware campaign after attackers abused GitHub version tags to distribute malicious code through Composer packages. [...]",
     "link": "https://www.bleepingcomputer.com/news/security/laravel-lang-packages-hijacked-to-deploy-credential-stealing-malware/",
@@ -605,16 +545,6 @@
     "source": "infosecurity-magazine.com",
     "category": "Data Breach",
     "importance_score": 1073,
-    "also_covered_by": []
-  },
-  {
-    "title": "Nginx-poolslip Vulnerability Enables DoS and Code Execution Attacks — Patch Now!",
-    "summary": "<p>A newly disclosed flaw in one of the world&#8217;s most widely deployed web servers is forcing administrators into another emergency patch cycle. Tracked as CVE-2026-9256 and publicly nicknamed nginx-poolslip, the vulnerability affects both NGINX Plus and NGINX Open Source, and can be triggered by a remote, unauthenticated attacker over plain HTTP. The vulnerability resides in [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/nginx-poolslip-vulnerability/\">Nginx-poolslip Vulnerability Enables DoS and Code Execution Attacks — Patch Now!</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/nginx-poolslip-vulnerability/",
-    "published": "2026-05-23T11:49:48",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 1062,
     "also_covered_by": []
   },
   {
@@ -858,16 +788,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Russian Threat Groups Use RDP, VPN, Supply Chain Attacks, and Social Engineering for Initial Access",
-    "summary": "<p>Russian state-sponsored threat groups significantly stepped up their cyber operations in 2025, using a range of methods to break into targeted systems. From exploiting remote desktop tools and virtual private networks to manipulating trusted supply chains and deceiving employees through social engineering, these actors have built a dangerous and versatile toolkit for gaining initial access. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/russian-threat-groups-use-rdp-vpn-supply-chain-attacks/\">Russian Threat Groups Use RDP, VPN, Supply Chain Attacks, and Social Engineering for Initial Access</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/russian-threat-groups-use-rdp-vpn-supply-chain-attacks/",
-    "published": "2026-05-22T22:08:37",
-    "source": "cybersecuritynews.com",
-    "category": "Phishing / Scams",
-    "importance_score": 777,
-    "also_covered_by": []
-  },
-  {
     "title": "Mini Shai Hulud: Compromised @antv npm packages enable CI/CD credential theft",
     "summary": "<p>Compromised @antv npm packages deploy the Mini Shai-Hulud payload to steal CI/CD secrets from Linux-based automation environments. The malware executes during npm install and targets credentials across GitHub, AWS, Kubernetes, Vault, npm, and 1Password platforms.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/05/20/mini-shai-hulud-compromised-antv-npm-packages-enable-ci-cd-credential-theft/\">Mini Shai Hulud: Compromised @antv npm packages enable CI/CD credential theft</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/05/20/mini-shai-hulud-compromised-antv-npm-packages-enable-ci-cd-credential-theft/",
@@ -915,16 +835,6 @@
     "source": "microsoft.com",
     "category": "Other",
     "importance_score": 756,
-    "also_covered_by": []
-  },
-  {
-    "title": "PyrsistenceSniper – Tool that Detects 117 Persistence Malware Techniques on Windows, Linux, and macOS",
-    "summary": "<p>PyrsistenceSniper is an advanced tool for detecting offline persistence, enabling cybersecurity analysts to identify 117 separate persistence mechanisms across Windows, Linux, and macOS platforms. Originally inspired by Autoruns and PersistenceSniper, this Python-based solution developed by Hexastrike enables rapid triage of forensic collections without requiring live system access. According to the Hexastrike GitHub repository, PyrsistenceSniper runs [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/pyrsistencesniper/\">PyrsistenceSniper &#8211; Tool that Detects 117 Persistence Malware Techniques on Windows, Linux, and macOS</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/pyrsistencesniper/",
-    "published": "2026-05-24T02:40:31",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 735,
     "also_covered_by": []
   },
   {
@@ -1030,16 +940,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Hackers Use SEO Poisoning to Fake Gemini CLI, Claude Installers",
-    "summary": "<p>Financially motivated threat actors are running an active campaign that impersonates Google&#8217;s Gemini CLI and Anthropic&#8217;s Claude Code, using SEO poisoning to deliver a fileless PowerShell infostealer to developer workstations worldwide. First identified in early March 2026 by EclecticIQ researchers, the campaign represents a calculated escalation in supply-chain-focused eCrime targeting AI developer tooling. The infection [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/seo-poisoning-gemini-cli-claude-installers/\">Hackers Use SEO Poisoning to Fake Gemini CLI, Claude Installers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/seo-poisoning-gemini-cli-claude-installers/",
-    "published": "2026-05-23T08:13:51",
-    "source": "gbhackers.com",
-    "category": "AI & Security",
-    "importance_score": 634,
-    "also_covered_by": []
-  },
-  {
     "title": "May 2026 Patch Tuesday: no zero-days but plenty to fix",
     "summary": "May’s Patch Tuesday may not be the giant release many expected, but there are still plenty of important fixes that shouldn’t be ignored.",
     "link": "https://www.malwarebytes.com/blog/news/2026/05/may-2026-patch-tuesday-no-zero-days-but-plenty-to-fix",
@@ -1050,16 +950,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Google’s Exploit Code Release Raises Concern Over Unfixed Chromium Security Bug",
-    "summary": "<p>Google’s recent release of proof-of-concept (PoC) exploit code for a still-unpatched Chromium vulnerability has sparked significant concern across the cybersecurity community. The flaw, first reported in late 2022 by security researcher Lyra Rebane, remains unresolved after more than three years, exposing millions of users of Chromium-based browsers such as Google Chrome, Microsoft Edge, Brave, and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/googles-exploit-code-unfixed-chromium-security-bug/\">Google’s Exploit Code Release Raises Concern Over Unfixed Chromium Security Bug</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/googles-exploit-code-unfixed-chromium-security-bug/",
-    "published": "2026-05-22T13:01:22",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 631,
-    "also_covered_by": []
-  },
-  {
     "title": "Microsoft Takes Down Fox Tempest for Providing Ransomware-Enabling Signing Tool",
     "summary": "Microsoft’s Digital Crimes Unit has taken down the infrastructure of Fox Tempest, a prolific cybercrime-enabling threat group",
     "link": "https://www.infosecurity-magazine.com/news/microsoft-takes-down-fox-tempest/",
@@ -1067,26 +957,6 @@
     "source": "infosecurity-magazine.com",
     "category": "Ransomware",
     "importance_score": 631,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hackers Exploit F5 BIG-IP to Gain SSH Access and Pivot Into Linux Networks",
-    "summary": "<p>Threat actors are actively exploiting end-of-life F5 BIG-IP appliances to gain unauthorized SSH access into enterprise networks, using the compromised devices as launchpads for sophisticated multi-stage intrusion campaigns that ultimately target Active Directory infrastructure. Microsoft Threat Intelligence disclosed the full attack chain on May 22, 2026, documenting how a single compromised edge appliance cascaded into [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/exploit-f5-big-ip-ssh-access/\">Hackers Exploit F5 BIG-IP to Gain SSH Access and Pivot Into Linux Networks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/exploit-f5-big-ip-ssh-access/",
-    "published": "2026-05-23T10:15:04",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 630,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hackers Exploit F5 BIG-IP Appliance to Gain SSH Access and Pivot Into Enterprise Linux Networks",
-    "summary": "<p>A multi-stage intrusion attack where a threat actor exploited an internet-facing F5 BIG-IP edge appliance as the entry point for a widespread, identity-focused attack that ultimately accessed Active Directory. According to Microsoft&#8217;s Defender Security Research, the attack reflects a growing trend in which firewalls, VPN gateways, and load balancer devices traditionally deployed as security boundaries [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/f5-big-ip-exploited-for-ssh-access/\">Hackers Exploit F5 BIG-IP Appliance to Gain SSH Access and Pivot Into Enterprise Linux Networks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/f5-big-ip-exploited-for-ssh-access/",
-    "published": "2026-05-23T09:29:32",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 625,
     "also_covered_by": []
   },
   {
@@ -1157,26 +1027,6 @@
     "source": "microsoft.com",
     "category": "AI & Security",
     "importance_score": 569,
-    "also_covered_by": []
-  },
-  {
-    "title": "World Cup Phishing Surge: 203 Malicious IPs Detected",
-    "summary": "<p>The scale of phishing activity targeting the 2026 FIFA World Cup has expanded dramatically, with new research revealing a far broader and more complex threat landscape than initially reported. What began as a cluster of 79 malicious domains has now evolved into a distributed phishing ecosystem spanning 222 domains mapped to 203 unique IP addresses [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/world-cup-phishing-surge/\">World Cup Phishing Surge: 203 Malicious IPs Detected</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/world-cup-phishing-surge/",
-    "published": "2026-05-22T12:30:02",
-    "source": "gbhackers.com",
-    "category": "Phishing / Scams",
-    "importance_score": 555,
-    "also_covered_by": []
-  },
-  {
-    "title": "World Cup Phishing Campaign Nearly Triples With 203 Unique IP Addresses",
-    "summary": "<p>A large-scale phishing campaign targeting the 2026 FIFA World Cup has grown far beyond what security researchers originally thought. What began as a documented set of 79 fraudulent domains has ballooned into a network of at least 222 domains spread across 203 unique IP addresses, making it nearly three times larger than first reported. The [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/world-cup-phishing-campaign-nearly-triples/\">World Cup Phishing Campaign Nearly Triples With 203 Unique IP Addresses</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/world-cup-phishing-campaign-nearly-triples/",
-    "published": "2026-05-22T23:08:47",
-    "source": "cybersecuritynews.com",
-    "category": "Phishing / Scams",
-    "importance_score": 554,
     "also_covered_by": []
   },
   {
@@ -1337,16 +1187,6 @@
     "source": "infosecurity-magazine.com",
     "category": "Data Breach",
     "importance_score": 468,
-    "also_covered_by": []
-  },
-  {
-    "title": "Ubiquiti Patches Critical UniFi OS Privilege Escalation Flaws",
-    "summary": "<p>Ubiquiti has released urgent security patches for five critical and high-severity vulnerabilities across its UniFi OS platform, addressing flaws that could allow remote attackers to execute arbitrary commands and escalate privileges on a wide range of UniFi devices. The flaws also span improper access control and path traversal, affecting a broad range of UniFi OS [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ubiquiti-unifi-os-privilege-escalation/\">Ubiquiti Patches Critical UniFi OS Privilege Escalation Flaws</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/ubiquiti-unifi-os-privilege-escalation/",
-    "published": "2026-05-23T08:44:17",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 465,
     "also_covered_by": []
   },
   {
@@ -1550,26 +1390,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Hackers Exploit Middle East Telecoms for Massive C2 Operations",
-    "summary": "<p>Hackers are increasingly abusing Middle East telecommunications networks and hosting providers to operate large-scale command-and-control (C2) infrastructure. The findings highlight a strategic shift away from disposable indicators toward infrastructure-level tracking, allowing defenders to identify persistent patterns behind cyber operations rather than reacting to constantly changing indicators of compromise. The dataset reveals that C2 infrastructure dominates [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-exploit-middle-east-telecoms/\">Hackers Exploit Middle East Telecoms for Massive C2 Operations</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/hackers-exploit-middle-east-telecoms/",
-    "published": "2026-05-22T13:08:58",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 340,
-    "also_covered_by": []
-  },
-  {
-    "title": "Russian Hackers Exploit RDP, VPNs, Supply Chains for Initial Access",
-    "summary": "<p>Russian state-sponsored and aligned threat groups are increasingly combining Remote Desktop Protocol (RDP), Virtual Private Networks (VPNs), supply chain compromise, and sophisticated social engineering to gain initial access to targeted networks across government, critical infrastructure, and commercial sectors. This multi-vector approach allows them to bypass perimeter defenses, blend in with legitimate traffic, and maintain long-term [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/rdp-vpns-supply-chains-exploited/\">Russian Hackers Exploit RDP, VPNs, Supply Chains for Initial Access</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/rdp-vpns-supply-chains-exploited/",
-    "published": "2026-05-22T11:42:57",
-    "source": "gbhackers.com",
-    "category": "Phishing / Scams",
-    "importance_score": 334,
-    "also_covered_by": []
-  },
-  {
     "title": "New NGate variant hides in a trojanized NFC payment app",
     "summary": "ESET researchers discover another iteration of NGate malware, this time possibly developed with the assistance of AI",
     "link": "https://www.welivesecurity.com/en/eset-research/new-ngate-variant-hides-in-a-trojanized-nfc-payment-app/",
@@ -1620,16 +1440,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Hackers Abuse Middle East Telecom Networks for Large-Scale Command-and-Control Operations",
-    "summary": "<p>Hackers are using telecom networks and hosting providers across the Middle East as a foundation for massive command-and-control operations, turning trusted infrastructure into a launchpad for cyberattacks. A newly released threat intelligence report reveals that more than 1,350 active command-and-control (C2) servers were identified across 98 infrastructure providers in the region within just three months. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-abuse-middle-east-telecom-networks/\">Hackers Abuse Middle East Telecom Networks for Large-Scale Command-and-Control Operations</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/hackers-abuse-middle-east-telecom-networks/",
-    "published": "2026-05-22T23:10:05",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 325,
-    "also_covered_by": []
-  },
-  {
     "title": "I test robot vacuums for a living, and these are the best Memorial Day deals right now",
     "summary": "This is one of the best times of the year to buy a robot vacuum, thanks to these Memorial Day deals.",
     "link": "https://www.zdnet.com/article/robot-vacuums-best-memorial-day-deals-2026/",
@@ -1677,16 +1487,6 @@
     "source": "cyberscoop.com",
     "category": "Other",
     "importance_score": 315,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hackers Use Six-Layer Persistence to Maintain Access on Compromised FreePBX Systems",
-    "summary": "<p>A hacker group known as INJ3CTOR3 has been running an active campaign against FreePBX systems, deploying a newly discovered PHP webshell called JOMANGY that uses six separate persistence layers to stay embedded on compromised servers. The campaign targets internet-exposed VoIP phone systems and routes calls through them at the victims&#8217; expense, a scheme known as [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-use-six-layer-persistence/\">Hackers Use Six-Layer Persistence to Maintain Access on Compromised FreePBX Systems</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/hackers-use-six-layer-persistence/",
-    "published": "2026-05-22T21:02:22",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 312,
     "also_covered_by": []
   },
   {
