@@ -329,6 +329,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Attackers Abuse Trusted Developer Tooling to Exfiltrate Source Code and Secrets",
+    "summary": "<p>A wave of sophisticated supply chain attacks has put millions of software developers on high alert, with threat actors turning everyday developer tools into weapons for stealing credentials, cloud tokens, and source code. What makes these campaigns especially alarming is how they exploit the very systems developers trust most: their editors, automated pipelines, and version [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/attackers-abuse-trusted-developer-tooling/\">Attackers Abuse Trusted Developer Tooling to Exfiltrate Source Code and Secrets</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/attackers-abuse-trusted-developer-tooling/",
+    "published": "2026-05-29T15:34:24",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 1514,
+    "also_covered_by": []
+  },
+  {
     "title": "CERT-In Urges Firms to Patch Critical Vulnerabilities Within 12 Hours Amid AI Threat Surge",
     "summary": "<p><img alt=\"CERT-In\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"614\" src=\"https://thecyberexpress.com/wp-content/uploads/CERT-In-2.webp\" title=\"CERT-In Urges Firms to Patch Critical Vulnerabilities Within 12 Hours Amid AI Threat Surge 9\" width=\"1101\" /></p><span>India’s Computer Emergency Response Team, Indian Computer Emergency Response Team, has introduced a new cybersecurity framework urging organizations to patch critical security vulnerabilities in internet-facing systems within 12 hours of detection whenever feasible. The recommendation comes amid growing concerns that cybercriminals are increasingly using artificial intelligence tools and large language models (LLMs) to accelerate cyber attacks, automate exploit development, and scale malicious operations more efficiently.</span>\n\n<span>The guidance was published in a 38-page blueprint released on Monday and reflects mounting fears around AI-assisted cyber exploitation. According to CERT-In, the rapid adoption of AI and LLMs by threat actors is significantly shrinking the time between the discovery of <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/\" title=\"security\">security</a> vulnerabilities and active exploitation.</span>\n\n<span>“AI-assisted cyber exploitation reduces the time required for adversaries to identify, weaponize, and <a class=\"wpil_keyword_link\" href=\"https://cyble.com/exploit/\" rel=\"noopener\" target=\"_blank\" title=\"exploit\">exploit</a> vulnerabilities, exposed services, weak identities, insecure APIs, and misconfigured systems,” CERT-In stated in the document.</span>\n<h3><b><span>AI and LLMs Are Reshaping Cyber Attack Timelines</span></b><span> </span></h3>\n<span><a href=\"https://www.cert-in.org.in/s2cMainServlet?pageid=GUIDLNVIEW02&amp;refcode=CISG-2026-02\" rel=\"nofollow noopener\" target=\"_blank\">CERT-In warned</a> that as organizations become more dependent on cloud ecosystems, interconnected infrastructure, operational technology, software supply chains, and AI-enabled platforms, the risks associated with AI-driven attacks continue to rise across industries.</span>\n\n<span>The agency noted that attackers are already using AI and LLMs for a broad range of malicious activities, including attack surface mapping, exploit analysis, phishing campaigns, <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-malware/\" title=\"malware\">malware</a> creation, and automated reconnaissance. The use of AI allows attackers to compress traditional attack preparation timelines and evade some conventional security controls.</span>\n\n<span>The blueprint also highlighted that AI-enabled environments themselves can become targets. <a href=\"https://thecyberexpress.com/ios-exploit-kit-dubbed-darksword/\" rel=\"noopener\" target=\"_blank\">Threat actors</a> may exploit weaknesses through prompt injection attacks, model manipulation, jailbreaking methods, data leakage vulnerabilities, training data poisoning, model theft, and orchestration pipeline compromises. Such attacks can undermine the confidentiality, integrity, and reliability of AI systems.</span>\n\n<span>According to CERT-In, organizations should prepare for a future where cyberattacks become autonomous, and exploitation timelines collapse further due to advancements in AI and LLMs. The agency said this shift requires stronger operational readiness, proactive patching strategies, continuous <a href=\"https://thecyberexpress.com/rockstar-cyberattack-gta-5/\" rel=\"noopener\" target=\"_blank\">threat assessment</a>, and aggressive exposure reduction practices.</span>\n<h3><b><span>CERT-In Calls for Stronger Defenses Against Security Vulnerabilities</span></b><span> </span></h3>\n<span>To counter AI-assisted attacks and reduce exposure to security <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-are-vulnerabilities/\" title=\"vulnerabilities\">vulnerabilities</a>, CERT-In outlined several defensive principles that organizations should adopt.</span><span> </span>\n\n<span>One of the key recommendations is the assumption that breaches are inevitable. Organizations are encouraged to prepare for rapid detection, containment, and recovery during compromise scenarios. The blueprint also stresses the adoption of Zero Trust security models that enforce continuous verification and least-privilege access controls.</span><span> </span>\n\n<span>CERT-In further recommended implementing defense-in-depth strategies with layered protections across infrastructure to minimize the impact of successful breaches and eliminate single points of failure. The agency emphasized continuous monitoring and remediation of security vulnerabilities, along with integrating secure-by-design practices into applications, infrastructure, and AI workflows.</span><span> </span>\n\n<span>The framework also advises organizations to maintain operational continuity during cyber incidents and ensure the protection of sensitive and operationally critical <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-data/\" title=\"data\">data</a> throughout its lifecycle. Another major focus area is software <a href=\"https://thecyberexpress.com/node-ipc-npm-package-credential-stealer/\" rel=\"noopener\" target=\"_blank\">supply chain security</a>. CERT-In urged enterprises to reduce risks linked to third-party software, AI models, and dependencies through Software Bills of Materials (SBOMs), provenance validation, and security assessments.</span><span> </span>\n\n<span>To evaluate the effectiveness of <a class=\"wpil_keyword_link\" href=\"https://cyble.com/knowledge-hub/what-is-cybersecurity/\" rel=\"noopener\" target=\"_blank\" title=\"cybersecurity\">cybersecurity</a> controls, the agency recommended regular red teaming exercises, vulnerability assessments, penetration testing, and independent audits. It also advised organizations to prioritize controls based on operational importance and threat exposure while establishing formal governance frameworks for AI usage and maintaining visibility into AI systems and integrations.</span><span> </span>\n\n<span>“Organizations should implement layered, risk-based, and continuously validated technical controls to reduce exposure to AI-assisted <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/cyber-news/\" title=\"cyber\">cyber</a> threats,” CERT-In said. “Controls should prioritize protection of internet-facing systems, critical business applications, identities, cloud environments, APIs, sensitive data, AI-enabled systems, and operational infrastructure.”</span><span> </span>\n<h3><b><span>New Patching Deadlines Introduced for Critical Flaws</span></b><span> </span></h3>\n<span>A major component of the blueprint focuses on <a class=\"wpil_keyword_link\" href=\"https://cyble.com/solutions/vulnerability-management/\" rel=\"noopener\" target=\"_blank\" title=\"vulnerability management\">vulnerability management</a> and patching timelines. CERT-In urged organizations to adopt continuous, risk-based <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/firewall-daily/vulnerabilities/\" title=\"vulnerability\">vulnerability</a> and patch management practices to reduce risks associated with security vulnerabilities, insecure APIs, misconfigurations, publicly exposed services, and weak identities.</span><span> </span>\n\n<span>Under the new recommendations, known exploited vulnerabilities affecting internet-facing and critical systems should be remediated within 12 hours wherever applicable. The agency also introduced additional remediation timelines based on severity and exposure levels.</span><span> </span>\n\n<span>Critical externally exposed vulnerabilities should be addressed within one day. Known exploited vulnerabilities impacting internal systems should also be remediated within one day unless alternative mitigation measures are implemented and documented. Critical internal vulnerabilities affecting high-value systems should be patched within three days, while high-severity vulnerabilities should be resolved within five days based on <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-are-risks-in-cybersecurity/\" title=\"risk\">risk</a> prioritization.</span><span> </span>\n\n<span>CERT-In acknowledged that immediate patching may not always be possible. In situations where fixes are unavailable, the agency advised organizations to deploy temporary mitigations such as system isolation, restricted access controls, web application <a href=\"https://thecyberexpress.com/cve-2026-0300-buffer-overflow-vulnerability/\" rel=\"noopener\" target=\"_blank\">firewall</a> (WAF) or API protections, enhanced monitoring, and feature disablement until official patches are released.</span><span> </span>\n\n<span>The new recommendations reflect growing global concerns about the role of AI and LLMs in modern cyber warfare. As threat actors continue to automate the discovery and exploitation of security vulnerabilities, cybersecurity agencies and enterprises are facing pressure to strengthen patching practices, reduce exposure windows, and improve resilience against rapidly evolving digital threats.</span>",
     "link": "https://thecyberexpress.com/cert-in-12-hour-patching-ai-llm-cyber-threats/",
@@ -499,6 +509,26 @@
     "also_covered_by": []
   },
   {
+    "title": "Palo Alto PAN-OS Authentication Bypass Vulnerability Actively Exploited in the Wild",
+    "summary": "<p>A critical authentication-bypass vulnerability affecting Palo Alto Networks PAN-OS and Prisma Access is being actively exploited by malicious actors. In response to mounting attacks, the Cybersecurity and Infrastructure Security Agency (CISA) added CVE-2026-0257 to its Known Exploited Vulnerabilities (KEV) catalog on May 29, 2026. While the flaw carries a medium CVSSv4 score, security researchers at [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/palo-alto-pan-os-authentication-bypass/\">Palo Alto PAN-OS Authentication Bypass Vulnerability Actively Exploited in the Wild</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/palo-alto-pan-os-authentication-bypass/",
+    "published": "2026-05-30T06:57:21",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 1230,
+    "also_covered_by": []
+  },
+  {
+    "title": "Palo Alto Networks PAN-OS Authentication Vulnerability Bypass Exploited in the Wild",
+    "summary": "<p>Palo Alto Networks authentication bypass vulnerability, CVE-2026-0257, affecting PAN-OS and Prisma Access, is now being actively exploited in the wild, with CISA adding it to the Known Exploited Vulnerabilities (KEV) catalog on May 29, 2026. Palo Alto Networks published its security advisory on May 13, 2026, warning that CVE-2026-0257 enables a remote unauthenticated attacker to [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/palo-alto-vulnerability-exploited/\">Palo Alto Networks PAN-OS Authentication Vulnerability Bypass Exploited in the Wild</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/palo-alto-vulnerability-exploited/",
+    "published": "2026-05-30T02:45:22",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 1215,
+    "also_covered_by": []
+  },
+  {
     "title": "GlassWorm Malware Takedown Disrupts Developer Supply Chain Attack Infrastructure",
     "summary": "CrowdStrike, in partnership with Google and the Shadowserver Foundation, has announced the simultaneous disruption of all command-and-control (C2) channels associated with GlassWorm, a persistent software chain campaign targeting software developers through malicious packages and extensions.\n\n\"Since at least early 2025, GlassWorm operators have systematically targeted software developers, a",
     "link": "https://thehackernews.com/2026/05/glassworm-malware-takedown-disrupts.html",
@@ -559,16 +589,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Anthropic launches Claude Opus 4.8, prepares Mythos-class models for all customers",
-    "summary": "<p>Anthropic has released Claude Opus 4.8 and outlined plans for broader access to its Mythos-class models, which the company expects to make available to all customers in the coming weeks. Claude Opus 4.8 (Source: Anthropic) Claude Opus 4.8 is available to all users, with pricing unchanged from Opus 4.7. Anthropic highlighted improvements in model honesty, noting that Opus 4.8 is more likely to acknowledge when it lacks sufficient information and less likely to make unsupported &#8230; <a href=\"https://www.helpnetsecurity.com/2026/05/29/anthropic-claude-opus-4-8/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/05/29/anthropic-claude-opus-4-8/\">Anthropic launches Claude Opus 4.8, prepares Mythos-class models for all customers</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
-    "link": "https://www.helpnetsecurity.com/2026/05/29/anthropic-claude-opus-4-8/",
-    "published": "2026-05-29T07:36:14",
-    "source": "helpnetsecurity.com",
-    "category": "Vulnerability",
-    "importance_score": 1100,
-    "also_covered_by": []
-  },
-  {
     "title": "Euro-Office, Europe's open-source alternative to Microsoft Office and Google Docs, launches June 9",
     "summary": "European tech firms will ship the first stable release of Euro-Office next month, giving governments and businesses worldwide a ready-to-run, sovereign alternative to Microsoft Office and Google Docs.",
     "link": "https://www.zdnet.com/article/euro-office-a-sovereign-cloud-based-office-suite-google-microsoft-alternative/",
@@ -596,6 +616,16 @@
     "source": "securityweek.com",
     "category": "Vulnerability",
     "importance_score": 1085,
+    "also_covered_by": []
+  },
+  {
+    "title": "Typosquatted npm Packages Steal Cloud and CI/CD Secrets From Developer Systems",
+    "summary": "<p>A new wave of malicious software packages has been caught stealing cloud credentials and CI/CD pipeline secrets from developer machines, raising fresh alarms about the security of the open-source software supply chain. The attack, uncovered on May 28, 2026, shows just how easy it has become for bad actors to slip dangerous code into the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/typosquatted-npm-packages-steal-cloud-and-ci-cd-secrets/\">Typosquatted npm Packages Steal Cloud and CI/CD Secrets From Developer Systems</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/typosquatted-npm-packages-steal-cloud-and-ci-cd-secrets/",
+    "published": "2026-05-29T14:23:05",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 1058,
     "also_covered_by": []
   },
   {
@@ -669,6 +699,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Anthropic launches Claude Opus 4.8, prepares Mythos-class models for all customers",
+    "summary": "<p>Anthropic has released Claude Opus 4.8 and outlined plans for broader access to its Mythos-class models, which the company expects to make available to all customers in the coming weeks. Claude Opus 4.8 (Source: Anthropic) Claude Opus 4.8 is available to all users, with pricing unchanged from Opus 4.7. Anthropic highlighted improvements in model honesty, noting that Opus 4.8 is more likely to acknowledge when it lacks sufficient information and less likely to make unsupported &#8230; <a href=\"https://www.helpnetsecurity.com/2026/05/29/anthropic-claude-opus-4-8/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/05/29/anthropic-claude-opus-4-8/\">Anthropic launches Claude Opus 4.8, prepares Mythos-class models for all customers</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "link": "https://www.helpnetsecurity.com/2026/05/29/anthropic-claude-opus-4-8/",
+    "published": "2026-05-29T07:36:14",
+    "source": "helpnetsecurity.com",
+    "category": "Vulnerability",
+    "importance_score": 950,
+    "also_covered_by": []
+  },
+  {
     "title": "Open-source security is a mess - IBM and Red Hat bet $5 billion and 20,000 engineers can fix it",
     "summary": "Project Lightwell is an AI‑powered initiative to find and fix vulnerabilities in open-source software at an industrial scale. Here's what we know so far.",
     "link": "https://www.zdnet.com/article/open-source-security-is-a-mess-ibm-and-red-hat-bet-5-billion-to-fix-it/",
@@ -676,6 +716,16 @@
     "source": "zdnet.com",
     "category": "Vulnerability",
     "importance_score": 938,
+    "also_covered_by": []
+  },
+  {
+    "title": "Malicious NuGet Package Disguised as Sicoob SDK Exfiltrates Banking Passwords",
+    "summary": "<p>A newly discovered malicious NuGet package disguised as a legitimate Sicoob software development kit (SDK) has been caught exfiltrating sensitive banking credentials, highlighting a dangerous evolution in software supply chain attacks. Security researchers from Socket revealed that the package, published under the name “Sicoob.Sdk,” impersonates official developer tooling used for integrating with Brazil’s Sicoob banking [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/malicious-nuget-package-exfiltrates-banking-passwords/\">Malicious NuGet Package Disguised as Sicoob SDK Exfiltrates Banking Passwords</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/malicious-nuget-package-exfiltrates-banking-passwords/",
+    "published": "2026-05-29T11:15:35",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 937,
     "also_covered_by": []
   },
   {
@@ -709,6 +759,36 @@
     "also_covered_by": []
   },
   {
+    "title": "Typosquatted npm Packages Steal Cloud and CI/CD Secrets",
+    "summary": "<p>A coordinated npm supply chain attack has been uncovered targeting developers working with OpenSearch, ElasticSearch, and DevOps tooling, with attackers actively stealing cloud credentials and CI/CD secrets from infected systems. The malicious packages imitate legitimate libraries by using lookalike names such as opensearch-setup and elastic-opensearch-helper, while falsely linking to the official OpenSearch GitHub repository in [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/typosquatted-npm-packages/\">Typosquatted npm Packages Steal Cloud and CI/CD Secrets</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/typosquatted-npm-packages/",
+    "published": "2026-05-29T10:07:54",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 927,
+    "also_covered_by": []
+  },
+  {
+    "title": "Ransomware Abuses SYSTEM Task to Encrypt Drives with Elevated Privileges",
+    "summary": "<p>A newly analyzed ransomware strain, “The Gentlemen,” is raising concern among security researchers due to its ability to combine strong encryption with aggressive lateral movement. What makes this threat particularly dangerous is its use of SYSTEM-level scheduled tasks to encrypt local drives, allowing attackers to operate with the highest Windows systems privileges. This technique ensures [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ransomware-abuses-system-task/\">Ransomware Abuses SYSTEM Task to Encrypt Drives with Elevated Privileges</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/ransomware-abuses-system-task/",
+    "published": "2026-05-29T13:27:53",
+    "source": "gbhackers.com",
+    "category": "Ransomware",
+    "importance_score": 922,
+    "also_covered_by": []
+  },
+  {
+    "title": "Ransomware Uses SYSTEM Scheduled Task to Encrypt Local Drives With Elevated Privileges",
+    "summary": "<p>A newly analyzed ransomware strain called The Gentlemen is raising serious alarms across the cybersecurity community. Built in the Go programming language and obfuscated with a tool called Garble, it combines powerful per-file encryption with an aggressive ability to spread itself silently across entire networks without any human intervention. Organizations in education, healthcare, transportation, and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ransomware-uses-system-scheduled-task/\">Ransomware Uses SYSTEM Scheduled Task to Encrypt Local Drives With Elevated Privileges</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/ransomware-uses-system-scheduled-task/",
+    "published": "2026-05-29T15:59:05",
+    "source": "cybersecuritynews.com",
+    "category": "Ransomware",
+    "importance_score": 922,
+    "also_covered_by": []
+  },
+  {
     "title": "Chinese Threat Actors Ditch Static Phishing Pages for Live Credential Interception",
     "summary": "Almost all organizations impersonated by Chinese phishing platforms are non-Chinese entities, suggesting operators deliberately avoid domestic targets",
     "link": "https://www.infosecurity-magazine.com/news/chinese-phishing-live-credential/",
@@ -716,6 +796,26 @@
     "source": "infosecurity-magazine.com",
     "category": "Vulnerability",
     "importance_score": 887,
+    "also_covered_by": []
+  },
+  {
+    "title": "Google Chrome’s DBSC Now Generally Available to Prevent Account Takeovers",
+    "summary": "<p>Google has officially made Device Bound Session Credentials (DBSC) generally available for the Chrome browser on Windows. This architectural upgrade delivers a robust defense mechanism against one of the most pervasive threats in the modern cybersecurity landscape: session cookie theft and token exfiltration. Previously restricted to beta testing for Google Workspace environments, DBSC is now [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/google-chromes-dbsc/\">Google Chrome&#8217;s DBSC Now Generally Available to Prevent Account Takeovers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/google-chromes-dbsc/",
+    "published": "2026-05-30T06:41:18",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 872,
+    "also_covered_by": []
+  },
+  {
+    "title": "Google Chrome’s Device-Bound Session Credentials Now GA to Block Account Takeovers",
+    "summary": "<p>Google has officially moved Device Bound Session Credentials (DBSC) to general availability in the Chrome browser on Windows, delivering a powerful defense against one of the most persistent threats in modern cybersecurity session cookie theft. Previously available in beta for Google Workspace users, DBSC is now enabled by default across all Workspace customers, Individual subscribers, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/chromes-device-bound-session-credentials/\">Google Chrome&#8217;s Device-Bound Session Credentials Now GA to Block Account Takeovers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/chromes-device-bound-session-credentials/",
+    "published": "2026-05-30T03:57:59",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 869,
     "also_covered_by": []
   },
   {
@@ -869,6 +969,36 @@
     "also_covered_by": []
   },
   {
+    "title": "SideCopy Deploys Persistent XenoRAT Against Afghanistan Finance Ministry",
+    "summary": "<p>Pakistan-linked threat actor SideCopy has launched a highly targeted spear-phishing campaign against Afghanistan’s Ministry of Finance (MoF). The operation surgically targets all 34 provincial revenue directorates, operating under the broader Transparent Tribe (APT36) umbrella. According to threat intelligence reports from Seqrite, the campaign culminates in the deployment of a customized XenoRAT 1.8.7 implant that beacons [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/sidecopy-deploys-persistent-xenorat/\">SideCopy Deploys Persistent XenoRAT Against Afghanistan Finance Ministry</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/sidecopy-deploys-persistent-xenorat/",
+    "published": "2026-05-30T06:22:15",
+    "source": "gbhackers.com",
+    "category": "Phishing / Scams",
+    "importance_score": 732,
+    "also_covered_by": []
+  },
+  {
+    "title": "JINX-0164 Uses LinkedIn Lures to Deploy Custom macOS Malware",
+    "summary": "<p>A newly identified threat actor tracked as JINX-0164 is targeting cryptocurrency organizations through sophisticated LinkedIn-based social engineering campaigns. The financially motivated group has been active since at least mid-2025. It is leveraging custom macOS malware, credential theft, and CI/CD pipeline abuse to infiltrate development environments and steal sensitive assets. These profiles appeared highly credible, often [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/jinx-0164-uses-linkedin-lures/\">JINX-0164 Uses LinkedIn Lures to Deploy Custom macOS Malware</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/jinx-0164-uses-linkedin-lures/",
+    "published": "2026-05-29T12:22:38",
+    "source": "gbhackers.com",
+    "category": "Phishing / Scams",
+    "importance_score": 729,
+    "also_covered_by": []
+  },
+  {
+    "title": "JINX-0164 Threat Actor Using LinkedIn Social Engineering to Deploy Custom macOS Malware",
+    "summary": "<p>A new threat actor tracked as JINX-0164 has been running calculated attacks against cryptocurrency organizations, using LinkedIn profiles to lure developers into downloading custom macOS malware. Active since at least mid-2025, the group has combined social engineering, credential theft, and supply chain sabotage into a seamless operation that puts the entire software development pipeline at [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/jinx-0164-threat-actor-using-linkedin-social-engineering/\">JINX-0164 Threat Actor Using LinkedIn Social Engineering to Deploy Custom macOS Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/jinx-0164-threat-actor-using-linkedin-social-engineering/",
+    "published": "2026-05-29T15:45:11",
+    "source": "cybersecuritynews.com",
+    "category": "Phishing / Scams",
+    "importance_score": 725,
+    "also_covered_by": []
+  },
+  {
     "title": "ChatGPhish Vulnerability Turns ChatGPT Web Summaries Into a Phishing Surface",
     "summary": "Cybersecurity researchers have disclosed details of a vulnerability in OpenAI ChatGPT that leverages the artificial intelligence (AI) assistant's implicit trust in Markdown links and images to trigger prompt injections and open the door to phishing attacks.\n\nThe technique has been codenamed ChatGPhish by Permiso Security.\n\n\"The chatgpt.com response renderer trusts Markdown links and Markdown",
     "link": "https://thehackernews.com/2026/05/chatgphish-vulnerability-turns-chatgpt.html",
@@ -1011,6 +1141,16 @@
     "also_covered_by": []
   },
   {
+    "title": "GREYVIBE Threat Actors Use ChatGPT and Google Gemini to Scale Cyberattack Operations",
+    "summary": "<p>Threat actors are increasingly turning to generative AI tools such as ChatGPT and Google Gemini to accelerate cyberattack operations, lowering technical barriers and reshaping modern threat landscapes. A recent report by WithSecure highlights a Russia-linked threat group, tracked as GREYVIBE, that has systematically integrated large language models (LLMs) into its campaigns targeting Ukraine and related [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/threat-actors-use-chatgpt-and-google-gemini-to-scale-cyberattack-operations/\">GREYVIBE Threat Actors Use ChatGPT and Google Gemini to Scale Cyberattack Operations</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/threat-actors-use-chatgpt-and-google-gemini-to-scale-cyberattack-operations/",
+    "published": "2026-05-29T11:46:48",
+    "source": "gbhackers.com",
+    "category": "AI & Security",
+    "importance_score": 640,
+    "also_covered_by": []
+  },
+  {
     "title": "State of ransomware in 2026",
     "summary": "Kaspersky researchers are sharing insights into the main ransomware trends for 2026: EDR killers on the rise, switching from data encryption to data leaks, and more.",
     "link": "https://securelist.com/state-of-ransomware-in-2026/119761/",
@@ -1068,6 +1208,26 @@
     "source": "microsoft.com",
     "category": "Other",
     "importance_score": 627,
+    "also_covered_by": []
+  },
+  {
+    "title": "Trusted Dev Tools Abused to Steal Code and Secrets",
+    "summary": "<p>Attackers are increasingly weaponizing trusted developer tools to infiltrate software supply chains, with CISA warning of multiple ongoing campaigns targeting CI/CD ecosystems and developer workflows. Recent incidents, including a compromised Visual Studio Code extension and a large-scale operation dubbed “Megalodon,” highlight how adversaries are exploiting the very tools designed to accelerate modern software development. One [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/trusted-dev-tools-abused/\">Trusted Dev Tools Abused to Steal Code and Secrets</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/trusted-dev-tools-abused/",
+    "published": "2026-05-29T10:58:47",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 625,
+    "also_covered_by": []
+  },
+  {
+    "title": "GREYVIBE Hackers Leverage ChatGPT and Google Gemini to Fuel Cyberattacks",
+    "summary": "<p>GREYVIBE hackers are increasingly leveraging generative AI tools such as ChatGPT and Google Gemini to enhance cyberattack operations. The campaign, active since at least August 2025, primarily targets Ukraine and related entities across the government, military, and civilian sectors, highlighting a growing convergence between artificial intelligence and modern cyber warfare. WithSecure researchers identified GREYVIBE as [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/greyvibe-hackers-chatgpt-and-google-gemini/\">GREYVIBE Hackers Leverage ChatGPT and Google Gemini to Fuel Cyberattacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/greyvibe-hackers-chatgpt-and-google-gemini/",
+    "published": "2026-05-30T03:37:31",
+    "source": "cybersecuritynews.com",
+    "category": "AI & Security",
+    "importance_score": 625,
     "also_covered_by": []
   },
   {
@@ -1291,6 +1451,16 @@
     "also_covered_by": []
   },
   {
+    "title": "GitLab Patches Multiple Duo AI, DoS, and Authorisation Vulnerabilities",
+    "summary": "<p>GitLab has released patch versions 19.0.1, 18.11.4, and 18.10.7 to fix seven security issues affecting GitLab CE and EE, including Duo AI workflow runner access control, a Wiki denial-of-service flaw, and several authorization bugs across GraphQL, Duo Workflows, Operations, Pipelines, and authentication endpoints. The company says self-managed installations should upgrade immediately. At the same time, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/gitlab-patches-multiple-vulnerabilities-3/\">GitLab Patches Multiple Duo AI, DoS, and Authorisation Vulnerabilities</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/gitlab-patches-multiple-vulnerabilities-3/",
+    "published": "2026-05-29T09:42:12",
+    "source": "gbhackers.com",
+    "category": "Policy / Law",
+    "importance_score": 478,
+    "also_covered_by": []
+  },
+  {
     "title": "Ransomware Attacks are on the Rise",
     "summary": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
     "link": "https://threatpost.com/ransomware-attacks-are-on-the-rise/180481/",
@@ -1308,6 +1478,26 @@
     "source": "recordedfuture.com",
     "category": "Ransomware",
     "importance_score": 475,
+    "also_covered_by": []
+  },
+  {
+    "title": "Malicious NuGet Package as Sicoob SDK Exfiltrates Banking Passwords",
+    "summary": "<p>A newly discovered malicious NuGet package masquerading as an official Sicoob software development kit (SDK) has been caught exfiltrating highly sensitive banking credentials, raising serious concerns about software supply chain security in financial ecosystems. The package, published under the name “Sicoob. Sdk,” targeted developers building integrations with Brazil’s Sicoob banking APIs and silently harvested authentication [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/malicious-nuget-sicoob-sdk/\">Malicious NuGet Package as Sicoob SDK Exfiltrates Banking Passwords</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/malicious-nuget-sicoob-sdk/",
+    "published": "2026-05-29T14:37:23",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 471,
+    "also_covered_by": []
+  },
+  {
+    "title": "Post-quantum cryptography is not the future. It is your current reality.",
+    "summary": "<p>For most of the last decade, post-quantum cryptography lived in a particular kind of conversation. It came up at security conferences. It appeared in NIST press releases. CISOs nodded politely when it surfaced in briefings, filed it under &#8220;things to deal with eventually,&#8221; and moved on to the quarter&#8217;s actual fires.&#160; That conversation is over. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/post-quantum-cryptography-is-not-the-future-it-is-your-current-reality/\">Post-quantum cryptography is not the future. It is your current reality.  </a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/post-quantum-cryptography-is-not-the-future-it-is-your-current-reality/",
+    "published": "2026-05-29T16:04:38",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 468,
     "also_covered_by": []
   },
   {
@@ -1338,6 +1528,16 @@
     "source": "blog.talosintelligence.com",
     "category": "AI & Security",
     "importance_score": 449,
+    "also_covered_by": []
+  },
+  {
+    "title": "From 200 CVEs to Actionable Fixes – DockSec Brings AI to Container Security",
+    "summary": "<p>Ask any developer who has run a container image scan what happens next, and you will hear the same story. The scanner returns 200 CVEs. Most are noise. A handful are real. The report gets closed, the image ships, and the vulnerabilities go with it. That gap between finding a problem and fixing it is [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/docksec-ai-container-security/\">From 200 CVEs to Actionable Fixes &#8211; DockSec Brings AI to Container Security</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/docksec-ai-container-security/",
+    "published": "2026-05-29T14:50:02",
+    "source": "cybersecuritynews.com",
+    "category": "AI & Security",
+    "importance_score": 443,
     "also_covered_by": []
   },
   {
