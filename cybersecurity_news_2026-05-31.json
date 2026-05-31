@@ -319,6 +319,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Attackers Abuse Trusted Developer Tooling to Exfiltrate Source Code and Secrets",
+    "summary": "<p>A wave of sophisticated supply chain attacks has put millions of software developers on high alert, with threat actors turning everyday developer tools into weapons for stealing credentials, cloud tokens, and source code. What makes these campaigns especially alarming is how they exploit the very systems developers trust most: their editors, automated pipelines, and version [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/attackers-abuse-trusted-developer-tooling/\">Attackers Abuse Trusted Developer Tooling to Exfiltrate Source Code and Secrets</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/attackers-abuse-trusted-developer-tooling/",
+    "published": "2026-05-29T15:34:24",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 1364,
+    "also_covered_by": []
+  },
+  {
     "title": "Why AI-Native Cybersecurity Matters in the Age of Machine-Speed Threats",
     "summary": "<p><img alt=\"AI-Native Cybersecurity\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"929\" src=\"https://thecyberexpress.com/wp-content/uploads/AI-Native-Cybersecurity.webp\" title=\"Why AI-Native Cybersecurity Matters in the Age of Machine-Speed Threats 15\" width=\"1693\" /></p><span style=\"color: #ff0000;\"><strong><em>By <a href=\"https://www.linkedin.com/in/sharat-sinha/\" rel=\"nofollow noopener\" target=\"_blank\">Sharat Sinha</a>, CEO, Airtel Business</em></strong></span>\n\nThe world has entered an era where more than 20 billion connected devices generate continuous digital exhaust. In this hyperconnected environment, AI-native cybersecurity is emerging as a critical foundation for protecting digital ecosystems. Every transaction, sensor read, API call and remote login now feeds a vast digital nervous system supporting economies, governments and critical infrastructure.\n\nAs adversaries weaponize automation and AI to scale reconnaissance and exploitation, the <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-a-cyber-attack/\" title=\"cyberattack\">cyberattack</a> surface has expanded faster than traditional defenses can adapt.\n\nTo safeguard national and enterprise resilience, <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/\" title=\"security\">security</a> must evolve from fragmented, reactive controls to an AI-powered, human-led, always-on model delivered through a unified security platform.\n<h2>Why Traditional Security Models Are Failing</h2>\nTraditional architectures were designed for static networks and stable perimeters. They were never built for cloud-native workloads, edge computing, distributed workforces or API-centric digital ecosystems.\n\nThreat actors, however, now operate at machine speed—using AI to craft hyper-targeted phishing, escalate privileges autonomously and <a class=\"wpil_keyword_link\" href=\"https://cyble.com/exploit/\" rel=\"noopener\" target=\"_blank\" title=\"exploit\">exploit</a> misconfigurations in minutes. Meanwhile, breach discovery in many organizations still spans months.\n\nThis widening gap between attacker speed and defender response highlights the need for continuous, intelligence-driven protection across network, identity, cloud and <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-data/\" title=\"data\">data</a> layers.\n<h2>AI-Native Cybersecurity Is Transforming Threat Detection</h2>\nWithin this shift, AI is emerging as a force multiplier—not a replacement—for human expertise. AI-driven analytics reduce false positives by up to 60%, correlate billions of signals across hybrid environments and detect weak anomalies invisible to manual analysis. Predictive models identify the <a href=\"https://thecyberexpress.com/cisa-kev-catalog-vulnerabilities/\" rel=\"noopener\" target=\"_blank\">vulnerabilities</a> most likely to be weaponized, shrinking patch backlogs and strengthening overall resilience.\n\nBehavioral algorithms reinforce identity security by spotting subtle deviations that precede credential compromise. Even configuration hygiene improves as AI continuously validates cloud and network settings, eliminating exposures before they become incidents.\n<h2>Unified Security Platforms Are Becoming the New Standard</h2>\nAI is also enabling entirely new security capabilities. AI assistants for security leaders can summarize incidents, explain posture drift and produce board-ready insights in seconds. Autonomous <a class=\"wpil_keyword_link\" href=\"https://cyble.com/knowledge-hub/what-is-soc/\" rel=\"noopener\" target=\"_blank\" title=\"SOC\">SOC</a> workflows now triage, enrich and contain threats across identity, endpoint and cloud layers. DevOps and cloud engineering teams use AI copilots to enforce guardrails and detect compliance drift—addressing misconfiguration <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-are-risks-in-cybersecurity/\" title=\"risks\">risks</a> that consistently rank among the top causes of breaches worldwide.\n\nThese advancements reflect a broader global shift toward unified, AI-first <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-cybersecurity/\" title=\"cybersecurity\">cybersecurity</a> platforms, where intelligence becomes the connective fabric linking telemetry from identity, network, cloud and data. Rather than operating dozens of siloed tools, organizations gain a single operating layer where detection, decision-making and response flow seamlessly. This consolidation accelerates containment, eliminates blind spots and frees security teams to focus on high-impact decisions.\n\nAI also strengthens data protection and regulatory alignment, including emerging requirements under India’s DPDP Act. Automated data classification, policy violation monitoring, retention enforcement and real-time breach alerts shift <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-privacy/\" title=\"privacy\">privacy</a> oversight from periodic checks to continuous assurance. As India’s digital economy scales—driven by cloud adoption, fintech innovation and public digital infrastructure—AI-driven governance ensures both compliance and protection without increasing operational burden.\n<h2>The Future of Cyber Resilience Will Be AI-Driven</h2>\nThe global direction is clear: AI-first, human-centered unified platforms are becoming the foundation of modern <a href=\"https://thecyberexpress.com/cyber-resilience-in-healthcare/\" rel=\"noopener\" target=\"_blank\">cyber resilience</a>. With <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/cyber-news/\" title=\"cyber\">cyber</a> incidents costing organizations millions of dollars and often causing systemic ripple effects, intelligent consolidation is no longer an efficiency strategy—it is a national and enterprise resilience strategy.\n\nLooking ahead, <a class=\"wpil_keyword_link\" href=\"https://cyble.com/knowledge-hub/what-is-cybersecurity/\" rel=\"noopener\" target=\"_blank\" title=\"cybersecurity\">cybersecurity</a> will be defined by how effectively organizations integrate AI across the entire lifecycle—posture management, threat prediction, protection, governance and automated response—while empowering human judgment at every critical decision point.\n\nIn a world where threats operate at machine speed, always-on, AI-powered end-to-end protection is becoming the new standard. Organizations that embrace unified, AI-driven architectures will be best positioned to safeguard their people, data and services with confidence in an increasingly unpredictable digital landscape.",
     "link": "https://thecyberexpress.com/why-ai-native-cybersecurity-matters/",
@@ -539,6 +549,36 @@
     "also_covered_by": []
   },
   {
+    "title": "Palo Alto PAN-OS Authentication Bypass Vulnerability Actively Exploited in the Wild",
+    "summary": "<p>A critical authentication-bypass vulnerability affecting Palo Alto Networks PAN-OS and Prisma Access is being actively exploited by malicious actors. In response to mounting attacks, the Cybersecurity and Infrastructure Security Agency (CISA) added CVE-2026-0257 to its Known Exploited Vulnerabilities (KEV) catalog on May 29, 2026. While the flaw carries a medium CVSSv4 score, security researchers at [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/palo-alto-pan-os-authentication-bypass/\">Palo Alto PAN-OS Authentication Bypass Vulnerability Actively Exploited in the Wild</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/palo-alto-pan-os-authentication-bypass/",
+    "published": "2026-05-30T06:57:21",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 1080,
+    "also_covered_by": []
+  },
+  {
+    "title": "Palo Alto Networks PAN-OS Authentication Vulnerability Bypass Exploited in the Wild",
+    "summary": "<p>Palo Alto Networks authentication bypass vulnerability, CVE-2026-0257, affecting PAN-OS and Prisma Access, is now being actively exploited in the wild, with CISA adding it to the Known Exploited Vulnerabilities (KEV) catalog on May 29, 2026. Palo Alto Networks published its security advisory on May 13, 2026, warning that CVE-2026-0257 enables a remote unauthenticated attacker to [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/palo-alto-vulnerability-exploited/\">Palo Alto Networks PAN-OS Authentication Vulnerability Bypass Exploited in the Wild</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/palo-alto-vulnerability-exploited/",
+    "published": "2026-05-30T02:45:22",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 1065,
+    "also_covered_by": []
+  },
+  {
+    "title": "Pentest Swarm AI Tool With Live Access to nmap, sqlmap, Burp, Metasploit, and Others",
+    "summary": "<p>Pentest Swarm AI is the first open-source autonomous penetration testing platform built on a swarm intelligence architecture, not just multiple agents firing in a fixed sequence. Developed by Armur AI, it gives security professionals live, coordinated access to the full offensive stack, including nmap, SQLMap, Burp Suite, ZAP, and Metasploit, all driven by an AI [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/pentest-swarm-ai-tool/\">Pentest Swarm AI Tool With Live Access to nmap, sqlmap, Burp, Metasploit, and Others</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/pentest-swarm-ai-tool/",
+    "published": "2026-05-30T12:00:55",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 1058,
+    "also_covered_by": []
+  },
+  {
     "title": "Protecting Cookies with Device Bound Session Credentials",
     "summary": "<span class=\"byline-author\">Posted by Ben Ackerman, Chrome team,  Daniel Rubery, Chrome team and Guillaume Ehinger, Google Account Security team</span>\n\n<p>\nFollowing our April 2024 <a href=\"https://blog.chromium.org/2024/04/fighting-cookie-theft-using-device.html\">announcement</a>, Device Bound Session Credentials (DBSC) is now entering public availability for Windows users on Chrome 146, and expanding to macOS in an upcoming Chrome release. This project represents a significant step forward in our ongoing efforts to combat session theft, which remains a prevalent threat in the modern security landscape.\n</p>\n<p>\nSession theft typically occurs when a user inadvertently downloads malware onto their device. Once active, the malware can silently extract existing session cookies from the browser or wait for the user to log in to new accounts, before exfiltrating these tokens to an attacker-controlled server. Infostealer malware families, such as LummaC2, have become increasingly sophisticated at harvesting these credentials. Because cookies often have extended lifetimes, attackers can use them to gain unauthorized access to a user’s accounts without ever needing their passwords; this access is then often bundled, traded, or sold among threat actors.\n</p>\n<p>\nCrucially, once sophisticated malware has gained access to a machine, it can read the local files and memory where browsers store authentication cookies. As a result, there is no reliable way to prevent cookie exfiltration using software alone on any operating system. Historically, mitigating session theft relied on detecting the stolen credentials after the fact using a complex set of abuse heuristics – a reactive approach that persistent attackers could often circumvent. DBSC fundamentally changes the web's capability to defend against this threat by shifting the paradigm from reactive detection to proactive prevention, ensuring that successfully exfiltrated cookies cannot be used to access users’ accounts.\n</p>\n<h3>How DBSC Works</h3>\n\n\n<p>\nDBSC protects against session theft by cryptographically binding authentication sessions to a specific device. It does this using hardware-backed security modules, such as the Trusted Platform Module (TPM) on Windows and the Secure Enclave on macOS, to generate a unique public/private key pair that cannot be exported from the machine. The issuance of new short-lived session cookies is contingent upon Chrome proving possession of the corresponding private key to the server. Because attackers cannot steal this key, any exfiltrated cookies quickly expire and become useless to those attackers. This design allows large and small websites to upgrade to secure, hardware-bound sessions by adding dedicated registration and refresh endpoints to their backends, while maintaining complete compatibility with their existing front-end. The browser handles the complex cryptography and cookie rotation in the background, allowing the web app to continue using standard cookies for access just as it always has. \n</p>\n<p>\nGoogle rolled out an early version of this protocol over the last year. For sessions protected by DBSC, we have observed a significant reduction in session theft since its launch.\n</p>\n<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjk4eZvzfBqPL0Xf1ckUo7l58eyeZKSzIelxjLOiOE_XHYNZc-qdx24Sv9n3tgRgc2xOzKZvcHsCksprOlxwd-gIRQaLPsOu2jjuCV4e6G1_ImsXhQeOean1CWndOiQuikT94gbvZLlWfktpCBRtxh9dJkxjpfvradSkzWD1Wqxohg9TJUdyC1kC88y6Abu/s1600/Screenshot%202026-04-09%20at%2010.11.22%E2%80%AFAM.png\" style=\"display: block; padding: 1em 0; text-align: center;\"><img alt=\"\" border=\"0\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjk4eZvzfBqPL0Xf1ckUo7l58eyeZKSzIelxjLOiOE_XHYNZc-qdx24Sv9n3tgRgc2xOzKZvcHsCksprOlxwd-gIRQaLPsOu2jjuCV4e6G1_ImsXhQeOean1CWndOiQuikT94gbvZLlWfktpCBRtxh9dJkxjpfvradSkzWD1Wqxohg9TJUdyC1kC88y6Abu/s1600/Screenshot%202026-04-09%20at%2010.11.22%E2%80%AFAM.png\" /></a></div>\n<p style=\"text-align: center;\">\n<em>An overview of the DBSC protocol showing the interaction between the browser and server.</em>\n</p>\n<h3>Private by design</h3>\n\n\n<p>\nA core tenet of the DBSC architecture is the preservation of user privacy. Each session is backed by a distinct key, preventing websites from using these credentials to correlate a user's activity across different sessions or sites on the same device. Furthermore, the protocol is designed to be lean: it does not leak device identifiers or attestation data to the server beyond the per-session public key required to certify proof of possession. This minimal information exchange ensures DBSC helps secure sessions without enabling cross-site tracking or acting as a device fingerprinting mechanism.\n</p>\n<h3>Engagement with the ecosystem</h3>\n\n\n<p>\nDBSC was designed from the beginning to be an open web standard through the W3C process and adoption by the Web Application Security Working Group. Through this process we partnered with Microsoft to design the standard to ensure it works for the web and got input from many in the industry that are responsible for web security.\n</p>\n<p>\nAdditionally, over the past year, we have also conducted two Origin Trials to ensure DBSC effectively serves the requirements of the broader web community. Many web platforms, including Okta, actively participated in these trials and their own testing and provided essential feedback to ensure the protocol effectively addresses their diverse needs.\n</p>\n<p>\nIf you are a web developer and are looking for a way to secure your users against session theft, refer to our <a href=\"https://developer.chrome.com/docs/web-platform/device-bound-session-credentials\">developer guide</a> for implementation details. Additionally, all the details about DBSC can be found on the <a href=\"https://w3c.github.io/webappsec-dbsc/\">spec</a> and the corresponding <a href=\"https://github.com/w3c/webappsec-dbsc\">github</a>. Feel free to use the <a href=\"https://github.com/w3c/webappsec-dbsc/issues\">issues</a> page to report bugs or provide feature requests.\n</p>\n<h3>Future improvements</h3>\n\n\n<p>\nAs we continue to evolve the DBSC standard, future iterations will focus on increasing support across diverse ecosystems and introducing advanced capabilities tailored for complex enterprise environments. Key areas of ongoing development include:\n</p>\n<ul>\n\n<li><strong>Securing Federated Identity: </strong>In modern enterprise environments, Single Sign-On (SSO) is ubiquitous. We are expanding the DBSC protocol to support cross-origin bindings, ensuring that a relying party (RP) session remains continuously bound to the same original device key used by the Identity Provider (IdP). This guarantees that the high-assurance security of the initial device binding is maintained throughout the entire federated login process, creating an unbroken chain of trust.</li>\n\n<li><strong>Advanced Registration Capabilities:</strong> While DBSC provides robust protection for established cookies, some environments require an even stronger foundation when the session is first created. We are developing mechanisms to bind DBSC sessions to pre-existing, trusted key material rather than generating a new key at sign-in. This advanced capability enables websites to integrate complementary technologies, such as mTLS certificates or hardware security keys, creating a highly secure registration environment.</li>\n\n<li><strong>Broader Device Support:</strong> We are also actively exploring the potential addition of software-based keys to extend protections to devices without dedicated secure hardware.",
     "link": "http://security.googleblog.com/2026/04/protecting-cookies-with-device-bound.html",
@@ -709,6 +749,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Malicious NuGet Package Disguised as Sicoob SDK Exfiltrates Banking Passwords",
+    "summary": "<p>A newly discovered malicious NuGet package disguised as a legitimate Sicoob software development kit (SDK) has been caught exfiltrating sensitive banking credentials, highlighting a dangerous evolution in software supply chain attacks. Security researchers from Socket revealed that the package, published under the name “Sicoob.Sdk,” impersonates official developer tooling used for integrating with Brazil’s Sicoob banking [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/malicious-nuget-package-exfiltrates-banking-passwords/\">Malicious NuGet Package Disguised as Sicoob SDK Exfiltrates Banking Passwords</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/malicious-nuget-package-exfiltrates-banking-passwords/",
+    "published": "2026-05-29T11:15:35",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 787,
+    "also_covered_by": []
+  },
+  {
     "title": "Google Patches Chrome’s Fifth Zero-Day of the Year",
     "summary": "An insufficient validation input flaw, one of 11 patched in an update this week, could allow for arbitrary code execution and is under active attack.",
     "link": "https://threatpost.com/google-patches-chromes-fifth-zero-day-of-the-year/180432/",
@@ -719,6 +769,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Typosquatted npm Packages Steal Cloud and CI/CD Secrets",
+    "summary": "<p>A coordinated npm supply chain attack has been uncovered targeting developers working with OpenSearch, ElasticSearch, and DevOps tooling, with attackers actively stealing cloud credentials and CI/CD secrets from infected systems. The malicious packages imitate legitimate libraries by using lookalike names such as opensearch-setup and elastic-opensearch-helper, while falsely linking to the official OpenSearch GitHub repository in [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/typosquatted-npm-packages/\">Typosquatted npm Packages Steal Cloud and CI/CD Secrets</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/typosquatted-npm-packages/",
+    "published": "2026-05-29T10:07:54",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 777,
+    "also_covered_by": []
+  },
+  {
     "title": "Mini Shai Hulud: Compromised @antv npm packages enable CI/CD credential theft",
     "summary": "<p>Compromised @antv npm packages deploy the Mini Shai-Hulud payload to steal CI/CD secrets from Linux-based automation environments. The malware executes during npm install and targets credentials across GitHub, AWS, Kubernetes, Vault, npm, and 1Password platforms.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/05/20/mini-shai-hulud-compromised-antv-npm-packages-enable-ci-cd-credential-theft/\">Mini Shai Hulud: Compromised @antv npm packages enable CI/CD credential theft</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/05/20/mini-shai-hulud-compromised-antv-npm-packages-enable-ci-cd-credential-theft/",
@@ -726,6 +786,26 @@
     "source": "microsoft.com",
     "category": "Other",
     "importance_score": 774,
+    "also_covered_by": []
+  },
+  {
+    "title": "Ransomware Abuses SYSTEM Task to Encrypt Drives with Elevated Privileges",
+    "summary": "<p>A newly analyzed ransomware strain, “The Gentlemen,” is raising concern among security researchers due to its ability to combine strong encryption with aggressive lateral movement. What makes this threat particularly dangerous is its use of SYSTEM-level scheduled tasks to encrypt local drives, allowing attackers to operate with the highest Windows systems privileges. This technique ensures [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ransomware-abuses-system-task/\">Ransomware Abuses SYSTEM Task to Encrypt Drives with Elevated Privileges</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/ransomware-abuses-system-task/",
+    "published": "2026-05-29T13:27:53",
+    "source": "gbhackers.com",
+    "category": "Ransomware",
+    "importance_score": 772,
+    "also_covered_by": []
+  },
+  {
+    "title": "Ransomware Uses SYSTEM Scheduled Task to Encrypt Local Drives With Elevated Privileges",
+    "summary": "<p>A newly analyzed ransomware strain called The Gentlemen is raising serious alarms across the cybersecurity community. Built in the Go programming language and obfuscated with a tool called Garble, it combines powerful per-file encryption with an aggressive ability to spread itself silently across entire networks without any human intervention. Organizations in education, healthcare, transportation, and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ransomware-uses-system-scheduled-task/\">Ransomware Uses SYSTEM Scheduled Task to Encrypt Local Drives With Elevated Privileges</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/ransomware-uses-system-scheduled-task/",
+    "published": "2026-05-29T15:59:05",
+    "source": "cybersecuritynews.com",
+    "category": "Ransomware",
+    "importance_score": 772,
     "also_covered_by": []
   },
   {
@@ -776,6 +856,26 @@
     "source": "unit42.paloaltonetworks.com",
     "category": "AI & Security",
     "importance_score": 754,
+    "also_covered_by": []
+  },
+  {
+    "title": "Google Chrome’s DBSC Now Generally Available to Prevent Account Takeovers",
+    "summary": "<p>Google has officially made Device Bound Session Credentials (DBSC) generally available for the Chrome browser on Windows. This architectural upgrade delivers a robust defense mechanism against one of the most pervasive threats in the modern cybersecurity landscape: session cookie theft and token exfiltration. Previously restricted to beta testing for Google Workspace environments, DBSC is now [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/google-chromes-dbsc/\">Google Chrome&#8217;s DBSC Now Generally Available to Prevent Account Takeovers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/google-chromes-dbsc/",
+    "published": "2026-05-30T06:41:18",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 722,
+    "also_covered_by": []
+  },
+  {
+    "title": "Google Chrome’s Device-Bound Session Credentials Now GA to Block Account Takeovers",
+    "summary": "<p>Google has officially moved Device Bound Session Credentials (DBSC) to general availability in the Chrome browser on Windows, delivering a powerful defense against one of the most persistent threats in modern cybersecurity session cookie theft. Previously available in beta for Google Workspace users, DBSC is now enabled by default across all Workspace customers, Individual subscribers, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/chromes-device-bound-session-credentials/\">Google Chrome&#8217;s Device-Bound Session Credentials Now GA to Block Account Takeovers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/chromes-device-bound-session-credentials/",
+    "published": "2026-05-30T03:57:59",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 719,
     "also_covered_by": []
   },
   {
@@ -961,6 +1061,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Microsoft Releases KB5089573 for Windows 11 to Fix Patch Tuesday Install Issues",
+    "summary": "<p>Microsoft has rolled out a new cumulative update, KB5089573, for Windows 11 versions 25H2 and 24H2, targeting a critical installation failure that affected users following the May 2026 Patch Tuesday release. The update brings OS builds to 26200.8524 and 26100.8524, respectively, resolving a widely reported error that prevented many systems from completing the monthly security [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-kb5089573-windows-11/\">Microsoft Releases KB5089573 for Windows 11 to Fix Patch Tuesday Install Issues</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/microsoft-kb5089573-windows-11/",
+    "published": "2026-05-31T02:22:11",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 612,
+    "also_covered_by": []
+  },
+  {
     "title": "WP Maps Pro Vulnerability Exposed 15,000 WordPress Sites to Site Takeover",
     "summary": "<p><img alt=\"WP Maps Pro\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"696\" src=\"https://thecyberexpress.com/wp-content/uploads/WP-Maps-Pro.webp\" title=\"WP Maps Pro Vulnerability Exposed 15,000 WordPress Sites to Site Takeover 5\" width=\"1184\" /></p><span>A critical vulnerability in the WP Maps Pro WordPress plugin allowed unauthenticated attackers to create administrator accounts and potentially perform a complete site takeover on affected websites.</span><span> </span>\n\n<span>The issue impacted all WP Maps Pro versions up to 6.1.0. The plugin had more than 15,000 sales at the time the <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/firewall-daily/vulnerabilities/\" title=\"vulnerability\">vulnerability</a> was disclosed.</span><span> </span>\n\n<span>The vulnerability was submitted to the Wordfence Bug Bounty Program on March 24, 2026. <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/\" title=\"Security\">Security</a> researcher David Brown discovered and responsibly reported the flaw, earning a $1,950 bounty.</span><span> </span>\n\n<span><a href=\"https://www.wordfence.com/blog/2026/05/15000-wordpress-sites-affected-by-administrator-account-creation-vulnerability-in-wp-maps-pro-wordpress-plugin/\" rel=\"nofollow noopener\" target=\"_blank\">Wordfence stated</a> that attackers could exploit a vulnerable AJAX action to create administrator accounts without authentication.</span><span> </span>\n<h3><b><span>How the WP Maps Pro WordPress Plugin Vulnerability Worked</span></b><span> </span></h3>\n<span>The WP Maps Pro WordPress plugin included a temporary access feature designed for support staff troubleshooting. The issue existed in the </span><span>wpgmp_temp_access_ajax_callback()</span><span> function, which handled the plugin’s AJAX action.</span><span> </span>\n\n<span>The function relied on a nonce check using </span><span>fc-call-nonce</span><span>:</span><span> </span>\n<blockquote><span>function wpgmp_temp_access_ajax_callback(){</span>\n\n<span>   check_ajax_referer( 'fc-call-nonce', 'nonce' );</span>\n\n<span>   $temp_access = new WPGMP_Temp_Access();</span>\n\n<span>   $response = $temp_access-&gt;wpgmp_temp_access_support();</span>\n\n<span>   wp_send_json($response);</span>\n\n<span>   exit();</span>\n\n<span>}</span>\n<span> </span></blockquote>\n<span>Researchers found that the nonce was publicly exposed through frontend pages using </span><span>wp_localize_script</span><span>. Because the AJAX action was also registered with </span><span>wp_ajax_nopriv_</span><span>, <a href=\"https://thecyberexpress.com/cve-2026-21858-n8n-webhook-vulnerability/\" rel=\"noopener\" target=\"_blank\">unauthenticated users</a> could access the endpoint.</span>\n\n<span>The vulnerable version did not include a capability check to verify <a href=\"https://thecyberexpress.com/nova-scotia-power-data-breach-2/\" rel=\"noopener\" target=\"_blank\">administrator privileges</a>.</span><span> </span>\n<h3><b><span>Administrator Account Creation</span></b><span> </span></h3>\n<span>After triggering the AJAX action with </span><span>check_temp=false</span><span>, the plugin executed the </span><span>wpgmp_temp_access_support()</span><span> function.</span><span> </span>\n\n<span>The function created a new <a href=\"https://thecyberexpress.com/kali-forms-vulnerability-wordpress-plugin/\" rel=\"noopener\" target=\"_blank\">WordPress</a> administrator account using:</span><span> </span>\n<ul>\n \t<li><span>A randomly generated username beginning with </span><span>fc_user_</span><span> </span></li>\n \t<li><span>The hardcoded email address </span><span>support@flippercode.com</span><span> </span></li>\n \t<li><span>The administrator role</span><span> </span></li>\n</ul>\n<span>The plugin then generated a login URL tied to the new account.</span><span> </span>\n\n<span>According to the technical analysis, visiting the generated URL triggered </span><span>wp_set_auth_cookie()</span><span>, authenticating the attacker without requiring a password.</span><span> </span>\n\n<span>Wordfence stated that attackers could then:</span><span> </span>\n<ul>\n \t<li><span>Install malicious plugins</span><span> </span></li>\n \t<li><span>Modify themes</span><span> </span></li>\n \t<li><span>Inject backdoors</span><span> </span></li>\n \t<li><span>Deploy webshells</span><span> </span></li>\n \t<li><span>Steal site <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-data/\" title=\"data\">data</a></span><span> </span></li>\n</ul>\n<span>The vulnerability could result in full site takeover.</span><span> </span>\n<h3><b><span>Patch Released in Version 6.1.1</span></b><span> </span></h3>\n<span>The vendor fixed the issue by adding a capability check to the vulnerable AJAX action:</span><span> </span>\n<blockquote><span>if ( ! current_user_can( 'manage_options' ) ) {</span>\n\n<span>   wp_send_json_error( array( 'error' =&gt; 'Unauthorized' ), 403 );</span>\n\n<span>   exit();</span>\n\n<span>}</span></blockquote>\n<span> </span><span>The patch restricted the endpoint to authenticated administrators only.</span><span> </span><span>The fully patched WP Maps Pro version 6.1.1 was released on May 20, 2026.</span><span> </span>\n<h3><b><span>Wordfence Timeline</span></b><span> </span></h3>\n<ul>\n \t<li><span>March 24, 2026 — Wordfence received the vulnerability report.</span><span> </span></li>\n \t<li><span>May 16, 2026 — Researchers validated the <a class=\"wpil_keyword_link\" href=\"https://cyble.com/exploit/\" rel=\"noopener\" target=\"_blank\" title=\"exploit\">exploit</a> and escalated the issue to the Envato security team after failing to locate direct vendor contact information.</span><span> </span></li>\n \t<li><span>May 18, 2026 — Wordfence Premium, Care, and Response users received <a class=\"wpil_keyword_link\" href=\"https://cyble.com/knowledge-hub/what-is-firewall/\" rel=\"noopener\" target=\"_blank\" title=\"firewall\">firewall</a> protection.</span><span> </span></li>\n \t<li><span>May 20, 2026 — WP Maps Pro 6.1.1 was released.</span><span> </span></li>\n \t<li><span>June 17, 2026 — Free Wordfence users were scheduled to receive the same firewall protection.</span><span> </span></li>\n</ul>\n<span>Wordfence urged users to update the WordPress plugin immediately to prevent <a href=\"https://thecyberexpress.com/vulnerability-exploitation-tops-cyber-breach/\" rel=\"noopener\" target=\"_blank\">exploitation</a> and reduce the risk of site takeover.</span><span> </span>",
     "link": "https://thecyberexpress.com/wp-maps-pro-vulnerability/",
@@ -981,6 +1091,16 @@
     "also_covered_by": []
   },
   {
+    "title": "SideCopy Deploys Persistent XenoRAT Against Afghanistan Finance Ministry",
+    "summary": "<p>Pakistan-linked threat actor SideCopy has launched a highly targeted spear-phishing campaign against Afghanistan’s Ministry of Finance (MoF). The operation surgically targets all 34 provincial revenue directorates, operating under the broader Transparent Tribe (APT36) umbrella. According to threat intelligence reports from Seqrite, the campaign culminates in the deployment of a customized XenoRAT 1.8.7 implant that beacons [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/sidecopy-deploys-persistent-xenorat/\">SideCopy Deploys Persistent XenoRAT Against Afghanistan Finance Ministry</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/sidecopy-deploys-persistent-xenorat/",
+    "published": "2026-05-30T06:22:15",
+    "source": "gbhackers.com",
+    "category": "Phishing / Scams",
+    "importance_score": 582,
+    "also_covered_by": []
+  },
+  {
     "title": "Microsoft is named a Leader in the 2026 Gartner® Magic Quadrant™ for Endpoint Protection",
     "summary": "<p>Microsoft is named a Leader in the 2026 Gartner® Magic Quadrant™ for Endpoint Protection.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/05/29/microsoft-is-named-a-leader-in-the-2026-gartner-magic-quadrant-for-endpoint-protection/\">Microsoft is named a Leader in the 2026 Gartner® Magic Quadrant™ for Endpoint Protection</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/05/29/microsoft-is-named-a-leader-in-the-2026-gartner-magic-quadrant-for-endpoint-protection/",
@@ -991,6 +1111,16 @@
     "also_covered_by": []
   },
   {
+    "title": "JINX-0164 Uses LinkedIn Lures to Deploy Custom macOS Malware",
+    "summary": "<p>A newly identified threat actor tracked as JINX-0164 is targeting cryptocurrency organizations through sophisticated LinkedIn-based social engineering campaigns. The financially motivated group has been active since at least mid-2025. It is leveraging custom macOS malware, credential theft, and CI/CD pipeline abuse to infiltrate development environments and steal sensitive assets. These profiles appeared highly credible, often [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/jinx-0164-uses-linkedin-lures/\">JINX-0164 Uses LinkedIn Lures to Deploy Custom macOS Malware</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/jinx-0164-uses-linkedin-lures/",
+    "published": "2026-05-29T12:22:38",
+    "source": "gbhackers.com",
+    "category": "Phishing / Scams",
+    "importance_score": 579,
+    "also_covered_by": []
+  },
+  {
     "title": "That data breach alert might be a trap",
     "summary": "Ignoring a real breach notification invites risk, but falling for a bogus one could be even worse. Stop reacting on autopilot.",
     "link": "https://www.welivesecurity.com/en/scams/data-breach-alert-might-be-trap/",
@@ -998,6 +1128,16 @@
     "source": "welivesecurity.com",
     "category": "Data Breach",
     "importance_score": 577,
+    "also_covered_by": []
+  },
+  {
+    "title": "JINX-0164 Threat Actor Using LinkedIn Social Engineering to Deploy Custom macOS Malware",
+    "summary": "<p>A new threat actor tracked as JINX-0164 has been running calculated attacks against cryptocurrency organizations, using LinkedIn profiles to lure developers into downloading custom macOS malware. Active since at least mid-2025, the group has combined social engineering, credential theft, and supply chain sabotage into a seamless operation that puts the entire software development pipeline at [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/jinx-0164-threat-actor-using-linkedin-social-engineering/\">JINX-0164 Threat Actor Using LinkedIn Social Engineering to Deploy Custom macOS Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/jinx-0164-threat-actor-using-linkedin-social-engineering/",
+    "published": "2026-05-29T15:45:11",
+    "source": "cybersecuritynews.com",
+    "category": "Phishing / Scams",
+    "importance_score": 575,
     "also_covered_by": []
   },
   {
@@ -1107,6 +1247,16 @@
     "published": "2026-05-29T18:21:36",
     "source": "bleepingcomputer.com",
     "category": "Other",
+    "importance_score": 490,
+    "also_covered_by": []
+  },
+  {
+    "title": "GREYVIBE Threat Actors Use ChatGPT and Google Gemini to Scale Cyberattack Operations",
+    "summary": "<p>Threat actors are increasingly turning to generative AI tools such as ChatGPT and Google Gemini to accelerate cyberattack operations, lowering technical barriers and reshaping modern threat landscapes. A recent report by WithSecure highlights a Russia-linked threat group, tracked as GREYVIBE, that has systematically integrated large language models (LLMs) into its campaigns targeting Ukraine and related [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/threat-actors-use-chatgpt-and-google-gemini-to-scale-cyberattack-operations/\">GREYVIBE Threat Actors Use ChatGPT and Google Gemini to Scale Cyberattack Operations</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/threat-actors-use-chatgpt-and-google-gemini-to-scale-cyberattack-operations/",
+    "published": "2026-05-29T11:46:48",
+    "source": "gbhackers.com",
+    "category": "AI & Security",
     "importance_score": 490,
     "also_covered_by": []
   },
@@ -1221,6 +1371,26 @@
     "also_covered_by": []
   },
   {
+    "title": "Trusted Dev Tools Abused to Steal Code and Secrets",
+    "summary": "<p>Attackers are increasingly weaponizing trusted developer tools to infiltrate software supply chains, with CISA warning of multiple ongoing campaigns targeting CI/CD ecosystems and developer workflows. Recent incidents, including a compromised Visual Studio Code extension and a large-scale operation dubbed “Megalodon,” highlight how adversaries are exploiting the very tools designed to accelerate modern software development. One [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/trusted-dev-tools-abused/\">Trusted Dev Tools Abused to Steal Code and Secrets</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/trusted-dev-tools-abused/",
+    "published": "2026-05-29T10:58:47",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 475,
+    "also_covered_by": []
+  },
+  {
+    "title": "GREYVIBE Hackers Leverage ChatGPT and Google Gemini to Fuel Cyberattacks",
+    "summary": "<p>GREYVIBE hackers are increasingly leveraging generative AI tools such as ChatGPT and Google Gemini to enhance cyberattack operations. The campaign, active since at least August 2025, primarily targets Ukraine and related entities across the government, military, and civilian sectors, highlighting a growing convergence between artificial intelligence and modern cyber warfare. WithSecure researchers identified GREYVIBE as [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/greyvibe-hackers-chatgpt-and-google-gemini/\">GREYVIBE Hackers Leverage ChatGPT and Google Gemini to Fuel Cyberattacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/greyvibe-hackers-chatgpt-and-google-gemini/",
+    "published": "2026-05-30T03:37:31",
+    "source": "cybersecuritynews.com",
+    "category": "AI & Security",
+    "importance_score": 475,
+    "also_covered_by": []
+  },
+  {
     "title": "Threat Activity Enablers: The Backbone of Today’s Threat Landscape",
     "summary": "Behind every ransomware demand, botnet, or threat activity group is a server sitting in a data center.",
     "link": "https://www.recordedfuture.com/blog/threat-activity-enablers",
@@ -1228,6 +1398,16 @@
     "source": "recordedfuture.com",
     "category": "Ransomware",
     "importance_score": 475,
+    "also_covered_by": []
+  },
+  {
+    "title": "GitLab Patches Multiple Duo AI, DoS, and Authorization Flaws in Community and Enterprise Edition",
+    "summary": "<p>GitLab has released emergency security updates for both Community Edition (CE) and Enterprise Edition (EE), addressing multiple Duo AI, denial‑of‑service, and authorization flaws in recent versions of the platform. On May 27, 2026, GitLab shipped versions 19.0.1, 18.11.4, and 18.10.7 as security patch releases for self‑managed instances. These builds fix several vulnerabilities across Duo AI [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/gitlab-patches-duo-ai-dos-flaws/\">GitLab Patches Multiple Duo AI, DoS, and Authorization Flaws in Community and Enterprise Edition</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/gitlab-patches-duo-ai-dos-flaws/",
+    "published": "2026-05-30T16:28:35",
+    "source": "cybersecuritynews.com",
+    "category": "Policy / Law",
+    "importance_score": 471,
     "also_covered_by": []
   },
   {
@@ -1601,6 +1781,16 @@
     "also_covered_by": []
   },
   {
+    "title": "GitLab Patches Multiple Duo AI, DoS, and Authorisation Vulnerabilities",
+    "summary": "<p>GitLab has released patch versions 19.0.1, 18.11.4, and 18.10.7 to fix seven security issues affecting GitLab CE and EE, including Duo AI workflow runner access control, a Wiki denial-of-service flaw, and several authorization bugs across GraphQL, Duo Workflows, Operations, Pipelines, and authentication endpoints. The company says self-managed installations should upgrade immediately. At the same time, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/gitlab-patches-multiple-vulnerabilities-3/\">GitLab Patches Multiple Duo AI, DoS, and Authorisation Vulnerabilities</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/gitlab-patches-multiple-vulnerabilities-3/",
+    "published": "2026-05-29T09:42:12",
+    "source": "gbhackers.com",
+    "category": "Policy / Law",
+    "importance_score": 328,
+    "also_covered_by": []
+  },
+  {
     "title": "Microsoft Defender vulnerabilities are being exploited in the wild",
     "summary": "CISA added seven known exploited vulnerabilities to its KEV catalog, including two Microsoft Defender flaws.",
     "link": "https://www.malwarebytes.com/blog/bugs/2026/05/microsoft-defender-vulnerabilities-are-being-exploited-in-the-wild",
@@ -1618,6 +1808,16 @@
     "source": "krebsonsecurity.com",
     "category": "Data Breach",
     "importance_score": 321,
+    "also_covered_by": []
+  },
+  {
+    "title": "Post-quantum cryptography is not the future. It is your current reality.",
+    "summary": "<p>For most of the last decade, post-quantum cryptography lived in a particular kind of conversation. It came up at security conferences. It appeared in NIST press releases. CISOs nodded politely when it surfaced in briefings, filed it under &#8220;things to deal with eventually,&#8221; and moved on to the quarter&#8217;s actual fires.&#160; That conversation is over. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/post-quantum-cryptography-is-not-the-future-it-is-your-current-reality/\">Post-quantum cryptography is not the future. It is your current reality.  </a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/post-quantum-cryptography-is-not-the-future-it-is-your-current-reality/",
+    "published": "2026-05-29T16:04:38",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 318,
     "also_covered_by": []
   },
   {
