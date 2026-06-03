@@ -437,6 +437,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Google adds a silent check to catch scammers posing as your contacts",
+    "summary": "<p>Android is introducing fake call detection to help protect users from impersonation scams. The feature can detect and flag suspected spoofed calls when both parties use Phone by Google on Android 12 or later. It will roll out globally this month, starting with Pixel devices. Story of two calls from &#8220;Mom&#8221; (Source: Google) “Fake call detection helps protect you, your family and friends by identifying when a caller isn’t who they claim to be, giving &#8230; <a href=\"https://www.helpnetsecurity.com/2026/06/03/android-fake-call-detection-feature/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/06/03/android-fake-call-detection-feature/\">Google adds a silent check to catch scammers posing as your contacts</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "link": "https://www.helpnetsecurity.com/2026/06/03/android-fake-call-detection-feature/",
+    "published": "2026-06-03T08:37:23",
+    "source": "helpnetsecurity.com",
+    "category": "Vulnerability",
+    "importance_score": 1250,
+    "also_covered_by": []
+  },
+  {
     "title": "CISA flags two-year-old Oracle flaw as actively exploited in attacks",
     "summary": "CISA has ordered government agencies to secure their systems against a high-severity Oracle WebLogic Server vulnerability that was patched two years ago and is now actively exploited in attacks. [...]",
     "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-oracle-weblogic-flaw/",
@@ -454,6 +464,26 @@
     "source": "thehackernews.com",
     "category": "Vulnerability",
     "importance_score": 1206,
+    "also_covered_by": []
+  },
+  {
+    "title": "A small Slovenian team handles 6,000 cyber incidents a year",
+    "summary": "<p>Online fraud complaints, ransomware cases, and phishing tips reach Slovenia&#8217;s national cyber response center in steady volume, and a team of around a dozen analysts sorts through them. Gorazd Božič, who manages SI-CERT at the public agency ARNES, described that work in an interview conducted in person at the Span Cyber Security Arena conference. He put the original proposal for a Slovenian CERT to ARNES leadership in 1994, and the center now records about 6,000 &#8230; <a href=\"https://www.helpnetsecurity.com/2026/06/03/gorazd-bozic-si-cert-cyber-incident-response/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/06/03/gorazd-bozic-si-cert-cyber-incident-response/\">A small Slovenian team handles 6,000 cyber incidents a year</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "link": "https://www.helpnetsecurity.com/2026/06/03/gorazd-bozic-si-cert-cyber-incident-response/",
+    "published": "2026-06-03T05:30:07",
+    "source": "helpnetsecurity.com",
+    "category": "Ransomware",
+    "importance_score": 1200,
+    "also_covered_by": []
+  },
+  {
+    "title": "Anthropic expands Project Glasswing to 150 organizations in more than 15 countries",
+    "summary": "<p>Anthropic is expanding Project Glasswing, its cybersecurity initiative built around the Claude Mythos Preview model, by adding about 150 organizations following several weeks of work with its initial group of partners, security firms, open-source maintainers, and government agencies. Organizations joining the program must meet security requirements before gaining access, Anthropic noted. The expansion brings the program to organizations in more than 15 countries and includes sectors such as healthcare, energy, communications, technology, and other infrastructure &#8230; <a href=\"https://www.helpnetsecurity.com/2026/06/03/anthropic-project-glasswing-expansion/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/06/03/anthropic-project-glasswing-expansion/\">Anthropic expands Project Glasswing to 150 organizations in more than 15 countries</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "link": "https://www.helpnetsecurity.com/2026/06/03/anthropic-project-glasswing-expansion/",
+    "published": "2026-06-03T08:23:13",
+    "source": "helpnetsecurity.com",
+    "category": "Vulnerability",
+    "importance_score": 1100,
     "also_covered_by": []
   },
   {
@@ -687,6 +717,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Critical Flowise Flaw Gives Attackers Full Server Control",
+    "summary": "Obsidian publishes PoC for a 1-click Flowise RCE that can fully compromise self-hosted servers",
+    "link": "https://www.infosecurity-magazine.com/news/flowise-mcp-rce-poc/",
+    "published": "2026-06-01T14:00:00",
+    "source": "infosecurity-magazine.com",
+    "category": "Vulnerability",
+    "importance_score": 773,
+    "also_covered_by": []
+  },
+  {
     "title": "2026 World Cup: Discussing The World’s Biggest Game’s Attack Surface",
     "summary": "<p>The 2026 World Cup presents major cyber risks from ransomware groups, state-aligned actors, and other groups targeting critical infrastructure. Learn more here. </p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/fifa-world-cup-attack-surface/\">2026 World Cup: Discussing The World’s Biggest Game’s Attack Surface</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
     "link": "https://unit42.paloaltonetworks.com/fifa-world-cup-attack-surface/",
@@ -694,6 +734,16 @@
     "source": "unit42.paloaltonetworks.com",
     "category": "Ransomware",
     "importance_score": 772,
+    "also_covered_by": []
+  },
+  {
+    "title": "Palo Alto Warns High-Severity Bug Is Being Actively Exploited",
+    "summary": "A vulnerability in Palo Alto Networks’ PAN-OS software is being exploited in attacks",
+    "link": "https://www.infosecurity-magazine.com/news/palo-alto-highseverity-bug/",
+    "published": "2026-06-01T08:30:00",
+    "source": "infosecurity-magazine.com",
+    "category": "Vulnerability",
+    "importance_score": 771,
     "also_covered_by": []
   },
   {
@@ -807,6 +857,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Attackers Abuse Shared Content for ChatGPT Phishing Campaign",
+    "summary": "Push Security says threat actors are delivering malware hosted on chatgpt.com/s/ domain",
+    "link": "https://www.infosecurity-magazine.com/news/attackers-shared-content-chatgpt/",
+    "published": "2026-06-01T09:30:00",
+    "source": "infosecurity-magazine.com",
+    "category": "Phishing / Scams",
+    "importance_score": 671,
+    "also_covered_by": []
+  },
+  {
     "title": "Risk Scenarios for the US’s Strategic Pivot",
     "summary": "The United States (US) is shifting toward a more force-driven security strategy primarily relying on military operations and economic pressure to counter transnational criminal organizations and limit Chinese, Russian, and Iranian influence in the Western Hemisphere.",
     "link": "https://www.recordedfuture.com/research/us-strategic-pivot",
@@ -834,6 +894,26 @@
     "source": "securelist.com",
     "category": "AI & Security",
     "importance_score": 656,
+    "also_covered_by": []
+  },
+  {
+    "title": "Microsoft Scout agent opens a new category of always-on Autopilots",
+    "summary": "<p>Workplace AI assistants have mostly waited for a prompt before doing anything. A user asks, the tool answers, and the exchange ends there. Microsoft is putting a different kind of agent inside its Office applications, one designed to keep operating in the background once a person stops paying attention. The company introduced Microsoft Scout, calling it the first entry in a category it labels Autopilots. What an Autopilot does Autopilots are always-on agents that run &#8230; <a href=\"https://www.helpnetsecurity.com/2026/06/03/microsoft-scout-personal-agent/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/06/03/microsoft-scout-personal-agent/\">Microsoft Scout agent opens a new category of always-on Autopilots</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "link": "https://www.helpnetsecurity.com/2026/06/03/microsoft-scout-personal-agent/",
+    "published": "2026-06-03T08:28:32",
+    "source": "helpnetsecurity.com",
+    "category": "AI & Security",
+    "importance_score": 650,
+    "also_covered_by": []
+  },
+  {
+    "title": "What CISOs need to do about post-quantum migration in the next 24 months",
+    "summary": "<p>In this Help Net Security video, Garfield Jones, SVP Global Strategy and Research, QuSecure, lays out what CISOs should do over the next 24 months. A recent Google paper moved the expected arrival of a cryptographically relevant quantum computer from 2035 to 2029, leaving organizations about two and a half years to prepare. Such a machine, paired with Shor&#8217;s algorithm, would break the public key encryption in use today. Jones explains the Harvest Now, Decrypt &#8230; <a href=\"https://www.helpnetsecurity.com/2026/06/03/post-quantum-migration-timeline-video/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/06/03/post-quantum-migration-timeline-video/\">What CISOs need to do about post-quantum migration in the next 24 months</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "link": "https://www.helpnetsecurity.com/2026/06/03/post-quantum-migration-timeline-video/",
+    "published": "2026-06-03T04:30:27",
+    "source": "helpnetsecurity.com",
+    "category": "Ransomware",
+    "importance_score": 650,
     "also_covered_by": []
   },
   {
@@ -937,6 +1017,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Attackers Hijack Red Hat npm Scope to Steal Cloud Secrets",
+    "summary": "Attackers backdoored 32 packages in Red Hat's official npm scope to steal cloud and CI secrets",
+    "link": "https://www.infosecurity-magazine.com/news/red-hat-npm-scope-backdoored/",
+    "published": "2026-06-02T10:00:00",
+    "source": "infosecurity-magazine.com",
+    "category": "Other",
+    "importance_score": 573,
+    "also_covered_by": []
+  },
+  {
     "title": "Kimsuky targets organizations with PebbleDash-based tools",
     "summary": "Kaspersky researchers analyze a range of new PebbleDash-based tools used in recent Kimsuky campaigns and reveal their connection to the AppleSeed malware cluster.",
     "link": "https://securelist.com/kimsuky-appleseed-pebbledash-campaigns/119785/",
@@ -944,6 +1034,16 @@
     "source": "securelist.com",
     "category": "Other",
     "importance_score": 572,
+    "also_covered_by": []
+  },
+  {
+    "title": "Threat Actor Uses AI to Build EDR Evasion Tools",
+    "summary": "A threat actor used AI coding tools to build and test EDR evasion malware, Sophos finds",
+    "link": "https://www.infosecurity-magazine.com/news/ai-edr-evasion-tooling/",
+    "published": "2026-06-02T11:00:00",
+    "source": "infosecurity-magazine.com",
+    "category": "AI & Security",
+    "importance_score": 571,
     "also_covered_by": []
   },
   {
@@ -994,6 +1094,56 @@
     "source": "bleepingcomputer.com",
     "category": "Critical Infrastructure",
     "importance_score": 539,
+    "also_covered_by": []
+  },
+  {
+    "title": "Critical Start expands MDR capabilities with multi-agent AI system",
+    "summary": "<p>Critical Start has released SOC AI, a production-proven multi-agent framework powering its AI-led Managed Detection and Response (MDR). SOC AI coordinates ten specialized agents across the full alert investigation and response lifecycle, covering detection, triage, response, threat hunting, and continuous improvement. Each agent operates with a discrete function, a defined scope, and a complete audit trail on every action taken. After implementation of SOC AI, Investigation Agent enhanced thousands of investigations, compressing analyst time-to-investigate to &#8230; <a href=\"https://www.helpnetsecurity.com/2026/06/03/critical-start-soc-ai/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/06/03/critical-start-soc-ai/\">Critical Start expands MDR capabilities with multi-agent AI system</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "link": "https://www.helpnetsecurity.com/2026/06/03/critical-start-soc-ai/",
+    "published": "2026-06-03T07:12:11",
+    "source": "helpnetsecurity.com",
+    "category": "Policy / Law",
+    "importance_score": 500,
+    "also_covered_by": []
+  },
+  {
+    "title": "MazeBolt brings AI-generated attack simulation to DDoS security testing",
+    "summary": "<p>MazeBolt has announced the launch of RADAR VectorAI, a new MazeBolt module that creates AI-generated DDoS attacks. As AI outpaces human response, enterprises need to have access to validated DDoS vulnerability data about both known and AI-generated attack vectors. Mythos has raised awareness of the cybersecurity risks created by AI. But while Mythos makes it faster and easier for attackers to identify exploitable gaps in software, it does not address DDoS vulnerabilities. VectorAI functions as &#8230; <a href=\"https://www.helpnetsecurity.com/2026/06/03/mazebolt-radar-vectorai/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/06/03/mazebolt-radar-vectorai/\">MazeBolt brings AI-generated attack simulation to DDoS security testing</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "link": "https://www.helpnetsecurity.com/2026/06/03/mazebolt-radar-vectorai/",
+    "published": "2026-06-03T07:03:23",
+    "source": "helpnetsecurity.com",
+    "category": "Vulnerability",
+    "importance_score": 500,
+    "also_covered_by": []
+  },
+  {
+    "title": "Netskope adds AI asset discovery and AISecOps agent to AI security portfolio",
+    "summary": "<p>Netskope has announced Netskope One AI Command Center, bringing together AI discovery, risk intelligence, and autonomous response capabilities in a single platform. As the latest expansion of the Netskope One AI Security suite, it helps security teams understand what AI is running in their environments, determine which risks require action, and accelerate response efforts. Among enterprises tracked by Netskope Threat Labs, the average enterprise organization saw the number of AI applications in use grow fivefold &#8230; <a href=\"https://www.helpnetsecurity.com/2026/06/03/netskope-one-ai-command-center/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/06/03/netskope-one-ai-command-center/\">Netskope adds AI asset discovery and AISecOps agent to AI security portfolio</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "link": "https://www.helpnetsecurity.com/2026/06/03/netskope-one-ai-command-center/",
+    "published": "2026-06-03T06:30:44",
+    "source": "helpnetsecurity.com",
+    "category": "AI & Security",
+    "importance_score": 500,
+    "also_covered_by": []
+  },
+  {
+    "title": "Agent Threat Rules: Open detection rule format for AI agent security threats",
+    "summary": "<p>AI agents run inside coding assistants, MCP servers, and multi-agent frameworks, and the access that makes them useful also opens paths to prompt injection, tool poisoning, and credential theft. Public CVE feeds carry agent-execution flaws that reach production faster than the tooling built to catch them. Agent Threat Rules, or ATR, is an open detection format aimed at this category of attack. ATR rules are YAML documents that conform to a versioned schema. Each one &#8230; <a href=\"https://www.helpnetsecurity.com/2026/06/03/agent-threat-rules-ai-detection/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/06/03/agent-threat-rules-ai-detection/\">Agent Threat Rules: Open detection rule format for AI agent security threats</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "link": "https://www.helpnetsecurity.com/2026/06/03/agent-threat-rules-ai-detection/",
+    "published": "2026-06-03T05:00:06",
+    "source": "helpnetsecurity.com",
+    "category": "Policy / Law",
+    "importance_score": 500,
+    "also_covered_by": []
+  },
+  {
+    "title": "Known vulnerabilities behind most application security incidents",
+    "summary": "<p>Eight in ten organizations took an application security hit during the past year tied to a vulnerability their team had already cataloged, according to a survey of 902 IT and security professionals conducted by the Cloud Security Alliance. The pattern points to a structural condition across the industry, where the window between identifying a flaw and closing it in production stays open long enough for attackers to act. Which of the following best describes your &#8230; <a href=\"https://www.helpnetsecurity.com/2026/06/03/csa-application-security-incidents/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/06/03/csa-application-security-incidents/\">Known vulnerabilities behind most application security incidents</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "link": "https://www.helpnetsecurity.com/2026/06/03/csa-application-security-incidents/",
+    "published": "2026-06-03T04:00:18",
+    "source": "helpnetsecurity.com",
+    "category": "Vulnerability",
+    "importance_score": 500,
     "also_covered_by": []
   },
   {
@@ -1507,6 +1657,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Infosecurity Europe: UK Firms Prioritize AI Threat Preparedness as Cyber Risks Evolve",
+    "summary": "UK organizations are prioritizing AI-driven cybersecurity as 43% cite AI-powered attacks as their top risk, prompting significant investment in advanced threat defense",
+    "link": "https://www.infosecurity-magazine.com/news/uk-firms-prioritize-ai-threat/",
+    "published": "2026-06-02T10:00:00",
+    "source": "infosecurity-magazine.com",
+    "category": "AI & Security",
+    "importance_score": 341,
+    "also_covered_by": []
+  },
+  {
     "title": "Your car is following you - how to reclaim your data privacy on the open road",
     "summary": "Today's vehicles know where we live, how much we weigh, and what we had for dinner. Here's what happens to all that information, and how you can reduce the data flow.",
     "link": "https://www.zdnet.com/article/your-car-is-following-you-how-to-reclaim-data-privacy/",
@@ -1527,6 +1687,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Infosecurity Europe: Cybersecurity Teams Which Don’t Leverage AI are \"Doomed to Fail\"",
+    "summary": "Humans still need to be part of cyber defense, but refusing to deploy AI is no longer optional against AI-enhanced cyber threats, warns Dataminr’s Joe Slowik",
+    "link": "https://www.infosecurity-magazine.com/news/cybersecurity-teams-doomed-to-fail/",
+    "published": "2026-06-02T15:00:00",
+    "source": "infosecurity-magazine.com",
+    "category": "AI & Security",
+    "importance_score": 339,
+    "also_covered_by": []
+  },
+  {
     "title": "Amazon Prime Day is June 23-26: Everything to know about start times, deals, and more",
     "summary": "Here's everything we know about Amazon's June Prime event - including confirmed dates, how to prep for early deals, and how it compares to previous July sales.",
     "link": "https://www.zdnet.com/article/amazon-prime-day-2026-everything-you-need-to-know/",
@@ -1534,6 +1704,16 @@
     "source": "zdnet.com",
     "category": "Other",
     "importance_score": 339,
+    "also_covered_by": []
+  },
+  {
+    "title": "Infosecurity Europe: Patch Responsibility Remains Up for Grabs as AI Unearths Decades of Flaws",
+    "summary": "The emergence of AI models capable to autonomously find and fix vulnerabilities at scale is having a significant impact on patching management, experts say",
+    "link": "https://www.infosecurity-magazine.com/news/patch-responsibility-ai-infosec/",
+    "published": "2026-06-03T09:00:00",
+    "source": "infosecurity-magazine.com",
+    "category": "Policy / Law",
+    "importance_score": 338,
     "also_covered_by": []
   },
   {
@@ -1597,6 +1777,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Infosecurity Europe: Bayer Reinvents Security Awareness Training to Counter AI Threats",
+    "summary": "Bayer’s security awareness training now focuses on psychological approaches rather than technical methods for detecting social engineering",
+    "link": "https://www.infosecurity-magazine.com/news/bayer-reinvents-security-awareness/",
+    "published": "2026-06-02T13:45:00",
+    "source": "infosecurity-magazine.com",
+    "category": "Phishing / Scams",
+    "importance_score": 334,
+    "also_covered_by": []
+  },
+  {
     "title": "New NGate variant hides in a trojanized NFC payment app",
     "summary": "ESET researchers discover another iteration of NGate malware, this time possibly developed with the assistance of AI",
     "link": "https://www.welivesecurity.com/en/eset-research/new-ngate-variant-hides-in-a-trojanized-nfc-payment-app/",
@@ -1647,6 +1837,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Infosecurity Europe: Execs Must Treat Cyber Threats as Statecraft, ISACA Expert Say",
+    "summary": "Private firms are being targeted by nation-state groups for reasons beyond finance, argued ISACA’s Bharat Thakrar",
+    "link": "https://www.infosecurity-magazine.com/news/execs-cisos-must-treat-cyber/",
+    "published": "2026-06-03T08:15:00",
+    "source": "infosecurity-magazine.com",
+    "category": "Other",
+    "importance_score": 328,
+    "also_covered_by": []
+  },
+  {
     "title": "Forget Amazon - these are the best Costco deals I've found this week",
     "summary": "Prime Day may be coming soon, but Costco already has great discounts live on home essentials, top tech, and more.",
     "link": "https://www.zdnet.com/article/best-early-amazon-prime-day-costco-deals-2026/",
@@ -1664,6 +1864,16 @@
     "source": "zdnet.com",
     "category": "Other",
     "importance_score": 327,
+    "also_covered_by": []
+  },
+  {
+    "title": "Infosecurity Europe: NCSC Urges Immediate Action to Boost Resilience as Uncertainty Persists",
+    "summary": "NCSC director of operations, Paul Chichester, says it’s time to future-proof cybersecurity today",
+    "link": "https://www.infosecurity-magazine.com/news/ncsc-resilience-certainty-is-never/",
+    "published": "2026-06-02T15:30:00",
+    "source": "infosecurity-magazine.com",
+    "category": "Other",
+    "importance_score": 324,
     "also_covered_by": []
   },
   {
@@ -1693,6 +1903,16 @@
     "published": "2026-05-18T20:48:21",
     "source": "krebsonsecurity.com",
     "category": "Data Breach",
+    "importance_score": 321,
+    "also_covered_by": []
+  },
+  {
+    "title": "Infosecurity Europe: AI-Powered Cybercrime Tools Surge on Dark Web",
+    "summary": "Halcyon’s Cynthia Kaiser lifts the lid on the dark web market for AI cybercrime tools",
+    "link": "https://www.infosecurity-magazine.com/news/cybercrime-ai-tools-surge-3800/",
+    "published": "2026-06-03T07:30:00",
+    "source": "infosecurity-magazine.com",
+    "category": "AI & Security",
     "importance_score": 321,
     "also_covered_by": []
   },
@@ -1887,6 +2107,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Infosecurity Europe: Business Leaders Lack Understanding of Threat Intelligence, Study Warns",
+    "summary": "A new Silobreaker and SANS Institute paper examines the ‘Intelligence-Stakeholder Gap’ and what organizations must do to achieve business buy-in on threat intelligence",
+    "link": "https://www.infosecurity-magazine.com/news/business-leaders-struggle-threat/",
+    "published": "2026-06-02T08:30:00",
+    "source": "infosecurity-magazine.com",
+    "category": "Other",
+    "importance_score": 191,
+    "also_covered_by": []
+  },
+  {
     "title": "Finding what lives between the alerts: Announcing Cisco Talos Threat Hunting",
     "summary": "Announcing Cisco Talos Threat Hunting expansion across Cisco Secure Endpoint, Cisco Secure Firewall, and Cisco Duo, delivered via Security in Cloud Control.",
     "link": "https://blogs.cisco.com/security/announcing-cisco-talos-threat-hunting/",
@@ -1894,6 +2124,16 @@
     "source": "blogs.cisco.com",
     "category": "Other",
     "importance_score": 189,
+    "also_covered_by": []
+  },
+  {
+    "title": "Infosecurity Europe: Tabletop Exercise to Test How CISOs Respond to Major Supermarket Cyber-Attack",
+    "summary": "Semperis is set to bring ‘Enter the War Room: A Tabletop Experience’ to Infosecurity Europe to help cybersecurity leaders prepare to face real incidents",
+    "link": "https://www.infosecurity-magazine.com/news/infosecurity-europe-semperis/",
+    "published": "2026-06-01T13:00:00",
+    "source": "infosecurity-magazine.com",
+    "category": "Other",
+    "importance_score": 188,
     "also_covered_by": []
   },
   {
@@ -1917,6 +2157,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Infosecurity Europe: OWASP Forms New Agentic Research Council",
+    "summary": "OWASP’s new Agentic Research Council will aim to connect academic work to operational realities on agentic AI security",
+    "link": "https://www.infosecurity-magazine.com/news/owasp-new-agentic-research-council/",
+    "published": "2026-06-01T08:00:00",
+    "source": "infosecurity-magazine.com",
+    "category": "AI & Security",
+    "importance_score": 179,
+    "also_covered_by": []
+  },
+  {
     "title": "Firewall Bug Under Active Attack Triggers CISA Warning",
     "summary": "CISA is warning that Palo Alto Networks’ PAN-OS is under active attack and needs to be patched ASAP.",
     "link": "https://threatpost.com/firewall-bug-under-active-attack-cisa-warning/180467/",
@@ -1934,6 +2184,26 @@
     "source": "malwarebytes.com",
     "category": "Phishing / Scams",
     "importance_score": 175,
+    "also_covered_by": []
+  },
+  {
+    "title": "Infosecurity Europe: AI SOCs Will Still Need SOC Analysts, Security Vendors Say",
+    "summary": "Top cybersecurity vendors said AI won't replace entry-level – only routine ticket-taking and triage",
+    "link": "https://www.infosecurity-magazine.com/news/ai-soc-still-need-analysts/",
+    "published": "2026-06-01T11:45:00",
+    "source": "infosecurity-magazine.com",
+    "category": "AI & Security",
+    "importance_score": 174,
+    "also_covered_by": []
+  },
+  {
+    "title": "FSB Group Gamaredon Hides Worm in Windows Data Streams",
+    "summary": "FSB-linked Gamaredon concealed a fileless worm in NTFS data streams to spy on Ukraine targets",
+    "link": "https://www.infosecurity-magazine.com/news/gamaredon-worm-ntfs-data-streams/",
+    "published": "2026-06-01T11:00:00",
+    "source": "infosecurity-magazine.com",
+    "category": "Other",
+    "importance_score": 173,
     "also_covered_by": []
   },
   {
@@ -2321,6 +2591,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Silent Ransom Group Uses In-Person IT Impersonation to Breach Systems",
+    "summary": "Threat actors from the Silent Ransom Group, aka Luna Moth, are escalating attacks by impersonating IT staff in phone calls and even showing up in person to gain direct access to victim systems",
+    "link": "https://www.infosecurity-magazine.com/news/silent-ransom-group-it/",
+    "published": "2026-05-29T13:00:00",
+    "source": "infosecurity-magazine.com",
+    "category": "Other",
+    "importance_score": 48,
+    "also_covered_by": []
+  },
+  {
     "title": "IT threat evolution in Q1 2026. Mobile statistics",
     "summary": "This report contains mobile threat statistics for Q1 2026, along with noteworthy discoveries and quarterly trends: new versions of SparkCat and Triada.",
     "link": "https://securelist.com/malware-report-q1-2026-mobile-statistics/119819/",
@@ -2368,6 +2648,16 @@
     "source": "welivesecurity.com",
     "category": "AI & Security",
     "importance_score": 46,
+    "also_covered_by": []
+  },
+  {
+    "title": "Chinese Hackers Exploit Iran War to Target Maritime and Energy Companies",
+    "summary": "ESET’s 2026 APT Activity Report suggests China-backed APTs are using instability in the region to target victims, as well as continuing activity against organizations around the globe",
+    "link": "https://www.infosecurity-magazine.com/news/chinese-hackers-exploit-iran-war/",
+    "published": "2026-05-29T09:00:00",
+    "source": "infosecurity-magazine.com",
+    "category": "Other",
+    "importance_score": 45,
     "also_covered_by": []
   },
   {
@@ -2598,6 +2888,16 @@
     "source": "welivesecurity.com",
     "category": "Vulnerability",
     "importance_score": 30,
+    "also_covered_by": []
+  },
+  {
+    "title": "Infosecurity Europe: CyCOS Project Expands to Support UK SMEs as CIISec Takes Over",
+    "summary": "From a research-driven pilot, the Cybersecurity Communities of Support (CyCOS) is about to be handed over to CIISec",
+    "link": "https://www.infosecurity-magazine.com/news/cycos-expands-uk-smes-ciisec/",
+    "published": "2026-05-29T10:00:00",
+    "source": "infosecurity-magazine.com",
+    "category": "Other",
+    "importance_score": 28,
     "also_covered_by": []
   },
   {
