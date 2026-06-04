@@ -1517,6 +1517,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Cisco Warns of Available PoC for Critical Unified CM Vulnerability",
+    "summary": "<p>The high-severity flaw can be exploited remotely, without authentication, in server-side request forgery (SSRF) attacks.</p>\n<p>The post <a href=\"https://www.securityweek.com/cisco-warns-of-available-poc-for-critical-unified-cm-vulnerability/\">Cisco Warns of Available PoC for Critical Unified CM Vulnerability</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "link": "https://www.securityweek.com/cisco-warns-of-available-poc-for-critical-unified-cm-vulnerability/",
+    "published": "2026-06-04T08:44:08",
+    "source": "securityweek.com",
+    "category": "Vulnerability",
+    "importance_score": 438,
+    "also_covered_by": []
+  },
+  {
     "title": "DoJ Disrupts Southeast Asia Crypto Fraud Networks, Freezes $3.8 Million in Assets",
     "summary": "The U.S. Department of Justice (DoJ) on Wednesday announced the results of a sweeping action undertaken by government authorities and private sector companies to combat cyber-enabled and cryptocurrency fraud targeting Americans.\n\nThe \"Disruption Week\" operation began May 18, 2026, leading to the takedown of millions of social media, email, and internet access accounts used by transnational",
     "link": "https://thehackernews.com/2026/06/doj-disrupts-southeast-asia-crypto.html",
@@ -2014,16 +2024,6 @@
     "source": "zdnet.com",
     "category": "Other",
     "importance_score": 319,
-    "also_covered_by": []
-  },
-  {
-    "title": "Trump Signs Executive Order That Invites Vetting of Top AI Models for National Security Risks",
-    "summary": "<p>The order establishes a framework for the federal government to vet the national security risks of the most advanced AI systems for up to a month before their public release.</p>\n<p>The post <a href=\"https://www.securityweek.com/trump-signs-executive-order-that-invites-vetting-of-top-ai-models-for-national-security-risks/\">Trump Signs Executive Order That Invites Vetting of Top AI Models for National Security Risks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-    "link": "https://www.securityweek.com/trump-signs-executive-order-that-invites-vetting-of-top-ai-models-for-national-security-risks/",
-    "published": "2026-06-02T20:10:49",
-    "source": "securityweek.com",
-    "category": "AI & Security",
-    "importance_score": 303,
     "also_covered_by": []
   },
   {
