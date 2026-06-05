@@ -137,16 +137,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Patch Tuesday, April 2026 Edition",
-    "summary": "Microsoft today pushed software updates to fix a staggering 167 security vulnerabilities in its Windows operating systems and related software, including a SharePoint Server zero-day and a publicly disclosed weakness in Windows Defender dubbed \"BlueHammer.\" Separately, Google Chrome fixed its fourth zero-day of 2026, and an emergency update for Adobe Reader nixes an actively exploited flaw that can lead to remote code execution.",
-    "link": "https://krebsonsecurity.com/2026/04/patch-tuesday-april-2026-edition/",
-    "published": "2026-04-14T21:47:59",
-    "source": "krebsonsecurity.com",
-    "category": "Vulnerability",
-    "importance_score": 2649,
-    "also_covered_by": []
-  },
-  {
     "title": "Ransomware and Geopolitical Tensions Drive Cyber Threats Across META in Q1 2026",
     "summary": "<p><img alt=\"META Threat Landscape Report\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"1024\" src=\"https://thecyberexpress.com/wp-content/uploads/META-Threat-Landscape-Report.webp\" title=\"Ransomware and Geopolitical Tensions Drive Cyber Threats Across META in Q1 2026 15\" width=\"1536\" /></p>Cyber threats across the Middle East, Turkey, and Africa (META) continued to intensify in the first quarter of 2026, with <a href=\"https://thecyberexpress.com/top-10-ransomware-gangs-all-you-need-to-know/\" rel=\"noopener\" target=\"_blank\">ransomware groups</a>, hacktivist campaigns, and large-scale data breaches shaping a volatile threat landscape for organizations across the region. According to Cyble’s latest META Threat Landscape Report, ransomware remained one of the most disruptive threats during Q1 2026, with attacks targeting industries ranging from government and construction to banking and energy.\n\nThe findings also point to a growing overlap between financially motivated cybercrime and geopolitically driven cyber activity.\n<h2>Ransomware Attacks Continue to Rise</h2>\nResearchers <a href=\"https://cyble.com/resources/research-reports/meta-cyber-threat-landscape-report-q1-2026/\" rel=\"nofollow noopener\" target=\"_blank\">observed</a> 116 ransomware incidents publicly disclosed across the META region during the first three months of 2026. Turkey recorded the highest number of attacks, followed by the UAE, while countries including South Africa and Egypt also faced significant <a class=\"wpil_keyword_link\" href=\"https://cyble.com/knowledge-hub/what-is-ransomware/\" rel=\"noopener\" target=\"_blank\" title=\"ransomware\">ransomware</a> activity.\n\nAmong the most active threat groups was Gentlemen, which accounted for a notable share of observed attacks during the quarter. Other ransomware operators including <a href=\"https://thecyberexpress.com/inc-ransom-franchise-model/\" rel=\"noopener\" target=\"_blank\">INC Ransom</a>, <a href=\"https://thecyberexpress.com/qilin-ransomware-group-ttps/\" rel=\"noopener\" target=\"_blank\">Qilin</a>, Tengu, and <a href=\"https://thecyberexpress.com/lockbit-returns-with-data-leak-site-victims/\" rel=\"noopener\" target=\"_blank\">LockBit</a> also remained highly active.\n\nConstruction emerged as the most targeted industry, followed closely by government agencies, law enforcement organizations, financial services, and energy companies. These sectors often manage sensitive operations and critical infrastructure, making them attractive targets for cybercriminals seeking maximum disruption and financial leverage.\n\nThe Cyble report also highlights how <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-ransomware-how-it-work/\" title=\"ransomware\">ransomware</a> operations are becoming increasingly organized, with many groups continuing to operate under ransomware-as-a-service models that allow affiliates to scale attacks rapidly.\n<h2>Data Breaches Expose Sensitive Information</h2>\nBeyond <a href=\"https://thecyberexpress.com/qilin-inc-ransom-drive-2026-ransomware-surge/\" rel=\"noopener\" target=\"_blank\">ransomware</a>, underground forums remained flooded with stolen databases and claims of unauthorized access linked to organizations across the region.\n\nThreat actors allegedly offered access to sensitive <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-data/\" title=\"data\">data</a> connected to sectors such as hospitality, healthcare, sports, influencer marketing, and energy. In one case, a <a class=\"wpil_keyword_link\" href=\"https://cyble.com/threat-actor/\" rel=\"noopener\" target=\"_blank\" title=\"threat actor\">threat actor</a> claimed to possess terabytes of information linked to Qatar’s energy sector, including credentials and cloud backups.\n\nGovernment and public sector organizations also remained frequent targets, reflecting growing concerns around espionage, politically motivated operations, and long-term intelligence gathering.\n<h2>Vulnerability Exploitation Driving Intrusions</h2>\nThe report notes that attackers continue to move quickly after new <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-are-vulnerabilities/\" title=\"vulnerabilities\">vulnerabilities</a> become public.\n\nSeveral high-severity flaws disclosed during the quarter were rapidly added to the CISA Known Exploited Vulnerabilities catalog, reinforcing how threat actors are actively monitoring enterprise technologies for exploitable weaknesses.\n\nEnterprise management systems, <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/\" title=\"security\">security</a> tools, and internet-facing applications remained among the most targeted technologies.\n\nOne of the more notable cases involved a critical Ivanti Endpoint Manager Mobile <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/firewall-daily/vulnerabilities/\" title=\"vulnerability\">vulnerability</a> that could allow unauthenticated remote code execution. Researchers say such flaws continue to attract threat actors because they provide a pathway into enterprise environments without requiring stolen credentials.\n<h2>META Threat Landscape Report Highlights Geopolitical Tensions</h2>\nHacktivist activity also remained elevated throughout Q1 2026. Researchers tracked hundreds of posts related to data leaks, website defacements, and distributed denial-of-service attacks affecting thousands of domains across the META region.\n\nMuch of this activity appeared linked to ongoing geopolitical tensions, particularly conflicts involving Israel, Iran, and neighboring regions. Threat actors increasingly used <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/cyber-news/\" title=\"cyber\">cyber</a> operations not just for disruption, but also to amplify political messaging and influence public narratives online.\n\nThe report suggests that organizations operating in politically sensitive regions may continue to face elevated cyber <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-are-risks-in-cybersecurity/\" title=\"risks\">risks</a> throughout the year.\n<h2>A Growing Need for Proactive Cyber Defense</h2>\nThe findings from Q1 2026 reflect a broader shift in the threat landscape, where cyberattacks are becoming faster, more coordinated, and more difficult to contain.\n\nFor organizations across the META region, visibility into emerging threats, exposed assets, ransomware activity, and vulnerability exploitation is becoming increasingly important as attackers continue to evolve their tactics.\n\nThe full META Threat Landscape Report offers a closer look at the threat groups, industries, and attack trends shaping the region’s <a class=\"wpil_keyword_link\" href=\"https://cyble.com/knowledge-hub/what-is-cybersecurity/\" rel=\"noopener\" target=\"_blank\" title=\"cybersecurity\">cybersecurity</a> environment in early 2026.\n\nReaders interested in ransomware trends, regional targeting patterns, and emerging cyber risks can <a href=\"https://cyble.com/resources/research-reports/meta-cyber-threat-landscape-report-q1-2026/\" rel=\"nofollow noopener\" target=\"_blank\">explore the Cyble report</a> for deeper insights into how the threat landscape is evolving.",
     "link": "https://thecyberexpress.com/cyble-meta-threat-landscape-report/",
@@ -467,26 +457,6 @@
     "also_covered_by": []
   },
   {
-    "title": "CISA Issues Alert on Actively Exploited Linux Kernel Security Flaw",
-    "summary": "<p>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has issued a fresh alert warning organizations about the active exploitation of a Linux kernel vulnerability tracked as CVE-2022-0492. The flaw, categorized as an improper authentication issue, affects Linux systems using the cgroups v1 release_agent feature and can allow attackers to escalate privileges within compromised environments. Linux [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cisa-issues-alert-on-linux-kernel-security-flaw/\">CISA Issues Alert on Actively Exploited Linux Kernel Security Flaw</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/cisa-issues-alert-on-linux-kernel-security-flaw/",
-    "published": "2026-06-05T07:26:19",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 1229,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hackers Use Malicious Ads to Deliver FlutterShell Backdoor on macOS Systems",
-    "summary": "<p>A new and rapidly spreading malware campaign is putting macOS users at serious risk. Threat actors are using Google Ads to push fake desktop applications that secretly install a powerful backdoor on infected machines. The campaign, dubbed Operation FlutterBridge, marks a sharp escalation in tactics from financially motivated attackers who have been active since at [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-use-malicious-ads/\">Hackers Use Malicious Ads to Deliver FlutterShell Backdoor on macOS Systems</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/hackers-use-malicious-ads/",
-    "published": "2026-06-04T20:25:42",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 1107,
-    "also_covered_by": []
-  },
-  {
     "title": "AgentGG: Open-source agentic SAST scanner",
     "summary": "<p>Static analysis tools have spent years matching source code against known-bad patterns and handing engineers long lists of candidate issues to triage by hand. AgentGG approaches the same job with AI agents that read the code, follow imports, walk the call graph, and confirm a finding before they report it. The project is an open-source agentic SAST scanner released under the Apache 2.0 license. How the agents run Each agent is a self-contained markdown file &#8230; <a href=\"https://www.helpnetsecurity.com/2026/06/05/agentgg-open-source-agentic-sast-scanner/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/06/05/agentgg-open-source-agentic-sast-scanner/\">AgentGG: Open-source agentic SAST scanner</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
     "link": "https://www.helpnetsecurity.com/2026/06/05/agentgg-open-source-agentic-sast-scanner/",
@@ -547,36 +517,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Cisco SD-WAN Security Flaw Actively Exploited for Root-Level Command Execution",
-    "summary": "<p>Cisco has disclosed a high-severity vulnerability in its Catalyst SD-WAN Manager that is actively being exploited in the wild, allowing attackers to execute arbitrary commands with root-level privileges on affected systems. The vulnerability, tracked as CVE-2026-20245, carries a CVSS score of 7.8 and is caused by improper input validation (CWE-116) within the command-line interface of [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cisco-sd-wan-security-flaw/\">Cisco SD-WAN Security Flaw Actively Exploited for Root-Level Command Execution</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/cisco-sd-wan-security-flaw/",
-    "published": "2026-06-05T06:47:35",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 1072,
-    "also_covered_by": []
-  },
-  {
-    "title": "Dashlane Details How Hackers Managed to Download Encrypted Password Vaults",
-    "summary": "<p>Dashlane has disclosed that threat actors successfully brute-forced two-factor authentication (2FA) protections to register unauthorized devices and download encrypted password vaults belonging to fewer than 20 personal plan users, with a completed investigation confirming no broader impact on its internal systems. Beginning Sunday, May 31, 2026, an external threat actor launched a high-volume brute-force campaign [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/dashlane-encrypted-password-hack/\">Dashlane Details How Hackers Managed to Download Encrypted Password Vaults</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/dashlane-encrypted-password-hack/",
-    "published": "2026-06-05T04:07:55",
-    "source": "cybersecuritynews.com",
-    "category": "Ransomware",
-    "importance_score": 1071,
-    "also_covered_by": []
-  },
-  {
-    "title": "ClawHub, Cisco, Vercel’s Malicious Skill Detector Bypassed to upload Malicious Skills",
-    "summary": "<p>AI skill scanners from ClawHub, Cisco, and Vercel’s skills. The platform can be bypassed with minimal effort, allowing malicious skills to be uploaded and distributed through public marketplaces. The findings highlight a growing supply chain risk in agent ecosystems, where skills serve as reusable components that can execute code and influence model behavior. The Trail [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/clawhub-cisco-vercels-malicious-skill-detector-bypassed/\">ClawHub, Cisco, Vercel’s Malicious Skill Detector Bypassed to upload Malicious Skills</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/clawhub-cisco-vercels-malicious-skill-detector-bypassed/",
-    "published": "2026-06-05T03:05:59",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 1068,
-    "also_covered_by": []
-  },
-  {
     "title": "Protecting Cookies with Device Bound Session Credentials",
     "summary": "<span class=\"byline-author\">Posted by Ben Ackerman, Chrome team,  Daniel Rubery, Chrome team and Guillaume Ehinger, Google Account Security team</span>\n\n<p>\nFollowing our April 2024 <a href=\"https://blog.chromium.org/2024/04/fighting-cookie-theft-using-device.html\">announcement</a>, Device Bound Session Credentials (DBSC) is now entering public availability for Windows users on Chrome 146, and expanding to macOS in an upcoming Chrome release. This project represents a significant step forward in our ongoing efforts to combat session theft, which remains a prevalent threat in the modern security landscape.\n</p>\n<p>\nSession theft typically occurs when a user inadvertently downloads malware onto their device. Once active, the malware can silently extract existing session cookies from the browser or wait for the user to log in to new accounts, before exfiltrating these tokens to an attacker-controlled server. Infostealer malware families, such as LummaC2, have become increasingly sophisticated at harvesting these credentials. Because cookies often have extended lifetimes, attackers can use them to gain unauthorized access to a user’s accounts without ever needing their passwords; this access is then often bundled, traded, or sold among threat actors.\n</p>\n<p>\nCrucially, once sophisticated malware has gained access to a machine, it can read the local files and memory where browsers store authentication cookies. As a result, there is no reliable way to prevent cookie exfiltration using software alone on any operating system. Historically, mitigating session theft relied on detecting the stolen credentials after the fact using a complex set of abuse heuristics – a reactive approach that persistent attackers could often circumvent. DBSC fundamentally changes the web's capability to defend against this threat by shifting the paradigm from reactive detection to proactive prevention, ensuring that successfully exfiltrated cookies cannot be used to access users’ accounts.\n</p>\n<h3>How DBSC Works</h3>\n\n\n<p>\nDBSC protects against session theft by cryptographically binding authentication sessions to a specific device. It does this using hardware-backed security modules, such as the Trusted Platform Module (TPM) on Windows and the Secure Enclave on macOS, to generate a unique public/private key pair that cannot be exported from the machine. The issuance of new short-lived session cookies is contingent upon Chrome proving possession of the corresponding private key to the server. Because attackers cannot steal this key, any exfiltrated cookies quickly expire and become useless to those attackers. This design allows large and small websites to upgrade to secure, hardware-bound sessions by adding dedicated registration and refresh endpoints to their backends, while maintaining complete compatibility with their existing front-end. The browser handles the complex cryptography and cookie rotation in the background, allowing the web app to continue using standard cookies for access just as it always has. \n</p>\n<p>\nGoogle rolled out an early version of this protocol over the last year. For sessions protected by DBSC, we have observed a significant reduction in session theft since its launch.\n</p>\n<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjk4eZvzfBqPL0Xf1ckUo7l58eyeZKSzIelxjLOiOE_XHYNZc-qdx24Sv9n3tgRgc2xOzKZvcHsCksprOlxwd-gIRQaLPsOu2jjuCV4e6G1_ImsXhQeOean1CWndOiQuikT94gbvZLlWfktpCBRtxh9dJkxjpfvradSkzWD1Wqxohg9TJUdyC1kC88y6Abu/s1600/Screenshot%202026-04-09%20at%2010.11.22%E2%80%AFAM.png\" style=\"display: block; padding: 1em 0; text-align: center;\"><img alt=\"\" border=\"0\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjk4eZvzfBqPL0Xf1ckUo7l58eyeZKSzIelxjLOiOE_XHYNZc-qdx24Sv9n3tgRgc2xOzKZvcHsCksprOlxwd-gIRQaLPsOu2jjuCV4e6G1_ImsXhQeOean1CWndOiQuikT94gbvZLlWfktpCBRtxh9dJkxjpfvradSkzWD1Wqxohg9TJUdyC1kC88y6Abu/s1600/Screenshot%202026-04-09%20at%2010.11.22%E2%80%AFAM.png\" /></a></div>\n<p style=\"text-align: center;\">\n<em>An overview of the DBSC protocol showing the interaction between the browser and server.</em>\n</p>\n<h3>Private by design</h3>\n\n\n<p>\nA core tenet of the DBSC architecture is the preservation of user privacy. Each session is backed by a distinct key, preventing websites from using these credentials to correlate a user's activity across different sessions or sites on the same device. Furthermore, the protocol is designed to be lean: it does not leak device identifiers or attestation data to the server beyond the per-session public key required to certify proof of possession. This minimal information exchange ensures DBSC helps secure sessions without enabling cross-site tracking or acting as a device fingerprinting mechanism.\n</p>\n<h3>Engagement with the ecosystem</h3>\n\n\n<p>\nDBSC was designed from the beginning to be an open web standard through the W3C process and adoption by the Web Application Security Working Group. Through this process we partnered with Microsoft to design the standard to ensure it works for the web and got input from many in the industry that are responsible for web security.\n</p>\n<p>\nAdditionally, over the past year, we have also conducted two Origin Trials to ensure DBSC effectively serves the requirements of the broader web community. Many web platforms, including Okta, actively participated in these trials and their own testing and provided essential feedback to ensure the protocol effectively addresses their diverse needs.\n</p>\n<p>\nIf you are a web developer and are looking for a way to secure your users against session theft, refer to our <a href=\"https://developer.chrome.com/docs/web-platform/device-bound-session-credentials\">developer guide</a> for implementation details. Additionally, all the details about DBSC can be found on the <a href=\"https://w3c.github.io/webappsec-dbsc/\">spec</a> and the corresponding <a href=\"https://github.com/w3c/webappsec-dbsc\">github</a>. Feel free to use the <a href=\"https://github.com/w3c/webappsec-dbsc/issues\">issues</a> page to report bugs or provide feature requests.\n</p>\n<h3>Future improvements</h3>\n\n\n<p>\nAs we continue to evolve the DBSC standard, future iterations will focus on increasing support across diverse ecosystems and introducing advanced capabilities tailored for complex enterprise environments. Key areas of ongoing development include:\n</p>\n<ul>\n\n<li><strong>Securing Federated Identity: </strong>In modern enterprise environments, Single Sign-On (SSO) is ubiquitous. We are expanding the DBSC protocol to support cross-origin bindings, ensuring that a relying party (RP) session remains continuously bound to the same original device key used by the Identity Provider (IdP). This guarantees that the high-assurance security of the initial device binding is maintained throughout the entire federated login process, creating an unbroken chain of trust.</li>\n\n<li><strong>Advanced Registration Capabilities:</strong> While DBSC provides robust protection for established cookies, some environments require an even stronger foundation when the session is first created. We are developing mechanisms to bind DBSC sessions to pre-existing, trusted key material rather than generating a new key at sign-in. This advanced capability enables websites to integrate complementary technologies, such as mTLS certificates or hardware security keys, creating a highly secure registration environment.</li>\n\n<li><strong>Broader Device Support:</strong> We are also actively exploring the potential addition of software-based keys to extend protections to devices without dedicated secure hardware.",
     "link": "http://security.googleblog.com/2026/04/protecting-cookies-with-device-bound.html",
@@ -634,16 +574,6 @@
     "source": "unit42.paloaltonetworks.com",
     "category": "Vulnerability",
     "importance_score": 981,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hackers Impersonate Ghidra, dnSpy, and SpiderFoot to Spread Malware via Fake Download Sites",
-    "summary": "<p>Hackers are creating convincing fake websites that impersonate popular security tools to trick users into downloading malware. Instead of obvious phishing pages, these sites look almost identical to real project portals, complete with professional designs and links pointing to actual GitHub repositories. The moment a user clicks the download button, something very different happens behind [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-impersonate-ghidra-dnspy-and-spiderfoot/\">Hackers Impersonate Ghidra, dnSpy, and SpiderFoot to Spread Malware via Fake Download Sites</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/hackers-impersonate-ghidra-dnspy-and-spiderfoot/",
-    "published": "2026-06-04T21:22:17",
-    "source": "cybersecuritynews.com",
-    "category": "Phishing / Scams",
-    "importance_score": 973,
     "also_covered_by": []
   },
   {
@@ -717,36 +647,6 @@
     "also_covered_by": []
   },
   {
-    "title": "VECT 2.0 Ransomware Breaks Files Beyond Its Own Recovery",
-    "summary": "<p>VECT 2.0 ransomware can leave victims with files that even the attacker’s own decryptor cannot reliably restore. While researchers previously exposed a cross-platform design flaw that discards nonces for earlier parts of large files, our Windows-focused analysis shows additional implementation errors that create more recovery gaps. These errors can leave files renamed, partially encrypted, inconsistently [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/vect-2-0-ransomware-breaks-files/\">VECT 2.0 Ransomware Breaks Files Beyond Its Own Recovery</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/vect-2-0-ransomware-breaks-files/",
-    "published": "2026-06-05T05:15:31",
-    "source": "gbhackers.com",
-    "category": "Ransomware",
-    "importance_score": 923,
-    "also_covered_by": []
-  },
-  {
-    "title": "binding.gyp Supply Chain Attack Compromises Dozens of npm Packages Across Maintainer Accounts",
-    "summary": "<p>A self-replicating worm has been quietly spreading across the npm registry using a method most security teams do not watch for. Instead of hiding inside package.json scripts, the attacker weaponized a tiny configuration file called binding.gyp to trigger malicious code the moment a developer runs npm install. The campaign hit dozens of packages across multiple [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/binding-gyp-supply-chain-attack-compromises-dozens-of-npm-packages/\">binding.gyp Supply Chain Attack Compromises Dozens of npm Packages Across Maintainer Accounts</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/binding-gyp-supply-chain-attack-compromises-dozens-of-npm-packages/",
-    "published": "2026-06-04T21:09:32",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 921,
-    "also_covered_by": []
-  },
-  {
-    "title": "VECT 2.0 Ransomware Can Damage Files Its Own Decryptor Cannot Reliably Restore",
-    "summary": "<p>A new ransomware strain called VECT 2.0 is raising serious concerns among security professionals, and for a troubling reason — even if a victim pays the ransom, the attacker&#8217;s own decryptor may not fully restore their files. This is not a typical failure tied to weak defenses or victim error. The damage, in many cases, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/vect-2-0-ransomware-can-damage-files-its-own-decryptor/\">VECT 2.0 Ransomware Can Damage Files Its Own Decryptor Cannot Reliably Restore</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/vect-2-0-ransomware-can-damage-files-its-own-decryptor/",
-    "published": "2026-06-05T07:51:33",
-    "source": "cybersecuritynews.com",
-    "category": "Ransomware",
-    "importance_score": 905,
-    "also_covered_by": []
-  },
-  {
     "title": "FIFA World Cup 2026 Scams Are Already Live: Fake Sites, Banking Malware, and Stolen Logins",
     "summary": "Security researchers and the FBI are warning that a wave of FIFA-themed fraud is already hitting World Cup 2026 fans, days before the June 11 kickoff.\n\nRecent reports describe thousands of lookalike FIFA domains, banking malware hidden inside pirate streaming apps, and at least one operation that copies FIFA's login page well enough to take over real accounts.\n\nIt is an obvious target. More than",
     "link": "https://thehackernews.com/2026/06/fifa-world-cup-2026-scams-are-already.html",
@@ -794,16 +694,6 @@
     "source": "microsoft.com",
     "category": "AI & Security",
     "importance_score": 855,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hackers Used Meta’s AI Support Bot to Seize Instagram Accounts",
-    "summary": "The Instagram accounts for the Obama White House and the Chief Master Sergeant of the U.S. Space Force were briefly defaced with pro-Iranian images and messages over the weekend, after instructions began circulating on Telegram showing how to trick Meta's \"AI support assistant\" bot into resetting account passwords.",
-    "link": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
-    "published": "2026-06-01T17:32:50",
-    "source": "krebsonsecurity.com",
-    "category": "Vulnerability",
-    "importance_score": 814,
     "also_covered_by": []
   },
   {
@@ -907,16 +797,6 @@
     "also_covered_by": []
   },
   {
-    "title": "AI-Powered Worm Leverages Stolen Compute to Target Linux, Windows, and IoT Devices",
-    "summary": "<p>AI-powered malware is moving from theory to reality, with new proof-of-concept worms showing how large language models (LLMs) can autonomously compromise mixed networks of Linux, Windows, and IoT devices while parasitically hijacking GPU compute for their own reasoning. Instead of shipping with a fixed exploit toolkit, this new class of AI-driven malware uses an embedded [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ai-powered-worm-leverages-stolen-compute-devices/\">AI-Powered Worm Leverages Stolen Compute to Target Linux, Windows, and IoT Devices</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/ai-powered-worm-leverages-stolen-compute-devices/",
-    "published": "2026-06-05T08:10:22",
-    "source": "gbhackers.com",
-    "category": "AI & Security",
-    "importance_score": 725,
-    "also_covered_by": []
-  },
-  {
     "title": "U.S. sanctions Nobitex crypto exchange used by Iranian ransomware actors",
     "summary": "The U.S. Treasury's Office of Foreign Assets Control (OFAC) has announced sanctions against Nobitex, Iran's largest cryptocurrency exchange, for facilitating payments related to terrorist activities. [...]",
     "link": "https://www.bleepingcomputer.com/news/security/the-us-sanctions-nobitex-crypto-exchange-used-by-ransomware/",
@@ -947,16 +827,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Chinese APT VerdantBamboo Targets Appliances with BRICKSTORM Malware",
-    "summary": "<p>BRICKSTORM is a modular remote access trojan (RAT) originally seen in Golang and later in Rust. It uses a wssoft library with pluggable “tasks” for shell commands, a Socks5 proxy, and a simple web server for file listing. An incident response engagement that began after suspicious network traffic was observed from a Linux-based virtual machine [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/chinese-apt-verdantbamboo/\">Chinese APT VerdantBamboo Targets Appliances with BRICKSTORM Malware</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/chinese-apt-verdantbamboo/",
-    "published": "2026-06-05T05:49:03",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 708,
-    "also_covered_by": []
-  },
-  {
     "title": "State-sponsored actors, better known as the friends you don’t want",
     "summary": "Responding to a state-sponsored threat is nothing like responding to ransomware, and the differences can make or break the outcome. Learn why your IR plan might need revisiting, and the factors you should consider.",
     "link": "https://blog.talosintelligence.com/state-sponsored-actors-better-known-as-the-friends-you-dont-want/",
@@ -977,16 +847,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Patch Tuesday, May 2026 Edition",
-    "summary": "Artificial intelligence platforms may be just as susceptible to social engineering as human beings, but they are proving remarkably good at finding security vulnerabilities in human-made computer code. That reality is on full display this month with some of the more widely-used software makers -- including Apple, Google, Microsoft, Mozilla and Oracle -- fixing near record volumes of security bugs, and/or quickening the tempo of their patch releases.",
-    "link": "https://krebsonsecurity.com/2026/05/patch-tuesday-may-2026-edition/",
-    "published": "2026-05-12T21:46:45",
-    "source": "krebsonsecurity.com",
-    "category": "Phishing / Scams",
-    "importance_score": 675,
-    "also_covered_by": []
-  },
-  {
     "title": "Risk Scenarios for the US’s Strategic Pivot",
     "summary": "The United States (US) is shifting toward a more force-driven security strategy primarily relying on military operations and economic pressure to counter transnational criminal organizations and limit Chinese, Russian, and Iranian influence in the Western Hemisphere.",
     "link": "https://www.recordedfuture.com/research/us-strategic-pivot",
@@ -994,16 +854,6 @@
     "source": "recordedfuture.com",
     "category": "Vulnerability",
     "importance_score": 666,
-    "also_covered_by": []
-  },
-  {
-    "title": "Canvas Breach Disrupts Schools & Colleges Nationwide",
-    "summary": "An ongoing data extortion attack targeting the widely-used education technology platform Canvas disrupted classes and coursework at school districts and universities across the United States today, after a cybercrime group defaced the service's login page with a ransom demand that threatened to leak data from 275 million students and faculty across nearly 9,000 educational institutions.",
-    "link": "https://krebsonsecurity.com/2026/05/canvas-breach-disrupts-schools-colleges-nationwide/",
-    "published": "2026-05-08T02:58:46",
-    "source": "krebsonsecurity.com",
-    "category": "Data Breach",
-    "importance_score": 656,
     "also_covered_by": []
   },
   {
@@ -1084,36 +934,6 @@
     "source": "securelist.com",
     "category": "Other",
     "importance_score": 635,
-    "also_covered_by": []
-  },
-  {
-    "title": "Microsoft Edge Vulnerability Lets Remote Attackers Execute Arbitrary Code",
-    "summary": "<p>Microsoft has disclosed three critical vulnerabilities in its Edge browser, all discovered during the Pwn2Own competition and reported by security researcher Orange Tsai of DEVCORE Research Team. The flaws, tracked as CVE-2026-45492, CVE-2026-45494, and CVE-2026-45495, were publicly disclosed on June 4, 2026, with patches already issued by Microsoft. Overview of the Vulnerability CVE-2026-45492 &#8211; Origin [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/microsoft-edge-vulnerability/\">Microsoft Edge Vulnerability Lets Remote Attackers Execute Arbitrary Code</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/microsoft-edge-vulnerability/",
-    "published": "2026-06-05T05:24:56",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 627,
-    "also_covered_by": []
-  },
-  {
-    "title": "New SHub Stealer Variant Targets Major Browsers and Crypto Wallets",
-    "summary": "<p>Threat actors have resurfaced with an upgraded SHub stealer for macOS, now branded “Reaper,” and they’re using a stealthy distribution trick that should worry every Mac user. Attackers build fake download pages for popular apps (WeChat, Miro and others) and employ an automated ClickFix technique that opens Apple’s Script Editor preloaded with malicious code. One [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/new-shub-stealer-variant/\">New SHub Stealer Variant Targets Major Browsers and Crypto Wallets</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/new-shub-stealer-variant/",
-    "published": "2026-06-05T08:35:15",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 612,
-    "also_covered_by": []
-  },
-  {
-    "title": "Microsoft Edge Vulnerability Allows Remote Attackers to Execute Arbitrary Code",
-    "summary": "<p>Microsoft has released a security update addressing a critical vulnerability in Microsoft Edge that could allow remote attackers to execute arbitrary code on vulnerable systems. Tracked as CVE-2026-45495 and reported by Orange Tsai of DEVCORE, the flaw carries a CVSS v3 score of 7.5 and requires user interaction, for example, visiting a malicious webpage or [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-edge-vulnerability-code-execution/\">Microsoft Edge Vulnerability Allows Remote Attackers to Execute Arbitrary Code</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/microsoft-edge-vulnerability-code-execution/",
-    "published": "2026-06-05T04:56:43",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 610,
     "also_covered_by": []
   },
   {
@@ -1327,16 +1147,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Let’s Encrypt Unveils Merkle Tree Certificates to Secure the Web Against Quantum Threats",
-    "summary": "<p>Let&#8217;s Encrypt has announced its roadmap for post-quantum Web PKI, centering on a novel approach called Merkle Tree Certificates (MTCs), a design that delivers quantum-resistant authentication without bloating TLS handshakes or breaking the web&#8217;s performance expectations. Traditional X.509 certificate chains require significant bandwidth, which would increase substantially with the adoption of robust post-quantum algorithms. MTCs [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/lets-encrypt-merkle-tree-certificates/\">Let&#8217;s Encrypt Unveils Merkle Tree Certificates to Secure the Web Against Quantum Threats</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/lets-encrypt-merkle-tree-certificates/",
-    "published": "2026-06-05T05:37:31",
-    "source": "cybersecuritynews.com",
-    "category": "Ransomware",
-    "importance_score": 484,
-    "also_covered_by": []
-  },
-  {
     "title": "Hypotheses, telemetry, and human judgment: Inside Cisco Talos Threat Hunting",
     "summary": "Learn how Cisco Talos Threat Hunting uses hypothesis-driven methods and multi-domain telemetry correlation to find stealthy threats operating below automated detection thresholds.",
     "link": "https://blog.talosintelligence.com/hypotheses-telemetry-and-human-judgment-inside-cisco-talos-threat-hunting/",
@@ -1397,16 +1207,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Let’s Encrypt Introduces Merkle Tree Certificates for Post-Quantum Web Security",
-    "summary": "<p>Let’s Encrypt has unveiled a new approach to securing the web against future quantum threats: Merkle Tree Certificates (MTCs), a post-quantum–ready certificate model designed to maintain the speed and reliability of today’s TLS ecosystem. As the industry moves closer to the reality of cryptographically relevant quantum computers (CRQCs), the focus is shifting beyond encryption to [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/lets-encrypt-introduces-merkle-tree-certificates/\">Let’s Encrypt Introduces Merkle Tree Certificates for Post-Quantum Web Security</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/lets-encrypt-introduces-merkle-tree-certificates/",
-    "published": "2026-06-05T06:36:15",
-    "source": "gbhackers.com",
-    "category": "Ransomware",
-    "importance_score": 476,
-    "also_covered_by": []
-  },
-  {
     "title": "I tried Google Drive's new AI cleanup tool to fix 14 years of storage clutter - here's the result",
     "summary": "With Organize My Files, can Gemini clean up my messy Google Drive and save me money on storage? Let's see.",
     "link": "https://www.zdnet.com/article/i-tried-google-drives-new-ai-cleanup-tool-storage-clutter/",
@@ -1437,16 +1237,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Malicious Python Package Mimics Parsimonious Parser",
-    "summary": "<p>A sophisticated typosquatting attack targeting Python developers through a malicious package named &#8220;parsimonius&#8221; on the Python Package Index (PyPI). The rogue package was engineered to impersonate the legitimate parsimonious parsing library, a well-known tool for building recursive descent parsers in Python, by altering just a single character in the package name. The attack exemplifies a [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/python-package-mimics-parsimonious/\">Malicious Python Package Mimics Parsimonious Parser</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/python-package-mimics-parsimonious/",
-    "published": "2026-06-05T06:29:21",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 471,
-    "also_covered_by": []
-  },
-  {
     "title": "Offroad Emerges From Stealth With $7 Million to Tackle Enterprise Identity Risk",
     "summary": "<p>As AI agents, machine identities, and third-party applications multiply across enterprises, Offroad is betting autonomous security agents can restore control over an increasingly unmanageable identity landscape.</p>\n<p>The post <a href=\"https://www.securityweek.com/offroad-emerges-from-stealth-with-7-million-to-tackle-enterprise-identity-risk/\">Offroad Emerges From Stealth With $7 Million to Tackle Enterprise Identity Risk</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
     "link": "https://www.securityweek.com/offroad-emerges-from-stealth-with-7-million-to-tackle-enterprise-identity-risk/",
@@ -1467,16 +1257,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Cisco SD-WAN Vulnerability Exploited in the Wild to Execute Arbitrary Commands as Root User",
-    "summary": "<p>Cisco has disclosed a high-severity vulnerability in its Catalyst SD-WAN Manager that is actively being exploited in the wild, allowing attackers to execute arbitrary commands with root privileges. The issue, tracked as CVE-2026-20245, carries a CVSS score of 7.8 and stems from improper input validation in the system’s command-line interface. According to Cisco’s advisory, the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/cisco-sd-wan-vulnerability-exploit/\">Cisco SD-WAN Vulnerability Exploited in the Wild to Execute Arbitrary Commands as Root User</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/cisco-sd-wan-vulnerability-exploit/",
-    "published": "2026-06-05T06:30:52",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 466,
-    "also_covered_by": []
-  },
-  {
     "title": "Webinar Today: Third-Party Risk in Practice – Where Programs Break Down and How to Respond",
     "summary": "<p>Join this live webinar as we examine the gap between how organizations think their third-party risk programs are performing and what’s actually happening in practice. </p>\n<p>The post <a href=\"https://www.securityweek.com/webinar-today-third-party-risk-in-practice-where-programs-break-down-and-to-respond/\">Webinar Today: Third-Party Risk in Practice &#8211; Where Programs Break Down and How to Respond</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
     "link": "https://www.securityweek.com/webinar-today-third-party-risk-in-practice-where-programs-break-down-and-to-respond/",
@@ -1484,26 +1264,6 @@
     "source": "securityweek.com",
     "category": "Other",
     "importance_score": 464,
-    "also_covered_by": []
-  },
-  {
-    "title": "HexStrike AI RED-TEAM With 127 Security Tools and BOAZ Red Team Integration",
-    "summary": "<p>A fork of the original HexStrike AI project has been released as HexStrike AI v6.0, an advanced Model Context Protocol (MCP)-based cybersecurity automation framework that merges 127 professional security tools with BOAZ, a multi-layered, EDR/AV payload evasion engine built for real-world red team operations The platform enables Claude, GPT, VS Code Copilot, Cursor, and any MCP-compatible [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hexstrike-ai-red-team-tool/\">HexStrike AI RED-TEAM With 127 Security Tools and BOAZ Red Team Integration</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/hexstrike-ai-red-team-tool/",
-    "published": "2026-06-05T02:23:10",
-    "source": "cybersecuritynews.com",
-    "category": "AI & Security",
-    "importance_score": 463,
-    "also_covered_by": []
-  },
-  {
-    "title": "Zero-Click Agentic AI Attack Bypasses Human Oversight",
-    "summary": "<p>Taxonomy of Failure Modes in Agentic AI Systems v2.0 published in April 2026, the field received more than a classification update: it got operational guidance grounded in a year of real-world red teaming that exposed how quickly agentic AI systems transform classical threat surfaces into new, high-impact attack vectors. The headline finding from those engagements [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/zero-click-agentic-ai-attack/\">Zero-Click Agentic AI Attack Bypasses Human Oversight</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/zero-click-agentic-ai-attack/",
-    "published": "2026-06-05T07:31:50",
-    "source": "gbhackers.com",
-    "category": "AI & Security",
-    "importance_score": 461,
     "also_covered_by": []
   },
   {
@@ -1654,16 +1414,6 @@
     "source": "securityweek.com",
     "category": "AI & Security",
     "importance_score": 432,
-    "also_covered_by": []
-  },
-  {
-    "title": "‘Scattered Spider’ Member ‘Tylerb’ Pleads Guilty",
-    "summary": "A 24-year-old British national and senior member of the cybercrime group \"Scattered Spider\" has pleaded guilty to wire fraud conspiracy and aggravated identity theft. Tyler Robert Buchanan admitted his role in a series of text-message phishing attacks in the summer of 2022 that allowed the group to hack into at least a dozen major technology companies and steal tens of millions of dollars worth of cryptocurrency from investors.",
-    "link": "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
-    "published": "2026-04-21T14:53:59",
-    "source": "krebsonsecurity.com",
-    "category": "Phishing / Scams",
-    "importance_score": 428,
     "also_covered_by": []
   },
   {
@@ -2017,16 +1767,6 @@
     "also_covered_by": []
   },
   {
-    "title": "CISA Admin Leaked AWS GovCloud Keys on Github",
-    "summary": "Until this past weekend, a contractor for the Cybersecurity &#038; Infrastructure Security Agency (CISA) maintained a public GitHub repository that exposed credentials to several highly privileged AWS GovCloud accounts and a large number of internal CISA systems. Security experts said the public archive included files detailing how CISA builds, tests and deploys software internally, and that it represents one of the most egregious government data leaks in recent history.",
-    "link": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
-    "published": "2026-05-18T20:48:21",
-    "source": "krebsonsecurity.com",
-    "category": "Data Breach",
-    "importance_score": 321,
-    "also_covered_by": []
-  },
-  {
     "title": "Chinese-Speaking Actor TA4922 Widens Its Global Reach",
     "summary": "Newly named Chinese-speaking actor TA4922 expands from East Asia into Europe and Africa",
     "link": "https://www.infosecurity-magazine.com/news/ta4922-global-expansion/",
@@ -2064,16 +1804,6 @@
     "source": "zdnet.com",
     "category": "Other",
     "importance_score": 314,
-    "also_covered_by": []
-  },
-  {
-    "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
-    "summary": "Lawmakers in both houses of Congress are demanding answers from the U.S. Cybersecurity &#038; Infrastructure Security Agency (CISA) after KrebsOnSecurity reported this week that a CISA contractor intentionally published AWS GovCloud keys and a vast trove of other agency secrets on a public GitHub account. The inquiry comes as CISA is still struggling to contain the breach and invalidate the leaked credentials.",
-    "link": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
-    "published": "2026-05-22T16:34:24",
-    "source": "krebsonsecurity.com",
-    "category": "Data Breach",
-    "importance_score": 303,
     "also_covered_by": []
   },
   {
@@ -2457,16 +2187,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks",
-    "summary": "Authorities in the Netherlands have arrested the co-owners of two related Internet hosting companies for operating IT infrastructure used by Russia to carry out cyberattacks, influence operations and disinformation campaigns inside the European Union. The two men were the focus of a 2025 KrebsOnSecurity story about how their hosting companies had assumed control over the technical infrastructure of Stark Industries Solutions, an Internet service provider sanctioned last year by the EU as a frequent staging ground for cyber mischief from Russia's intelligence agencies.",
-    "link": "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/",
-    "published": "2026-05-25T13:21:49",
-    "source": "krebsonsecurity.com",
-    "category": "Other",
-    "importance_score": 171,
-    "also_covered_by": []
-  },
-  {
     "title": "Infosecurity Europe: AI-Powered Cybercrime Tools Surge on Dark Web",
     "summary": "Halcyon’s Cynthia Kaiser lifts the lid on the dark web market for AI cybercrime tools",
     "link": "https://www.infosecurity-magazine.com/news/cybercrime-ai-tools-surge-3800/",
@@ -2504,16 +2224,6 @@
     "source": "blog.mozilla.org",
     "category": "Other",
     "importance_score": 168,
-    "also_covered_by": []
-  },
-  {
-    "title": "Alleged Kimwolf Botmaster ‘Dort’ Arrested, Charged in U.S. and Canada",
-    "summary": "Canadian authorities on Wednesday arrested a 23-year-old Ottawa man on suspicion of building and operating Kimwolf, a fast spreading Internet-of-Things botnet that enslaved millions of devices for use in a series of massive distributed denial-of-service (DDoS) attacks over the past six months. KrebsOnSecurity publicly named the suspect in February 2026 after the accused launched a volley of DDoS, doxing and swatting campaigns against this author and a security researcher. He now faces criminal hacking charges in both Canada and the United States.",
-    "link": "https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/",
-    "published": "2026-05-21T21:50:25",
-    "source": "krebsonsecurity.com",
-    "category": "Other",
-    "importance_score": 165,
     "also_covered_by": []
   },
   {
@@ -2616,16 +2326,6 @@
     "source": "blog.mozilla.org",
     "category": "Other",
     "importance_score": 135,
-    "also_covered_by": []
-  },
-  {
-    "title": "Anti-DDoS Firm Heaped Attacks on Brazilian ISPs",
-    "summary": "A Brazilian tech firm that specializes in protecting networks from distributed denial-of-service (DDoS) attacks has been enabling a botnet responsible for an extended campaign of massive DDoS attacks against other network operators in Brazil, KrebsOnSecurity has learned. The firm's chief executive says the malicious activity resulted from a security breach and was likely the work of a competitor trying to tarnish his company's public image.",
-    "link": "https://krebsonsecurity.com/2026/04/anti-ddos-firm-heaped-attacks-on-brazilian-isps/",
-    "published": "2026-04-30T14:04:26",
-    "source": "krebsonsecurity.com",
-    "category": "Other",
-    "importance_score": 133,
     "also_covered_by": []
   },
   {
