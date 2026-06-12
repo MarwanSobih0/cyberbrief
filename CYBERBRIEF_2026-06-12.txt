@@ -1,0 +1,62 @@
+CYBERBRIEF • DAILY THREAT INTELLIGENCE
+Generated: Friday, June 12, 2026 - 08:54 UTC
+================================================================================
+
+Total topics: 327    •    Scanned raw articles: 334
+Severity breakdown:
+  CRITICAL: 23  |  HIGH: 16  |  MEDIUM: 45  |  LOW: 243
+
+Top 7 active threats:
+
+1. Alert Triangle  cisa.gov  [News Site]
+   Title    : Vulnerability Summary for the Week of May 4, 2026
+   Category : Ransomware    •    Severity: CRITICAL (score: 9280)
+   Published: 2026-05-11T15:02:37
+   Link     : https://www.cisa.gov/news-events/bulletins/sb26-131
+   Also covered by: cisa.gov, cisa.gov
+
+2. Alert Triangle  cisa.gov  [News Site]
+   Title    : Vulnerability Summary for the Week of April 6, 2026
+   Category : Ransomware    •    Severity: CRITICAL (score: 8880)
+   Published: 2026-04-13T18:34:53
+   Link     : https://www.cisa.gov/news-events/bulletins/sb26-103
+   Also covered by: cisa.gov, cisa.gov, cisa.gov
+
+3. Alert Triangle  cisa.gov  [News Site]
+   Title    : Vulnerability Summary for the Week of February 2, 2026
+   Category : Ransomware    •    Severity: CRITICAL (score: 7200)
+   Published: 2026-02-09T15:19:35
+   Link     : https://www.cisa.gov/news-events/bulletins/sb26-040
+
+4. Alert Triangle  cisa.gov  [News Site]
+   Title    : Countering Chinese State-Sponsored Actors Compromise of Networks Worldwide to Feed Global Espionage System
+   Category : Ransomware    •    Severity: CRITICAL (score: 5760)
+   Published: 2025-08-25T13:36:40
+   Link     : https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a
+
+5. Alert Triangle  cisa.gov  [News Site]
+   Title    : #StopRansomware: Interlock
+   Category : Ransomware    •    Severity: CRITICAL (score: 5680)
+   Published: 2025-07-21T14:11:24
+   Link     : https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-203a
+
+6. Alert Triangle  cisa.gov  [News Site]
+   Title    : Vulnerability Summary for the Week of June 1, 2026
+   Category : Ransomware    •    Severity: CRITICAL (score: 5360)
+   Published: 2026-06-08T11:15:41
+   Link     : https://www.cisa.gov/news-events/bulletins/sb26-159
+
+7. Alert Triangle  cisa.gov  [News Site]
+   Title    : Ransomware Actors Exploit Unpatched SimpleHelp Remote Monitoring and Management to Compromise Utility Billing Software Provider
+   Category : Ransomware    •    Severity: CRITICAL (score: 4560)
+   Published: 2025-06-12T14:29:54
+   Link     : https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-163a
+
+Security Tips:
+• Never trust unsolicited links or attachments in email or messaging apps.
+• Enable multi-factor authentication (MFA) on email, banking, and admin accounts.
+• Keep browsers, VPNs, and endpoint security fully patched.
+
+Scanned 334 articles • Top 7 topics selected
+Next planned auto-update: 08:00 AM UTC
+Stay safe, stay sharp!
