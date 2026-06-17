@@ -439,6 +439,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Hackers Compromised 140+ Mastra npm Packages to Deploy Password-Stealing Malware",
+    "summary": "<p>A sophisticated supply chain attack has targeted the Mastra-AI npm ecosystem, with researchers from Microsoft and Socket identifying over 141 compromised packages designed to silently deploy an infostealer payload on developer machines, CI/CD runners, and build environments. The campaign, detected on June 17, 2026, exploited a typosquatting dependency to deliver multi-stage malware capable of stealing [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/140-mastra-npm-packages-compromised/\">Hackers Compromised 140+ Mastra npm Packages to Deploy Password-Stealing Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/140-mastra-npm-packages-compromised/",
+    "published": "2026-06-17T09:05:34",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 1320,
+    "also_covered_by": []
+  },
+  {
     "title": "CISA Warns of Actively Exploited Joomla JCE Flaw Allowing PHP Code Execution",
     "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a maximum-severity security flaw impacting Widget Factory Joomla Content Editor (JCE) to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nThe vulnerability, tracked as CVE-2026-48907 (CVSS score: 10.0), is a case of improper access control that could facilitate arbitrary",
     "link": "https://thehackernews.com/2026/06/cisa-warns-of-actively-exploited-joomla.html",
@@ -559,6 +569,16 @@
     "also_covered_by": []
   },
   {
+    "title": "CISA Issues Alert on Oracle PeopleSoft Vulnerability Exploited by Ransomware Groups",
+    "summary": "<p>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has issued an urgent alert regarding the active exploitation of a critical vulnerability in Oracle PeopleSoft Enterprise PeopleTools, identified as CVE-2026-35273. This vulnerability, categorized as CWE-306 (Missing Authentication for Critical Function), allows unauthenticated attackers to gain full control of vulnerable PeopleSoft environments. According to CISA, this flaw [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cisa-issues-alert-on-oracle-peoplesoft-vulnerability/\">CISA Issues Alert on Oracle PeopleSoft Vulnerability Exploited by Ransomware Groups</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/cisa-issues-alert-on-oracle-peoplesoft-vulnerability/",
+    "published": "2026-06-17T07:13:59",
+    "source": "gbhackers.com",
+    "category": "Ransomware",
+    "importance_score": 1093,
+    "also_covered_by": []
+  },
+  {
     "title": "Protecting Cookies with Device Bound Session Credentials",
     "summary": "<span class=\"byline-author\">Posted by Ben Ackerman, Chrome team,  Daniel Rubery, Chrome team and Guillaume Ehinger, Google Account Security team</span>\n\n<p>\nFollowing our April 2024 <a href=\"https://blog.chromium.org/2024/04/fighting-cookie-theft-using-device.html\">announcement</a>, Device Bound Session Credentials (DBSC) is now entering public availability for Windows users on Chrome 146, and expanding to macOS in an upcoming Chrome release. This project represents a significant step forward in our ongoing efforts to combat session theft, which remains a prevalent threat in the modern security landscape.\n</p>\n<p>\nSession theft typically occurs when a user inadvertently downloads malware onto their device. Once active, the malware can silently extract existing session cookies from the browser or wait for the user to log in to new accounts, before exfiltrating these tokens to an attacker-controlled server. Infostealer malware families, such as LummaC2, have become increasingly sophisticated at harvesting these credentials. Because cookies often have extended lifetimes, attackers can use them to gain unauthorized access to a user’s accounts without ever needing their passwords; this access is then often bundled, traded, or sold among threat actors.\n</p>\n<p>\nCrucially, once sophisticated malware has gained access to a machine, it can read the local files and memory where browsers store authentication cookies. As a result, there is no reliable way to prevent cookie exfiltration using software alone on any operating system. Historically, mitigating session theft relied on detecting the stolen credentials after the fact using a complex set of abuse heuristics – a reactive approach that persistent attackers could often circumvent. DBSC fundamentally changes the web's capability to defend against this threat by shifting the paradigm from reactive detection to proactive prevention, ensuring that successfully exfiltrated cookies cannot be used to access users’ accounts.\n</p>\n<h3>How DBSC Works</h3>\n\n\n<p>\nDBSC protects against session theft by cryptographically binding authentication sessions to a specific device. It does this using hardware-backed security modules, such as the Trusted Platform Module (TPM) on Windows and the Secure Enclave on macOS, to generate a unique public/private key pair that cannot be exported from the machine. The issuance of new short-lived session cookies is contingent upon Chrome proving possession of the corresponding private key to the server. Because attackers cannot steal this key, any exfiltrated cookies quickly expire and become useless to those attackers. This design allows large and small websites to upgrade to secure, hardware-bound sessions by adding dedicated registration and refresh endpoints to their backends, while maintaining complete compatibility with their existing front-end. The browser handles the complex cryptography and cookie rotation in the background, allowing the web app to continue using standard cookies for access just as it always has. \n</p>\n<p>\nGoogle rolled out an early version of this protocol over the last year. For sessions protected by DBSC, we have observed a significant reduction in session theft since its launch.\n</p>\n<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjk4eZvzfBqPL0Xf1ckUo7l58eyeZKSzIelxjLOiOE_XHYNZc-qdx24Sv9n3tgRgc2xOzKZvcHsCksprOlxwd-gIRQaLPsOu2jjuCV4e6G1_ImsXhQeOean1CWndOiQuikT94gbvZLlWfktpCBRtxh9dJkxjpfvradSkzWD1Wqxohg9TJUdyC1kC88y6Abu/s1600/Screenshot%202026-04-09%20at%2010.11.22%E2%80%AFAM.png\" style=\"display: block; padding: 1em 0; text-align: center;\"><img alt=\"\" border=\"0\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjk4eZvzfBqPL0Xf1ckUo7l58eyeZKSzIelxjLOiOE_XHYNZc-qdx24Sv9n3tgRgc2xOzKZvcHsCksprOlxwd-gIRQaLPsOu2jjuCV4e6G1_ImsXhQeOean1CWndOiQuikT94gbvZLlWfktpCBRtxh9dJkxjpfvradSkzWD1Wqxohg9TJUdyC1kC88y6Abu/s1600/Screenshot%202026-04-09%20at%2010.11.22%E2%80%AFAM.png\" /></a></div>\n<p style=\"text-align: center;\">\n<em>An overview of the DBSC protocol showing the interaction between the browser and server.</em>\n</p>\n<h3>Private by design</h3>\n\n\n<p>\nA core tenet of the DBSC architecture is the preservation of user privacy. Each session is backed by a distinct key, preventing websites from using these credentials to correlate a user's activity across different sessions or sites on the same device. Furthermore, the protocol is designed to be lean: it does not leak device identifiers or attestation data to the server beyond the per-session public key required to certify proof of possession. This minimal information exchange ensures DBSC helps secure sessions without enabling cross-site tracking or acting as a device fingerprinting mechanism.\n</p>\n<h3>Engagement with the ecosystem</h3>\n\n\n<p>\nDBSC was designed from the beginning to be an open web standard through the W3C process and adoption by the Web Application Security Working Group. Through this process we partnered with Microsoft to design the standard to ensure it works for the web and got input from many in the industry that are responsible for web security.\n</p>\n<p>\nAdditionally, over the past year, we have also conducted two Origin Trials to ensure DBSC effectively serves the requirements of the broader web community. Many web platforms, including Okta, actively participated in these trials and their own testing and provided essential feedback to ensure the protocol effectively addresses their diverse needs.\n</p>\n<p>\nIf you are a web developer and are looking for a way to secure your users against session theft, refer to our <a href=\"https://developer.chrome.com/docs/web-platform/device-bound-session-credentials\">developer guide</a> for implementation details. Additionally, all the details about DBSC can be found on the <a href=\"https://w3c.github.io/webappsec-dbsc/\">spec</a> and the corresponding <a href=\"https://github.com/w3c/webappsec-dbsc\">github</a>. Feel free to use the <a href=\"https://github.com/w3c/webappsec-dbsc/issues\">issues</a> page to report bugs or provide feature requests.\n</p>\n<h3>Future improvements</h3>\n\n\n<p>\nAs we continue to evolve the DBSC standard, future iterations will focus on increasing support across diverse ecosystems and introducing advanced capabilities tailored for complex enterprise environments. Key areas of ongoing development include:\n</p>\n<ul>\n\n<li><strong>Securing Federated Identity: </strong>In modern enterprise environments, Single Sign-On (SSO) is ubiquitous. We are expanding the DBSC protocol to support cross-origin bindings, ensuring that a relying party (RP) session remains continuously bound to the same original device key used by the Identity Provider (IdP). This guarantees that the high-assurance security of the initial device binding is maintained throughout the entire federated login process, creating an unbroken chain of trust.</li>\n\n<li><strong>Advanced Registration Capabilities:</strong> While DBSC provides robust protection for established cookies, some environments require an even stronger foundation when the session is first created. We are developing mechanisms to bind DBSC sessions to pre-existing, trusted key material rather than generating a new key at sign-in. This advanced capability enables websites to integrate complementary technologies, such as mTLS certificates or hardware security keys, creating a highly secure registration environment.</li>\n\n<li><strong>Broader Device Support:</strong> We are also actively exploring the potential addition of software-based keys to extend protections to devices without dedicated secure hardware.",
     "link": "http://security.googleblog.com/2026/04/protecting-cookies-with-device-bound.html",
@@ -576,6 +596,16 @@
     "source": "thehackernews.com",
     "category": "Phishing / Scams",
     "importance_score": 986,
+    "also_covered_by": []
+  },
+  {
+    "title": "Steam Workshop Malware Campaign Uses Wallpaper Engine to Steal Accounts and Infect Gamers",
+    "summary": "<p>A sophisticated malware campaign has been abusing Steam Workshop’s sharing model to distribute backdoors, infostealers and crypto miners hidden inside Wallpaper Engine packages, primarily targeting gamers in China and Russia. The campaign exploits Wallpaper Engine’s “application” wallpaper type essentially standalone executables that run as animated desktop backgrounds to execute arbitrary code the moment a user [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/steam-workshop-malware-campaign/\">Steam Workshop Malware Campaign Uses Wallpaper Engine to Steal Accounts and Infect Gamers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/steam-workshop-malware-campaign/",
+    "published": "2026-06-17T07:44:16",
+    "source": "gbhackers.com",
+    "category": "AI & Security",
+    "importance_score": 983,
     "also_covered_by": []
   },
   {
@@ -606,6 +636,16 @@
     "source": "unit42.paloaltonetworks.com",
     "category": "Vulnerability",
     "importance_score": 968,
+    "also_covered_by": []
+  },
+  {
+    "title": "Hackers Abuse Steam Workshop Application Wallpapers to Hijack Active Steam Sessions",
+    "summary": "<p>Threat actors have been abusing Valve&#8217;s Steam Workshop since late 2025, embedding malware inside Wallpaper Engine application wallpapers to hijack active Steam sessions and infect victims with backdoors, infostealers, and crypto miners, with 89% of targets located in China, according to a new Kaspersky report. Wallpaper Engine is a hugely popular Steam application that lets [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/steam-workshop-abused/\">Hackers Abuse Steam Workshop Application Wallpapers to Hijack Active Steam Sessions</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/steam-workshop-abused/",
+    "published": "2026-06-17T06:56:15",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 962,
     "also_covered_by": []
   },
   {
@@ -659,6 +699,26 @@
     "also_covered_by": []
   },
   {
+    "title": "JetBrains Plugin Security Alert: 70,000+ Installs Linked to AI Key Theft",
+    "summary": "<p>A coordinated supply chain attack targeting JetBrains IDE users has exposed over 70,000 developers to silent credential theft. The campaign involves at least 15 malicious plugins distributed via the JetBrains Marketplace, masquerading as AI-powered coding assistants built on models such as DeepSeek. While these plugins function as advertised, offering features like code review, chat, and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/jetbrains-plugin-security-alert/\">JetBrains Plugin Security Alert: 70,000+ Installs Linked to AI Key Theft</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/jetbrains-plugin-security-alert/",
+    "published": "2026-06-17T05:42:39",
+    "source": "gbhackers.com",
+    "category": "AI & Security",
+    "importance_score": 922,
+    "also_covered_by": []
+  },
+  {
+    "title": "Malware Uses Deno Permission Flags to Run Commands and Proxy Internal Network Traffic",
+    "summary": "<p>A recent intrusion demonstrates how threat actors are shifting toward scripting runtimes to evade traditional detection: attackers delivered a modular Remote Access Trojan (RAT) built on Deno, using social engineering to install a multi-process JavaScript implant that executes commands and proxies internal network traffic. The campaign combined high-volume mailbombing with Microsoft Teams impersonation to trick [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/malware-uses-deno-permission-flags/\">Malware Uses Deno Permission Flags to Run Commands and Proxy Internal Network Traffic</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/malware-uses-deno-permission-flags/",
+    "published": "2026-06-17T05:17:23",
+    "source": "gbhackers.com",
+    "category": "Phishing / Scams",
+    "importance_score": 882,
+    "also_covered_by": []
+  },
+  {
     "title": "New Rokarolla Android Malware Steals PINs, SMS Codes, and Crypto Wallet Funds",
     "summary": "Security researchers at&nbsp;Zimperium's zLabs&nbsp;have documented a new Android banking trojan, Rokarolla, that targets 217 banking and cryptocurrency apps and packs 137 remote commands.\n\nTogether, they give an operator near-total control of an infected phone: it lifts lock-screen PINs, reads and sends SMS, rewrites the clipboard to redirect crypto payments, and switches off Google Play",
     "link": "https://thehackernews.com/2026/06/new-rokarolla-android-malware-steals.html",
@@ -676,6 +736,26 @@
     "source": "commandline.microsoft.com",
     "category": "Vulnerability",
     "importance_score": 868,
+    "also_covered_by": []
+  },
+  {
+    "title": "Deno-Based RAT Uses Microsoft Teams Impersonation and Mailbombing to Target Employees",
+    "summary": "<p>A new strain of malware has emerged that combines two well-known social engineering tactics into one effective attack chain. Researchers have uncovered a Remote Access Trojan built on Deno, an unconventional JavaScript runtime, being deployed against employees through email flooding and fake Microsoft Teams calls. The attack overwhelms targets and then offers a false sense [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-use-rokarolla-android-malware/\">Deno-Based RAT Uses Microsoft Teams Impersonation and Mailbombing to Target Employees</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/hackers-use-rokarolla-android-malware/",
+    "published": "2026-06-17T07:03:49",
+    "source": "cybersecuritynews.com",
+    "category": "Phishing / Scams",
+    "importance_score": 865,
+    "also_covered_by": []
+  },
+  {
+    "title": "Hackers Use Rokarolla Android Malware to Disable Google Play Protect and Control Devices",
+    "summary": "<p>A newly discovered Android banking trojan called Rokarolla is making waves in the cybersecurity world, and it is more dangerous than most threats we have seen lately. This malware is built to take full control of an infected device while staying completely hidden from the user. Its reach is staggering, with over 217 banking and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-use-rokarolla-android-malware-2/\">Hackers Use Rokarolla Android Malware to Disable Google Play Protect and Control Devices</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/hackers-use-rokarolla-android-malware-2/",
+    "published": "2026-06-17T07:14:45",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 854,
     "also_covered_by": []
   },
   {
@@ -786,6 +866,36 @@
     "source": "helpnetsecurity.com",
     "category": "Phishing / Scams",
     "importance_score": 750,
+    "also_covered_by": []
+  },
+  {
+    "title": "Rokarolla Malware Abuses Android Accessibility Services to Steal Banking Credentials",
+    "summary": "<p>Rokarolla, a new Android banking trojan named after its Command-and-Control (C2) infrastructure, that combines sophisticated social engineering, broad permissions abuse, and a flexible command set to harvest credentials from 217 targeted banking and cryptocurrency apps. Distributed via malicious websites that masquerade as popular apps (examples include a disguised landing page at hxxps://infocontablidades[.]it[.]com/). Rokarolla uses a [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/rokarolla-malware-abuses-android/\">Rokarolla Malware Abuses Android Accessibility Services to Steal Banking Credentials</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/rokarolla-malware-abuses-android/",
+    "published": "2026-06-17T05:54:49",
+    "source": "gbhackers.com",
+    "category": "Phishing / Scams",
+    "importance_score": 738,
+    "also_covered_by": []
+  },
+  {
+    "title": "Hackers Inject Malicious JavaScript Into WordPress Sites to Deploy ErrTraffic ClickFix Lures",
+    "summary": "<p>Hackers are injecting malicious JavaScript into compromised WordPress sites to deploy ErrTraffic-powered ClickFix lures, a campaign that achieved nearly 60% victim conversion rates an unprecedented figure in malware ecosystems. Threat actors exploit WordPress vulnerabilities to inject a single line of JavaScript that visually glitches websites, then trick users into executing malicious PowerShell commands under the [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/wordpress-sites-to-deploy-errtraffic/\">Hackers Inject Malicious JavaScript Into WordPress Sites to Deploy ErrTraffic ClickFix Lures</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/wordpress-sites-to-deploy-errtraffic/",
+    "published": "2026-06-17T06:42:00",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 735,
+    "also_covered_by": []
+  },
+  {
+    "title": "SprySOCKS Windows Backdoor Uses Kernel Driver to Hide Processes, Files, and Network Traffic",
+    "summary": "<p>Windows variants of SprySOCKS, a backdoor long associated with FishMonger (aka Earth Lusca/TAG-22), expanding a toolset that was until now Linux-only. The two Windows builds internally labelled WIN_DRV and WIN_PLUS preserve the original SprySOCKS protocol and command set while adding Windows-native loading techniques and, in WIN_DRV’s case, a kernel-mode driver that substantially increases stealth and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/sprysocks-windows-backdoor-uses-kernel/\">SprySOCKS Windows Backdoor Uses Kernel Driver to Hide Processes, Files, and Network Traffic</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/sprysocks-windows-backdoor-uses-kernel/",
+    "published": "2026-06-17T09:04:26",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 732,
     "also_covered_by": []
   },
   {
@@ -1036,6 +1146,16 @@
     "source": "infosecurity-magazine.com",
     "category": "Ransomware",
     "importance_score": 632,
+    "also_covered_by": []
+  },
+  {
+    "title": "Critical Chrome Vulnerabilities Allow Attackers to Execute Arbitrary Code – Update Now!",
+    "summary": "<p>Google has released a critical security update for its Chrome browser, addressing multiple high-severity vulnerabilities that could allow attackers to execute arbitrary code on affected systems. Users are strongly advised to update immediately as several flaws impact core browser components. The latest Chrome Stable channel has been updated to version 149.0.7827.155/.156 for Windows and macOS, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/chrome-vulnerabilities-execute-arbitrary-code/\">Critical Chrome Vulnerabilities Allow Attackers to Execute Arbitrary Code &#8211; Update Now!</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/chrome-vulnerabilities-execute-arbitrary-code/",
+    "published": "2026-06-17T07:19:23",
+    "source": "cybersecuritynews.com",
+    "category": "Policy / Law",
+    "importance_score": 624,
     "also_covered_by": []
   },
   {
@@ -1319,6 +1439,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Hackers Using Claude and OpenAI’s Codex for Exploitation, and Data Exfiltration Activities",
+    "summary": "<p>Hackers are increasingly abusing Anthropic’s Claude and OpenAI’s Codex agents to automate reconnaissance, exploitation, and data exfiltration, often by disguising real intrusions as “authorized red team” work. These AI coding assistants are being treated like full-fledged operators, dramatically lowering the skill barrier for complex, multi-stage attacks. In one recent case, an attacker compromised a Linux [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-using-claude-and-openais-codex-exploitation/\">Hackers Using Claude and OpenAI&#8217;s Codex for Exploitation, and Data Exfiltration Activities</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/hackers-using-claude-and-openais-codex-exploitation/",
+    "published": "2026-06-17T06:36:52",
+    "source": "cybersecuritynews.com",
+    "category": "AI & Security",
+    "importance_score": 479,
+    "also_covered_by": []
+  },
+  {
     "title": "Windows version of SprySOCKS Linux malware used to attack govt orgs",
     "summary": "Windows variants for the SprySOCKS Linux malware have been used in attacks targeting government organizations in at least four countries. [...]",
     "link": "https://www.bleepingcomputer.com/news/security/windows-version-of-sprysocks-linux-malware-used-to-attack-govt-orgs/",
@@ -1349,6 +1479,26 @@
     "also_covered_by": []
   },
   {
+    "title": "NVIDIA NeMo Security Flaw Exposes Systems to Command Injection Attacks",
+    "summary": "<p>NVIDIA has disclosed multiple high-severity vulnerabilities in its NeMo Framework, including a critical command injection flaw that could allow attackers to execute arbitrary code on affected systems. These issues, outlined in the June 2026 security bulletin, impact NeMo versions up to 2.7.2 across all platforms. Exploitation could lead to privilege escalation, data tampering, and the [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/nvidia-nemo-security-flaw-exposes-systems/\">NVIDIA NeMo Security Flaw Exposes Systems to Command Injection Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/nvidia-nemo-security-flaw-exposes-systems/",
+    "published": "2026-06-17T05:28:50",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 473,
+    "also_covered_by": []
+  },
+  {
+    "title": "7-Year-Old OpenBSD Security Flaw Exposes Systems to Full PAP Authentication Bypass",
+    "summary": "<p>A significant authentication flaw has been discovered in the PPP stack of OpenBSD, allowing attackers to bypass the Password Authentication Protocol (PAP) validation and gain unauthorized network access. Although this vulnerability was patched in June 2026, it originated from legacy code dating back to 1999, making it one of the longest-standing authentication bypass issues in [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/7-year-old-openbsd-security-flaw/\">7-Year-Old OpenBSD Security Flaw Exposes Systems to Full PAP Authentication Bypass</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/7-year-old-openbsd-security-flaw/",
+    "published": "2026-06-17T07:44:25",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 472,
+    "also_covered_by": []
+  },
+  {
     "title": "VRChat says reported data breach never happened",
     "summary": "We explain what data was exposed, the potential risks, and the steps you should take now.",
     "link": "https://www.malwarebytes.com/blog/data-breaches/2026/06/data-of-2-4-million-vrchat-users-stolen",
@@ -1359,6 +1509,46 @@
     "also_covered_by": []
   },
   {
+    "title": "Fortra Access Manager Security Flaw Exposes Systems to Command Injection",
+    "summary": "<p>Fortra has reported a critical command injection vulnerability in its Core Privileged Access Manager (BoKS) platform, which could allow remote attackers to execute arbitrary commands with elevated privileges. This could potentially lead to a full system compromise. Tracked as CVE-2026-9862 and assigned a CVSS v3.1 score of 9.8, the flaw exists in the boks_autoregisterd service, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fortra-access-manager-security-flaw/\">Fortra Access Manager Security Flaw Exposes Systems to Command Injection</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/fortra-access-manager-security-flaw/",
+    "published": "2026-06-17T05:19:41",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 471,
+    "also_covered_by": []
+  },
+  {
+    "title": "Critical LiteLLM Flaw Allows Authentication Bypass via Host Header Injection",
+    "summary": "<p>A critical security vulnerability has been disclosed in LiteLLM, an increasingly popular proxy used for managing large language model (LLM) APIs. The flaw, tracked as CVE-2026-49468, allows attackers to bypass authentication mechanisms under specific conditions by exploiting improper handling of the Host header. The issue affects LiteLLM versions before 1.84.0 and has been assigned a [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/litellm-vulnerability-host-header-injection/\">Critical LiteLLM Flaw Allows Authentication Bypass via Host Header Injection</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/litellm-vulnerability-host-header-injection/",
+    "published": "2026-06-17T07:27:56",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 467,
+    "also_covered_by": []
+  },
+  {
+    "title": "UNC3753 Uses Screen-Sharing Sessions and RMM Tools to Exfiltrate Sensitive Legal Data",
+    "summary": "<p>A sophisticated cybercriminal group has been quietly targeting law firms and professional services organizations across the United States since the beginning of 2026. The campaign is financially motivated and relies heavily on deception rather than technical exploits. Victims are manipulated into handing over access to their own systems, and by the time they realize what [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/unc3753-uses-screen-sharing-sessions-and-rmm-tools/\">UNC3753 Uses Screen-Sharing Sessions and RMM Tools to Exfiltrate Sensitive Legal Data</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/unc3753-uses-screen-sharing-sessions-and-rmm-tools/",
+    "published": "2026-06-17T01:43:49",
+    "source": "cybersecuritynews.com",
+    "category": "Policy / Law",
+    "importance_score": 467,
+    "also_covered_by": []
+  },
+  {
+    "title": "AIRecon: AI-Powered Penetration Testing Tool with Kali Linux Sandbox",
+    "summary": "<p>AIRecon is an autonomous penetration testing agent that runs entirely offline, combining a self-hosted Ollama LLM with a Kali Linux Docker sandbox to automate end-to-end security assessments without exposing any data to the cloud. Developed by researcher pikpikcu, it eliminates the prohibitive cost of commercial API-based models like GPT-4 or Claude for recursive recon workflows [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/airecon-penetration-testing-tool/\">AIRecon: AI-Powered Penetration Testing Tool with Kali Linux Sandbox</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/airecon-penetration-testing-tool/",
+    "published": "2026-06-17T07:56:07",
+    "source": "cybersecuritynews.com",
+    "category": "AI & Security",
+    "importance_score": 461,
+    "also_covered_by": []
+  },
+  {
     "title": "AI and Cybersecurity – Everything You Wanted to Know, But Were Afraid to Ask",
     "summary": "<p>From defending networks to enabling attacks, artificial intelligence is changing every aspect of cybersecurity. Here's what dozens of experts say security leaders need to understand now.</p>\n<p>The post <a href=\"https://www.securityweek.com/ai-and-cybersecurity-everything-you-wanted-to-know-but-were-afraid-to-ask/\">AI and Cybersecurity – Everything You Wanted to Know, But Were Afraid to Ask</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
     "link": "https://www.securityweek.com/ai-and-cybersecurity-everything-you-wanted-to-know-but-were-afraid-to-ask/",
@@ -1366,6 +1556,16 @@
     "source": "securityweek.com",
     "category": "Other",
     "importance_score": 460,
+    "also_covered_by": []
+  },
+  {
+    "title": "Using Real-Time Network Monitoring to Spot Suspicious Application Behavior on macOS",
+    "summary": "<p>In this guide, we will see how real-time network monitoring helps you spot suspicious application behavior on macOS, why traditional defenses leave a visibility gap, and how a lightweight monitoring tool can close it without turning your Mac into a security lab. Introduction: The Silent Threat in macOS Most users assume that if they avoid [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/real-time-network-monitoring-for-macos-security/\">Using Real-Time Network Monitoring to Spot Suspicious Application Behavior on macOS</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/real-time-network-monitoring-for-macos-security/",
+    "published": "2026-06-17T06:19:47",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 458,
     "also_covered_by": []
   },
   {
