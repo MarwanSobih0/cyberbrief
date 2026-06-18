@@ -1121,16 +1121,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Ransomware Payment Crypto Laundering Platform Taken Out by FBI and Europol",
-    "summary": "Domain of dark web money laundering platform AudiA6 seized and suspects arrested in joint operation by the FBI, Europol and others",
-    "link": "https://www.infosecurity-magazine.com/news/ransomware-crypto-laundering/",
-    "published": "2026-06-12T14:00:00",
-    "source": "infosecurity-magazine.com",
-    "category": "Ransomware",
-    "importance_score": 632,
-    "also_covered_by": []
-  },
-  {
     "title": "Best early Amazon Prime Day tablet deals: Up to $300 off Samsung, Apple, and Microsoft",
     "summary": "We found the best deals on iPads, Surface Pros, and more, ahead of Amazon's Prime Day sale next week.",
     "link": "https://www.zdnet.com/article/best-early-amazon-prime-day-tablet-deals-2026/",
@@ -1961,6 +1951,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Hostile States Behind 75% of Cyber-Attacks on UK Critical Infrastructure, NCSC Warns",
+    "summary": "Richard Horne, the NCSC CEO, said three-quarters of cyber-attacks targeting UK critical infrastructure came from nation-state actors",
+    "link": "https://www.infosecurity-magazine.com/news/hostile-states-cni-75-percent-ncsc/",
+    "published": "2026-06-18T09:10:00",
+    "source": "infosecurity-magazine.com",
+    "category": "Critical Infrastructure",
+    "importance_score": 333,
+    "also_covered_by": []
+  },
+  {
     "title": "24 billion stolen records exposed online. Here&#8217;s what to do",
     "summary": "Researchers found an exposed collection of 24 billion stolen records, including usernames, passwords, and other sensitive account data.",
     "link": "https://www.malwarebytes.com/blog/news/2026/06/24-billion-stolen-records-found-in-giant-data-dump-check-if-youre-affected",
@@ -2088,16 +2088,6 @@
     "source": "krebsonsecurity.com",
     "category": "Data Breach",
     "importance_score": 321,
-    "also_covered_by": []
-  },
-  {
-    "title": "Fifteen JetBrains Marketplace Plugins Found Stealing API Keys",
-    "summary": "Aikido Security has discovered at least 15 IDE plugins on the JetBrains Marketplace",
-    "link": "https://www.infosecurity-magazine.com/news/fifteen-jetbrains-marketplace/",
-    "published": "2026-06-17T09:10:00",
-    "source": "infosecurity-magazine.com",
-    "category": "Other",
-    "importance_score": 320,
     "also_covered_by": []
   },
   {
@@ -2468,6 +2458,16 @@
     "source": "infosecurity-magazine.com",
     "category": "AI & Security",
     "importance_score": 171,
+    "also_covered_by": []
+  },
+  {
+    "title": "Fifteen JetBrains Marketplace Plugins Found Stealing API Keys",
+    "summary": "Aikido Security has discovered at least 15 IDE plugins on the JetBrains Marketplace",
+    "link": "https://www.infosecurity-magazine.com/news/fifteen-jetbrains-marketplace/",
+    "published": "2026-06-17T09:10:00",
+    "source": "infosecurity-magazine.com",
+    "category": "Other",
+    "importance_score": 170,
     "also_covered_by": []
   },
   {
