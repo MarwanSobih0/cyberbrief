@@ -80,16 +80,6 @@
     "also_covered_by": []
   },
   {
-    "title": "INC Ransomware Uses Double Extortion and Printer Ransom Notes to Pressure Victims",
-    "summary": "<p>INC has matured from an emerging RaaS operation into one of 2026’s most active ransomware families, claiming more than 800 victims since 2023 and capitalizing on disruption among competitors to expand its affiliate base. The group’s recent campaigns demonstrate both incremental tooling refinement and novel pressure tactics: double extortion of stolen data combined with automated [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/inc-ransomware-uses-double-extortion/\">INC Ransomware Uses Double Extortion and Printer Ransom Notes to Pressure Victims</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/inc-ransomware-uses-double-extortion/",
-    "published": "2026-06-19T07:36:23",
-    "source": "gbhackers.com",
-    "category": "Ransomware",
-    "importance_score": 1823,
-    "also_covered_by": []
-  },
-  {
     "title": "F5 Patches Two Critical NGINX Open Source Flaws Enabling Remote Code Execution",
     "summary": "F5 has released security updates to address two critical security flaws in NGINX Open Source that could be exploited to achieve code execution on affected systems.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-42530 (CVSS v4 score: 9.2) - A use-after-free vulnerability in the ngx_http_v3_module that could be triggered by a remote unauthenticated attacker when NGINX Open Source is",
     "link": "https://thehackernews.com/2026/06/f5-patches-two-critical-nginx-open.html",
@@ -107,16 +97,6 @@
     "source": "security.googleblog.com",
     "category": "Vulnerability",
     "importance_score": 1680,
-    "also_covered_by": []
-  },
-  {
-    "title": "Multiple Vulnerabilities in Firefox 152 Enables Remote Code Execution Attacks",
-    "summary": "<p>Mozilla has released Firefox 152 to address multiple high-severity vulnerabilities that could allow remote code execution (RCE) and sandbox escape attacks. The security advisory, published on June 16, 2026, highlights a wide range of flaws affecting core browser components and emphasizes the urgency for users to update immediately. Several of the patched vulnerabilities are classified [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/firefox-152-vulnerabilities/\">Multiple Vulnerabilities in Firefox 152 Enables Remote Code Execution Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/firefox-152-vulnerabilities/",
-    "published": "2026-06-18T15:10:56",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 1663,
     "also_covered_by": []
   },
   {
@@ -197,16 +177,6 @@
     "source": "bleepingcomputer.com",
     "category": "Vulnerability",
     "importance_score": 1537,
-    "also_covered_by": []
-  },
-  {
-    "title": "SmartApeSG Hackers Abuse Okendo Reviews Widget in E-Commerce Supply Chain Attack",
-    "summary": "<p>A supply-chain style compromise in the Okendo Reviews widget that enabled the SmartApeSG threat actor to deliver staged JavaScript loaders across a wide e-commerce surface. Okendo’s client-facing review widget is deployed by more than 18,000 brands and commonly appears on high-visibility pages homepages, product pages, and review submission screens so the injected code produced downstream [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/smartapesg-hackers-abuse-okendo-reviews/\">SmartApeSG Hackers Abuse Okendo Reviews Widget in E-Commerce Supply Chain Attack</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/smartapesg-hackers-abuse-okendo-reviews/",
-    "published": "2026-06-19T09:12:54",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 1526,
     "also_covered_by": []
   },
   {
@@ -317,16 +287,6 @@
     "source": "blog.talosintelligence.com",
     "category": "Vulnerability",
     "importance_score": 1349,
-    "also_covered_by": []
-  },
-  {
-    "title": "State Digital Surveillance Puts Foreign Travelers and Businesses at Risk Across 31 Countries",
-    "summary": "<p>A new state-surveillance assessment finds that foreign travelers and business staff face high or very high digital risk in 31 countries, where governments increasingly use telecom interception, spyware, AI-enabled monitoring, and data aggregation with little meaningful oversight. The concern is not just espionage in the classic sense; it is the routine conversion of travel, communications, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/foreign-travelers-and-businesses-at-risk/\">State Digital Surveillance Puts Foreign Travelers and Businesses at Risk Across 31 Countries</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/foreign-travelers-and-businesses-at-risk/",
-    "published": "2026-06-19T04:54:38",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 1330,
     "also_covered_by": []
   },
   {
@@ -470,16 +430,6 @@
     "also_covered_by": []
   },
   {
-    "title": "CISA Warns of Splunk Enterprise Critical Function Vulnerability Actively Exploited in Attacks",
-    "summary": "<p>CISA has issued a high-priority alert warning organizations about a critical vulnerability in Splunk Enterprise that is actively being exploited in the wild. The flaw, tracked as CVE-2026-20253, has been added to CISA’s Known Exploited Vulnerabilities (KEV) catalog, signaling immediate risk to enterprise environments. According to CISA, the vulnerability stems from a missing authentication mechanism [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/splunk-enterprise-vulnerability-exploit/\">CISA Warns of Splunk Enterprise Critical Function Vulnerability Actively Exploited in Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/splunk-enterprise-vulnerability-exploit/",
-    "published": "2026-06-19T08:04:34",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 1224,
-    "also_covered_by": []
-  },
-  {
     "title": "Crypto Clipper Campaign Abuses Fake Reviews, AI Narrators, and VirusTotal Comments",
     "summary": "An unknown threat actor has been observed leveraging paid or promoted posts on legitimate news websites to drum up buzz for their warez, according to new findings from Check Point Research.\n\nThe threat actor also has at their disposal a dedicated WordPress phishing page that acts as the central hub, alongside GitHub and SourceForge projects promoted by fake accounts, a YouTube channel, and a",
     "link": "https://thehackernews.com/2026/06/crypto-clipper-campaign-abuses-fake.html",
@@ -487,16 +437,6 @@
     "source": "thehackernews.com",
     "category": "Vulnerability",
     "importance_score": 1207,
-    "also_covered_by": []
-  },
-  {
-    "title": "Authorities Dismantle SocGholish Malware Network — 106 Servers and 101 Domains Seized",
-    "summary": "<p>Authorities have dismantled the criminal infrastructure behind SocGholish, one of the most persistent malware frameworks active since 2017, seizing 106 servers and 101 domains while remediating nearly 15,000 infected websites worldwide. The coordinated takedown was executed as part of Operation Endgame, launched in 2024 and recognized as the largest international operation ever conducted against ransomware [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/authorities-dismantle-socgholish/\">Authorities Dismantle SocGholish Malware Network — 106 Servers and 101 Domains Seized</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/authorities-dismantle-socgholish/",
-    "published": "2026-06-18T22:54:34",
-    "source": "cybersecuritynews.com",
-    "category": "Ransomware",
-    "importance_score": 1172,
     "also_covered_by": []
   },
   {
@@ -557,36 +497,6 @@
     "source": "securityweek.com",
     "category": "Vulnerability",
     "importance_score": 1098,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hackers Exploit Klue Integration to Steal Salesforce CRM Data Using OAuth Tokens",
-    "summary": "<p>Hackers are actively exploiting a compromised Klue Battlecards integration to extract sensitive Salesforce CRM data by abusing OAuth tokens, according to new research published by ReliaQuest on June 17, 2026. This campaign highlights a growing trend in which attackers use trusted third-party SaaS integrations as gateways into enterprise environments, effectively bypassing traditional security measures that [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-exploit-klue-integration-to-steal-salesforce-crm-data/\">Hackers Exploit Klue Integration to Steal Salesforce CRM Data Using OAuth Tokens</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/hackers-exploit-klue-integration-to-steal-salesforce-crm-data/",
-    "published": "2026-06-19T05:31:06",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 1086,
-    "also_covered_by": []
-  },
-  {
-    "title": "New Crypto Clipper Uses Windows Script Host and ActiveXObject for Remote Code Execution",
-    "summary": "<p>A novel Windows-based cryptocurrency clipper that has been active since February 2026 and leverages Windows Script Host (WScript) and ActiveXObject calls to achieve remote code execution and persistent, high-frequency data theft. The campaign stands out because it avoids traditional installers and exposed IP-based command-and-control (C2) infrastructure; instead, it bundles a portable Tor client. Routes all [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/crypto-clipper-uses-windows-script/\">New Crypto Clipper Uses Windows Script Host and ActiveXObject for Remote Code Execution</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/crypto-clipper-uses-windows-script/",
-    "published": "2026-06-19T06:00:14",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 1082,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hackers Breached Klue Integration to Steal Salesforce CRM Data via OAuth Tokens",
-    "summary": "<p>Threat actors exploited a trusted third-party SaaS integration to silently harvest enterprise CRM data, marking the latest chapter in an escalating wave of OAuth-abuse attacks targeting Salesforce ecosystems. Researchers at ReliaQuest observed attackers leveraging a compromised Klue Battlecards integration, a competitive-intelligence platform that synchronizes battlecard and win/loss data with Salesforce, to exfiltrate large volumes of [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/klue-integration-breached-salesforce/\">Hackers Breached Klue Integration to Steal Salesforce CRM Data via OAuth Tokens</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/klue-integration-breached-salesforce/",
-    "published": "2026-06-18T16:01:39",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 1079,
     "also_covered_by": []
   },
   {
@@ -850,36 +760,6 @@
     "also_covered_by": []
   },
   {
-    "title": "HazyBeacon Abuses AWS Lambda Function URLs for Stealthy Command-and-Control Operations",
-    "summary": "<p>HazyBeacon is a stealthy cloud-native malware campaign identified as CL-STA-1020. It is exploiting Amazon Web Services (AWS) Lambda Function URLs to create covert command-and-control (C2) channels, marking a significant evolution in attacker tactics. According to recent Qualys research, the campaign primarily targets government entities across Southeast Asia by exploiting misconfigured serverless infrastructure. This allows adversaries [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hazybeacon-abuses-aws-lambda-function/\">HazyBeacon Abuses AWS Lambda Function URLs for Stealthy Command-and-Control Operations</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/hazybeacon-abuses-aws-lambda-function/",
-    "published": "2026-06-19T08:53:17",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 739,
-    "also_covered_by": []
-  },
-  {
-    "title": "Showboat Malware Uses Pastebin-Hosted C Code to Enable Linux Process Hiding",
-    "summary": "<p>A previously undocumented, modular Linux post‑exploitation framework that demonstrates sophisticated stealth techniques most notably fetching and compiling C code hosted on Pastebin to hide processes at runtime. Active since mid‑2022 and aimed at AMD x86‑64 Linux hosts, Showboat remained undetected by antivirus until April 2026, registering zero detections across 65 engines as recently as May [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/showboat-malware-uses-pastebin-hosted-c-code/\">Showboat Malware Uses Pastebin-Hosted C Code to Enable Linux Process Hiding</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/showboat-malware-uses-pastebin-hosted-c-code/",
-    "published": "2026-06-19T07:00:43",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 727,
-    "also_covered_by": []
-  },
-  {
-    "title": "China-Linked Showboat Malware Uses Linux Persistence to Target Telecom Companies",
-    "summary": "<p>A sophisticated China-linked malware framework has been quietly targeting telecom companies across the Middle East for nearly four years. Showboat is a Linux-based tool that stayed completely hidden from antivirus systems until April 2026, raising serious concerns about the security of critical communications infrastructure worldwide. Showboat is not your typical piece of malicious software, as [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/china-linked-showboat-malware-uses-linux-persistence/\">China-Linked Showboat Malware Uses Linux Persistence to Target Telecom Companies</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/china-linked-showboat-malware-uses-linux-persistence/",
-    "published": "2026-06-19T08:56:20",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 723,
-    "also_covered_by": []
-  },
-  {
     "title": "CISA warns Fortinet users to secure devices after FortiBleed leak",
     "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) urged Fortinet customers to secure their devices after nearly 74,000 firewall and VPN credentials were exposed in a data leak dubbed \"FortiBleed.\" [...]",
     "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-fortinet-users-to-secure-devices-after-fortibleed-leak/",
@@ -887,26 +767,6 @@
     "source": "bleepingcomputer.com",
     "category": "Data Breach",
     "importance_score": 719,
-    "also_covered_by": []
-  },
-  {
-    "title": "AI-Powered Public Surveillance and Biometric Data Collection Expand Government Monitoring",
-    "summary": "<p>Governments are expanding their digital reach in ways unimaginable just a decade ago. A growing wave of AI-powered surveillance, biometric data collection, and commercial spyware is reshaping how states monitor citizens and visitors. The scale of this shift is drawing urgent attention from security professionals and human rights organizations worldwide. A new analysis covering 193 [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ai-powered-public-surveillance/\">AI-Powered Public Surveillance and Biometric Data Collection Expand Government Monitoring</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/ai-powered-public-surveillance/",
-    "published": "2026-06-19T06:38:30",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 716,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hackers Use Weaponized Windows Shortcuts to Spread Crypto Clipper Across USB Drives",
-    "summary": "<p>A newly discovered cryptocurrency clipper malware has been quietly stealing digital assets from victims since February 2026, spreading through a trick that most users would never suspect: weaponized Windows shortcut files on USB drives. The malware is not just a simple thief. It comes with worm-like behavior, Tor-based communication, and the ability to execute remote [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-use-weaponized-windows-shortcuts/\">Hackers Use Weaponized Windows Shortcuts to Spread Crypto Clipper Across USB Drives</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/hackers-use-weaponized-windows-shortcuts/",
-    "published": "2026-06-19T07:50:37",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 713,
     "also_covered_by": []
   },
   {
@@ -1080,16 +940,6 @@
     "also_covered_by": []
   },
   {
-    "title": "CISA Issues Alert on Critical Splunk Enterprise Bug Under Active Exploitation",
-    "summary": "<p>CISA has issued an urgent alert regarding a critical vulnerability in Splunk Enterprise, tracked as CVE-2026-20253, which is now listed in the Known Exploited Vulnerabilities (KEV) catalog following evidence of active exploitation. The flaw, categorized under CWE-306 (Missing Authentication for Critical Function), exposes affected systems to unauthorized file manipulation through a PostgreSQL sidecar service endpoint, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cisa-issues-alert-on-critical-splunk-enterprise-bug/\">CISA Issues Alert on Critical Splunk Enterprise Bug Under Active Exploitation</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/cisa-issues-alert-on-critical-splunk-enterprise-bug/",
-    "published": "2026-06-19T08:32:11",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 636,
-    "also_covered_by": []
-  },
-  {
     "title": "Containers on fire: from container escapes to supply chain attacks",
     "summary": "We break down the primary attack vectors in containerized environments: exposed secrets, privilege misconfigurations, API compromise, and supply chain attacks.",
     "link": "https://securelist.com/container-attack-vectors/120010/",
@@ -1110,26 +960,6 @@
     "also_covered_by": []
   },
   {
-    "title": "iPhone BootROM Vulnerability Opens Door to Full Apple SoC Trust Chain Compromise",
-    "summary": "<p>A recently disclosed iPhone BootROM vulnerability, dubbed “usbliter8,” highlights a significant flaw in Apple’s SecureROM implementation. This vulnerability allows attackers to compromise the entire trust chain of the Application Processor (AP) on affected devices. Research published by Paradigm Shift on June 18, 2026, showcases a working exploit that targets Apple A12 and A13 system-on-chips (SoCs). [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/iphone-bootrom-vulnerability/\">iPhone BootROM Vulnerability Opens Door to Full Apple SoC Trust Chain Compromise</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/iphone-bootrom-vulnerability/",
-    "published": "2026-06-19T05:13:55",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 627,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hackers Can Leverage SQL Server 2025 AI Features to Exfiltrate Sensitive Data",
-    "summary": "<p>Hackers are increasingly finding new ways to abuse legitimate enterprise features, and Microsoft SQL Server 2025’s newly introduced AI capabilities are now raising serious security concerns. SpecterOps researchers have demonstrated that these built-in features can be leveraged for stealthy data exfiltration and even command-and-control (C2) communication, all from within the database engine itself. Microsoft introduced [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-leverage-sql-server-2025-ai-features/\">Hackers Can Leverage SQL Server 2025 AI Features to Exfiltrate Sensitive Data</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/hackers-leverage-sql-server-2025-ai-features/",
-    "published": "2026-06-18T14:57:57",
-    "source": "cybersecuritynews.com",
-    "category": "AI & Security",
-    "importance_score": 626,
-    "also_covered_by": []
-  },
-  {
     "title": "Cardiac patients&#8217; medical data stolen and held to ransom",
     "summary": "Cardiac monitoring provider iRhythm has been hit by a data theft followed by an extortion attempt.",
     "link": "https://www.malwarebytes.com/blog/news/2026/06/cardiac-patients-medical-data-stolen-and-held-to-ransom",
@@ -1137,16 +967,6 @@
     "source": "malwarebytes.com",
     "category": "Other",
     "importance_score": 624,
-    "also_covered_by": []
-  },
-  {
-    "title": "New iPhone BootROM Vulnerability Exposes Apple SoCs to Full Chain-of-Trust Compromise",
-    "summary": "<p>A novel BootROM vulnerability, dubbed usbliter8, affects Apple devices powered by A12, S4/S5, and A13 SoCs. The exploit chains a hardware-level bug in the Synopsys DWC2 USB controller with a firmware configuration flaw, enabling full application processor boot-chain compromise with no software patch possible due to the immutable nature of BootROM code. According to Paradigm [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/iphone-bootrom-vulnerability/\">New iPhone BootROM Vulnerability Exposes Apple SoCs to Full Chain-of-Trust Compromise</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/iphone-bootrom-vulnerability/",
-    "published": "2026-06-18T17:20:49",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 613,
     "also_covered_by": []
   },
   {
@@ -1400,16 +1220,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Node.js Releases Security Updates for 12 Vulnerabilities, Two Rated High Severity",
-    "summary": "<p>Node.js has announced critical security updates that address 12 vulnerabilities across its supported release lines. Among these, two high-severity flaws could lead to denial-of-service (DoS) conditions and authentication bypass. These updates, released on June 18, 2026, affect Node.js versions 22.x, 24.x, and 26.x. The patched versions are now available as v22.23.0, v24.17.0, and v26.3.1. Node.js [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/node-js-releases-security-updates-for-12-vulnerabilities/\">Node.js Releases Security Updates for 12 Vulnerabilities, Two Rated High Severity</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/node-js-releases-security-updates-for-12-vulnerabilities/",
-    "published": "2026-06-19T08:23:39",
-    "source": "gbhackers.com",
-    "category": "Policy / Law",
-    "importance_score": 483,
-    "also_covered_by": []
-  },
-  {
     "title": "Ransomware Attacks are on the Rise",
     "summary": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
     "link": "https://threatpost.com/ransomware-attacks-are-on-the-rise/180481/",
@@ -1457,16 +1267,6 @@
     "source": "malwarebytes.com",
     "category": "Data Breach",
     "importance_score": 472,
-    "also_covered_by": []
-  },
-  {
-    "title": "Node.js Fixes 12 Vulnerabilities, Including 2 High-Severity Authentication Bypasses",
-    "summary": "<p>Node.js has released a new round of security updates addressing 12 vulnerabilities across its supported release lines, including two high-severity flaws that could lead to authentication bypass and denial-of-service (DoS) attacks. The updates impact Node.js versions 22.x, 24.x, and 26.x, with patched releases now available as of June 18, 2026. The most critical issue, tracked [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/node-js-patches-12-vulnerabilities/\">Node.js Fixes 12 Vulnerabilities, Including 2 High-Severity Authentication Bypasses</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/node-js-patches-12-vulnerabilities/",
-    "published": "2026-06-19T08:02:07",
-    "source": "cybersecuritynews.com",
-    "category": "Policy / Law",
-    "importance_score": 464,
     "also_covered_by": []
   },
   {
