@@ -170,16 +170,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Who Runs the Ransomware Group ‘The Gentlemen?’",
-    "summary": "A cybercrime group known as The Gentlemen has emerged as the second most active ransomware gang by victim count, rapidly attracting a talented pool of hackers through an aggressive recruitment strategy that promises affiliates 90 percent of any ransom paid by victims. This post examines clues pointing to a real life identity for the administrator of The Gentlemen ransomware group.",
-    "link": "https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/",
-    "published": "2026-06-10T14:03:44",
-    "source": "krebsonsecurity.com",
-    "category": "Ransomware",
-    "importance_score": 1374,
-    "also_covered_by": []
-  },
-  {
     "title": "Microsoft Details Windows Clipper Malware Campaign Using USB LNK Worm and Tor-Based C2",
     "summary": "Microsoft has disclosed details of a Windows-based cryptocurrency clipper campaign codenamed CryptoBandits that has\n targeted users since February 2026 with clipboard-intercepting malware with self-spreading capabilities and using the Tor anonymity network to hide communication.\n\"The clipper in this campaign relies on Windows Script Host and ActiveX-driven logic to launch a bundled Tor proxy and",
     "link": "https://thehackernews.com/2026/06/microsoft-details-windows-clipper.html",
@@ -207,16 +197,6 @@
     "source": "microsoft.com",
     "category": "Other",
     "importance_score": 1358,
-    "also_covered_by": []
-  },
-  {
-    "title": "‘Popa’ Botnet Linked to Publicly-Traded Israeli Firm",
-    "summary": "For the past four years, a sprawling Android-based botnet called Popa has forced millions of consumer TV boxes to relay Internet traffic linked to advertising fraud, account takeovers, and mass data-scraping efforts. This week, researchers from multiple security firms concluded that the Popa botnet is linked to NetNut, a \"residential proxy\" provider operated by the publicly-traded Israeli firm Alarum Technologies Ltd [NASDAQ: ALAR].",
-    "link": "https://krebsonsecurity.com/2026/06/popa-botnet-linked-to-publicly-traded-israeli-firm/",
-    "published": "2026-06-18T17:37:58",
-    "source": "krebsonsecurity.com",
-    "category": "Vulnerability",
-    "importance_score": 1330,
     "also_covered_by": []
   },
   {
@@ -732,16 +712,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Hackers Used Meta’s AI Support Bot to Seize Instagram Accounts",
-    "summary": "The Instagram accounts for the Obama White House and the Chief Master Sergeant of the U.S. Space Force were briefly defaced with pro-Iranian images and messages over the weekend, after instructions began circulating on Telegram showing how to trick Meta's \"AI support assistant\" bot into resetting account passwords.",
-    "link": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
-    "published": "2026-06-01T17:32:50",
-    "source": "krebsonsecurity.com",
-    "category": "Vulnerability",
-    "importance_score": 814,
-    "also_covered_by": []
-  },
-  {
     "title": "What Ukraine’s Entry Into the EU Cybersecurity Reserve Means",
     "summary": "<p><img alt=\"Ukraine Joins EU Cybersecurity Reserve\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"1024\" src=\"https://thecyberexpress.com/wp-content/uploads/Ukraine-Joins-EU-Cybersecurity-Reserve.webp\" title=\"What Ukraine&#039;s Entry Into the EU Cybersecurity Reserve Means 13\" width=\"1536\" /></p>Ukraine Joins EU Cybersecurity Reserve after receiving approval from the Council of the European Union, enabling the country to access emergency cybersecurity assistance during large-scale cyber incidents that exceed national response capabilities.\n\nThe decision allows <a href=\"https://thecyberexpress.com/account-theft-scheme-ukraine-cyber-police/\" rel=\"noopener\" target=\"_blank\">Ukraine</a> to activate support from the<a href=\"https://thecyberexpress.com/enisa-and-commission/\" rel=\"noopener\" target=\"_blank\"> EU Cybersecurity Reserve</a>, a mechanism managed by the European Union Agency for Cybersecurity (ENISA) that provides incident response services through trusted private-sector cybersecurity providers. The move reflects ongoing EU-Ukraine cooperation on digital security and resilience amid evolving cyber threats.\n<h3><strong>Ukraine Joins EU Cybersecurity Reserve Under EU Cyber Solidarity Framework</strong></h3>\nThe EU <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-cybersecurity/\" title=\"Cybersecurity\">Cybersecurity</a> Reserve was established under the Cyber Solidarity Act to help participating countries respond to significant cybersecurity incidents. Through the reserve, nations can request specialized assistance when their own <a class=\"wpil_keyword_link\" href=\"https://cyble.com/knowledge-hub/what-is-incident-response/\" rel=\"noopener\" target=\"_blank\" title=\"incident response\">incident response</a> resources are overwhelmed.\n\n<a href=\"https://digital-strategy.ec.europa.eu/en/news/eu-provides-cyber-support-ukraine-against-major-attacks\" rel=\"nofollow noopener\" target=\"_blank\">According to the European Commission</a>, Ukraine will now be able to officially seek emergency European support if a cyberattack surpasses the capacity of its domestic response teams. This would allow cybersecurity experts from across the European Union to assist in incident containment and recovery efforts.\n\nThe Commission described the decision as part of broader efforts to strengthen preparedness, improve rapid response capabilities, and encourage cooperation against growing <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/cyber-news/\" title=\"cyber\">cyber</a> threats.\n<h3><strong>EU Highlights Digital Security Cooperation</strong></h3>\nCommenting on the development, Henna Virkkunen, Executive Vice-President for Tech Sovereignty, <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/\" title=\"Security\">Security</a> and Democracy, said Ukraine's inclusion strengthens collective cyber defenses and reflects the principle of solidarity at the core of Europe's digital future.\n\nThe Commission noted that cyberattacks continue to present a persistent challenge and emphasized the importance of coordinated responses and shared expertise among partner nations.\n\nUkraine's inclusion also aligns with the EU's strategic digital partnership agenda, which focuses on strengthening cybersecurity cooperation with neighboring countries.\n<h3><strong>Moldova Previously Granted Access</strong></h3>\nUkraine becomes the second non-EU country to gain access to the reserve. Moldova <a href=\"https://digital-strategy.ec.europa.eu/en/news/eu-and-moldova-enhance-digital-cooperation-better-resilience-strategic-areas\" rel=\"nofollow noopener\" target=\"_blank\">was granted access in 2024</a> following an increase in Moscow-linked Cyber Threats and influence operations targeting the country.\n\nThe Council's authorization for Moldova to use the reserve was described as a major step forward in regional cybersecurity cooperation. The arrangement was implemented under the Cyber Solidarity Act and formed part of broader EU-Moldova efforts to improve digital resilience.\n\nThe European Commission stated that enhancing cybersecurity cooperation remains a key component of its partnership with Moldova.\n<h3><strong>Broader EU-Moldova Digital Cooperation Expands</strong></h3>\nAlongside cybersecurity initiatives, the European Union has expanded digital cooperation with Moldova in several strategic areas.\n\nThe Commission welcomed a political agreement that will allow Moldova to join the EU Roaming Area under the \"Roam Like at Home\" framework following formal adoption. Once implemented, Moldovan citizens and EU travelers will be able to call, text, and use mobile <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-data/\" title=\"data\">data</a> without additional roaming charges.\n\nMoldova has also joined the EU Third Countries' Trusted List, enabling easier validation of electronic signatures and seals between EU and Moldovan organizations, businesses, and citizens.\n\nTo strengthen resilience against Disinformation and foreign interference, a new hub of the European Digital Media Observatory (EDMO) known as FACT has also been established with support from the European Commission.\n<h3><strong>Cyber Cooperation Advances as EU Membership Talks Progress</strong></h3>\nThe cybersecurity <a class=\"wpil_keyword_link\" href=\"https://cyble.com/announcement/\" rel=\"noopener\" target=\"_blank\" title=\"announcement\">announcement</a> comes shortly after EU member states agreed to launch formal accession negotiations with both Ukraine and Moldova.\n\nEuropean Commission President Ursula von der Leyen <a href=\"https://x.com/vonderleyen/status/2065481649077317692\" rel=\"nofollow noopener\" target=\"_blank\">described</a> the decision as a major milestone, stating that all member states had agreed to open the first accession negotiations cluster with the two countries. She said the move recognizes the reforms undertaken by Ukraine and Moldova despite significant challenges and reinforces the EU's commitment to peace, security, and stability across the region.\n\nWith access to the EU Cybersecurity Reserve, Ukraine now gains an additional layer of support to strengthen its cyber resilience and coordinate responses to major cybersecurity incidents alongside European partners.",
     "link": "https://thecyberexpress.com/ukraine-joins-eu-cybersecurity-reserve/",
@@ -842,16 +812,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Patch Tuesday, May 2026 Edition",
-    "summary": "Artificial intelligence platforms may be just as susceptible to social engineering as human beings, but they are proving remarkably good at finding security vulnerabilities in human-made computer code. That reality is on full display this month with some of the more widely-used software makers -- including Apple, Google, Microsoft, Mozilla and Oracle -- fixing near record volumes of security bugs, and/or quickening the tempo of their patch releases.",
-    "link": "https://krebsonsecurity.com/2026/05/patch-tuesday-may-2026-edition/",
-    "published": "2026-05-12T21:46:45",
-    "source": "krebsonsecurity.com",
-    "category": "Phishing / Scams",
-    "importance_score": 675,
-    "also_covered_by": []
-  },
-  {
     "title": "The Intelligence No One Else Has: Inside Recorded Future’s Proprietary Collection Engine",
     "summary": "Learn how Recorded Future’s proprietary collection engine empowers organizations to move beyond reactive security. Discover the power of our four unique intelligence source types—technical, underground, community, and open-source—working together to provide proactive, full-lifecycle threat protection.",
     "link": "https://www.recordedfuture.com/blog/recorded-future-proprietary-collection-engine",
@@ -869,16 +829,6 @@
     "source": "blogs.cisco.com",
     "category": "Vulnerability",
     "importance_score": 657,
-    "also_covered_by": []
-  },
-  {
-    "title": "Canvas Breach Disrupts Schools & Colleges Nationwide",
-    "summary": "An ongoing data extortion attack targeting the widely-used education technology platform Canvas disrupted classes and coursework at school districts and universities across the United States today, after a cybercrime group defaced the service's login page with a ransom demand that threatened to leak data from 275 million students and faculty across nearly 9,000 educational institutions.",
-    "link": "https://krebsonsecurity.com/2026/05/canvas-breach-disrupts-schools-colleges-nationwide/",
-    "published": "2026-05-08T02:58:46",
-    "source": "krebsonsecurity.com",
-    "category": "Data Breach",
-    "importance_score": 656,
     "also_covered_by": []
   },
   {
@@ -1614,26 +1564,6 @@
     "also_covered_by": []
   },
   {
-    "title": "CISA Admin Leaked AWS GovCloud Keys on Github",
-    "summary": "Until this past weekend, a contractor for the Cybersecurity &#038; Infrastructure Security Agency (CISA) maintained a public GitHub repository that exposed credentials to several highly privileged AWS GovCloud accounts and a large number of internal CISA systems. Security experts said the public archive included files detailing how CISA builds, tests and deploys software internally, and that it represents one of the most egregious government data leaks in recent history.",
-    "link": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
-    "published": "2026-05-18T20:48:21",
-    "source": "krebsonsecurity.com",
-    "category": "Data Breach",
-    "importance_score": 321,
-    "also_covered_by": []
-  },
-  {
-    "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
-    "summary": "Lawmakers in both houses of Congress are demanding answers from the U.S. Cybersecurity &#038; Infrastructure Security Agency (CISA) after KrebsOnSecurity reported this week that a CISA contractor intentionally published AWS GovCloud keys and a vast trove of other agency secrets on a public GitHub account. The inquiry comes as CISA is still struggling to contain the breach and invalidate the leaked credentials.",
-    "link": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
-    "published": "2026-05-22T16:34:24",
-    "source": "krebsonsecurity.com",
-    "category": "Data Breach",
-    "importance_score": 303,
-    "also_covered_by": []
-  },
-  {
     "title": "Scripting the disassembler: Local agentic reverse engineering through vbdec’s live COM object model",
     "summary": "Cisco Talos detailed a new approach to reverse engineering that pairs local AI agents with traditional analysis tools like the VB6 disassembler vbdec. Instead of awkwardly bolting AI onto the software, vbdec exposes its parsed data through a live COM interface.",
     "link": "https://blog.talosintelligence.com/scripting-the-disassembler/",
@@ -1651,16 +1581,6 @@
     "source": "securityweek.com",
     "category": "Policy / Law",
     "importance_score": 295,
-    "also_covered_by": []
-  },
-  {
-    "title": "A Record-Breaking Patch Tuesday for June 2026",
-    "summary": "Microsoft today released software updates to plug nearly 200 security holes across its Windows operating systems and supported software, a record number of fixes for the company's monthly Patch Tuesday cycle. Nearly three dozen of those bugs earned Microsoft's most dire \"critical\" rating, and exploit code for at least three of the weaknesses is now publicly available.",
-    "link": "https://krebsonsecurity.com/2026/06/a-record-breaking-patch-tuesday-for-june-2026/",
-    "published": "2026-06-09T22:07:28",
-    "source": "krebsonsecurity.com",
-    "category": "Other",
-    "importance_score": 290,
     "also_covered_by": []
   },
   {
@@ -2084,16 +2004,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks",
-    "summary": "Authorities in the Netherlands have arrested the co-owners of two related Internet hosting companies for operating IT infrastructure used by Russia to carry out cyberattacks, influence operations and disinformation campaigns inside the European Union. The two men were the focus of a 2025 KrebsOnSecurity story about how their hosting companies had assumed control over the technical infrastructure of Stark Industries Solutions, an Internet service provider sanctioned last year by the EU as a frequent staging ground for cyber mischief from Russia's intelligence agencies.",
-    "link": "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/",
-    "published": "2026-05-25T13:21:49",
-    "source": "krebsonsecurity.com",
-    "category": "Other",
-    "importance_score": 171,
-    "also_covered_by": []
-  },
-  {
     "title": "I recommend these Garmin smartwatches for almost every situation (and price range)",
     "summary": "Plus, many of Garmin's signature smartwatches are on sale ahead of Amazon Prime Day.",
     "link": "https://www.zdnet.com/article/garmin-smartwatch-deals-roundup-prime-day/",
@@ -2121,16 +2031,6 @@
     "source": "blog.mozilla.org",
     "category": "Other",
     "importance_score": 168,
-    "also_covered_by": []
-  },
-  {
-    "title": "Alleged Kimwolf Botmaster ‘Dort’ Arrested, Charged in U.S. and Canada",
-    "summary": "Canadian authorities on Wednesday arrested a 23-year-old Ottawa man on suspicion of building and operating Kimwolf, a fast spreading Internet-of-Things botnet that enslaved millions of devices for use in a series of massive distributed denial-of-service (DDoS) attacks over the past six months. KrebsOnSecurity publicly named the suspect in February 2026 after the accused launched a volley of DDoS, doxing and swatting campaigns against this author and a security researcher. He now faces criminal hacking charges in both Canada and the United States.",
-    "link": "https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/",
-    "published": "2026-05-21T21:50:25",
-    "source": "krebsonsecurity.com",
-    "category": "Other",
-    "importance_score": 165,
     "also_covered_by": []
   },
   {
