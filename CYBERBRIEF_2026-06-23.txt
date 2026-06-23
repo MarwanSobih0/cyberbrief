@@ -1,10 +1,10 @@
 CYBERBRIEF • DAILY THREAT INTELLIGENCE
-Generated: Tuesday, June 23, 2026 - 08:24 UTC
+Generated: Tuesday, June 23, 2026 - 08:26 UTC
 ================================================================================
 
-Total topics: 292    •    Scanned raw articles: 294
+Total topics: 312    •    Scanned raw articles: 314
 Severity breakdown:
-  CRITICAL: 4  |  HIGH: 8  |  MEDIUM: 48  |  LOW: 232
+  CRITICAL: 5  |  HIGH: 8  |  MEDIUM: 57  |  LOW: 242
 
 Top 7 active threats:
 
@@ -14,47 +14,47 @@ Top 7 active threats:
    Published: 2025-10-28T17:01:00
    Link     : http://security.googleblog.com/2025/10/https-by-default.html
 
-2. Alert Triangle  security.googleblog.com  [News Site]
+2. Alert Triangle  cybersecuritynews.com  [News Site]
+   Title    : Klue Hack Leads to Data Breach Across Multiple Cybersecurity Companies
+   Category : Data Breach    •    Severity: CRITICAL (score: 2420)
+   Published: 2026-06-22T16:07:22
+   Link     : https://cybersecuritynews.com/klue-hack-cybersecurity-companies/
+
+3. Alert Triangle  security.googleblog.com  [News Site]
    Title    : Bringing Rust to the Pixel Baseband
    Category : Ransomware    •    Severity: CRITICAL (score: 2380)
    Published: 2026-04-10T15:12:00
    Link     : http://security.googleblog.com/2026/04/bringing-rust-to-pixel-baseband.html
 
-3. Alert Triangle  security.googleblog.com  [News Site]
+4. Alert Triangle  security.googleblog.com  [News Site]
    Title    : Rust in Android: move fast and fix things
    Category : Ransomware    •    Severity: CRITICAL (score: 2380)
    Published: 2025-11-13T16:59:00
    Link     : http://security.googleblog.com/2025/11/rust-in-android-move-fast-fix-things.html
 
-4. Alert Triangle  microsoft.com  [News Site]
+5. Alert Triangle  microsoft.com  [News Site]
    Title    : AutoJack: How a single page can RCE the host running your AI agent
    Category : Vulnerability    •    Severity: CRITICAL (score: 2380)
    Published: 2026-06-19T00:17:54
    Link     : https://www.microsoft.com/en-us/security/blog/2026/06/18/autojack-single-page-rce-host-running-ai-agent/
 
-5. Shield Check  security.googleblog.com  [News Site]
+6. Shield Check  security.googleblog.com  [News Site]
    Title    : Android Quick Share Support for AirDrop: A Secure Approach to Cross-Platform File Sharing
    Category : Data Breach    •    Severity: HIGH (score: 1959)
    Published: 2025-11-20T17:00:00
    Link     : http://security.googleblog.com/2025/11/android-quick-share-support-for-airdrop-security.html
 
-6. Shield Check  thecyberexpress.com  [Link]
+7. Shield Check  thecyberexpress.com  [Link]
    Title    : Cyber Risk Assumptions Are Becoming Obsolete Due to AI, Warn Five Eyes
    Category : Vulnerability    •    Severity: HIGH (score: 1850)
    Published: 2026-06-23T07:30:55
    Link     : https://thecyberexpress.com/ai-cyber-risk-warning/
-
-7. Shield Check  unit42.paloaltonetworks.com  [News Site]
-   Title    : Pickle in the Middle – Hijacking Vertex AI Model Uploads for Cross-Tenant RCE
-   Category : Vulnerability    •    Severity: HIGH (score: 1817)
-   Published: 2026-06-16T10:00:29
-   Link     : https://unit42.paloaltonetworks.com/hijacking-vertex-ai-model/
 
 Security Tips:
 • Never trust unsolicited links or attachments in email or messaging apps.
 • Enable multi-factor authentication (MFA) on email, banking, and admin accounts.
 • Keep browsers, VPNs, and endpoint security fully patched.
 
-Scanned 294 articles • Top 7 topics selected
+Scanned 314 articles • Top 7 topics selected
 Next planned auto-update: 08:00 AM UTC
 Stay safe, stay sharp!

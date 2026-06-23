@@ -10,6 +10,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Klue Hack Leads to Data Breach Across Multiple Cybersecurity Companies",
+    "summary": "<p>A sophisticated supply chain attack on market intelligence platform Klue has compromised Salesforce data across at least nine organizations, including several high-profile cybersecurity firms, with the newly emerged Icarus extortion group claiming responsibility and threatening to release stolen data. The attack began on June 11–12, 2026, when threat actors gained unauthorized access to Klue&#8217;s integration [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/klue-hack-cybersecurity-companies/\">Klue Hack Leads to Data Breach Across Multiple Cybersecurity Companies</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/klue-hack-cybersecurity-companies/",
+    "published": "2026-06-22T16:07:22",
+    "source": "cybersecuritynews.com",
+    "category": "Data Breach",
+    "importance_score": 2420,
+    "also_covered_by": []
+  },
+  {
     "title": "Bringing Rust to the Pixel Baseband",
     "summary": "<span class=\"byline-author\">Posted by Jiacheng Lu, Software Engineer, Google Pixel Team</span>\n\n<p>Google is continuously advancing the security of Pixel devices. We have been focusing on hardening the cellular baseband modem against exploitation. <a href=\"https://security.googleblog.com/2023/12/hardening-cellular-basebands-in-android.html\">Recognizing the risks</a> associated within the complex modem firmware, Pixel 9 shipped with <a href=\"https://security.googleblog.com/2024/10/pixel-proactive-security-cellular-modems.html\">mitigations</a> against a range of memory-safety vulnerabilities. For Pixel 10, Google is advancing its proactive security measures further. Following our previous discussion on <a href=\"https://security.googleblog.com/2024/09/deploying-rust-in-existing-firmware.html\">\"Deploying Rust in Existing Firmware Codebases\"</a>, this post shares a concrete application: integrating a memory-safe Rust DNS(Domain Name System) parser into the modem firmware. The new Rust-based DNS parser significantly reduces our security risk by mitigating an entire class of vulnerabilities in a risky area, while also laying the foundation for broader adoption of memory-safe code in other areas.</p>\n\n<p>Here we share our experience of working on it, and hope it can inspire the use of more memory safe languages in low-level environments.</p>\n\n<h3>Why Modem Memory Safety Can’t Wait</h3>\n<p>In recent years, we have seen increasing interest in the cellular modem from attackers and security researchers. For example, Google's Project Zero <a href=\"https://googleprojectzero.blogspot.com/2023/03/multiple-internet-to-baseband-remote-rce.html\">gained remote code execution</a> on Pixel modems over the Internet. Pixel modem has tens of Megabytes of executable code. Given the complexity and remote attack surface of the modem, other critical memory safety vulnerabilities may remain in the predominantly memory-unsafe firmware code.</p>\n\n<h3>Why DNS?</h3>\n<p>The DNS protocol is most commonly known in the context of browsers finding websites. With the evolution of cellular technology, modern cellular communications have migrated to digital data networks; consequently, even basic operations such as call forwarding rely on DNS services.</p>\n\n<p>DNS is a complex protocol and requires parsing of untrusted data, which can lead to vulnerabilities, particularly when implemented in a memory-unsafe language (example: <a href=\"https://nvd.nist.gov/vuln/detail/cve-2024-27227\">CVE-2024-27227</a>). Implementing the DNS parser in Rust offers value by decreasing the attack surfaces associated with memory unsafety.</p>\n\n<h3>Picking a DNS library</h3>\n<p>DNS already has a level of support in the open-source Rust community. We evaluated multiple open source crates that implement DNS. Based on <a href=\"https://security.googleblog.com/2024/09/deploying-rust-in-existing-firmware.html#:~:text=Existing%20Crate\">criteria shared in earlier posts</a>, we identified <a href=\"https://crates.io/crates/hickory-proto\">hickory-proto</a> as the best candidate. It has excellent maintenance, over 75% test coverage, and widespread adoption in the Rust community. Its pervasiveness shows its potential as the de-facto DNS choice and long term support. Although hickory-proto initially lacked <code>no_std</code> support, which is needed for Bare-metal environments (see our <a href=\"https://security.googleblog.com/2024/09/deploying-rust-in-existing-firmware.html#:~:text=Bare%2Dmetal%20Environments\">previous post</a> on this topic), we were able to add support to it and its dependencies.</p>\n\n<h2>Adding <code>no_std</code> support</h2>\n<p>The work to enable <code>no_std</code> for hickory-proto is mostly mechanical. We shared the process <a href=\"https://security.googleblog.com/2024/09/deploying-rust-in-existing-firmware.html#:~:text=Porting%20a%20std%20Library%20to%20no_std\">in a previous post</a>. We undertook modifications to hickory_proto and its dependencies to enable <code>no_std</code> support. The upstream <code>no_std</code> work also results in a <code>no_std</code> URL parser, beneficial to other projects.</p>\n\n<ul>\n  <li><a href=\"https://github.com/hickory-dns/hickory-dns/pull/2104\">https://github.com/hickory-dns/hickory-dns/pull/2104</a></li>\n  <li><a href=\"https://github.com/servo/rust-url/pull/831\">https://github.com/servo/rust-url/pull/831</a></li>\n  <li><a href=\"https://github.com/krisprice/ipnet/pull/58\">https://github.com/krisprice/ipnet/pull/58</a></li>\n</ul>\n\n<p>The above PRs are great examples of how to extend <code>no_std</code> support to existing std-only crates.</p>\n\n<h2>Code size study</h2>\n<p>Code size is the one of the factors that we evaluated when picking the DNS library to use.</p>\n\n<table border=\"1\" cellpadding=\"8\" cellspacing=\"0\" style=\"border-collapse: collapse; width: 100%;\">\n  <tbody>\n    <tr>\n      <td rowspan=\"3\" style=\"width: 25%;\">Code size<br />by category</td>\n      <td>Rust implemented Shim that calls Hickory-proto on receiving a DNS response</td>\n      <td style=\"width: 15%;\">4KB</td>\n    </tr>\n    <tr>\n      <td>core, alloc, compiler_builtins<br />(reusable, one-time cost)</td>\n      <td>17KB</td>\n    </tr>\n    <tr>\n      <td>Hickory-proto library and dependencies</td>\n      <td>350KB</td>\n    </tr>\n  </tbody>\n</table>\n\n<br />\n<hr style=\"border: 0; border-top: 2px solid #f0f0f0;\" />\n<br />\n\n<table border=\"1\" cellpadding=\"8\" cellspacing=\"0\" style=\"border-collapse: collapse; width: 100%;\">\n  <tbody>\n    <tr>\n      <td style=\"width: 25%;\">Sum</td>\n      <td></td>\n      <td style=\"width: 15%;\">371KB</td>\n    </tr>\n  </tbody>\n</table>\n\n\n<p>We built prototypes and measured size with <a href=\"https://security.googleblog.com/2024/09/deploying-rust-in-existing-firmware.html#:~:text=Build%20Optimizations\">size-optimized settings</a>. Expectedly, <code>hickory_proto</code> is not designed with embedded use in mind, and is not optimized for size. As the Pixel modem is not tightly memory constrained, we prioritized community support and code quality, leaving code size optimizations as future work.</p>\n\n<p>However, the additional code size may be a blocker for other embedded systems. This could be addressed in the future by adding additional feature flags to conditionally compile only required functionality. Implementing this modularity would be a valuable future work.</p>\n\n<h3>Hook-up Rust to modem firmware</h3>\n<p>Before building the Rust DNS library, we defined several Rust unit tests to cover basic arithmetic, dynamic allocations, and <a href=\"https://doc.rust-lang.org/nomicon/ffi.html\"><code>FFI</code></a> to verify the integration of Rust with the existing modem firmware code base.</p>\n\n<h2>Compile Rust code to staticlib</h2>\n<p>While using <code>cargo</code> is the default choice for compilation in the Rust ecosystem, it <a href=\"https://security.googleblog.com/2021/05/integrating-rust-into-android-open.html#:~:text=No%20nested%20build%20systems\">presents challenges</a> when integrating it into existing build systems. We evaluated two options:</p>\n\n<ol>\n  <li>Using <code>cargo</code> to build a <a href=\"https://doc.rust-lang.org/beta/rustc/command-line-arguments.html#--crate-type-a-list-of-types-of-crates-for-the-compiler-to-emit\"><code>staticlib</code></a> before the modem builds. Then add the produced staticlib into the linking step.</li>\n  <li>Directly work with <code>rustc</code> and integrate the Rust compilation steps into the existing modem build system.</li>\n</ol>\n\n<p>Option #1 does not scale if we are going to add more Rust components in the future, as linking multiple staticlibs may cause <a href=\"https://github.com/rust-lang/rust/issues/44322\">duplicated symbol errors</a>. We chose option #2 as it scales more easily and allows tighter integration into our existing build system. Our existing C/C++ codebase uses <a href=\"https://pigweed.dev/\">Pigweed</a> to drive the primary build system. Pigweed supports Rust targets (<a href=\"https://cs.opensource.google/pigweed/pigweed/+/main:pw_build/rust_library.gni;drc=87f7abc323e345dd2729d5039a7ee0ee49c2fd56\">example</a>) with direct calls to <a href=\"https://cs.opensource.google/pigweed/pigweed/+/main:pw_toolchain/generate_toolchain.gni;l=415;drc=e194c83f1d063833745f49da8f85b583be9774bb\"><code>rustc</code></a> through <a href=\"https://gn.googlesource.com/gn/+/main/docs/reference.md#buildfile-functions-tool_specify-arguments-to-a-toolchain-tool_back-to-top-usage\"><code>rust tools</code> defined in <code>GN</code></a>.</p>\n\n<p>We compiled all the Rust crates, including hickory-proto, its dependencies, and core, compiler_builtin, alloc, to <a href=\"https://doc.rust-lang.org/reference/linkage.html#r-link.rlib\"><code>rlib</code></a>. Then, we created a <code>staticlib</code> target with a single lib.rs file which references all the <a href=\"https://doc.rust-lang.org/reference/linkage.html#r-link.rlib\"><code>rlib</code></a> crates using <a href=\"https://doc.rust-lang.org/std/keyword.crate.html\"><code>extern crate</code></a> keywords.</p>\n\n<h2>Build core, alloc, and compiler_builtins</h2>\n<p><a href=\"https://android.googlesource.com/toolchain/android_rust/+/mirror-goog-main-rust-toolchain-source\">Android’s Rust Toolchain</a> distributes source code of <code>core</code>, <code>alloc</code>, and <code>compiler_builtins</code>, and we leveraged this for the modem. They can be included to the build graph by adding a <code>GN</code> target with <a href=\"https://gn.googlesource.com/gn/+/main/docs/reference.md#var_crate_root\"><code>crate_root</code></a> pointing to the root <code>lib.rs</code> of each crate.</p>\n\n<p>Pixel modem firmware already has a well-tested and specialized global memory allocation system to support some dynamic memory allocations. <code>alloc</code> support was added by implementing the <a href=\"https://doc.rust-lang.org/alloc/alloc/trait.GlobalAlloc.html\">GlobalAlloc</a> with <a href=\"https://doc.rust-lang.org/nomicon/ffi.html\">FFI</a> calls to the allocators C APIs:</p>\n\n<pre><code class=\"language-rust\">use core::alloc::{GlobalAlloc, Layout};\n\nextern \"C\" {\n    fn mem_malloc(size: usize, alignment: usize) -&gt; *mut u8;\n    fn mem_free(ptr: *mut u8, alignment: usize);\n}\n\nstruct MemAllocator;\n\nunsafe impl GlobalAlloc for MemAllocator {\n    unsafe fn alloc(&amp;self, layout: Layout) -&gt; *mut u8 {\n        mem_malloc(layout.size(), layout.align())\n    }\n\n    unsafe fn dealloc(&amp;self, ptr: *mut u8, layout: Layout) {\n        mem_free(ptr, layout.align());\n    }\n}\n\n#[global_allocator]\nstatic ALLOCATOR: MemAllocator = MemAllocator;\n</code></pre>\n\n<p>Pixel modem firmware already implements a backend for the Pigweed <a href=\"https://pigweed.dev/pw_assert/#backend-api\">crash facade</a> as the global crash handler. Exposing it into Rust <code>panic_handler</code> through FFI unifies the crash handling for both Rust and C/C++ code.</p>\n\n<pre><code class=\"language-rust\">#![no_std]\nuse core::panic::PanicInfo;\n\nextern \"C\" {\n    pub fn PwCrashBackend(sigature: *const i8, file_name: *const i8, line: u32);\n}\n\n#[panic_handler]\nfn panic(panic_info: &amp;PanicInfo) -&gt; ! {\n    let mut filename = \"\";\n    let mut line_number: u32 = 0;\n\n    if let Some(location) = panic_info.location() {\n        filename = location.file();\n        line_number = location.line();\n    }\n\n    let mut cstr_buffer = [0u8; 128];\n    // Never writes to the last byte to make sure `cstr_buffer` is always zero\n    // terminated.\n    let (_, writer) = cstr_buffer.split_last_mut().unwrap();\n    for (place, ch) in writer.iter_mut().zip(filename.bytes()) {\n        *place = ch;\n    }\n\n    unsafe {\n        PwCrashBackend(\n            \"Rust panic\\0\".as_ptr() as *const i8,\n            cstr_buffer.as_ptr() as *const i8,\n            line_number,\n        );\n    }\n\n    loop {}\n}\n</code></pre>\n\n<h2>Link Rust staticlib</h2>\n<p>The Pixel modem firmware linking has a step that calls the linker to link all the objects generated from C/C++ code. By using <code>llvm-ar -x</code> to extract object files from the Rust combined staticlib and supplying them to the linker, the Rust code appears in the final modem image.</p>\n\n<p>There was a performance issue we experienced due to weak symbols during linking. The inclusion of Rust <code>core</code> and <code>compiler-builtin</code> caused unexpected power and performance regressions on various tests. Upon analysis, we realized that modem optimized implementations of <code>memset</code> and <code>memcpy</code> provided by the modem firmware are accidentally replaced by those defined in <code>compiler_builtin</code>. It seems to happen because both <code>compiler_builtin</code> crate and the existing codebase defines symbols as weak, linker has no way to figure out which one is weaker. We fixed the regression by stripping the <code>compiler_builtin</code> crate before linking using a one line shell script.</p>\n\n<pre><code class=\"language-bash\">llvm-ar -t &lt;rust staticlib&gt; | grep compiler_builtins | xargs llvm-ar -d &lt;rust staticlib&gt;\n</code></pre>\n\n<h3>Integrating hickory-proto</h3>\n\n<h2>Expose Rust API and calling back to C++</h2>\n<p>For the DNS parser, we declared the DNS response parsing API in C and then implemented <a href=\"https://security.googleblog.com/2024/09/deploying-rust-in-existing-firmware.html#:~:text=Exposing%20the%20Same%20API\">the same API</a> in Rust.</p>\n\n<pre><code class=\"language-c\">int32_t process_dns_response(uint8_t*, int32_t);\n</code></pre>\n\n<p>The Rust function returns an integer standing for the error code. The received DNS answers in the DNS response are required to be updated to in-memory data structures that are coupled with the original C implementation, therefore, we use existing C functions to do it. The existing C functions are dispatched from the Rust implementation.</p>\n\n<pre><code class=\"language-rust\">pub unsafe extern \"C\" fn process_dns_response(\n    dns_response: *const u8,\n    response_len: i32,\n) -&gt; i32 {\n    //... validate inputs `dns_response` and `response_len`.\n\n\n    // SAFETY:\n    // It is safe because `dns_response` is null checked above. `response_len`\n    // is passed in, safe as long as it is set correctly by vendor code.\n    match process_response(unsafe {\n        slice::from_raw_parts(dns_response, response_len)\n    }) {\n         Ok(()) =&gt; 0,\n         Err(err) =&gt; err.into(),\n    }\n}\n\nfn process_response(response: &amp;[u8]) -&gt; Result&lt;()&gt; {\n    let response = hickory_proto::op::Message::from_bytes(response)?;\n    let response = hickory_proto::xfer::DnsResponse::from_message(response)?;\n\n   \n    for answer in response.answers() {  \n        match answer.record_type() {\n            hickory_proto::RecordType:... =&gt; {\n                // SAFETY:\n                // It is safe because the callback function does not store\n                // reference of the inputs or their members.\n                unsafe {\n                    callback_to_c_function(...)?;\n                }\n            }\n            \n            // ... more match arms omitted.\n        }    \n    }\n\n    Ok(())\n}\n</code></pre>\n\n<p>In our case, the DNS responding parsing function API is simple enough for us to hand write, while the callbacks back to C functions for handling the response have complex data type conversions. Therefore, we leveraged bindgen to generate FFI code for the callbacks.</p>\n\n<h2>Build third-party crates</h2>\n<p>Even with all features disabled, hickory-proto introduces more than 30 dependent crates. Manually written build rules are difficult to ensure correctness and scale poorly when upgrading dependencies into new versions.</p>\n\n<p>Fuchsia has developed <a href=\"https://fuchsia.googlesource.com/fuchsia/+/master/tools/cargo-gnaw/\"><code>cargo-gnaw</code></a> to support building their third party Rust crates. <code>Cargo-gnaw</code> works by invoking <code>cargo metadata</code> to resolve dependencies, then parse and generate GN build rules. This ensures correctness and ease of maintenance.</p>\n\n<h3>Conclusion</h3>\n<p>The Pixel 10 series of phones marks a pivotal moment, being the first Pixel device to integrate a memory-safe language into its modem.</p>\n\n<p>While replacing one piece of risky attack surface is itself valuable, this project lays the foundation for future integration of memory-safe parsers and code into the cellular baseband, ensuring the baseband’s security posture will <a href=\"https://security.googleblog.com/2024/09/eliminating-memory-safety-vulnerabilities-Android.html#:~:text=Final%20thoughts\">continue to improve</a> as development continues.</p>\n\n\n<i>Special thanks to Armando Montanez, Bjorn Mellem, Boky Chen, Cheng-Yu Tsai, Dominik Maier, Erik Gilling, Ever Rosales, Hungyen Weng, Ivan Lozano, James Farrell, Jeffrey Vander Stoep, Jiacheng Lu, Jingjing Bu, Min Xu, Murphy Stein, Ray Weng, Shawn Yang, Sherk Chung, Stephan Chen, Stephen Hines.</i>",
     "link": "http://security.googleblog.com/2026/04/bringing-rust-to-pixel-baseband.html",
@@ -270,6 +280,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Microsoft Entra Conditional Access Policies Can Be Bypassed Via Nested App Authentication",
+    "summary": "<p>Microsoft Entra Conditional Access Policies (CAPs), a core security control for Azure and Microsoft 365 tenants, were recently found vulnerable to a bypass technique involving Nested App Authentication (NAA), according to research disclosed by NetSPI. CAPs are widely deployed to enforce strong authentication requirements such as multi-factor authentication, device compliance, and location-based restrictions. They are [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-entra-access-policies-nested-app/\">Microsoft Entra Conditional Access Policies Can Be Bypassed Via Nested App Authentication</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/microsoft-entra-access-policies-nested-app/",
+    "published": "2026-06-22T16:25:31",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 1228,
+    "also_covered_by": []
+  },
+  {
     "title": "Klue OAuth breach victim list grows as Icarus hackers claim attack",
     "summary": "Market intelligence platform Klue has publicly confirmed a recent security incident that allowed threat actors to steal OAuth tokens used to connect to customers' Salesforce environments, as the new \"Icarus\" extortion group publicly claims the attack. [...]",
     "link": "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/",
@@ -370,6 +390,36 @@
     "also_covered_by": []
   },
   {
+    "title": "ClawHub Scope Squatting Lets Plugins Masquerade as Official OpenClaw Integrations",
+    "summary": "<p>A supply-chain weakness in ClawHub’s plugin registry that allowed third-party packages to squat under organizational scopes and inherit first‑party credibility. In a catalog review Manifold found 23 code‑executing plugins published under the @openclaw/ and @clawhub/ scopes by accounts that have no verified relationship to either organization. Because ClawHub’s registry did not consistently enforce its documented [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/clawhub-scope-squatting/\">ClawHub Scope Squatting Lets Plugins Masquerade as Official OpenClaw Integrations</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/clawhub-scope-squatting/",
+    "published": "2026-06-22T13:11:42",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 1079,
+    "also_covered_by": []
+  },
+  {
+    "title": "Critical FFmpeg Vulnerability Lets Hackers Execute Remote Code via Malicious Media Files",
+    "summary": "<p>A critical memory corruption vulnerability in FFmpeg has been disclosed, allowing for remote code execution through specially crafted media files. This flaw, tracked as CVE-2026-8461 and named “PixelSmash,” affects the MagicYUV decoder within FFmpeg’s libavcodec library and has a CVSS score of 8.8. Discovered by JFrog Security Research, the vulnerability arises from a heap out-of-bounds [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-ffmpeg-vulnerability/\">Critical FFmpeg Vulnerability Lets Hackers Execute Remote Code via Malicious Media Files</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/critical-ffmpeg-vulnerability/",
+    "published": "2026-06-23T08:25:10",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 1075,
+    "also_covered_by": []
+  },
+  {
+    "title": "Two Scattered Spider Hackers Convicted Over Transport for London Cyber Attack",
+    "summary": "<p>Two alleged members of the notorious Scattered Spider cybercrime collective have pleaded guilty to orchestrating a disruptive cyber attack against Transport for London (TfL). This marks a significant law enforcement victory against a group known for targeting large enterprises and critical infrastructure. The UK National Crime Agency and City of London Police confirmed that Thalha [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/two-scattered-spider-hackers-convicted/\">Two Scattered Spider Hackers Convicted Over Transport for London Cyber Attack</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/two-scattered-spider-hackers-convicted/",
+    "published": "2026-06-23T05:50:13",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 1073,
+    "also_covered_by": []
+  },
+  {
     "title": "FFmpeg fixes PixelSmash flaw in widely used video decoder",
     "summary": "A newly disclosed FFmpeg flaw dubbed 'PixelSmash' could be exploited for remote code execution on Jellyfin servers under certain conditions, and can also trigger a denial-of-service  condition in applications like Kodi, Emby, Nextcloud, PhotoPrism, and OBS Studio. [...]",
     "link": "https://www.bleepingcomputer.com/news/security/ffmpeg-fixes-pixelsmash-flaw-in-widely-used-video-decoder/",
@@ -377,6 +427,16 @@
     "source": "bleepingcomputer.com",
     "category": "Vulnerability",
     "importance_score": 1063,
+    "also_covered_by": []
+  },
+  {
+    "title": "AI-Powered iOS Apps Leaking LLM API Credentials Through Network Traffic",
+    "summary": "<p>AI-powered iOS applications are increasingly leaking large language model (LLM) API credentials through network traffic, exposing developers to large-scale abuse of their LLM accounts and cloud resources. A recent empirical study of 444 free, LLM-enabled iOS apps from the US App Store found that 282 of them, or 64%, leaked exploitable LLM credentials when their [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ai-ios-apps-leaking-llm-credentials/\">AI-Powered iOS Apps Leaking LLM API Credentials Through Network Traffic</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/ai-ios-apps-leaking-llm-credentials/",
+    "published": "2026-06-22T16:21:33",
+    "source": "cybersecuritynews.com",
+    "category": "Data Breach",
+    "importance_score": 1058,
     "also_covered_by": []
   },
   {
@@ -420,6 +480,26 @@
     "also_covered_by": []
   },
   {
+    "title": "CodeStorm Phishing Campaign Targets M365 Tenants With Token Reuse and Replay Attacks",
+    "summary": "<p>A multi-organization phishing campaign attributed to the CodeStorm family is actively targeting Microsoft 365 tenants with a tenant-aware AiTM (adversary-in-the-middle) phishing kit that combines rotating frontends and backend replay behavior under a stable controller path, /google.php. The human recipient rarely scrolls to that dummy conversation, but automated secure email gateways frequently do; the added “conversation [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/codestorm-phishing-campaign-targets-m365/\">CodeStorm Phishing Campaign Targets M365 Tenants With Token Reuse and Replay Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/codestorm-phishing-campaign-targets-m365/",
+    "published": "2026-06-23T06:04:14",
+    "source": "gbhackers.com",
+    "category": "Phishing / Scams",
+    "importance_score": 1036,
+    "also_covered_by": []
+  },
+  {
+    "title": "Cybercriminals Abuse TDS Infrastructure to Bypass Firewalls and Hide Malicious Destinations",
+    "summary": "<p>Cybercriminals are increasingly abusing traffic distribution systems (TDSs) to evade defenses, conceal malicious destinations, and funnel victims into phishing, fraud, and malware campaigns. Once considered a legitimate marketing tool to route visitors to different content or offers, TDS infrastructure is now being repurposed as a stealthy redirection layer that complicates detection and response for network [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cybercriminals-abuse-tds-infrastructure/\">Cybercriminals Abuse TDS Infrastructure to Bypass Firewalls and Hide Malicious Destinations</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/cybercriminals-abuse-tds-infrastructure/",
+    "published": "2026-06-23T08:25:45",
+    "source": "gbhackers.com",
+    "category": "Phishing / Scams",
+    "importance_score": 984,
+    "also_covered_by": []
+  },
+  {
     "title": "Paved With Intent: ROADtools and Nation-State Tactics in the Cloud",
     "summary": "<p>Open-source framework ROADtools is being misused by threat actors for cloud intrusions. Learn how to identify its malicious use.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/roadtools-cloud-attacks/\">Paved With Intent: ROADtools and Nation-State Tactics in the Cloud</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
     "link": "https://unit42.paloaltonetworks.com/roadtools-cloud-attacks/",
@@ -427,6 +507,16 @@
     "source": "unit42.paloaltonetworks.com",
     "category": "Vulnerability",
     "importance_score": 968,
+    "also_covered_by": []
+  },
+  {
+    "title": "Malicious GST Debit Note Attachment Deploys Remcos RAT Through Multi-Stage Loader",
+    "summary": "<p>A sophisticated phishing campaign is actively targeting users in India by disguising malware as a routine GST debit note. The attack delivers a powerful remote access tool called Remcos RAT through a cleverly constructed multi-stage loader, giving attackers deep and persistent control over infected systems. What makes this threat especially alarming is how the entire [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/malicious-gst-debit-note-attachment-deploys-remcos-rat/\">Malicious GST Debit Note Attachment Deploys Remcos RAT Through Multi-Stage Loader</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/malicious-gst-debit-note-attachment-deploys-remcos-rat/",
+    "published": "2026-06-22T20:57:09",
+    "source": "cybersecuritynews.com",
+    "category": "Phishing / Scams",
+    "importance_score": 966,
     "also_covered_by": []
   },
   {
@@ -550,6 +640,16 @@
     "also_covered_by": []
   },
   {
+    "title": "CalPhishing Campaigns Use Outlook Calendar Invites to Deliver Persistent Phishing Lures",
+    "summary": "<p>A growing trend in which attackers weaponize Microsoft 365 collaboration features to deliver persistent phishing lures via Outlook calendar invites. By abusing Microsoft 365 Groups and Outlook calendar functionality, threat actors move malicious intent out of a single suspicious message and into routine productivity workflows, increasing the chance that targets will treat the interaction as [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/calphishing-campaigns-use-outlook-calendar/\">CalPhishing Campaigns Use Outlook Calendar Invites to Deliver Persistent Phishing Lures</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/calphishing-campaigns-use-outlook-calendar/",
+    "published": "2026-06-23T05:09:54",
+    "source": "gbhackers.com",
+    "category": "Phishing / Scams",
+    "importance_score": 879,
+    "also_covered_by": []
+  },
+  {
     "title": "New OXLOADER Loader Uses Malicious Google Ads to Deliver CastleStealer",
     "summary": "Cybersecurity researchers have disclosed details of a new campaign that delivers CastleStealer by means of a previously unreported malware loader dubbed OXLOADER.\n\nAccording to Elastic Security Labs, the campaign leverages malicious Google Ads as a starting point to distribute the malware. Evidence indicates that the threat actor is likely Russian-speaking and financially motivated, owing to the",
     "link": "https://thehackernews.com/2026/06/new-oxloader-loader-uses-malicious.html",
@@ -670,6 +770,16 @@
     "also_covered_by": []
   },
   {
+    "title": "FlutterShell Malware Uses C2-Delivered JavaScript Payloads to Evade Sandbox Detection",
+    "summary": "<p>Targeted macOS endpoint monitoring, the CL-CRI-1089 cluster tied to Operation FlutterBridge repurposes the Flutter framework to deliver a novel macOS malware family dubbed FlutterShell. Rather than rehashing prior campaign reporting, this piece treats recovered artifacts as a technical detection case study built from static analysis of ten Mach‑O samples collected between December 2025 and March [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fluttershell-malware-uses-c2/\">FlutterShell Malware Uses C2-Delivered JavaScript Payloads to Evade Sandbox Detection</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/fluttershell-malware-uses-c2/",
+    "published": "2026-06-23T07:15:07",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 727,
+    "also_covered_by": []
+  },
+  {
     "title": "Operation Endgame Disrupts Malware Network Linked to Major Ransomware Gang",
     "summary": "SocGholish malware has been removed from 15,000 sites associated with Evil Corp hackers",
     "link": "https://www.infosecurity-magazine.com/news/operation-endgame-socgholish-evil/",
@@ -677,6 +787,16 @@
     "source": "infosecurity-magazine.com",
     "category": "Ransomware",
     "importance_score": 721,
+    "also_covered_by": []
+  },
+  {
+    "title": "Windows RAT Uses Encrypted HTTP C2 and Registry Persistence After npm Infection",
+    "summary": "<p>A newly discovered malware campaign is targeting Windows systems through a deceptive package on the npm registry. Disguised as a legitimate CSS build tool, the malicious package quietly installs a full-featured Remote Access Trojan, or RAT, on developer machines. The attack is subtle, well-crafted, and far more dangerous than it first appears. The infection begins [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/windows-rat-uses-encrypted-http-c2/\">Windows RAT Uses Encrypted HTTP C2 and Registry Persistence After npm Infection</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/windows-rat-uses-encrypted-http-c2/",
+    "published": "2026-06-22T21:00:01",
+    "source": "cybersecuritynews.com",
+    "category": "Ransomware",
+    "importance_score": 710,
     "also_covered_by": []
   },
   {
@@ -760,6 +880,16 @@
     "also_covered_by": []
   },
   {
+    "title": "FortiBleed Campaign Uses FortigateSniffer to Harvest 110 Million Credentials From Fortinet Firewalls",
+    "summary": "<p>A large-scale credential harvesting campaign called “FortiBleed” has been uncovered, revealing how threat actors are exploiting Fortinet FortiGate firewalls to capture authentication data on an unprecedented scale. Research from the SOCRadar Threat Research Unit (STRU) indicates that this operation has already compromised over 110 million credentials by targeting misconfigured or weakly secured devices, turning them [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fortibleed-campaign-uses-fortigatesniffer-to-harvest-110-million-credentials/\">FortiBleed Campaign Uses FortigateSniffer to Harvest 110 Million Credentials From Fortinet Firewalls</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/fortibleed-campaign-uses-fortigatesniffer-to-harvest-110-million-credentials/",
+    "published": "2026-06-23T05:33:34",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 648,
+    "also_covered_by": []
+  },
+  {
     "title": "China's Noncombatant Evacuation Operations: 2005–2025",
     "summary": "Explore the Insikt Group study on 37 Chinese noncombatant evacuation operations (NEOs) from 2005–2025, revealing how China leverages SOEs and civilian resources for its overseas interests",
     "link": "https://www.recordedfuture.com/blog/china-noncombatant-evacuation-operations-2005-2025",
@@ -827,6 +957,16 @@
     "source": "securityweek.com",
     "category": "Vulnerability",
     "importance_score": 608,
+    "also_covered_by": []
+  },
+  {
+    "title": "Apple Beats Studio Buds Vulnerability Allows Hackers to Eavesdrop on Users",
+    "summary": "<p>Apple has addressed a high-severity vulnerability in the Beats Studio Buds that could allow nearby attackers to eavesdrop on users via the device&#8217;s microphone, even when the earbuds are not actively paired. Apple fixed the Bluetooth vulnerability in Beats Firmware Update 1B211, released on June 16, 2026, addressing a flaw that could be exploited by [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/apple-beats-studio-buds-vulnerability/\">Apple Beats Studio Buds Vulnerability Allows Hackers to Eavesdrop on Users</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/apple-beats-studio-buds-vulnerability/",
+    "published": "2026-06-22T16:17:13",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 607,
     "also_covered_by": []
   },
   {
@@ -980,6 +1120,16 @@
     "also_covered_by": []
   },
   {
+    "title": "OpenAI Launches Daybreak to Automate Vulnerability Patching With GPT-5.5-Cyber",
+    "summary": "<p>OpenAI has announced Daybreak, a new cybersecurity initiative aimed at automating vulnerability patching on a large scale using its latest GPT-5.5-Cyber model. This marks a shift from merely discovering vulnerabilities to focusing on end-to-end remediation. The initiative addresses a growing challenge in the industry, AI-driven tools have greatly accelerated vulnerability identification, leaving organizations struggling to [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/openai-launches-daybreak-to-automate-vulnerability-patching/\">OpenAI Launches Daybreak to Automate Vulnerability Patching With GPT-5.5-Cyber</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/openai-launches-daybreak-to-automate-vulnerability-patching/",
+    "published": "2026-06-23T05:21:08",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 490,
+    "also_covered_by": []
+  },
+  {
     "title": "New Android Theft Protection Feature Updates: Smarter, Stronger",
     "summary": "<span class=\"byline-author\">Posted by Nataliya Stanetsky, Fabricio Ferracioli, Elliot Sisteron, Irene Ang of the Android Security Team</span>\n\n<p>\nPhone theft is more than just losing a device; it's a form of financial fraud that can leave you suddenly vulnerable to personal data and financial theft. That’s why we're committed to providing multi-layered defenses that help protect you before, during, and after a theft attempt.\n</p>\n<p>\nToday, we're announcing a powerful set of theft protection feature updates that build on our<a href=\"https://security.googleblog.com/2024/10/android-theft-protection.html\"> existing protections</a>, designed to give you greater peace of mind by making your device a much harder target for criminals.\n</p>\n<h3>Stronger Authentication Safeguards</h3>\n\n\n<p>\nWe've expanded our security to protect you against an even wider range of threats. These updates are now available for Android devices running Android 16+.\n</p>\n<p>\n<strong>More User Control for Failed Authentications: </strong>In Android 15, <a href=\"https://blog.google/products/android/android-theft-protection/\">we launched</a> Failed Authentication Lock, a feature that automatically locks the device's screen after excessive failed authentication attempts. This feature is now getting a new dedicated enable/disable toggle in settings, giving you more granular control over your device's security.\n</p>\n<p>\n<strong>Expanding Identity Check to cover more: </strong><a href=\"https://security.googleblog.com/2025/01/android-theft-protection-identity-check-expanded-features.html\">Early in 2025</a>, we enabled Identity Check for Android 15+, which requires the user to utilize biometrics when performing certain actions outside of trusted places. Later in the year, we extended this safeguard to cover all features and apps that use the Android Biometric Prompt. This means that critical tools that utilize Biometric Prompt, like third-party banking apps and Google Password Manager, now automatically benefit from the additional security of Identity Check.\n</p>\n<p>\n<strong>Stronger Protection Against Screen Lock Guessing: </strong>We’re making it much harder for a thief to guess your PIN, pattern, or password by increasing the lockout time after failed attempts. To ensure you aren’t locked out by mistake (<a href=\"https://www.linkedin.com/pulse/how-my-son-secured-android-lockscreen-jeremiah-cox-vn88c/\">by a curious child</a>, for instance), identical incorrect guesses no longer count toward your retry limit. \n</p>\n<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVh6O_BTgr0Y5vICILPIdLfewGVuyy6CbPwm-MswORJJOuvoZnXnFD4A4-3uo0iUa0bKWCxVs5E5RQy1kvWFSI6cmYYcbUqHlucIEqLkszJ-kxrcWhqn_HXVuRPglXmtUe1gPRwHaYZ-K9GBQWCPW0izyvLIMr5Rus8e9BZUPFXJTG5LjivTdUFIEiQdtB/s3816/Android%20Theft%20Protection_Image.png\" style=\"display: block; padding: 1em 0; text-align: center;\"><img alt=\"\" border=\"0\" height=\"600\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVh6O_BTgr0Y5vICILPIdLfewGVuyy6CbPwm-MswORJJOuvoZnXnFD4A4-3uo0iUa0bKWCxVs5E5RQy1kvWFSI6cmYYcbUqHlucIEqLkszJ-kxrcWhqn_HXVuRPglXmtUe1gPRwHaYZ-K9GBQWCPW0izyvLIMr5Rus8e9BZUPFXJTG5LjivTdUFIEiQdtB/s600/Android%20Theft%20Protection_Image.png\" /></a></div>\n  </a>\n</div>\n\n<h3>Enhanced Recovery Tools</h3>\n\n\n<p>\nWe're also enhancing our recovery tools to make them even more helpful. This update is now available for Android devices running Android 10+.\n</p>\n<p>\n<strong>More Control for Remote Lock. </strong>Remote Lock (<a href=\"http://feeds.feedburner.com/android.com/lock\">android.com/lock</a>) is a crucial tool that lets you lock your lost or stolen device from any web browser. We are adding a new optional security question/challenge to the process. This helps ensure that only you, the real device owner, can initiate a lock, adding another layer of security to your recovery flow.<br />\n</p>\n<h3>Proactive Protection: \"Default-On\" in Brazil</h3>\n\n\n<p>\nKeeping our users safe is a top priority, which is why we're working to make theft protection available out-of-the-box for more Android users. For new Android devices activated in Brazil, two of our key <a href=\"https://support.google.com/android/answer/15146908?hl=en\">theft protection features</a> are now enabled by default:\n</p>\n<ul>\n\n<li><strong>Theft Detection Lock:</strong> Uses on-device AI to sense motion and context that may indicate a \"snatch-and-run\" theft. If a theft attempt is detected, it will quickly lock the device screen to help protect your data.</li>\n\n<li><strong>Remote Lock:</strong> Allows users to lock their device from any device that provides a web access to <a href=\"http://android.com/lock\">android.com/lock</a> without the need to have enabled the feature in advance.</li>\n</ul>\n<p>\nThis helps ensure new devices have a critical layer of theft protection from day one.\n</p>\n<h3>Continuing To innovate in Device Theft Protection</h3>\n\n\n<p>\nWe’re always evolving our protections to stay one step ahead of thieves. Our ongoing updates help ensure that no matter where you go, you can have greater peace of mind knowing your device and data are protected by Android’s multi-layered defenses. Keep a lookout for even more Android theft protection updates.\n</p>",
     "link": "http://security.googleblog.com/2026/01/android-theft-protection-feature-updates.html",
@@ -1070,6 +1220,26 @@
     "also_covered_by": []
   },
   {
+    "title": "OpenAI Releases GPT‑5.5‑Cyber With Full Automation for Vulnerability Detection and Patching",
+    "summary": "<p>OpenAI has officially launched the full version of GPT‑5.5‑Cyber, a specialized AI model engineered for advanced vulnerability detection, patch generation, and automated remediation at machine speed. The release is part of OpenAI&#8217;s broader Daybreak initiative, which aims to democratize defensive cybersecurity capabilities for trusted organizations worldwide. GPT‑5.5‑Cyber delivers state-of-the-art results across three major cybersecurity evaluation [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/gpt-5-5-cyber/\">OpenAI Releases GPT‑5.5‑Cyber With Full Automation for Vulnerability Detection and Patching</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/gpt-5-5-cyber/",
+    "published": "2026-06-23T03:17:18",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 481,
+    "also_covered_by": []
+  },
+  {
+    "title": "Hackers Using FortigateSniffer Tool That Turns Compromised Firewalls Into Password Collectors",
+    "summary": "<p>A financially motivated threat actor has deployed a custom Golang-based tool called FortigateSniffer across more than 430,000 FortiGate firewalls globally, silently harvesting over 110 million credentials since at least February 2026, including confirmed data exfiltration from a NATO-aligned defense contractor. The campaign, dubbed FortiBleed and investigated by SOCRadar&#8217;s Threat Research Unit (STRU), represents one of [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fortigatesniffer-tool-fortibleed/\">Hackers Using FortigateSniffer Tool That Turns Compromised Firewalls Into Password Collectors</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/fortigatesniffer-tool-fortibleed/",
+    "published": "2026-06-23T04:02:46",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 479,
+    "also_covered_by": []
+  },
+  {
     "title": "Ransomware Attacks are on the Rise",
     "summary": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
     "link": "https://threatpost.com/ransomware-attacks-are-on-the-rise/180481/",
@@ -1077,6 +1247,16 @@
     "source": "threatpost.com",
     "category": "Ransomware",
     "importance_score": 477,
+    "also_covered_by": []
+  },
+  {
+    "title": "29-Year-Old Squid Proxy Vulnerability Exposes Authorization Headers and API Keys",
+    "summary": "<p>A recently disclosed vulnerability in Squid Proxy, tracked as CVE-2026-47729 and referred to as “Squidbleed,” is exposing sensitive user data, including HTTP authorization headers and API keys. This issue arises from a decades-old memory-handling flaw in Squid’s codebase, dating back to at least 1997. It affects default configurations and illustrates how support for legacy protocols [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/29-year-old-squid-proxy-vulnerability/\">29-Year-Old Squid Proxy Vulnerability Exposes Authorization Headers and API Keys</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/29-year-old-squid-proxy-vulnerability/",
+    "published": "2026-06-23T04:54:51",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 474,
     "also_covered_by": []
   },
   {
@@ -1107,6 +1287,26 @@
     "source": "infosecurity-magazine.com",
     "category": "Policy / Law",
     "importance_score": 468,
+    "also_covered_by": []
+  },
+  {
+    "title": "23 ClawHub Plugins Abuse Official Org Scopes to Impersonate Trusted AI Agent Tools",
+    "summary": "<p>A new supply chain threat has surfaced in the AI agent ecosystem that is both subtle and serious. Researchers uncovered 23 plugins on the ClawHub registry published under official organizational scopes without any authorization from ClawHub or its parent project, OpenClaw. These plugins used trusted namespace prefixes to look like genuine, first-party tools, while they [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/23-clawhub-plugins-abuse-official-org-scopes/\">23 ClawHub Plugins Abuse Official Org Scopes to Impersonate Trusted AI Agent Tools</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/23-clawhub-plugins-abuse-official-org-scopes/",
+    "published": "2026-06-22T21:01:58",
+    "source": "cybersecuritynews.com",
+    "category": "Policy / Law",
+    "importance_score": 465,
+    "also_covered_by": []
+  },
+  {
+    "title": "AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network",
+    "summary": "<p>A newly discovered botnet called AryStinger has quietly hijacked more than 4,300 routers across the globe, turning them into a silent army of attack proxies. The threat actors behind this campaign are exploiting decade-old vulnerabilities to build a covert reconnaissance infrastructure, and what makes it particularly alarming is how well it manages to stay hidden [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers/\">AryStinger Botnet Hijacks 4,300+ Routers to Build Global Attack Proxy Network</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/arystinger-botnet-hijacks-4300-routers/",
+    "published": "2026-06-22T19:42:21",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 460,
     "also_covered_by": []
   },
   {
