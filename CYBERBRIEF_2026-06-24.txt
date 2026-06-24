@@ -1,0 +1,60 @@
+CYBERBRIEF • DAILY THREAT INTELLIGENCE
+Generated: Wednesday, June 24, 2026 - 08:18 UTC
+================================================================================
+
+Total topics: 293    •    Scanned raw articles: 294
+Severity breakdown:
+  CRITICAL: 6  |  HIGH: 8  |  MEDIUM: 38  |  LOW: 241
+
+Top 7 active threats:
+
+1. Alert Triangle  security.googleblog.com  [News Site]
+   Title    : HTTPS by default
+   Category : Vulnerability    •    Severity: CRITICAL (score: 2520)
+   Published: 2025-10-28T17:01:00
+   Link     : http://security.googleblog.com/2025/10/https-by-default.html
+
+2. Alert Triangle  security.googleblog.com  [News Site]
+   Title    : Bringing Rust to the Pixel Baseband
+   Category : Ransomware    •    Severity: CRITICAL (score: 2380)
+   Published: 2026-04-10T15:12:00
+   Link     : http://security.googleblog.com/2026/04/bringing-rust-to-pixel-baseband.html
+
+3. Alert Triangle  security.googleblog.com  [News Site]
+   Title    : Rust in Android: move fast and fix things
+   Category : Ransomware    •    Severity: CRITICAL (score: 2380)
+   Published: 2025-11-13T16:59:00
+   Link     : http://security.googleblog.com/2025/11/rust-in-android-move-fast-fix-things.html
+
+4. Alert Triangle  microsoft.com  [News Site]
+   Title    : AutoJack: How a single page can RCE the host running your AI agent
+   Category : Vulnerability    •    Severity: CRITICAL (score: 2380)
+   Published: 2026-06-19T00:17:54
+   Link     : https://www.microsoft.com/en-us/security/blog/2026/06/18/autojack-single-page-rce-host-running-ai-agent/
+
+5. Alert Triangle  thecyberexpress.com  [Link]
+   Title    : Multiple Vulnerabilities in QNAP NAS Devices Resolved Through Security Updates
+   Category : Vulnerability    •    Severity: CRITICAL (score: 2300)
+   Published: 2026-06-24T06:55:12
+   Link     : https://thecyberexpress.com/vulnerabilities-in-qnap-nas-cve-2025-59382/
+
+6. Alert Triangle  bleepingcomputer.com  [Newspaper]
+   Title    : LastPass confirms data breach in Klue supply chain attack
+   Category : Data Breach    •    Severity: CRITICAL (score: 2030)
+   Published: 2026-06-23T13:58:25
+   Link     : https://www.bleepingcomputer.com/news/security/lastpass-confirms-data-breach-in-klue-supply-chain-attack/
+
+7. Shield Check  security.googleblog.com  [News Site]
+   Title    : Android Quick Share Support for AirDrop: A Secure Approach to Cross-Platform File Sharing
+   Category : Data Breach    •    Severity: HIGH (score: 1959)
+   Published: 2025-11-20T17:00:00
+   Link     : http://security.googleblog.com/2025/11/android-quick-share-support-for-airdrop-security.html
+
+Security Tips:
+• Never trust unsolicited links or attachments in email or messaging apps.
+• Enable multi-factor authentication (MFA) on email, banking, and admin accounts.
+• Keep browsers, VPNs, and endpoint security fully patched.
+
+Scanned 294 articles • Top 7 topics selected
+Next planned auto-update: 08:00 AM UTC
+Stay safe, stay sharp!
