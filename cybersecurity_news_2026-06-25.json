@@ -110,6 +110,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Authorities Disrupt Stealer Malware StealC and Amadey Infrastructure in Global Operation",
+    "summary": "<p>Europol and law enforcement partners across multiple countries have dealt a significant blow to the cybercriminal ecosystems powering StealC, Amadey, and SocGholish malware, three widely deployed tools in the modern &#8220;cybercrime-as-a-service&#8221; supply chain. Announced as part of Operation Endgame, the coordinated action dismantled key infrastructure enabling ransomware deployment, credential theft, and large-scale financial fraud. Spanning [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/stealc-infrastructure-disrupted/\">Authorities Disrupt Stealer Malware StealC and Amadey Infrastructure in Global Operation</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/stealc-infrastructure-disrupted/",
+    "published": "2026-06-24T16:04:19",
+    "source": "cybersecuritynews.com",
+    "category": "Ransomware",
+    "importance_score": 1783,
+    "also_covered_by": []
+  },
+  {
     "title": "Operation Endgame Hits SocGholish Malware Network, 14,971 Websites Cleaned",
     "summary": "<p><img alt=\"SocGholish Malware\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"768\" src=\"https://thecyberexpress.com/wp-content/uploads/SocGholish-Malware.webp\" title=\"Operation Endgame Hits SocGholish Malware Network, 14,971 Websites Cleaned 21\" width=\"1408\" /></p>Operation Endgame Hits SocGholish Malware Network after international law enforcement agencies carried out a coordinated operation targeting one of the most significant malware distribution chains linked to cybercrime. Authorities announced the remediation of 14,971 websites infected with SocGholish Malware, a threat used by the cybercriminal group <a href=\"https://thecyberexpress.com/russian-state-linked-evil-corp-sanctioned/\" rel=\"noopener\" target=\"_blank\">Evil Corp</a> to gain unauthorized access to victim systems and facilitate further attacks.\n\nThe operation involved law enforcement agencies from the <a href=\"https://thecyberexpress.com/nexperia-security-threat-dutch-government-step/\" rel=\"noopener\" target=\"_blank\">Netherlands</a>, Canada, the United States, and Germany, with support from <a href=\"https://thecyberexpress.com/europol-traces-55-mn-crypto-digital-piracy/\" rel=\"noopener\" target=\"_blank\">Europol</a> and Eurojust. Officials described the action as a major disruption of the infrastructure used to distribute malware through compromised <a href=\"https://thecyberexpress.com/wp-maps-pro-vulnerability/\" rel=\"noopener\" target=\"_blank\">WordPress websites</a>.\n<h3><strong>Operation Endgame Hits SocGholish Malware Network Across Multiple Countries</strong></h3>\nDuring the coordinated action week, authorities took down 106 servers and domains associated with the criminal infrastructure supporting SocGholish operations.\n\n<a href=\"https://www.politie.nl/en/news/2026/juni/18/11-international-law-enforcement-initiate-hunt-on-malware-group-socgholish.html\" rel=\"nofollow noopener\" target=\"_blank\">According to investigators</a>, SocGholish Malware spreads primarily through compromised WordPress websites. Visitors to infected websites are presented with fake software update prompts, often disguised as browser updates. Once downloaded and installed, the <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-malware/\" title=\"malware\">malware</a> establishes access to the victim's system, allowing attackers to deploy additional malicious software.\n\nLaw enforcement agencies also disabled the SocGholish <a class=\"wpil_keyword_link\" href=\"https://cyble.com/knowledge-hub/what-is-botnet/\" rel=\"noopener\" target=\"_blank\" title=\"Botnet\">Botnet</a> by seizing domains and taking servers offline.\n\nIn addition to infrastructure takedowns, authorities cleaned infected WordPress sites and launched a large-scale victim notification campaign to warn affected website owners and encourage stronger security measures.\n<h3><strong>WordPress Websites at the Center of the Campaign</strong></h3>\nAuthorities highlighted the widespread use of WordPress as a factor contributing to the scale of the threat. According to WordPress, more than 43% of websites worldwide are built on the platform.\n\nInvestigators reported that login credentials for approximately 1.4 million websites have been leaked, increasing the <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-are-risks-in-cybersecurity/\" title=\"risk\">risk</a> of unauthorized access and malware infections.\n\nCybercriminals behind SocGholish typically compromise websites by exploiting weak passwords, stolen credentials, or vulnerable website configurations. Once access is obtained, malicious code is inserted into websites, allowing attackers to distribute fake updates to visitors.\n\nThe infected websites included platforms providing everyday services, such as restaurants and automotive repair businesses.\n<h3><strong>Authorities Urge Website Owners to Strengthen Security</strong></h3>\nThe Dutch National High Tech <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/\" title=\"Crime\">Crime</a> Unit stated that malware and backdoors have been removed from affected websites and that site owners have been notified.\n\nWebsite owners have been urged to:\n<ul>\n \t<li>Change login credentials</li>\n \t<li>Enable <a href=\"https://thecyberexpress.com/cybersecurity-awareness-month-what-is-2fa-mfa-and-why-should-you-care/\" rel=\"nofollow\">Multi-Factor Authentication (MFA)</a></li>\n \t<li>Remove unknown WordPress accounts</li>\n \t<li>Keep WordPress installations updated</li>\n</ul>\nAuthorities emphasized that these measures can significantly reduce the likelihood of future compromise.\n<h3><strong>Fake Updates Continue to Drive Infections</strong></h3>\nAlso known as <strong>FakeUpdates</strong>, SocGholish has remained active since 2017 and continues to be used as an initial access tool for broader cybercriminal operations.\n\nThe <a class=\"wpil_keyword_link\" href=\"https://cyble.com/knowledge-hub/what-is-malware/\" rel=\"noopener\" target=\"_blank\" title=\"malware\">malware</a> is distributed through fraudulent software update messages that appear while users browse compromised websites. Once installed, the malware creates a connection to attackers, enabling them to gain access to victim systems.\n\nOfficials warned users not to trust browser pop-ups requesting immediate software updates and advised obtaining updates only through official application stores, system settings, or verified vendors.\n\nAdditional recommendations include maintaining updated antivirus software and exercising caution when encountering urgent update notifications.\n\nLaw enforcement agencies linked Evil Corp to the SocGholish malware operation. The group has previously been associated with Zeus and Dridex malware campaigns, as well as multiple <a class=\"wpil_keyword_link\" href=\"https://cyble.com/knowledge-hub/what-is-ransomware/\" rel=\"noopener\" target=\"_blank\" title=\"ransomware\">ransomware</a> and money laundering operations.\n\nAuthorities noted that SocGholish has been used to deploy various <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-ransomware-how-it-work/\" title=\"ransomware\">ransomware</a> strains that have impacted organizations and critical infrastructure targets worldwide.\n<h3><strong>Operation Endgame Expands Global Cybercrime Disruption Efforts</strong></h3>\nLaunched in 2024, Operation Endgame is described by participating agencies as the largest international effort to combat ransomware and <a class=\"wpil_keyword_link\" href=\"https://cyble.com/cybercrime/\" rel=\"noopener\" target=\"_blank\" title=\"cybercrime\">cybercrime</a>. The initiative brings together law enforcement and judicial authorities from the Netherlands, Germany, Denmark, the United States, Australia, France, Belgium, the United Kingdom, and Canada, with support from Europol and Eurojust.\n\nOfficials stated that cooperation between public agencies and private-sector <a class=\"wpil_keyword_link\" href=\"https://cyble.com/knowledge-hub/what-is-cybersecurity/\" rel=\"noopener\" target=\"_blank\" title=\"cybersecurity\">cybersecurity</a> organizations remains a critical component of the operation as efforts continue against SocGholish and other cybercriminal networks.",
     "link": "https://thecyberexpress.com/socgholish-malware-hit-in-operation-endgame/",
@@ -140,6 +150,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Hackers Exploiting Cisco Catalyst SD-WAN Manager 0-Day Flaw to Gain Root-Level Access",
+    "summary": "<p>A sophisticated threat actor is actively targeting SD-WAN infrastructure at a major service provider. The campaign culminated in the exploitation of a zero-day privilege escalation vulnerability, now tracked as CVE-2026-20245 (CVSS 7.8), in Cisco Catalyst SD-WAN Manager, enabling attackers to silently escalate from a compromised administrative account to full root-level access. CVE-2026-20245 resides in the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/cisco-catalyst-sd-wan-manager-0-day/\">Hackers Exploiting Cisco Catalyst SD-WAN Manager 0-Day Flaw to Gain Root-Level Access</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/cisco-catalyst-sd-wan-manager-0-day/",
+    "published": "2026-06-24T17:03:41",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 1673,
+    "also_covered_by": []
+  },
+  {
     "title": "Malicious Edge extension abuses Native Messaging as bridge to malware",
     "summary": "A malicious Microsoft Edge extension dubbed 'Edgecution' has been used in a ransomware attack to escape the browser sandbox and deploy a Python-based backdoor. [...]",
     "link": "https://www.bleepingcomputer.com/news/security/malicious-edge-extension-abuses-native-messaging-as-bridge-to-malware/",
@@ -157,6 +177,16 @@
     "source": "securityweek.com",
     "category": "Vulnerability",
     "importance_score": 1545,
+    "also_covered_by": []
+  },
+  {
+    "title": "Europol Disrupts Cybercrime-as-a-Service Networks Used for Ransomware and Financial Fraud",
+    "summary": "<p>Europol, in collaboration with global law enforcement agencies and private sector partners, has successfully disrupted a significant cybercrime-as-a-service (CaaS) infrastructure used for ransomware deployment and financial fraud. This effort, part of Operation Endgame, was announced on June 24, 2026, and marked a considerable milestone in the fight against cybercrime. Europol Disrupts Cybercrime-as-a-Service Networks The coordinated [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/europol-disrupts-cybercrime-as-a-service-networks/\">Europol Disrupts Cybercrime-as-a-Service Networks Used for Ransomware and Financial Fraud</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/europol-disrupts-cybercrime-as-a-service-networks/",
+    "published": "2026-06-25T05:08:48",
+    "source": "gbhackers.com",
+    "category": "Ransomware",
+    "importance_score": 1543,
     "also_covered_by": []
   },
   {
@@ -330,6 +360,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Microsoft WinRE Vulnerability Allows Hackers to Bypass UEFI/BIOS Password Enforcement",
+    "summary": "<p>A newly disclosed vulnerability in the Microsoft Windows Recovery Environment (WinRE) could allow attackers to bypass UEFI and BIOS password protections, exposing systems to unauthorized access even when firmware-level security controls are active. This issue, tracked under CERT/CC VU#226679 and associated with CVE-2026-45585, affects Windows 10 and Windows 11 systems that use WinRE for recovery [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/microsoft-winre-vulnerability/\">Microsoft WinRE Vulnerability Allows Hackers to Bypass UEFI/BIOS Password Enforcement</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/microsoft-winre-vulnerability/",
+    "published": "2026-06-25T07:02:32",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 1227,
+    "also_covered_by": []
+  },
+  {
     "title": "One intrusion, two cyberattackers: Uncovering parallel threat activity",
     "summary": "<p>Ransomware case reveals two parallel threat actors, blending tactics and evasion—showing why isolated signals can often miss modern, overlapping cyberattacks.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/06/22/one-intrusion-two-cyberattackers-uncovering-parallel-threat-activity/\">One intrusion, two cyberattackers: Uncovering parallel threat activity</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/06/22/one-intrusion-two-cyberattackers-uncovering-parallel-threat-activity/",
@@ -367,6 +407,16 @@
     "source": "cyberscoop.com",
     "category": "Vulnerability",
     "importance_score": 1146,
+    "also_covered_by": []
+  },
+  {
+    "title": "Hackers Use Malicious Chrome Extension to Break Out of Browser Sandbox",
+    "summary": "<p>A sophisticated malware campaign that combined a phishing lure, an obfuscated Windows JavaScript dropper, a malicious Google Chrome extension and a Native Messaging Host to effectively break the browser sandbox and execute arbitrary PowerShell commands on infected Windows machines. The attack chain shows how legitimate platform features signed executables, enterprise extension deployment policies and Chrome’s [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/chrome-extension-to-break-out-of-browser-sandbox/\">Hackers Use Malicious Chrome Extension to Break Out of Browser Sandbox</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/chrome-extension-to-break-out-of-browser-sandbox/",
+    "published": "2026-06-25T06:34:34",
+    "source": "gbhackers.com",
+    "category": "Phishing / Scams",
+    "importance_score": 1131,
     "also_covered_by": []
   },
   {
@@ -417,6 +467,26 @@
     "source": "securityweek.com",
     "category": "Vulnerability",
     "importance_score": 1086,
+    "also_covered_by": []
+  },
+  {
+    "title": "Cisco Catalyst SD-WAN Manager Zero-Day Exploited to Gain Root Access via Malicious CSV Upload",
+    "summary": "<p>Cisco Catalyst SD-WAN Manager instances are currently being targeted in a zero-day exploitation campaign that allows attackers to escalate their privileges to root through a malicious CSV upload mechanism. Mandiant reported this information on June 24, 2026. The vulnerability, identified as CVE-2026-20245, affects Cisco Catalyst SD-WAN controllers and stems from improper validation of file uploads [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cisco-catalyst-sd-wan-manager-zero-day-exploited/\">Cisco Catalyst SD-WAN Manager Zero-Day Exploited to Gain Root Access via Malicious CSV Upload</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/cisco-catalyst-sd-wan-manager-zero-day-exploited/",
+    "published": "2026-06-25T05:58:55",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 1084,
+    "also_covered_by": []
+  },
+  {
+    "title": "Anthropic Accuses Alibaba of ‘Illicitly’ Accessing Its Claude AI Models in Largest Known Distillation Attack",
+    "summary": "<p>Anthropic has formally accused Chinese tech and e-commerce giant Alibaba of orchestrating a massive, unauthorized extraction campaign targeting its Claude AI model, marking what the company describes as the largest known distillation attack in its history. In a letter dated June 10, 2026, and addressed to U.S. Senate Banking Committee Chair Tim Scott and Ranking [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/anthropic-accuses-alibaba/\">Anthropic Accuses Alibaba of &#8216;Illicitly&#8217; Accessing Its Claude AI Models in Largest Known Distillation Attack</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/anthropic-accuses-alibaba/",
+    "published": "2026-06-25T02:11:37",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 1068,
     "also_covered_by": []
   },
   {
@@ -610,6 +680,66 @@
     "also_covered_by": []
   },
   {
+    "title": "EvilTokens Hides Its Attack Flow in the Browser, Exposing Static Analysis Gaps",
+    "summary": "<p>&#160;EvilTokens&#160;is drawing attention&#160;in&#160;phishing investigations for abusing Microsoft Device Code authentication and hiding key parts of its attack flow from static URL analysis.&#160;&#160; &#160;In a recent analysis, the phishing page was found encrypted in the&#160;initial&#160;HTML response and appeared only after browser-side decryption&#160;rendered&#160;it in the DOM. The case shows why analysts need browser-level visibility to confirm dynamic [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/eviltokens-hides-its-attack-flow-in-the-browser/\">EvilTokens Hides Its Attack Flow in the Browser, Exposing Static Analysis Gaps  </a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/eviltokens-hides-its-attack-flow-in-the-browser/",
+    "published": "2026-06-24T17:31:33",
+    "source": "cybersecuritynews.com",
+    "category": "Ransomware",
+    "importance_score": 890,
+    "also_covered_by": []
+  },
+  {
+    "title": "Mistic Backdoor Blends With Microsoft Endpoint Security Tooling to Evade Detection",
+    "summary": "<p>A new and stealthy backdoor named Mistic has been quietly targeting corporate networks since April 2026, disguising itself using the names and appearance of legitimate Microsoft endpoint security components. This clever camouflage helps it avoid detection, allowing attackers to maintain a persistent, low-profile foothold inside compromised environments. Security teams across multiple industries are now on [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/mistic-backdoor-blends-with-microsoft-endpoint-security/\">Mistic Backdoor Blends With Microsoft Endpoint Security Tooling to Evade Detection</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/mistic-backdoor-blends-with-microsoft-endpoint-security/",
+    "published": "2026-06-24T20:58:31",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 877,
+    "also_covered_by": []
+  },
+  {
+    "title": "Malicious Edge Extension Uses Chrome Native Messaging to Execute Code on Victim Systems",
+    "summary": "<p>A new and deceptive malware campaign has been uncovered, one that turns an everyday browser extension into a dangerous tool for system compromise. Security researchers have identified a threat that uses a malicious Microsoft Edge extension to break out of the browser&#8217;s built-in security boundaries, giving attackers direct access to a victim&#8217;s computer. The campaign [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/malicious-edge-extension-uses-chrome-native-messaging/\">Malicious Edge Extension Uses Chrome Native Messaging to Execute Code on Victim Systems</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/malicious-edge-extension-uses-chrome-native-messaging/",
+    "published": "2026-06-24T19:36:34",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 870,
+    "also_covered_by": []
+  },
+  {
+    "title": "Microsoft Teams Impersonation Campaign Enables Unauthorized Access Through RMM Abuse",
+    "summary": "<p>Threat actors are once again exploiting the trust people place in everyday workplace tools. A newly discovered phishing campaign is using fake Microsoft Teams notifications to trick employees into downloading a remote access tool that gives attackers full control over their systems. The operation is carefully designed to look legitimate at every step, making it [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-teams-impersonation-campaign-enables-unauthorized-access/\">Microsoft Teams Impersonation Campaign Enables Unauthorized Access Through RMM Abuse</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/microsoft-teams-impersonation-campaign-enables-unauthorized-access/",
+    "published": "2026-06-24T20:58:08",
+    "source": "cybersecuritynews.com",
+    "category": "Phishing / Scams",
+    "importance_score": 869,
+    "also_covered_by": []
+  },
+  {
+    "title": "Hackers Use Cisco AnyConnect and Google Update Lures to Drop SharkLoader Malware",
+    "summary": "<p>A newly discovered malware family is making its way onto systems worldwide by hiding inside fake software installers that look completely legitimate. Researchers have identified a campaign where attackers disguise their malicious tools as trusted programs like Cisco AnyConnect and Google Update, tricking users into running them without suspicion. Once the file is executed, a [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-use-cisco-anyconnect-and-google-update-lures/\">Hackers Use Cisco AnyConnect and Google Update Lures to Drop SharkLoader Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/hackers-use-cisco-anyconnect-and-google-update-lures/",
+    "published": "2026-06-25T07:48:40",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 868,
+    "also_covered_by": []
+  },
+  {
+    "title": "Fake Document Reader in The Google Play Store with 100K Downloads Deliver Android Malware",
+    "summary": "<p>A dangerous Android banking trojan is once again spreading through the Google Play Store, hiding inside what appears to be a simple document reader app. The app has already been downloaded more than 100,000 times, putting a large number of Android users at serious risk of financial theft and personal data loss. The malware in [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fake-document-reader-in-the-google-play-store/\">Fake Document Reader in The Google Play Store with 100K Downloads Deliver Android Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/fake-document-reader-in-the-google-play-store/",
+    "published": "2026-06-24T20:57:34",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 856,
+    "also_covered_by": []
+  },
+  {
     "title": "StealC and Amadey: Breaking down infostealers and the cybercrime services that deliver them",
     "summary": "<p>On June 24, 2026, Microsoft’s Digital Crimes Unit (DCU) facilitated the takedown, suspension, and blocking of domains that formed the backbone of the StealC and Amadey infrastructure. This blog is a technical breakdown of StealC and Amadey.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/06/24/stealc-and-amadey-breaking-down-infostealers-and-the-cybercrime-services-that-deliver-them/\">StealC and Amadey: Breaking down infostealers and the cybercrime services that deliver them</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/06/24/stealc-and-amadey-breaking-down-infostealers-and-the-cybercrime-services-that-deliver-them/",
@@ -717,6 +847,16 @@
     "source": "helpnetsecurity.com",
     "category": "Phishing / Scams",
     "importance_score": 750,
+    "also_covered_by": []
+  },
+  {
+    "title": "StrikeShark Campaign Uses New SharkLoader Malware to Deploy Cobalt Strike Beacon",
+    "summary": "<p>During a recent investigation into activity affecting a diplomatic mission in Indonesia, researchers uncovered a previously undocumented loader family they named SharkLoader. What began as an isolated incident rapidly expanded into a multi-country campaign tracked as StrikeShark where SharkLoader consistently serves as the initial loader that ultimately deploys a Cobalt Strike Beacon on compromised hosts. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/sharkloader-malware-to-deploy-cobalt-strike/\">StrikeShark Campaign Uses New SharkLoader Malware to Deploy Cobalt Strike Beacon</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/sharkloader-malware-to-deploy-cobalt-strike/",
+    "published": "2026-06-25T05:12:37",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 732,
     "also_covered_by": []
   },
   {
@@ -860,6 +1000,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Google Chrome Update Patches 18 Security Flaws, Including Critical WebGL and Autofill Vulnerabilities",
+    "summary": "<p>Google has released Chrome version 149.0.7827.196/197 for Windows and macOS, and version 149.0.7827.196 for Linux. This update addresses 18 security vulnerabilities, including several critical memory safety flaws in the WebGL and Autofill components. The announcement was made on June 23, 2026, and the update is being rolled out gradually over the coming days and weeks. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/google-chrome-update-patches-18-security-flaws/\">Google Chrome Update Patches 18 Security Flaws, Including Critical WebGL and Autofill Vulnerabilities</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/google-chrome-update-patches-18-security-flaws/",
+    "published": "2026-06-25T07:44:12",
+    "source": "gbhackers.com",
+    "category": "Policy / Law",
+    "importance_score": 628,
+    "also_covered_by": []
+  },
+  {
     "title": "GentleKiller Framework Disables Victims' Security Software",
     "summary": "ESET details GentleKiller, the EDR-killer framework the Gentlemen ransomware gang gives affiliates",
     "link": "https://www.infosecurity-magazine.com/news/gentlekiller-gentlemen-ransomware/",
@@ -867,6 +1017,16 @@
     "source": "infosecurity-magazine.com",
     "category": "Ransomware",
     "importance_score": 624,
+    "also_covered_by": []
+  },
+  {
+    "title": "Chrome 149 Security Update — Patch for Critical Flaws that Enable Code Execution Attacks",
+    "summary": "<p>Google has released a critical security update for its Chrome browser, pushing the Stable channel to version 149.0.7827.196/197 for Windows and Mac, and 149.0.7827.196 for Linux. The update addresses 18 security vulnerabilities, including four rated Critical and fourteen rated High severity, several of which could allow attackers to execute arbitrary code on affected systems. The [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/chrome-149-security-update/\">Chrome 149 Security Update — Patch for Critical Flaws that Enable Code Execution Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/chrome-149-security-update/",
+    "published": "2026-06-25T03:28:57",
+    "source": "cybersecuritynews.com",
+    "category": "Policy / Law",
+    "importance_score": 614,
     "also_covered_by": []
   },
   {
@@ -1020,6 +1180,16 @@
     "also_covered_by": []
   },
   {
+    "title": "DPRK-Linked macOS Implant Uses LaunchAgent Persistence and Python Stealer Module",
+    "summary": "<p>The binary tracked as macOS.Gaslight as a Rust-based macOS implant and infostealer whose most novel features are analyst-directed prompt injection and a hardened Telegram-based command-and-control (C2) channel. We assess with high confidence that macOS.Gaslight aligns with DPRK-linked macOS activity clustered around BONZAI and AIRPIPE signatures. macOS.Gaslight is ad hoc signed, carries the identifier endpoint-macos-aarch64-5555494492fc075f441637fb9d894913dde3a2ea, and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/dprk-linked-macos-implant/\">DPRK-Linked macOS Implant Uses LaunchAgent Persistence and Python Stealer Module</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/dprk-linked-macos-implant/",
+    "published": "2026-06-25T07:42:16",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 493,
+    "also_covered_by": []
+  },
+  {
     "title": "New Android Theft Protection Feature Updates: Smarter, Stronger",
     "summary": "<span class=\"byline-author\">Posted by Nataliya Stanetsky, Fabricio Ferracioli, Elliot Sisteron, Irene Ang of the Android Security Team</span>\n\n<p>\nPhone theft is more than just losing a device; it's a form of financial fraud that can leave you suddenly vulnerable to personal data and financial theft. That’s why we're committed to providing multi-layered defenses that help protect you before, during, and after a theft attempt.\n</p>\n<p>\nToday, we're announcing a powerful set of theft protection feature updates that build on our<a href=\"https://security.googleblog.com/2024/10/android-theft-protection.html\"> existing protections</a>, designed to give you greater peace of mind by making your device a much harder target for criminals.\n</p>\n<h3>Stronger Authentication Safeguards</h3>\n\n\n<p>\nWe've expanded our security to protect you against an even wider range of threats. These updates are now available for Android devices running Android 16+.\n</p>\n<p>\n<strong>More User Control for Failed Authentications: </strong>In Android 15, <a href=\"https://blog.google/products/android/android-theft-protection/\">we launched</a> Failed Authentication Lock, a feature that automatically locks the device's screen after excessive failed authentication attempts. This feature is now getting a new dedicated enable/disable toggle in settings, giving you more granular control over your device's security.\n</p>\n<p>\n<strong>Expanding Identity Check to cover more: </strong><a href=\"https://security.googleblog.com/2025/01/android-theft-protection-identity-check-expanded-features.html\">Early in 2025</a>, we enabled Identity Check for Android 15+, which requires the user to utilize biometrics when performing certain actions outside of trusted places. Later in the year, we extended this safeguard to cover all features and apps that use the Android Biometric Prompt. This means that critical tools that utilize Biometric Prompt, like third-party banking apps and Google Password Manager, now automatically benefit from the additional security of Identity Check.\n</p>\n<p>\n<strong>Stronger Protection Against Screen Lock Guessing: </strong>We’re making it much harder for a thief to guess your PIN, pattern, or password by increasing the lockout time after failed attempts. To ensure you aren’t locked out by mistake (<a href=\"https://www.linkedin.com/pulse/how-my-son-secured-android-lockscreen-jeremiah-cox-vn88c/\">by a curious child</a>, for instance), identical incorrect guesses no longer count toward your retry limit. \n</p>\n<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVh6O_BTgr0Y5vICILPIdLfewGVuyy6CbPwm-MswORJJOuvoZnXnFD4A4-3uo0iUa0bKWCxVs5E5RQy1kvWFSI6cmYYcbUqHlucIEqLkszJ-kxrcWhqn_HXVuRPglXmtUe1gPRwHaYZ-K9GBQWCPW0izyvLIMr5Rus8e9BZUPFXJTG5LjivTdUFIEiQdtB/s3816/Android%20Theft%20Protection_Image.png\" style=\"display: block; padding: 1em 0; text-align: center;\"><img alt=\"\" border=\"0\" height=\"600\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVh6O_BTgr0Y5vICILPIdLfewGVuyy6CbPwm-MswORJJOuvoZnXnFD4A4-3uo0iUa0bKWCxVs5E5RQy1kvWFSI6cmYYcbUqHlucIEqLkszJ-kxrcWhqn_HXVuRPglXmtUe1gPRwHaYZ-K9GBQWCPW0izyvLIMr5Rus8e9BZUPFXJTG5LjivTdUFIEiQdtB/s600/Android%20Theft%20Protection_Image.png\" /></a></div>\n  </a>\n</div>\n\n<h3>Enhanced Recovery Tools</h3>\n\n\n<p>\nWe're also enhancing our recovery tools to make them even more helpful. This update is now available for Android devices running Android 10+.\n</p>\n<p>\n<strong>More Control for Remote Lock. </strong>Remote Lock (<a href=\"http://feeds.feedburner.com/android.com/lock\">android.com/lock</a>) is a crucial tool that lets you lock your lost or stolen device from any web browser. We are adding a new optional security question/challenge to the process. This helps ensure that only you, the real device owner, can initiate a lock, adding another layer of security to your recovery flow.<br />\n</p>\n<h3>Proactive Protection: \"Default-On\" in Brazil</h3>\n\n\n<p>\nKeeping our users safe is a top priority, which is why we're working to make theft protection available out-of-the-box for more Android users. For new Android devices activated in Brazil, two of our key <a href=\"https://support.google.com/android/answer/15146908?hl=en\">theft protection features</a> are now enabled by default:\n</p>\n<ul>\n\n<li><strong>Theft Detection Lock:</strong> Uses on-device AI to sense motion and context that may indicate a \"snatch-and-run\" theft. If a theft attempt is detected, it will quickly lock the device screen to help protect your data.</li>\n\n<li><strong>Remote Lock:</strong> Allows users to lock their device from any device that provides a web access to <a href=\"http://android.com/lock\">android.com/lock</a> without the need to have enabled the feature in advance.</li>\n</ul>\n<p>\nThis helps ensure new devices have a critical layer of theft protection from day one.\n</p>\n<h3>Continuing To innovate in Device Theft Protection</h3>\n\n\n<p>\nWe’re always evolving our protections to stay one step ahead of thieves. Our ongoing updates help ensure that no matter where you go, you can have greater peace of mind knowing your device and data are protected by Android’s multi-layered defenses. Keep a lookout for even more Android theft protection updates.\n</p>",
     "link": "http://security.googleblog.com/2026/01/android-theft-protection-feature-updates.html",
@@ -1080,6 +1250,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Alibaba Accused of Illicitly Accessing Claude AI Models Using 25,000 Fraudulent Accounts",
+    "summary": "<p>Anthropic has accused the Chinese technology conglomerate Alibaba of orchestrating a large-scale, coordinated operation to extract capabilities from its Claude AI models illegally. The company describes this incident as the largest adversarial distillation attack recorded to date. The allegations, outlined in a formal letter dated June 10, 2026, were addressed to U.S. Senate Banking Committee [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/alibaba-accused-of-illicitly-accessing-claude-ai-models/\">Alibaba Accused of Illicitly Accessing Claude AI Models Using 25,000 Fraudulent Accounts</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/alibaba-accused-of-illicitly-accessing-claude-ai-models/",
+    "published": "2026-06-25T06:09:06",
+    "source": "gbhackers.com",
+    "category": "Phishing / Scams",
+    "importance_score": 483,
+    "also_covered_by": []
+  },
+  {
     "title": "Kodak confirms breach as ShinyHunters&#8217; leak threat reaches deadline",
     "summary": "The photography giant confirmed a data breach after ShinyHunters claimed it stole 2.2 million records and threatened to leak them.",
     "link": "https://www.malwarebytes.com/blog/news/2026/06/kodak-confirms-breach-as-shinyhunters-leak-threat-reaches-deadline",
@@ -1097,6 +1277,26 @@
     "source": "threatpost.com",
     "category": "Ransomware",
     "importance_score": 477,
+    "also_covered_by": []
+  },
+  {
+    "title": "Agentic Red-Team Tools Flaws Let Hackers Steal API Keys, Escape Sandboxes, and Compromise Hosts",
+    "summary": "<p>Agentic red-team tools designed for autonomous offensive security operations are themselves vulnerable, allowing attackers to steal API keys, weaponize the agents, escape sandboxes, and fully compromise the hosts that run them. A new academic study by Arxiv presents the first in-depth security analysis of 12 widely used agentic offensive security systems, concluding that most share [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/agentic-red-team-tools-flaws/\">Agentic Red-Team Tools Flaws Let Hackers Steal API Keys, Escape Sandboxes, and Compromise Hosts</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/agentic-red-team-tools-flaws/",
+    "published": "2026-06-25T04:55:11",
+    "source": "gbhackers.com",
+    "category": "Policy / Law",
+    "importance_score": 476,
+    "also_covered_by": []
+  },
+  {
+    "title": "OpenClaw Supply Chain Risk Lets Attackers Abuse AI Agent Authority for Unauthorized Actions",
+    "summary": "<p>OpenClaw’s agentic marketplace, ClawHub, was designed to accelerate AI-driven workflows by letting third-party “skills” extend an AI agent’s capabilities. Those skills are markdown-driven packages with broad local access, and that design choice made ClawHub a critical and sensitive link in the emerging AI agent supply chain. Our deep technical review of activity between February and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/openclaw-supply-chain-risk/\">OpenClaw Supply Chain Risk Lets Attackers Abuse AI Agent Authority for Unauthorized Actions</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/openclaw-supply-chain-risk/",
+    "published": "2026-06-25T05:45:39",
+    "source": "gbhackers.com",
+    "category": "Policy / Law",
+    "importance_score": 474,
     "also_covered_by": []
   },
   {
