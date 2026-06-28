@@ -140,6 +140,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Ransomware gangs find Europe’s weakest link in third-party suppliers",
+    "summary": "<p>Ransomware attacks against European organizations increased during the first months of 2026, with third-party suppliers becoming a major entry point for attackers. Black Kite examined 2,066 ransomware incidents across 31 countries between January 2025 and April 2026 in its 2026 European Cyber Risk Report. Country distribution of ransomware attacks (Source: Black Kite) “Three forces are converging on European organisations at once: ransomware is accelerating, supply chains are becoming a primary attack path, and regulations are &#8230; <a href=\"https://www.helpnetsecurity.com/2026/06/26/black-kite-european-cyber-threats-report/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/06/26/black-kite-european-cyber-threats-report/\">Ransomware gangs find Europe&#8217;s weakest link in third-party suppliers</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "link": "https://www.helpnetsecurity.com/2026/06/26/black-kite-european-cyber-threats-report/",
+    "published": "2026-06-26T09:49:54",
+    "source": "helpnetsecurity.com",
+    "category": "Ransomware",
+    "importance_score": 1400,
+    "also_covered_by": []
+  },
+  {
     "title": "Crypto Clipper uses Tor and worm-like propagation for persistence and control",
     "summary": "<p>Microsoft Threat Intelligence analyzed a cryptocurrency clipper campaign that combines clipboard theft, wallet replacement, Tor-based communications, and worm-like propagation. Beyond stealing cryptocurrency transactions, the malware establishes persistent access and enables follow-on activity through a lightweight backdoor capability.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/06/17/crypto-clipper-uses-tor-worm-like-propagation-for-persistence-control/\">Crypto Clipper uses Tor and worm-like propagation for persistence and control</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/06/17/crypto-clipper-uses-tor-worm-like-propagation-for-persistence-control/",
@@ -270,6 +280,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Nikkei Warns of Japan’s Ground Self-Defense Force Used USB Drives Infected with a China-linked Malware",
+    "summary": "<p>A serious cybersecurity breach has come to light in Japan, where the country&#8217;s Ground Self-Defense Force (JGSDF) unknowingly used malware-infected USB drives on computers connected to classified military networks. The incident lasted for nearly a year before anyone noticed. What makes this case especially alarming is not just the breach itself, but the fact that [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/nikkei-warns-of-japans-ground-self-defense-force-used-usb-drives/\">Nikkei Warns of Japan&#8217;s Ground Self-Defense Force Used USB Drives Infected with a China-linked Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/nikkei-warns-of-japans-ground-self-defense-force-used-usb-drives/",
+    "published": "2026-06-26T11:39:35",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 1176,
+    "also_covered_by": []
+  },
+  {
     "title": "First-Ever Exploitation of PTC Windchill Vulnerability Discovered in the Wild",
     "summary": "<p>CISA has added the remote code execution flaw CVE-2026-12569 to its Known Exploited Vulnerabilities catalog.</p>\n<p>The post <a href=\"https://www.securityweek.com/first-ever-exploitation-of-ptc-windchill-vulnerability-discovered-in-the-wild/\">First-Ever Exploitation of PTC Windchill Vulnerability Discovered in the Wild</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
     "link": "https://www.securityweek.com/first-ever-exploitation-of-ptc-windchill-vulnerability-discovered-in-the-wild/",
@@ -377,6 +397,16 @@
     "source": "welivesecurity.com",
     "category": "Vulnerability",
     "importance_score": 956,
+    "also_covered_by": []
+  },
+  {
+    "title": "Critical open-source projects get a new security framework",
+    "summary": "<p>Open source software projects are getting a new framework for handling security vulnerabilities as AI shortens the time between flaw discovery and exploitation. The Linux Foundation has launched Akrites, an industry initiative that brings together technology companies, financial institutions, security vendors, AI companies, and open source projects to support the remediation and disclosure of vulnerabilities affecting widely used open source software. Akrites aims to establish a common process for addressing security issues in software used &#8230; <a href=\"https://www.helpnetsecurity.com/2026/06/26/akrites-open-source-security-framework/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/06/26/akrites-open-source-security-framework/\">Critical open-source projects get a new security framework</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "link": "https://www.helpnetsecurity.com/2026/06/26/akrites-open-source-security-framework/",
+    "published": "2026-06-26T11:41:43",
+    "source": "helpnetsecurity.com",
+    "category": "Vulnerability",
+    "importance_score": 950,
     "also_covered_by": []
   },
   {
@@ -540,6 +570,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Mirage2FA phishing kit uses HTML smuggling to steal Microsoft 365 credentials",
+    "summary": "<p>Mirage2FA, a phishing kit that combines short-lived HTML smuggling with obfuscated JavaScript loaders to deliver fake Microsoft 365 login pages and steal credentials during MFA prompts, has been identified by researchers at Fortra. Fortra based its analysis on a suspicious HTML and JavaScript attachment delivered by email, supporting DNS data, and the second-stage phishing page. Researchers said the campaign relied on business-themed lures, including secure documents, remittance services, automated billing, and payment requests. Opening the &#8230; <a href=\"https://www.helpnetsecurity.com/2026/06/26/mirage2fa-phishing-kit-microsoft-365-html-smuggling/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/06/26/mirage2fa-phishing-kit-microsoft-365-html-smuggling/\">Mirage2FA phishing kit uses HTML smuggling to steal Microsoft 365 credentials</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "link": "https://www.helpnetsecurity.com/2026/06/26/mirage2fa-phishing-kit-microsoft-365-html-smuggling/",
+    "published": "2026-06-26T09:26:06",
+    "source": "helpnetsecurity.com",
+    "category": "Phishing / Scams",
+    "importance_score": 750,
+    "also_covered_by": []
+  },
+  {
     "title": "&#8220;Total access to all your devices.&#8221; Sextortion scammers strike again",
     "summary": "They say they have videos, malware, and total control of your devices. Here's how to read a sextortion email like a security researcher instead of a victim.",
     "link": "https://www.malwarebytes.com/blog/scams/2026/06/total-access-to-all-your-devices-sextortion-scammers-strike-again",
@@ -557,6 +597,16 @@
     "source": "infosecurity-magazine.com",
     "category": "Ransomware",
     "importance_score": 738,
+    "also_covered_by": []
+  },
+  {
+    "title": "New Bluekit Phishing-as-a-Service Bypasses MFA to Steal Microsoft Login Credentials",
+    "summary": "<p>A sophisticated Phishing-as-a-Service (PhaaS) platform called Bluekit has been confirmed operational at scale, with cybersecurity firm Netcraft detecting approximately 70 live hostnames in a single week. First documented by Varonis Threat Labs as an emerging tool still in development, Bluekit has since matured into a fully operational threat capable of bypassing multi-factor authentication (MFA) and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/bluekit-paas-bypasses-mfa/\">New Bluekit Phishing-as-a-Service Bypasses MFA to Steal Microsoft Login Credentials</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/bluekit-paas-bypasses-mfa/",
+    "published": "2026-06-26T13:33:23",
+    "source": "cybersecuritynews.com",
+    "category": "Phishing / Scams",
+    "importance_score": 718,
     "also_covered_by": []
   },
   {
@@ -750,6 +800,16 @@
     "also_covered_by": []
   },
   {
+    "title": "New Bucket Hijacking Attack Allows Hackers to Reroute Cloud Data Streams to External Storage",
+    "summary": "<p>A critical cloud storage attack technique dubbed &#8220;bucket hijacking&#8221; a method that enables threat actors to silently redirect an organization&#8217;s active cloud data streams, including audit logs and telemetry, into attacker-controlled external storage buckets across major cloud platforms. The technique has been confirmed to affect Google Cloud, Amazon Web Services (AWS), and Microsoft Azure, with [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/bucket-hijacking-attack/\">New Bucket Hijacking Attack Allows Hackers to Reroute Cloud Data Streams to External Storage</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/bucket-hijacking-attack/",
+    "published": "2026-06-27T00:46:38",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 622,
+    "also_covered_by": []
+  },
+  {
     "title": "Ukraine Says Russian Intelligence Used Fake Support Texts to Steal Messaging Credentials",
     "summary": "The Security Service of Ukraine (SSU) said it, together with the U.S. Federal Bureau of Investigation (FBI), uncovered a long-running campaign orchestrated by Russian intelligence services to break into the messaging accounts of government officials, military personnel, politicians, and activists in Ukraine, Europe, and the U.S.\n\nThe systematic cyber attacks aimed at stealing sensitive",
     "link": "https://thehackernews.com/2026/06/ukraine-says-russian-intelligence-used.html",
@@ -807,6 +867,26 @@
     "source": "securelist.com",
     "category": "Phishing / Scams",
     "importance_score": 572,
+    "also_covered_by": []
+  },
+  {
+    "title": "New GIFTEDCROOK Chain Abuses WinRAR ADS and Reflective Loading to Steal Browser Data",
+    "summary": "<p>A newly documented attack chain tied to threat actor group UAC-0226 is putting Windows users at serious risk. The campaign uses booby-trapped WinRAR archives, hidden file streams, and a sophisticated memory-loading technique to deliver GIFTEDCROOK, a stealer malware designed to quietly drain browser credentials, cookies, and sensitive documents from infected machines. The attack has shown [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/new-giftedcrook-chain-abuses-winrar-ads/\">New GIFTEDCROOK Chain Abuses WinRAR ADS and Reflective Loading to Steal Browser Data</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/new-giftedcrook-chain-abuses-winrar-ads/",
+    "published": "2026-06-26T12:43:11",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 569,
+    "also_covered_by": []
+  },
+  {
+    "title": "Hackers Leveraged Shopify Oder-Tracking App Shop to Push Fake Invoices",
+    "summary": "<p>Hackers are no longer waiting in your inbox. A newly identified scam technique places fake invoices directly inside shopping app order histories, making them feel more credible than a typical phishing email. Researchers have observed fraudulent receipts appearing inside the Shop app, the popular order-tracking application from Shopify, catching users off guard in a space [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-leveraged-shopify-oder-tracking-app-shop/\">Hackers Leveraged Shopify Oder-Tracking App Shop to Push Fake Invoices</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/hackers-leveraged-shopify-oder-tracking-app-shop/",
+    "published": "2026-06-26T11:55:21",
+    "source": "cybersecuritynews.com",
+    "category": "Phishing / Scams",
+    "importance_score": 563,
     "also_covered_by": []
   },
   {
@@ -917,6 +997,36 @@
     "source": "unit42.paloaltonetworks.com",
     "category": "Other",
     "importance_score": 501,
+    "also_covered_by": []
+  },
+  {
+    "title": "Week in review: Fortibleed campaign’s impact on orgs, Cisco Unified CM flaw exploited",
+    "summary": "<p>Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: Encrypted DNS still tells an eavesdropper where to look Encrypted DNS runs across much of the Internet. DNS over TLS, HTTPS, and QUIC keep the contents of a query away from anyone watching a network link. The encryption covers the message inside each packet. The packet still carries plaintext headers, and those values mark a flow as DNS. Agent Beacon: &#8230; <a href=\"https://www.helpnetsecurity.com/2026/06/28/week-in-review-fortibleed-campaigns-impact-on-orgs-cisco-unified-cm-flaw-exploited/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/06/28/week-in-review-fortibleed-campaigns-impact-on-orgs-cisco-unified-cm-flaw-exploited/\">Week in review: Fortibleed campaign’s impact on orgs, Cisco Unified CM flaw exploited</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "link": "https://www.helpnetsecurity.com/2026/06/28/week-in-review-fortibleed-campaigns-impact-on-orgs-cisco-unified-cm-flaw-exploited/",
+    "published": "2026-06-28T08:00:44",
+    "source": "helpnetsecurity.com",
+    "category": "Ransomware",
+    "importance_score": 500,
+    "also_covered_by": []
+  },
+  {
+    "title": "SIM-swapping gang busted in international police operation",
+    "summary": "<p>Officers from Poland&#8217;s Central Bureau for Combating Cybercrime (CBZC) arrested four suspected members of an organized cybercrime group accused of SIM swap attacks, cryptocurrency theft, and money laundering. The operation involved agents from the U.S. Federal Bureau of Investigation (FBI) and Homeland Security Investigations (HSI). The investigation is being supervised by the Regional Prosecutor&#8217;s Office in Kraków and remains ongoing. “The investigation revealed that members of the group, operating within organized structures, deliberately breached IT &#8230; <a href=\"https://www.helpnetsecurity.com/2026/06/26/poland-sim-swap-gang-arrests-cryptocurrency-theft/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/06/26/poland-sim-swap-gang-arrests-cryptocurrency-theft/\">SIM-swapping gang busted in international police operation</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "link": "https://www.helpnetsecurity.com/2026/06/26/poland-sim-swap-gang-arrests-cryptocurrency-theft/",
+    "published": "2026-06-26T07:59:30",
+    "source": "helpnetsecurity.com",
+    "category": "Other",
+    "importance_score": 500,
+    "also_covered_by": []
+  },
+  {
+    "title": "ZeroTier Quantum RC2 brings post-quantum security closer to general availability",
+    "summary": "<p>ZeroTier has announced the release candidate 2 (RC2) for ZeroTier Quantum, its end-to-end quantum-secure networking platform. This milestone marks the final testing phase, positioning the platform one step away from general availability (GA). ZeroTier Quantum addresses the looming threat quantum computing poses to traditional encryption by meeting the NIST and NSA&#8217;s highest CNSA 2.0 standards, meeting or exceeding the post-quantum cryptography (PQC) requirements defined by the U.S. government for regulated industries beginning in 2027. &#8220;Reaching &#8230; <a href=\"https://www.helpnetsecurity.com/2026/06/26/zerotier-quantum-rc2/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/06/26/zerotier-quantum-rc2/\">ZeroTier Quantum RC2 brings post-quantum security closer to general availability</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "link": "https://www.helpnetsecurity.com/2026/06/26/zerotier-quantum-rc2/",
+    "published": "2026-06-26T07:34:57",
+    "source": "helpnetsecurity.com",
+    "category": "Ransomware",
+    "importance_score": 500,
     "also_covered_by": []
   },
   {
@@ -1200,6 +1310,46 @@
     "also_covered_by": []
   },
   {
+    "title": "Proof’s x401 establishes an open protocol for AI agent identity and authorization",
+    "summary": "<p>Proof has launched x401, an open, issuer-neutral protocol that lets any website or API ask for and verify the identity behind agents. With x401, a service can ask for the proof it requires: verified identity, age, membership, organizational affiliation, signing authority, proof of humanness, orf another trusted claim. The agent presents a compatible credential and authorization. The service verifies the issuer, claim, scope and action before proceeding. Identity establishes who or what an agent represents. &#8230; <a href=\"https://www.helpnetsecurity.com/2026/06/26/proofs-x401-establishes-an-open-protocol-for-ai-agent-identity-and-authorization/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/06/26/proofs-x401-establishes-an-open-protocol-for-ai-agent-identity-and-authorization/\">Proof’s x401 establishes an open protocol for AI agent identity and authorization</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "link": "https://www.helpnetsecurity.com/2026/06/26/proofs-x401-establishes-an-open-protocol-for-ai-agent-identity-and-authorization/",
+    "published": "2026-06-26T12:08:46",
+    "source": "helpnetsecurity.com",
+    "category": "AI & Security",
+    "importance_score": 350,
+    "also_covered_by": []
+  },
+  {
+    "title": "Synology issues critical fix for MailPlus Server vulnerabilities",
+    "summary": "<p>Synology has has fixed critical vulnerabilities in MailPlus Server, a software package used to run private email infrastructure on Synology NAS devices. The security update fixes three flaws: CVE-2026-13136, stemming from faulty authorization checks, may allow remote attackers to read or write arbitrary files and conduct denial-of-service (DoS) attacks CVE-2026-13135, caused by improper restriction of communication channel to intended endpoints, may allow remote attackers to access internal services CVE-2025-15660, arising from the use of a &#8230; <a href=\"https://www.helpnetsecurity.com/2026/06/26/synology-mailplus-server-vulnerabilities/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/06/26/synology-mailplus-server-vulnerabilities/\">Synology issues critical fix for MailPlus Server vulnerabilities</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "link": "https://www.helpnetsecurity.com/2026/06/26/synology-mailplus-server-vulnerabilities/",
+    "published": "2026-06-26T10:57:37",
+    "source": "helpnetsecurity.com",
+    "category": "Vulnerability",
+    "importance_score": 350,
+    "also_covered_by": []
+  },
+  {
+    "title": "Mystery hackers use novel SharkLoader dropper against governments, software devs",
+    "summary": "<p>Kaspersky researchers have uncovered a previously unknown cyberattack campaign that has compromised government organizations and software development companies in multiple countries. They first stumbled onto the campaign while investigating an attack on a diplomatic organization in Indonesia. What initially looked like an isolated incident revealed a global operation they&#8217;ve dubbed StrikeShark, due to the attackers&#8217; use of a previously unknown dropper the researchers named SharkLoader. How the attackers get in The attackers gain access either &#8230; <a href=\"https://www.helpnetsecurity.com/2026/06/26/sharkloader-dropper-governments-software-developers/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/06/26/sharkloader-dropper-governments-software-developers/\">Mystery hackers use novel SharkLoader dropper against governments, software devs</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "link": "https://www.helpnetsecurity.com/2026/06/26/sharkloader-dropper-governments-software-developers/",
+    "published": "2026-06-26T09:13:27",
+    "source": "helpnetsecurity.com",
+    "category": "Other",
+    "importance_score": 350,
+    "also_covered_by": []
+  },
+  {
+    "title": "ThreatModeler introduces Nexus to automate threat modeling with AI governance",
+    "summary": "<p>ThreatModeler has announced the general availability of ThreatModeler Nexus, an agentic threat modeling platform that brings governed, architecture-aware security to the way modern software is actually built. As AI writes a growing share of production code, the question is no longer whether to threat model, but where and when. ThreatModeler Nexus answers that with a platform built to threat model everything, starting wherever a team already is. ThreatModeler Nexus pairs a multi-agent system with a &#8230; <a href=\"https://www.helpnetsecurity.com/2026/06/26/threatmodeler-introduces-nexus-to-automate-threat-modeling-with-ai-governance/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/06/26/threatmodeler-introduces-nexus-to-automate-threat-modeling-with-ai-governance/\">ThreatModeler introduces Nexus to automate threat modeling with AI governance</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "link": "https://www.helpnetsecurity.com/2026/06/26/threatmodeler-introduces-nexus-to-automate-threat-modeling-with-ai-governance/",
+    "published": "2026-06-26T07:23:43",
+    "source": "helpnetsecurity.com",
+    "category": "AI & Security",
+    "importance_score": 350,
+    "also_covered_by": []
+  },
+  {
     "title": "Threat Brief: Mitigating Large-Scale Credential Attacks",
     "summary": "<p>We provide guidance for preparing for and mitigating large-scale credential attacks, focusing on recent campaigns targeting security vendors' devices. </p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/large-scale-credential-attacks/\">Threat Brief: Mitigating Large-Scale Credential Attacks</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
     "link": "https://unit42.paloaltonetworks.com/large-scale-credential-attacks/",
@@ -1350,6 +1500,16 @@
     "also_covered_by": []
   },
   {
+    "title": "New DirtyClone Linux Vulnerability Allows Attackers to Gain Root Access Via Cloned Packets",
+    "summary": "<p>A new Linux kernel local privilege escalation vulnerability, dubbed &#8220;DirtyClone&#8221; (CVE-2026-43503), that allows unprivileged local users to gain full root access by manipulating cloned network packets through the XFRM/IPsec subsystem, all without leaving a trace in kernel logs or audit records. DirtyClone is a high-severity variant in the DirtyFrag vulnerability family, a class of Linux [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/dirtyclone-linux-vulnerability/\">New DirtyClone Linux Vulnerability Allows Attackers to Gain Root Access Via Cloned Packets</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/dirtyclone-linux-vulnerability/",
+    "published": "2026-06-26T17:19:13",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 320,
+    "also_covered_by": []
+  },
+  {
     "title": "Some of the best Amazon Prime Day SSD and storage deals are still live - Samsung, WD, and more",
     "summary": "I track SSD deals, and found huge markdowns from top brands for Amazon Prime Day.",
     "link": "https://www.zdnet.com/article/last-chance-best-amazon-prime-day-ssd-deals-2026/",
@@ -1360,6 +1520,16 @@
     "also_covered_by": []
   },
   {
+    "title": "New Linux pedit COW Exploit Allows Attackers to Gain System Root Access",
+    "summary": "<p>A newly disclosed Linux kernel vulnerability combining a Copy-on-Write (COW) page-cache corruption flaw with the net/sched subsystem&#8217;s act_pedit component is enabling unprivileged local attackers to escalate privileges to full root access on several major Linux distributions. The exploit, dubbed packet_edit_meme, has been verified in June 2026 against actively maintained enterprise and consumer kernels. The root [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/linux-pedit-cow-exploit/\">New Linux pedit COW Exploit Allows Attackers to Gain System Root Access</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/linux-pedit-cow-exploit/",
+    "published": "2026-06-26T16:10:02",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 319,
+    "also_covered_by": []
+  },
+  {
     "title": "I made Linux look like Windows 11 for free - with a few simple tweaks to Zorin OS",
     "summary": "If you fancy a Windows 11 layout, but want to use Linux, you're in luck.",
     "link": "https://www.zdnet.com/article/i-made-linux-look-like-windows-11-for-free-simple-tweaks-to-zorin-os/",
@@ -1367,6 +1537,36 @@
     "source": "zdnet.com",
     "category": "Other",
     "importance_score": 318,
+    "also_covered_by": []
+  },
+  {
+    "title": "Hackers Exploit Weak Credentials and Internet-Facing PLCs to Breach Water Utilities",
+    "summary": "<p>Water utilities across the United States and Europe are under growing pressure as hackers continue to find easy ways in. Nation-state actors and affiliated groups have been quietly exploiting internet-facing control systems and weak login credentials to access water and wastewater infrastructure — systems that millions of people depend on every day. The threat has [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-exploit-weak-credentials-and-internet-facing-plcs/\">Hackers Exploit Weak Credentials and Internet-Facing PLCs to Breach Water Utilities</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/hackers-exploit-weak-credentials-and-internet-facing-plcs/",
+    "published": "2026-06-26T13:27:05",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 317,
+    "also_covered_by": []
+  },
+  {
+    "title": "Amazon Q Vulnerability Let Attackers Execute Code and Access Sensitive Cloud Environments",
+    "summary": "<p>A high-severity vulnerability in the Amazon Q Developer Extension for Visual Studio Code (VS Code), Amazon&#8217;s AI-powered coding assistant. Tracked as CVE-2026-12957 and CVE-2026-12958 and disclosed by Wiz Research, the flaws allowed attackers to achieve arbitrary code execution and cloud credential theft simply by having a developer open a malicious repository. The root cause was [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/amazon-q-vulnerability/\">Amazon Q Vulnerability Let Attackers Execute Code and Access Sensitive Cloud Environments</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/amazon-q-vulnerability/",
+    "published": "2026-06-26T16:42:54",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 315,
+    "also_covered_by": []
+  },
+  {
+    "title": "Anthropic Confirms Claude Mythos 5 Redeployment for US Critical Infrastructure Organizations",
+    "summary": "<p>Anthropic has confirmed that Claude Mythos 5, its most powerful AI cybersecurity model, will be redeployed to a select set of U.S. organizations responsible for operating and defending critical infrastructure, following a government-led review process that began on June 12, 2026. Claude Mythos first made headlines in April 2026 when Anthropic described it as a [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/anthropic-claude-mythos-5/\">Anthropic Confirms Claude Mythos 5 Redeployment for US Critical Infrastructure Organizations</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/anthropic-claude-mythos-5/",
+    "published": "2026-06-27T01:08:39",
+    "source": "cybersecuritynews.com",
+    "category": "AI & Security",
+    "importance_score": 310,
     "also_covered_by": []
   },
   {
