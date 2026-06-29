@@ -70,16 +70,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Microsoft 365 Apps RCE Vulnerability Lets Attackers Execute Code via Malicious Excel Files",
-    "summary": "<p>A newly disclosed remote code execution (RCE) vulnerability in Microsoft 365 Apps is raising concerns in enterprise environments. Attackers can exploit malicious Excel documents to execute arbitrary code on target systems. This vulnerability, tracked as CVE-2025-60727, arises from an out-of-bounds read condition (CWE-125) in Microsoft Excel’s file-parsing mechanism, allowing threat actors to trigger memory corruption [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/microsoft-365-apps-rce-vulnerability/\">Microsoft 365 Apps RCE Vulnerability Lets Attackers Execute Code via Malicious Excel Files</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/microsoft-365-apps-rce-vulnerability/",
-    "published": "2026-06-29T07:33:20",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 1835,
-    "also_covered_by": []
-  },
-  {
     "title": "Pickle in the Middle – Hijacking Vertex AI Model Uploads for Cross-Tenant RCE",
     "summary": "<p>Unit 42 discovered a Vertex AI Python SDK vulnerability that allows remote code execution via bucket squatting. Read the article for more. </p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/hijacking-vertex-ai-model/\">Pickle in the Middle – Hijacking Vertex AI Model Uploads for Cross-Tenant RCE</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
     "link": "https://unit42.paloaltonetworks.com/hijacking-vertex-ai-model/",
@@ -167,16 +157,6 @@
     "source": "microsoft.com",
     "category": "Other",
     "importance_score": 1358,
-    "also_covered_by": []
-  },
-  {
-    "title": "DOJ Seizes Nearly 400 Domains Used for Illegal World Cup Streaming and Malware Threats",
-    "summary": "<p>The U.S. Department of Justice (DOJ) has announced the seizure of nearly 400 internet domains used to stream FIFA World Cup 2026 matches illegally. This operation represents one of the largest coordinated anti-piracy enforcement actions related to a global sporting event. Conducted under the title “Operation Offsides,” it targeted websites that were distributing real-time broadcasts [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/doj-seizes-nearly-400-domains-used-for-illegal-world-cup-streaming/\">DOJ Seizes Nearly 400 Domains Used for Illegal World Cup Streaming and Malware Threats</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/doj-seizes-nearly-400-domains-used-for-illegal-world-cup-streaming/",
-    "published": "2026-06-29T06:39:21",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 1333,
     "also_covered_by": []
   },
   {
@@ -280,16 +260,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Millenium RAT Uses Base64 and XOR Configuration to Hide Telegram C2 Settings",
-    "summary": "<p>Millenium RAT version 4.* exposes a compact but potent evolution: the malware has migrated from .NET to native C++, while retaining a stealthy Telegram-based command-and-control (C2) model that requires no bespoke server infrastructure. The sample set and telemetry analyzed by Group-IB show the RAT embeds its entire configuration inside an RCDATA resource, masks that configuration [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/millenium-rat-uses-base64-and-xor/\">Millenium RAT Uses Base64 and XOR Configuration to Hide Telegram C2 Settings</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/millenium-rat-uses-base64-and-xor/",
-    "published": "2026-06-29T06:12:17",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 1322,
-    "also_covered_by": []
-  },
-  {
     "title": "Government Website in India Taken Offline After Defacement Attack",
     "summary": "<p><img alt=\"MDA hack\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"614\" src=\"https://thecyberexpress.com/wp-content/uploads/MDA-hack.webp\" title=\"Government Website in India Taken Offline After Defacement Attack 7\" width=\"1101\" /></p>A government website in northern India was taken offline after unidentified hackers allegedly gained unauthorized access and replaced its homepage with pro-Pakistan messages and slogans. The MDA hack targeted the official website of the Meerut Development Authority, a government agency responsible for urban development in the Indian state of Uttar Pradesh.\n\nAuthorities discovered the breach on Saturday and immediately disabled public access to the website while technical teams worked to contain the incident and restore services. Instead of the agency's usual information on urban planning, housing, and public services, visitors encountered a black screen displaying objectionable content and political messaging.\n\n<span>Instead of the usual information on urban planning and public services, visitors to the government portal were greeted by a black screen displaying objectionable content. </span>\n<h3><b><span>MDA Hack Forces Website Offline</span></b><span> </span></h3>\nFollowing the discovery of the MDA <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-hacking/\" title=\"hack\">hack</a>, officials initiated emergency response measures to secure the affected systems and prevent further unauthorized access. The website was placed under maintenance as <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-cybersecurity/\" title=\"cybersecurity\">cybersecurity</a> teams began assessing the extent of the compromise. <a href=\"https://www.ptinews.com/story/national/meerut-development-authority-website-hacked-homepage-displays-pro-pakistan-messages/3810696\" rel=\"nofollow noopener\" target=\"_blank\">Authorities</a> are also investigating whether the MDA hack affected any internal systems or data beyond the publicly visible website.\n\n<span>The website remains offline while authorities continue working to bring it back online safely. Officials are also assessing the extent of the <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/cyber-news/\" title=\"cyberattack\">cyberattack</a> and whether any additional systems or data may have been compromised during the incident.</span><span> </span>\n<h3><b><span>Police Register Case After Hackers Deface Website</span></b><span> </span></h3>\nLaw enforcement agencies have opened an investigation after local officials confirmed that the MDA hack had compromised the government website.\n\nPolice are working alongside cybersecurity specialists to determine how the attackers gained access, identify the techniques used during the intrusion, and trace those responsible. Investigators are expected to examine server logs and other digital evidence to establish the origin and scope of the <a class=\"wpil_keyword_link\" href=\"https://cyble.com/cyberattack/\" rel=\"noopener\" target=\"_blank\" title=\"cyberattack\">cyberattack</a>.\n\nOfficials have not disclosed whether the MDA hack resulted from an exploited <a href=\"https://thecyberexpress.com/cisa-delmia-apriso-vulnerability/\" rel=\"noopener\" target=\"_blank\">software vulnerability</a>, compromised credentials, or another attack method.\n<h3><b><span>Investigation Underway Into Pro-Pakistan Website Defacement</span></b><span> </span></h3>\n<span>Investigators are working to identify the individuals or group responsible for displaying the pro-Pakistan messages on the MDA website. Law enforcement agencies are expected to rely on digital <a href=\"https://thecyberexpress.com/cyber-experts-india-cyber-commandos/\" rel=\"noopener\" target=\"_blank\">forensic experts</a> to examine server logs, identify the attack methods used by the hackers, and collect evidence that could help establish the origin of the cyberattack.</span><span> </span>\n\n<span>Officials have not yet disclosed whether the attackers gained access through a technical <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/firewall-daily/vulnerabilities/\" title=\"vulnerability\">vulnerability</a> or another method. The investigation is expected to determine the full scope of the breach and recommend measures to prevent similar incidents in the future.</span>\n<h3><b><span>Why the MDA Hack Raises Security Concerns</span></b><span> </span></h3>\n<span>The Meerut Development Authority is a statutory body responsible for the planned development of Meerut and the surrounding areas in Uttar Pradesh. Its responsibilities include land acquisition, infrastructure development, housing projects, and urban planning initiatives. As a public-facing government agency, its website serves as an important source of information for residents and stakeholders.</span><span> </span>\n\n<span>The MDA hack highlights the <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-are-risks-in-cybersecurity/\" title=\"risks\">risks</a> associated with cyberattacks targeting government institutions. Websites operated by public authorities often contain <a href=\"https://thecyberexpress.com/situsamc-data-breach/\" rel=\"noopener\" target=\"_blank\">sensitive information</a> and play a critical role in delivering services and official updates. A successful breach not only disrupts these services but can also be used to spread propaganda, as seen in this case with the appearance of pro-Pakistan content on the homepage.</span><span> </span>\n\n<span>Such incidents can undermine public confidence in government digital platforms and reinforce the need for stronger cybersecurity practices across public institutions.</span><span> </span>\n<h3><b><span>Authorities Focus on Strengthening Cybersecurity</span></b><span> </span></h3>\n<span>Officials have stated that restoring the website is only one part of the response. Alongside recovery efforts, authorities are reviewing <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/\" title=\"security\">security</a> measures to reinforce the MDA's digital infrastructure against future attacks by hackers.</span><span> </span>\n\n<span>The investigation is expected to provide insights into the techniques used during the cyberattack and help authorities implement stronger safeguards. </span><span>The police have assured the public that all necessary steps are being taken to resolve the matter promptly and identify those responsible for the MDA hack.</span><span> </span>",
     "link": "https://thecyberexpress.com/mda-hack-meerut-development-authority/",
@@ -330,16 +300,6 @@
     "also_covered_by": []
   },
   {
-    "title": "RedAmon AI Tool that Chains Reconnaissance, Exploitation, and Post-exploitation",
-    "summary": "<p>A new open-source offensive security platform called RedAmon is redefining automated penetration testing by chaining reconnaissance, exploitation, post-exploitation, AI-driven triage, and automated code remediation all into a single end-to-end pipeline that culminates in a GitHub pull request with the fix already written. RedAmon is a modular, containerized penetration testing framework built on Docker that requires [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/redamon-ai-tool/\">RedAmon AI Tool that Chains Reconnaissance, Exploitation, and Post-exploitation</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/redamon-ai-tool/",
-    "published": "2026-06-29T03:26:14",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 1069,
-    "also_covered_by": []
-  },
-  {
     "title": "Protecting Cookies with Device Bound Session Credentials",
     "summary": "<span class=\"byline-author\">Posted by Ben Ackerman, Chrome team,  Daniel Rubery, Chrome team and Guillaume Ehinger, Google Account Security team</span>\n\n<p>\nFollowing our April 2024 <a href=\"https://blog.chromium.org/2024/04/fighting-cookie-theft-using-device.html\">announcement</a>, Device Bound Session Credentials (DBSC) is now entering public availability for Windows users on Chrome 146, and expanding to macOS in an upcoming Chrome release. This project represents a significant step forward in our ongoing efforts to combat session theft, which remains a prevalent threat in the modern security landscape.\n</p>\n<p>\nSession theft typically occurs when a user inadvertently downloads malware onto their device. Once active, the malware can silently extract existing session cookies from the browser or wait for the user to log in to new accounts, before exfiltrating these tokens to an attacker-controlled server. Infostealer malware families, such as LummaC2, have become increasingly sophisticated at harvesting these credentials. Because cookies often have extended lifetimes, attackers can use them to gain unauthorized access to a user’s accounts without ever needing their passwords; this access is then often bundled, traded, or sold among threat actors.\n</p>\n<p>\nCrucially, once sophisticated malware has gained access to a machine, it can read the local files and memory where browsers store authentication cookies. As a result, there is no reliable way to prevent cookie exfiltration using software alone on any operating system. Historically, mitigating session theft relied on detecting the stolen credentials after the fact using a complex set of abuse heuristics – a reactive approach that persistent attackers could often circumvent. DBSC fundamentally changes the web's capability to defend against this threat by shifting the paradigm from reactive detection to proactive prevention, ensuring that successfully exfiltrated cookies cannot be used to access users’ accounts.\n</p>\n<h3>How DBSC Works</h3>\n\n\n<p>\nDBSC protects against session theft by cryptographically binding authentication sessions to a specific device. It does this using hardware-backed security modules, such as the Trusted Platform Module (TPM) on Windows and the Secure Enclave on macOS, to generate a unique public/private key pair that cannot be exported from the machine. The issuance of new short-lived session cookies is contingent upon Chrome proving possession of the corresponding private key to the server. Because attackers cannot steal this key, any exfiltrated cookies quickly expire and become useless to those attackers. This design allows large and small websites to upgrade to secure, hardware-bound sessions by adding dedicated registration and refresh endpoints to their backends, while maintaining complete compatibility with their existing front-end. The browser handles the complex cryptography and cookie rotation in the background, allowing the web app to continue using standard cookies for access just as it always has. \n</p>\n<p>\nGoogle rolled out an early version of this protocol over the last year. For sessions protected by DBSC, we have observed a significant reduction in session theft since its launch.\n</p>\n<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjk4eZvzfBqPL0Xf1ckUo7l58eyeZKSzIelxjLOiOE_XHYNZc-qdx24Sv9n3tgRgc2xOzKZvcHsCksprOlxwd-gIRQaLPsOu2jjuCV4e6G1_ImsXhQeOean1CWndOiQuikT94gbvZLlWfktpCBRtxh9dJkxjpfvradSkzWD1Wqxohg9TJUdyC1kC88y6Abu/s1600/Screenshot%202026-04-09%20at%2010.11.22%E2%80%AFAM.png\" style=\"display: block; padding: 1em 0; text-align: center;\"><img alt=\"\" border=\"0\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjk4eZvzfBqPL0Xf1ckUo7l58eyeZKSzIelxjLOiOE_XHYNZc-qdx24Sv9n3tgRgc2xOzKZvcHsCksprOlxwd-gIRQaLPsOu2jjuCV4e6G1_ImsXhQeOean1CWndOiQuikT94gbvZLlWfktpCBRtxh9dJkxjpfvradSkzWD1Wqxohg9TJUdyC1kC88y6Abu/s1600/Screenshot%202026-04-09%20at%2010.11.22%E2%80%AFAM.png\" /></a></div>\n<p style=\"text-align: center;\">\n<em>An overview of the DBSC protocol showing the interaction between the browser and server.</em>\n</p>\n<h3>Private by design</h3>\n\n\n<p>\nA core tenet of the DBSC architecture is the preservation of user privacy. Each session is backed by a distinct key, preventing websites from using these credentials to correlate a user's activity across different sessions or sites on the same device. Furthermore, the protocol is designed to be lean: it does not leak device identifiers or attestation data to the server beyond the per-session public key required to certify proof of possession. This minimal information exchange ensures DBSC helps secure sessions without enabling cross-site tracking or acting as a device fingerprinting mechanism.\n</p>\n<h3>Engagement with the ecosystem</h3>\n\n\n<p>\nDBSC was designed from the beginning to be an open web standard through the W3C process and adoption by the Web Application Security Working Group. Through this process we partnered with Microsoft to design the standard to ensure it works for the web and got input from many in the industry that are responsible for web security.\n</p>\n<p>\nAdditionally, over the past year, we have also conducted two Origin Trials to ensure DBSC effectively serves the requirements of the broader web community. Many web platforms, including Okta, actively participated in these trials and their own testing and provided essential feedback to ensure the protocol effectively addresses their diverse needs.\n</p>\n<p>\nIf you are a web developer and are looking for a way to secure your users against session theft, refer to our <a href=\"https://developer.chrome.com/docs/web-platform/device-bound-session-credentials\">developer guide</a> for implementation details. Additionally, all the details about DBSC can be found on the <a href=\"https://w3c.github.io/webappsec-dbsc/\">spec</a> and the corresponding <a href=\"https://github.com/w3c/webappsec-dbsc\">github</a>. Feel free to use the <a href=\"https://github.com/w3c/webappsec-dbsc/issues\">issues</a> page to report bugs or provide feature requests.\n</p>\n<h3>Future improvements</h3>\n\n\n<p>\nAs we continue to evolve the DBSC standard, future iterations will focus on increasing support across diverse ecosystems and introducing advanced capabilities tailored for complex enterprise environments. Key areas of ongoing development include:\n</p>\n<ul>\n\n<li><strong>Securing Federated Identity: </strong>In modern enterprise environments, Single Sign-On (SSO) is ubiquitous. We are expanding the DBSC protocol to support cross-origin bindings, ensuring that a relying party (RP) session remains continuously bound to the same original device key used by the Identity Provider (IdP). This guarantees that the high-assurance security of the initial device binding is maintained throughout the entire federated login process, creating an unbroken chain of trust.</li>\n\n<li><strong>Advanced Registration Capabilities:</strong> While DBSC provides robust protection for established cookies, some environments require an even stronger foundation when the session is first created. We are developing mechanisms to bind DBSC sessions to pre-existing, trusted key material rather than generating a new key at sign-in. This advanced capability enables websites to integrate complementary technologies, such as mTLS certificates or hardware security keys, creating a highly secure registration environment.</li>\n\n<li><strong>Broader Device Support:</strong> We are also actively exploring the potential addition of software-based keys to extend protections to devices without dedicated secure hardware.",
     "link": "http://security.googleblog.com/2026/04/protecting-cookies-with-device-bound.html",
@@ -357,16 +317,6 @@
     "source": "bleepingcomputer.com",
     "category": "Vulnerability",
     "importance_score": 1049,
-    "also_covered_by": []
-  },
-  {
-    "title": "FBI and CISA Warn Russian Hackers Stealing Verification Codes and Account PINs From Signal Users",
-    "summary": "<p>U.S. cybersecurity authorities have issued a new warning about Russian intelligence-linked threat actors targeting secure messaging platforms, specifically highlighting the increased risk for Signal users. These threat actors are employing sophisticated phishing campaigns designed to steal verification codes and account PINs. In a joint Public Service Announcement (PSA) published on June 26, 2026, the Cybersecurity [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fbi-and-cisa-warn-russian-hackers-stealing-verification-codes/\">FBI and CISA Warn Russian Hackers Stealing Verification Codes and Account PINs From Signal Users</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/fbi-and-cisa-warn-russian-hackers-stealing-verification-codes/",
-    "published": "2026-06-29T08:57:28",
-    "source": "gbhackers.com",
-    "category": "Phishing / Scams",
-    "importance_score": 1043,
     "also_covered_by": []
   },
   {
@@ -397,16 +347,6 @@
     "source": "microsoft.com",
     "category": "Ransomware",
     "importance_score": 1013,
-    "also_covered_by": []
-  },
-  {
-    "title": "Why 24/7 Support Is Essential for Cybersecurity Providers",
-    "summary": "<p>Hackers and other bad actors don’t keep normal business hours. They know that their best chance is when businesses are closed for the day, and the programs that they use can operate at any time.&#160; A ransomware attack can begin at 2 a.m. on a Sunday or a phishing campaign may spread through a company [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/why-24-7-support-is-essential-for-cybersecurity-providers/\">Why 24/7 Support Is Essential for Cybersecurity Providers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/why-24-7-support-is-essential-for-cybersecurity-providers/",
-    "published": "2026-06-26T14:39:42",
-    "source": "cybersecuritynews.com",
-    "category": "Ransomware",
-    "importance_score": 995,
     "also_covered_by": []
   },
   {
@@ -650,36 +590,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Ghostwriter Hackers Use Real-Time WebSocket Relay to Bypass SMS and OTP MFA",
-    "summary": "<p>UNC1151 tracked by many as Ghostwriter or FrostyNeighbor has advanced a credential-phishing technique that uses a real-time WebSocket relay to defeat SMS and OTP-based multi-factor authentication (MFA). The method was observed in a recent campaign that targeted Belarusian politician Yury Hubarevich and multiple Ukrainian portals, and Censys pivots show the infrastructure spans dozens of domains [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/websocket-relay-to-bypass-sms/\">Ghostwriter Hackers Use Real-Time WebSocket Relay to Bypass SMS and OTP MFA</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/websocket-relay-to-bypass-sms/",
-    "published": "2026-06-29T07:06:40",
-    "source": "gbhackers.com",
-    "category": "Phishing / Scams",
-    "importance_score": 724,
-    "also_covered_by": []
-  },
-  {
-    "title": "New Bluekit Phishing-as-a-Service Bypasses MFA to Steal Microsoft Login Credentials",
-    "summary": "<p>A sophisticated Phishing-as-a-Service (PhaaS) platform called Bluekit has been confirmed operational at scale, with cybersecurity firm Netcraft detecting approximately 70 live hostnames in a single week. First documented by Varonis Threat Labs as an emerging tool still in development, Bluekit has since matured into a fully operational threat capable of bypassing multi-factor authentication (MFA) and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/bluekit-paas-bypasses-mfa/\">New Bluekit Phishing-as-a-Service Bypasses MFA to Steal Microsoft Login Credentials</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/bluekit-paas-bypasses-mfa/",
-    "published": "2026-06-26T13:33:23",
-    "source": "cybersecuritynews.com",
-    "category": "Phishing / Scams",
-    "importance_score": 718,
-    "also_covered_by": []
-  },
-  {
-    "title": "DCloud Uni-App Framework Powers 236,000+ Scam Domains Across Global Fraud Economy",
-    "summary": "<p>DCloud Uni-App has become a mass-production layer for fraud, with more than 236,000 distinct scam domains tied to a sprawling ecosystem of fake exchanges, wallet drainers, phishing portals, and investment schemes. The scale matters because it shows scam operations are no longer bespoke; they are templated, repeatable, and easy to clone across languages, regions, and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/dcloud-uni-app-framework/\">DCloud Uni-App Framework Powers 236,000+ Scam Domains Across Global Fraud Economy</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/dcloud-uni-app-framework/",
-    "published": "2026-06-29T05:49:14",
-    "source": "gbhackers.com",
-    "category": "Phishing / Scams",
-    "importance_score": 717,
-    "also_covered_by": []
-  },
-  {
     "title": "FBI Sounds Alarm Over Russian Intelligence Signal Phishing",
     "summary": "The FBI claims Russian spies are targeting Signal backup keys",
     "link": "https://www.infosecurity-magazine.com/news/fbi-alarm-russian-intelligence/",
@@ -830,16 +740,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Critical Google Gemini CLI Flaw Lets Attackers Execute Code on Headless CI Platforms",
-    "summary": "<p>A critical vulnerability has been identified in Google’s Gemini CLI and the associated run-gemini-cli GitHub Action. This flaw exposes headless continuous integration (CI) platforms to potential host-level code execution when processing untrusted workspaces. It is tracked as CVE-2026-12537, with the advisory identifying it as GHSA-wpqr-6v78-jr5g. Rated at the maximum severity under CVSS v4, the issue [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-google-gemini-cli-flaw/\">Critical Google Gemini CLI Flaw Lets Attackers Execute Code on Headless CI Platforms</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/critical-google-gemini-cli-flaw/",
-    "published": "2026-06-29T07:56:24",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 628,
-    "also_covered_by": []
-  },
-  {
     "title": "Trust in Automated AI Vulnerability Scanning Collapses to 9%, New Study Finds",
     "summary": "Cobalt study finds 20-percentage-point drop in number of organizations relying solely on AI automation for testing",
     "link": "https://www.infosecurity-magazine.com/news/trust-ai-vulnerability-scanning/",
@@ -857,16 +757,6 @@
     "source": "malwarebytes.com",
     "category": "Vulnerability",
     "importance_score": 624,
-    "also_covered_by": []
-  },
-  {
-    "title": "New Bucket Hijacking Attack Allows Hackers to Reroute Cloud Data Streams to External Storage",
-    "summary": "<p>A critical cloud storage attack technique dubbed &#8220;bucket hijacking&#8221; a method that enables threat actors to silently redirect an organization&#8217;s active cloud data streams, including audit logs and telemetry, into attacker-controlled external storage buckets across major cloud platforms. The technique has been confirmed to affect Google Cloud, Amazon Web Services (AWS), and Microsoft Azure, with [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/bucket-hijacking-attack/\">New Bucket Hijacking Attack Allows Hackers to Reroute Cloud Data Streams to External Storage</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/bucket-hijacking-attack/",
-    "published": "2026-06-27T00:46:38",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 622,
     "also_covered_by": []
   },
   {
@@ -1060,36 +950,6 @@
     "also_covered_by": []
   },
   {
-    "title": "AI-Generated Mythic Agents Challenge Static Signatures and Traditional Implant Detection",
-    "summary": "<p>The emergence of LLM-driven &#8220;disposable tooling&#8221; is reshaping offensive tradecraft and forcing defenders to rethink detection models that rely on static signatures and known implant behaviors. Recent experiments demonstrating the automated generation of Mythic agents from prompt to deployment reveal a new threat class: ephemeral, single-use implants tailor-made by large language models and orchestration harnesses. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ai-generated-mythic-agents/\">AI-Generated Mythic Agents Challenge Static Signatures and Traditional Implant Detection</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/ai-generated-mythic-agents/",
-    "published": "2026-06-29T08:37:44",
-    "source": "gbhackers.com",
-    "category": "AI & Security",
-    "importance_score": 485,
-    "also_covered_by": []
-  },
-  {
-    "title": "China’s Zhipu AI Model GLM-5.2 Detects Software Vulnerabilities Like Claude Mythos",
-    "summary": "<p>Zhipu AI’s newly released GLM-5.2 model is attracting significant attention from the cybersecurity community due to its vulnerability detection capabilities, which are comparable to those of Anthropic’s restricted Claude Mythos system. This development raises new concerns about the effectiveness of U.S. export control policies on advanced artificial intelligence. Released on June 13, 2026, under a [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/chinas-zhipu-ai-model-glm-5-2-detects-software-vulnerabilities/\">China’s Zhipu AI Model GLM-5.2 Detects Software Vulnerabilities Like Claude Mythos</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/chinas-zhipu-ai-model-glm-5-2-detects-software-vulnerabilities/",
-    "published": "2026-06-29T05:33:05",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 485,
-    "also_covered_by": []
-  },
-  {
-    "title": "Critical Dell Wyse Management Suite Vulnerabilities Let Attackers Execute Remote Code",
-    "summary": "<p>Dell Technologies has disclosed several critical vulnerabilities in its Wyse Management Suite (WMS) that could enable remote attackers to execute arbitrary code and fully compromise affected systems. Identified under advisory DSA-2026-225, these flaws affect WMS versions prior to 5.5 HF1 and are rated from high to critical in severity, highlighting risks for enterprise environments that [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-dell-wyse-management-suite-vulnerabilities/\">Critical Dell Wyse Management Suite Vulnerabilities Let Attackers Execute Remote Code</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/critical-dell-wyse-management-suite-vulnerabilities/",
-    "published": "2026-06-29T09:15:15",
-    "source": "gbhackers.com",
-    "category": "Policy / Law",
-    "importance_score": 480,
-    "also_covered_by": []
-  },
-  {
     "title": "Ransomware Attacks are on the Rise",
     "summary": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
     "link": "https://threatpost.com/ransomware-attacks-are-on-the-rise/180481/",
@@ -1107,26 +967,6 @@
     "source": "zdnet.com",
     "category": "AI & Security",
     "importance_score": 476,
-    "also_covered_by": []
-  },
-  {
-    "title": "China’s New Zhipu AI Reportedly Matches Claude Mythos in Vulnerability Detection",
-    "summary": "<p>Zhipu AI&#8217;s open-weight GLM-5.2 model is reportedly performing on par with Anthropic&#8217;s restricted Claude Mythos in specific cybersecurity and software vulnerability detection tasks, a development that is intensifying concerns inside the U.S. government about the effectiveness of its AI export control strategy. Zhipu AI (Z.ai) released GLM-5.2 on June 13, 2026, under a permissive open-weight [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/zhipu-ai-vulnerability-detection/\">China&#8217;s New Zhipu AI Reportedly Matches Claude Mythos in Vulnerability Detection</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/zhipu-ai-vulnerability-detection/",
-    "published": "2026-06-29T04:07:39",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 471,
-    "also_covered_by": []
-  },
-  {
-    "title": "OpenAI Released GPT-5.6 Sol With Limited Access and Strong Cyberattack Protections",
-    "summary": "<p>OpenAI has officially begun a limited preview of the GPT‑5.6 model series Sol, Terra, and Luna, positioning its flagship Sol as the company&#8217;s most capable and security-hardened AI model to date, available initially only to a small group of trusted partners at the formal request of the Trump administration. The GPT‑5.6 family introduces three distinct [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/gpt-5-6-release/\">OpenAI Released GPT-5.6 Sol With Limited Access and Strong Cyberattack Protections</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/gpt-5-6-release/",
-    "published": "2026-06-29T02:54:36",
-    "source": "cybersecuritynews.com",
-    "category": "AI & Security",
-    "importance_score": 454,
     "also_covered_by": []
   },
   {
@@ -1530,26 +1370,6 @@
     "also_covered_by": []
   },
   {
-    "title": "New DirtyClone Linux Vulnerability Allows Attackers to Gain Root Access Via Cloned Packets",
-    "summary": "<p>A new Linux kernel local privilege escalation vulnerability, dubbed &#8220;DirtyClone&#8221; (CVE-2026-43503), that allows unprivileged local users to gain full root access by manipulating cloned network packets through the XFRM/IPsec subsystem, all without leaving a trace in kernel logs or audit records. DirtyClone is a high-severity variant in the DirtyFrag vulnerability family, a class of Linux [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/dirtyclone-linux-vulnerability/\">New DirtyClone Linux Vulnerability Allows Attackers to Gain Root Access Via Cloned Packets</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/dirtyclone-linux-vulnerability/",
-    "published": "2026-06-26T17:19:13",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 320,
-    "also_covered_by": []
-  },
-  {
-    "title": "New Linux pedit COW Exploit Allows Attackers to Gain System Root Access",
-    "summary": "<p>A newly disclosed Linux kernel vulnerability combining a Copy-on-Write (COW) page-cache corruption flaw with the net/sched subsystem&#8217;s act_pedit component is enabling unprivileged local attackers to escalate privileges to full root access on several major Linux distributions. The exploit, dubbed packet_edit_meme, has been verified in June 2026 against actively maintained enterprise and consumer kernels. The root [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/linux-pedit-cow-exploit/\">New Linux pedit COW Exploit Allows Attackers to Gain System Root Access</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/linux-pedit-cow-exploit/",
-    "published": "2026-06-26T16:10:02",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 319,
-    "also_covered_by": []
-  },
-  {
     "title": "A week in security (June 22 &#8211; June 28)",
     "summary": "A list of topics we covered in the week of June 22 to June 28 of 2026",
     "link": "https://www.malwarebytes.com/blog/news/2026/06/a-week-in-security-june-22-june-28",
@@ -1560,26 +1380,6 @@
     "also_covered_by": [
       "malwarebytes.com"
     ]
-  },
-  {
-    "title": "Amazon Q Vulnerability Let Attackers Execute Code and Access Sensitive Cloud Environments",
-    "summary": "<p>A high-severity vulnerability in the Amazon Q Developer Extension for Visual Studio Code (VS Code), Amazon&#8217;s AI-powered coding assistant. Tracked as CVE-2026-12957 and CVE-2026-12958 and disclosed by Wiz Research, the flaws allowed attackers to achieve arbitrary code execution and cloud credential theft simply by having a developer open a malicious repository. The root cause was [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/amazon-q-vulnerability/\">Amazon Q Vulnerability Let Attackers Execute Code and Access Sensitive Cloud Environments</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/amazon-q-vulnerability/",
-    "published": "2026-06-26T16:42:54",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 315,
-    "also_covered_by": []
-  },
-  {
-    "title": "Anthropic Confirms Claude Mythos 5 Redeployment for US Critical Infrastructure Organizations",
-    "summary": "<p>Anthropic has confirmed that Claude Mythos 5, its most powerful AI cybersecurity model, will be redeployed to a select set of U.S. organizations responsible for operating and defending critical infrastructure, following a government-led review process that began on June 12, 2026. Claude Mythos first made headlines in April 2026 when Anthropic described it as a [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/anthropic-claude-mythos-5/\">Anthropic Confirms Claude Mythos 5 Redeployment for US Critical Infrastructure Organizations</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/anthropic-claude-mythos-5/",
-    "published": "2026-06-27T01:08:39",
-    "source": "cybersecuritynews.com",
-    "category": "AI & Security",
-    "importance_score": 310,
-    "also_covered_by": []
   },
   {
     "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
