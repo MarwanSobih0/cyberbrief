@@ -120,26 +120,6 @@
     "also_covered_by": []
   },
   {
-    "title": "New RustDuck Botnet Targets IoT Devices and Servers With Weak Passwords and RCE Exploits",
-    "summary": "<p>A sophisticated new botnet family dubbed RustDuck emerged in early 2026, leveraging a two-stage Loader and Core architecture to compromise IoT devices, routers, and enterprise servers through brute-force credential attacks and remote code execution vulnerabilities. RustDuck employs a multi-pronged infection strategy combining weak password attacks against Telnet and SSH services with exploitation of known RCE [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/rustduck-botnet-targets-iot-devices/\">New RustDuck Botnet Targets IoT Devices and Servers With Weak Passwords and RCE Exploits</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/rustduck-botnet-targets-iot-devices/",
-    "published": "2026-07-01T07:55:06",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 1683,
-    "also_covered_by": []
-  },
-  {
-    "title": "Fluentd Security Flaws Enable Remote Code Execution, SSRF, DoS, and Credential Exposure",
-    "summary": "<p>Fluentd, a widely used open-source data collector for unified logging, has reported several high-impact vulnerabilities that could enable attackers to achieve remote code execution (RCE), server-side request forgery (SSRF), denial-of-service (DoS), and the exposure of sensitive credentials. These issues, documented in multiple GitHub Security Advisories, affect Fluentd versions up to 1.19.2 and have been resolved [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fluentd-security-flaws/\">Fluentd Security Flaws Enable Remote Code Execution, SSRF, DoS, and Credential Exposure</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/fluentd-security-flaws/",
-    "published": "2026-07-01T08:23:28",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 1680,
-    "also_covered_by": []
-  },
-  {
     "title": "Keeping Google Play & Android app ecosystems safe in 2025",
     "summary": "<span class=\"byline-author\">Posted by Vijaya Kaza, VP and GM, App & Ecosystem Trust</span>\n\n<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNWPkN36d-E-0ZgVQNZYRep5TH3AnZltbtmu6PO7XLRULe4BuLMiRjS9z25JVTNu-imtoi2efJL2p-T4hu7eXdVirZIoNwIhEOY1p7pVtZwpzsmzIV8chhYOOz7ML5qFHoS0gz7Q3sNQwInc4sV4AaHavaIwn5twlSmjmuHG66uasapArBcBNMIg0XG0et/s1600/SafeAppEcosystem_BlogHero_Still_1920x1080.png\" style=\"display: block; padding: 1em 0; text-align: center;\"><img alt=\"\" border=\"0\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNWPkN36d-E-0ZgVQNZYRep5TH3AnZltbtmu6PO7XLRULe4BuLMiRjS9z25JVTNu-imtoi2efJL2p-T4hu7eXdVirZIoNwIhEOY1p7pVtZwpzsmzIV8chhYOOz7ML5qFHoS0gz7Q3sNQwInc4sV4AaHavaIwn5twlSmjmuHG66uasapArBcBNMIg0XG0et/s1600/SafeAppEcosystem_BlogHero_Still_1920x1080.png\" /></a></div>\n\n\n<p>\nThe Android ecosystem is a thriving global community built on trust, giving billions of users the confidence to download the latest apps. In order to maintain that trust, we’re focused on  ensuring that apps do not cause real-world harm, such as malware, financial fraud, hidden subscriptions, and privacy invasions. As bad actors leverage AI to change their tactics and launch increasingly sophisticated attacks, we’ve deepened our investments in AI and real-time defenses over the last year to maintain the upper hand and stop these threats before they reach users.\n</p>\n<h3>Upgrading Google Play’s AI-powered, multi-layered user protections</h3>\n\n\n<p>\nWe’ve seen a clear impact from these safety efforts on Google Play. In 2025, <strong>we prevented over 1.75 million policy-violating apps from being published on Google Play </strong>and<strong> banned more than 80,000 bad developer accounts that attempted to publish harmful apps. </strong>These figures demonstrate how our proactive protections and push for a more accountable ecosystem are discouraging bad actors from publishing malicious apps, while our new tools help honest developers build compliant apps more easily. Initiatives like developer verification, mandatory pre-review checks, and testing requirements have raised the bar for the Google Play ecosystem, significantly reducing the paths for bad actors to enter.\n</p>\n\n<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXqjB3En8VZFiwKb-q2dzxMdWauGxhuxJyMFuwwRrEMYLvx8EvQbpyfwth1M1SamrAc8vwZvZVoP4GYe7PPpFVwFTevniOYB7bLFAWPQ8cD074hraPEkevtcTnVgPbP_OO9Oo0Ohl6-3LpwaRAUnt-uwzSNcl5yEvYK7uBNEpBNGaQds8c5-ynRhsKCseL/s1600/SafeAppEcosystem_HeroVisual_3Claims_1920x1080.png\" style=\"display: block; padding: 1em 0; text-align: center;\"><img alt=\"\" border=\"0\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXqjB3En8VZFiwKb-q2dzxMdWauGxhuxJyMFuwwRrEMYLvx8EvQbpyfwth1M1SamrAc8vwZvZVoP4GYe7PPpFVwFTevniOYB7bLFAWPQ8cD074hraPEkevtcTnVgPbP_OO9Oo0Ohl6-3LpwaRAUnt-uwzSNcl5yEvYK7uBNEpBNGaQds8c5-ynRhsKCseL/s1600/SafeAppEcosystem_HeroVisual_3Claims_1920x1080.png\" /></a></div>\n\n<p>\nUser safety is at the core of everything we build. Over the years, we’ve continually introduced ways to help users stay safe and make informed app choices — from <a href=\"https://support.google.com/googleplay/answer/1075738\">parental controls</a> to <a href=\"https://support.google.com/googleplay/answer/11416267\">data safety transparency</a> and <a href=\"https://android-developers.googleblog.com/2025/01/helping-users-find-trusted-apps-on-google-play.html\">app badges</a>. We’re constantly improving our policies and protections to encourage safe, high-quality apps on Google Play and stop bad actors before they cause harm.\n</p>\n<p>\nApps on Google Play undergo rigorous reviews for safety and compliance with our policies. Last year, <a href=\"https://blog.google/products-and-platforms/platforms/google-play/keeping-google-play-safe-2025/\">we shared</a> that Google Play runs <strong>over 10,000 safety checks</strong> on every app we publish, and we continue to check and recheck apps after they’ve been published. In 2025, we continued scaling our defenses even further by:\n</p>\n<ul>\n\n<li><strong>Boosting AI-enhanced app detection</strong>: We integrated Google’s latest generative AI models into our review process, helping our human review team continue to find complex malicious patterns faster.</li>\n\n<li><strong>Preventing unnecessary access to sensitive data:</strong> We prevented<strong> over 255,000 apps</strong> from getting excessive access to sensitive user data and continued to strengthen our privacy policies. Our commitment to privacy-forward app development, supported by tools like Play Policy Insights in <a href=\"https://developer.android.com/studio\">Android Studio</a> and <a href=\"https://support.google.com/googleplay/android-developer/answer/10787469?hl=en\">Data safety section</a>, has empowered developers to continue to: minimize privacy-sensitive permission requests, and prioritize the user in their design choices.</li>\n\n<li><strong>Blocking spam ratings and reviews:</strong> Whether they lead to review inflation or deflation, spam ratings and reviews can negatively impact our users’ trust and our developers’ growth. We’re continually evolving our detection models to help ensure app reviews are accurate. Our anti-spam protections blocked <strong>160 million spam ratings and reviews </strong>last year, including inflated and deflated reviews.  We also <strong>prevented an average 0.5-star rating drop</strong> for apps targeted by review bombing, protecting our users and developers from unhelpful reviews.</li>\n\n<li><strong>Safeguarding kids and families</strong>: Our approach to kids and families is built on the core belief that children deserve a safe, enriching digital environment. Our commitment is to empower parents with robust tools while providing children with access to high-quality, age-appropriate content. Last year, we announced <a href=\"https://support.google.com/googleplay/android-developer/answer/16302250?sjid=17958105945234987629-NC\">new layers of protection</a>, in addition to our existing <a href=\"https://blog.google/technology/safety-security/age-assurance-measures-safer-online-kids-teens-us/\">safeguards</a>, to prevent younger audiences from discovering or downloading apps involving activities like gambling or dating. </li>\n</ul>\n<h3>Enhancing Google Play Protect to help keep the entire Android ecosystem safe</h3>\n\n\n<p>\nWe also continued to improve our protections for the broader Android ecosystem, by expanding <a href=\"https://support.google.com/googleplay/answer/2812853?hl=en\">Google Play Protect</a> and real-time security measures like in-call scam protections to help keep users safe from scams, fraud, and other threats.\n</p>\n<p>\n<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRRyFyWuAAS0qmMVtLZaUEybmZ13gxGFxa6UsF_BGUocGCqDI6OAH-wM6_Fl84ZRyGZKnHcOCR4ceaPacTMsGsHtkb1R6lWlrcF1BAxBBt06KAe0n-t7C1gn7IMDC7rLZGY2bBshE1oR-0rCaYWponr8e6bh0AQP5K4koLy1CahuD9lT5Ay1I4JjaCSKb3/s1600/SafeAppEcosystem_GooglePlayProtectRealTimeScanning_1920x1080.png\" style=\"display: block; padding: 1em 0; text-align: center;\"><img alt=\"\" border=\"0\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRRyFyWuAAS0qmMVtLZaUEybmZ13gxGFxa6UsF_BGUocGCqDI6OAH-wM6_Fl84ZRyGZKnHcOCR4ceaPacTMsGsHtkb1R6lWlrcF1BAxBBt06KAe0n-t7C1gn7IMDC7rLZGY2bBshE1oR-0rCaYWponr8e6bh0AQP5K4koLy1CahuD9lT5Ay1I4JjaCSKb3/s1600/SafeAppEcosystem_GooglePlayProtectRealTimeScanning_1920x1080.png\" /></a></div>\n\n<p>\nAs Android’s built-in defense against malware and unwanted software, <strong>Google Play Protect now scans over 350 billion Android apps daily.</strong> This proactive protection constantly checks both Play apps and those from other sources to ensure they are not potentially harmful. And, last year, its real-time scanning capability identified <strong>more than 27 million </strong>new malicious apps from outside Google Play, warning users or blocking the app to neutralize the threat. To benefit from these protections, we recommend that users always keep Google Play Protect on. \n</p>\n<p>\nWhile fraudsters are constantly evolving their tactics, Google Play Protect is evolving faster. Last year, we expanded:\n</p>\n<ul>\n\n<li><strong>Enhanced fraud protection:</strong> Google Play Protect’s <a href=\"https://security.googleblog.com/2024/02/piloting-new-ways-to-protect-Android-users-from%20financial-fraud.html\">enhanced fraud protection</a> analyzes and automatically blocks the installation of apps that may abuse sensitive permissions to commit financial fraud. This protection is triggered when a user attempts to install an app from an \"Internet-sideloading source\" — such as a web browser or messaging app — that requests a sensitive permission. Building on the success of our initial pilot in Singapore, we expanded enhanced fraud protection to <strong>185 markets</strong>, now covering more than <strong>2.8 billion Android devices</strong>. In 2025, we <strong>blocked 266 million risky installation attempts</strong> and<strong> helped protect users from 872,000 unique, high-risk applications.</strong></li>\n\n<li><strong>In-call scam protection:</strong> We also <a href=\"https://security.googleblog.com/2025/05/whats-new-in-android-security-privacy-2025.html\">introduced</a> new protections to combat social engineering attacks during phone calls. This feature preemptively disables the ability to turn off Google Play Protect during phone calls, stopping bad actors from being able to trick users into disabling their device's built-in defenses to download a malicious app while on a call.</li>\n</ul>\n<h3>Partnering with developers for a more secure, privacy-friendly future</h3>\n\n\n<p>\nKeeping Android and Google Play safe requires deep collaboration. We want to thank our global developer community for their partnership and for sharing their feedback on the tools and support they need to succeed.\n</p>\n<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuQSOEIEqh9WkZLhfDByQYwJ5oCPUI_tux-OhPo3qgJ9LZ0Uuphey0RcUPiiIoqOcE8eEOWqSreJsex9f_8UAn8JUn8wnc3AcApCymgrDn3YCHeudyrH5QI22iArfEGKjluM1jKVujCXLRwmH06V2MnaSO3f_koSgMelHiuwPJtKQHKwcFi6AksS3TRqWY/s1600/SafeAppEcosystem_PlayIntegrityAPI_1920x1080.png\" style=\"display: block; padding: 1em 0; text-align: center;\"><img alt=\"\" border=\"0\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuQSOEIEqh9WkZLhfDByQYwJ5oCPUI_tux-OhPo3qgJ9LZ0Uuphey0RcUPiiIoqOcE8eEOWqSreJsex9f_8UAn8JUn8wnc3AcApCymgrDn3YCHeudyrH5QI22iArfEGKjluM1jKVujCXLRwmH06V2MnaSO3f_koSgMelHiuwPJtKQHKwcFi6AksS3TRqWY/s1600/SafeAppEcosystem_PlayIntegrityAPI_1920x1080.png\" /></a></div>\n<p>\n In 2025, we focused on reducing friction for developers and providing them with tools to safeguard their businesses:\n</p>\n<ul>\n\n<li><strong>Building safer apps more easily</strong>: We’re helping developers streamline their work by bringing insights directly into their natural workflows. It starts with <a href=\"https://developer.android.com/studio/publish/insights\">Play Policy Insights in Android Studio</a>, which gives developers real-time feedback as they code. We focused first on permissions and APIs that grant deeper system access or handle personal data, like location or photos. This gives developers a head start on policy requirements, including prominent disclosures or usage declarations, while they’re still building. When developers move to Play Console to prepare their apps for submission, our expanded <a href=\"https://support.google.com/googleplay/android-developer/answer/14807773\">pre-review checks</a> help catch common reasons for rejection, like improper usage of credentials or permissions and broken privacy policy links, ensuring smoother, faster reviews.</li>\n\n<li><strong>Stronger threat detection with Play Integrity API</strong>: Every day, apps and games make over 20 billion checks with <a href=\"https://developer.android.com/google/play/integrity\">Play Integrity API</a> to protect against abuse and unauthorized access. In 2025, we added <a href=\"https://android-developers.googleblog.com/2025/10/stronger-threat-detection-simpler.html\">hardware-backed signals</a> to make it even harder for bad actors to spoof devices and introduced <a href=\"https://android-developers.googleblog.com/2025/10/stronger-threat-detection-simpler.html\">new in-app prompts</a> that let users fix common issues like network errors without leaving the app. We also launched <a href=\"https://developer.android.com/google/play/integrity/device-recall\">device recall</a> in beta to help developers identify repeat bad actors even after a device has been reset, all while protecting user privacy.</li>\n\n<li><strong>Building trust through developer verification:</strong> We’ve seen how effective developer verification is on Google Play, and now we’re applying those lessons to the broader Android ecosystem. By ensuring there is a real, accountable identity behind every app, verification helps legitimize authentic developers and prevents bad actors from hiding behind anonymity to repeatedly cause harm. After gathering feedback during our <a href=\"https://developer.android.com/developer-verification/guides/early-access\">early access</a> period, we’ll open up verification to all developers this year. We’ve also added a dedicated account type for students and hobbyists, which will allow them to distribute these apps to a limited number of devices without the full verification requirements.</li>\n\n<li><strong>Greater security with every Android release</strong>: In Android 16, developers can <a href=\"https://android-developers.googleblog.com/2025/12/enhancing-android-security-stop-malware.html\">protect</a> users’ most private information, like bank logins, with just one line of code. We’ve integrated this feature automatically to <a href=\"https://android-developers.googleblog.com/2025/12/enhancing-android-security-stop-malware.html#:~:text=Automatic%2C%20enhanced%20security%20for%20setFilterTouchesWhenObscured%20protection\">certain apps</a> for an instant security boost against “<a href=\"https://developer.android.com/privacy-and-security/risks/tapjacking#mitigations\">tapjacking</a>,” a trick where bad apps use hidden layers to steal clicks for ad fraud. </li>\n</ul>\n<h3>Looking ahead</h3>\n\n\n<p>\nOur top priority remains making Google Play and Android the most trusted app ecosystems for everyone. This year, we’ll continue to invest in AI-driven defenses to stay ahead of emerging threats and equip Android developers with the tools they need to build apps safely. To empower developers who distribute their apps on Google Play, we’ll maintain our focus on embedding checks to help build apps that are compliant by design, while providing guidance to help proactively avoid policy violations before an app is published. We’ll also roll out Android developer verifications to hold bad actors accountable and prevent them from hiding behind anonymity to cause repeated harm.\n</p>\n<p>\nThank you for being part of the Google Play and Android community as we work together to build a safer app ecosystem.\n</p>",
     "link": "http://security.googleblog.com/2026/02/keeping-google-play-android-app-ecosystem-safe-2025.html",
@@ -360,26 +340,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Google Chrome 151 Released With 382 Security Fixes for Critical Vulnerabilities",
-    "summary": "<p>Google has promoted Chrome 151 to the stable channel for Windows, macOS and Linux, delivering a major security update that addresses 382 vulnerabilities across the browser’s core engine, graphics stack, extensions framework and cross‑platform components. The release, dated June 30, 2026, significantly hardens Chrome against memory corruption, type confusion, and policy‑enforcement flaws that could be [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/google-chrome-151-released-with-382-security-fixes/\">Google Chrome 151 Released With 382 Security Fixes for Critical Vulnerabilities</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/google-chrome-151-released-with-382-security-fixes/",
-    "published": "2026-07-01T06:34:38",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 1232,
-    "also_covered_by": []
-  },
-  {
-    "title": "Chrome Update Fixes 382 Vulnerabilities, Including 15 Critical Ones – Update Now!",
-    "summary": "<p>Chrome 151’s latest stable-channel update delivers patches for 382 security vulnerabilities, including 15 critical bugs that can be weaponized for remote code execution and full browser compromise if left unpatched. Google is rolling this update out for Windows, macOS, Linux, and Chrome for iOS, with security fixes spanning almost every core component of the browser [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/chrome-update-fixes-382-vulnerabilities/\">Chrome Update Fixes 382 Vulnerabilities, Including 15 Critical Ones &#8211; Update Now!</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/chrome-update-fixes-382-vulnerabilities/",
-    "published": "2026-07-01T05:33:22",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 1214,
-    "also_covered_by": []
-  },
-  {
     "title": "U.S. Seizes Nearly 400 Illegal FIFA World Cup Streaming Domains",
     "summary": "<p><img alt=\"Illegal World Cup Streaming Domains\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"1024\" src=\"https://thecyberexpress.com/wp-content/uploads/Illegal-World-Cup-Streaming-Domains-1.webp\" title=\"U.S. Seizes Nearly 400 Illegal FIFA World Cup Streaming Domains 7\" width=\"1536\" /></p><div class=\"qMYqUG_convSearchResultHighlightRoot\">\n<div class=\"\"><section class=\"text-token-text-primary w-full focus:outline-none has-data-writing-block:pointer-events-none [&amp;:has([data-writing-block])&gt;*]:pointer-events-auto R6Vx5W_threadScrollVars scroll-mb-[calc(var(--scroll-root-safe-area-inset-bottom,0px)+var(--thread-response-height))] scroll-mt-[calc(var(--header-height)+min(200px,max(70px,20svh)))]\" dir=\"auto\">\n<div class=\"text-base my-auto mx-auto pb-10 [--thread-content-margin:var(--thread-content-margin-xs,calc(var(--spacing)*4))] @w-sm/main:[--thread-content-margin:var(--thread-content-margin-sm,calc(var(--spacing)*6))] @w-lg/main:[--thread-content-margin:var(--thread-content-margin-lg,calc(var(--spacing)*16))] px-(--thread-content-margin)\">\n<div class=\"[--thread-content-max-width:40rem] @w-lg/main:[--thread-content-max-width:48rem] mx-auto max-w-(--thread-content-max-width) flex-1 group/turn-messages focus-visible:outline-hidden relative flex w-full min-w-0 flex-col agent-turn\">\n<div class=\"flex max-w-full flex-col gap-4 grow\">\n<div class=\"min-h-8 text-message relative flex w-full flex-col items-end gap-2 text-start break-words whitespace-normal outline-none keyboard-focused:focus-ring [.text-message+&amp;]:mt-1\" dir=\"auto\" tabindex=\"0\">\n<div class=\"flex w-full flex-col gap-1 empty:hidden\">\n<div class=\"markdown prose dark:prose-invert wrap-break-word w-full light markdown-new-styling\">\n<p>The Illegal World Cup Streaming Domains crackdown has intensified as the <a href=\"https://thecyberexpress.com/doj-georgia-tech-cybersecurity-lawsuit/\" rel=\"noopener\" target=\"_blank\">U.S. Department of Justice </a>announced the seizure of nearly 400 websites that were illegally broadcasting <a href=\"https://thecyberexpress.com/fifa-world-cup-2026-scams/\" rel=\"noopener\" target=\"_blank\">FIFA World Cup 2026 </a>matches. The enforcement action, launched ahead of the tournament's knockout stage, targets websites accused of violating copyright infringement laws by offering unauthorized live streams of World Cup matches for profit.</p>\n<p>According to the Justice Department, the domains were seized under U.S. copyright law as part of Operation Offsides, an international initiative focused on disrupting <a href=\"https://thecyberexpress.com/online-piracy-sites-seized-bulgarian-crackdown/\" rel=\"noopener\" target=\"_blank\">digital piracy </a>networks linked to the World Cup.</p>\n\n<h3><strong><span>Illegal World Cup Streaming Domains Targeted Under Operation Offsides</span></strong></h3>\n<p>Assistant Attorney <a class=\"wpil_keyword_link\" href=\"https://cyble.com/general/\" rel=\"noopener\" target=\"_blank\" title=\"General\">General</a> A. Tysen Duva of the Justice Department's Criminal Division said the operation was designed to disrupt international networks profiting from the global popularity of the World Cup.</p>\n<p>\"We have seized hundreds of domains, used to illegally stream World Cup matches for profit, to disrupt the international networks that profit from the global popularity of the World Cup,\" Duva <a href=\"https://www.justice.gov/opa/pr/united-states-seizes-hundreds-internet-domains-used-illegally-stream-world-cup-matches\" rel=\"nofollow noopener\" target=\"_blank\">said</a>.</p>\n<p>He added that the Criminal Division will continue efforts to disrupt and, where appropriate, prosecute websites and individuals involved in the illegal activity.</p>\n\n\n[caption id=\"attachment_112952\" align=\"aligncenter\" width=\"602\"]<img alt=\"Illegal World Cup Streaming Domains\" class=\"wp-image-112952 size-full\" height=\"366\" src=\"https://thecyberexpress.com/wp-content/uploads/Illegal-World-Cup-Streaming-Domains.webp\" width=\"602\" /> Banner posted on seized sites[/caption]\n<p>The domain seizures are part of Operation Offsides, led by the National Intellectual Property Rights Coordination Center in coordination with HSI, HSI Attaché offices, private sector organizations, and international law enforcement agencies.</p>\n\n<h3><strong>Investigation Supported by FIFA and Industry Partners</strong></h3>\n<p>According to an affidavit filed in the Eastern District of Virginia, investigators found that the seized websites were providing unauthorized real-time streams of <strong>FIFA World Cup 2026</strong> matches as they were being officially broadcast.</p>\n<p>HSI special agents confirmed that the domains were actively streaming matches without authorization.</p>\n<p>Authorities identified the domains with assistance from FIFA, while additional supporting information was provided by beIN Media Group, NBC Universal, the Motion Picture Association's Alliance for Creativity and Entertainment (ACE), Ultimate Fighting Championship (UFC), and Warner Brothers.</p>\n<p>FIFA holds the exclusive rights to organize and stage the FIFA World Cup 2026, which is being hosted across cities in the United States, Canada, and Mexico.</p>\n\n<h3><strong>Officials Warn of Copyright and Cybersecurity Risks</strong></h3>\n<p>Director Ivan J. Arvelo of the National Intellectual Property Rights Coordination Center said unauthorized broadcasts violate <a href=\"https://thecyberexpress.com/online-piracy-sites-seized-bulgarian-crackdown/\" rel=\"noopener\" target=\"_blank\">intellectual property rights </a>and financially benefit criminal organizations.</p>\n<p>He said the operation disrupted networks responsible for stealing and distributing copyrighted content while helping ensure fans access matches through legitimate channels.</p>\n<p>HSI Washington Field Office Special Agent in Charge Eric Weindorf also warned that illegal streaming sites may expose users to <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-cybersecurity/\" title=\"cybersecurity\">cybersecurity</a> threats.</p>\n<p>According to Weindorf, viewers using unauthorized streaming platforms could face <a class=\"wpil_keyword_link\" href=\"https://cyble.com/knowledge-hub/what-is-malware/\" rel=\"noopener\" target=\"_blank\" title=\"malware\">malware</a> risks, insecure connections, and the potential compromise of personal and financial information, in addition to the copyright violations committed by the operators of such sites.</p>\n\n<h3><strong>International Enforcement Targets Online Piracy Networks</strong></h3>\n<p>The <a href=\"https://thecyberexpress.com/75000-ddos-for-hire-users-reprimanded/\" rel=\"noopener\" target=\"_blank\">domain seizure </a>operation was coordinated with international partners through the International Computer Hacking and Intellectual Property (ICHIP) Network.</p>\n<p>Authorities targeted servers and domains associated with <a href=\"https://thecyberexpress.com/us-authorities-arrest-russian-nationals-running-z-library-piracy-website/\" rel=\"noopener\" target=\"_blank\">online piracy </a>in Peru and Bulgaria, which officials identified as known centers of illegal streaming activity. Additional ICHIP-supported enforcement actions took place in Croatia, Romania, Poland, and Colombia after U.S. authorities shared intelligence to help identify domains involved in unauthorized World Cup broadcasts.</p>\n<p>The Justice Department said the operation demonstrates ongoing cooperation between domestic and international law enforcement agencies in combating cross-border piracy.</p>\n\n<h2>DOJ Continues Cybercrime and IP Enforcement</h2>\n<p>The Justice Department noted that its Computer Crime and Intellectual Property Section (CCIPS) investigates and prosecutes <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/\" title=\"cybercrime\">cybercrime</a> and intellectual property offenses alongside domestic and international partners.</p>\n<p>Since 2020, CCIPS has secured the conviction of more than 180 <a class=\"wpil_keyword_link\" href=\"https://cyble.com/cybercrime/\" rel=\"noopener\" target=\"_blank\" title=\"cybercrime\">cybercrime</a> and intellectual property offenders and obtained court orders returning more than $350 million in victim funds.</p>\n<p>The latest enforcement follows a similar <a href=\"https://www.ice.gov/news/releases/hsi-baltimore-seizes-another-23-websites-violated-copyrights-illegally-live-streaming\" rel=\"nofollow noopener\" target=\"_blank\">HSI-led operation during the 2022 FIFA World Cup</a>, when authorities seized more than 70 websites involved in unauthorized streaming.</p>\n<p>The Justice Department said Operation Offsides will continue to focus on identifying and shutting down websites that facilitate illegal broadcasts while protecting intellectual property during the FIFA World Cup.</p>\n\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section></div>\n</div>",
     "link": "https://thecyberexpress.com/illegal-world-cup-streaming-domains/",
@@ -387,16 +347,6 @@
     "source": "thecyberexpress.com",
     "category": "Vulnerability",
     "importance_score": 1200,
-    "also_covered_by": []
-  },
-  {
-    "title": "False Positive or First Sign of a Breach? How Tier 1 SOC Analysts Can Tell the Difference Faster",
-    "summary": "<p>Imagine&#160;a Tier 1 analyst receiving an alert: an employee’s laptop has&#160;connected&#160;to an unfamiliar domain.&#160; The detection is not dramatic. No ransomware note. No obvious malware verdict. No endpoint isolation. Just a domain, an IP address, a timestamp, and a medium-severity alert.&#160; The analyst opens a reputation service in one tab. The result is inconclusive. A [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/false-positive-or-first-sign-of-a-breach-how-tier-1-soc-analysts-can-tell-the-difference-faster/\">False Positive or First Sign of a Breach? How Tier 1 SOC Analysts Can Tell the Difference Faster </a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/false-positive-or-first-sign-of-a-breach-how-tier-1-soc-analysts-can-tell-the-difference-faster/",
-    "published": "2026-06-30T16:13:56",
-    "source": "cybersecuritynews.com",
-    "category": "Ransomware",
-    "importance_score": 1185,
     "also_covered_by": []
   },
   {
@@ -490,36 +440,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Anthropic buffa Library Zero-Day Lets Attackers Trigger Memory-Amplification DoS",
-    "summary": "<p>Anthropic&#8217;s Rust-based protobuf library, buffa, has been discovered to have a zero-day memory amplification denial-of-service (DoS) vulnerability. This flaw allows attackers to deplete system memory using relatively small inputs. Endor Labs identified the issue through its AI-powered static application security testing (SAST) engine and is now tracked as CVE-2026-55407. This situation underscores how logic flaws [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/anthropic-buffa-library-zero-day/\">Anthropic buffa Library Zero-Day Lets Attackers Trigger Memory-Amplification DoS</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/anthropic-buffa-library-zero-day/",
-    "published": "2026-07-01T07:07:20",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 1082,
-    "also_covered_by": []
-  },
-  {
-    "title": "New BioShocking Attack Allows Attackers to Trick AI Browser and Leak Credentials",
-    "summary": "<p>A newly disclosed attack technique dubbed “BioShocking” is raising concerns across the cybersecurity community after researchers demonstrated that AI-powered browsers can be manipulated to leak sensitive data and bypass built-in safety controls. Security researchers at LayerX revealed that attackers can “game” AI-driven browsers into executing malicious actions by altering their perception of reality. The attack [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/bioshocking-attack/\">New BioShocking Attack Allows Attackers to Trick AI Browser and Leak Credentials</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/bioshocking-attack/",
-    "published": "2026-06-30T16:03:07",
-    "source": "cybersecuritynews.com",
-    "category": "Data Breach",
-    "importance_score": 1069,
-    "also_covered_by": []
-  },
-  {
-    "title": "U.S. Lifts Export Controls on Claude Fable 5 and Mythos 5",
-    "summary": "<p>The U.S. Department of Commerce has formally withdrawn export control restrictions on Anthropic&#8217;s Claude Fable 5 and Mythos 5 AI models, ending an 18-day standoff that had blocked global access to the company&#8217;s most advanced systems. In a letter dated June 30, 2026, Commerce Secretary Howard Lutnick informed Anthropic&#8217;s Chief Compute Officer Tom Brown that [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/export-controls-fable-5-and-mythos-5/\">U.S. Lifts Export Controls on Claude Fable 5 and Mythos 5</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/export-controls-fable-5-and-mythos-5/",
-    "published": "2026-07-01T03:19:40",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 1058,
-    "also_covered_by": []
-  },
-  {
     "title": "Protecting Cookies with Device Bound Session Credentials",
     "summary": "<span class=\"byline-author\">Posted by Ben Ackerman, Chrome team,  Daniel Rubery, Chrome team and Guillaume Ehinger, Google Account Security team</span>\n\n<p>\nFollowing our April 2024 <a href=\"https://blog.chromium.org/2024/04/fighting-cookie-theft-using-device.html\">announcement</a>, Device Bound Session Credentials (DBSC) is now entering public availability for Windows users on Chrome 146, and expanding to macOS in an upcoming Chrome release. This project represents a significant step forward in our ongoing efforts to combat session theft, which remains a prevalent threat in the modern security landscape.\n</p>\n<p>\nSession theft typically occurs when a user inadvertently downloads malware onto their device. Once active, the malware can silently extract existing session cookies from the browser or wait for the user to log in to new accounts, before exfiltrating these tokens to an attacker-controlled server. Infostealer malware families, such as LummaC2, have become increasingly sophisticated at harvesting these credentials. Because cookies often have extended lifetimes, attackers can use them to gain unauthorized access to a user’s accounts without ever needing their passwords; this access is then often bundled, traded, or sold among threat actors.\n</p>\n<p>\nCrucially, once sophisticated malware has gained access to a machine, it can read the local files and memory where browsers store authentication cookies. As a result, there is no reliable way to prevent cookie exfiltration using software alone on any operating system. Historically, mitigating session theft relied on detecting the stolen credentials after the fact using a complex set of abuse heuristics – a reactive approach that persistent attackers could often circumvent. DBSC fundamentally changes the web's capability to defend against this threat by shifting the paradigm from reactive detection to proactive prevention, ensuring that successfully exfiltrated cookies cannot be used to access users’ accounts.\n</p>\n<h3>How DBSC Works</h3>\n\n\n<p>\nDBSC protects against session theft by cryptographically binding authentication sessions to a specific device. It does this using hardware-backed security modules, such as the Trusted Platform Module (TPM) on Windows and the Secure Enclave on macOS, to generate a unique public/private key pair that cannot be exported from the machine. The issuance of new short-lived session cookies is contingent upon Chrome proving possession of the corresponding private key to the server. Because attackers cannot steal this key, any exfiltrated cookies quickly expire and become useless to those attackers. This design allows large and small websites to upgrade to secure, hardware-bound sessions by adding dedicated registration and refresh endpoints to their backends, while maintaining complete compatibility with their existing front-end. The browser handles the complex cryptography and cookie rotation in the background, allowing the web app to continue using standard cookies for access just as it always has. \n</p>\n<p>\nGoogle rolled out an early version of this protocol over the last year. For sessions protected by DBSC, we have observed a significant reduction in session theft since its launch.\n</p>\n<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjk4eZvzfBqPL0Xf1ckUo7l58eyeZKSzIelxjLOiOE_XHYNZc-qdx24Sv9n3tgRgc2xOzKZvcHsCksprOlxwd-gIRQaLPsOu2jjuCV4e6G1_ImsXhQeOean1CWndOiQuikT94gbvZLlWfktpCBRtxh9dJkxjpfvradSkzWD1Wqxohg9TJUdyC1kC88y6Abu/s1600/Screenshot%202026-04-09%20at%2010.11.22%E2%80%AFAM.png\" style=\"display: block; padding: 1em 0; text-align: center;\"><img alt=\"\" border=\"0\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjk4eZvzfBqPL0Xf1ckUo7l58eyeZKSzIelxjLOiOE_XHYNZc-qdx24Sv9n3tgRgc2xOzKZvcHsCksprOlxwd-gIRQaLPsOu2jjuCV4e6G1_ImsXhQeOean1CWndOiQuikT94gbvZLlWfktpCBRtxh9dJkxjpfvradSkzWD1Wqxohg9TJUdyC1kC88y6Abu/s1600/Screenshot%202026-04-09%20at%2010.11.22%E2%80%AFAM.png\" /></a></div>\n<p style=\"text-align: center;\">\n<em>An overview of the DBSC protocol showing the interaction between the browser and server.</em>\n</p>\n<h3>Private by design</h3>\n\n\n<p>\nA core tenet of the DBSC architecture is the preservation of user privacy. Each session is backed by a distinct key, preventing websites from using these credentials to correlate a user's activity across different sessions or sites on the same device. Furthermore, the protocol is designed to be lean: it does not leak device identifiers or attestation data to the server beyond the per-session public key required to certify proof of possession. This minimal information exchange ensures DBSC helps secure sessions without enabling cross-site tracking or acting as a device fingerprinting mechanism.\n</p>\n<h3>Engagement with the ecosystem</h3>\n\n\n<p>\nDBSC was designed from the beginning to be an open web standard through the W3C process and adoption by the Web Application Security Working Group. Through this process we partnered with Microsoft to design the standard to ensure it works for the web and got input from many in the industry that are responsible for web security.\n</p>\n<p>\nAdditionally, over the past year, we have also conducted two Origin Trials to ensure DBSC effectively serves the requirements of the broader web community. Many web platforms, including Okta, actively participated in these trials and their own testing and provided essential feedback to ensure the protocol effectively addresses their diverse needs.\n</p>\n<p>\nIf you are a web developer and are looking for a way to secure your users against session theft, refer to our <a href=\"https://developer.chrome.com/docs/web-platform/device-bound-session-credentials\">developer guide</a> for implementation details. Additionally, all the details about DBSC can be found on the <a href=\"https://w3c.github.io/webappsec-dbsc/\">spec</a> and the corresponding <a href=\"https://github.com/w3c/webappsec-dbsc\">github</a>. Feel free to use the <a href=\"https://github.com/w3c/webappsec-dbsc/issues\">issues</a> page to report bugs or provide feature requests.\n</p>\n<h3>Future improvements</h3>\n\n\n<p>\nAs we continue to evolve the DBSC standard, future iterations will focus on increasing support across diverse ecosystems and introducing advanced capabilities tailored for complex enterprise environments. Key areas of ongoing development include:\n</p>\n<ul>\n\n<li><strong>Securing Federated Identity: </strong>In modern enterprise environments, Single Sign-On (SSO) is ubiquitous. We are expanding the DBSC protocol to support cross-origin bindings, ensuring that a relying party (RP) session remains continuously bound to the same original device key used by the Identity Provider (IdP). This guarantees that the high-assurance security of the initial device binding is maintained throughout the entire federated login process, creating an unbroken chain of trust.</li>\n\n<li><strong>Advanced Registration Capabilities:</strong> While DBSC provides robust protection for established cookies, some environments require an even stronger foundation when the session is first created. We are developing mechanisms to bind DBSC sessions to pre-existing, trusted key material rather than generating a new key at sign-in. This advanced capability enables websites to integrate complementary technologies, such as mTLS certificates or hardware security keys, creating a highly secure registration environment.</li>\n\n<li><strong>Broader Device Support:</strong> We are also actively exploring the potential addition of software-based keys to extend protections to devices without dedicated secure hardware.",
     "link": "http://security.googleblog.com/2026/04/protecting-cookies-with-device-bound.html",
@@ -567,16 +487,6 @@
     "source": "thehackernews.com",
     "category": "Phishing / Scams",
     "importance_score": 987,
-    "also_covered_by": []
-  },
-  {
-    "title": "Attackers Register AI-Hallucinated Domains to Deliver Phishing Kits and Malware",
-    "summary": "<p>An emergent supply-chain attack vector they term &#8220;phantom squatting,&#8221; in which large language models (LLMs) routinely hallucinate plausible but nonexistent domains for legitimate brands and adversaries then preemptively register those domains to host phishing kits, malware, and other malicious infrastructure. By systematically probing two distinct LLM families across temperature settings, Unit 42 generated a 2.1 [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ai-hallucinated-domains/\">Attackers Register AI-Hallucinated Domains to Deliver Phishing Kits and Malware</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/ai-hallucinated-domains/",
-    "published": "2026-07-01T06:54:03",
-    "source": "gbhackers.com",
-    "category": "Phishing / Scams",
-    "importance_score": 981,
     "also_covered_by": []
   },
   {
@@ -637,16 +547,6 @@
     "source": "thehackernews.com",
     "category": "Vulnerability",
     "importance_score": 930,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hackers Use Vulnerable Windows Drivers to Kill EDR in Ransomware Attacks",
-    "summary": "<p>Hackers increasingly rely on vulnerable, legitimately signed Windows drivers to neutralize endpoint defenses, turning defense evasion into a decisive phase of modern ransomware attacks. Over the past three years the Bring Your Own Vulnerable Driver (BYOVD) technique has migrated from research proof-of-concept into a commoditized, routinely deployed capability in ransomware-as-a-service toolkits. By abusing signed kernel [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/windows-drivers-to-kill-edr/\">Hackers Use Vulnerable Windows Drivers to Kill EDR in Ransomware Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/windows-drivers-to-kill-edr/",
-    "published": "2026-07-01T05:32:17",
-    "source": "gbhackers.com",
-    "category": "Ransomware",
-    "importance_score": 929,
     "also_covered_by": []
   },
   {
@@ -790,16 +690,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Multiple AirDrop and Quick Share Vulnerabilities Allow Attackers to Crash Devices",
-    "summary": "<p>Multiple newly disclosed vulnerabilities in Apple’s AirDrop and Google/Samsung Quick Share proximity-sharing protocols allow attackers within wireless range to crash or disrupt nearby devices without user interaction repeatedly. Security researchers from CISPA Helmholtz Center for Information Security conducted a systematic reverse-engineering and protocol-aware fuzzing study of AirDrop and Quick Share across macOS, iOS, Android, and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/airdrop-and-quick-share-vulnerabilities/\">Multiple AirDrop and Quick Share Vulnerabilities Allow Attackers to Crash Devices</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/airdrop-and-quick-share-vulnerabilities/",
-    "published": "2026-06-30T15:11:23",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 780,
-    "also_covered_by": []
-  },
-  {
     "title": "2026 World Cup: Discussing The World’s Biggest Game’s Attack Surface",
     "summary": "<p>The 2026 World Cup presents major cyber risks from ransomware groups, state-aligned actors, and other groups targeting critical infrastructure. Learn more here. </p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/fifa-world-cup-attack-surface/\">2026 World Cup: Discussing The World’s Biggest Game’s Attack Surface</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
     "link": "https://unit42.paloaltonetworks.com/fifa-world-cup-attack-surface/",
@@ -910,16 +800,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Citrix NetScaler ADC and Gateway Flaws Let Attackers Trigger Memory Overread and Denial-of-Service",
-    "summary": "<p>Citrix has issued a critical security bulletin addressing multiple high-severity vulnerabilities in NetScaler ADC and NetScaler Gateway. These vulnerabilities could allow attackers to trigger memory overreads, arbitrary file access, and denial-of-service (DoS) conditions across affected deployments. The vulnerabilities are tracked as CVE-2026-8451, CVE-2026-8452, CVE-2026-8655, CVE-2026-10816, CVE-2026-10817, and CVE-2026-13474. They impact widely deployed enterprise networking and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/citrix-netscaler-adc-and-gateway-flaws/\">Citrix NetScaler ADC and Gateway Flaws Let Attackers Trigger Memory Overread and Denial-of-Service</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/citrix-netscaler-adc-and-gateway-flaws/",
-    "published": "2026-07-01T06:55:58",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 650,
-    "also_covered_by": []
-  },
-  {
     "title": "Uplevelling Black Hat Threat Hunters",
     "summary": "Once you ingest major telemetry sources, how can we add value for our Threat Hunters? Check out how we brought in potentially malicious sandbox submissions to the analysts’ queue for triage.",
     "link": "https://blogs.cisco.com/security/bhasia-2026-noc-uplevelling-black-hat-threat-hunters/",
@@ -1027,16 +907,6 @@
     "source": "infosecurity-magazine.com",
     "category": "Ransomware",
     "importance_score": 623,
-    "also_covered_by": []
-  },
-  {
-    "title": "Microsoft Teams’ New Feature Blocks Bots from Joining Meetings",
-    "summary": "<p>Microsoft has rolled out a new bot protection capability in Microsoft Teams that gives IT administrators and meeting organizers greater control over external bots attempting to join meetings, a move designed to address growing privacy and security concerns around AI-powered meeting tools. As AI note-taking bots have become increasingly embedded in the workplace, a parallel [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-teams-bot-protection/\">Microsoft Teams&#8217; New Feature Blocks Bots from Joining Meetings</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/microsoft-teams-bot-protection/",
-    "published": "2026-06-30T16:33:38",
-    "source": "cybersecuritynews.com",
-    "category": "AI & Security",
-    "importance_score": 609,
     "also_covered_by": []
   },
   {
@@ -1360,16 +1230,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Multiple Apache Tomcat Vulnerabilities Allow Attackers to Bypass Authentication",
-    "summary": "<p>The Apache Software Foundation has disclosed two vulnerabilities affecting Apache Tomcat that could allow attackers to bypass authentication and security constraints protecting web applications. The flaws, tracked as CVE-2026-55957 and CVE-2026-55956, impact multiple major versions of the widely deployed servlet container, prompting urgent upgrade recommendations across enterprise environments. CVE-2026-55957: JNDIRealm Authentication Bypass Rated as Important [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/multiple-apache-tomcat-vulnerabilities/\">Multiple Apache Tomcat Vulnerabilities Allow Attackers to Bypass Authentication</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/multiple-apache-tomcat-vulnerabilities/",
-    "published": "2026-07-01T04:19:59",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 486,
-    "also_covered_by": []
-  },
-  {
     "title": "Apple rushed to squash 29 bugs because AI is supercharging hackers - update ASAP",
     "summary": "Software updates are rolling out now for iPhone, iPad, and Mac, bringing fixes that weren't supposed to arrive so soon. Here's why.",
     "link": "https://www.zdnet.com/article/apple-rushed-software-fixes-over-ai-threats-update-iphone-asap/",
@@ -1390,16 +1250,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Adobe ColdFusion Critical Vulnerabilities Let Attackers Execute Arbitrary Code",
-    "summary": "<p>Adobe has released an emergency security bulletin, APSB26-68, addressing 11 vulnerabilities in Adobe ColdFusion 2025 and ColdFusion 2023, with multiple vulnerabilities receiving the maximum CVSS base score of 10.0. Published on June 30, 2026, this bulletin carries Adobe&#8217;s highest Priority Rating of 1, indicating that these vulnerabilities are either actively targeted or pose an extremely [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/adobe-coldfusion-critical-vulnerabilities/\">Adobe ColdFusion Critical Vulnerabilities Let Attackers Execute Arbitrary Code</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/adobe-coldfusion-critical-vulnerabilities/",
-    "published": "2026-07-01T07:18:35",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 478,
-    "also_covered_by": []
-  },
-  {
     "title": "Ransomware Attacks are on the Rise",
     "summary": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
     "link": "https://threatpost.com/ransomware-attacks-are-on-the-rise/180481/",
@@ -1410,26 +1260,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Glitch SPY RAT Abuses Android Accessibility Service for Full Device Control",
-    "summary": "<p>An emerging Android remote-access trojan platform, tracked as Glitch SPY, that leverages a fraudulent Polish apartment-rental website to trick victims into sideloading a malicious APK. The dropper, identified as the Brokewell Android Loader, presents a plausible rental-app experience while secretly installing Glitch SPY and coercing users to enable Android Accessibility Service an abuse that gives [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/glitch-spy-rat-abuses-android/\">Glitch SPY RAT Abuses Android Accessibility Service for Full Device Control</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/glitch-spy-rat-abuses-android/",
-    "published": "2026-07-01T07:24:14",
-    "source": "gbhackers.com",
-    "category": "Phishing / Scams",
-    "importance_score": 475,
-    "also_covered_by": []
-  },
-  {
-    "title": "AI-Powered Reverse Engineering Turns EDR Rule Analysis Into Automated Evasion Workflow",
-    "summary": "<p>LLMs are reshaping endpoint security research by turning what used to be slow, manual reverse engineering into an automated, repeatable evasion workflow. Recent hands-on experiments with advanced models driving disassembly and local analysis show that a compact harness LLM plus disassembler, a shared state file, and a loop can recover EDR artifacts, decrypt local signature [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ai-powered-reverse-engineering/\">AI-Powered Reverse Engineering Turns EDR Rule Analysis Into Automated Evasion Workflow</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/ai-powered-reverse-engineering/",
-    "published": "2026-07-01T06:01:19",
-    "source": "gbhackers.com",
-    "category": "AI & Security",
-    "importance_score": 472,
-    "also_covered_by": []
-  },
-  {
     "title": "DHS to unveil replacement council for critical infrastructure cybersecurity",
     "summary": "<p>The Department of Homeland Security is bringing back a key cybersecurity information sharing effort with critical infrastructure, more than a year after the Trump administration shuttered an existing nerve center between government and private sector. The Alliance of National Councils for Homeland Operational Resilience – Critical Infrastructure program,&#160;first reported by CyberScoop in January, is meant [&#8230;]</p>\n<p>The post <a href=\"https://cyberscoop.com/dhs-anchor-ci-cybersecurity-information-sharing/\">DHS to unveil replacement council for critical infrastructure cybersecurity</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
     "link": "https://cyberscoop.com/dhs-anchor-ci-cybersecurity-information-sharing/",
@@ -1437,36 +1267,6 @@
     "source": "cyberscoop.com",
     "category": "Critical Infrastructure",
     "importance_score": 468,
-    "also_covered_by": []
-  },
-  {
-    "title": "Reflectiz to Host Webinar, Joined by Taboola, on Securing Third-Party Marketing in the AI Era",
-    "summary": "<p>Boston, Massachusetts, June 30th, 2026, CyberNewswire Reflectiz, the web exposure management platform, today announced a live webinar with Taboola, &#8220;Securing Third-Party Marketing in the AI Era,&#8221; taking place July 8 at 9 AM EDT / 3 PM CEST. Every marketing vendor a company approves can silently introduce third and fourth-party scripts that no security team [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/reflectiz-webinar-third-party-marketing-ai/\">Reflectiz to Host Webinar, Joined by Taboola, on Securing Third-Party Marketing in the AI Era</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/reflectiz-webinar-third-party-marketing-ai/",
-    "published": "2026-06-30T16:33:23",
-    "source": "cybersecuritynews.com",
-    "category": "AI & Security",
-    "importance_score": 467,
-    "also_covered_by": []
-  },
-  {
-    "title": "Anthropic’s Claude Code Reportedly Uses Hidden Code to Detect Chinese Users",
-    "summary": "<p>A Reddit disclosure has ignited a serious debate about developer trust and covert surveillance, alleging that Anthropic embedded undisclosed detection logic inside its Claude Code CLI tool, specifically targeting users in China or those routing traffic through Chinese AI lab proxies. A Reddit user identified as LegitMichel777 on the r/ClaudeAI subreddit posted detailed findings on [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/anthropic-claude-hidden-code/\">Anthropic&#8217;s Claude Code Reportedly Uses Hidden Code to Detect Chinese Users</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/anthropic-claude-hidden-code/",
-    "published": "2026-06-30T16:56:50",
-    "source": "cybersecuritynews.com",
-    "category": "AI & Security",
-    "importance_score": 463,
-    "also_covered_by": []
-  },
-  {
-    "title": "NDSS Symposium Heads to Seoul in 2027 to Expand Global Cybersecurity Collaboration",
-    "summary": "<p>DC, United States, June 30th, 2026, CyberNewswire The Internet Society today announced that 2027 Network and Distributed System Security (NDSS) Symposium will take place in Seoul, Republic of Korea, from 22–26 March 2027. Recognized as one of the world’s top four cybersecurity research conferences, the NDSS Symposium brings together hundreds of top scholars, academics, and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ndss-symposium-2027-seoul/\">NDSS Symposium Heads to Seoul in 2027 to Expand Global Cybersecurity Collaboration</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/ndss-symposium-2027-seoul/",
-    "published": "2026-06-30T16:33:33",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 461,
     "also_covered_by": []
   },
   {
