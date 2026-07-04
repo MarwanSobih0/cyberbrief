@@ -460,16 +460,6 @@
     "also_covered_by": []
   },
   {
-    "title": "FBI Says TeamPCP Uses Trojanized Updates to Steal Cloud Tokens, SSH Keys, and Kubernetes Secrets",
-    "summary": "<p>The Federal Bureau of Investigation (FBI) has issued an urgent FLASH advisory warning that the cybercriminal group TeamPCP is weaponizing trojanized software updates to harvest cloud access tokens, SSH keys, and Kubernetes secrets at scale. This campaign represents one of the most sophisticated software supply chain attacks observed in 2026, exploiting trust in widely deployed [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/teampcp-uses-trojanized-updates/\">FBI Says TeamPCP Uses Trojanized Updates to Steal Cloud Tokens, SSH Keys, and Kubernetes Secrets</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/teampcp-uses-trojanized-updates/",
-    "published": "2026-07-03T07:29:46",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 925,
-    "also_covered_by": []
-  },
-  {
     "title": "Medtronic Data Breach Impacts 3.8 Million People",
     "summary": "<p>In April, ShinyHunters accessed the company’s corporate IT systems and stole patients’ personal and medical information.</p>\n<p>The post <a href=\"https://www.securityweek.com/medtronic-data-breach-impacts-3-8-million-people/\">Medtronic Data Breach Impacts 3.8 Million People</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
     "link": "https://www.securityweek.com/medtronic-data-breach-impacts-3-8-million-people/",
@@ -477,16 +467,6 @@
     "source": "securityweek.com",
     "category": "Data Breach",
     "importance_score": 924,
-    "also_covered_by": []
-  },
-  {
-    "title": "Fake Google and Cloudflare Verification Pages Spread StealC, HijackLoader, and NetSupport Malware",
-    "summary": "<p>Threat actors are currently exploiting sophisticated ClickFix social engineering campaigns that mimic Google and Cloudflare verification systems to distribute several high-impact malware families, including StealC, HijackLoader, NetSupport RAT, and newly identified loaders. Recent threat intelligence research indicates that these campaigns have been active since late 2025, tricking users into manually executing malicious PowerShell commands. This [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fake-google-and-cloudflare-verification-pages-spread-malware/\">Fake Google and Cloudflare Verification Pages Spread StealC, HijackLoader, and NetSupport Malware</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/fake-google-and-cloudflare-verification-pages-spread-malware/",
-    "published": "2026-07-03T10:11:33",
-    "source": "gbhackers.com",
-    "category": "Phishing / Scams",
-    "importance_score": 900,
     "also_covered_by": []
   },
   {
@@ -507,16 +487,6 @@
     "source": "blog.talosintelligence.com",
     "category": "Vulnerability",
     "importance_score": 891,
-    "also_covered_by": []
-  },
-  {
-    "title": "Verified X Sponsored Ad Spreads Mac Malware While ConsentFix Hijacks Microsoft 365 Accounts",
-    "summary": "<p>A Mac-targeting ClickFix campaign amplified through a verified X sponsored ad, and a novel browser-based hijack technique called ConsentFix that exfiltrates Microsoft 365 session tokens without traditional malware. Researchers at Jamf and Malwarebytes tracked the X incident where a verified account ran a sponsored advertisement promoting a macOS utility dubbed “DynamicLake” a lookalike for legitimate [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/verified-x-sponsored-ad-spreads-mac-malware/\">Verified X Sponsored Ad Spreads Mac Malware While ConsentFix Hijacks Microsoft 365 Accounts</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/verified-x-sponsored-ad-spreads-mac-malware/",
-    "published": "2026-07-04T04:51:50",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 883,
     "also_covered_by": []
   },
   {
@@ -690,36 +660,6 @@
     "also_covered_by": []
   },
   {
-    "title": "TimbreStealer Malware Targets Mexico Companies With Advanced Evasion Techniques",
-    "summary": "<p>A new campaign linked to the TimbreStealer information stealer that specifically targets Mexican companies, employing layered evasion and sophisticated runtime tricks to frustrate detection and analysis. Researchers Euler Neto and Cristóbal Tárraga detail behaviors that echo a 2024 Cisco Talos report while highlighting a notable variant: the use of DLL side‑loading with unusually large malicious [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/timbrestealer-malware-attack/\">TimbreStealer Malware Targets Mexico Companies With Advanced Evasion Techniques</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/timbrestealer-malware-attack/",
-    "published": "2026-07-04T05:22:13",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 725,
-    "also_covered_by": []
-  },
-  {
-    "title": "Pegasus Spyware Hacked European Parliament Member Investigating Spyware Abuse",
-    "summary": "<p>A newly disclosed forensic investigation has revealed that Pegasus spyware was used to hack a sitting Member of the European Parliament (MEP) who was actively investigating spyware abuses across the European Union. This raises serious concerns about surveillance targeting democratic institutions. According to a report by Citizen Lab dated July 3, 2026, former Greek MEP [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/pegasus-spyware-hacked-european-parliament/\">Pegasus Spyware Hacked European Parliament Member Investigating Spyware Abuse</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/pegasus-spyware-hacked-european-parliament/",
-    "published": "2026-07-03T12:15:24",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 721,
-    "also_covered_by": []
-  },
-  {
-    "title": "Alibaba Reportedly Bans Claude Code Over Alleged Backdoor Risk in AI Coding Tool",
-    "summary": "<p>Alibaba is reportedly preparing to ban the use of Anthropic’s Claude Code across its internal environments starting July 10. This decision comes in light of allegations that the AI-powered coding assistant has a covert detection mechanism resembling a backdoor. The news, first reported by the Chinese financial outlet Yicai and later confirmed by Reuters, has [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/alibaba-reportedly-bans-claude-code/\">Alibaba Reportedly Bans Claude Code Over Alleged Backdoor Risk in AI Coding Tool</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/alibaba-reportedly-bans-claude-code/",
-    "published": "2026-07-03T10:23:00",
-    "source": "gbhackers.com",
-    "category": "AI & Security",
-    "importance_score": 718,
-    "also_covered_by": []
-  },
-  {
     "title": "European Parliament Member Investigating Spyware Was Hacked With Pegasus",
     "summary": "A new report from the Citizen Lab has revealed that former Member of the European Parliament Stelios Kouloglou had his mobile device repeatedly hacked with the notorious Pegasus spyware while serving on a committee that was tasked with investigating the abuse of such commercial surveillance tools in the bloc.\n\n\"Through forensic analysis of his device, we found that the attackers could have had",
     "link": "https://thehackernews.com/2026/07/european-parliament-member.html",
@@ -800,16 +740,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Microsoft Exchange SSRF Vulnerability Lets Low-Privileged Attackers Read Arbitrary Files",
-    "summary": "<p>A newly disclosed vulnerability in Microsoft Exchange, identified as CVE-2026-45504 (CVSS score: 8.8), exposes a critical server-side request forgery (SSRF) flaw. This issue allows authenticated low-privileged users to access and read arbitrary files from vulnerable Exchange servers. The vulnerability, discovered by security researcher Batuhan Er from HawkTrace, affects Microsoft Exchange Server 2019. Microsoft Exchange SSRF [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/microsoft-exchange-ssrf-vulnerability/\">Microsoft Exchange SSRF Vulnerability Lets Low-Privileged Attackers Read Arbitrary Files</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/microsoft-exchange-ssrf-vulnerability/",
-    "published": "2026-07-03T09:55:29",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 637,
-    "also_covered_by": []
-  },
-  {
     "title": "iPhone Users Urged to Update to Patch 2 Zero-Days",
     "summary": "Separate fixes to macOS and iOS patch respective flaws in the kernel and WebKit that can allow threat actors to take over devices and are under attack.",
     "link": "https://threatpost.com/iphone-users-urged-to-update-to-patch-2-zero-days-under-attack/180448/",
@@ -867,16 +797,6 @@
     "source": "zdnet.com",
     "category": "Other",
     "importance_score": 623,
-    "also_covered_by": []
-  },
-  {
-    "title": "Fake Google Play Store Pages Use Trusted Brand Names to Push Gambling PWAs",
-    "summary": "<p>Scammers are exploiting consumers’ trust in household and financial brands by deploying polished fake Google Play Store pages and social media ads that push Progressive Web Apps (PWAs) linked to online casinos. The fraud begins with paid social creative on platforms including Facebook, Instagram, Threads and TikTok. Ads present either simple “Brand Slots” labels or [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fake-google-play-store-pages/\">Fake Google Play Store Pages Use Trusted Brand Names to Push Gambling PWAs</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/fake-google-play-store-pages/",
-    "published": "2026-07-03T11:16:32",
-    "source": "gbhackers.com",
-    "category": "Phishing / Scams",
-    "importance_score": 616,
     "also_covered_by": []
   },
   {
@@ -1117,16 +1037,6 @@
     "source": "zdnet.com",
     "category": "Other",
     "importance_score": 482,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hackers Use Fake API Documentation to Trick AI Agents Into Sending Crypto Payments",
-    "summary": "<p>Hackers are now weaponizing documentation and site metadata to mislead autonomous AI agents into executing cryptocurrency payments. The attack leverages indirect prompt injection (IPI): malicious instructions hidden in web content and structured data that influence an AI agent’s reasoning during automated tasks. By combining SEO poisoning, JSON‑LD abuse and CSS concealment, attackers create seemingly legitimate [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fake-api-documentation-to-trick-ai/\">Hackers Use Fake API Documentation to Trick AI Agents Into Sending Crypto Payments</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/fake-api-documentation-to-trick-ai/",
-    "published": "2026-07-03T09:30:06",
-    "source": "gbhackers.com",
-    "category": "AI & Security",
-    "importance_score": 481,
     "also_covered_by": []
   },
   {
@@ -1517,16 +1427,6 @@
     "source": "welivesecurity.com",
     "category": "Other",
     "importance_score": 337,
-    "also_covered_by": []
-  },
-  {
-    "title": "Anthropic Unveils Cyber Jailbreak Severity Framework for Claude Fable 5 Safeguards",
-    "summary": "<p>Anthropic has provided detailed technical insights into the cybersecurity safeguards of its redeployed Claude Fable 5 model. Alongside this, they have introduced a proposed Cyber Jailbreak Severity (CJS) framework designed to standardize how AI jailbreak risks are measured across various industry and government stakeholders. The announcement highlights the growing challenge of securing dual-use AI systems, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/anthropic-unveils-cyber-jailbreak-severity-framework/\">Anthropic Unveils Cyber Jailbreak Severity Framework for Claude Fable 5 Safeguards</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/anthropic-unveils-cyber-jailbreak-severity-framework/",
-    "published": "2026-07-03T07:33:46",
-    "source": "gbhackers.com",
-    "category": "AI & Security",
-    "importance_score": 335,
     "also_covered_by": []
   },
   {
