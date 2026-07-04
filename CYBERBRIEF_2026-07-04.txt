@@ -1,0 +1,60 @@
+CYBERBRIEF • DAILY THREAT INTELLIGENCE
+Generated: Saturday, July 04, 2026 - 07:38 UTC
+================================================================================
+
+Total topics: 303    •    Scanned raw articles: 304
+Severity breakdown:
+  CRITICAL: 5  |  HIGH: 11  |  MEDIUM: 44  |  LOW: 243
+
+Top 7 active threats:
+
+1. Alert Triangle  security.googleblog.com  [News Site]
+   Title    : HTTPS by default
+   Category : Vulnerability    •    Severity: CRITICAL (score: 2520)
+   Published: 2025-10-28T17:01:00
+   Link     : http://security.googleblog.com/2025/10/https-by-default.html
+
+2. Alert Triangle  bleepingcomputer.com  [Newspaper]
+   Title    : CISA: Microsoft SharePoint RCE flaw now actively exploited
+   Category : Vulnerability    •    Severity: CRITICAL (score: 2517)
+   Published: 2026-07-02T10:52:43
+   Link     : https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-rce-flaw-now-actively-exploited/
+
+3. Alert Triangle  security.googleblog.com  [News Site]
+   Title    : Bringing Rust to the Pixel Baseband
+   Category : Ransomware    •    Severity: CRITICAL (score: 2380)
+   Published: 2026-04-10T15:12:00
+   Link     : http://security.googleblog.com/2026/04/bringing-rust-to-pixel-baseband.html
+
+4. Alert Triangle  security.googleblog.com  [News Site]
+   Title    : Rust in Android: move fast and fix things
+   Category : Ransomware    •    Severity: CRITICAL (score: 2380)
+   Published: 2025-11-13T16:59:00
+   Link     : http://security.googleblog.com/2025/11/rust-in-android-move-fast-fix-things.html
+
+5. Alert Triangle  thecyberexpress.com  [Link]
+   Title    : Alleged Scattered Spider Member Arrested in Finland, Extradited to U.S.
+   Category : Ransomware    •    Severity: CRITICAL (score: 2100)
+   Published: 2026-07-02T05:07:22
+   Link     : https://thecyberexpress.com/scattered-spider-member-extradited/
+
+6. Shield Check  security.googleblog.com  [News Site]
+   Title    : Android Quick Share Support for AirDrop: A Secure Approach to Cross-Platform File Sharing
+   Category : Data Breach    •    Severity: HIGH (score: 1959)
+   Published: 2025-11-20T17:00:00
+   Link     : http://security.googleblog.com/2025/11/android-quick-share-support-for-airdrop-security.html
+
+7. Shield Check  thehackernews.com  [Newspaper]
+   Title    : SharePoint RCE CVE-2026-45659 Added to CISA KEV After Active Exploitation
+   Category : Vulnerability    •    Severity: HIGH (score: 1923)
+   Published: 2026-07-02T05:46:45
+   Link     : https://thehackernews.com/2026/07/sharepoint-rce-cve-2026-45659-added-to.html
+
+Security Tips:
+• Never trust unsolicited links or attachments in email or messaging apps.
+• Enable multi-factor authentication (MFA) on email, banking, and admin accounts.
+• Keep browsers, VPNs, and endpoint security fully patched.
+
+Scanned 304 articles • Top 7 topics selected
+Next planned auto-update: 08:00 AM UTC
+Stay safe, stay sharp!
