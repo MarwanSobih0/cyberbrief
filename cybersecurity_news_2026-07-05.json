@@ -270,26 +270,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Avalon Malware Uses Legal Document Lure to Deliver CrownX Ransomware Capabilities",
-    "summary": "<p>A previously undocumented malware framework, tracked as Avalon, that uses a spoofed legal-document lure and a multi-stage, fileless-oriented chain to deliver a ransomware component internally labeled CrownX. The campaign demonstrates a shift toward consolidation of multiple offensive capabilities into a single recovered payload and highlights how modern development practices including likely AI assistance are lowering [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/crownx-ransomware-capabilities/\">Avalon Malware Uses Legal Document Lure to Deliver CrownX Ransomware Capabilities</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/crownx-ransomware-capabilities/",
-    "published": "2026-07-04T09:08:42",
-    "source": "gbhackers.com",
-    "category": "Ransomware",
-    "importance_score": 1182,
-    "also_covered_by": []
-  },
-  {
-    "title": "PamStealer Mimics Maccy Clipboard Manager Silently Harvests Data and Clipboard Contents",
-    "summary": "<p>PamStealer is a newly identified macOS infostealer that disguises itself as the popular open-source clipboard manager “Maccy” while silently harvesting sensitive user data. Discovered by Jamf Threat Labs, the malware uses a stealthy two-stage infection chain designed to evade detection and blend into normal macOS activity. The attack begins with a malicious disk image file [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/pamstealer-mimic-as-maccy-harvest/\">PamStealer Mimics Maccy Clipboard Manager Silently Harvests Data and Clipboard Contents</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/pamstealer-mimic-as-maccy-harvest/",
-    "published": "2026-07-04T04:05:41",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 1164,
-    "also_covered_by": []
-  },
-  {
     "title": "How ransomware syndicates weaponize corporate-style organization",
     "summary": "<p>From outsourced labor to tiered pricing models, an inside look at how today's top ransomware threats operate less like rogue hackers and more like Fortune 500 companies.</p>\n<p>The post <a href=\"https://cyberscoop.com/ransomware-syndicates-corporate-organization-op-ed/\">How ransomware syndicates weaponize corporate-style organization</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
     "link": "https://cyberscoop.com/ransomware-syndicates-corporate-organization-op-ed/",
@@ -340,16 +320,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Parrot 7.3 released With new menu system and smoother day-to-day use",
-    "summary": "<p>Parrot 7.3 arrives focused on refinement rather than a tool glut, rebuilding all editions to deliver perceptible gains on modern hardware and a smoother desktop experience. Released only months after its predecessor, this update concentrates on system-level improvements: optimized builds for newer CPUs, a rewritten menu stack in Go that enables one‑click installs from the [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/parrot-7-3-released/\">Parrot 7.3 released With new menu system and smoother day-to-day use</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/parrot-7-3-released/",
-    "published": "2026-07-04T10:41:28",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 1064,
-    "also_covered_by": []
-  },
-  {
     "title": "U.S. Seizes Nearly 400 Illegal FIFA World Cup Streaming Domains",
     "summary": "<p><img alt=\"Illegal World Cup Streaming Domains\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"1024\" src=\"https://thecyberexpress.com/wp-content/uploads/Illegal-World-Cup-Streaming-Domains-1.webp\" title=\"U.S. Seizes Nearly 400 Illegal FIFA World Cup Streaming Domains 13\" width=\"1536\" /></p><div class=\"qMYqUG_convSearchResultHighlightRoot\">\n<div class=\"\"><section class=\"text-token-text-primary w-full focus:outline-none has-data-writing-block:pointer-events-none [&amp;:has([data-writing-block])&gt;*]:pointer-events-auto R6Vx5W_threadScrollVars scroll-mb-[calc(var(--scroll-root-safe-area-inset-bottom,0px)+var(--thread-response-height))] scroll-mt-[calc(var(--header-height)+min(200px,max(70px,20svh)))]\" dir=\"auto\">\n<div class=\"text-base my-auto mx-auto pb-10 [--thread-content-margin:var(--thread-content-margin-xs,calc(var(--spacing)*4))] @w-sm/main:[--thread-content-margin:var(--thread-content-margin-sm,calc(var(--spacing)*6))] @w-lg/main:[--thread-content-margin:var(--thread-content-margin-lg,calc(var(--spacing)*16))] px-(--thread-content-margin)\">\n<div class=\"[--thread-content-max-width:40rem] @w-lg/main:[--thread-content-max-width:48rem] mx-auto max-w-(--thread-content-max-width) flex-1 group/turn-messages focus-visible:outline-hidden relative flex w-full min-w-0 flex-col agent-turn\">\n<div class=\"flex max-w-full flex-col gap-4 grow\">\n<div class=\"min-h-8 text-message relative flex w-full flex-col items-end gap-2 text-start break-words whitespace-normal outline-none keyboard-focused:focus-ring [.text-message+&amp;]:mt-1\" dir=\"auto\" tabindex=\"0\">\n<div class=\"flex w-full flex-col gap-1 empty:hidden\">\n<div class=\"markdown prose dark:prose-invert wrap-break-word w-full light markdown-new-styling\">\n<p>The Illegal World Cup Streaming Domains crackdown has intensified as the <a href=\"https://thecyberexpress.com/doj-georgia-tech-cybersecurity-lawsuit/\" rel=\"noopener\" target=\"_blank\">U.S. Department of Justice </a>announced the seizure of nearly 400 websites that were illegally broadcasting <a href=\"https://thecyberexpress.com/fifa-world-cup-2026-scams/\" rel=\"noopener\" target=\"_blank\">FIFA World Cup 2026 </a>matches. The enforcement action, launched ahead of the tournament's knockout stage, targets websites accused of violating copyright infringement laws by offering unauthorized live streams of World Cup matches for profit.</p>\n<p>According to the Justice Department, the domains were seized under U.S. copyright law as part of Operation Offsides, an international initiative focused on disrupting <a href=\"https://thecyberexpress.com/online-piracy-sites-seized-bulgarian-crackdown/\" rel=\"noopener\" target=\"_blank\">digital piracy </a>networks linked to the World Cup.</p>\n\n<h3><strong><span>Illegal World Cup Streaming Domains Targeted Under Operation Offsides</span></strong></h3>\n<p>Assistant Attorney <a class=\"wpil_keyword_link\" href=\"https://cyble.com/general/\" rel=\"noopener\" target=\"_blank\" title=\"General\">General</a> A. Tysen Duva of the Justice Department's Criminal Division said the operation was designed to disrupt international networks profiting from the global popularity of the World Cup.</p>\n<p>\"We have seized hundreds of domains, used to illegally stream World Cup matches for profit, to disrupt the international networks that profit from the global popularity of the World Cup,\" Duva <a href=\"https://www.justice.gov/opa/pr/united-states-seizes-hundreds-internet-domains-used-illegally-stream-world-cup-matches\" rel=\"nofollow noopener\" target=\"_blank\">said</a>.</p>\n<p>He added that the Criminal Division will continue efforts to disrupt and, where appropriate, prosecute websites and individuals involved in the illegal activity.</p>\n\n\n[caption id=\"attachment_112952\" align=\"aligncenter\" width=\"602\"]<img alt=\"Illegal World Cup Streaming Domains\" class=\"wp-image-112952 size-full\" height=\"366\" src=\"https://thecyberexpress.com/wp-content/uploads/Illegal-World-Cup-Streaming-Domains.webp\" width=\"602\" /> Banner posted on seized sites[/caption]\n<p>The domain seizures are part of Operation Offsides, led by the National Intellectual Property Rights Coordination Center in coordination with HSI, HSI Attaché offices, private sector organizations, and international law enforcement agencies.</p>\n\n<h3><strong>Investigation Supported by FIFA and Industry Partners</strong></h3>\n<p>According to an affidavit filed in the Eastern District of Virginia, investigators found that the seized websites were providing unauthorized real-time streams of <strong>FIFA World Cup 2026</strong> matches as they were being officially broadcast.</p>\n<p>HSI special agents confirmed that the domains were actively streaming matches without authorization.</p>\n<p>Authorities identified the domains with assistance from FIFA, while additional supporting information was provided by beIN Media Group, NBC Universal, the Motion Picture Association's Alliance for Creativity and Entertainment (ACE), Ultimate Fighting Championship (UFC), and Warner Brothers.</p>\n<p>FIFA holds the exclusive rights to organize and stage the FIFA World Cup 2026, which is being hosted across cities in the United States, Canada, and Mexico.</p>\n\n<h3><strong>Officials Warn of Copyright and Cybersecurity Risks</strong></h3>\n<p>Director Ivan J. Arvelo of the National Intellectual Property Rights Coordination Center said unauthorized broadcasts violate <a href=\"https://thecyberexpress.com/online-piracy-sites-seized-bulgarian-crackdown/\" rel=\"noopener\" target=\"_blank\">intellectual property rights </a>and financially benefit criminal organizations.</p>\n<p>He said the operation disrupted networks responsible for stealing and distributing copyrighted content while helping ensure fans access matches through legitimate channels.</p>\n<p>HSI Washington Field Office Special Agent in Charge Eric Weindorf also warned that illegal streaming sites may expose users to <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-cybersecurity/\" title=\"cybersecurity\">cybersecurity</a> threats.</p>\n<p>According to Weindorf, viewers using unauthorized streaming platforms could face <a class=\"wpil_keyword_link\" href=\"https://cyble.com/knowledge-hub/what-is-malware/\" rel=\"noopener\" target=\"_blank\" title=\"malware\">malware</a> risks, insecure connections, and the potential compromise of personal and financial information, in addition to the copyright violations committed by the operators of such sites.</p>\n\n<h3><strong>International Enforcement Targets Online Piracy Networks</strong></h3>\n<p>The <a href=\"https://thecyberexpress.com/75000-ddos-for-hire-users-reprimanded/\" rel=\"noopener\" target=\"_blank\">domain seizure </a>operation was coordinated with international partners through the International Computer Hacking and Intellectual Property (ICHIP) Network.</p>\n<p>Authorities targeted servers and domains associated with <a href=\"https://thecyberexpress.com/us-authorities-arrest-russian-nationals-running-z-library-piracy-website/\" rel=\"noopener\" target=\"_blank\">online piracy </a>in Peru and Bulgaria, which officials identified as known centers of illegal streaming activity. Additional ICHIP-supported enforcement actions took place in Croatia, Romania, Poland, and Colombia after U.S. authorities shared intelligence to help identify domains involved in unauthorized World Cup broadcasts.</p>\n<p>The Justice Department said the operation demonstrates ongoing cooperation between domestic and international law enforcement agencies in combating cross-border piracy.</p>\n\n<h2>DOJ Continues Cybercrime and IP Enforcement</h2>\n<p>The Justice Department noted that its Computer Crime and Intellectual Property Section (CCIPS) investigates and prosecutes <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/\" title=\"cybercrime\">cybercrime</a> and intellectual property offenses alongside domestic and international partners.</p>\n<p>Since 2020, CCIPS has secured the conviction of more than 180 <a class=\"wpil_keyword_link\" href=\"https://cyble.com/cybercrime/\" rel=\"noopener\" target=\"_blank\" title=\"cybercrime\">cybercrime</a> and intellectual property offenders and obtained court orders returning more than $350 million in victim funds.</p>\n<p>The latest enforcement follows a similar <a href=\"https://www.ice.gov/news/releases/hsi-baltimore-seizes-another-23-websites-violated-copyrights-illegally-live-streaming\" rel=\"nofollow noopener\" target=\"_blank\">HSI-led operation during the 2022 FIFA World Cup</a>, when authorities seized more than 70 websites involved in unauthorized streaming.</p>\n<p>The Justice Department said Operation Offsides will continue to focus on identifying and shutting down websites that facilitate illegal broadcasts while protecting intellectual property during the FIFA World Cup.</p>\n\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section></div>\n</div>",
     "link": "https://thecyberexpress.com/illegal-world-cup-streaming-domains/",
@@ -367,16 +337,6 @@
     "source": "security.googleblog.com",
     "category": "Data Breach",
     "importance_score": 1050,
-    "also_covered_by": []
-  },
-  {
-    "title": "Armored Likho APT Deploys BusySnake Stealer Against Government and Power Sector Targets",
-    "summary": "<p>A focused phishing campaign operated by a previously unreported APT we’ve named Armored Likho (also tracked under the provisional alias Eagle Werewolf). The group is targeting government agencies and the electric power sector across Russia, Brazil and Kazakhstan, and demonstrates an evolving toolkit that blends commodity and bespoke tooling to support both financially motivated operations [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/busysnake-stealer-malware/\">Armored Likho APT Deploys BusySnake Stealer Against Government and Power Sector Targets</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/busysnake-stealer-malware/",
-    "published": "2026-07-04T09:42:27",
-    "source": "gbhackers.com",
-    "category": "Phishing / Scams",
-    "importance_score": 975,
     "also_covered_by": []
   },
   {
@@ -467,16 +427,6 @@
     "source": "blog.talosintelligence.com",
     "category": "Vulnerability",
     "importance_score": 929,
-    "also_covered_by": []
-  },
-  {
-    "title": "New “Bad Epoll” 0-Day Vulnerability Allows Root Access on Linux Servers and Android Devices",
-    "summary": "<p>A newly disclosed Linux kernel flaw dubbed &#8220;Bad Epoll&#8221; (CVE-2026-46242) allows an unprivileged local user to escalate to root on Linux servers, desktops, and Android devices by exploiting a race condition and a use-after-free (UAF) in the kernel&#8217;s epoll subsystem. Bad Epoll is a UAF vulnerability in ep_remove(), which clears file->f_ep under file->f_lock but continues [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/bad-epoll-0-day-vulnerability/\">New &#8220;Bad Epoll&#8221; 0-Day Vulnerability Allows Root Access on Linux Servers and Android Devices</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/bad-epoll-0-day-vulnerability/",
-    "published": "2026-07-04T02:43:11",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 920,
     "also_covered_by": []
   },
   {
@@ -607,26 +557,6 @@
     "source": "securityweek.com",
     "category": "Data Breach",
     "importance_score": 759,
-    "also_covered_by": []
-  },
-  {
-    "title": "Fake Google and Cloudflare Verification Pages Spread StealC, HijackLoader, and NetSupport Malware",
-    "summary": "<p>Threat actors are currently exploiting sophisticated ClickFix social engineering campaigns that mimic Google and Cloudflare verification systems to distribute several high-impact malware families, including StealC, HijackLoader, NetSupport RAT, and newly identified loaders. Recent threat intelligence research indicates that these campaigns have been active since late 2025, tricking users into manually executing malicious PowerShell commands. This [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fake-google-and-cloudflare-verification-pages-spread-malware/\">Fake Google and Cloudflare Verification Pages Spread StealC, HijackLoader, and NetSupport Malware</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/fake-google-and-cloudflare-verification-pages-spread-malware/",
-    "published": "2026-07-03T10:11:33",
-    "source": "gbhackers.com",
-    "category": "Phishing / Scams",
-    "importance_score": 750,
-    "also_covered_by": []
-  },
-  {
-    "title": "Verified X Sponsored Ad Spreads Mac Malware While ConsentFix Hijacks Microsoft 365 Accounts",
-    "summary": "<p>A Mac-targeting ClickFix campaign amplified through a verified X sponsored ad, and a novel browser-based hijack technique called ConsentFix that exfiltrates Microsoft 365 session tokens without traditional malware. Researchers at Jamf and Malwarebytes tracked the X incident where a verified account ran a sponsored advertisement promoting a macOS utility dubbed “DynamicLake” a lookalike for legitimate [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/verified-x-sponsored-ad-spreads-mac-malware/\">Verified X Sponsored Ad Spreads Mac Malware While ConsentFix Hijacks Microsoft 365 Accounts</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/verified-x-sponsored-ad-spreads-mac-malware/",
-    "published": "2026-07-04T04:51:50",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 733,
     "also_covered_by": []
   },
   {
@@ -780,26 +710,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Indian Govt Bans Apps Being Misused to Stop E-Rickshaws Remotely",
-    "summary": "<p>The Indian government has directed Google and Apple to take down three mobile applications, BAT-BMS, Lossigy, and Epoch-i-ion, after they were allegedly misused to remotely disable e-rickshaws and other battery-operated three-wheelers mid-journey, putting passenger safety at risk. Authorities have also warned that any additional apps found to enable similar remote-kill functionality will face the same [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/indian-govt-bans-e-rickshaws-apps/\">Indian Govt Bans Apps Being Misused to Stop E-Rickshaws Remotely</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/indian-govt-bans-e-rickshaws-apps/",
-    "published": "2026-07-03T17:22:07",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 616,
-    "also_covered_by": []
-  },
-  {
-    "title": "Microsoft Releases OOBE Cumulative Update for Windows 11, Versions 24H2 and 25H2",
-    "summary": "<p>Microsoft has rolled out KB5095189, a new cumulative update targeting the Out-of-Box Experience (OOBE) for Windows 11, versions 24H2 and 25H2. Released on June 23, 2026, this update refines the initial setup flow that users encounter when configuring a new or freshly reset Windows 11 device, rather than touching the core operating system components. KB5095189 [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/windows-11-oobe-cumulative-update/\">Microsoft Releases OOBE Cumulative Update for Windows 11, Versions 24H2 and 25H2</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/windows-11-oobe-cumulative-update/",
-    "published": "2026-07-05T06:05:46",
-    "source": "cybersecuritynews.com",
-    "category": "Policy / Law",
-    "importance_score": 609,
-    "also_covered_by": []
-  },
-  {
     "title": "North Korean Hackers Publish 108 Malicious Packages and Extensions in PolinRider Campaign",
     "summary": "The North Korean threat actors linked to the Contagious Interview campaign have been observed publishing 108 unique packages and web browser extensions spanning npm, Packagist, Go, and Google Chrome as part of an ongoing activity referred to as PolinRider.\n\n\"The campaign remains active, and new malicious packages are likely to continue appearing as threat actors compromise maintainer accounts,",
     "link": "https://thehackernews.com/2026/07/north-korean-hackers-publish-108.html",
@@ -877,56 +787,6 @@
     "source": "welivesecurity.com",
     "category": "Data Breach",
     "importance_score": 578,
-    "also_covered_by": []
-  },
-  {
-    "title": "TimbreStealer Malware Targets Mexico Companies With Advanced Evasion Techniques",
-    "summary": "<p>A new campaign linked to the TimbreStealer information stealer that specifically targets Mexican companies, employing layered evasion and sophisticated runtime tricks to frustrate detection and analysis. Researchers Euler Neto and Cristóbal Tárraga detail behaviors that echo a 2024 Cisco Talos report while highlighting a notable variant: the use of DLL side‑loading with unusually large malicious [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/timbrestealer-malware-attack/\">TimbreStealer Malware Targets Mexico Companies With Advanced Evasion Techniques</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/timbrestealer-malware-attack/",
-    "published": "2026-07-04T05:22:13",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 575,
-    "also_covered_by": []
-  },
-  {
-    "title": "Pegasus Spyware Hacked European Parliament Member Investigating Spyware Abuse",
-    "summary": "<p>A newly disclosed forensic investigation has revealed that Pegasus spyware was used to hack a sitting Member of the European Parliament (MEP) who was actively investigating spyware abuses across the European Union. This raises serious concerns about surveillance targeting democratic institutions. According to a report by Citizen Lab dated July 3, 2026, former Greek MEP [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/pegasus-spyware-hacked-european-parliament/\">Pegasus Spyware Hacked European Parliament Member Investigating Spyware Abuse</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/pegasus-spyware-hacked-european-parliament/",
-    "published": "2026-07-03T12:15:24",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 571,
-    "also_covered_by": []
-  },
-  {
-    "title": "Alibaba Reportedly Bans Claude Code Over Alleged Backdoor Risk in AI Coding Tool",
-    "summary": "<p>Alibaba is reportedly preparing to ban the use of Anthropic’s Claude Code across its internal environments starting July 10. This decision comes in light of allegations that the AI-powered coding assistant has a covert detection mechanism resembling a backdoor. The news, first reported by the Chinese financial outlet Yicai and later confirmed by Reuters, has [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/alibaba-reportedly-bans-claude-code/\">Alibaba Reportedly Bans Claude Code Over Alleged Backdoor Risk in AI Coding Tool</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/alibaba-reportedly-bans-claude-code/",
-    "published": "2026-07-03T10:23:00",
-    "source": "gbhackers.com",
-    "category": "AI & Security",
-    "importance_score": 568,
-    "also_covered_by": []
-  },
-  {
-    "title": "Scammers Impersonate Trusted Brands in Gambling Ads to Drive Casino Traffic",
-    "summary": "<p>Scammers are hijacking trusted brand names to push people toward online casinos unrelated to those companies. Instead of building fake bank sites or phishing emails, they exploit the trust people place in familiar logos. The scam starts simply. A consumer scrolling Facebook, Instagram, TikTok, or Threads sees an ad claiming a familiar brand, such as [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/scammers-impersonate-trusted-brands/\">Scammers Impersonate Trusted Brands in Gambling Ads to Drive Casino Traffic</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/scammers-impersonate-trusted-brands/",
-    "published": "2026-07-03T14:00:10",
-    "source": "cybersecuritynews.com",
-    "category": "Phishing / Scams",
-    "importance_score": 556,
-    "also_covered_by": []
-  },
-  {
-    "title": "Alibaba to Ban Claude Code Over Alleged Embedded Backdoor Risks",
-    "summary": "<p>Alibaba is reportedly set to ban Anthropic&#8217;s Claude Code from its internal workplace environments starting July 10, 2026, over alleged embedded backdoor risks. The company has not officially confirmed the decision and did not respond to media queries at the time of publication. The move follows claims that Claude Code, Anthropic’s command-line AI coding assistant, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/alibaba-to-ban-claude-code/\">Alibaba to Ban Claude Code Over Alleged Embedded Backdoor Risks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/alibaba-to-ban-claude-code/",
-    "published": "2026-07-03T13:53:13",
-    "source": "cybersecuritynews.com",
-    "category": "AI & Security",
-    "importance_score": 556,
     "also_covered_by": []
   },
   {
@@ -1080,16 +940,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Microsoft Exchange SSRF Vulnerability Lets Low-Privileged Attackers Read Arbitrary Files",
-    "summary": "<p>A newly disclosed vulnerability in Microsoft Exchange, identified as CVE-2026-45504 (CVSS score: 8.8), exposes a critical server-side request forgery (SSRF) flaw. This issue allows authenticated low-privileged users to access and read arbitrary files from vulnerable Exchange servers. The vulnerability, discovered by security researcher Batuhan Er from HawkTrace, affects Microsoft Exchange Server 2019. Microsoft Exchange SSRF [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/microsoft-exchange-ssrf-vulnerability/\">Microsoft Exchange SSRF Vulnerability Lets Low-Privileged Attackers Read Arbitrary Files</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/microsoft-exchange-ssrf-vulnerability/",
-    "published": "2026-07-03T09:55:29",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 487,
-    "also_covered_by": []
-  },
-  {
     "title": "FBI, Google Take Down NetNut Proxy Network Used by Cyber Threat Actors",
     "summary": "The NetNut proxy network and the ‘Popa’ botnet are known to have infected devices with variants of Mirai DDoS botnets",
     "link": "https://www.infosecurity-magazine.com/news/fbi-google-take-down-netnut-proxy/",
@@ -1147,16 +997,6 @@
     "source": "zdnet.com",
     "category": "Other",
     "importance_score": 468,
-    "also_covered_by": []
-  },
-  {
-    "title": "Fake Google Play Store Pages Use Trusted Brand Names to Push Gambling PWAs",
-    "summary": "<p>Scammers are exploiting consumers’ trust in household and financial brands by deploying polished fake Google Play Store pages and social media ads that push Progressive Web Apps (PWAs) linked to online casinos. The fraud begins with paid social creative on platforms including Facebook, Instagram, Threads and TikTok. Ads present either simple “Brand Slots” labels or [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fake-google-play-store-pages/\">Fake Google Play Store Pages Use Trusted Brand Names to Push Gambling PWAs</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/fake-google-play-store-pages/",
-    "published": "2026-07-03T11:16:32",
-    "source": "gbhackers.com",
-    "category": "Phishing / Scams",
-    "importance_score": 466,
     "also_covered_by": []
   },
   {
@@ -1500,26 +1340,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Multiple FatFs Vulnerabilities Expose Millions of Embedded Devices to Cyber Risks",
-    "summary": "<p>Security researchers at runZero have disclosed seven new CVEs affecting FatFs, the ubiquitous lightweight FAT/exFAT filesystem driver used across embedded and IoT ecosystems. The vulnerabilities range from CVSS Medium to High, with no Critical-rated findings, but their reach is significant: FatFs underpins platforms including Espressif ESP-IDF, STMicroelectronics STM32Cube, Zephyr RTOS, MicroPython, ArduPilot, RT-Thread, Mbed, Samsung [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fatfs-vulnerabilities/\">Multiple FatFs Vulnerabilities Expose Millions of Embedded Devices to Cyber Risks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/fatfs-vulnerabilities/",
-    "published": "2026-07-04T03:32:58",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 325,
-    "also_covered_by": []
-  },
-  {
-    "title": "Multiple Apache ActiveMQ Vulnerabilities Enable DoS Attacks and Lead to Crashes",
-    "summary": "<p>Apache ActiveMQ users are advised to urgently update their deployments after three important vulnerabilities were disclosed, exposing messaging infrastructure to denial-of-service (DoS) attacks, broken isolation, and improper authorization risks. The issues, tracked as CVE-2026-53917, CVE-2026-54475, and CVE-2026-49877, affect core components across both the 5.x and 6.x branches and can lead to broker crashes and unauthorized [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/apache-activemq-vulnerabilities/\">Multiple Apache ActiveMQ Vulnerabilities Enable DoS Attacks and Lead to Crashes</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/apache-activemq-vulnerabilities/",
-    "published": "2026-07-03T13:57:01",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 325,
-    "also_covered_by": []
-  },
-  {
     "title": "16 Apple Messages settings I change on every iPhone - and why",
     "summary": "Turn these iMessage settings on or off for a cleaner, modern, and more private texting experience.",
     "link": "https://www.zdnet.com/article/apple-messages-settings-i-change-on-every-iphone-why/",
@@ -1527,16 +1347,6 @@
     "source": "zdnet.com",
     "category": "Other",
     "importance_score": 324,
-    "also_covered_by": []
-  },
-  {
-    "title": "Top 10 Best Post-Quantum Cryptographic Solutions in 2026",
-    "summary": "<p>Quantum computing has crossed the line from research curiosity to board-level risk. Once a cryptographically relevant quantum computer arrives — an event security planners call &#8220;Q-Day&#8221; — the public-key cryptography that protects banking, government, healthcare, and the entire internet (RSA, ECC, Diffie-Hellman) collapses in hours. Worse, the threat is already live: adversaries are running &#8220;harvest [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-post-quantum-cryptographic-solutions/\">Top 10 Best Post-Quantum Cryptographic Solutions in 2026</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/best-post-quantum-cryptographic-solutions/",
-    "published": "2026-07-03T14:59:18",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 319,
     "also_covered_by": []
   },
   {
@@ -1567,16 +1377,6 @@
     "source": "zdnet.com",
     "category": "Other",
     "importance_score": 318,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hackers Abuse SEO Poisoning and Hidden HTML to Trick AI Agents Into Following Malicious Instructions",
-    "summary": "<p>Artificial intelligence agents are quickly becoming the new front door to the internet, and attackers have noticed. A fresh wave of malicious websites is using search engine tricks and invisible code to feed false instructions directly into AI systems, turning ordinary web pages into weapons against automated tools. These sites do not target people in [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-abuse-seo-poisoning-and-hidden-html/\">Hackers Abuse SEO Poisoning and Hidden HTML to Trick AI Agents Into Following Malicious Instructions</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/hackers-abuse-seo-poisoning-and-hidden-html/",
-    "published": "2026-07-03T13:55:56",
-    "source": "cybersecuritynews.com",
-    "category": "AI & Security",
-    "importance_score": 314,
     "also_covered_by": []
   },
   {
