@@ -100,6 +100,16 @@
     "also_covered_by": []
   },
   {
+    "title": "T3MP3ST Security Framework With 35 Tools, Turns AI Coding Agents Into 0-Day Bug Hunters",
+    "summary": "<p>A newly released open-source security framework called T3MP3ST is turning general-purpose AI coding agents like Claude Code, OpenAI&#8217;s Codex, and Hermes into autonomous red-teaming operators without requiring new API keys, cloud infrastructure, or additional billing. Built by researcher elder-plinius, T3MP3ST acts as a multi-agent orchestration layer rather than shipping its own model, coordinating multiple agent [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/t3mp3st-security-framework/\">T3MP3ST Security Framework With 35 Tools, Turns AI Coding Agents Into 0-Day Bug Hunters</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/t3mp3st-security-framework/",
+    "published": "2026-07-05T16:03:23",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 1674,
+    "also_covered_by": []
+  },
+  {
     "title": "In Other News: Canadian Hacker Jailed, Open Source Zero-Days, Two Sentenced for ATM Jackpotting",
     "summary": "<p>Noteworthy stories that might have slipped under the radar: Anonymous-linked Canadian hacker jailed, researcher drops zero-days in open source projects, Venezuelans sentenced in the US over ATM jackpotting. </p>\n<p>The post <a href=\"https://www.securityweek.com/in-other-news-canadian-hacker-jailed-open-source-zero-days-two-sentenced-for-atm-jackpotting/\">In Other News: Canadian Hacker Jailed, Open Source Zero-Days, Two Sentenced for ATM Jackpotting</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
     "link": "https://www.securityweek.com/in-other-news-canadian-hacker-jailed-open-source-zero-days-two-sentenced-for-atm-jackpotting/",
@@ -240,6 +250,26 @@
     "also_covered_by": []
   },
   {
+    "title": "Hackers Use Server-Side Geofencing to Deliver Ousaban Banking Trojan in Spain and Portugal",
+    "summary": "<p>A targeted campaign that delivers the Ousaban banking Trojan to users in Spain and Portugal using sophisticated server-side geofencing and multi-stage delivery. The adversary begins with a socially engineered phishing PDF that impersonates a corrupted document and coerces victims into visiting a malicious webpage through an “Atualizar” (Update) prompt. The PDF’s JavaScript is hex-escaped to [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ousaban-banking-trojan-campaign/\">Hackers Use Server-Side Geofencing to Deliver Ousaban Banking Trojan in Spain and Portugal</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/ousaban-banking-trojan-campaign/",
+    "published": "2026-07-06T06:14:38",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 1327,
+    "also_covered_by": []
+  },
+  {
+    "title": "Malicious Agent Skills Can Steal Credentials, Exfiltrate Source Code, and Install Backdoors",
+    "summary": "<p>Malicious AI agent skills can be packaged to steal credentials, exfiltrate source code, and install backdoors while still bypassing many current skill-auditing systems. The paper finds that static scanners are especially weak against payload-preserving evasions, while runtime behavior auditing is far more resilient. The core threat is simple but serious: an agent skill is not [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/malicious-agent-skills/\">Malicious Agent Skills Can Steal Credentials, Exfiltrate Source Code, and Install Backdoors</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/malicious-agent-skills/",
+    "published": "2026-07-06T07:28:40",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 1322,
+    "also_covered_by": []
+  },
+  {
     "title": "New Avalon Malware Framework Packs CrownX Ransomware Capabilities",
     "summary": "Cybersecurity researchers have discovered a previously undocumented modular malware framework codenamed Avalon that's distributed by means of a multi-stage phishing chain capable of bypassing traditional security controls.\n\nAvalon combines credential collection, lateral movement, remote access, recovery disruption, and ransomware execution, bringing together diverse functions under one",
     "link": "https://thehackernews.com/2026/07/new-avalon-malware-framework-packs.html",
@@ -267,6 +297,16 @@
     "source": "thehackernews.com",
     "category": "Ransomware",
     "importance_score": 1263,
+    "also_covered_by": []
+  },
+  {
+    "title": "PamStealer Mimics Maccy Clipboard Manager Silently Harvests Data and Clipboard Contents",
+    "summary": "<p>PamStealer is a newly identified macOS infostealer that disguises itself as the popular open-source clipboard manager “Maccy” while silently harvesting sensitive user data. Discovered by Jamf Threat Labs, the malware uses a stealthy two-stage infection chain designed to evade detection and blend into normal macOS activity. The attack begins with a malicious disk image file [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/pamstealer-mimic-as-maccy-harvest/\">PamStealer Mimics Maccy Clipboard Manager Silently Harvests Data and Clipboard Contents</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/pamstealer-mimic-as-maccy-harvest/",
+    "published": "2026-07-04T04:05:41",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 1164,
     "also_covered_by": []
   },
   {
@@ -330,6 +370,26 @@
     "also_covered_by": []
   },
   {
+    "title": "ModSecurity Security Flaws Enable WAF Rule Evasion With Crafted HTTP Requests",
+    "summary": "<p>ModSecurity, a widely used open-source web application firewall (WAF), has multiple security vulnerabilities that allow attackers to bypass detection with specially crafted HTTP requests. These vulnerabilities, identified as CVE-2026-52761 and CVE-2026-52747, affect ModSecurity versions up to 3.0.15. They have been addressed in version 3.0.16. These issues reveal significant inconsistencies in input transformation and request parsing, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/modsecurity-security-flaws/\">ModSecurity Security Flaws Enable WAF Rule Evasion With Crafted HTTP Requests</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/modsecurity-security-flaws/",
+    "published": "2026-07-06T05:46:27",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 1084,
+    "also_covered_by": []
+  },
+  {
+    "title": "Cyber Security News Bulletin Weekly – Mythos is Back, WhatsApp Username, Kali Linux 2026.2, +20 Stories",
+    "summary": "<p>This week&#8217;s roundup covers a major AI security model redeployment, several critical RCE vulnerabilities across popular tools, a landmark WhatsApp privacy update, and the latest Kali Linux release. Anthropic Confirms Claude Mythos 5 Redeployment Anthropic&#8217;s most powerful AI cybersecurity model Claude Mythos 5 is being restored to vetted US critical infrastructure organizations after a government-led suspension [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/cyber-security-news-bulletin-weekly/\">Cyber Security News Bulletin Weekly &#8211; Mythos is Back, WhatsApp Username, Kali Linux 2026.2, +20 Stories</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/cyber-security-news-bulletin-weekly/",
+    "published": "2026-07-05T14:10:31",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 1082,
+    "also_covered_by": []
+  },
+  {
     "title": "Nissan Discloses Employee Data Breach Linked to Oracle Zero-Day",
     "summary": "Nissan says employees' data was stolen via the Oracle PeopleSoft zero-day campaign",
     "link": "https://www.infosecurity-magazine.com/news/nissan-oracle-peoplesoft-zero-day/",
@@ -337,6 +397,26 @@
     "source": "infosecurity-magazine.com",
     "category": "Data Breach",
     "importance_score": 1070,
+    "also_covered_by": []
+  },
+  {
+    "title": "Flipper Zero Firmware Development Continues With New Community Contribution Rules",
+    "summary": "<p>Flipper Devices has responded to intense community backlash over perceptions that it had abandoned active development of the Flipper Zero firmware. In a statement addressing the controversy, the company announced it will allocate dedicated resources to firmware maintenance while overhauling how it engages with contributors and feature requesters. The Flipper Zero project launched via Kickstarter [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/flipper-zero-firmware-development/\">Flipper Zero Firmware Development Continues With New Community Contribution Rules</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/flipper-zero-firmware-development/",
+    "published": "2026-07-05T14:50:25",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 1068,
+    "also_covered_by": []
+  },
+  {
+    "title": "FatFs Vulnerabilities Let Attackers Execute Code via Crafted USB and SD Card Images",
+    "summary": "<p>A newly disclosed set of vulnerabilities in the widely used FatFs file system library is raising significant concerns across the embedded systems ecosystem. Researchers are warning that specially crafted USB drives and SD card images can trigger memory corruption and, in some cases, allow for remote code execution. The findings, published by runZero researchers Tod [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fatfs-vulnerabilities/\">FatFs Vulnerabilities Let Attackers Execute Code via Crafted USB and SD Card Images</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/fatfs-vulnerabilities/",
+    "published": "2026-07-06T05:03:24",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 1067,
     "also_covered_by": []
   },
   {
@@ -357,6 +437,16 @@
     "source": "security.googleblog.com",
     "category": "Data Breach",
     "importance_score": 1050,
+    "also_covered_by": []
+  },
+  {
+    "title": "Avalon Malware Uses Legal Document Lure to Deliver CrownX Ransomware Capabilities",
+    "summary": "<p>A previously undocumented malware framework, tracked as Avalon, that uses a spoofed legal-document lure and a multi-stage, fileless-oriented chain to deliver a ransomware component internally labeled CrownX. The campaign demonstrates a shift toward consolidation of multiple offensive capabilities into a single recovered payload and highlights how modern development practices including likely AI assistance are lowering [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/crownx-ransomware-capabilities/\">Avalon Malware Uses Legal Document Lure to Deliver CrownX Ransomware Capabilities</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/crownx-ransomware-capabilities/",
+    "published": "2026-07-04T09:08:42",
+    "source": "gbhackers.com",
+    "category": "Ransomware",
+    "importance_score": 1032,
     "also_covered_by": []
   },
   {
@@ -430,6 +520,26 @@
     "also_covered_by": []
   },
   {
+    "title": "New “Bad Epoll” 0-Day Vulnerability Allows Root Access on Linux Servers and Android Devices",
+    "summary": "<p>A newly disclosed Linux kernel flaw dubbed &#8220;Bad Epoll&#8221; (CVE-2026-46242) allows an unprivileged local user to escalate to root on Linux servers, desktops, and Android devices by exploiting a race condition and a use-after-free (UAF) in the kernel&#8217;s epoll subsystem. Bad Epoll is a UAF vulnerability in ep_remove(), which clears file->f_ep under file->f_lock but continues [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/bad-epoll-0-day-vulnerability/\">New &#8220;Bad Epoll&#8221; 0-Day Vulnerability Allows Root Access on Linux Servers and Android Devices</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/bad-epoll-0-day-vulnerability/",
+    "published": "2026-07-04T02:43:11",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 920,
+    "also_covered_by": []
+  },
+  {
+    "title": "Parrot 7.3 released With new menu system and smoother day-to-day use",
+    "summary": "<p>Parrot 7.3 arrives focused on refinement rather than a tool glut, rebuilding all editions to deliver perceptible gains on modern hardware and a smoother desktop experience. Released only months after its predecessor, this update concentrates on system-level improvements: optimized builds for newer CPUs, a rewritten menu stack in Go that enables one‑click installs from the [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/parrot-7-3-released/\">Parrot 7.3 released With new menu system and smoother day-to-day use</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/parrot-7-3-released/",
+    "published": "2026-07-04T10:41:28",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 914,
+    "also_covered_by": []
+  },
+  {
     "title": "Catan and Mouse",
     "summary": "What do board games and cybersecurity have in common? Pattern recognition. Strategy. Adaptation. In this week’s Threat Source Bill explores why curiosity may be a defender’s most valuable skill.",
     "link": "https://blog.talosintelligence.com/catan-and-mouse/",
@@ -467,6 +577,16 @@
     "source": "cyberscoop.com",
     "category": "Vulnerability",
     "importance_score": 846,
+    "also_covered_by": []
+  },
+  {
+    "title": "Armored Likho APT Deploys BusySnake Stealer Against Government and Power Sector Targets",
+    "summary": "<p>A focused phishing campaign operated by a previously unreported APT we’ve named Armored Likho (also tracked under the provisional alias Eagle Werewolf). The group is targeting government agencies and the electric power sector across Russia, Brazil and Kazakhstan, and demonstrates an evolving toolkit that blends commodity and bespoke tooling to support both financially motivated operations [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/busysnake-stealer-malware/\">Armored Likho APT Deploys BusySnake Stealer Against Government and Power Sector Targets</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/busysnake-stealer-malware/",
+    "published": "2026-07-04T09:42:27",
+    "source": "gbhackers.com",
+    "category": "Phishing / Scams",
+    "importance_score": 825,
     "also_covered_by": []
   },
   {
@@ -577,6 +697,16 @@
     "source": "helpnetsecurity.com",
     "category": "Phishing / Scams",
     "importance_score": 750,
+    "also_covered_by": []
+  },
+  {
+    "title": "Gaslight Stealer Embeds Fake System Messages to Mislead AI Malware Analysts",
+    "summary": "<p>A new macOS stealer, tracked as Gaslight and attributed to North Korean operators, demonstrates a worrying evolution in malware design: deliberate prompt-injection to mislead AI-driven security tools. Gaslight arrives as a standalone Mach-O executable commonly luring macOS users with faux meeting software, fake job recruitment materials, blockchain or gaming downloads, and developer test packages social-engineering [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/gaslight-stealer-embeds-fake-system/\">Gaslight Stealer Embeds Fake System Messages to Mislead AI Malware Analysts</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/gaslight-stealer-embeds-fake-system/",
+    "published": "2026-07-06T05:14:27",
+    "source": "gbhackers.com",
+    "category": "AI & Security",
+    "importance_score": 731,
     "also_covered_by": []
   },
   {
@@ -760,6 +890,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Bad Epoll Linux Kernel UAF Flaw Lets Unprivileged Attackers Gain Root on Linux and Android",
+    "summary": "<p>A newly disclosed Linux kernel vulnerability, tracked as CVE-2026-46242 and dubbed “Bad Epoll,” exposes a critical race-condition use-after-free (UAF) flaw in the epoll subsystem that allows unprivileged users to escalate privileges to root across Linux systems and potentially Android devices. The flaw was discovered and exploited by security researcher Jaeyoung Chung as part of Google’s [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/bad-epoll-linux-kernel-uaf-flaw/\">Bad Epoll Linux Kernel UAF Flaw Lets Unprivileged Attackers Gain Root on Linux and Android</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/bad-epoll-linux-kernel-uaf-flaw/",
+    "published": "2026-07-06T05:32:21",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 627,
+    "also_covered_by": []
+  },
+  {
     "title": "Beware of &#8220;Parcel Expert&#8221; job offers: They&#8217;re parcel mule scams",
     "summary": "Most parcel mule scams start with fake job offers that trick victims into handling stolen goods.",
     "link": "https://www.malwarebytes.com/blog/scams/2026/06/beware-of-parcel-expert-job-offers-theyre-parcel-mule-scams",
@@ -930,6 +1070,16 @@
     "also_covered_by": []
   },
   {
+    "title": "SSH Attackers Use Single Exec Commands to Bypass Interactive Honeypot Analysis",
+    "summary": "<p>SSH attackers are increasingly abusing single non-interactive exec commands over SSH to bypass traditional honeypot analysis, effectively turning post-authentication activity into short, automated probes rather than interactive shell sessions that deception systems were designed to study. Recent measurements on eleven LLM-backed SSH honeypots show that 99.23% of authenticated sessions consist of a single non-interactive exec [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ssh-attackers-use-single-exec-commands-to-bypass-interactive-honeypot-analysis/\">SSH Attackers Use Single Exec Commands to Bypass Interactive Honeypot Analysis</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/ssh-attackers-use-single-exec-commands-to-bypass-interactive-honeypot-analysis/",
+    "published": "2026-07-06T05:15:56",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 495,
+    "also_covered_by": []
+  },
+  {
     "title": "CL-STA-1062 Targets Southeast Asian Governments and Critical Infrastructure",
     "summary": "<p>Government entities and critical infrastructure were targeted for espionage in SE Asia by attackers using a hybrid toolkit, including custom TinyRCT backdoor. </p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/cl-sta-1062-tinyrct-backdoor/\">CL-STA-1062 Targets Southeast Asian Governments and Critical Infrastructure</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
     "link": "https://unit42.paloaltonetworks.com/cl-sta-1062-tinyrct-backdoor/",
@@ -1027,6 +1177,46 @@
     "source": "zdnet.com",
     "category": "Other",
     "importance_score": 473,
+    "also_covered_by": []
+  },
+  {
+    "title": "SSH Honeypots Miss Most Post-Login Attacks by Focusing on Interactive Shells",
+    "summary": "<p>SSH honeypots, widely used in cyber defense, may miss most real-world post-login attacker activity, according to new research that challenges long-standing assumptions in deception technology. A recent study titled “Ghost Without Shell: Measuring Non-Interactive SSH Attacks on Honeypots” by researchers from the Czech Technical University reveals that most attackers do not interact with SSH systems [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ssh-honeypots-miss-most-post-login-attacks/\">SSH Honeypots Miss Most Post-Login Attacks by Focusing on Interactive Shells</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/ssh-honeypots-miss-most-post-login-attacks/",
+    "published": "2026-07-06T07:09:26",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 470,
+    "also_covered_by": []
+  },
+  {
+    "title": "Hackers Abuse OpenAI Org Invites to Harvest Sensitive Prompts and API Activity",
+    "summary": "<p>Hackers are actively abusing OpenAI’s organization invitation feature to launch a new form of “poisoned tenant” attack, allowing them to harvest sensitive prompts, API activity, and potentially corporate data from unsuspecting users. According to research disclosed by Push Security, attackers created a fake OpenAI organization using the company’s name, “Push Security Inc,” and sent targeted [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-use-openai-org-invites/\">Hackers Abuse OpenAI Org Invites to Harvest Sensitive Prompts and API Activity</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/hackers-use-openai-org-invites/",
+    "published": "2026-07-06T08:25:13",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 466,
+    "also_covered_by": []
+  },
+  {
+    "title": "Parrot 7.3 Released With Optimized Packages and Updated Tools",
+    "summary": "<p>Parrot Security has released Parrot OS 7.3, introducing significant system-level optimizations, updated security tools, and a redesigned application management experience to improve performance and usability for security professionals. The update arrives just months after the previous release, with developers focusing less on expanding the toolset and more on refining the underlying system for modern hardware [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/parrot-7-3-released/\">Parrot 7.3 Released With Optimized Packages and Updated Tools</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/parrot-7-3-released/",
+    "published": "2026-07-06T05:36:18",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 463,
+    "also_covered_by": []
+  },
+  {
+    "title": "Microsoft Releases OOBE Cumulative Update for Windows 11, Versions 24H2 and 25H2",
+    "summary": "<p>Microsoft has rolled out KB5095189, a new cumulative update targeting the Out-of-Box Experience (OOBE) for Windows 11, versions 24H2 and 25H2. Released on June 23, 2026, this update refines the initial setup flow that users encounter when configuring a new or freshly reset Windows 11 device, rather than touching the core operating system components. KB5095189 [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/windows-11-oobe-cumulative-update/\">Microsoft Releases OOBE Cumulative Update for Windows 11, Versions 24H2 and 25H2</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/windows-11-oobe-cumulative-update/",
+    "published": "2026-07-05T06:05:46",
+    "source": "cybersecuritynews.com",
+    "category": "Policy / Law",
+    "importance_score": 459,
     "also_covered_by": []
   },
   {
@@ -1337,6 +1527,16 @@
     "source": "zdnet.com",
     "category": "Other",
     "importance_score": 328,
+    "also_covered_by": []
+  },
+  {
+    "title": "Multiple FatFs Vulnerabilities Expose Millions of Embedded Devices to Cyber Risks",
+    "summary": "<p>Security researchers at runZero have disclosed seven new CVEs affecting FatFs, the ubiquitous lightweight FAT/exFAT filesystem driver used across embedded and IoT ecosystems. The vulnerabilities range from CVSS Medium to High, with no Critical-rated findings, but their reach is significant: FatFs underpins platforms including Espressif ESP-IDF, STMicroelectronics STM32Cube, Zephyr RTOS, MicroPython, ArduPilot, RT-Thread, Mbed, Samsung [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fatfs-vulnerabilities/\">Multiple FatFs Vulnerabilities Expose Millions of Embedded Devices to Cyber Risks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/fatfs-vulnerabilities/",
+    "published": "2026-07-04T03:32:58",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 325,
     "also_covered_by": []
   },
   {
