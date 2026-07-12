@@ -120,6 +120,26 @@
     "also_covered_by": []
   },
   {
+    "title": "Hackers Exploit CitrixBleed 2 to Hijack MFA-Protected Sessions and Deploy DragonForce Ransomware",
+    "summary": "<p>Threat actors are exploiting the CitrixBleed 2 vulnerability, tracked as CVE-2025-5777, to hijack active NetScaler sessions protected by multi-factor authentication and gain a foothold in enterprise environments. The activity indicates a standardized operator playbook, potentially operated by an initial access broker or ransomware affiliate. Victims spanned unrelated organizations and sectors, yet attackers repeatedly used the [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/citrixbleed-2-to-hijack-mfa/\">Hackers Exploit CitrixBleed 2 to Hijack MFA-Protected Sessions and Deploy DragonForce Ransomware</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/citrixbleed-2-to-hijack-mfa/",
+    "published": "2026-07-10T12:57:45",
+    "source": "gbhackers.com",
+    "category": "Ransomware",
+    "importance_score": 1537,
+    "also_covered_by": []
+  },
+  {
+    "title": "One WhatsApp Message Turns OpenClaw Into a Remote Access Tool for Hackers",
+    "summary": "<p>Three high-severity vulnerabilities in OpenClaw, the open-source AI coding assistant with 381,000 GitHub stars, that allow attackers to achieve remote code execution through a single WhatsApp message. The flaws, confirmed exploitable on OpenClaw 2026.6.1, expose a structural weakness in how AI agents handle untrusted input from messaging channels. OpenClaw is a self-hosted AI assistant that [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/whatsapp-message-openclaw-remote-access-tool/\">One WhatsApp Message Turns OpenClaw Into a Remote Access Tool for Hackers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/whatsapp-message-openclaw-remote-access-tool/",
+    "published": "2026-07-10T17:28:12",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 1518,
+    "also_covered_by": []
+  },
+  {
     "title": "New GigaWiper Windows Backdoor Bundles Disk Wiping, Fake Ransomware, and Spyware",
     "summary": "Microsoft has taken apart a destructive Windows backdoor it calls GigaWiper. What stands out is how it is built: not one tool but three older destructive programs bolted into one, offered as commands the operator can choose from.\n\nEach is a different way to break a machine: wipe the whole disk, overwrite the Windows drive, or run fake \"ransomware\" that scrambles files with a key it never saves",
     "link": "https://thehackernews.com/2026/07/new-gigawiper-windows-backdoor-bundles.html",
@@ -250,6 +270,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Forg365 Phishing Platform Using AI to Attack Microsoft 365 Accounts",
+    "summary": "<p>Forg365 is a phishing-as-a-service platform that targets Microsoft accounts, combining AI-powered phishing, session theft, and post-compromise mailbox access in a single operator panel The platform is reportedly distributed through Telegram, where criminals can access a 30-day trial, pay about per month, or choose an annual plan. This subscription model shows how phishing operations are becoming [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/forg365-phishing-attack-microsoft-365-accounts/\">Forg365 Phishing Platform Using AI to Attack Microsoft 365 Accounts</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/forg365-phishing-attack-microsoft-365-accounts/",
+    "published": "2026-07-11T04:48:50",
+    "source": "cybersecuritynews.com",
+    "category": "Phishing / Scams",
+    "importance_score": 1318,
+    "also_covered_by": []
+  },
+  {
     "title": "GigaWiper Combines Multiple Malware for System-Level Sabotage",
     "summary": "<p>The backdoor’s destructive capabilities include a standalone wiper, ransomware encryption, and a multi-pass wiping command.</p>\n<p>The post <a href=\"https://www.securityweek.com/gigawiper-combines-multiple-malware-for-system-level-sabotage/\">GigaWiper Combines Multiple Malware for System-Level Sabotage</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
     "link": "https://www.securityweek.com/gigawiper-combines-multiple-malware-for-system-level-sabotage/",
@@ -330,6 +360,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Dell BIOS Flaw Lets Attackers Extract Plaintext Passwords Without Brute Force",
+    "summary": "<p>A newly disclosed Dell BIOS password-storage flaw can allow attackers with physical access to recover administrator and user passwords from SPI flash dumps in milliseconds. Tracked as CVE-2026-40639 and addressed in Dell Security Advisory DSA-2026-197, the issue affects certain Dell client platforms that use the proprietary DVAR configuration store and the SystemPwSmm SMM driver. Dell [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/dell-bios-flaw-extract-plaintext-password-brute-force/\">Dell BIOS Flaw Lets Attackers Extract Plaintext Passwords Without Brute Force</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/dell-bios-flaw-extract-plaintext-password-brute-force/",
+    "published": "2026-07-11T07:56:35",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 1078,
+    "also_covered_by": []
+  },
+  {
     "title": "Protecting Cookies with Device Bound Session Credentials",
     "summary": "<span class=\"byline-author\">Posted by Ben Ackerman, Chrome team,  Daniel Rubery, Chrome team and Guillaume Ehinger, Google Account Security team</span>\n\n<p>\nFollowing our April 2024 <a href=\"https://blog.chromium.org/2024/04/fighting-cookie-theft-using-device.html\">announcement</a>, Device Bound Session Credentials (DBSC) is now entering public availability for Windows users on Chrome 146, and expanding to macOS in an upcoming Chrome release. This project represents a significant step forward in our ongoing efforts to combat session theft, which remains a prevalent threat in the modern security landscape.\n</p>\n<p>\nSession theft typically occurs when a user inadvertently downloads malware onto their device. Once active, the malware can silently extract existing session cookies from the browser or wait for the user to log in to new accounts, before exfiltrating these tokens to an attacker-controlled server. Infostealer malware families, such as LummaC2, have become increasingly sophisticated at harvesting these credentials. Because cookies often have extended lifetimes, attackers can use them to gain unauthorized access to a user’s accounts without ever needing their passwords; this access is then often bundled, traded, or sold among threat actors.\n</p>\n<p>\nCrucially, once sophisticated malware has gained access to a machine, it can read the local files and memory where browsers store authentication cookies. As a result, there is no reliable way to prevent cookie exfiltration using software alone on any operating system. Historically, mitigating session theft relied on detecting the stolen credentials after the fact using a complex set of abuse heuristics – a reactive approach that persistent attackers could often circumvent. DBSC fundamentally changes the web's capability to defend against this threat by shifting the paradigm from reactive detection to proactive prevention, ensuring that successfully exfiltrated cookies cannot be used to access users’ accounts.\n</p>\n<h3>How DBSC Works</h3>\n\n\n<p>\nDBSC protects against session theft by cryptographically binding authentication sessions to a specific device. It does this using hardware-backed security modules, such as the Trusted Platform Module (TPM) on Windows and the Secure Enclave on macOS, to generate a unique public/private key pair that cannot be exported from the machine. The issuance of new short-lived session cookies is contingent upon Chrome proving possession of the corresponding private key to the server. Because attackers cannot steal this key, any exfiltrated cookies quickly expire and become useless to those attackers. This design allows large and small websites to upgrade to secure, hardware-bound sessions by adding dedicated registration and refresh endpoints to their backends, while maintaining complete compatibility with their existing front-end. The browser handles the complex cryptography and cookie rotation in the background, allowing the web app to continue using standard cookies for access just as it always has. \n</p>\n<p>\nGoogle rolled out an early version of this protocol over the last year. For sessions protected by DBSC, we have observed a significant reduction in session theft since its launch.\n</p>\n<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjk4eZvzfBqPL0Xf1ckUo7l58eyeZKSzIelxjLOiOE_XHYNZc-qdx24Sv9n3tgRgc2xOzKZvcHsCksprOlxwd-gIRQaLPsOu2jjuCV4e6G1_ImsXhQeOean1CWndOiQuikT94gbvZLlWfktpCBRtxh9dJkxjpfvradSkzWD1Wqxohg9TJUdyC1kC88y6Abu/s1600/Screenshot%202026-04-09%20at%2010.11.22%E2%80%AFAM.png\" style=\"display: block; padding: 1em 0; text-align: center;\"><img alt=\"\" border=\"0\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjk4eZvzfBqPL0Xf1ckUo7l58eyeZKSzIelxjLOiOE_XHYNZc-qdx24Sv9n3tgRgc2xOzKZvcHsCksprOlxwd-gIRQaLPsOu2jjuCV4e6G1_ImsXhQeOean1CWndOiQuikT94gbvZLlWfktpCBRtxh9dJkxjpfvradSkzWD1Wqxohg9TJUdyC1kC88y6Abu/s1600/Screenshot%202026-04-09%20at%2010.11.22%E2%80%AFAM.png\" /></a></div>\n<p style=\"text-align: center;\">\n<em>An overview of the DBSC protocol showing the interaction between the browser and server.</em>\n</p>\n<h3>Private by design</h3>\n\n\n<p>\nA core tenet of the DBSC architecture is the preservation of user privacy. Each session is backed by a distinct key, preventing websites from using these credentials to correlate a user's activity across different sessions or sites on the same device. Furthermore, the protocol is designed to be lean: it does not leak device identifiers or attestation data to the server beyond the per-session public key required to certify proof of possession. This minimal information exchange ensures DBSC helps secure sessions without enabling cross-site tracking or acting as a device fingerprinting mechanism.\n</p>\n<h3>Engagement with the ecosystem</h3>\n\n\n<p>\nDBSC was designed from the beginning to be an open web standard through the W3C process and adoption by the Web Application Security Working Group. Through this process we partnered with Microsoft to design the standard to ensure it works for the web and got input from many in the industry that are responsible for web security.\n</p>\n<p>\nAdditionally, over the past year, we have also conducted two Origin Trials to ensure DBSC effectively serves the requirements of the broader web community. Many web platforms, including Okta, actively participated in these trials and their own testing and provided essential feedback to ensure the protocol effectively addresses their diverse needs.\n</p>\n<p>\nIf you are a web developer and are looking for a way to secure your users against session theft, refer to our <a href=\"https://developer.chrome.com/docs/web-platform/device-bound-session-credentials\">developer guide</a> for implementation details. Additionally, all the details about DBSC can be found on the <a href=\"https://w3c.github.io/webappsec-dbsc/\">spec</a> and the corresponding <a href=\"https://github.com/w3c/webappsec-dbsc\">github</a>. Feel free to use the <a href=\"https://github.com/w3c/webappsec-dbsc/issues\">issues</a> page to report bugs or provide feature requests.\n</p>\n<h3>Future improvements</h3>\n\n\n<p>\nAs we continue to evolve the DBSC standard, future iterations will focus on increasing support across diverse ecosystems and introducing advanced capabilities tailored for complex enterprise environments. Key areas of ongoing development include:\n</p>\n<ul>\n\n<li><strong>Securing Federated Identity: </strong>In modern enterprise environments, Single Sign-On (SSO) is ubiquitous. We are expanding the DBSC protocol to support cross-origin bindings, ensuring that a relying party (RP) session remains continuously bound to the same original device key used by the Identity Provider (IdP). This guarantees that the high-assurance security of the initial device binding is maintained throughout the entire federated login process, creating an unbroken chain of trust.</li>\n\n<li><strong>Advanced Registration Capabilities:</strong> While DBSC provides robust protection for established cookies, some environments require an even stronger foundation when the session is first created. We are developing mechanisms to bind DBSC sessions to pre-existing, trusted key material rather than generating a new key at sign-in. This advanced capability enables websites to integrate complementary technologies, such as mTLS certificates or hardware security keys, creating a highly secure registration environment.</li>\n\n<li><strong>Broader Device Support:</strong> We are also actively exploring the potential addition of software-based keys to extend protections to devices without dedicated secure hardware.",
     "link": "http://security.googleblog.com/2026/04/protecting-cookies-with-device-bound.html",
@@ -347,6 +387,16 @@
     "source": "securityweek.com",
     "category": "Phishing / Scams",
     "importance_score": 982,
+    "also_covered_by": []
+  },
+  {
+    "title": "Hackers Infect C++ and C# Project Files to Spread Multi-Stage Windows Backdoor",
+    "summary": "<p>A sophisticated Windows Trojan that compromises software development projects to distribute a multi-stage backdoor, data stealer, clipboard hijacker, cryptominer, and file infector. Documented by Doctor Web researchers and first observed in the final quarter of 2025, the malware has continued to develop and now targets C++ and C# development environments. By infecting Visual Studio project [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/c-c-project-files-windows-backdoor/\">Hackers Infect C++ and C# Project Files to Spread Multi-Stage Windows Backdoor</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/c-c-project-files-windows-backdoor/",
+    "published": "2026-07-11T09:50:17",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 975,
     "also_covered_by": []
   },
   {
@@ -477,6 +527,26 @@
     "source": "zdnet.com",
     "category": "Vulnerability",
     "importance_score": 925,
+    "also_covered_by": []
+  },
+  {
+    "title": "New Ghostcommit Attack Hides Malicious Prompts in Images to Exploit AI Agents",
+    "summary": "<p>A novel supply chain attack called &#8220;Ghostcommit&#8221; that conceals prompt-injection instructions within PNG images to bypass AI code reviewers and trick coding agents into leaking secrets such as .env files. The ASSET Research Group demonstrated that a pull request containing an explicit, plain-text instruction to exfiltrate a repository&#8217;s .env file is caught immediately by LLM-based [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ghostcommit-attack-hides-prompts/\">New Ghostcommit Attack Hides Malicious Prompts in Images to Exploit AI Agents</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/ghostcommit-attack-hides-prompts/",
+    "published": "2026-07-11T16:22:35",
+    "source": "cybersecuritynews.com",
+    "category": "Data Breach",
+    "importance_score": 918,
+    "also_covered_by": []
+  },
+  {
+    "title": "Dell BIOS Flaw Lets Attackers Recover Admin Passwords From SPI Flash in Milliseconds",
+    "summary": "<p>A critical flaw in how Dell stores BIOS administrator and user passwords allows full password recovery from a flash dump in milliseconds, with no brute force required. The vulnerability, tracked as CVE-2026-40639 (DSA-2026-197), stems from a broken XOR encryption scheme rather than a proper cryptographic hash. Dell stores BIOS passwords in the DVAR (Dell Variable) [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/dell-bios-flaw-admin-passwords/\">Dell BIOS Flaw Lets Attackers Recover Admin Passwords From SPI Flash in Milliseconds</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/dell-bios-flaw-admin-passwords/",
+    "published": "2026-07-11T03:17:12",
+    "source": "cybersecuritynews.com",
+    "category": "Ransomware",
+    "importance_score": 910,
     "also_covered_by": []
   },
   {
@@ -630,6 +700,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Forg365 PhaaS Uses Telegram and AI Lures to Hijack Microsoft 365 Accounts",
+    "summary": "<p>Forg365 is a commercial phishing-as-a-service (PhaaS) platform specifically targeting Microsoft 365 users. It employs methods such as device-code phishing, adversary-in-the-middle (AiTM) workflows, AI-assisted lure generation, and token persistence tools. The platform&#8217;s onboarding process through Telegram, subscription model, and post-compromise features highlight how identity attacks on Microsoft 365 are becoming increasingly commercialized. Researchers from ZeroBEC have [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/forg365-phaas-uses-telegram-hijack-microsoft-365-accounts/\">Forg365 PhaaS Uses Telegram and AI Lures to Hijack Microsoft 365 Accounts</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/forg365-phaas-uses-telegram-hijack-microsoft-365-accounts/",
+    "published": "2026-07-10T12:58:17",
+    "source": "gbhackers.com",
+    "category": "Phishing / Scams",
+    "importance_score": 750,
+    "also_covered_by": []
+  },
+  {
     "title": "Former DigitalMint ransomware negotiator who duped clients sentenced to 70 months in jail",
     "summary": "<p>Angelo Martino exploited his insider position and fed confidential information to ransomware co-conspirators to extort a combined $75.3 million from five U.S.-based victims.</p>\n<p>The post <a href=\"https://cyberscoop.com/digitalmint-ransomware-negotiator-angelo-martino-sentenced/\">Former DigitalMint ransomware negotiator who duped clients sentenced to 70 months in jail</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
     "link": "https://cyberscoop.com/digitalmint-ransomware-negotiator-angelo-martino-sentenced/",
@@ -740,6 +820,26 @@
     "also_covered_by": []
   },
   {
+    "title": "AWS GovCloud Credential Leak Leads CISA to Share Critical Cyber Incident Lessons",
+    "summary": "<p>The Cybersecurity and Infrastructure Security Agency (CISA) has disclosed details of an internal security incident involving exposed AWS GovCloud credentials, offering a transparent account of its own incident response to help other organizations strengthen their defenses. On Friday, May 15, CISA&#8217;s Office of the Chief Information Officer (OCIO) launched an internal investigation after an investigative [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/aws-govcloud-credential-leak-leads-cisa/\">AWS GovCloud Credential Leak Leads CISA to Share Critical Cyber Incident Lessons</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/aws-govcloud-credential-leak-leads-cisa/",
+    "published": "2026-07-11T10:34:32",
+    "source": "gbhackers.com",
+    "category": "Data Breach",
+    "importance_score": 631,
+    "also_covered_by": []
+  },
+  {
+    "title": "Apple Sues OpenAI and Former Employees for Alleged Theft of Trade Secrets",
+    "summary": "<p>Apple has filed a federal lawsuit against OpenAI, accusing the ChatGPT maker of orchestrating a systematic campaign to steal confidential hardware designs, manufacturing processes, and supplier relationships through more than 400 former Apple employees now working at OpenAI. The 41-page complaint, filed July 10, 2026, in the U.S. District Court for the Northern District of [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/apple-sues-openai/\">Apple Sues OpenAI and Former Employees for Alleged Theft of Trade Secrets</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/apple-sues-openai/",
+    "published": "2026-07-12T04:54:12",
+    "source": "cybersecuritynews.com",
+    "category": "Policy / Law",
+    "importance_score": 607,
+    "also_covered_by": []
+  },
+  {
     "title": "CERT Warns of Unpatched Tenda Firmware Backdoor Allowing Admin Access",
     "summary": "<p><img alt=\"CVE-2026-11405\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"762\" src=\"https://thecyberexpress.com/wp-content/uploads/CVE-2026-11405.webp\" title=\"CERT Warns of Unpatched Tenda Firmware Backdoor Allowing Admin Access 5\" width=\"1253\" /></p><span>The CERT Coordination Center (CERT/CC) has disclosed a critical security issue affecting multiple Tenda networking devices. Tracked as CVE-2026-11405, the vulnerability stems from an undocumented backdoor in Tenda firmware that allows unauthenticated attackers to gain administrative access to a device’s web management interface. The flaw remains unpatched, prompting CERT to recommend immediate mitigation measures for affected users.</span><span> </span>\n\n<span>According to CERT, the <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/firewall-daily/vulnerabilities/\" title=\"vulnerability\">vulnerability</a> impacts multiple Tenda routers, switches, and other networking products. <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/\" title=\"Security\">Security</a> researchers discovered the issue within the login function of the device’s web server binary, where the authentication process contains logic that can be exploited to bypass normal login requirements.</span><span> </span>\n<h3><b><span>CVE-2026-11405 Backdoor Enables Authentication Bypass</span></b><span> </span></h3>\n<span>The <a href=\"https://kb.cert.org/vuls/id/213560\" rel=\"nofollow noopener\" target=\"_blank\">CERT advisory</a> explains that the authentication mechanism behaves unexpectedly after a failed login attempt. Instead of rejecting the request, the firmware retrieves a password stored in the device’s configuration.</span><span> </span>\n\n<span>It then compares only the password supplied by the user against the stored plaintext password. If the passwords match, the system grants administrator-level access without verifying the username.</span><span> </span>\n\n<span>“The associated username is not validated, so any provided username will succeed when paired with the backdoor password. This backdoor authentication mechanism is not documented or visible through any administrative interface,” CERT/CC explained.</span><span> </span>\n\n<span>Because of this behavior, CVE-2026-11405 allows attackers to bypass authentication entirely if they know or obtain the configured <a href=\"https://thecyberexpress.com/how-to-delete-saved-passwords-in-google-chrome/\" rel=\"noopener\" target=\"_blank\">password</a>.</span><span> </span>\n<h3><b><span>CERT Recommends Mitigations as No Patch Is Available</span></b><span> </span></h3>\n<span>Successful exploitation of CVE-2026-11405 could enable attackers to modify device configurations, change network settings, and disable security features. CERT warns that these capabilities could ultimately result in the compromise of a local network.</span>\n\n<span>The organization also stated that it was unable to coordinate disclosure of the vulnerability with Tenda, and no security update has been released to address the flaw.</span>\n\n<span>Until a patch becomes available, CERT advises users to disable remote web management to block unauthorized external access. It also recommends changing the default LAN <a href=\"https://thecyberexpress.com/how-to-find-ip-address/\" rel=\"noopener\" target=\"_blank\">IP address</a> to reduce the likelihood of devices being identified by automated scanning tools.</span>\n<h3><b><span>CERT Also Discloses Unpatched HP Printer Flaw</span></b><span> </span></h3>\n<span>On Tuesday, CERT/CC disclosed another unpatched vulnerability affecting HP DeskJet 2800 series printers running firmware versions up to TBP1CN2612AR. The issue, tracked as CVE-2026-13753, is a missing authorization flaw that exposes sensitive administrative information.</span>\n\n<span>According to CERT, attackers can send unauthenticated GET requests to multiple backend <a href=\"https://thecyberexpress.com/sms-and-otp-bombing-bypass-analysis/\" rel=\"noopener\" target=\"_blank\">API endpoints</a>, which return administrator configuration data without validating authentication or session state. The exposed information includes the Wi-Fi Direct SSID, plaintext passphrase, unique printer serial numbers, service IDs, and administrative password state details.</span>\n\n<span>CERT/CC summarized the <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-are-risks-in-cybersecurity/\" title=\"risk\">risk</a>, stating, “This vulnerability allows unauthenticated access to the printer’s webserver API endpoints, exposing Wi-Fi credentials, management configuration details, and sensitive security data normally restricted to administrative users.”</span>",
     "link": "https://thecyberexpress.com/cve-2026-11405-cert-tenda-firmware-backdoor/",
@@ -757,6 +857,16 @@
     "source": "microsoft.com",
     "category": "Other",
     "importance_score": 600,
+    "also_covered_by": []
+  },
+  {
+    "title": "Microsoft Teams on macOS Screen Sharing Bug Causing Blank Screens",
+    "summary": "<p>Microsoft has confirmed a known issue in Teams on macOS that causes screen sharing to fail, freeze, or show a blank black screen during meetings. The bug affects users running macOS versions older than macOS Tahoe 26.4, and Microsoft has now updated its rollout timeline for a fix, according to Message Center update MC1392559. Users [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-teams-on-macos/\">Microsoft Teams on macOS Screen Sharing Bug Causing Blank Screens</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/microsoft-teams-on-macos/",
+    "published": "2026-07-11T17:18:13",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 596,
     "also_covered_by": []
   },
   {
@@ -920,6 +1030,16 @@
     "also_covered_by": []
   },
   {
+    "title": "CISA Details “Lessons from a Cyber Incident” After AWS GovCloud Credentials Leak",
+    "summary": "<p>CISA has published a candid after-action account revealing that a contractor accidentally exposed the agency&#8217;s own AWS GovCloud credentials and Infrastructure-as-Code repositories in a personal, public GitHub account, triggering an internal incident response and a rare public &#8220;lessons learned&#8221; disclosure from the federal cybersecurity agency itself. On Friday, May 15, CISA&#8217;s incident response began after [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/cisa-details-aws-credentials-leak/\">CISA Details &#8220;Lessons from a Cyber Incident&#8221; After AWS GovCloud Credentials Leak</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/cisa-details-aws-credentials-leak/",
+    "published": "2026-07-11T03:58:27",
+    "source": "cybersecuritynews.com",
+    "category": "Data Breach",
+    "importance_score": 479,
+    "also_covered_by": []
+  },
+  {
     "title": "Ransomware Attacks are on the Rise",
     "summary": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
     "link": "https://threatpost.com/ransomware-attacks-are-on-the-rise/180481/",
@@ -927,6 +1047,36 @@
     "source": "threatpost.com",
     "category": "Ransomware",
     "importance_score": 477,
+    "also_covered_by": []
+  },
+  {
+    "title": "Zimbra Releases Security Patch for Stored XSS Vulnerability in Classic Web Client",
+    "summary": "<p>Zimbra has released its Daffodil v10.1.19 patch update, addressing a stored cross-site scripting (XSS) vulnerability in the platform’s Classic Web Client. The security issue could allow a specially crafted email message to execute malicious JavaScript within the context of a logged-in recipient’s webmail session. The update, released on July 7, 2026, includes fixes delivered through [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/zimbra-releases-security-patch-stored-xss/\">Zimbra Releases Security Patch for Stored XSS Vulnerability in Classic Web Client</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/zimbra-releases-security-patch-stored-xss/",
+    "published": "2026-07-11T08:53:51",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 476,
+    "also_covered_by": []
+  },
+  {
+    "title": "281 Popular VPN Apps from the Google Play Store Leak Sensitive Data, Transfer Data Unencrypted",
+    "summary": "<p>A new security study has found serious privacy and security issues in 281 popular Android VPN applications available on the Google Play Store. Researchers discovered that dozens of these apps transfer data without encryption, leak user traffic outside the VPN tunnel, and send device identifiers to advertising and tracking services. The research team from multiple [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/vpn-apps-from-the-google-play-leaks/\">281 Popular VPN Apps from the Google Play Store Leak Sensitive Data, Transfer Data Unencrypted</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/vpn-apps-from-the-google-play-leaks/",
+    "published": "2026-07-11T02:59:32",
+    "source": "cybersecuritynews.com",
+    "category": "Ransomware",
+    "importance_score": 464,
+    "also_covered_by": []
+  },
+  {
+    "title": "Top 10 Best Unified Threat Management (UTM) Solutions in 2026",
+    "summary": "<p>If you need one appliance that handles firewalling, intrusion prevention, VPN, antivirus, and web filtering without a security team to run it, Fortinet FortiGate is our top UTM pick for 2026, with Sophos Firewall the strongest choice when you also run Sophos endpoints. Unified threat management (UTM) consolidates multiple network security functions into a single [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-unified-threat-management-solutions/\">Top 10 Best Unified Threat Management (UTM) Solutions in 2026</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/best-unified-threat-management-solutions/",
+    "published": "2026-07-10T15:30:10",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 457,
     "also_covered_by": []
   },
   {
@@ -1260,6 +1410,36 @@
     "also_covered_by": []
   },
   {
+    "title": "281 Android VPN Apps Expose Users to Traffic Leaks, Tracking and Tunnel Hijacking",
+    "summary": "<p>A recent security analysis has revealed that a significant number of Android VPN applications, 281,281,281, expose users to serious privacy and security risks. These risks include traffic leaks, third-party tracking, weak encryption practices, and VPN tunnel hijacking. Android findings highlight a persistent issue in the mobile VPN ecosystem: many applications marketed as privacy tools can [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/281-android-vpn-apps-expose-users-to-traffic-leaks/\">281 Android VPN Apps Expose Users to Traffic Leaks, Tracking and Tunnel Hijacking</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/281-android-vpn-apps-expose-users-to-traffic-leaks/",
+    "published": "2026-07-10T13:33:31",
+    "source": "gbhackers.com",
+    "category": "Ransomware",
+    "importance_score": 330,
+    "also_covered_by": []
+  },
+  {
+    "title": "Top 10 Best Social Engineering Testing Companies in 2026",
+    "summary": "<p>In the fast-evolving digital landscape of 2026, an organization&#8217;s most sophisticated technological defenses can be rendered useless by a single click from a well-intentioned but unsuspecting employee. Cybercriminals are increasingly bypassing firewalls and encryption by exploiting the most unpredictable and vulnerable component of any security system: the human element. This is where social engineering testing [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/social-engineering-testing-companies/\">Top 10 Best Social Engineering Testing Companies in 2026</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/social-engineering-testing-companies/",
+    "published": "2026-07-10T15:33:36",
+    "source": "gbhackers.com",
+    "category": "Ransomware",
+    "importance_score": 327,
+    "also_covered_by": []
+  },
+  {
+    "title": "Progress Urges ShareFile Admins to Shut Down Servers Over Credible Security Threat",
+    "summary": "<p>Progress Software has issued an urgent advisory instructing customers running on-premises ShareFile Storage Zone Controllers to immediately power down the servers hosting these components, citing a &#8220;credible external security threat&#8221; against the platform. The notice, sent directly to customers&#8217; inboxes, states that Progress has no current indication of unauthorized access to ShareFile accounts or data, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/progress-sharefile-admins-shut-down-servers/\">Progress Urges ShareFile Admins to Shut Down Servers Over Credible Security Threat</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/progress-sharefile-admins-shut-down-servers/",
+    "published": "2026-07-10T17:50:48",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 327,
+    "also_covered_by": []
+  },
+  {
     "title": "Microsoft Warns of Increase in Number of Security Updates",
     "summary": "Microsoft has said the volume of Windows security updates is set to grow as it uses AI to find new bugs",
     "link": "https://www.infosecurity-magazine.com/news/microsoft-increase-number-security/",
@@ -1267,6 +1447,26 @@
     "source": "infosecurity-magazine.com",
     "category": "AI & Security",
     "importance_score": 325,
+    "also_covered_by": []
+  },
+  {
+    "title": "Top 10 Best Cloud Security Providers – 2026 Review",
+    "summary": "<p>As businesses continue to migrate critical applications and data to the cloud, the traditional security perimeter has dissolved. The responsibility for securing these dynamic, distributed environments now falls on a complex shared responsibility model between cloud service providers (CSPs) and the customer. This shift has given rise to the need for a new generation of [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-cloud-security-providers/\">Top 10 Best Cloud Security Providers &#8211; 2026 Review</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/best-cloud-security-providers/",
+    "published": "2026-07-10T15:39:02",
+    "source": "gbhackers.com",
+    "category": "AI & Security",
+    "importance_score": 313,
+    "also_covered_by": []
+  },
+  {
+    "title": "Linux FUSE Vulnerability Allows Unprivileged Users to Pop a Root Shell",
+    "summary": "<p>A newly disclosed Linux kernel vulnerability in the FUSE subsystem allows unprivileged local users to escalate privileges to root by corrupting the page cache and hijacking execution of a SUID binary such as /usr/bin/su on Ubuntu 26.04. Tracked as CVE-2026-31694, the flaw affects the FUSE directory-caching logic. It can be exploited to achieve reliable local [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/linux-fuse-vulnerability/\">Linux FUSE Vulnerability Allows Unprivileged Users to Pop a Root Shell</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/linux-fuse-vulnerability/",
+    "published": "2026-07-10T12:32:46",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 312,
     "also_covered_by": []
   },
   {
