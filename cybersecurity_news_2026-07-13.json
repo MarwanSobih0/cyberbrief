@@ -140,6 +140,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Centers Laboratory Data Breach Affects 540,000 Individuals",
+    "summary": "<p>The WorldLeaks extortion group claimed to have stolen 720 GB of data from the healthcare testing and laboratory services provider.</p>\n<p>The post <a href=\"https://www.securityweek.com/centers-laboratory-data-breach-affects-540000-individuals/\">Centers Laboratory Data Breach Affects 540,000 Individuals</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "link": "https://www.securityweek.com/centers-laboratory-data-breach-affects-540000-individuals/",
+    "published": "2026-07-13T08:10:44",
+    "source": "securityweek.com",
+    "category": "Data Breach",
+    "importance_score": 1426,
+    "also_covered_by": []
+  },
+  {
     "title": "Week in review: Accenture data breach, great open-source cybersecurity tools",
     "summary": "<p>Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: Securing the inbox: Where identity, brand and security meet Getting a verified logo to appear next to your email has traditionally meant having to work with two separate entities. You have to work with a DMARC partner for setting up DMARC and BIMI, then use a trusted Certificate Authority (CA) to purchase a Mark Certificate, and this means having to &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/12/week-in-review-accenture-data-breach-great-open-source-cybersecurity-tools/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/12/week-in-review-accenture-data-breach-great-open-source-cybersecurity-tools/\">Week in review: Accenture data breach, great open-source cybersecurity tools</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
     "link": "https://www.helpnetsecurity.com/2026/07/12/week-in-review-accenture-data-breach-great-open-source-cybersecurity-tools/",
@@ -387,6 +397,16 @@
     "source": "unit42.paloaltonetworks.com",
     "category": "Ransomware",
     "importance_score": 967,
+    "also_covered_by": []
+  },
+  {
+    "title": "Hackers Weaponize Real Academic Event Materials to Infect Researchers With RokRAT",
+    "summary": "<p>A targeted phishing campaign is using genuine academic event details to trick researchers into opening malware. The operation delivers a RokRAT variant through a fake document package that appears connected to a real seminar. The attackers used information from an actual academic event to make the email look routine and trustworthy. Recipients were led to [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-weaponize-real-academic-event-materials/\">Hackers Weaponize Real Academic Event Materials to Infect Researchers With RokRAT</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/hackers-weaponize-real-academic-event-materials/",
+    "published": "2026-07-13T08:11:18",
+    "source": "cybersecuritynews.com",
+    "category": "Phishing / Scams",
+    "importance_score": 962,
     "also_covered_by": []
   },
   {
@@ -647,16 +667,6 @@
     "source": "securityweek.com",
     "category": "Ransomware",
     "importance_score": 770,
-    "also_covered_by": []
-  },
-  {
-    "title": "New Ghostcommit Attack Hides Malicious Prompts in Images to Exploit AI Agents",
-    "summary": "<p>A novel supply chain attack called &#8220;Ghostcommit&#8221; that conceals prompt-injection instructions within PNG images to bypass AI code reviewers and trick coding agents into leaking secrets such as .env files. The ASSET Research Group demonstrated that a pull request containing an explicit, plain-text instruction to exfiltrate a repository&#8217;s .env file is caught immediately by LLM-based [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ghostcommit-attack-hides-prompts/\">New Ghostcommit Attack Hides Malicious Prompts in Images to Exploit AI Agents</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/ghostcommit-attack-hides-prompts/",
-    "published": "2026-07-11T16:22:35",
-    "source": "cybersecuritynews.com",
-    "category": "Data Breach",
-    "importance_score": 768,
     "also_covered_by": []
   },
   {
@@ -2159,16 +2169,6 @@
     "source": "unit42.paloaltonetworks.com",
     "category": "Vulnerability",
     "importance_score": 118,
-    "also_covered_by": []
-  },
-  {
-    "title": "UK Government Rolls Out Agentic AI Defense Plan Alongside Industry Pledge",
-    "summary": "<p>Two announcements on July 7, 2026, demonstrate the government’s determination to improve the level of cybersecurity within the UK.</p>\n<p>The post <a href=\"https://www.securityweek.com/uk-government-rolls-out-agentic-ai-defense-plan-alongside-industry-pledge/\">UK Government Rolls Out Agentic AI Defense Plan Alongside Industry Pledge</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-    "link": "https://www.securityweek.com/uk-government-rolls-out-agentic-ai-defense-plan-alongside-industry-pledge/",
-    "published": "2026-07-09T14:19:53",
-    "source": "securityweek.com",
-    "category": "AI & Security",
-    "importance_score": 115,
     "also_covered_by": []
   },
   {
