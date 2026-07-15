@@ -30,6 +30,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Microsoft Patch Tuesday July 2026 – Record 570 Vulnerabilities Patched",
+    "summary": "<p>In July 2026, Microsoft addressed a record total of 570 vulnerabilities, including three zero-days, two of which were exploited in the wild and one that was publicly disclosed. The release includes 59 Critical vulnerabilities, with Remote Code Execution (RCE) flaws making up the majority of the Critical-rated issues. It is important to note that the [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/microsoft-patch-tuesday-july-2026-record-570-vulnerabilities-patched/\">Microsoft Patch Tuesday July 2026 &#8211; Record 570 Vulnerabilities Patched</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/microsoft-patch-tuesday-july-2026-record-570-vulnerabilities-patched/",
+    "published": "2026-07-15T05:20:41",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 2423,
+    "also_covered_by": []
+  },
+  {
     "title": "Bringing Rust to the Pixel Baseband",
     "summary": "<span class=\"byline-author\">Posted by Jiacheng Lu, Software Engineer, Google Pixel Team</span>\n\n<p>Google is continuously advancing the security of Pixel devices. We have been focusing on hardening the cellular baseband modem against exploitation. <a href=\"https://security.googleblog.com/2023/12/hardening-cellular-basebands-in-android.html\">Recognizing the risks</a> associated within the complex modem firmware, Pixel 9 shipped with <a href=\"https://security.googleblog.com/2024/10/pixel-proactive-security-cellular-modems.html\">mitigations</a> against a range of memory-safety vulnerabilities. For Pixel 10, Google is advancing its proactive security measures further. Following our previous discussion on <a href=\"https://security.googleblog.com/2024/09/deploying-rust-in-existing-firmware.html\">\"Deploying Rust in Existing Firmware Codebases\"</a>, this post shares a concrete application: integrating a memory-safe Rust DNS(Domain Name System) parser into the modem firmware. The new Rust-based DNS parser significantly reduces our security risk by mitigating an entire class of vulnerabilities in a risky area, while also laying the foundation for broader adoption of memory-safe code in other areas.</p>\n\n<p>Here we share our experience of working on it, and hope it can inspire the use of more memory safe languages in low-level environments.</p>\n\n<h3>Why Modem Memory Safety Can’t Wait</h3>\n<p>In recent years, we have seen increasing interest in the cellular modem from attackers and security researchers. For example, Google's Project Zero <a href=\"https://googleprojectzero.blogspot.com/2023/03/multiple-internet-to-baseband-remote-rce.html\">gained remote code execution</a> on Pixel modems over the Internet. Pixel modem has tens of Megabytes of executable code. Given the complexity and remote attack surface of the modem, other critical memory safety vulnerabilities may remain in the predominantly memory-unsafe firmware code.</p>\n\n<h3>Why DNS?</h3>\n<p>The DNS protocol is most commonly known in the context of browsers finding websites. With the evolution of cellular technology, modern cellular communications have migrated to digital data networks; consequently, even basic operations such as call forwarding rely on DNS services.</p>\n\n<p>DNS is a complex protocol and requires parsing of untrusted data, which can lead to vulnerabilities, particularly when implemented in a memory-unsafe language (example: <a href=\"https://nvd.nist.gov/vuln/detail/cve-2024-27227\">CVE-2024-27227</a>). Implementing the DNS parser in Rust offers value by decreasing the attack surfaces associated with memory unsafety.</p>\n\n<h3>Picking a DNS library</h3>\n<p>DNS already has a level of support in the open-source Rust community. We evaluated multiple open source crates that implement DNS. Based on <a href=\"https://security.googleblog.com/2024/09/deploying-rust-in-existing-firmware.html#:~:text=Existing%20Crate\">criteria shared in earlier posts</a>, we identified <a href=\"https://crates.io/crates/hickory-proto\">hickory-proto</a> as the best candidate. It has excellent maintenance, over 75% test coverage, and widespread adoption in the Rust community. Its pervasiveness shows its potential as the de-facto DNS choice and long term support. Although hickory-proto initially lacked <code>no_std</code> support, which is needed for Bare-metal environments (see our <a href=\"https://security.googleblog.com/2024/09/deploying-rust-in-existing-firmware.html#:~:text=Bare%2Dmetal%20Environments\">previous post</a> on this topic), we were able to add support to it and its dependencies.</p>\n\n<h2>Adding <code>no_std</code> support</h2>\n<p>The work to enable <code>no_std</code> for hickory-proto is mostly mechanical. We shared the process <a href=\"https://security.googleblog.com/2024/09/deploying-rust-in-existing-firmware.html#:~:text=Porting%20a%20std%20Library%20to%20no_std\">in a previous post</a>. We undertook modifications to hickory_proto and its dependencies to enable <code>no_std</code> support. The upstream <code>no_std</code> work also results in a <code>no_std</code> URL parser, beneficial to other projects.</p>\n\n<ul>\n  <li><a href=\"https://github.com/hickory-dns/hickory-dns/pull/2104\">https://github.com/hickory-dns/hickory-dns/pull/2104</a></li>\n  <li><a href=\"https://github.com/servo/rust-url/pull/831\">https://github.com/servo/rust-url/pull/831</a></li>\n  <li><a href=\"https://github.com/krisprice/ipnet/pull/58\">https://github.com/krisprice/ipnet/pull/58</a></li>\n</ul>\n\n<p>The above PRs are great examples of how to extend <code>no_std</code> support to existing std-only crates.</p>\n\n<h2>Code size study</h2>\n<p>Code size is the one of the factors that we evaluated when picking the DNS library to use.</p>\n\n<table border=\"1\" cellpadding=\"8\" cellspacing=\"0\" style=\"border-collapse: collapse; width: 100%;\">\n  <tbody>\n    <tr>\n      <td rowspan=\"3\" style=\"width: 25%;\">Code size<br />by category</td>\n      <td>Rust implemented Shim that calls Hickory-proto on receiving a DNS response</td>\n      <td style=\"width: 15%;\">4KB</td>\n    </tr>\n    <tr>\n      <td>core, alloc, compiler_builtins<br />(reusable, one-time cost)</td>\n      <td>17KB</td>\n    </tr>\n    <tr>\n      <td>Hickory-proto library and dependencies</td>\n      <td>350KB</td>\n    </tr>\n  </tbody>\n</table>\n\n<br />\n<hr style=\"border: 0; border-top: 2px solid #f0f0f0;\" />\n<br />\n\n<table border=\"1\" cellpadding=\"8\" cellspacing=\"0\" style=\"border-collapse: collapse; width: 100%;\">\n  <tbody>\n    <tr>\n      <td style=\"width: 25%;\">Sum</td>\n      <td></td>\n      <td style=\"width: 15%;\">371KB</td>\n    </tr>\n  </tbody>\n</table>\n\n\n<p>We built prototypes and measured size with <a href=\"https://security.googleblog.com/2024/09/deploying-rust-in-existing-firmware.html#:~:text=Build%20Optimizations\">size-optimized settings</a>. Expectedly, <code>hickory_proto</code> is not designed with embedded use in mind, and is not optimized for size. As the Pixel modem is not tightly memory constrained, we prioritized community support and code quality, leaving code size optimizations as future work.</p>\n\n<p>However, the additional code size may be a blocker for other embedded systems. This could be addressed in the future by adding additional feature flags to conditionally compile only required functionality. Implementing this modularity would be a valuable future work.</p>\n\n<h3>Hook-up Rust to modem firmware</h3>\n<p>Before building the Rust DNS library, we defined several Rust unit tests to cover basic arithmetic, dynamic allocations, and <a href=\"https://doc.rust-lang.org/nomicon/ffi.html\"><code>FFI</code></a> to verify the integration of Rust with the existing modem firmware code base.</p>\n\n<h2>Compile Rust code to staticlib</h2>\n<p>While using <code>cargo</code> is the default choice for compilation in the Rust ecosystem, it <a href=\"https://security.googleblog.com/2021/05/integrating-rust-into-android-open.html#:~:text=No%20nested%20build%20systems\">presents challenges</a> when integrating it into existing build systems. We evaluated two options:</p>\n\n<ol>\n  <li>Using <code>cargo</code> to build a <a href=\"https://doc.rust-lang.org/beta/rustc/command-line-arguments.html#--crate-type-a-list-of-types-of-crates-for-the-compiler-to-emit\"><code>staticlib</code></a> before the modem builds. Then add the produced staticlib into the linking step.</li>\n  <li>Directly work with <code>rustc</code> and integrate the Rust compilation steps into the existing modem build system.</li>\n</ol>\n\n<p>Option #1 does not scale if we are going to add more Rust components in the future, as linking multiple staticlibs may cause <a href=\"https://github.com/rust-lang/rust/issues/44322\">duplicated symbol errors</a>. We chose option #2 as it scales more easily and allows tighter integration into our existing build system. Our existing C/C++ codebase uses <a href=\"https://pigweed.dev/\">Pigweed</a> to drive the primary build system. Pigweed supports Rust targets (<a href=\"https://cs.opensource.google/pigweed/pigweed/+/main:pw_build/rust_library.gni;drc=87f7abc323e345dd2729d5039a7ee0ee49c2fd56\">example</a>) with direct calls to <a href=\"https://cs.opensource.google/pigweed/pigweed/+/main:pw_toolchain/generate_toolchain.gni;l=415;drc=e194c83f1d063833745f49da8f85b583be9774bb\"><code>rustc</code></a> through <a href=\"https://gn.googlesource.com/gn/+/main/docs/reference.md#buildfile-functions-tool_specify-arguments-to-a-toolchain-tool_back-to-top-usage\"><code>rust tools</code> defined in <code>GN</code></a>.</p>\n\n<p>We compiled all the Rust crates, including hickory-proto, its dependencies, and core, compiler_builtin, alloc, to <a href=\"https://doc.rust-lang.org/reference/linkage.html#r-link.rlib\"><code>rlib</code></a>. Then, we created a <code>staticlib</code> target with a single lib.rs file which references all the <a href=\"https://doc.rust-lang.org/reference/linkage.html#r-link.rlib\"><code>rlib</code></a> crates using <a href=\"https://doc.rust-lang.org/std/keyword.crate.html\"><code>extern crate</code></a> keywords.</p>\n\n<h2>Build core, alloc, and compiler_builtins</h2>\n<p><a href=\"https://android.googlesource.com/toolchain/android_rust/+/mirror-goog-main-rust-toolchain-source\">Android’s Rust Toolchain</a> distributes source code of <code>core</code>, <code>alloc</code>, and <code>compiler_builtins</code>, and we leveraged this for the modem. They can be included to the build graph by adding a <code>GN</code> target with <a href=\"https://gn.googlesource.com/gn/+/main/docs/reference.md#var_crate_root\"><code>crate_root</code></a> pointing to the root <code>lib.rs</code> of each crate.</p>\n\n<p>Pixel modem firmware already has a well-tested and specialized global memory allocation system to support some dynamic memory allocations. <code>alloc</code> support was added by implementing the <a href=\"https://doc.rust-lang.org/alloc/alloc/trait.GlobalAlloc.html\">GlobalAlloc</a> with <a href=\"https://doc.rust-lang.org/nomicon/ffi.html\">FFI</a> calls to the allocators C APIs:</p>\n\n<pre><code class=\"language-rust\">use core::alloc::{GlobalAlloc, Layout};\n\nextern \"C\" {\n    fn mem_malloc(size: usize, alignment: usize) -&gt; *mut u8;\n    fn mem_free(ptr: *mut u8, alignment: usize);\n}\n\nstruct MemAllocator;\n\nunsafe impl GlobalAlloc for MemAllocator {\n    unsafe fn alloc(&amp;self, layout: Layout) -&gt; *mut u8 {\n        mem_malloc(layout.size(), layout.align())\n    }\n\n    unsafe fn dealloc(&amp;self, ptr: *mut u8, layout: Layout) {\n        mem_free(ptr, layout.align());\n    }\n}\n\n#[global_allocator]\nstatic ALLOCATOR: MemAllocator = MemAllocator;\n</code></pre>\n\n<p>Pixel modem firmware already implements a backend for the Pigweed <a href=\"https://pigweed.dev/pw_assert/#backend-api\">crash facade</a> as the global crash handler. Exposing it into Rust <code>panic_handler</code> through FFI unifies the crash handling for both Rust and C/C++ code.</p>\n\n<pre><code class=\"language-rust\">#![no_std]\nuse core::panic::PanicInfo;\n\nextern \"C\" {\n    pub fn PwCrashBackend(sigature: *const i8, file_name: *const i8, line: u32);\n}\n\n#[panic_handler]\nfn panic(panic_info: &amp;PanicInfo) -&gt; ! {\n    let mut filename = \"\";\n    let mut line_number: u32 = 0;\n\n    if let Some(location) = panic_info.location() {\n        filename = location.file();\n        line_number = location.line();\n    }\n\n    let mut cstr_buffer = [0u8; 128];\n    // Never writes to the last byte to make sure `cstr_buffer` is always zero\n    // terminated.\n    let (_, writer) = cstr_buffer.split_last_mut().unwrap();\n    for (place, ch) in writer.iter_mut().zip(filename.bytes()) {\n        *place = ch;\n    }\n\n    unsafe {\n        PwCrashBackend(\n            \"Rust panic\\0\".as_ptr() as *const i8,\n            cstr_buffer.as_ptr() as *const i8,\n            line_number,\n        );\n    }\n\n    loop {}\n}\n</code></pre>\n\n<h2>Link Rust staticlib</h2>\n<p>The Pixel modem firmware linking has a step that calls the linker to link all the objects generated from C/C++ code. By using <code>llvm-ar -x</code> to extract object files from the Rust combined staticlib and supplying them to the linker, the Rust code appears in the final modem image.</p>\n\n<p>There was a performance issue we experienced due to weak symbols during linking. The inclusion of Rust <code>core</code> and <code>compiler-builtin</code> caused unexpected power and performance regressions on various tests. Upon analysis, we realized that modem optimized implementations of <code>memset</code> and <code>memcpy</code> provided by the modem firmware are accidentally replaced by those defined in <code>compiler_builtin</code>. It seems to happen because both <code>compiler_builtin</code> crate and the existing codebase defines symbols as weak, linker has no way to figure out which one is weaker. We fixed the regression by stripping the <code>compiler_builtin</code> crate before linking using a one line shell script.</p>\n\n<pre><code class=\"language-bash\">llvm-ar -t &lt;rust staticlib&gt; | grep compiler_builtins | xargs llvm-ar -d &lt;rust staticlib&gt;\n</code></pre>\n\n<h3>Integrating hickory-proto</h3>\n\n<h2>Expose Rust API and calling back to C++</h2>\n<p>For the DNS parser, we declared the DNS response parsing API in C and then implemented <a href=\"https://security.googleblog.com/2024/09/deploying-rust-in-existing-firmware.html#:~:text=Exposing%20the%20Same%20API\">the same API</a> in Rust.</p>\n\n<pre><code class=\"language-c\">int32_t process_dns_response(uint8_t*, int32_t);\n</code></pre>\n\n<p>The Rust function returns an integer standing for the error code. The received DNS answers in the DNS response are required to be updated to in-memory data structures that are coupled with the original C implementation, therefore, we use existing C functions to do it. The existing C functions are dispatched from the Rust implementation.</p>\n\n<pre><code class=\"language-rust\">pub unsafe extern \"C\" fn process_dns_response(\n    dns_response: *const u8,\n    response_len: i32,\n) -&gt; i32 {\n    //... validate inputs `dns_response` and `response_len`.\n\n\n    // SAFETY:\n    // It is safe because `dns_response` is null checked above. `response_len`\n    // is passed in, safe as long as it is set correctly by vendor code.\n    match process_response(unsafe {\n        slice::from_raw_parts(dns_response, response_len)\n    }) {\n         Ok(()) =&gt; 0,\n         Err(err) =&gt; err.into(),\n    }\n}\n\nfn process_response(response: &amp;[u8]) -&gt; Result&lt;()&gt; {\n    let response = hickory_proto::op::Message::from_bytes(response)?;\n    let response = hickory_proto::xfer::DnsResponse::from_message(response)?;\n\n   \n    for answer in response.answers() {  \n        match answer.record_type() {\n            hickory_proto::RecordType:... =&gt; {\n                // SAFETY:\n                // It is safe because the callback function does not store\n                // reference of the inputs or their members.\n                unsafe {\n                    callback_to_c_function(...)?;\n                }\n            }\n            \n            // ... more match arms omitted.\n        }    \n    }\n\n    Ok(())\n}\n</code></pre>\n\n<p>In our case, the DNS responding parsing function API is simple enough for us to hand write, while the callbacks back to C functions for handling the response have complex data type conversions. Therefore, we leveraged bindgen to generate FFI code for the callbacks.</p>\n\n<h2>Build third-party crates</h2>\n<p>Even with all features disabled, hickory-proto introduces more than 30 dependent crates. Manually written build rules are difficult to ensure correctness and scale poorly when upgrading dependencies into new versions.</p>\n\n<p>Fuchsia has developed <a href=\"https://fuchsia.googlesource.com/fuchsia/+/master/tools/cargo-gnaw/\"><code>cargo-gnaw</code></a> to support building their third party Rust crates. <code>Cargo-gnaw</code> works by invoking <code>cargo metadata</code> to resolve dependencies, then parse and generate GN build rules. This ensures correctness and ease of maintenance.</p>\n\n<h3>Conclusion</h3>\n<p>The Pixel 10 series of phones marks a pivotal moment, being the first Pixel device to integrate a memory-safe language into its modem.</p>\n\n<p>While replacing one piece of risky attack surface is itself valuable, this project lays the foundation for future integration of memory-safe parsers and code into the cellular baseband, ensuring the baseband’s security posture will <a href=\"https://security.googleblog.com/2024/09/eliminating-memory-safety-vulnerabilities-Android.html#:~:text=Final%20thoughts\">continue to improve</a> as development continues.</p>\n\n\n<i>Special thanks to Armando Montanez, Bjorn Mellem, Boky Chen, Cheng-Yu Tsai, Dominik Maier, Erik Gilling, Ever Rosales, Hungyen Weng, Ivan Lozano, James Farrell, Jeffrey Vander Stoep, Jiacheng Lu, Jingjing Bu, Min Xu, Murphy Stein, Ray Weng, Shawn Yang, Sherk Chung, Stephan Chen, Stephen Hines.</i>",
     "link": "http://security.googleblog.com/2026/04/bringing-rust-to-pixel-baseband.html",
@@ -90,6 +100,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Microsoft Active Directory Services 0-Day Vulnerability Actively Exploited in the Wild",
+    "summary": "<p>Microsoft has released security updates for CVE-2026-56155, an actively exploited elevation-of-privilege vulnerability in Active Directory Federation Services (AD FS). This flaw allows an authenticated local attacker with low privileges to gain administrator-level access on affected systems. CVE-2026-56155 stems from insufficient granularity in access control within AD FS, a Microsoft service commonly utilized by organizations for [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/active-directory-services-0-day-exploited/\">Microsoft Active Directory Services 0-Day Vulnerability Actively Exploited in the Wild</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/active-directory-services-0-day-exploited/",
+    "published": "2026-07-15T05:12:18",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 1831,
+    "also_covered_by": []
+  },
+  {
     "title": "Pickle in the Middle – Hijacking Vertex AI Model Uploads for Cross-Tenant RCE",
     "summary": "<p>Unit 42 discovered a Vertex AI Python SDK vulnerability that allows remote code execution via bucket squatting. Read the article for more. </p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/hijacking-vertex-ai-model/\">Pickle in the Middle – Hijacking Vertex AI Model Uploads for Cross-Tenant RCE</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
     "link": "https://unit42.paloaltonetworks.com/hijacking-vertex-ai-model/",
@@ -127,6 +147,16 @@
     "source": "helpnetsecurity.com",
     "category": "Vulnerability",
     "importance_score": 1700,
+    "also_covered_by": []
+  },
+  {
+    "title": "Critical SonicWall SMA 1000 SSRF and Remote Code Execution Flaws Actively Exploited in the Wild",
+    "summary": "<p>SonicWall has issued a security advisory regarding two vulnerabilities affecting the SMA1000 Series appliances. Among these, a critical server-side request forgery (SSRF) flaw has been identified, which carries a maximum CVSS score of 10.0. The company has confirmed that threat actors are actively exploiting these vulnerabilities, increasing the urgency for enterprises that rely on these [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-sonicwall-sma-1000-ssrf-and-remote-code-execution-flaws/\">Critical SonicWall SMA 1000 SSRF and Remote Code Execution Flaws Actively Exploited in the Wild</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/critical-sonicwall-sma-1000-ssrf-and-remote-code-execution-flaws/",
+    "published": "2026-07-15T06:45:31",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 1686,
     "also_covered_by": []
   },
   {
@@ -360,6 +390,26 @@
     "also_covered_by": []
   },
   {
+    "title": "Massive Microsoft Patch Tuesday Update: 570 Vulnerabilities Fixed, Including 3 Zero-Days",
+    "summary": "<p>Microsoft&#8217;s July 2026 Patch Tuesday delivers fixes for approximately 570 vulnerabilities across its product ecosystem, following June&#8217;s record-breaking release of 206 flaws that also included three publicly disclosed zero-days. This massive patch follows the recent Microsoft update on artificial intelligence in vulnerability discovery, deploying a proprietary multi-model agentic scanning system across the Windows codebase CVE [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-patch-tuesday-update-july-2026/\">Massive Microsoft Patch Tuesday Update: 570 Vulnerabilities Fixed, Including 3 Zero-Days</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/microsoft-patch-tuesday-update-july-2026/",
+    "published": "2026-07-14T17:47:22",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 1233,
+    "also_covered_by": []
+  },
+  {
+    "title": "Windows BitLocker 0‑Day Vulnerability Allows Hackers to Bypass Security Feature",
+    "summary": "<p>A newly disclosed Windows BitLocker 0‑day vulnerability, tracked as CVE-2026-50661, exposes encrypted devices to physical attacks that can completely undermine Microsoft’s disk encryption guarantees. The flaw, classified as a security feature bypass, stems from a protection mechanism failure in BitLocker’s device encryption workflow, allowing an unauthorized attacker with hands-on access to a system to circumvent [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/windows-bitlocker-0-day-vulnerability-2/\">Windows BitLocker 0‑Day Vulnerability Allows Hackers to Bypass Security Feature</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/windows-bitlocker-0-day-vulnerability-2/",
+    "published": "2026-07-15T03:10:30",
+    "source": "cybersecuritynews.com",
+    "category": "Ransomware",
+    "importance_score": 1224,
+    "also_covered_by": []
+  },
+  {
     "title": "Microsoft July 2026 Patch Tuesday fixes massive 570 flaws, 3 zero-days",
     "summary": "Today is Microsoft's July 2026 Patch Tuesday, and with it comes security updates for a record-breaking 570 flaws, including two zero-day vulnerabilities exploited in attacks and one publicly disclosed. [...]",
     "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-july-2026-patch-tuesday-fixes-massive-570-flaws-3-zero-days/",
@@ -457,6 +507,16 @@
     "source": "cyberscoop.com",
     "category": "Ransomware",
     "importance_score": 1097,
+    "also_covered_by": []
+  },
+  {
+    "title": "New LegacyHive Windows 0-day Vulnerability Allows Users  to Load Another User’s Registry",
+    "summary": "<p>A proof-of-concept exploit dubbed LegacyHive has been released, enabling a Windows elevation-of-privilege vulnerability in the Windows User Profile Service that allows a standard user to load another user&#8217;s registry hive under their own registry classes root. Registry hives are files that store configuration data for Windows, services, applications, and user profiles. Improperly loading or exposing [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/legacyhive-windows-0-day-vulnerability/\">New LegacyHive Windows 0-day Vulnerability Allows Users  to Load Another User&#8217;s Registry</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/legacyhive-windows-0-day-vulnerability/",
+    "published": "2026-07-15T06:00:34",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 1075,
     "also_covered_by": []
   },
   {
@@ -640,6 +700,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Hackers Abuse OAuth Device Codes and Entra ID Enrollment for Persistent SaaS Access",
+    "summary": "<p>AI-enabled phishing-as-a-service operations are driving a sharp increase in identity attacks in 202620262026, with threat actors increasingly abusing OAuth device authorization flows and Microsoft Entra ID device enrollment to obtain durable access to SaaS environments. Jalisco is a device code phishing toolkit that generates OAuth device codes in real time and captures the tokens issued [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/oauth-device-codes-and-entra-id-abused/\">Hackers Abuse OAuth Device Codes and Entra ID Enrollment for Persistent SaaS Access</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/oauth-device-codes-and-entra-id-abused/",
+    "published": "2026-07-15T06:37:53",
+    "source": "gbhackers.com",
+    "category": "Phishing / Scams",
+    "importance_score": 877,
+    "also_covered_by": []
+  },
+  {
     "title": "Threat landscape for industrial automation systems. Q1 2026",
     "summary": "This report contains industrial threat statistics for Q1 2026, including industrial threat distribution by type, source, region and industry.",
     "link": "https://securelist.com/industrial-threat-report-q1-2026/120643/",
@@ -760,6 +830,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Artlist ClickFix Campaign Uses Infostealer-Stolen WordPress Credentials to Deploy RAT Malware",
+    "summary": "<p>A threat campaign discovered in mid-July 2026 abused the compromised Artlist subdomain new-blog. artlist[.]io to distribute a Remote Access Trojan through a fake CAPTCHA prompt. The operation combined stolen WordPress credentials, blockchain-based EtherHiding infrastructure, ClickFix social engineering, DLL side-loading, and a Tor-backed command-and-control fallback. The incident affected a high-value web property. Similarweb data indicates that [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/artlist-clickfix-campaign/\">Artlist ClickFix Campaign Uses Infostealer-Stolen WordPress Credentials to Deploy RAT Malware</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/artlist-clickfix-campaign/",
+    "published": "2026-07-15T05:25:02",
+    "source": "gbhackers.com",
+    "category": "Phishing / Scams",
+    "importance_score": 741,
+    "also_covered_by": []
+  },
+  {
     "title": "New MacOS Malware Exploits Legitimate Developer ID to Pose as Apple Crash Reporter",
     "summary": "Researchers at Jamf Threat Labs detail CrashStealer, which steals passwords, cryptocurrency wallets and more",
     "link": "https://www.infosecurity-magazine.com/news/macos-malware-apple-crash-reporter/",
@@ -850,6 +930,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Google Chrome 150 Update Fixes 15 Security Vulnerabilities, Including 2 Critical Use-After-Free Flaws",
+    "summary": "<p>Google Chrome version 150 addresses vulnerabilities in several core browser components, including Ozone, Skia, V8, GPU, Media, UI, Navigation, libyuv, and Linux Toolkit Theming. Among the updates, two critical vulnerabilities, designated as CVE-2026-15764 and CVE-2026-15765, involve use-after-free issues in Ozone, which serves as Chrome&#8217;s platform abstraction layer for supporting graphics and window-system integrations across various [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/google-chrome-150-update-fixes-15-security-vulnerabilities/\">Google Chrome 150 Update Fixes 15 Security Vulnerabilities, Including 2 Critical Use-After-Free Flaws</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/google-chrome-150-update-fixes-15-security-vulnerabilities/",
+    "published": "2026-07-15T06:32:33",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 649,
+    "also_covered_by": []
+  },
+  {
     "title": "ARToken: Inside an EvilTokens affiliate panel targeting Microsoft 365",
     "summary": "Talos has identified \"ARToken,\" a phishing-as-a-service platform that targets Microsoft 365. The ARToken panel exposes 80+ API endpoints for device code phishing, Primary Refresh Token persistence, email access, BEC operations, and SharePoint exfiltration.",
     "link": "https://blog.talosintelligence.com/artoken-inside-an-eviltokens-affiliate-panel-targeting-microsoft-365/",
@@ -857,6 +947,16 @@
     "source": "blog.talosintelligence.com",
     "category": "Phishing / Scams",
     "importance_score": 649,
+    "also_covered_by": []
+  },
+  {
+    "title": "Fortinet Patches 7 Security Flaws Affecting FortiOS, FortiProxy, FortiPAM, FortiSASE, and FortiSandbox",
+    "summary": "<p>Fortinet has released security updates for seven vulnerabilities affecting FortiOS, FortiProxy, FortiPAM, FortiSASE, and FortiSandbox, including a high-severity flaw that could expose Virtual Network Computing (VNC) access across all network interfaces. The advisories, published by the Fortinet Product Security Incident Response Team (PSIRT) on July 1414, 20262026, cover weaknesses ranging from unauthenticated cross-site scripting and header injection [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fortinet-patches-7-security-flaws/\">Fortinet Patches 7 Security Flaws Affecting FortiOS, FortiProxy, FortiPAM, FortiSASE, and FortiSandbox</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/fortinet-patches-7-security-flaws/",
+    "published": "2026-07-15T06:02:08",
+    "source": "gbhackers.com",
+    "category": "Policy / Law",
+    "importance_score": 646,
     "also_covered_by": []
   },
   {
@@ -890,6 +990,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Microsoft Fixes Multiple Windows RDP Flaws Exposing Sensitive Data Over the Network",
+    "summary": "<p>Microsoft has addressed multiple information-disclosure vulnerabilities in the Windows Remote Desktop Protocol (RDP). This widely used service enables remote administration and access to Windows systems. The five flaws could permit attackers to retrieve information from vulnerable hosts, potentially exposing data held in application memory during an RDP session. Microsoft Fixes Multiple Windows RDP Flaws All [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/microsoft-fixes-multiple-windows-rdp-flaws/\">Microsoft Fixes Multiple Windows RDP Flaws Exposing Sensitive Data Over the Network</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/microsoft-fixes-multiple-windows-rdp-flaws/",
+    "published": "2026-07-15T07:03:10",
+    "source": "gbhackers.com",
+    "category": "Policy / Law",
+    "importance_score": 633,
+    "also_covered_by": []
+  },
+  {
     "title": "Why Holistic Sourcing Wins: The Numbers Behind the Recorded Future Advantage",
     "summary": "Recorded Future’s Intelligence Graph® uses holistic sourcing across 1M+ sources for complete threat intelligence and proactive defense.",
     "link": "https://www.recordedfuture.com/blog/recorded-future-holistic-sourcing-wins",
@@ -900,6 +1010,36 @@
     "also_covered_by": []
   },
   {
+    "title": "Hackers Spoof 3.7 Million OAuth Client IDs to Stealthily Enumerate 2 Million Entra ID Users",
+    "summary": "<p>Threat actors are increasingly exploiting spoofed OAuth client IDs to enumerate Microsoft Entra ID accounts and identify potentially valid credentials while evading traditional detection methods, according to recent research from Proofpoint. OAuth client IDs are globally unique identifiers assigned to registered applications. During authentication, an application submits its identifier through the client_id parameter. Microsoft Entra [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-spoof-oauth-client-ids/\">Hackers Spoof 3.7 Million OAuth Client IDs to Stealthily Enumerate 2 Million Entra ID Users</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/hackers-spoof-oauth-client-ids/",
+    "published": "2026-07-14T17:04:14",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 630,
+    "also_covered_by": []
+  },
+  {
+    "title": "Fortinet Patches Seven Vulnerabilities Across FortiOS, FortiProxy, FortiPAM, and FortiSandbox",
+    "summary": "<p>Fortinet disclosed seven new security advisories on July 14, 2026, affecting FortiOS, FortiProxy, FortiPAM, and FortiSandbox. The flaws range from low-severity header injection bugs to medium-severity buffer overflows and a notably concerning unauthenticated VNC exposure in FortiSandbox. While none carry a critical rating, several affect widely deployed enterprise firewall and proxy versions, making prompt patching [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fortinet-patches-seven-vulnerabilities/\">Fortinet Patches Seven Vulnerabilities Across FortiOS, FortiProxy, FortiPAM, and FortiSandbox</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/fortinet-patches-seven-vulnerabilities/",
+    "published": "2026-07-14T17:21:44",
+    "source": "cybersecuritynews.com",
+    "category": "Policy / Law",
+    "importance_score": 628,
+    "also_covered_by": []
+  },
+  {
+    "title": "Critical Claude for Chrome Flaw Lets Malicious Extensions Read Gmail, Google Docs, and Calendar",
+    "summary": "<p>Two vulnerabilities in Anthropic’s Claude for Chrome extension could allow a malicious browser extension to trigger AI-driven actions affecting a victim’s Gmail, Google Docs, and Google Calendar data. These issues are still reproducible in Claude for Chrome version 1.0.801.0, released on July 7, 2026, even after being reported to Anthropic in May. The primary issue [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-claude-for-chrome-flaw/\">Critical Claude for Chrome Flaw Lets Malicious Extensions Read Gmail, Google Docs, and Calendar</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/critical-claude-for-chrome-flaw/",
+    "published": "2026-07-15T06:19:12",
+    "source": "gbhackers.com",
+    "category": "Policy / Law",
+    "importance_score": 622,
+    "also_covered_by": []
+  },
+  {
     "title": "Hacker Extradited from Ukraine Pleads Guilty to Ryuk Ransomware Charges",
     "summary": "An Armenian man has pleaded guilty to his role in the infamous Ryuk ransomware operation",
     "link": "https://www.infosecurity-magazine.com/news/hacker-extradited-ukraine-guilty/",
@@ -907,6 +1047,16 @@
     "source": "infosecurity-magazine.com",
     "category": "Ransomware",
     "importance_score": 622,
+    "also_covered_by": []
+  },
+  {
+    "title": "Claude for Chrome Vulnerability Lets Attackers Read Gmail, Docs, and Calendar Data",
+    "summary": "<p>Anthropic&#8217;s Claude for Chrome browser extension has two unpatched flaws that allow attackers to read a victim&#8217;s Gmail, Google Docs, and Calendar data using just six lines of JavaScript, even after eight subsequent releases. Manifold researchers first reported the issues in May 2026, yet both remain reproducible in the latest v1.0.80, released July 7, 2026. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/claude-for-chrome-vulnerability/\">Claude for Chrome Vulnerability Lets Attackers Read Gmail, Docs, and Calendar Data</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/claude-for-chrome-vulnerability/",
+    "published": "2026-07-14T16:12:35",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 611,
     "also_covered_by": []
   },
   {
@@ -1100,6 +1250,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Notepad++ v8.9.7 Security Update Fixes 5 Vulnerabilities, Including Stack Buffer Overflow and Zip Slip Flaws",
+    "summary": "<p>Notepad++ has released version 8.9.7, codenamed “Slava Ukraini.” This update addresses five security vulnerabilities related to session-file handling, environment-variable expansion, ZIP extraction, macro validation, and the Windows installation process. The release date was July 14, 2026, and includes three CVE-tracked vulnerabilities as well as two additional GitHub Security Advisories that have not yet received CVE [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/notepad-v8-9-7-security-update-fixes-5-vulnerabilities/\">Notepad++ v8.9.7 Security Update Fixes 5 Vulnerabilities, Including Stack Buffer Overflow and Zip Slip Flaws</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/notepad-v8-9-7-security-update-fixes-5-vulnerabilities/",
+    "published": "2026-07-15T05:51:11",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 495,
+    "also_covered_by": []
+  },
+  {
     "title": "CL-STA-1062 Targets Southeast Asian Governments and Critical Infrastructure",
     "summary": "<p>Government entities and critical infrastructure were targeted for espionage in SE Asia by attackers using a hybrid toolkit, including custom TinyRCT backdoor. </p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/cl-sta-1062-tinyrct-backdoor/\">CL-STA-1062 Targets Southeast Asian Governments and Critical Infrastructure</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
     "link": "https://unit42.paloaltonetworks.com/cl-sta-1062-tinyrct-backdoor/",
@@ -1160,6 +1320,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Tego AI Finds Claude Tag Slack Integration Can Trigger Unauthorized Enterprise Actions",
+    "summary": "<p>Tel Aviv, Israel, July 14th, 2026, CyberNewswire Cybersecurity start-up Tego AI reveals that the new Anthropic’s native slack integration, Claude Tag, can be triggered by non-intentional Slack content and drive unauthorized actions across enterprise systems. Tego AI, a cybersecurity company, published new research identifying a potentially critical security weakness in Claude Tag, Anthropic’s native integration [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/tego-ai-finds-claude-tag-slack-integration-can-trigger-unauthorized-enterprise-actions/\">Tego AI Finds Claude Tag Slack Integration Can Trigger Unauthorized Enterprise Actions</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/tego-ai-finds-claude-tag-slack-integration-can-trigger-unauthorized-enterprise-actions/",
+    "published": "2026-07-14T19:33:41",
+    "source": "cybersecuritynews.com",
+    "category": "AI & Security",
+    "importance_score": 487,
+    "also_covered_by": []
+  },
+  {
     "title": "Every iPhone model that supports iOS 27 (and which older ones don't)",
     "summary": "Here's a breakdown of which iPhone models support the next iOS update (now available on public beta) - and which ones Apple is leaving behind.",
     "link": "https://www.zdnet.com/article/which-iphone-model-supports-ios-27-update/",
@@ -1167,6 +1337,16 @@
     "source": "zdnet.com",
     "category": "AI & Security",
     "importance_score": 485,
+    "also_covered_by": []
+  },
+  {
+    "title": "China-Linked Hackers Weaponize Claude Code and DeepSeek in Government Intrusion Campaign",
+    "summary": "<p>A suspected China-linked threat actor has integrated Anthropic’s Claude Code and DeepSeek-v4-pro into an active intrusion campaign targeting government entities, Taiwanese industry, and financial-services organizations. TencShell was first documented by Cato CTRL in May and assessed as linked to suspected China-based activity. A shared HTTP header fingerprint on port 111111111111 led researchers to 131313 Hong [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/claude-code-and-deepseek-weaponized/\">China-Linked Hackers Weaponize Claude Code and DeepSeek in Government Intrusion Campaign</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/claude-code-and-deepseek-weaponized/",
+    "published": "2026-07-15T06:06:30",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 483,
     "also_covered_by": []
   },
   {
@@ -1250,6 +1430,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Multiple Notepad++ Vulnerabilities Enable PowerShell Command Injection Attacks",
+    "summary": "<p>Notepad++ v8.9.7 has been released with critical security fixes addressing multiple vulnerabilities, including a high-risk PowerShell command injection flaw that could enable arbitrary code execution during installation. The update resolves five distinct issues spanning path traversal, buffer overflow, and authentication bypass weaknesses, reinforcing the security posture of one of the most widely used Windows text [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/notepad-vulnerabilities-command-injection/\">Multiple Notepad++ Vulnerabilities Enable PowerShell Command Injection Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/notepad-vulnerabilities-command-injection/",
+    "published": "2026-07-15T04:18:14",
+    "source": "cybersecuritynews.com",
+    "category": "Policy / Law",
+    "importance_score": 475,
+    "also_covered_by": []
+  },
+  {
     "title": "These 5 gadgets will upgrade your Apple Watch - and I recommend them",
     "summary": "These are my tried-and-true favorite Apple Watch accessories, and some of them are on sale now.",
     "link": "https://www.zdnet.com/article/apple-watch-accessories-2026/",
@@ -1257,6 +1447,16 @@
     "source": "zdnet.com",
     "category": "Other",
     "importance_score": 473,
+    "also_covered_by": []
+  },
+  {
+    "title": "Gamers Download Fake Cheats and Hand Attackers a Live Remote Control of Their Windows PCs",
+    "summary": "<p>New research uncovered 11 malicious NuGet packages disguised as game cheats, bots, and management panels for popular online titles. The campaign targets gaming communities playing titles such as Albion Online, GTA5RP, GrandRP, Majestic RP, and Throne and Liberty. Once installed, these packages quietly deploy a remote-access payload that captures live screenshots of victims&#8217; machines, exposing [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/game-fake-cheats-remote-access/\">Gamers Download Fake Cheats and Hand Attackers a Live Remote Control of Their Windows PCs</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/game-fake-cheats-remote-access/",
+    "published": "2026-07-15T06:37:41",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 470,
     "also_covered_by": []
   },
   {
@@ -1326,16 +1526,6 @@
     "published": "2026-07-14T11:55:00",
     "source": "thehackernews.com",
     "category": "Data Breach",
-    "importance_score": 437,
-    "also_covered_by": []
-  },
-  {
-    "title": "148 npm Packages Disguised as Student Proxies Turned Browsers Into a DDoS Botnet",
-    "summary": "A campaign of 148 npm packages disguised as student web proxies turned visitors' browsers into a distributed denial-of-service botnet for roughly two weeks in May, according to new research from&nbsp;JFrog.\n\nThe packages did not go after the developers who might install them. The operators used the registry as free hosting for a booby-trapped proxy site and let the students who came to dodge",
-    "link": "https://thehackernews.com/2026/07/148-npm-packages-disguised-as-student.html",
-    "published": "2026-07-14T07:08:36",
-    "source": "thehackernews.com",
-    "category": "Other",
     "importance_score": 437,
     "also_covered_by": []
   },
@@ -1777,6 +1967,16 @@
     "source": "infosecurity-magazine.com",
     "category": "Other",
     "importance_score": 273,
+    "also_covered_by": []
+  },
+  {
+    "title": "148 npm Packages Disguised as Student Proxies Turned Browsers Into a DDoS Botnet",
+    "summary": "A campaign of 148 npm packages disguised as student web proxies turned visitors' browsers into a distributed denial-of-service botnet for roughly two weeks in May, according to new research from&nbsp;JFrog.\n\nThe packages did not go after the developers who might install them. The operators used the registry as free hosting for a booby-trapped proxy site and let the students who came to dodge",
+    "link": "https://thehackernews.com/2026/07/148-npm-packages-disguised-as-student.html",
+    "published": "2026-07-14T07:08:36",
+    "source": "thehackernews.com",
+    "category": "Other",
+    "importance_score": 272,
     "also_covered_by": []
   },
   {

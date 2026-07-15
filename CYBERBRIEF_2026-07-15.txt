@@ -1,10 +1,10 @@
 CYBERBRIEF • DAILY THREAT INTELLIGENCE
-Generated: Wednesday, July 15, 2026 - 07:10 UTC
+Generated: Wednesday, July 15, 2026 - 07:12 UTC
 ================================================================================
 
-Total topics: 293    •    Scanned raw articles: 294
+Total topics: 313    •    Scanned raw articles: 314
 Severity breakdown:
-  CRITICAL: 7  |  HIGH: 11  |  MEDIUM: 50  |  LOW: 225
+  CRITICAL: 8  |  HIGH: 13  |  MEDIUM: 54  |  LOW: 238
 
 Top 7 active threats:
 
@@ -26,35 +26,35 @@ Top 7 active threats:
    Published: 2025-10-28T17:01:00
    Link     : http://security.googleblog.com/2025/10/https-by-default.html
 
-4. Alert Triangle  security.googleblog.com  [News Site]
+4. Alert Triangle  gbhackers.com  [News Site]
+   Title    : Microsoft Patch Tuesday July 2026 – Record 570 Vulnerabilities Patched
+   Category : Vulnerability    •    Severity: CRITICAL (score: 2423)
+   Published: 2026-07-15T05:20:41
+   Link     : https://gbhackers.com/microsoft-patch-tuesday-july-2026-record-570-vulnerabilities-patched/
+
+5. Alert Triangle  security.googleblog.com  [News Site]
    Title    : Bringing Rust to the Pixel Baseband
    Category : Ransomware    •    Severity: CRITICAL (score: 2380)
    Published: 2026-04-10T15:12:00
    Link     : http://security.googleblog.com/2026/04/bringing-rust-to-pixel-baseband.html
 
-5. Alert Triangle  security.googleblog.com  [News Site]
+6. Alert Triangle  security.googleblog.com  [News Site]
    Title    : Rust in Android: move fast and fix things
    Category : Ransomware    •    Severity: CRITICAL (score: 2380)
    Published: 2025-11-13T16:59:00
    Link     : http://security.googleblog.com/2025/11/rust-in-android-move-fast-fix-things.html
 
-6. Alert Triangle  thecyberexpress.com  [Link]
+7. Alert Triangle  thecyberexpress.com  [Link]
    Title    : Three Russians Indicted in $62M Cybercrime Scheme Targeting U.S. Infrastructure
    Category : Ransomware    •    Severity: CRITICAL (score: 2350)
    Published: 2026-07-15T05:02:20
    Link     : https://thecyberexpress.com/russian-cybercrime-indictment/
-
-7. Alert Triangle  thecyberexpress.com  [Link]
-   Title    : Vishing Call Becomes Key Lead in Massive Odido Cyberattack
-   Category : Ransomware    •    Severity: CRITICAL (score: 2350)
-   Published: 2026-07-13T06:32:53
-   Link     : https://thecyberexpress.com/odido-cyberattack-update/
 
 Security Tips:
 • Never trust unsolicited links or attachments in email or messaging apps.
 • Enable multi-factor authentication (MFA) on email, banking, and admin accounts.
 • Keep browsers, VPNs, and endpoint security fully patched.
 
-Scanned 294 articles • Top 7 topics selected
+Scanned 314 articles • Top 7 topics selected
 Next planned auto-update: 08:00 AM UTC
 Stay safe, stay sharp!
