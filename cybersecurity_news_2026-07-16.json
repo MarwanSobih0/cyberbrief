@@ -120,6 +120,16 @@
     "also_covered_by": []
   },
   {
+    "title": "GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware",
+    "summary": "<p>GigaWiper, also tracked as BLUERABBIT, is a destructive backdoor that combines multiple wiping and ransomware-like capabilities into a single operational platform. This blog analyzes how the malware incorporates code from several previously separate malware families and provides guidance to help defenders detect and defend against similar threats.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/07/09/gigawiper-anatomy-of-a-destructive-backdoor-assembled-from-multiple-malware/\">GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/09/gigawiper-anatomy-of-a-destructive-backdoor-assembled-from-multiple-malware/",
+    "published": "2026-07-09T15:00:00",
+    "source": "microsoft.com",
+    "category": "Ransomware",
+    "importance_score": 1785,
+    "also_covered_by": []
+  },
+  {
     "title": "The npm Threat Landscape: Attack Surface and Mitigations (Updated July 15)",
     "summary": "<p>Unit 42 analyzes npm supply chain evolution post-Shai Hulud. Discover wormable malware, CI/CD persistence, multi-stage attacks and more. </p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/\">The npm Threat Landscape: Attack Surface and Mitigations (Updated July 15)</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
     "link": "https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/",
@@ -300,6 +310,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Defending SaaS-based applications against ShinyHunters OAuth abuse",
+    "summary": "<p>Microsoft Threat Intelligence identified threat actor activity with overlapping tradecraft commonly associated with ShinyHunters, including voice phishing (vishing), supply-chain compromise, and misconfigured guest access targeting SaaS-based applications.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/07/13/defending-saas-based-applications-against-shinyhunters-oauth-abuse/\">Defending SaaS-based applications against ShinyHunters OAuth abuse</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/13/defending-saas-based-applications-against-shinyhunters-oauth-abuse/",
+    "published": "2026-07-13T22:02:41",
+    "source": "microsoft.com",
+    "category": "Phishing / Scams",
+    "importance_score": 1325,
+    "also_covered_by": []
+  },
+  {
     "title": "Researcher Drops New Windows Zero-Day PoC Hours After Microsoft Patch Tuesday",
     "summary": "Security researcher Chaotic Eclipse (aka Nightmare-Eclipse) has released a new proof-of-concept (PoC) exploit called LegacyHive.\n\nIt has been described as a Windows User Profile Service arbitrary hive load elevation of privileges vulnerability. The Windows User Profile Service, also referred to as ProfSvc, is a core system component that manages user accounts and environments.\n\n\"The PoC requires",
     "link": "https://thehackernews.com/2026/07/researcher-drops-new-windows-zero-day.html",
@@ -347,6 +367,16 @@
     "source": "helpnetsecurity.com",
     "category": "Ransomware",
     "importance_score": 1200,
+    "also_covered_by": []
+  },
+  {
+    "title": "Unpacking the AsyncAPI npm supply chain compromise and import-time payload delivery",
+    "summary": "<p>Threat actors compromised AsyncAPI packages and weaponized trusted CI/CD workflows to distribute malware through npm. This analysis breaks down the attack chain, payload delivery, and recommended defenses.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/07/15/unpacking-asyncapi-npm-supply-chain-compromise-import-time-payload-delivery/\">Unpacking the AsyncAPI npm supply chain compromise and import-time payload delivery</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/15/unpacking-asyncapi-npm-supply-chain-compromise-import-time-payload-delivery/",
+    "published": "2026-07-16T01:36:21",
+    "source": "microsoft.com",
+    "category": "Other",
+    "importance_score": 1176,
     "also_covered_by": []
   },
   {
@@ -710,6 +740,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Turning threat intelligence into decisive action with Defender Experts",
+    "summary": "<p>Security teams have never had more visibility, yet rarely have they felt more uncertain. Signal pours in from endpoints, identities, cloud workloads, and a sprawling mix of third-party tools.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/07/15/turning-threat-intelligence-into-decisive-action-with-defender-experts/\">Turning threat intelligence into decisive action with Defender Experts</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/15/turning-threat-intelligence-into-decisive-action-with-defender-experts/",
+    "published": "2026-07-15T16:00:35",
+    "source": "microsoft.com",
+    "category": "Other",
+    "importance_score": 814,
+    "also_covered_by": []
+  },
+  {
     "title": "OkoBot: new sophisticated malware framework targets cryptocurrency users",
     "summary": "Kaspersky GReAT experts dissect the new OkoBot campaign targeting cryptocurrency users. This complex framework employs TookPS, exfiltrates seed phrases, monitors Chromium-based browsers, and installs various malware strains, including the Rilide stealer.",
     "link": "https://securelist.com/okobot-framework-targets-cryptocurrency-wallets/120660/",
@@ -1017,6 +1057,16 @@
     "source": "cybersecuritynews.com",
     "category": "AI & Security",
     "importance_score": 617,
+    "also_covered_by": []
+  },
+  {
+    "title": "Microsoft Entra ID security updates: Passkeys are the default authentication method in Entra ID",
+    "summary": "<p>Microsoft Entra ID makes passkeys the default sign-in experience and introduces a new model for SMS and voice authentication. Read about how to prepare.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/07/13/microsoft-entra-id-security-updates-passkeys-are-the-default-authentication-method-in-entra-id/\">Microsoft Entra ID security updates: Passkeys are the default authentication method in Entra ID</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/13/microsoft-entra-id-security-updates-passkeys-are-the-default-authentication-method-in-entra-id/",
+    "published": "2026-07-13T17:00:00",
+    "source": "microsoft.com",
+    "category": "AI & Security",
+    "importance_score": 609,
     "also_covered_by": []
   },
   {
@@ -1360,6 +1410,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Protecting Microsoft at AI speed: How SFI proactively hardens our cloud",
+    "summary": "<p>At Microsoft we encompass these security requirements, along with threat knowledge, and operational frameworks in our Secure Future Initiative (SFI), to guide what a well-defended cloud service looks like. But defining the requirements is only the start. Meeting the requirements means continuously evaluating our live services against them, at AI speed.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/07/08/protecting-microsoft-at-ai-speed-how-sfi-proactively-hardens-our-cloud/\">Protecting Microsoft at AI speed: How SFI proactively hardens our cloud  </a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/08/protecting-microsoft-at-ai-speed-how-sfi-proactively-hardens-our-cloud/",
+    "published": "2026-07-08T17:00:00",
+    "source": "microsoft.com",
+    "category": "AI & Security",
+    "importance_score": 453,
+    "also_covered_by": []
+  },
+  {
     "title": "White House Launches AI-Driven ‘Gold Eagle’ Vulnerability Coordination Initiative",
     "summary": "<p>The new program stems from an AI-focused Executive Order signed by President Trump on June 2.</p>\n<p>The post <a href=\"https://www.securityweek.com/white-house-launches-ai-driven-gold-eagle-vulnerability-coordination-initiative/\">White House Launches AI-Driven &#8216;Gold Eagle&#8217; Vulnerability Coordination Initiative</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
     "link": "https://www.securityweek.com/white-house-launches-ai-driven-gold-eagle-vulnerability-coordination-initiative/",
@@ -1490,6 +1550,16 @@
     "also_covered_by": []
   },
   {
+    "title": "5 insights from Frost & Sullivan’s 2025 Frost Radar™ for Cloud Security Posture Management",
+    "summary": "<p>Read five key learnings from the Frost &#038; Sullivan 2025 Frost Radar™ for CSPM to learn how CSPM is evolving from point-in-time compliance to continuous risk management.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/07/06/5-insights-from-frost-sullivans-2025-frost-radar-for-cloud-security-posture-management/\">5 insights from Frost &amp; Sullivan’s 2025 Frost Radar™ for Cloud Security Posture Management</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/06/5-insights-from-frost-sullivans-2025-frost-radar-for-cloud-security-posture-management/",
+    "published": "2026-07-06T16:00:00",
+    "source": "microsoft.com",
+    "category": "Policy / Law",
+    "importance_score": 403,
+    "also_covered_by": []
+  },
+  {
     "title": "Microsoft discloses ‘the mother of all’ vulnerability loads, tripling June’s previous record",
     "summary": "<p>The company forewarned customers and defenders that a flood of defects would be uncovered by AI. It delivered with a striking exponential increase.</p>\n<p>The post <a href=\"https://cyberscoop.com/microsoft-patch-tuesday-july-2026/\">Microsoft discloses ‘the mother of all’ vulnerability loads, tripling June’s previous record</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
     "link": "https://cyberscoop.com/microsoft-patch-tuesday-july-2026/",
@@ -1520,6 +1590,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Securing our future: July 2026 progress report on Microsoft’s Secure Future Initiative",
+    "summary": "<p>Microsoft’s latest Secure Future Initiative report outlines progress on secure foundations, AI-powered defense, and future-ready cybersecurity.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/07/10/securing-our-future-july-2026-progress-report-on-microsofts-secure-future-initiative/\">Securing our future: July 2026 progress report on Microsoft&#8217;s Secure Future Initiative</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/10/securing-our-future-july-2026-progress-report-on-microsofts-secure-future-initiative/",
+    "published": "2026-07-10T16:00:00",
+    "source": "microsoft.com",
+    "category": "Other",
+    "importance_score": 390,
+    "also_covered_by": []
+  },
+  {
     "title": "UAT-7810 continues building ORB networks using new malware",
     "summary": "Talos’ latest findings on UAT-7810 indicate that the threat actor continues to develop their custom-made malware.",
     "link": "https://blog.talosintelligence.com/uat-7810/",
@@ -1540,6 +1620,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Microsoft named a leader in the Frost Radar for cloud and application runtime security",
+    "summary": "<p>Frost &#038; Sullivan names Microsoft a leader as cloud and application security converge into unified, runtime risk reduction.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/07/01/microsoft-named-a-leader-in-the-frost-radar-for-cloud-and-application-runtime-security/\">Microsoft named a leader in the Frost Radar for cloud and application runtime security</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/01/microsoft-named-a-leader-in-the-frost-radar-for-cloud-and-application-runtime-security/",
+    "published": "2026-07-01T16:00:00",
+    "source": "microsoft.com",
+    "category": "Other",
+    "importance_score": 383,
+    "also_covered_by": []
+  },
+  {
     "title": "Dutch police bust investment fraud ring stealing over €100 million",
     "summary": "The Dutch Police announced the arrest of multiple individuals suspected of being part of an international investment fraud scheme estimated to have tens of thousands of victims. [...]",
     "link": "https://www.bleepingcomputer.com/news/security/dutch-police-bust-investment-fraud-ring-stealing-over-100-million/",
@@ -1547,6 +1637,16 @@
     "source": "bleepingcomputer.com",
     "category": "Phishing / Scams",
     "importance_score": 379,
+    "also_covered_by": []
+  },
+  {
+    "title": "Improving security posture across the Microsoft partner ecosystem",
+    "summary": "<p>Read how Microsoft strengthens partner ecosystem security with CSP vetting, least privilege access, monitoring, and risk management best practices.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/07/02/improving-security-posture-across-the-microsoft-partner-ecosystem/\">Improving security posture across the Microsoft partner ecosystem</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/02/improving-security-posture-across-the-microsoft-partner-ecosystem/",
+    "published": "2026-07-02T16:00:00",
+    "source": "microsoft.com",
+    "category": "Other",
+    "importance_score": 376,
     "also_covered_by": []
   },
   {
