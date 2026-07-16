@@ -1,0 +1,60 @@
+CYBERBRIEF • DAILY THREAT INTELLIGENCE
+Generated: Thursday, July 16, 2026 - 07:17 UTC
+================================================================================
+
+Total topics: 293    •    Scanned raw articles: 294
+Severity breakdown:
+  CRITICAL: 8  |  HIGH: 12  |  MEDIUM: 51  |  LOW: 222
+
+Top 7 active threats:
+
+1. Alert Triangle  security.googleblog.com  [News Site]
+   Title    : HTTPS by default
+   Category : Vulnerability    •    Severity: CRITICAL (score: 2520)
+   Published: 2025-10-28T17:01:00
+   Link     : http://security.googleblog.com/2025/10/https-by-default.html
+
+2. Alert Triangle  thecyberexpress.com  [Link]
+   Title    : CISA Adds SonicWall SMA1000 Vulnerabilities to KEV Catalog Following Active Exploitation
+   Category : Vulnerability    •    Severity: CRITICAL (score: 2450)
+   Published: 2026-07-15T09:25:16
+   Link     : https://thecyberexpress.com/cve-2026-15409-cve-2026-15410-sonicwall/
+
+3. Alert Triangle  thecyberexpress.com  [Link]
+   Title    : Microsoft’s Largest Patch Tuesday Fixes 622 Vulnerabilities, Two Under Active Attack
+   Category : Ransomware    •    Severity: CRITICAL (score: 2400)
+   Published: 2026-07-15T08:57:29
+   Link     : https://thecyberexpress.com/microsoft-patch-tuesday-july-2026-622-flaws/
+
+4. Alert Triangle  thecyberexpress.com  [Link]
+   Title    : US Treasury Sanctions VPN Provider Linked to Ransomware
+   Category : Ransomware    •    Severity: CRITICAL (score: 2400)
+   Published: 2026-07-14T07:20:04
+   Link     : https://thecyberexpress.com/ransomware-sanctions-target-vpn/
+
+5. Alert Triangle  security.googleblog.com  [News Site]
+   Title    : Bringing Rust to the Pixel Baseband
+   Category : Ransomware    •    Severity: CRITICAL (score: 2380)
+   Published: 2026-04-10T15:12:00
+   Link     : http://security.googleblog.com/2026/04/bringing-rust-to-pixel-baseband.html
+
+6. Alert Triangle  security.googleblog.com  [News Site]
+   Title    : Rust in Android: move fast and fix things
+   Category : Ransomware    •    Severity: CRITICAL (score: 2380)
+   Published: 2025-11-13T16:59:00
+   Link     : http://security.googleblog.com/2025/11/rust-in-android-move-fast-fix-things.html
+
+7. Alert Triangle  thecyberexpress.com  [Link]
+   Title    : Three Russians Indicted in $62M Cybercrime Scheme Targeting U.S. Infrastructure
+   Category : Ransomware    •    Severity: CRITICAL (score: 2200)
+   Published: 2026-07-15T05:02:20
+   Link     : https://thecyberexpress.com/russian-cybercrime-indictment/
+
+Security Tips:
+• Never trust unsolicited links or attachments in email or messaging apps.
+• Enable multi-factor authentication (MFA) on email, banking, and admin accounts.
+• Keep browsers, VPNs, and endpoint security fully patched.
+
+Scanned 294 articles • Top 7 topics selected
+Next planned auto-update: 08:00 AM UTC
+Stay safe, stay sharp!
