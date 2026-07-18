@@ -1,10 +1,10 @@
 CYBERBRIEF • DAILY THREAT INTELLIGENCE
-Generated: Saturday, July 18, 2026 - 06:54 UTC
+Generated: Saturday, July 18, 2026 - 06:58 UTC
 ================================================================================
 
-Total topics: 303    •    Scanned raw articles: 304
+Total topics: 293    •    Scanned raw articles: 294
 Severity breakdown:
-  CRITICAL: 5  |  HIGH: 16  |  MEDIUM: 55  |  LOW: 227
+  CRITICAL: 4  |  HIGH: 15  |  MEDIUM: 51  |  LOW: 223
 
 Top 7 active threats:
 
@@ -32,29 +32,29 @@ Top 7 active threats:
    Published: 2025-11-13T16:59:00
    Link     : http://security.googleblog.com/2025/11/rust-in-android-move-fast-fix-things.html
 
-5. Alert Triangle  cybersecuritynews.com  [News Site]
-   Title    : New wp2shell RCE Vulnerability Hits Millions of WordPress Sites, Emergency Patch Released
-   Category : Vulnerability    •    Severity: CRITICAL (score: 2272)
-   Published: 2026-07-18T03:05:23
-   Link     : https://cybersecuritynews.com/wp2shell-rce-vulnerability/
-
-6. Shield Check  security.googleblog.com  [News Site]
+5. Shield Check  security.googleblog.com  [News Site]
    Title    : Android Quick Share Support for AirDrop: A Secure Approach to Cross-Platform File Sharing
    Category : Data Breach    •    Severity: HIGH (score: 1959)
    Published: 2025-11-20T17:00:00
    Link     : http://security.googleblog.com/2025/11/android-quick-share-support-for-airdrop-security.html
 
-7. Shield Check  thecyberexpress.com  [Link]
+6. Shield Check  thecyberexpress.com  [Link]
    Title    : Critical Notepad++ Bugs Could Lead to Code Execution, Patch Available
    Category : Vulnerability    •    Severity: HIGH (score: 1950)
    Published: 2026-07-17T08:41:51
    Link     : https://thecyberexpress.com/notepad-vulnerabilities-v897/
+
+7. Shield Check  thehackernews.com  [Newspaper]
+   Title    : CISA Adds Exploited SharePoint RCE Zero-Day CVE-2026-58644 to KEV
+   Category : Vulnerability    •    Severity: HIGH (score: 1923)
+   Published: 2026-07-17T06:42:23
+   Link     : https://thehackernews.com/2026/07/cisa-adds-exploited-sharepoint-rce-zero.html
 
 Security Tips:
 • Never trust unsolicited links or attachments in email or messaging apps.
 • Enable multi-factor authentication (MFA) on email, banking, and admin accounts.
 • Keep browsers, VPNs, and endpoint security fully patched.
 
-Scanned 304 articles • Top 7 topics selected
+Scanned 294 articles • Top 7 topics selected
 Next planned auto-update: 08:00 AM UTC
 Stay safe, stay sharp!

@@ -40,16 +40,6 @@
     "also_covered_by": []
   },
   {
-    "title": "New wp2shell RCE Vulnerability Hits Millions of WordPress Sites, Emergency Patch Released",
-    "summary": "<p>A critical pre-authentication remote code execution (RCE) vulnerability dubbed &#8220;wp2shell&#8221; has been discovered in WordPress Core, putting an estimated 500 million+ websites at risk of full takeover by unauthenticated attackers. Security researcher Adam Kues of Searchlight Cyber&#8217;s Assetnote research team uncovered the flaw, which stems from a REST API batch-route confusion issue that leads to [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/wp2shell-rce-vulnerability/\">New wp2shell RCE Vulnerability Hits Millions of WordPress Sites, Emergency Patch Released</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/wp2shell-rce-vulnerability/",
-    "published": "2026-07-18T03:05:23",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 2272,
-    "also_covered_by": []
-  },
-  {
     "title": "Android Quick Share Support for AirDrop: A Secure Approach to Cross-Platform File Sharing",
     "summary": "<span class=\"byline-author\">Posted by Dave Kleidermacher, VP, Platforms Security & Privacy, Google</span>\n\n<p>\nTechnology should bring people closer together, not create walls. Being able to communicate and connect with friends and family should be easy regardless of the phone they use. That’s why Android has been building experiences that help you stay connected across platforms.\n</p>\n<p>\nAs part of our efforts to continue to make cross-platform communication more seamless for users, we've made Quick Share interoperable with AirDrop, allowing for two-way file sharing between Android and iOS devices, starting with the Pixel 10 Family. This new feature makes it possible to quickly share your photos, videos, and files with people you choose to communicate with, without worrying about the kind of phone they use. \n</p>\n<p>\nMost importantly, when you share personal files and content, you need to trust that it stays secure. You can share across devices with confidence knowing we built this feature with security at its core, protecting your data with strong safeguards that have been tested by independent security experts.\n</p>\n<h3>Secure by Design</h3>\n\n\n<p>\nWe built Quick Share’s interoperability support for AirDrop with the same rigorous security standards that we apply to all Google products. Our approach to security is proactive and deeply integrated into every stage of the development process. This includes:\n</p>\n<ul>\n\n<li><strong>Threat Modeling:</strong> We identify and address potential security risks before they can become a problem.</li>\n\n<li><strong>Internal Security Design and Privacy Reviews:</strong> Our dedicated security and privacy teams thoroughly review the design to ensure it meets our high standards.</li>\n\n<li><strong>Internal Penetration Testing:</strong> We conduct extensive in-house testing to identify and fix vulnerabilities.</li>\n</ul>\n<p>\nThis <a href=\"https://blog.google/technology/safety-security/tackling-cybersecurity-vulnerabilities-through-secure-by-design/\">Secure by Design</a> philosophy ensures that all of our products are not just functional but also fundamentally secure.\n</p>\n<p>\nThis feature is also protected by a multi-layered security approach to ensure a safe sharing experience from end-to-end, regardless of what platform you’re on. \n</p>\n<ul>\n\n<li><strong>Secure Sharing Channel:</strong> The communication channel itself is hardened by our use of Rust to develop this feature. This memory-safe language is the industry benchmark for building secure systems and provides confidence that the connection is protected against buffer overflow attacks and other common vulnerabilities. </li>\n\n<li><strong>Built-in Platform Protections: </strong>This feature is strengthened by the robust built-in security of both Android and iOS. On Android, security is built in at every layer. Our deep investment in Rust at the OS level hardens the foundation, while proactive defenses like <a href=\"https://support.google.com/googleplay/answer/2812853?hl=en\">Google Play Protect</a> work to keep your device safe. This is complemented by the security architecture of iOS that provides its own strong safeguards that mitigate malicious files and exploitation. These overlapping protections on both platforms work in concert with the secure connection to provide comprehensive safety for your data when you share or receive.</li>\n\n<li><strong>You’re in Control: </strong>Sharing across platforms works just like you're used to: a file requires your approval before being received, so you're in control of what you accept.</li>\n</ul>\n<h3>The Power of Rust: A Foundation of Secure Communication</h3>\n\n\n<p>\nA key element of our security strategy for the interoperability layer between Quick Share and AirDrop is the use of the memory-safe Rust programming language. Recognized by security agencies around the world, including the <a href=\"https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/article/3608324/us-and-international-partners-issue-recommendations-to-secure-software-products/\">NSA</a> and <a href=\"https://media.defense.gov/2025/Jun/23/2003742198/-1/-1/0/CSI_MEMORY_SAFE_LANGUAGES_REDUCING_VULNERABILITIES_IN_MODERN_SOFTWARE_DEVELOPMENT.PDF\">CISA</a>, Rust is widely considered the industry benchmark for building secure systems because it eliminates entire classes of memory-safety vulnerabilities by design.\n</p>\n<p>\n<a href=\"https://security.googleblog.com/2024/09/eliminating-memory-safety-vulnerabilities-Android.html\">Rust is already a cornerstone</a> of our broader initiative to eliminate memory safety bugs across Android. Its selection for this feature was deliberate, driven by the unique security challenges of cross-platform communication that demanded the most robust protections for memory safety.\n</p>\n<p>\nThe core of this feature involves receiving and parsing data sent over a wireless protocol from another device. Historically, when using a memory-unsafe language, bugs in data parsing logic are one of the most common sources of high-severity security vulnerabilities. A malformed data packet sent to a parser written in a memory-unsafe language can lead to buffer overflows and other memory corruption bugs, creating an opportunity for code execution.\n</p>\n<p>\nThis is precisely where Rust provides a robust defense. Its compiler enforces strict ownership and borrowing rules at compile time, which guarantees memory safety. Rust removes entire classes of memory-related bugs. This means our implementation is inherently resilient against attackers attempting to use maliciously crafted data packets to exploit memory errors. \n</p>\n<h3>Secure Sharing Using AirDrop's \"Everyone\" Mode</h3>\n\n\n<p>\nTo ensure a seamless experience for both Android and iOS users, Quick Share currently works with AirDrop's \"Everyone for 10 minutes\" mode. This feature does not use a workaround; the connection is direct and peer-to-peer, meaning your data is never routed through a server, shared content is never logged, and no extra data is shared. As with \"Everyone for 10 minutes\" mode on any device when you’re sharing between non-contacts, you can ensure you're sharing with the right person by confirming their device name on your screen with them in person.</p>\n<p>This implementation using \"Everyone for 10 minutes” mode is just the first step in seamless cross-platform sharing, and we welcome the opportunity to work with Apple to enable “Contacts Only” mode in the future.\n</p>\n<h3>Tested by Independent Security Experts</h3>\n\n\n<p>\nAfter conducting our own secure product development, internal threat modeling, privacy reviews, and red team penetration tests, we engaged with <strong><a href=\"https://www.netspi.com/\">NetSPI</a></strong>, a leading third-party penetration testing firm, to further validate the security of this feature and conduct an <a href=\"https://www.netspi.com/wp-content/uploads/2025/11/google-feature-review-report.pdf\">independent security assessment</a>. The assessment found the interoperability between Quick Share and AirDrop is secure, is “notably stronger” than other industry implementations and does not leak any information. \n</p>\n<p>\nBased on these internal and external assessments, we believe our implementation provides a strong security foundation for cross-platform file sharing for both Android and iOS users. We will continue to evaluate and enhance the implementation’s security in collaboration with additional third-party partners.\n</p>\n<p>\nTo complement this deep technical audit, we also sought expert third-party perspective on our approach from <a href=\"https://crypto.stanford.edu/~dabo/\">Dan Boneh</a>, a renowned security expert and professor at Stanford University:\n</p>\n<p>\n“Google’s work on this feature, including the use of memory safe Rust for the core communications layer, is a strong example of how to build secure interoperability, ensuring that cross-platform information sharing remains safe. I applaud the effort to open more secure information sharing between platforms and encourage Google and Apple to work together more on this.\"\n</p>\n<h3>The Future of File-Sharing Should Be Interoperable</h3>\n\n\n<p>\nThis is just the first step as we work to improve the experience and expand it to more devices. We look forward to continuing to work with industry partners to make connecting and communicating across platforms a secure, seamless experience for all users.\n</p>",
     "link": "http://security.googleblog.com/2025/11/android-quick-share-support-for-airdrop-security.html",
@@ -130,16 +120,6 @@
     "also_covered_by": []
   },
   {
-    "title": "New Windows LegacyHive 0-Day Vulnerability Allows Hackers to Gain Admin Access",
-    "summary": "<p>A Windows zero-day vulnerability, dubbed LegacyHive (MSNightmare), abuses the User Profile Service to enable local privilege escalation, tampering with administrator accounts, and admin-level code execution. LegacyHive targets the Windows User Profile Service (ProfSvc), which is responsible for loading and unloading user profiles and their registry hives during logon and logoff. The public proof‑of‑concept (PoC) from the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/windows-legacyhive-0-day-vulnerability/\">New Windows LegacyHive 0-Day Vulnerability Allows Hackers to Gain Admin Access</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/windows-legacyhive-0-day-vulnerability/",
-    "published": "2026-07-17T13:26:21",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 1675,
-    "also_covered_by": []
-  },
-  {
     "title": "ClickFix Attacks Drive UAC-0145 Cyber Campaigns, CERT-UA Warns",
     "summary": "<p><img alt=\"ClickFix Attacks\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"1024\" src=\"https://thecyberexpress.com/wp-content/uploads/ClickFix-Attacks.webp\" title=\"ClickFix Attacks Drive UAC-0145 Cyber Campaigns, CERT-UA Warns 3\" width=\"1536\" /></p><p class=\"PDq2pG_selectionAnchorContainer\">The ClickFix attacks technique has become a key initial access method for the UAC-0145 cyber threat cluster, according to a new report from Ukraine's Computer Emergency Response Team (<a href=\"https://thecyberexpress.com/cert-ua-warns-of-darkcrystal-rat/\" rel=\"noopener\" target=\"_blank\">CERT-UA</a>). The agency said the threat group, also tracked as Sandworm, <a href=\"https://thecyberexpress.com/alleged-ddos-attack-on-denmark/\" rel=\"noopener\" target=\"_blank\">APT44</a>, Seashell Blizzard, and a subcluster of UAC-0002, has shifted its tactics during 2026, increasingly relying on <a href=\"https://thecyberexpress.com/google-recaptcha-trojanized-by-russian-hackers/\" rel=\"noopener\" target=\"_blank\">fake CAPTCHA prompts</a> and social engineering to compromise systems.</p>\n<p>CERT-UA said it has worked with Ukrainian cybersecurity agencies for several years to investigate the activities of UAC-0145. While the group previously relied on infected software installers distributed through torrent websites, recent campaigns have increasingly used ClickFix to trick users into executing malicious PowerShell commands.</p>\n\n<h3><strong><span>ClickFix Attacks Emerging as Primary Initial Access Vector</span></strong></h3>\n<p><a href=\"https://cert.gov.ua/article/6318437\" rel=\"nofollow noopener\" target=\"_blank\">According to CERT-UA</a>, infections recorded during the spring and summer of 2026 frequently began when victims visited compromised websites displaying fake CAPTCHA pages. Users were instructed to copy and execute PowerShell commands in their terminal, a <a class=\"wpil_keyword_link\" href=\"https://cyble.com/knowledge-hub/what-is-phishing/\" rel=\"noopener\" target=\"_blank\" title=\"phishing\">phishing</a> technique commonly referred to as ClickFix.</p>\n<p>The downloaded commands were designed to retrieve malicious files such as GHETTOVIBE, a Visual Basic Script (VBS) that establishes persistence by placing itself in the Windows Startup directory.</p>\n<p>Once executed, attackers could deploy SCOUTCURL, a PowerShell reconnaissance tool capable of collecting information about the compromised system, including device specifications, installed software, browser <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-data/\" title=\"data\">data</a>, and local files before exfiltrating the information.</p>\n<p>CERT-UA also observed <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-malware/\" title=\"malware\">malware</a> loaders including FLUIDLEECH, disguised as antivirus software, and LOADLOOP being used during these campaigns.</p>\n\n<h3><strong><span>Backdoors and Data Theft Tools Widely Deployed</span></strong></h3>\n<p>The report noted that attackers continue using <a class=\"wpil_keyword_link\" href=\"https://cyble.com/knowledge-hub/what-is-malware/\" rel=\"noopener\" target=\"_blank\" title=\"malware\">malware</a> families such as KALAMBUR, SUMBUR, and TAMBUR after gaining access to victim systems.</p>\n<p>To maintain <a href=\"https://thecyberexpress.com/intellexa-remote-access-to-customer-systems/\" rel=\"noopener\" target=\"_blank\">remote access</a>, the group relied on legitimate utilities including OpenSSH and Tor, forwarding local network ports such as 445, 3389, and 22 to attacker-controlled infrastructure.</p>\n<p>CERT-UA also found malware designed to steal messaging data from Signal and <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-to-do-if-and-when-your-whatsapp-is-hacked/\" title=\"WhatsApp\">WhatsApp</a>, with stolen information reportedly exfiltrated using RSYNC.</p>\n<p>On infected systems examined during <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/cyber-news/\" title=\"cyber\">cyber</a> defense operations, investigators additionally identified FREAKYPOLL, a Python-based backdoor distributed as compiled bytecode (.pyc), providing attackers with persistent unauthorized access.</p>\n\n<h2><span><strong>Compromised Websites Used to Deliver Fake CAPTCHA Pages</strong></span></h2>\n<p>During June and July 2026, CERT-UA analyzed more than ten compromised websites involved in <strong>ClickFix attacks</strong>.</p>\n<p>Investigators found attackers using both the <strong>Cloaking.House</strong> service and custom malware called <strong>SMARTAXE</strong> to dynamically modify legitimate webpages. SMARTAXE retrieves remote domains from blockchain smart contracts through Ethereum's <strong>eth_call</strong> function before displaying fake CAPTCHA pages or redirecting visitors to malicious content.</p>\n<p>CERT-UA warned that any website used in these attacks should be considered compromised, potentially through vulnerable content management systems (CMS), stolen credentials, web shells, malicious plugins, modified website scripts, or server-side backdoors.</p>\n<p>The agency urged website administrators and hosting providers to strengthen website <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/\" title=\"security\">security</a> and respond quickly to incident reports.</p>\n\n<h3><span><strong>Android Malware Also Part of UAC-0145 Operations</strong></span></h3>\n<p>The report also highlighted growing use of Android malware distributed through messaging applications.</p>\n<p>Attackers were observed sharing APK files disguised as security or antivirus tools. One such malware family, tracked as COWARDDUCK, functions as a full-featured Android backdoor capable of collecting device information, contacts, files, and real-time geolocation.</p>\n<p>The malware targets files from directories including DCIM, Documents, Downloads, Pictures, and Alarms while searching for formats such as DOCX, XLSX, PPTX, ZIP, RAR, JSON, and OVPN files.</p>\n<p>According to CERT-UA, COWARDDUCK uploads stolen files through the Dropbox API while receiving commands from legitimate services including Steam Community and StockMemory domains through proxy infrastructure.</p>\n\n<h3><span><strong>Microsoft Sees Global Rise in ClickFix Campaigns</strong></span></h3>\n<p>Microsoft Threat Intelligence and Microsoft Defender Experts also <a href=\"https://www.microsoft.com/en-us/security/blog/2025/08/21/think-before-you-clickfix-analyzing-the-clickfix-social-engineering-technique/\" rel=\"nofollow noopener\" target=\"_blank\">reported</a> that ClickFix campaigns have increased significantly since early 2024, targeting thousands of enterprise and consumer devices globally each day.</p>\n<p>Microsoft said the technique commonly delivers malware such as Lumma <a class=\"wpil_keyword_link\" href=\"https://cyble.com/stealer/\" rel=\"noopener\" target=\"_blank\" title=\"Stealer\">Stealer</a> by persuading users to copy and execute commands through Windows Run, Windows Terminal, or Windows PowerShell. The campaigns are often combined with phishing, malvertising, and drive-by compromise techniques that imitate trusted brands.</p>\n<p>Because ClickFix attacks rely on user interaction rather than exploiting software <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-are-vulnerabilities/\" title=\"vulnerabilities\">vulnerabilities</a> directly, Microsoft recommends organizations strengthen user awareness and apply security policies that restrict unnecessary use of command execution tools.</p>",
     "link": "https://thecyberexpress.com/clickfix-attacks-fuel-uac-0145-cyber-campaigns/",
@@ -210,13 +190,13 @@
     "also_covered_by": []
   },
   {
-    "title": "CISA Warns of Microsoft SharePoint Code Execution Vulnerability Exploited in Attacks",
-    "summary": "<p>CISA has added a critical Microsoft SharePoint vulnerability, tracked as CVE-2026-58644, to its Known Exploited Vulnerabilities (KEV) catalog. This addition comes with a warning that attackers are actively exploiting the flaw in real-world attacks. The vulnerability stems from a weakness in deserializing untrusted data, which can allow remote code execution if the application does not [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-sharepoint-code-execution-vulnerability-exploited/\">CISA Warns of Microsoft SharePoint Code Execution Vulnerability Exploited in Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/microsoft-sharepoint-code-execution-vulnerability-exploited/",
-    "published": "2026-07-17T08:47:16",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 1373,
+    "title": "Who Runs the Ransomware Group ‘The Gentlemen?’",
+    "summary": "A cybercrime group known as The Gentlemen has emerged as the second most active ransomware gang by victim count, rapidly attracting a talented pool of hackers through an aggressive recruitment strategy that promises affiliates 90 percent of any ransom paid by victims. This post examines clues pointing to a real life identity for the administrator of The Gentlemen ransomware group.",
+    "link": "https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/",
+    "published": "2026-06-10T14:03:44",
+    "source": "krebsonsecurity.com",
+    "category": "Ransomware",
+    "importance_score": 1374,
     "also_covered_by": []
   },
   {
@@ -330,16 +310,6 @@
     "also_covered_by": []
   },
   {
-    "title": "New ClickLock macOS Stealer Kills Every App to Force Password Entry",
-    "summary": "<p>A newly discovered macOS malware dubbed ClickLock is raising alarms in the cybersecurity community for its aggressive and deceptive credential-harvesting techniques. According to researchers at Group-IB, the stealer employs a highly disruptive tactic that forcibly terminates running applications, effectively locking users out of their systems to coerce them into entering their macOS password. ClickLock represents [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/clicklock-macos-stealer/\">New ClickLock macOS Stealer Kills Every App to Force Password Entry</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/clicklock-macos-stealer/",
-    "published": "2026-07-17T09:31:43",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 1317,
-    "also_covered_by": []
-  },
-  {
     "title": "US Charges Two Over $43M Chinese Money Laundering Operation",
     "summary": "<p><img alt=\"Chinese money laundering\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"721\" src=\"https://thecyberexpress.com/wp-content/uploads/Chinese-money-laundering.webp\" title=\"US Charges Two Over $43M Chinese Money Laundering Operation 5\" width=\"1236\" /></p><span>U.S. authorities have charged two New York residents, including Zhuoying Chen, in connection with an alleged Chinese money laundering network accused of laundering at least $43 million generated through cyber investment fraud schemes. The indictment, unsealed in Brooklyn, alleges the operation ran between 2020 and 2022 and involved an extensive network of shell companies and bank accounts.</span><span> </span>\n\n<span>According to <a href=\"https://www.justice.gov/opa/pr/two-key-members-chinese-money-laundering-network-charged-laundering-43-million-investment\" rel=\"nofollow noopener\" target=\"_blank\">prosecutors</a>, Zhuoying Chen, 27, of Brooklyn, and Haojie Zhang, 38, of Queens, managed more than a dozen individuals across Brooklyn and Queens. The group allegedly opened 140 bank accounts under approximately 45 shell companies to move proceeds from fraudulent investment scams before transferring the funds to co-conspirators based in China.</span><span> </span>\n\n<span>Authorities said the <a href=\"https://thecyberexpress.com/global-crypto-investment-scam/\" rel=\"noopener\" target=\"_blank\">investment fraud</a> schemes began with perpetrators contacting victims through messaging platforms and social media. They allegedly built trust over time, persuaded victims to invest in seemingly lucrative opportunities, displayed fake profits to encourage additional investments, and ultimately stole the victims' money.</span><span> </span>\n<h3><b><span>Officials Vow Crackdown on Chinese Money Laundering Operations</span></b><span> </span></h3>\n<span>Commenting on the Chinese money laundering case, Assistant Attorney <a class=\"wpil_keyword_link\" href=\"https://cyble.com/general/\" rel=\"noopener\" target=\"_blank\" title=\"General\">General</a> A. Tysen Duva said, \"As alleged in the indictment, the defendants laundered <a class=\"wpil_keyword_link\" href=\"https://cyble.com/cybercrime/fraud/\" rel=\"noopener\" target=\"_blank\" title=\"fraud\">fraud</a> proceeds, enabling scammers to continue to victimize Americans and deprive them of their hard-earned money.\" He added that dismantling Chinese money laundering networks supporting investment fraud is critical to protecting Americans and that the Criminal Division \"will relentlessly pursue the financial networks that fuel and profit from these fraud schemes.\"</span><span> </span>\n\n<span>U.S. Attorney Joseph Nocella Jr. for the Eastern District of New York described the defendants as \"key members of a sophisticated money laundering network\" that allegedly routed more than $40 million in victim funds to bank accounts in China. He said the office would continue pursuing individuals involved in investment fraud targeting vulnerable victims.</span><span> </span>\n\n<span>FBI New York Assistant Director in Charge James C. Barnacle Jr. stated that the operation allegedly laundered more than $40 million from American victims before depositing the funds into Chinese accounts overseas. He said the <a href=\"https://thecyberexpress.com/operation-tri-force-sentinel/\" rel=\"noopener\" target=\"_blank\">FBI</a> remains committed to working with federal partners to dismantle such fraud networks.</span><span> </span>\n\n<span>Acting Executive Associate Director John A. Condon of Homeland <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/\" title=\"Security\">Security</a> Investigations said the two Chinese nationals allegedly operated the illicit network for nearly two years, laundering victims' life savings. IRS Criminal Investigation Special Agent in Charge Harry T. Chavis Jr. said the indictment demonstrates that \"justice is coming\" for fraudsters, while U.S. Postal Inspection Service Inspector in Charge Ketty Larco-Ward noted that investment fraud schemes <a class=\"wpil_keyword_link\" href=\"https://cyble.com/exploit/\" rel=\"noopener\" target=\"_blank\" title=\"exploit\">exploit</a> victims' trust through false promises of returns.</span><span> </span>\n<h3><b><span>Investigation and Legal Proceedings Continue</span></b><span> </span></h3>\n<span>The conspiracy to commit money laundering charge carries a maximum sentence of 20 years in prison. The investigation is being conducted by FBI New York, HSI New York, IRS Criminal Investigation New York, and the U.S. Postal Inspection Service. The prosecution is being led by Trial Attorneys Claire Galasso, David Ginensky, and Adrienne Rosen, along with Assistant U.S. Attorneys Benjamin Weintraub and David Berman.</span><span> </span>\n\n<span>The case also forms part of the Homeland Security Task Force initiative established under Executive Order 14159. Officials emphasized that an indictment is only an allegation, and Zhuoying Chen and the co-defendant are presumed innocent unless proven guilty beyond a reasonable doubt in court.</span><span> </span>",
     "link": "https://thecyberexpress.com/chinese-money-laundering/",
@@ -357,6 +327,16 @@
     "source": "infosecurity-magazine.com",
     "category": "Other",
     "importance_score": 1222,
+    "also_covered_by": []
+  },
+  {
+    "title": "‘Popa’ Botnet Linked to Publicly-Traded Israeli Firm",
+    "summary": "For the past four years, a sprawling Android-based botnet called Popa has forced millions of consumer TV boxes to relay Internet traffic linked to advertising fraud, account takeovers, and mass data-scraping efforts. This week, researchers from multiple security firms concluded that the Popa botnet is linked to NetNut, a \"residential proxy\" provider operated by the publicly-traded Israeli firm Alarum Technologies Ltd [NASDAQ: ALAR].",
+    "link": "https://krebsonsecurity.com/2026/06/popa-botnet-linked-to-publicly-traded-israeli-firm/",
+    "published": "2026-06-18T17:37:58",
+    "source": "krebsonsecurity.com",
+    "category": "Vulnerability",
+    "importance_score": 1150,
     "also_covered_by": []
   },
   {
@@ -410,36 +390,6 @@
     "also_covered_by": []
   },
   {
-    "title": "LegacyHive Windows Zero-Day Lets Attackers Hijack Administrator Registry Hives",
-    "summary": "<p>A newly disclosed Windows local privilege-escalation vulnerability, dubbed LegacyHive, could allow a standard user to load and modify the per-user registry classes hive of an administrator account. The proof-of-concept (PoC), published by researcher NightmareEclipse under the MSNightmare/LegacyHive GitHub repository, abuses Windows’ User Profile Service to mount a target user’s UsrClass.dat hive into a registry location [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/legacyhive-windows-zero-day/\">LegacyHive Windows Zero-Day Lets Attackers Hijack Administrator Registry Hives</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/legacyhive-windows-zero-day/",
-    "published": "2026-07-17T12:36:05",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 1081,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hackers Breached an IIS Server and Deployed Ransomware Across the Network the Next Day",
-    "summary": "<p>Hackers leveraged a compromised Microsoft IIS server to gain initial access and deploy a previously unseen ransomware payload across an enterprise network within 24 hours, highlighting a highly coordinated and operationally mature intrusion chain observed in June 2026. The campaign reflects a fast-paced, hands-on-keyboard intrusion combined with automated lateral movement, signaling a threat actor capable [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/iis-server-breached/\">Hackers Breached an IIS Server and Deployed Ransomware Across the Network the Next Day</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/iis-server-breached/",
-    "published": "2026-07-17T12:28:40",
-    "source": "gbhackers.com",
-    "category": "Ransomware",
-    "importance_score": 1077,
-    "also_covered_by": []
-  },
-  {
-    "title": "New NadMesh Botnet Uses 20+ RCE Vectors to Hijack AI and MCP Infrastructure",
-    "summary": "<p>NadMesh is a new, industrial‑grade Go‑based botnet that weaponizes more than 20 RCE vectors to hijack AI and MCP infrastructure at scale, combining autonomous scanning, exploit delivery, and credential harvesting in a single closed‑loop platform. In early July 2026, researchers identified NadMesh as a high‑volume Go-written botnet that was aggressively deploying bot agents across internet‑facing [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/new-nadmesh-botnet/\">New NadMesh Botnet Uses 20+ RCE Vectors to Hijack AI and MCP Infrastructure</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/new-nadmesh-botnet/",
-    "published": "2026-07-17T10:55:58",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 1072,
-    "also_covered_by": []
-  },
-  {
     "title": "Claude Chrome extension flaw lets malicious extensions trigger AI actions",
     "summary": "A flaw in Anthropic's Claude for Chrome browser extension could allow a malicious extension to trigger predefined AI actions by simulating user clicks, potentially allowing it to abuse Claude's access to connected services such as Gmail, Google Docs, Google Calendar, and Salesforce. [...]",
     "link": "https://www.bleepingcomputer.com/news/security/claude-chrome-extension-flaw-lets-malicious-extensions-trigger-ai-actions/",
@@ -447,16 +397,6 @@
     "source": "bleepingcomputer.com",
     "category": "Vulnerability",
     "importance_score": 1069,
-    "also_covered_by": []
-  },
-  {
-    "title": "PentestCode – New AI Agent That Automates Penetration Testing with 18 Specialized Tools",
-    "summary": "<p>A new open-source tool is bringing autonomous AI agents into offensive security workflows. PentestCode, a hard fork of OpenCode rebuilt specifically for penetration testing, runs security tools, analyzes their output, and makes tactical decisions all from a terminal interface, with minimal human intervention required. The tool&#8217;s core pitch is methodology automation. A tester can input [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/pentestcode-ai-agent/\">PentestCode &#8211; New AI Agent That Automates Penetration Testing with 18 Specialized Tools</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/pentestcode-ai-agent/",
-    "published": "2026-07-17T17:00:08",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 1067,
     "also_covered_by": []
   },
   {
@@ -630,16 +570,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Ransomware Attack on Coca-Cola-Owned Fairlife Halts Production Across the United States",
-    "summary": "<p>Coca-Cola has reported a ransomware attack affecting its dairy subsidiary, Fairlife, resulting in a temporary shutdown of production operations across the United States. This incident was disclosed in a Form 8-K filing submitted to the U.S. Securities and Exchange Commission on July 16, 2026. The filing confirmed that unauthorized access was gained to parts of [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/coca-cola-owned-fairlife-cyberattack/\">Ransomware Attack on Coca-Cola-Owned Fairlife Halts Production Across the United States</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/coca-cola-owned-fairlife-cyberattack/",
-    "published": "2026-07-17T17:53:52",
-    "source": "cybersecuritynews.com",
-    "category": "Ransomware",
-    "importance_score": 912,
-    "also_covered_by": []
-  },
-  {
     "title": "Abbott probes two cyber incidents amid extortion claims",
     "summary": "Abbott Laboratories is investigating two separate cybersecurity incidents after confirming unauthorized access to internal legacy Exact Sciences systems in its Cancer Diagnostics business, while also investigating a separate claim that attackers breached its LabCentral portal and stole company data. [...]",
     "link": "https://www.bleepingcomputer.com/news/security/abbott-laboratories-probes-two-cyber-incidents-amid-extortion-claims/",
@@ -647,16 +577,6 @@
     "source": "bleepingcomputer.com",
     "category": "Other",
     "importance_score": 908,
-    "also_covered_by": []
-  },
-  {
-    "title": "EY Data Breach – Hackers Gain Access to IT Support System and Download Documents",
-    "summary": "<p>Ernst &#38; Young LLP (EY) is notifying clients that an unauthorized third party breached a support ticket platform used by its IT staff, downloading documents containing client tax data during a roughly two-week window this spring. The Big Four accounting and consulting giant filed breach notifications with the California Attorney General&#8217;s office on July 15, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ey-data-breach/\">EY Data Breach &#8211; Hackers Gain Access to IT Support System and Download Documents</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/ey-data-breach/",
-    "published": "2026-07-17T17:28:40",
-    "source": "cybersecuritynews.com",
-    "category": "Data Breach",
-    "importance_score": 907,
     "also_covered_by": []
   },
   {
@@ -750,6 +670,26 @@
     "also_covered_by": []
   },
   {
+    "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
+    "summary": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform they operated under assumed names.",
+    "link": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
+    "published": "2026-07-08T12:31:39",
+    "source": "krebsonsecurity.com",
+    "category": "Vulnerability",
+    "importance_score": 819,
+    "also_covered_by": []
+  },
+  {
+    "title": "Hackers Used Meta’s AI Support Bot to Seize Instagram Accounts",
+    "summary": "The Instagram accounts for the Obama White House and the Chief Master Sergeant of the U.S. Space Force were briefly defaced with pro-Iranian images and messages over the weekend, after instructions began circulating on Telegram showing how to trick Meta's \"AI support assistant\" bot into resetting account passwords.",
+    "link": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
+    "published": "2026-06-01T17:32:50",
+    "source": "krebsonsecurity.com",
+    "category": "Vulnerability",
+    "importance_score": 814,
+    "also_covered_by": []
+  },
+  {
     "title": "AI Has Enhanced Iran’s Asymmetric Playbook During the 2026 Conflict",
     "summary": "Explore how Iran has utilized AI to enhance its asymmetric playbook during the 2026 conflict. Learn how AI acts as a force multiplier for Iranian cyber operations, influence campaigns, and domestic surveillance.",
     "link": "https://www.recordedfuture.com/research/iran-ai-asymmetric-playbook",
@@ -767,16 +707,6 @@
     "source": "threatpost.com",
     "category": "Vulnerability",
     "importance_score": 787,
-    "also_covered_by": []
-  },
-  {
-    "title": "CISA Warns of Two Fortinet FortiSandbox Flaws Exploited to Execute Commands",
-    "summary": "<p>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added two critical vulnerabilities in Fortinet FortiSandbox to its Known Exploited Vulnerabilities (KEV) catalog. These flaws are actively being exploited in the wild to execute unauthorized commands on affected systems. The vulnerabilities, tracked as CVE-2026-39808 and CVE-2026-25089, involve OS command injection weaknesses (CWE-78) and impact FortiSandbox [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cisa-warns-of-two-fortinet-fortisandbox-flaws/\">CISA Warns of Two Fortinet FortiSandbox Flaws Exploited to Execute Commands</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/cisa-warns-of-two-fortinet-fortisandbox-flaws/",
-    "published": "2026-07-17T09:19:00",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 786,
     "also_covered_by": []
   },
   {
@@ -857,16 +787,6 @@
     "source": "unit42.paloaltonetworks.com",
     "category": "Ransomware",
     "importance_score": 757,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hackers Hide Lua Loaders in Fake TTF Files to Deploy Remcos, XWorm, and Agent Tesla",
-    "summary": "<p>Hackers are increasingly abusing trusted file formats and lightweight scripting environments to evade detection, with a newly observed campaign leveraging Lua-based loaders. Disguised as TrueType (.ttf) font files to deploy commodity malware, including Remcos RAT, Agent Tesla, XWorm, and Snake Keylogger variants. The campaign impersonates legitimate businesses and brands in email lures, often using payment-themed [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/lua-loaders-in-fake-ttf-files/\">Hackers Hide Lua Loaders in Fake TTF Files to Deploy Remcos, XWorm, and Agent Tesla</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/lua-loaders-in-fake-ttf-files/",
-    "published": "2026-07-17T13:22:58",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 731,
     "also_covered_by": []
   },
   {
@@ -960,26 +880,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Hackers Use Paste-and-Run Commands to Deploy ClickLock Stealer Against Mac Users",
-    "summary": "<p>Hackers are actively targeting macOS users with a newly identified infostealer dubbed “ClickLock Stealer,” leveraging paste-and-run social engineering techniques to bypass Apple’s native security protections without requiring exploits or elevated privileges. Despite macOS protections such as Gatekeeper, Transparency, Consent, and Control (TCC), System Integrity Protection (SIP), and mandatory code signing, threat actors are increasingly deploying [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/clicklock-stealer-against-mac-users/\">Hackers Use Paste-and-Run Commands to Deploy ClickLock Stealer Against Mac Users</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/clicklock-stealer-against-mac-users/",
-    "published": "2026-07-17T09:03:01",
-    "source": "gbhackers.com",
-    "category": "Phishing / Scams",
-    "importance_score": 640,
-    "also_covered_by": []
-  },
-  {
-    "title": "Top 10 Best Identity Threat Detection and Response (ITDR) Solutions in 2026",
-    "summary": "<p>Identity has become the primary battleground of enterprise cybersecurity. Attackers increasingly bypass traditional defenses by stealing credentials, hijacking sessions, abusing privileged accounts, and exploiting misconfigurations across Active Directory, cloud platforms, SaaS applications, and non-human identities. Microsoft reported more than 7,000 password attacks per second in 2024, while compromised credentials remain among the most common—and slowest [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-identity-threat-detection-and-response-solutions/\">Top 10 Best Identity Threat Detection and Response (ITDR) Solutions in 2026</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/best-identity-threat-detection-and-response-solutions/",
-    "published": "2026-07-17T08:45:50",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 638,
-    "also_covered_by": []
-  },
-  {
     "title": "iPhone Users Urged to Update to Patch 2 Zero-Days",
     "summary": "Separate fixes to macOS and iOS patch respective flaws in the kernel and WebKit that can allow threat actors to take over devices and are under attack.",
     "link": "https://threatpost.com/iphone-users-urged-to-update-to-patch-2-zero-days-under-attack/180448/",
@@ -987,16 +887,6 @@
     "source": "threatpost.com",
     "category": "Vulnerability",
     "importance_score": 637,
-    "also_covered_by": []
-  },
-  {
-    "title": "Citrix Secure Access Client Flaw Lets Low-Privileged Windows Users Gain SYSTEM Privileges",
-    "summary": "<p>Cloud Software Group has issued a High-severity security bulletin (CTX696734) disclosing two vulnerabilities in the Citrix Secure Access Client for Windows and the Citrix Endpoint Analysis Client for Windows. The more serious of the two, tracked as CVE-2026-53565, allows a standard, low-privileged user on a local system to escalate privileges and gain full SYSTEM access, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/citrix-secure-access-client-flaw/\">Citrix Secure Access Client Flaw Lets Low-Privileged Windows Users Gain SYSTEM Privileges</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/citrix-secure-access-client-flaw/",
-    "published": "2026-07-18T06:46:38",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 622,
     "also_covered_by": []
   },
   {
@@ -1230,36 +1120,6 @@
     "also_covered_by": []
   },
   {
-    "title": "New Starland RAT Steals Browser Credentials and Scans for Over 40 Crypto Wallets",
-    "summary": "<p>A financially motivated, Russian-speaking threat actor tracked as UAT-11795, orchestrating a large-scale campaign since at least June 2025. A sophisticated Python-based remote access trojan dubbed “Starland RAT,” alongside a stealthy in-memory PowerShell implant known as the “WLDR agent.” The operation targets users across the United States and parts of Europe, with a primary focus on [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/starland-rat-steals-browser-credentials/\">New Starland RAT Steals Browser Credentials and Scans for Over 40 Crypto Wallets</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/starland-rat-steals-browser-credentials/",
-    "published": "2026-07-17T13:40:48",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 475,
-    "also_covered_by": []
-  },
-  {
-    "title": "AWS Billing Bug Displays Trillion-Dollar Cost Estimates to Cloud Customers",
-    "summary": "<p>Amazon Web Services (AWS) is currently investigating a significant billing issue affecting its Cost Explorer tool. This problem caused some cloud customers to see alarmingly inflated cost estimates, with figures reportedly reaching into the trillions of dollars. AWS Support acknowledged the issue on July 17, 2026, which has caused confusion and concern within the cloud [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/aws-billing-bug-displays-trillion-dollar-cost-estimates/\">AWS Billing Bug Displays Trillion-Dollar Cost Estimates to Cloud Customers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/aws-billing-bug-displays-trillion-dollar-cost-estimates/",
-    "published": "2026-07-17T12:19:00",
-    "source": "gbhackers.com",
-    "category": "Policy / Law",
-    "importance_score": 474,
-    "also_covered_by": []
-  },
-  {
-    "title": "TP-Link Kasa Camera Flaws Let Attackers Steal Admin Credentials and Geolocation Data",
-    "summary": "<p>TP-Link has revealed several serious vulnerabilities affecting its Kasa EC70 and EC71 smart camera models, which could expose users to credential theft and geolocation data leakage. These vulnerabilities are CVE-2026-9770 and CVE-2026-13230 and specifically affect version 4 of both devices. Attackers with access to the same local network could exploit these flaws, raising concerns about [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/tp-link-kasa-camera-flaws/\">TP-Link Kasa Camera Flaws Let Attackers Steal Admin Credentials and Geolocation Data</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/tp-link-kasa-camera-flaws/",
-    "published": "2026-07-17T09:48:17",
-    "source": "gbhackers.com",
-    "category": "Data Breach",
-    "importance_score": 473,
-    "also_covered_by": []
-  },
-  {
     "title": "Own a Pixel? You can add device protection now for $5/month - but should you?",
     "summary": "If you skipped Google's phone insurance at checkout, you can now add it again. But should you?",
     "link": "https://www.zdnet.com/article/google-just-reopened-enrollment-to-add-pixel-care-plus-to-older-phones-heres-who-should-and-shouldnt-sign-up/",
@@ -1277,26 +1137,6 @@
     "source": "infosecurity-magazine.com",
     "category": "Data Breach",
     "importance_score": 472,
-    "also_covered_by": []
-  },
-  {
-    "title": "OpenSSL “HollowByte” Vulnerability Lets Hackers Crash Servers With Just 11 Bytes",
-    "summary": "<p>A newly disclosed vulnerability in OpenSSL, dubbed &#8220;HollowByte,&#8221; allows a remote, unauthenticated attacker to trigger a denial-of-service (DoS) condition using a malicious payload as small as 11 bytes. Discovered by the Okta Red Team, the flaw exploits how OpenSSL pre-allocates memory during the TLS handshake, forcing servers to reserve massive memory chunks before any authentication [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openssl-hollowbyte-vulnerability/\">OpenSSL &#8220;HollowByte&#8221; Vulnerability Lets Hackers Crash Servers With Just 11 Bytes</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/openssl-hollowbyte-vulnerability/",
-    "published": "2026-07-17T18:21:11",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 471,
-    "also_covered_by": []
-  },
-  {
-    "title": "AWS Cost Explorer Bug Shows Trillion-Dollar Billing Estimates",
-    "summary": "<p>AWS customers worldwide were startled after the AWS Billing and Cost Management Console and Cost Explorer began displaying extraordinarily high projected cloud costs. Some organizations reported estimated monthly bills reaching trillions of dollars, triggering budget alerts and prompting concerns over potential unauthorized AWS usage. AWS confirmed the issue through its Health Dashboard and AWS Support [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/aws-cost-explorer-bug/\">AWS Cost Explorer Bug Shows Trillion-Dollar Billing Estimates</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/aws-cost-explorer-bug/",
-    "published": "2026-07-17T10:15:35",
-    "source": "cybersecuritynews.com",
-    "category": "Policy / Law",
-    "importance_score": 462,
     "also_covered_by": []
   },
   {
@@ -1620,6 +1460,16 @@
     "also_covered_by": []
   },
   {
+    "title": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
+    "summary": "The Federal Bureau of Investigation (FBI) said today it worked with industry partners to seize hundreds of domains associated with NetNut, a sprawling residential proxy service operated by the publicly-traded Israeli company Alarum Technologies [NASDAQ: ALAR]. The action comes roughly two weeks after KrebsOnSecurity published findings from multiple security firms connecting NetNut to the Popa botnet, a collection of at least two million devices that have been compromised by malicious software with little or no consent from victims.",
+    "link": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/",
+    "published": "2026-07-02T19:27:33",
+    "source": "krebsonsecurity.com",
+    "category": "Other",
+    "importance_score": 340,
+    "also_covered_by": []
+  },
+  {
     "title": "FishMonger’s arsenal upgraded: SprySOCKS for Windows",
     "summary": "ESET researchers have discovered SprySOCKS for Windows, FishMonger’s backdoor weaponizing a kernel driver for advanced stealthiness",
     "link": "https://www.welivesecurity.com/en/eset-research/fishmongers-arsenal-upgraded-sprysocks-windows/",
@@ -1777,6 +1627,36 @@
     "source": "malwarebytes.com",
     "category": "Policy / Law",
     "importance_score": 319,
+    "also_covered_by": []
+  },
+  {
+    "title": "Lessons Learned from CISA’s Recent GitHub Leak",
+    "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud keys -- in a public GitHub repository for almost six months before being notified by KrebsOnSecurity. Experts say the gaps identified in the agency's initial response provide important lessons that all security teams should absorb.",
+    "link": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
+    "published": "2026-07-13T15:03:28",
+    "source": "krebsonsecurity.com",
+    "category": "Data Breach",
+    "importance_score": 307,
+    "also_covered_by": []
+  },
+  {
+    "title": "Microsoft Patches a Record 570 Security Flaws",
+    "summary": "Microsoft Corp. today released software updates to plug at least 570 security holes in its Windows operating systems and other software, almost triple the number of vulnerabilities the software giant fixed in its record-smashing Patch Tuesday release last month. Microsoft attributed the burgeoning patch counts to vulnerability discoveries aided by artificial intelligence.",
+    "link": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
+    "published": "2026-07-14T19:22:42",
+    "source": "krebsonsecurity.com",
+    "category": "Vulnerability",
+    "importance_score": 291,
+    "also_covered_by": []
+  },
+  {
+    "title": "A Record-Breaking Patch Tuesday for June 2026",
+    "summary": "Microsoft today released software updates to plug nearly 200 security holes across its Windows operating systems and supported software, a record number of fixes for the company's monthly Patch Tuesday cycle. Nearly three dozen of those bugs earned Microsoft's most dire \"critical\" rating, and exploit code for at least three of the weaknesses is now publicly available.",
+    "link": "https://krebsonsecurity.com/2026/06/a-record-breaking-patch-tuesday-for-june-2026/",
+    "published": "2026-06-09T22:07:28",
+    "source": "krebsonsecurity.com",
+    "category": "Other",
+    "importance_score": 290,
     "also_covered_by": []
   },
   {
@@ -2200,6 +2080,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks",
+    "summary": "Authorities in the Netherlands have arrested the co-owners of two related Internet hosting companies for operating IT infrastructure used by Russia to carry out cyberattacks, influence operations and disinformation campaigns inside the European Union. The two men were the focus of a 2025 KrebsOnSecurity story about how their hosting companies had assumed control over the technical infrastructure of Stark Industries Solutions, an Internet service provider sanctioned last year by the EU as a frequent staging ground for cyber mischief from Russia's intelligence agencies.",
+    "link": "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/",
+    "published": "2026-05-25T13:21:49",
+    "source": "krebsonsecurity.com",
+    "category": "Other",
+    "importance_score": 171,
+    "also_covered_by": []
+  },
+  {
     "title": "6 cheap kitchen gadgets that will make your life easier for under $20 (I promise)",
     "summary": "These kitchen gadgets won't break the bank, but will seriously upgrade your cooking.",
     "link": "https://www.zdnet.com/article/6-best-cheap-kitchen-gadgets/",
@@ -2389,6 +2279,16 @@
     "source": "unit42.paloaltonetworks.com",
     "category": "Other",
     "importance_score": 128,
+    "also_covered_by": []
+  },
+  {
+    "title": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
+    "summary": "Two men pleaded guilty in the United Kingdom this week to criminal charges stemming from an August 2024 cyberattack that crippled Transport for London, the entity responsible for the public transport network in the Greater London area. The duo were key members of a prolific cybercrime group known as Scattered Spider, and their guilty pleas came on the first day of what was expected to be a six-week trial.",
+    "link": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
+    "published": "2026-06-23T16:12:49",
+    "source": "krebsonsecurity.com",
+    "category": "Other",
+    "importance_score": 122,
     "also_covered_by": []
   },
   {
