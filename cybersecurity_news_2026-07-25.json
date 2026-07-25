@@ -90,16 +90,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Bing Images Vulnerability Lets Attackers Execute Remote Code on Microsoft Servers",
-    "summary": "<p>Three critical remote code execution (RCE) vulnerabilities in Microsoft&#8217;s infrastructure, with two flaws in Bing Images allowing attackers to hijack backend image-processing servers using nothing more than a crafted SVG file. The findings, disclosed responsibly by XBOW and now patched, expose how an &#8220;ordinary&#8221; image-handling feature became a gateway to full SYSTEM-level access on production [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/bing-images-vulnerability/\">Bing Images Vulnerability Lets Attackers Execute Remote Code on Microsoft Servers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/bing-images-vulnerability/",
-    "published": "2026-07-24T15:56:46",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 1820,
-    "also_covered_by": []
-  },
-  {
     "title": "Pickle in the Middle – Hijacking Vertex AI Model Uploads for Cross-Tenant RCE",
     "summary": "<p>Unit 42 discovered a Vertex AI Python SDK vulnerability that allows remote code execution via bucket squatting. Read the article for more. </p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/hijacking-vertex-ai-model/\">Pickle in the Middle – Hijacking Vertex AI Model Uploads for Cross-Tenant RCE</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
     "link": "https://unit42.paloaltonetworks.com/hijacking-vertex-ai-model/",
@@ -137,16 +127,6 @@
     "source": "security.googleblog.com",
     "category": "Vulnerability",
     "importance_score": 1680,
-    "also_covered_by": []
-  },
-  {
-    "title": "Apache Syncope Release Patches for Multiple RCE and SQL Injection Vulnerabilities",
-    "summary": "<p>Apache has issued critical security updates for its Syncope identity and access management (IAM) platform to address multiple vulnerabilities, including remote code execution (RCE), SQL injection, privilege escalation, server-side request forgery (SSRF), and information disclosure. These flaws affect various versions of Syncope, and administrators are strongly urged to upgrade promptly to the latest secure releases. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/apache-syncope-release-patches/\">Apache Syncope Release Patches for Multiple RCE and SQL Injection Vulnerabilities</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/apache-syncope-release-patches/",
-    "published": "2026-07-24T11:58:13",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 1673,
     "also_covered_by": []
   },
   {
@@ -540,16 +520,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Cl0p Hackers Exploit Windchill Servers to Steal Companies’ Secret Product Designs",
-    "summary": "<p>Cl0p ransomware affiliates are exploiting exposed PTC Windchill and FlexPLM servers to steal engineering and product-design data. The campaign combines software flaws to gain access without credentials, install hidden server-side access, and remove sensitive files before demanding payment. The activity places manufacturers, automotive firms, aerospace organizations, and retail apparel companies at particular risk because Windchill [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/cl0p-hackers-exploit-windchill/\">Cl0p Hackers Exploit Windchill Servers to Steal Companies’ Secret Product Designs</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/cl0p-hackers-exploit-windchill/",
-    "published": "2026-07-24T13:05:36",
-    "source": "cybersecuritynews.com",
-    "category": "Ransomware",
-    "importance_score": 927,
-    "also_covered_by": []
-  },
-  {
     "title": "The serpent’s tongue: Luring the Python out of its den",
     "summary": "This blog examines the full lifecycle of a Python package, from hosting on repositories such as PyPI or custom web servers, through source and wheel distribution formats, to the final installation into virtual or system-wide Python environments.",
     "link": "https://blog.talosintelligence.com/the-serpents-tongue-luring-the-python-out-of-its-den/",
@@ -750,16 +720,6 @@
     "also_covered_by": []
   },
   {
-    "title": "ChonkyChicken Malware Steals Chrome Credentials, Moves Laterally and Spies on Victims",
-    "summary": "<p>ChonkyChicken is a newly identified remote access trojan designed to turn one infected Windows device into a platform for credential theft, network movement, and surveillance. The malware is part of the TAG-195, also called Golden Chickens or Venom Spider, malware-as-a-service ecosystem, which supplies tooling to financially motivated criminal operators. Recent campaigns begin with ClickFix lures, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/chonkychicken-steals-chrome-credentials/\">ChonkyChicken Malware Steals Chrome Credentials, Moves Laterally and Spies on Victims</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/chonkychicken-steals-chrome-credentials/",
-    "published": "2026-07-24T11:26:58",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 721,
-    "also_covered_by": []
-  },
-  {
     "title": "ChatGPT AgentForger Flaw Could Deploy Rogue Workspace Agents via a Phishing Link",
     "summary": "Cybersecurity researchers have disclosed a critical vulnerability in OpenAI's ChatGPT Workspace Agents that could have allowed a single phishing link to stealthily build, authorize, and deploy an autonomous artificial intelligence (AI) agent inside a victim's organization.\n\nThe vulnerability has been codenamed AgentForger by Zenity Labs. The issue has since been addressed by OpenAI as of June 8,",
     "link": "https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html",
@@ -787,16 +747,6 @@
     "source": "bleepingcomputer.com",
     "category": "Data Breach",
     "importance_score": 711,
-    "also_covered_by": []
-  },
-  {
-    "title": "FakeAgent Campaign Uses Malicious Bing Ads and Claude.ai Artifacts to Infect Corporate Users",
-    "summary": "<p>A dangerous new malware campaign is tricking corporate workers who simply want a desktop version of a popular AI assistant. Between July 21 and July 22, 2026, at least 29 organizations saw unusual software installs and hidden persistence on their systems after staff searched for the Claude desktop app. The attack begins with paid ads [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fakeagent-campaign-malicious-bing-ads/\">FakeAgent Campaign Uses Malicious Bing Ads and Claude.ai Artifacts to Infect Corporate Users</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/fakeagent-campaign-malicious-bing-ads/",
-    "published": "2026-07-24T11:54:18",
-    "source": "cybersecuritynews.com",
-    "category": "AI & Security",
-    "importance_score": 706,
     "also_covered_by": []
   },
   {
@@ -907,26 +857,6 @@
     "source": "securelist.com",
     "category": "Ransomware",
     "importance_score": 633,
-    "also_covered_by": []
-  },
-  {
-    "title": "Certighost Active Directory CS Exploit Allows Low-Privileged Users to Compromise Domain",
-    "summary": "<p>A newly disclosed Active Directory Certificate Services (AD CS) vulnerability, dubbed Certighost, allowed a low-privilege domain user to impersonate a Domain Controller and take over an entire Active Directory domain. Tracked as CVE-2026-54121, the flaw was patched in Microsoft&#8217;s July 2026 security updates following responsible disclosure earlier this year. AD CS is Microsoft&#8217;s public key [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/certighost-active-directory-cs-flaw/\">Certighost Active Directory CS Exploit Allows Low-Privileged Users to Compromise Domain</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/certighost-active-directory-cs-flaw/",
-    "published": "2026-07-24T16:35:58",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 622,
-    "also_covered_by": []
-  },
-  {
-    "title": "Microsoft Confirms No Bloatware Ads in Windows 11; LG Disables McAfee Pop-ups",
-    "summary": "<p>Microsoft has moved quickly to shut down unwanted antivirus advertising after users discovered that connecting an LG monitor could silently install companion software and trigger a McAfee trial pop-up on Windows 11. The issue surfaced when owners of premium LG displays reported that plugging in their monitors caused Windows Update to deliver the LG Monitor [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-confirms-no-bloatware-ads-windows-11/\">Microsoft Confirms No Bloatware Ads in Windows 11; LG Disables McAfee Pop-ups</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/microsoft-confirms-no-bloatware-ads-windows-11/",
-    "published": "2026-07-24T11:26:34",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 611,
     "also_covered_by": []
   },
   {
@@ -1190,16 +1120,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Tego AI Discloses Second Claude Flaw in a Week: Hidden Link Silently Sends Files to Attackers",
-    "summary": "<p>Tel Aviv, Israel, July 24th, 2026, CyberNewswire One week after disclosing that Anthropic&#8217;s Claude Tag Slack integration could be driven by plain &#8220;@Claude&#8221; text, Tego AI today published a second piece of research on the Claude ecosystem. This one focuses on Claude Code, Anthropic&#8217;s agentic command-line coding tool. Cloning an ordinary repository and starting Claude [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/tego-ai-discloses-second-claude-flaw-in-a-week-hidden-link-silently-sends-files-to-attackers/\">Tego AI Discloses Second Claude Flaw in a Week: Hidden Link Silently Sends Files to Attackers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/tego-ai-discloses-second-claude-flaw-in-a-week-hidden-link-silently-sends-files-to-attackers/",
-    "published": "2026-07-24T17:19:04",
-    "source": "cybersecuritynews.com",
-    "category": "Policy / Law",
-    "importance_score": 484,
-    "also_covered_by": []
-  },
-  {
     "title": "Healthcare giant Abbott probes two cyber incidents amid extortion claims",
     "summary": "Extortion groups ShinyHunters and ShadowByt3$ claim they stole vast amounts of patient data. Those allegations have not been verified.",
     "link": "https://www.malwarebytes.com/blog/data-breaches/2026/07/healthcare-giant-abbott-probes-two-cyber-incidents-amid-extortion-claims",
@@ -1217,16 +1137,6 @@
     "source": "threatpost.com",
     "category": "Ransomware",
     "importance_score": 477,
-    "also_covered_by": []
-  },
-  {
-    "title": "JetBrains Fixes Critical IntelliJ IDEA Code Execution Flaw and Four TeamCity Vulnerabilities",
-    "summary": "<p>JetBrains has released security updates to address a critical code execution vulnerability in IntelliJ IDEA, alongside four high-severity vulnerabilities in TeamCity. Development teams and CI administrators are urged to apply these patches immediately to prevent potential remote attacks. JetBrains published a security advisory that details multiple issues across its IDE and server products, including IntelliJ [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/jetbrains-fixes-critical-vulnerabilities/\">JetBrains Fixes Critical IntelliJ IDEA Code Execution Flaw and Four TeamCity Vulnerabilities</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/jetbrains-fixes-critical-vulnerabilities/",
-    "published": "2026-07-24T11:58:10",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 476,
     "also_covered_by": []
   },
   {
@@ -1257,16 +1167,6 @@
     "source": "infosecurity-magazine.com",
     "category": "Ransomware",
     "importance_score": 472,
-    "also_covered_by": []
-  },
-  {
-    "title": "Foxit Updater Vulnerability Gives Standard Users SYSTEM-Level Control of Windows Devices",
-    "summary": "<p>Foxit PDF Reader has been found vulnerable to a local privilege escalation flaw that allows standard Windows users to gain full SYSTEM-level control under specific conditions. The issue, tracked as CVE-2026-57239, was disclosed following research into Foxit’s updater and service architecture and represents a high-impact post-exploitation pathway, although it requires prior code execution on the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/foxit-updater-vulnerability/\">Foxit Updater Vulnerability Gives Standard Users SYSTEM-Level Control of Windows Devices</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/foxit-updater-vulnerability/",
-    "published": "2026-07-25T03:36:03",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 468,
     "also_covered_by": []
   },
   {
