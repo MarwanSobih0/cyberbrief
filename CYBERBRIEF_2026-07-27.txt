@@ -1,0 +1,60 @@
+CYBERBRIEF • DAILY THREAT INTELLIGENCE
+Generated: Monday, July 27, 2026 - 08:22 UTC
+================================================================================
+
+Total topics: 292    •    Scanned raw articles: 294
+Severity breakdown:
+  CRITICAL: 7  |  HIGH: 9  |  MEDIUM: 47  |  LOW: 229
+
+Top 7 active threats:
+
+1. Alert Triangle  thehackernews.com  [Newspaper]
+   Title    : Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated RCE
+   Category : Ransomware    •    Severity: CRITICAL (score: 2582)
+   Published: 2026-07-25T10:14:03
+   Link     : https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html
+
+2. Alert Triangle  security.googleblog.com  [News Site]
+   Title    : HTTPS by default
+   Category : Vulnerability    •    Severity: CRITICAL (score: 2520)
+   Published: 2025-10-28T17:01:00
+   Link     : http://security.googleblog.com/2025/10/https-by-default.html
+
+3. Alert Triangle  thecyberexpress.com  [Link]
+   Title    : How the Gentlemen Ransomware Group Built a Multi-Region Attack Machine in H1 2026
+   Category : Ransomware    •    Severity: CRITICAL (score: 2450)
+   Published: 2026-07-27T05:37:30
+   Link     : https://thecyberexpress.com/the-gentlemen-ransomware-group/
+
+4. Alert Triangle  security.googleblog.com  [News Site]
+   Title    : Bringing Rust to the Pixel Baseband
+   Category : Ransomware    •    Severity: CRITICAL (score: 2380)
+   Published: 2026-04-10T15:12:00
+   Link     : http://security.googleblog.com/2026/04/bringing-rust-to-pixel-baseband.html
+
+5. Alert Triangle  security.googleblog.com  [News Site]
+   Title    : Rust in Android: move fast and fix things
+   Category : Ransomware    •    Severity: CRITICAL (score: 2380)
+   Published: 2025-11-13T16:59:00
+   Link     : http://security.googleblog.com/2025/11/rust-in-android-move-fast-fix-things.html
+
+6. Alert Triangle  thecyberexpress.com  [Link]
+   Title    : One Country Absorbed Nearly Half of the World’s Ransomware Attacks in Just Six Months – The United States
+   Category : Ransomware    •    Severity: CRITICAL (score: 2300)
+   Published: 2026-07-24T05:09:20
+   Link     : https://thecyberexpress.com/us-ransomware-attacks-in-h1-2026/
+
+7. Alert Triangle  thehackernews.com  [Newspaper]
+   Title    : Kimi K3 Agents Found Redis Zero-Days and Built RCE Exploit, Researchers Say
+   Category : Vulnerability    •    Severity: CRITICAL (score: 2088)
+   Published: 2026-07-24T06:58:27
+   Link     : https://thehackernews.com/2026/07/kimi-k3-agents-found-redis-zero-days.html
+
+Security Tips:
+• Never trust unsolicited links or attachments in email or messaging apps.
+• Enable multi-factor authentication (MFA) on email, banking, and admin accounts.
+• Keep browsers, VPNs, and endpoint security fully patched.
+
+Scanned 294 articles • Top 7 topics selected
+Next planned auto-update: 08:00 AM UTC
+Stay safe, stay sharp!
