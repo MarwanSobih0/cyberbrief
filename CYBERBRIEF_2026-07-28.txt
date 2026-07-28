@@ -1,0 +1,60 @@
+CYBERBRIEF • DAILY THREAT INTELLIGENCE
+Generated: Tuesday, July 28, 2026 - 07:33 UTC
+================================================================================
+
+Total topics: 283    •    Scanned raw articles: 284
+Severity breakdown:
+  CRITICAL: 7  |  HIGH: 11  |  MEDIUM: 50  |  LOW: 215
+
+Top 7 active threats:
+
+1. Alert Triangle  thecyberexpress.com  [Link]
+   Title    : Angelina Jolie, Robert De Niro Among Hollywood Stars Hit by Tribeca Data Leak
+   Category : Ransomware    •    Severity: CRITICAL (score: 2650)
+   Published: 2026-07-27T12:15:29
+   Link     : https://thecyberexpress.com/tribeca-film-festival-data-breach/
+
+2. Alert Triangle  thehackernews.com  [Newspaper]
+   Title    : Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated RCE
+   Category : Ransomware    •    Severity: CRITICAL (score: 2582)
+   Published: 2026-07-25T10:14:03
+   Link     : https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html
+
+3. Alert Triangle  security.googleblog.com  [News Site]
+   Title    : HTTPS by default
+   Category : Vulnerability    •    Severity: CRITICAL (score: 2520)
+   Published: 2025-10-28T17:01:00
+   Link     : http://security.googleblog.com/2025/10/https-by-default.html
+
+4. Alert Triangle  security.googleblog.com  [News Site]
+   Title    : Bringing Rust to the Pixel Baseband
+   Category : Ransomware    •    Severity: CRITICAL (score: 2380)
+   Published: 2026-04-10T15:12:00
+   Link     : http://security.googleblog.com/2026/04/bringing-rust-to-pixel-baseband.html
+
+5. Alert Triangle  security.googleblog.com  [News Site]
+   Title    : Rust in Android: move fast and fix things
+   Category : Ransomware    •    Severity: CRITICAL (score: 2380)
+   Published: 2025-11-13T16:59:00
+   Link     : http://security.googleblog.com/2025/11/rust-in-android-move-fast-fix-things.html
+
+6. Alert Triangle  bleepingcomputer.com  [Newspaper]
+   Title    : Hackers target US firms in FastJson RCE zero-day attacks
+   Category : Vulnerability    •    Severity: CRITICAL (score: 2357)
+   Published: 2026-07-27T23:49:44
+   Link     : https://www.bleepingcomputer.com/news/security/hackers-target-us-firms-in-fastjson-rce-zero-day-attacks/
+
+7. Alert Triangle  thecyberexpress.com  [Link]
+   Title    : How the Gentlemen Ransomware Group Built a Multi-Region Attack Machine in H1 2026
+   Category : Ransomware    •    Severity: CRITICAL (score: 2300)
+   Published: 2026-07-27T05:37:30
+   Link     : https://thecyberexpress.com/the-gentlemen-ransomware-group/
+
+Security Tips:
+• Never trust unsolicited links or attachments in email or messaging apps.
+• Enable multi-factor authentication (MFA) on email, banking, and admin accounts.
+• Keep browsers, VPNs, and endpoint security fully patched.
+
+Scanned 284 articles • Top 7 topics selected
+Next planned auto-update: 08:00 AM UTC
+Stay safe, stay sharp!
