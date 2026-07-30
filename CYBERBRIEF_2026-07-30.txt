@@ -1,10 +1,10 @@
 CYBERBRIEF • DAILY THREAT INTELLIGENCE
-Generated: Thursday, July 30, 2026 - 07:29 UTC
+Generated: Thursday, July 30, 2026 - 07:32 UTC
 ================================================================================
 
-Total topics: 293    •    Scanned raw articles: 294
+Total topics: 303    •    Scanned raw articles: 304
 Severity breakdown:
-  CRITICAL: 5  |  HIGH: 12  |  MEDIUM: 49  |  LOW: 227
+  CRITICAL: 6  |  HIGH: 12  |  MEDIUM: 52  |  LOW: 233
 
 Top 7 active threats:
 
@@ -38,23 +38,23 @@ Top 7 active threats:
    Published: 2026-07-28T11:58:42
    Link     : https://thecyberexpress.com/tanaka-data-leak-broker-h1-2026/
 
-6. Shield Check  security.googleblog.com  [News Site]
+6. Alert Triangle  cybersecuritynews.com  [News Site]
+   Title    : Cisco Firewall Management Center 0-Day Actively Exploited to Access Sensitive Data
+   Category : Vulnerability    •    Severity: CRITICAL (score: 2266)
+   Published: 2026-07-30T05:17:58
+   Link     : https://cybersecuritynews.com/cisco-firewall-management-center-0-day/
+
+7. Shield Check  security.googleblog.com  [News Site]
    Title    : Android Quick Share Support for AirDrop: A Secure Approach to Cross-Platform File Sharing
    Category : Data Breach    •    Severity: HIGH (score: 1959)
    Published: 2025-11-20T17:00:00
    Link     : http://security.googleblog.com/2025/11/android-quick-share-support-for-airdrop-security.html
-
-7. Shield Check  thecyberexpress.com  [Link]
-   Title    : Two Joyfill npm Packages Found Delivering DEV#POPPER Malware
-   Category : Ransomware    •    Severity: HIGH (score: 1950)
-   Published: 2026-07-29T10:51:50
-   Link     : https://thecyberexpress.com/joyfill-npm-packages-devpopper-nodejs-malware/
 
 Security Tips:
 • Never trust unsolicited links or attachments in email or messaging apps.
 • Enable multi-factor authentication (MFA) on email, banking, and admin accounts.
 • Keep browsers, VPNs, and endpoint security fully patched.
 
-Scanned 294 articles • Top 7 topics selected
+Scanned 304 articles • Top 7 topics selected
 Next planned auto-update: 08:00 AM UTC
 Stay safe, stay sharp!
