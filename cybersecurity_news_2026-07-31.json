@@ -300,16 +300,6 @@
     "also_covered_by": []
   },
   {
-    "title": "CISA Warns of Cisco Secure Firewall Management 0-Day Vulnerability Exploited in Attacks",
-    "summary": "<p>CISA has issued a warning regarding a serious vulnerability in the Cisco Secure Firewall Management Center (FMC), which is currently being exploited in attacks. The flaw, identified as CVE-2026-20316, affects Cisco&#8217;s centralized management platform for firewall solutions and could allow remote attackers to gain easy access to sensitive network environments. The Cisco FMC, previously known [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/cisco-secure-firewall-management-0-day/\">CISA Warns of Cisco Secure Firewall Management 0-Day Vulnerability Exploited in Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/cisco-secure-firewall-management-0-day/",
-    "published": "2026-07-30T17:11:14",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 1221,
-    "also_covered_by": []
-  },
-  {
     "title": "Rethinking security for the age of AI",
     "summary": "<p>The physics of cybersecurity are changing. Introducing security's new cyber stack: Project Perception.</p>\n<p>The post <a href=\"https://blogs.microsoft.com/blog/2026/07/27/rethinking-security-for-the-age-of-ai/\">Rethinking security for the age of AI</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
     "link": "https://blogs.microsoft.com/blog/2026/07/27/rethinking-security-for-the-age-of-ai/",
@@ -380,26 +370,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Analog Devices Confirms Cyberattack After Hackers Exfiltrate Files From Company Systems",
-    "summary": "<p>Analog Devices, Inc. has confirmed that unauthorized actors gained access to certain company systems and exfiltrated files. The semiconductor manufacturer detected the cyber incident on June 23, 2023, and immediately activated its incident response protocols. The company enlisted external cybersecurity experts to assist with containment and forensic investigations and notified law enforcement authorities. According to [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/analog-devices-confirms-cyberattack/\">Analog Devices Confirms Cyberattack After Hackers Exfiltrate Files From Company Systems</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/analog-devices-confirms-cyberattack/",
-    "published": "2026-07-31T05:03:13",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 1085,
-    "also_covered_by": []
-  },
-  {
-    "title": "ShutterGap Exposes Millions of Misconfigured AWS Resources to Attackers",
-    "summary": "<p>A cloud-security blind spot known as Cloud ShutterGap, which involves millions of AWS resources being briefly exposed to the public before being removed, often within minutes. These short-lived misconfigurations can include Amazon RDS and DocumentDB snapshots, Amazon Machine Images (AMIs), and AWS Systems Manager (SSM) documents that contain sensitive organizational data. ShutterGap Exposes Millions of [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/shuttergap-exposes-millions-of-misconfigured-aws-resources/\">ShutterGap Exposes Millions of Misconfigured AWS Resources to Attackers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/shuttergap-exposes-millions-of-misconfigured-aws-resources/",
-    "published": "2026-07-31T06:28:30",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 1082,
-    "also_covered_by": []
-  },
-  {
     "title": "Coca-Cola Reveals Subsidiary Fairlife Suffered Data Breach",
     "summary": "Coca Cola claims data was stolen from its Fairlife business after a recent ransomware attack",
     "link": "https://www.infosecurity-magazine.com/news/coca-cola-subsidiary-fairlife-data/",
@@ -417,16 +387,6 @@
     "source": "blog.talosintelligence.com",
     "category": "Ransomware",
     "importance_score": 1071,
-    "also_covered_by": []
-  },
-  {
-    "title": "Planning Your AI Security – How will You Manage All Your Resources?",
-    "summary": "<p>AI has a role to play in Security Operations Centre (SOC) environments. According to EY, the number of senior security leaders dedicating at least a quarter of their cybersecurity budget to AI solutions for cybersecurity is expected to rise in the next two years, from nine percent today to 48 percent. The reason for this increased spend [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/planning-your-ai-security-how-will-you-manage-all-your-resources/\">Planning Your AI Security &#8211; How will You Manage All Your Resources?</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/planning-your-ai-security-how-will-you-manage-all-your-resources/",
-    "published": "2026-07-30T15:32:19",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 1059,
     "also_covered_by": []
   },
   {
@@ -477,16 +437,6 @@
     "source": "unit42.paloaltonetworks.com",
     "category": "Vulnerability",
     "importance_score": 981,
-    "also_covered_by": []
-  },
-  {
-    "title": "Astaroth Banking Trojan Adds WhatsApp Web Spambot to Spread Malware Across Brazil",
-    "summary": "<p>Astaroth operators have expanded their Brazilian banking malware operations by weaponizing a new WhatsApp Web spambot module that turns infected hosts into automated malware relays, marking a significant evolution of the LATAM e-crime ecosystem. Traditionally propagated via email and archive-based phishing, recent campaigns such as STAC3150 and the “Boto Cor-de-Rosa” operation shifted distribution to WhatsApp [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/astaroth-banking-trojan/\">Astaroth Banking Trojan Adds WhatsApp Web Spambot to Spread Malware Across Brazil</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/astaroth-banking-trojan/",
-    "published": "2026-07-31T06:13:46",
-    "source": "gbhackers.com",
-    "category": "Phishing / Scams",
-    "importance_score": 978,
     "also_covered_by": []
   },
   {
@@ -700,16 +650,6 @@
     "also_covered_by": []
   },
   {
-    "title": "OctLurk and SilkLurk Backdoors Target Central Asian Governments in Cyberespionage Campaign",
-    "summary": "<p>OctLurk and SilkLurk are highly customized, memory‑resident backdoors used in an ongoing cyberespionage campaign against government and critical‑sector networks across Central Asia and Syria, operated by a Chinese‑speaking threat actor but not yet linked to a known APT. Active since January 2025, the operation leverages victim‑specific loaders, multi‑plugin frameworks, and shared infrastructure, along with Linux‑focused [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/octlurk-and-silklurk-backdoors/\">OctLurk and SilkLurk Backdoors Target Central Asian Governments in Cyberespionage Campaign</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/octlurk-and-silklurk-backdoors/",
-    "published": "2026-07-31T05:08:39",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 735,
-    "also_covered_by": []
-  },
-  {
     "title": "Malwarebytes for Windows, now available on the Microsoft Store",
     "summary": "Install Malwarebytes for Windows from the Microsoft Store with the same full protection and features.",
     "link": "https://www.malwarebytes.com/blog/product/2026/07/malwarebytes-for-windows-now-available-on-the-microsoft-store",
@@ -717,26 +657,6 @@
     "source": "malwarebytes.com",
     "category": "Other",
     "importance_score": 725,
-    "also_covered_by": []
-  },
-  {
-    "title": "Recon-Only SSH Attack Leaves No Malware but Signals a Second-Stage Intrusion",
-    "summary": "<p>Recon-only activity on SSH is not harmless background noise. A recent honeypot session shows an automated Go-based bot logging in as root, exhaustively grading host hardware for cryptomining suitability, then exiting without dropping a single binary. Cowrie, which exposes a realistic fake Linux shell and records full command transcripts, logged a connection from 91.92.40.13 that [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/recon-only-ssh-attack/\">Recon-Only SSH Attack Leaves No Malware but Signals a Second-Stage Intrusion</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/recon-only-ssh-attack/",
-    "published": "2026-07-31T07:35:43",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 718,
-    "also_covered_by": []
-  },
-  {
-    "title": "New Backdoors Let Hackers Keylog, Steal Passwords and Control Government Computers",
-    "summary": "<p>Government networks in Central Asia have been hit by two custom-built backdoors that give intruders deep control over infected computers. Known as OctLurk and SilkLurk, the tools can record keystrokes, collect browser passwords, steal email, and run commands remotely. The campaign has been active since January 2025 and has affected organizations in Afghanistan, Kazakhstan, Kyrgyzstan, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/new-backdoors-let-hackers-keylog/\">New Backdoors Let Hackers Keylog, Steal Passwords and Control Government Computers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/new-backdoors-let-hackers-keylog/",
-    "published": "2026-07-31T06:51:55",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 716,
     "also_covered_by": []
   },
   {
@@ -857,36 +777,6 @@
     "source": "securelist.com",
     "category": "Ransomware",
     "importance_score": 633,
-    "also_covered_by": []
-  },
-  {
-    "title": "CISA Urges Water Utilities to Remove Publicly Exposed PLCs From the Internet",
-    "summary": "<p>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has issued an urgent alert to the Water and Wastewater Systems (WWS) Sector due to a significant rise in cyber threat activity targeting internet-exposed programmable logic controllers (PLCs). Released on July 30, 2026, the advisory urges critical infrastructure owners, operators, and system integrators to immediately identify and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cisa-urges-water-utilities-to-remove-publicly-exposed-plcs/\">CISA Urges Water Utilities to Remove Publicly Exposed PLCs From the Internet</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/cisa-urges-water-utilities-to-remove-publicly-exposed-plcs/",
-    "published": "2026-07-31T05:42:28",
-    "source": "gbhackers.com",
-    "category": "Critical Infrastructure",
-    "importance_score": 632,
-    "also_covered_by": []
-  },
-  {
-    "title": "CosmosEscape Vulnerability Enables Full Takeover of Azure Cosmos DB Databases",
-    "summary": "<p>A critical vulnerability chain in Azure Cosmos DB, named CosmosEscape, allowed attackers to gain full read and write access to every Cosmos DB database, including potentially those managed internally by Microsoft. The issue specifically affected the service’s Gremlin API. It exposed a cross-tenant attack path that could bypass customer network isolation controls. CosmosEscape Vulnerability According [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cosmosescape-vulnerability/\">CosmosEscape Vulnerability Enables Full Takeover of Azure Cosmos DB Databases</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/cosmosescape-vulnerability/",
-    "published": "2026-07-31T05:33:06",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 625,
-    "also_covered_by": []
-  },
-  {
-    "title": "CISA Urges Water Utilities to Remove PLCs From the Public Internet Immediately",
-    "summary": "<p>The Cybersecurity and Infrastructure Security Agency (CISA) has issued an urgent warning to water and wastewater organizations due to a rise in cyberattacks targeting internet-exposed programmable logic controllers (PLCs). PLCs are industrial devices that control critical physical processes such as water treatment, pumping, chemical dosing, and wastewater management. When these systems are accessible from the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/cisa-urges-water-utilities-to-remove-plcs/\">CISA Urges Water Utilities to Remove PLCs From the Public Internet Immediately</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/cisa-urges-water-utilities-to-remove-plcs/",
-    "published": "2026-07-31T07:34:54",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 623,
     "also_covered_by": []
   },
   {
@@ -1110,16 +1000,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Anthropic Confirms Claude AI Models Hacked 3 Organizations During Cybersecurity Evaluations",
-    "summary": "<p>Anthropic has disclosed that three Claude AI models gained unauthorized access to the production systems of three real-world organizations during cybersecurity capability evaluations. These incidents resulted from a misconfiguration in a third-party testing environment that granted the models live internet access, despite clear instructions stating they were operating in isolated simulations without internet connectivity. Claude [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/anthropic-confirms-claude-ai-models-hacked-3-organizations/\">Anthropic Confirms Claude AI Models Hacked 3 Organizations During Cybersecurity Evaluations</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/anthropic-confirms-claude-ai-models-hacked-3-organizations/",
-    "published": "2026-07-31T04:55:26",
-    "source": "gbhackers.com",
-    "category": "AI & Security",
-    "importance_score": 494,
-    "also_covered_by": []
-  },
-  {
     "title": "CL-STA-1062 Targets Southeast Asian Governments and Critical Infrastructure",
     "summary": "<p>Government entities and critical infrastructure were targeted for espionage in SE Asia by attackers using a hybrid toolkit, including custom TinyRCT backdoor. </p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/cl-sta-1062-tinyrct-backdoor/\">CL-STA-1062 Targets Southeast Asian Governments and Critical Infrastructure</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
     "link": "https://unit42.paloaltonetworks.com/cl-sta-1062-tinyrct-backdoor/",
@@ -1127,16 +1007,6 @@
     "source": "unit42.paloaltonetworks.com",
     "category": "Critical Infrastructure",
     "importance_score": 494,
-    "also_covered_by": []
-  },
-  {
-    "title": "PHP Patches 3 Security Flaws Enabling SQL Injection, Memory Corruption and DoS Attacks",
-    "summary": "<p>PHP maintainers have released security updates to address three vulnerabilities affecting the PostgreSQL, BCMath, and Phar extensions. These vulnerabilities could potentially lead to SQL injection attacks, out-of-bounds memory writes, and denial-of-service attacks in vulnerable applications. The issues impact several actively maintained PHP release branches and have been resolved in versions PHP 8.2.338.2, 8.3.338.3, 8.4.248.4, and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/php-patches-3-security-flaws-enabling-sql-injection/\">PHP Patches 3 Security Flaws Enabling SQL Injection, Memory Corruption and DoS Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/php-patches-3-security-flaws-enabling-sql-injection/",
-    "published": "2026-07-31T06:53:39",
-    "source": "gbhackers.com",
-    "category": "Policy / Law",
-    "importance_score": 492,
     "also_covered_by": []
   },
   {
@@ -1180,16 +1050,6 @@
     "also_covered_by": []
   },
   {
-    "title": "CMMC Phase II Is Paused, But Contractors’ Data-Security Obligations Are Not",
-    "summary": "<p>By John Grancarich, EVP, Head of Defense &#38; Intelligence, Fortra The recent pause affecting the implementation of&#160;Cybersecurity Maturity Model Certification (CMMC)&#160;Phase II has understandably generated questions across the Defense Industrial Base (DIB). For many organizations, the immediate reaction has been to ask whether compliance timelines will shift, whether assessment preparation can be slowed, or whether [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/cmmc-phase-ii-is-paused-but-contractors-data-security-obligations-are-not/\">CMMC Phase II Is Paused, But Contractors’ Data-Security Obligations Are Not</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/cmmc-phase-ii-is-paused-but-contractors-data-security-obligations-are-not/",
-    "published": "2026-07-31T07:26:06",
-    "source": "cybersecuritynews.com",
-    "category": "Policy / Law",
-    "importance_score": 484,
-    "also_covered_by": []
-  },
-  {
     "title": "Hidden prompt turns Microsoft Copilot into an AI worm",
     "summary": "A new type of attack can trick Microsoft Copilot for Word into spreading hidden prompt injections from document to document.",
     "link": "https://www.malwarebytes.com/blog/ai/2026/07/hidden-microsoft-copilot-ai-worm",
@@ -1197,16 +1057,6 @@
     "source": "malwarebytes.com",
     "category": "AI & Security",
     "importance_score": 481,
-    "also_covered_by": []
-  },
-  {
-    "title": "OpenMatter Network Calls on Enterprise Leaders to Rethink AI Security Before the Next Rogue AI Crisis",
-    "summary": "<p>Melbourne, Florida, July 30th, 2026, CyberNewswire The growing number of high-profile AI security incidents making headlines around the world are not simply cybersecurity failures. They are architectural failures, according to OpenMatter Network Co-Founder and CEO Renee Davis. “Recent incidents involving increasingly autonomous AI systems – including OpenAI&#8217;s widely reported cyber evaluation that resulted in the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openmatter-network-ai-security-rethink/\">OpenMatter Network Calls on Enterprise Leaders to Rethink AI Security Before the Next Rogue AI Crisis</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/openmatter-network-ai-security-rethink/",
-    "published": "2026-07-30T16:44:21",
-    "source": "cybersecuritynews.com",
-    "category": "AI & Security",
-    "importance_score": 480,
     "also_covered_by": []
   },
   {
@@ -1230,16 +1080,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Chinese-Speaking Hacker Uses DeepSeek Agent to Launch Autonomous Cyberattacks",
-    "summary": "<p>Chinese-speaking threat actor “knaithe” (aka KnYuan) has been caught running an AI-enabled autonomous attack stack built around DeepSeek and the Hermes Agent framework, proving that large language models can now drive end‑to‑end offensive operations with minimal human oversight. Hermes provided terminal access, skills orchestration, and Model Context Protocol (MCP) integrations. At the same time, DeepSeek [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hacker-uses-deepseek-agent/\">Chinese-Speaking Hacker Uses DeepSeek Agent to Launch Autonomous Cyberattacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/hacker-uses-deepseek-agent/",
-    "published": "2026-07-31T06:50:33",
-    "source": "gbhackers.com",
-    "category": "AI & Security",
-    "importance_score": 477,
-    "also_covered_by": []
-  },
-  {
     "title": "Ransomware Attacks are on the Rise",
     "summary": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
     "link": "https://threatpost.com/ransomware-attacks-are-on-the-rise/180481/",
@@ -1247,16 +1087,6 @@
     "source": "threatpost.com",
     "category": "Ransomware",
     "importance_score": 477,
-    "also_covered_by": []
-  },
-  {
-    "title": "PHP Patches Three Flaws Enabling SQL Injection, Memory Corruption and Server Crashes",
-    "summary": "<p>PHP has addressed three security vulnerabilities in its latest maintenance releases, including high-severity flaws that can expose applications to SQL injection and out-of-bounds memory writes. These vulnerabilities affect optional PHP extensions commonly used by web applications: ext-pgsql, ext-bcmath, and ext-phar. Organizations are urged to update their PHP installations promptly, especially if their applications process untrusted [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/php-patches-three-flaws/\">PHP Patches Three Flaws Enabling SQL Injection, Memory Corruption and Server Crashes</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/php-patches-three-flaws/",
-    "published": "2026-07-31T07:43:52",
-    "source": "cybersecuritynews.com",
-    "category": "Policy / Law",
-    "importance_score": 476,
     "also_covered_by": []
   },
   {
@@ -1270,26 +1100,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Security in the AI Era Starts with First Principles",
-    "summary": "<p>Written By Alfredo Hickman, CISO, Kai&#160; Artificial intelligence is evolving so rapidly that keeping up can feel daunting. New models, capabilities, and attack vectors seem to&#160;emerge&#160;almost daily, pressuring CISOs to constantly adjust their security strategies. Security leaders have recognized that shift.&#160;&#160; In Kai&#8217;s recent survey of 500 CISOs,&#160;nearly nine&#160;in ten (89%) said they are prepared [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/security-in-the-ai-era-starts-with-first-principles/\">Security in the AI Era Starts with First Principles </a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/security-in-the-ai-era-starts-with-first-principles/",
-    "published": "2026-07-31T06:36:11",
-    "source": "cybersecuritynews.com",
-    "category": "AI & Security",
-    "importance_score": 474,
-    "also_covered_by": []
-  },
-  {
-    "title": "Home Assistant FFmpeg Vulnerability Enables File Theft and Root Command Execution",
-    "summary": "<p>A recently disclosed vulnerability in Home Assistant has unveiled how improper handling of FFmpeg inputs can be exploited to steal sensitive files and ultimately enable root-level command execution on affected systems. This issue, discovered by security researchers at elttam, highlights the dangers of integrating powerful multimedia tools like FFmpeg into applications without strict input validation. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/home-assistant-ffmpeg-vulnerability/\">Home Assistant FFmpeg Vulnerability Enables File Theft and Root Command Execution</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/home-assistant-ffmpeg-vulnerability/",
-    "published": "2026-07-30T16:02:31",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 470,
-    "also_covered_by": []
-  },
-  {
     "title": "You were onto something with “It’s the Climb,” Miley",
     "summary": "Amy hikes Virginia’s most difficult trail and muses on the persistent challenges of cybersecurity. The two aren't dissimilar.",
     "link": "https://blog.talosintelligence.com/you-were-onto-something-with-its-the-climb-miley/",
@@ -1297,16 +1107,6 @@
     "source": "blog.talosintelligence.com",
     "category": "Other",
     "importance_score": 463,
-    "also_covered_by": []
-  },
-  {
-    "title": "Anthropic Confirms Claude Hacked 3 Organizations by Breaking Test Environment",
-    "summary": "<p>Anthropic has disclosed that its Claude AI models gained unauthorized access to the real systems of three organizations after reaching the open internet from what should have been sealed cybersecurity evaluation environments. The company said the findings emerged from a large-scale retrospective review launched after OpenAI reported that several of its models had broken out [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/claude-hacked-3-organizations/\">Anthropic Confirms Claude Hacked 3 Organizations by Breaking Test Environment</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/claude-hacked-3-organizations/",
-    "published": "2026-07-31T03:07:17",
-    "source": "cybersecuritynews.com",
-    "category": "AI & Security",
-    "importance_score": 461,
     "also_covered_by": []
   },
   {
@@ -1550,16 +1350,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Beyond the screenshot: Why you should verify what you see",
-    "summary": "The screenshot may look convincing, but it doesn’t necessarily prove that the payment, booking or conversation is genuine",
-    "link": "https://www.welivesecurity.com/en/cybersecurity/beyond-screenshot-why-verify-you-see/",
-    "published": "2026-07-30T08:50:00",
-    "source": "welivesecurity.com",
-    "category": "Other",
-    "importance_score": 396,
-    "also_covered_by": []
-  },
-  {
     "title": "Anthropic says its AI accidentally hacked three companies during safety tests",
     "summary": "<p>Following OpenAI’s own incident, Anthropic reviewed its own evaluations and found three cases of Claude hacking external companies. </p>\n<p>The post <a href=\"https://cyberscoop.com/anthropic-claude-ai-hacks-real-companies/\">Anthropic says its AI accidentally hacked three companies during safety tests</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
     "link": "https://cyberscoop.com/anthropic-claude-ai-hacks-real-companies/",
@@ -1677,6 +1467,16 @@
     "source": "welivesecurity.com",
     "category": "Other",
     "importance_score": 338,
+    "also_covered_by": []
+  },
+  {
+    "title": "BTMOB: A stealthy RAT burrowing deep into Android devices",
+    "summary": "The malware pairs remote access capabilities with ready-made campaign tools, lowering the barrier for full device compromise",
+    "link": "https://www.welivesecurity.com/en/malware/btmob-stealthy-rat-burrowing-deep-android-devices/",
+    "published": "2026-05-26T08:50:00",
+    "source": "welivesecurity.com",
+    "category": "Other",
+    "importance_score": 337,
     "also_covered_by": []
   },
   {
