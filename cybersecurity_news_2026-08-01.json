@@ -530,6 +530,16 @@
     "also_covered_by": []
   },
   {
+    "title": "This month in security with Tony Anscombe – July 2026 edition",
+    "summary": "OpenAI models going rogue, the first documented agentic ransomware operation, and an emergent AI-driven supply chain threat made for a packed July roundup",
+    "link": "https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-july-2026/",
+    "published": "2026-07-31T14:14:15",
+    "source": "welivesecurity.com",
+    "category": "Ransomware",
+    "importance_score": 945,
+    "also_covered_by": []
+  },
+  {
     "title": "Ransomware Killers Overwrite Security Process Memory Without Terminating Applications",
     "summary": "<p>Ransomware operators are increasingly deploying “ransomware killers” that surgically overwrite the memory of security processes instead of simply terminating them, allowing encryption to proceed. At the same time, endpoint tools appear to run normally but are effectively blind. This evolution marks a shift from crude process-killing to stealthy, in‑memory tampering that targets EDR/AV telemetry, kernel [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ransomware-killers-overwrite-security-process/\">Ransomware Killers Overwrite Security Process Memory Without Terminating Applications</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
     "link": "https://gbhackers.com/ransomware-killers-overwrite-security-process/",
@@ -2669,16 +2679,6 @@
     "source": "welivesecurity.com",
     "category": "Data Breach",
     "importance_score": 50,
-    "also_covered_by": []
-  },
-  {
-    "title": "What to consider before asking an AI chatbot for health advice",
-    "summary": "Using chatbots for medical advice could elicit hallucinations and even expose you to security and privacy risks. Here’s what’s at stake and how to stay safe.",
-    "link": "https://www.welivesecurity.com/en/privacy/what-consider-asking-ai-chatbot-health-advice/",
-    "published": "2026-05-27T08:50:00",
-    "source": "welivesecurity.com",
-    "category": "AI & Security",
-    "importance_score": 46,
     "also_covered_by": []
   },
   {
