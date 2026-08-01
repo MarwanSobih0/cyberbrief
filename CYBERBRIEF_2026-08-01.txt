@@ -1,0 +1,60 @@
+CYBERBRIEF • DAILY THREAT INTELLIGENCE
+Generated: Saturday, August 01, 2026 - 07:23 UTC
+================================================================================
+
+Total topics: 313    •    Scanned raw articles: 314
+Severity breakdown:
+  CRITICAL: 5  |  HIGH: 8  |  MEDIUM: 55  |  LOW: 245
+
+Top 7 active threats:
+
+1. Alert Triangle  security.googleblog.com  [News Site]
+   Title    : HTTPS by default
+   Category : Vulnerability    •    Severity: CRITICAL (score: 2520)
+   Published: 2025-10-28T17:01:00
+   Link     : http://security.googleblog.com/2025/10/https-by-default.html
+
+2. Alert Triangle  thecyberexpress.com  [Link]
+   Title    : CVE-2026-20316 Zero-Day Actively Exploited, Cisco Releases Fix
+   Category : Ransomware    •    Severity: CRITICAL (score: 2450)
+   Published: 2026-07-31T09:48:07
+   Link     : https://thecyberexpress.com/cve-2026-20316-cisco-secure-fmc/
+
+3. Alert Triangle  security.googleblog.com  [News Site]
+   Title    : Bringing Rust to the Pixel Baseband
+   Category : Ransomware    •    Severity: CRITICAL (score: 2380)
+   Published: 2026-04-10T15:12:00
+   Link     : http://security.googleblog.com/2026/04/bringing-rust-to-pixel-baseband.html
+
+4. Alert Triangle  security.googleblog.com  [News Site]
+   Title    : Rust in Android: move fast and fix things
+   Category : Ransomware    •    Severity: CRITICAL (score: 2380)
+   Published: 2025-11-13T16:59:00
+   Link     : http://security.googleblog.com/2025/11/rust-in-android-move-fast-fix-things.html
+
+5. Alert Triangle  thecyberexpress.com  [Link]
+   Title    : Critical wp2shell Vulnerability Hits WordPress Core, Patch Released
+   Category : Vulnerability    •    Severity: CRITICAL (score: 2300)
+   Published: 2026-07-30T07:50:05
+   Link     : https://thecyberexpress.com/wp2shell-vulnerability-wordpress/
+
+6. Shield Check  security.googleblog.com  [News Site]
+   Title    : Android Quick Share Support for AirDrop: A Secure Approach to Cross-Platform File Sharing
+   Category : Data Breach    •    Severity: HIGH (score: 1959)
+   Published: 2025-11-20T17:00:00
+   Link     : http://security.googleblog.com/2025/11/android-quick-share-support-for-airdrop-security.html
+
+7. Shield Check  thecyberexpress.com  [Link]
+   Title    : The Cyber Express Weekly Roundup: AI Fraud, Data Leaks, Malware Campaigns, and Critical Infrastructure Threats
+   Category : Data Breach    •    Severity: HIGH (score: 1800)
+   Published: 2026-07-31T12:02:15
+   Link     : https://thecyberexpress.com/weekly-roundup-ai-fraud-data-breaches-cyber/
+
+Security Tips:
+• Never trust unsolicited links or attachments in email or messaging apps.
+• Enable multi-factor authentication (MFA) on email, banking, and admin accounts.
+• Keep browsers, VPNs, and endpoint security fully patched.
+
+Scanned 314 articles • Top 7 topics selected
+Next planned auto-update: 08:00 AM UTC
+Stay safe, stay sharp!
