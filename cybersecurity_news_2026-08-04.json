@@ -90,16 +90,6 @@
     "also_covered_by": []
   },
   {
-    "title": "TP-Link TL-WR940N Vulnerability Enables Remote Code Execution Attacks",
-    "summary": "<p>TP-Link has issued a security advisory regarding a high-severity vulnerability affecting its TL-WR940N V6 wireless router. This vulnerability, tracked as CVE-2026-12935, could allow unauthenticated attackers to trigger a denial-of-service condition or achieve remote code execution on vulnerable devices under certain circumstances. The issue lies within the router&#8217;s RTSP connection tracking (conntrack) feature. RTSP, or Real-Time [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/tp-link-rce-vulnerability/\">TP-Link TL-WR940N Vulnerability Enables Remote Code Execution Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/tp-link-rce-vulnerability/",
-    "published": "2026-08-03T14:44:28",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 1673,
-    "also_covered_by": []
-  },
-  {
     "title": "Hackers Breach Beneficial Owners Registry, Access Data of 31,000 Firms",
     "summary": "<p><img alt=\"Beneficial Owners Register breach\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"1024\" src=\"https://thecyberexpress.com/wp-content/uploads/Beneficial-Owners-Register-breach.webp\" title=\"Hackers Breach Beneficial Owners Registry, Access Data of 31,000 Firms 1\" width=\"1536\" /></p><div class=\"qMYqUG_convSearchResultHighlightRoot\">\n<div class=\"\"><section class=\"text-token-text-primary w-full focus:outline-none has-data-writing-block:pointer-events-none [&amp;:has([data-writing-block])&gt;*]:pointer-events-auto R6Vx5W_threadScrollVars scroll-mb-[calc(var(--scroll-root-safe-area-inset-bottom,0px)+var(--thread-response-height))] scroll-mt-[calc(var(--header-height)+min(200px,max(70px,20svh)))]\" dir=\"auto\">\n<div class=\"text-base my-auto mx-auto pb-8 [--thread-content-margin:var(--thread-content-margin-xs,calc(var(--spacing)*4))] @w-sm/main:[--thread-content-margin:var(--thread-content-margin-sm,calc(var(--spacing)*6))] @w-lg/main:[--thread-content-margin:var(--thread-content-margin-lg,calc(var(--spacing)*16))] px-(--thread-content-margin)\">\n<div class=\"[--thread-content-max-width:40rem] @w-lg/main:[--thread-content-max-width:48rem] mx-auto max-w-(--thread-content-max-width) flex-1 group/turn-messages focus-visible:outline-hidden relative flex w-full min-w-0 flex-col agent-turn\">\n<div class=\"flex max-w-full flex-col gap-4 grow\">\n<div class=\"min-h-8 text-message relative flex w-full flex-col items-end gap-2 text-start break-words whitespace-normal outline-none keyboard-focused:focus-ring [.text-message+&amp;]:mt-1\" dir=\"auto\" tabindex=\"0\">\n<div class=\"flex w-full flex-col gap-1 empty:hidden\">\n<div class=\"markdown prose dark:prose-invert wrap-break-word w-full light markdown-new-styling\">\n<p class=\"PDq2pG_selectionAnchorContainer\">A Beneficial Owners Register breach has exposed data copies linked to approximately 31,000 legal entities after unknown attackers gained <a href=\"https://thecyberexpress.com/compex-data-breach-client-information/\" rel=\"noopener\" target=\"_blank\">unauthorized access</a> to the Register of Beneficial Owners (VwbP). Authorities confirmed the cyberattack prompted an immediate response, including taking the affected system offline, launching a technical investigation, and establishing a government-led crisis team to manage the incident.</p>\n<p>According to official information, the attackers digitally accessed the VwbP during the night of July 30, 2026. Irregularities were detected later that day by the Office of Justice, which then contacted the Office of Information Technology to investigate the incident. Based on the initial findings, the affected system was immediately secured and removed from external access while investigators began a detailed analysis.</p>\n\n<h3><span><strong>Beneficial Owners Register Breach Confirmed After Investigation</strong></span></h3>\n<p>On July 31, 2026, the g<a href=\"https://www.llv.li/de/medienmitteilungen/unberechtigter-zugriff-von-dritten-auf-verzeichnisdaten\" rel=\"nofollow noopener\" target=\"_blank\">overnment was informed</a> that the Beneficial Owners Register breach may have been successful. The first confirmed findings from the preliminary investigation were submitted on the afternoon of August 1.</p>\n<p>Authorities said the attackers unlawfully accessed the directory and stole <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-data/\" title=\"data\">data</a> copies relating to approximately 31,000 legal entities. The Register of Beneficial Owners (VwbP) stores information about the beneficial owners of companies, foundations, and trusts.</p>\n<p>Officials stated that the register has been temporarily taken offline for external users through the LLV.li website while investigations continue. Based on current findings, there is no indication that any information stored in the system was altered or deleted during the incident.</p>\n\n<h3><strong>Government Establishes Crisis Team</strong></h3>\n<p>Following confirmation of the incident, the government convened a crisis team on the evening of August 1, 2026. The team immediately began its work and was formally confirmed on August 2.</p>\n<p>The crisis team is led by Prime Minister Brigitte Haas and Justice Minister Emanuel Schädler. According to the government, its priorities are to fully investigate the incident, inform affected individuals, and implement appropriate countermeasures.</p>\n\n<h3><strong><span>GDPR Data Breach Notification Process Underway</span></strong></h3>\n<p>Authorities confirmed that the incident qualifies as a <a class=\"wpil_keyword_link\" href=\"https://cyble.com/knowledge-hub/what-is-a-data-breach/\" rel=\"noopener\" target=\"_blank\" title=\"data breach\">data breach</a> involving personal information under Article 33 of the General Data Protection Regulation (GDPR).</p>\n<p>The crisis team said it is working to notify affected individuals in accordance with Article 34 GDPR as quickly as possible. A central information point is also being established to respond to questions from those impacted by the breach.</p>\n\n<h3><strong>What Is the Register of Beneficial Owners?</strong></h3>\n<p>The Register of Beneficial Owners (VwbP) was established to support <a href=\"https://thecyberexpress.com/chinese-money-laundering/\" rel=\"noopener\" target=\"_blank\">money laundering</a> prevention and combat terrorist financing. It contains information identifying the beneficial owners of legal entities, including companies, foundations, and trusts.</p>\n<p>The register operates under the Law on the Register of Beneficial Owners of Legal Entities (VwbPG), which came into force in 2021 to implement the requirements of the 5th EU Anti-Money Laundering Directive.</p>\n<p>Authorities continue to investigate how the unauthorized access occurred and whether additional measures will be required to strengthen the <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/\" title=\"security\">security</a> of the register. At this stage, officials have confirmed only that data copies were accessed and that there is currently no evidence suggesting records within the system were modified or deleted.</p>\n\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section></div>\n</div>",
     "link": "https://thecyberexpress.com/beneficial-owners-register-breach/",
@@ -127,16 +117,6 @@
     "source": "security.googleblog.com",
     "category": "Data Breach",
     "importance_score": 1540,
-    "also_covered_by": []
-  },
-  {
-    "title": "Public PoC Released for Critical Rails Active Storage RCE Vulnerability",
-    "summary": "<p>A critical vulnerability in Ruby on Rails has raised new concerns about cloud data breaches, particularly for companies that host customer platforms in Amazon Web Services (AWS). Known as CVE-2026-66066 or KindaRails2Shell, this flaw affects Active Storage deployments that utilize the libvips image-processing library and accept uploads from untrusted users. While there is no specific [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/rails-active-storage-rce-vulnerability-poc/\">Public PoC Released for Critical Rails Active Storage RCE Vulnerability</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/rails-active-storage-rce-vulnerability-poc/",
-    "published": "2026-08-03T16:35:59",
-    "source": "cybersecuritynews.com",
-    "category": "Data Breach",
-    "importance_score": 1515,
     "also_covered_by": []
   },
   {
@@ -320,26 +300,6 @@
     "also_covered_by": []
   },
   {
-    "title": "North Korea Rebuilt Its Antivirus Using ClamAV and Gave It Four Different Names",
-    "summary": "<p>North Korea’s national antivirus appears to have quietly pivoted to ClamAV’s open‑source engine, recompiled it, and shipped it under four different domestic product names underscoring Pyongyang’s reliance on foreign code to secure tightly controlled networks while obscuring the software’s true origin. ClamAV is a widely used open‑source antivirus engine maintained by the Cisco Talos team, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/north-korea-rebuilt-its-antivirus/\">North Korea Rebuilt Its Antivirus Using ClamAV and Gave It Four Different Names</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/north-korea-rebuilt-its-antivirus/",
-    "published": "2026-08-03T11:48:55",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 1075,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hackers Exploit VeloCloud Orchestrator Command Injection Vulnerability in the Wild",
-    "summary": "<p>Security researchers have issued a warning about a critical command injection vulnerability that is being actively exploited in on-premises VeloCloud Orchestrator (VCO) deployments. This vulnerability, tracked as CVE-2026-16812, allows remote attackers to access privileged internal functions and potentially take control of the VeloCloud Orchestrator host. The flaw has received the highest severity score of 10.0 [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/velocloud-command-injection-exploit/\">Hackers Exploit VeloCloud Orchestrator Command Injection Vulnerability in the Wild</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/velocloud-command-injection-exploit/",
-    "published": "2026-08-03T14:36:34",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 1073,
-    "also_covered_by": []
-  },
-  {
     "title": "Chaos ransomware's msaRAT: Living off the browser to build a covert C2 channel",
     "summary": "The Chaos ransomware group uses new malware \"msaRAT\" that hijacks browsers. The malware doesn't communicate directly with C2 but connects through the browser. It enables arbitrary command execution while hiding the attacker's IP from victims via WebRTC over TURN.",
     "link": "https://blog.talosintelligence.com/chaos-msarat-living-off-the-browser-to-build-covert-c2-channel/",
@@ -347,16 +307,6 @@
     "source": "blog.talosintelligence.com",
     "category": "Ransomware",
     "importance_score": 1071,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hugging Face Diffusers Vulnerabilities Enable Remote Code Execution Through Malicious AI Models",
-    "summary": "<p>A set of high-severity vulnerabilities in Hugging Face&#8217;s diffusers library that allow a malicious model repository to silently execute arbitrary code on any machine that loads it. The flaws bypass trust_remote_code, the very safeguard designed to stop unreviewed code from running during the custom pipeline loading process, raising serious concerns for an AI ecosystem that [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hugging-face-diffusers-vulnerabilities/\">Hugging Face Diffusers Vulnerabilities Enable Remote Code Execution Through Malicious AI Models</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/hugging-face-diffusers-vulnerabilities/",
-    "published": "2026-08-03T15:01:22",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 1069,
     "also_covered_by": []
   },
   {
@@ -550,36 +500,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Malware Can Steal Google’s Synced Passkeys Without Password or Fingerprint",
-    "summary": "<p>Security researchers have revealed a series of attacks that could enable malware on a compromised Windows device to hijack accounts protected by Google-synced passkeys. This can occur without stealing a password, capturing a fingerprint, or requiring the victim to unlock their device. In research published on August 23, 2023, Palo Alto Networks&#8217; Unit 42 detailed [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/malware-can-steal-googles-synced-passkeys/\">Malware Can Steal Google’s Synced Passkeys Without Password or Fingerprint</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/malware-can-steal-googles-synced-passkeys/",
-    "published": "2026-08-04T04:58:25",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 870,
-    "also_covered_by": []
-  },
-  {
-    "title": "North Korean Hackers Are Hiding Malware Servers Inside Empty Crypto Transfers",
-    "summary": "<p>North Korean-linked attackers are using a new way to hide the servers that control malware. The method places a command server address inside an empty Ethereum transaction, making the activity look like a normal crypto transfer rather than a malware signal. The technique was found in two malicious npm packages, bianira-ui version 1.27.0 and fluid-type-ui version 2.0.8. Both packages [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/north-korean-hackers-hiding-malware/\">North Korean Hackers Are Hiding Malware Servers Inside Empty Crypto Transfers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/north-korean-hackers-hiding-malware/",
-    "published": "2026-08-04T07:01:10",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 865,
-    "also_covered_by": []
-  },
-  {
-    "title": "Malware Can Steal Your Google Synced Passkey Without Asking for Your Password or Fingerprint",
-    "summary": "<p>New research reveals that malware already sitting on a compromised Windows PC can hijack Google&#8217;s synced passkeys and take over accounts without ever prompting the victim for a password, PIN, or fingerprint. The findings, detailed in the third part of a series examining passkey security, expose flaws in how Google&#8217;s Cloud Authenticator handles device trust, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/google-synced-passkey-malware-attack/\">Malware Can Steal Your Google Synced Passkey Without Asking for Your Password or Fingerprint</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/google-synced-passkey-malware-attack/",
-    "published": "2026-08-03T17:45:58",
-    "source": "cybersecuritynews.com",
-    "category": "Policy / Law",
-    "importance_score": 865,
-    "also_covered_by": []
-  },
-  {
     "title": "LG to Ban Residential Proxies from Smart TV Apps",
     "summary": "The home appliance giant LG Electronics USA said this week it plans to suspend any apps built for its smart TVs that turn one's television into an always-on residential proxy node. The move comes less than a month after researchers found that more than 42 percent of games and other apps available for download on LG's webOS store allow unknown third-parties to route their Internet traffic through a user's TV.",
     "link": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
@@ -700,16 +620,6 @@
     "also_covered_by": []
   },
   {
-    "title": "OctLurk-Linked Hackers Deploy BINDCLOAK Backdoor Against Middle East Governments",
-    "summary": "<p>The published Part 2 of a two-part technical analysis exposing BINDCLOAK, a previously undocumented modular backdoor deployed against government entities in the Middle East by an East Asia-linked threat actor tracked as OctLurk. The disclosure follows Part 1, which detailed the TELESHIM backdoor and the MIXEDKEY loader used earlier in the same multi-stage intrusion chain. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/bindcloak-backdoor-deployed/\">OctLurk-Linked Hackers Deploy BINDCLOAK Backdoor Against Middle East Governments</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/bindcloak-backdoor-deployed/",
-    "published": "2026-08-04T07:30:13",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 719,
-    "also_covered_by": []
-  },
-  {
     "title": "Mirage Kitten targets Middle East and Africa region with new malware",
     "summary": "Kaspersky researchers reveal previously undocumented malware attributed to Mirage Kitten (UNC1549, Smoke Sandstorm, Nimbus Manticore): NightLedger backdoor, ArcBridge, and BridgeHead tunneling tools.",
     "link": "https://securelist.com/mirage-kitten-new-tools/120811/",
@@ -717,16 +627,6 @@
     "source": "securelist.com",
     "category": "Other",
     "importance_score": 713,
-    "also_covered_by": []
-  },
-  {
-    "title": "Android RAT Survives Reboots Using Watchdog Services and Boot Receivers",
-    "summary": "<p>Android users are facing a new remote-access threat that hides behind a fake emergency alert application. The malware, called Octagon, poses as Bahrain’s BH Alert service and leads victims through a convincing setup process designed to win dangerous permissions. The campaign takes advantage of public concern during a period of regional tension. Victims are directed [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/android-rat-survives-reboots/\">Android RAT Survives Reboots Using Watchdog Services and Boot Receivers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/android-rat-survives-reboots/",
-    "published": "2026-08-03T13:41:37",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 707,
     "also_covered_by": []
   },
   {
@@ -807,36 +707,6 @@
     "source": "securelist.com",
     "category": "Ransomware",
     "importance_score": 633,
-    "also_covered_by": []
-  },
-  {
-    "title": "ChocoShell Steals Microsoft 365 Tokens and Browser Sessions From Travelers",
-    "summary": "<p>ChocoShell is a PowerShell-based infostealer used in Microsoft’s newly disclosed “CaptiveCrunch” campaign to steal Microsoft 365 tokens, browser sessions, and Wi‑Fi credentials from travelers connecting to compromised hospitality networks worldwide. The operation, dubbed “CaptiveCrunch,” poisons DNS and HTTP flows on guest networks so that travelers attempting to reach legitimate Microsoft 365 or update endpoints are [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/chocoshell-steals-microsoft-365/\">ChocoShell Steals Microsoft 365 Tokens and Browser Sessions From Travelers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/chocoshell-steals-microsoft-365/",
-    "published": "2026-08-04T06:24:18",
-    "source": "gbhackers.com",
-    "category": "Critical Infrastructure",
-    "importance_score": 630,
-    "also_covered_by": []
-  },
-  {
-    "title": "Apple Removes Telegram From App Store Worldwide",
-    "summary": "<p>Telegram Messenger was temporarily removed from Apple&#8217;s App Store in several countries late Monday, preventing new users from downloading the messaging platform and blocking reinstalls for users who had previously deleted the app.   This global delisting caused widespread confusion on the social media platform X, where users shared screenshots of App Store messages that read, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/apple-removes-telegram-from-app-store/\">Apple Removes Telegram From App Store Worldwide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/apple-removes-telegram-from-app-store/",
-    "published": "2026-08-04T05:37:19",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 616,
-    "also_covered_by": []
-  },
-  {
-    "title": "Telegram App Reportedly Vanished from Apple’s App Store Worldwide",
-    "summary": "<p>Telegram Messenger briefly disappeared from Apple&#8217;s App Store across multiple countries late Monday, sparking a wave of confusion and speculation on social media before the app was restored a short while later. Screenshots flooded platforms like X, showing users encountering error messages such as &#8220;This app is currently not available&#8221; when searching for Telegram, while [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/telegram-apples-app-store/\">Telegram App Reportedly Vanished from Apple&#8217;s App Store Worldwide</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/telegram-apples-app-store/",
-    "published": "2026-08-04T03:37:22",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 612,
     "also_covered_by": []
   },
   {
@@ -1100,46 +970,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Check Point Authentication Bypass Flaw Enables Full Compromise of Security Management System",
-    "summary": "<p>Check Point has released security updates for a high-severity authentication-bypass vulnerability (CVE-2026-18574) that could allow attackers to compromise vulnerable Security Management environments fully. This issue affects both Security Management Server and Multi-Domain Security Management Server deployments across several Check Point releases. According to Check Point, an unauthenticated attacker with network access to the targeted management [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/check-point-authentication-bypass-flaw/\">Check Point Authentication Bypass Flaw Enables Full Compromise of Security Management System</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/check-point-authentication-bypass-flaw/",
-    "published": "2026-08-04T05:15:04",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 486,
-    "also_covered_by": []
-  },
-  {
-    "title": "Critical Check Point Flaw Lets Unauthenticated Attackers Execute Commands on Management Servers",
-    "summary": "<p>Check Point has disclosed a high-severity authentication bypass vulnerability that could allow unauthenticated attackers to execute arbitrary commands on vulnerable Security Management Servers and Multi-Domain Security Management Servers (MDS). This vulnerability is tracked as CVE-2026-18574 and is detailed in Check Point Security Alert sk185222. It affects multiple legacy and current versions of their management platform. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-check-point-flaw/\">Critical Check Point Flaw Lets Unauthenticated Attackers Execute Commands on Management Servers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/critical-check-point-flaw/",
-    "published": "2026-08-04T07:04:59",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 485,
-    "also_covered_by": []
-  },
-  {
-    "title": "NullReceiver Is Harder to Discover but Still Exposes a Reusable Attacker Wallet",
-    "summary": "<p>NullReceiver is a lean, stealth-focused evolution of DPRK’s blockchain C2 tradecraft that hides a reusable attacker wallet behind ordinary-looking Ethereum transfers, while still exposing just enough bytes to resolve a live command server. Two trojanized npm packages, bianira-ui@1.27.0 and fluid-type-ui@2.0.8, both Tailwind CSS plugin lookalikes, implement a new blockchain-based C2 resolution technique we’re calling NullReceiver. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/nullreceiver-wallet-trail/\">NullReceiver Is Harder to Discover but Still Exposes a Reusable Attacker Wallet</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/nullreceiver-wallet-trail/",
-    "published": "2026-08-04T05:37:43",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 483,
-    "also_covered_by": []
-  },
-  {
-    "title": "cPanel Database Privilege Escalation Flaw Enables Full Administrative Access",
-    "summary": "<p>CVE-2026-58048 is a critical privilege-escalation vulnerability in the database management functionality of cPanel &#38; WHM. This flaw allows an authenticated cPanel user to execute arbitrary database commands with full administrative privileges. cPanel Database Privilege Escalation Flaw All supported versions of cPanel &#38; WHM before the recently released security updates are affected. As WebPros states, an [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cpanel-database-privilege-escalation-flaw/\">cPanel Database Privilege Escalation Flaw Enables Full Administrative Access</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/cpanel-database-privilege-escalation-flaw/",
-    "published": "2026-08-04T06:54:23",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 482,
-    "also_covered_by": []
-  },
-  {
     "title": "This free Google Drive alternative keeps your files private - and local",
     "summary": "Looking to shift your storage needs from a third-party cloud service to inside your home network? If so, ZimaOS is a great option.",
     "link": "https://www.zdnet.com/article/zimaos-is-for-those-who-want-to-go-local-with-cloud-storage/",
@@ -1180,26 +1010,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Thermo Fisher DNA Analysis Software Flaw Lets Attackers Secretly Alter Test Data",
-    "summary": "<p>Thermo Fisher Scientific has released security updates for a high-severity flaw in its Applied Biosystems Human Identification (HID) software. This vulnerability could allow nearly undetectable manipulation of DNA test data files before analysis. The issue, tracked as CVE-2026-17583, carries a CVSS v4 score of 8.2 and affects .fsa and .hid file outputs used in forensic [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/thermo-fisher-dna-analysis-software-flaw/\">Thermo Fisher DNA Analysis Software Flaw Lets Attackers Secretly Alter Test Data</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/thermo-fisher-dna-analysis-software-flaw/",
-    "published": "2026-08-04T05:12:26",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 472,
-    "also_covered_by": []
-  },
-  {
-    "title": "TP-Link TL-WR940N Router Flaw Lets Unauthenticated Attackers Execute Code Remotely",
-    "summary": "<p>TP-Link has announced a high-severity security vulnerability in its TL-WR940N v6 wireless router that could allow an unauthenticated remote attacker to execute arbitrary code and potentially take full control of the affected device. This vulnerability is tracked as CVE-2026-12935 and has a CVSS v4.0 score of 8.7, categorized as high. TP-Link TL-WR940N Router Flaw According [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/tp-link-tl-wr940n-router-flaw/\">TP-Link TL-WR940N Router Flaw Lets Unauthenticated Attackers Execute Code Remotely</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/tp-link-tl-wr940n-router-flaw/",
-    "published": "2026-08-03T13:18:29",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 470,
-    "also_covered_by": []
-  },
-  {
     "title": "AWS Blames North Korean Group for Axios and Other npm Supply Chain Attacks",
     "summary": "AWS has linked North Korea to the axios campaign to other attacks on npm libraries",
     "link": "https://www.infosecurity-magazine.com/news/aws-north-korea-axios-npm-supply/",
@@ -1207,16 +1017,6 @@
     "source": "infosecurity-magazine.com",
     "category": "Other",
     "importance_score": 470,
-    "also_covered_by": []
-  },
-  {
-    "title": "DNA Test Software Vulnerability Allows Attackers to Alter Analysis Data",
-    "summary": "<p>Thermo Fisher Scientific has disclosed a high-severity security flaw affecting several of its Applied Biosystems Human Identification (HID) software products, warning that attackers could make nearly undetectable modifications to forensic DNA analysis files before they are processed. The vulnerability, tracked as CVE-2026-17583, carries a CVSS v4.0 score of 8.2 and was published on July 31, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/dna-test-software-vulnerability/\">DNA Test Software Vulnerability Allows Attackers to Alter Analysis Data</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/dna-test-software-vulnerability/",
-    "published": "2026-08-03T16:49:55",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 464,
     "also_covered_by": []
   },
   {
