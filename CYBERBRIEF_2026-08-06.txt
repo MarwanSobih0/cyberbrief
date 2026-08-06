@@ -1,10 +1,10 @@
 CYBERBRIEF • DAILY THREAT INTELLIGENCE
-Generated: Thursday, August 06, 2026 - 07:33 UTC
+Generated: Thursday, August 06, 2026 - 07:35 UTC
 ================================================================================
 
-Total topics: 283    •    Scanned raw articles: 284
+Total topics: 293    •    Scanned raw articles: 294
 Severity breakdown:
-  CRITICAL: 4  |  HIGH: 11  |  MEDIUM: 50  |  LOW: 218
+  CRITICAL: 4  |  HIGH: 17  |  MEDIUM: 54  |  LOW: 218
 
 Top 7 active threats:
 
@@ -38,23 +38,23 @@ Top 7 active threats:
    Published: 2025-11-20T17:00:00
    Link     : http://security.googleblog.com/2025/11/android-quick-share-support-for-airdrop-security.html
 
-6. Shield Check  thehackernews.com  [Newspaper]
+6. Shield Check  thecyberexpress.com  [Link]
+   Title    : PNLD Data Breach Exposes Police and Government Contact Details on Dark Web
+   Category : Data Breach    •    Severity: HIGH (score: 1950)
+   Published: 2026-08-04T10:13:34
+   Link     : https://thecyberexpress.com/pnld-data-breach-police-contact-details/
+
+7. Shield Check  thehackernews.com  [Newspaper]
    Title    : CISA Flags Langflow RCE, Tomcat, and N-central Flaws as Actively Exploited
    Category : Vulnerability    •    Severity: HIGH (score: 1922)
    Published: 2026-08-05T07:40:39
    Link     : https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html
-
-7. Shield Check  securityweek.com  [Shield]
-   Title    : CISA Warns of Exploited Langflow, N-central, and Tomcat Vulnerabilities
-   Category : Ransomware    •    Severity: HIGH (score: 1921)
-   Published: 2026-08-05T09:44:50
-   Link     : https://www.securityweek.com/cisa-warns-of-exploited-langflow-n-central-and-tomcat-vulnerabilities/
 
 Security Tips:
 • Never trust unsolicited links or attachments in email or messaging apps.
 • Enable multi-factor authentication (MFA) on email, banking, and admin accounts.
 • Keep browsers, VPNs, and endpoint security fully patched.
 
-Scanned 284 articles • Top 7 topics selected
+Scanned 294 articles • Top 7 topics selected
 Next planned auto-update: 08:00 AM UTC
 Stay safe, stay sharp!
