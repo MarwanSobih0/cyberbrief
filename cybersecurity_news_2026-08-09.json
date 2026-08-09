@@ -110,16 +110,6 @@
     "also_covered_by": []
   },
   {
-    "title": "WordPress XSS2Shell Flaw Chains Pre-Auth Login XSS to PHP Remote Code Execution",
-    "summary": "<p>A critical vulnerability chain in WordPress Core, tracked as CVE-2026-64638 and nicknamed XSS2Shell, that turns a single failed login attempt into full remote code execution on the underlying server. Because the flaw sits in code that has shipped with WordPress since version 4.7, it touched effectively every actively maintained installation of the world&#8217;s most popular [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/wordpress-xss2shell-vulnerability/\">WordPress XSS2Shell Flaw Chains Pre-Auth Login XSS to PHP Remote Code Execution</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/wordpress-xss2shell-vulnerability/",
-    "published": "2026-08-07T17:28:23",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 1512,
-    "also_covered_by": []
-  },
-  {
     "title": "Who Runs the Ransomware Group ‘The Gentlemen?’",
     "summary": "A cybercrime group known as The Gentlemen has emerged as the second most active ransomware gang by victim count, rapidly attracting a talented pool of hackers through an aggressive recruitment strategy that promises affiliates 90 percent of any ransom paid by victims. This post examines clues pointing to a real life identity for the administrator of The Gentlemen ransomware group.",
     "link": "https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/",
@@ -230,16 +220,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Fake Zoom Installer Uses .NET Downloader to Deploy Overlord RAT on macOS",
-    "summary": "<p>A cross-platform malware campaign that disguises itself as a legitimate Zoom installer to deploy Overlord, an open-source remote access trojan (RAT), on both macOS and Windows machines. Documented by Jamf, unlike most macOS malware, which typically relies on Go or Rust for cross-platform reach, this campaign&#8217;s first-stage downloader, a macOS ARM64 Mach-O binary named ZoomMeetings, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fake-zoom-installer-uses-net-downloader/\">Fake Zoom Installer Uses .NET Downloader to Deploy Overlord RAT on macOS</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/fake-zoom-installer-uses-net-downloader/",
-    "published": "2026-08-08T07:32:32",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 1324,
-    "also_covered_by": []
-  },
-  {
     "title": "Almost Half of Malware Samples Communicate Direct to IP",
     "summary": "<p>Nearly half of C2 malware bypasses DNS by connecting directly to IP addresses. Zero trust IP enforcement secures networks against these threats.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/malware-bypass-dns-direct-to-ip/\">Almost Half of Malware Samples Communicate Direct to IP</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
     "link": "https://unit42.paloaltonetworks.com/malware-bypass-dns-direct-to-ip/",
@@ -297,16 +277,6 @@
     "source": "securelist.com",
     "category": "Ransomware",
     "importance_score": 1232,
-    "also_covered_by": []
-  },
-  {
-    "title": "Critical macOS RCE Vulnerability Allows Attackers to Gain Root Access Without Password",
-    "summary": "<p>Apple has shipped emergency macOS updates to close a critical vulnerability in Screen Sharing, tracked as CVE-2026-65400, which allows unauthenticated remote attackers to execute arbitrary code and access files with root-level privileges. The flaw is especially severe on systems where Screen Sharing is exposed to the public internet. Apple&#8217;s August 6 releases macOS Tahoe 26.6.1, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-macos-rce-vulnerability/\">Critical macOS RCE Vulnerability Allows Attackers to Gain Root Access Without Password</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/critical-macos-rce-vulnerability/",
-    "published": "2026-08-08T07:12:02",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 1225,
     "also_covered_by": []
   },
   {
@@ -400,16 +370,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Storm-1175 Launches StormEncryptor Ransomware Attacks Using N-able Security Flaw",
-    "summary": "<p>Microsoft Threat Intelligence has identified a new ransomware campaign attributed to the financially motivated threat actor Storm-1175 that began deploying a previously undocumented ransomware strain, StormEncryptor, on August 2, 2026. The activity represents Storm-1175’s first observed operation since April 2026 and signals a notable shift in its ransomware tooling. The group was previously associated with [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/storm-1175-launches-stormencryptor-ransomware-attacks/\">Storm-1175 Launches StormEncryptor Ransomware Attacks Using N-able Security Flaw</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/storm-1175-launches-stormencryptor-ransomware-attacks/",
-    "published": "2026-08-08T06:33:22",
-    "source": "gbhackers.com",
-    "category": "Ransomware",
-    "importance_score": 1085,
-    "also_covered_by": []
-  },
-  {
     "title": "Chaos ransomware's msaRAT: Living off the browser to build a covert C2 channel",
     "summary": "The Chaos ransomware group uses new malware \"msaRAT\" that hijacks browsers. The malware doesn't communicate directly with C2 but connects through the browser. It enables arbitrary command execution while hiding the attacker's IP from victims via WebRTC over TURN.",
     "link": "https://blog.talosintelligence.com/chaos-msarat-living-off-the-browser-to-build-covert-c2-channel/",
@@ -417,16 +377,6 @@
     "source": "blog.talosintelligence.com",
     "category": "Ransomware",
     "importance_score": 1071,
-    "also_covered_by": []
-  },
-  {
-    "title": "WordPress XSS2Shell Flaw Enables Attackers to Achieve Remote Code Execution",
-    "summary": "<p>WordPress has patched a high-severity vulnerability, tracked as CVE-2026-64638 and nicknamed XSS2Shell, that begins as an unauthenticated cross-site scripting bug on the login screen and can be chained into full remote code execution. Researchers at pwn.ai discovered the flaw, which carries a CVSS score of 8.9 and affects every actively maintained WordPress branch, a codebase [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-wordpress-vulnerability/\">WordPress XSS2Shell Flaw Enables Attackers to Achieve Remote Code Execution</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/critical-wordpress-vulnerability/",
-    "published": "2026-08-08T08:27:58",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 1070,
     "also_covered_by": []
   },
   {
@@ -590,26 +540,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Levi Strauss Data Breach – Hackers Gained Access to the Company’s Systems",
-    "summary": "<p>Levi Strauss &#38; Co., the denim giant, reported a cybersecurity incident where an unauthorized third party accessed the company&#8217;s internal systems via a targeted social engineering attack. According to a regulatory filing submitted to the U.S. Securities and Exchange Commission, the attackers manipulated three employees into surrendering access to their company-issued computers, ultimately allowing the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/levi-strauss-data-breach/\">Levi Strauss Data Breach &#8211; Hackers Gained Access to the Company&#8217;s Systems</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/levi-strauss-data-breach/",
-    "published": "2026-08-08T17:22:01",
-    "source": "cybersecuritynews.com",
-    "category": "Data Breach",
-    "importance_score": 921,
-    "also_covered_by": []
-  },
-  {
-    "title": "Russian Hackers Use AI Slopsquatting to Publish 700+ Malicious npm Packages",
-    "summary": "<p>A large-scale supply chain attack has hit the npm registry, with a suspected Russian threat actor publishing more than 700 malicious packages in just 48 hours. Researcher Paul McCarty documented the campaign, tracked as WEL1DROPPER, and the package count has since grown past 1,000. WEL1DROPPER marks an evolution in AI slopsquatting, where attackers register randomly [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/russian-hackers-use-ai-slopsquatting/\">Russian Hackers Use AI Slopsquatting to Publish 700+ Malicious npm Packages</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/russian-hackers-use-ai-slopsquatting/",
-    "published": "2026-08-08T06:58:29",
-    "source": "gbhackers.com",
-    "category": "AI & Security",
-    "importance_score": 919,
-    "also_covered_by": []
-  },
-  {
     "title": "Metabase SQLi zero-day exploited in customer data-theft attacks",
     "summary": "A critical Metabase SQL injection vulnerability was exploited in zero-day attacks to breach customer instances in data theft attacks, known to impact Framework and Tally. [...]",
     "link": "https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase-data-theft-attacks/",
@@ -765,16 +695,6 @@
     "link": "https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html",
     "published": "2026-08-07T18:29:08",
     "source": "thehackernews.com",
-    "category": "Other",
-    "importance_score": 712,
-    "also_covered_by": []
-  },
-  {
-    "title": "Malware Abuses Windows Hello for Business Key to Authenticate Microsoft Entra ID",
-    "summary": "<p>A newly demonstrated technique shows how malware in a compromised Windows user session can abuse Windows Hello for Business (WHFB) cryptographic keys to authenticate to Microsoft Entra ID, enabling attackers to gain cloud access without the victim’s password, PIN, or biometric data. Windows Hello for Business is designed as a passwordless authentication system. It normally [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/malware-abuses-windows-hello-key/\">Malware Abuses Windows Hello for Business Key to Authenticate Microsoft Entra ID</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/malware-abuses-windows-hello-key/",
-    "published": "2026-08-07T16:11:26",
-    "source": "cybersecuritynews.com",
     "category": "Other",
     "importance_score": 712,
     "also_covered_by": []
@@ -1100,38 +1020,6 @@
     "also_covered_by": []
   },
   {
-    "title": "18-Year-Old Linux Kernel SCTP Vulnerability Lets Attackers Gain Root and Escape Containers",
-    "summary": "<p>SCTPhantom, tracked as CVE-2026-64564, is a high-severity Linux kernel use-after-free vulnerability in the Stream Control Transmission Protocol (SCTP) Dynamic Address Reconfiguration implementation. Researchers at Tencent Zhuque Lab’s Corvus AI project reported that a local attacker could leverage the flaw to escalate privileges to root and, in certain configurations, to escape from containers to the host. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/18-year-old-linux-kernel-sctp-vulnerability/\">18-Year-Old Linux Kernel SCTP Vulnerability Lets Attackers Gain Root and Escape Containers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/18-year-old-linux-kernel-sctp-vulnerability/",
-    "published": "2026-08-08T08:02:13",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 484,
-    "also_covered_by": []
-  },
-  {
-    "title": "Bugtraq Is Back: The Original Full Disclosure Mailing List Is Live Again",
-    "summary": "<p>Sophia Antipolis, France, August 7th, 2026, CyberNewswire At DEF CON 34 in Las Vegas, security researcher Jonathan Brossard, known in the community as endrazine, announced the rebirth of the original Bugtraq mailing list. Established in 1993, Bugtraq is the original mailing list where cybersecurity vulnerabilities, mitigations, and cutting-edge techniques have been discussed at scale. With [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/bugtraq-is-back-the-original-full-disclosure-mailing-list-is-live-again/\">Bugtraq Is Back: The Original Full Disclosure Mailing List Is Live Again</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/bugtraq-is-back-the-original-full-disclosure-mailing-list-is-live-again/",
-    "published": "2026-08-08T09:09:40",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 483,
-    "also_covered_by": [
-      "cybersecuritynews.com"
-    ]
-  },
-  {
-    "title": "Google Chrome 151 Update Fixes 41 Security Vulnerabilities, Including 6 Critical Flaws",
-    "summary": "<p>Google has released Chrome version 151.0.7922.108/.109 for Windows and macOS, and version 151.0.7922.108 for Linux. This update delivers 41 security fixes across various components of the browser, including rendering, graphics, JavaScript, user interface (UI), media, and authentication. The Stable channel update began rolling out on August 6 and will reach users over the next several [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/google-chrome-151-update-fixes-41-security-vulnerabilities/\">Google Chrome 151 Update Fixes 41 Security Vulnerabilities, Including 6 Critical Flaws</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/google-chrome-151-update-fixes-41-security-vulnerabilities/",
-    "published": "2026-08-07T10:53:32",
-    "source": "gbhackers.com",
-    "category": "Policy / Law",
-    "importance_score": 481,
-    "also_covered_by": []
-  },
-  {
     "title": "Ransomware Attacks are on the Rise",
     "summary": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
     "link": "https://threatpost.com/ransomware-attacks-are-on-the-rise/180481/",
@@ -1142,16 +1030,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Windows Hello Key Abuse Lets Attackers Access Microsoft Entra ID Accounts",
-    "summary": "<p>Security researcher has disclosed a technique involving Windows Hello for Business (WHFB) that could allow attackers with access to an active Windows user session to authenticate to Microsoft Entra ID services without needing the victim’s PIN, biometric verification, or password. Mollema&#8217;s research demonstrates how attackers can effectively “borrow” the cryptographic key that underlies Windows Hello [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/windows-hello-key-abuse/\">Windows Hello Key Abuse Lets Attackers Access Microsoft Entra ID Accounts</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/windows-hello-key-abuse/",
-    "published": "2026-08-07T12:50:37",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 475,
-    "also_covered_by": []
-  },
-  {
     "title": "UK’s Police National Legal Database Reveals Data Breach",
     "summary": "The UK’s Police National Legal Database and Ask the Police service have been breached",
     "link": "https://www.infosecurity-magazine.com/news/uks-police-national-legal-database/",
@@ -1159,16 +1037,6 @@
     "source": "infosecurity-magazine.com",
     "category": "Data Breach",
     "importance_score": 471,
-    "also_covered_by": []
-  },
-  {
-    "title": "Google Chrome 151 Fixes 41 Security Flaws, Including 6 Critical Memory Bugs",
-    "summary": "<p>Google has released Chrome 151 to the Stable channel, fixing 41 security vulnerabilities, including six critical memory-safety flaws that could enable browser crashes, memory corruption, or malicious code execution. Chrome 151.0.7922.108/.109 is rolling out for Windows and macOS systems, while Linux users are receiving version 151.0.7922.108. Google said the release will be delivered to users [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/chrome-151-vulnerabilities-patched/\">Google Chrome 151 Fixes 41 Security Flaws, Including 6 Critical Memory Bugs</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/chrome-151-vulnerabilities-patched/",
-    "published": "2026-08-07T13:14:11",
-    "source": "cybersecuritynews.com",
-    "category": "Policy / Law",
-    "importance_score": 466,
     "also_covered_by": []
   },
   {
@@ -1442,16 +1310,6 @@
     "also_covered_by": []
   },
   {
-    "title": "New NatJack NAT Attack Lets Hackers Hijack TCP Connections and DNS Responses",
-    "summary": "<p>A newly disclosed attack class, NatJack, reveals significant weaknesses in the implementation of Network Address Translation (NAT) across modern network infrastructures. This vulnerability allows attackers to hijack TCP connections, tamper with DNS responses, and disrupt traffic flow. NatJack specifically targets the NAT state table, highlighting that traditional assumptions about cooperative network behavior are no longer [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/new-natjack-nat-attack/\">New NatJack NAT Attack Lets Hackers Hijack TCP Connections and DNS Responses</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/new-natjack-nat-attack/",
-    "published": "2026-08-07T11:04:13",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 330,
-    "also_covered_by": []
-  },
-  {
     "title": "Apple rushes out emergency fix for screen sharing flaw on Macs - update ASAP",
     "summary": "The updates were unexpected. Apple must have considered this flaw serious enough to warrant an immediate fix.",
     "link": "https://www.zdnet.com/article/apple-rushes-emergency-fix-for-mac-screen-sharing-flaw-update-asap/",
@@ -1472,16 +1330,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Hackers Breach Swiss Government SharePoint Servers, Compromise 200 Accounts",
-    "summary": "<p>Swiss federal authorities have confirmed a cyberattack targeting SharePoint servers operated by the Federal Office for Information Technology and Telecommunication (BIT). The incident resulted in the compromise of login credentials linked to approximately 200 user and technical accounts. BIT detected unusual activity on its SharePoint environment on Tuesday, July 28. Security specialists quickly investigated the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-breach-swiss-sharepoint-servers/\">Hackers Breach Swiss Government SharePoint Servers, Compromise 200 Accounts</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/hackers-breach-swiss-sharepoint-servers/",
-    "published": "2026-08-07T12:57:31",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 323,
-    "also_covered_by": []
-  },
-  {
     "title": "I compared Google's pricier Pixel 11 series to Samsung's Galaxy lineup - here's the better value now",
     "summary": "The Pixel 11 may cost more, but Google's software advantage may make it worth it for you.",
     "link": "https://www.zdnet.com/article/google-pricier-pixel-11-series-compared-to-samsung-galaxy-lineup-heres-the-better-value/",
@@ -1489,16 +1337,6 @@
     "source": "zdnet.com",
     "category": "Other",
     "importance_score": 322,
-    "also_covered_by": []
-  },
-  {
-    "title": "OpenAI Slows Down New Astra Model Development to Measure Cybersecurity Capabilities",
-    "summary": "<p>OpenAI has announced that it is deliberately slowing the development of Astra, its upcoming frontier AI model, after internal evaluations revealed advancements in agentic coding and cybersecurity that could push the system into &#8220;Critical&#8221; risk territory. The company said it made the decision after reviewing results from recent internal testing alongside external expert assessments, concluding [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openai-slows-down-new-astra-model/\">OpenAI Slows Down New Astra Model Development to Measure Cybersecurity Capabilities</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/openai-slows-down-new-astra-model/",
-    "published": "2026-08-08T04:26:21",
-    "source": "cybersecuritynews.com",
-    "category": "AI & Security",
-    "importance_score": 321,
     "also_covered_by": []
   },
   {
@@ -1512,26 +1350,6 @@
     "also_covered_by": []
   },
   {
-    "title": "18-Year-Old Linux Kernel SCTP Vulnerability Lets Attackers Gain Full Root on Host",
-    "summary": "<p>A newly disclosed Linux kernel vulnerability, dubbed SCTPhantom and tracked as CVE-2026-64564, allows attackers to escalate from unprivileged local access to full root and even escape containers to compromise the underlying host. The flaw is a use-after-free bug in the kernel&#8217;s SCTP Dynamic Address Reconfiguration feature, and remarkably, its root cause traces back to code [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/18-year-old-linux-kernel-sctp-vulnerability/\">18-Year-Old Linux Kernel SCTP Vulnerability Lets Attackers Gain Full Root on Host</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/18-year-old-linux-kernel-sctp-vulnerability/",
-    "published": "2026-08-07T16:56:44",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 317,
-    "also_covered_by": []
-  },
-  {
-    "title": "CVE-2026-64561 Zapscape Lets KVM Guests Escape to Linux Host With Root Privileges",
-    "summary": "<p>A Linux kernel vulnerability, tracked as CVE-2026-64561 and named Zapscape, could allow attackers to escape a KVM virtual machine and take control of its underlying Linux host with root privileges. The issue affects KVM/x86, a virtualization technology that separates guest systems from the physical server. The flaw is especially serious for cloud providers and enterprises [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/zapscape-kvm-escape-root-privileges/\">CVE-2026-64561 Zapscape Lets KVM Guests Escape to Linux Host With Root Privileges</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/zapscape-kvm-escape-root-privileges/",
-    "published": "2026-08-07T13:32:14",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 313,
-    "also_covered_by": []
-  },
-  {
     "title": "Amazon and Apple impersonated in “$149.99 unauthorized charge” scam",
     "summary": "Different logos, different color schemes, same scam.",
     "link": "https://www.malwarebytes.com/blog/scams/2026/08/amazon-and-apple-impersonated-in-149-99-unauthorized-charge-scam",
@@ -1539,16 +1357,6 @@
     "source": "malwarebytes.com",
     "category": "Phishing / Scams",
     "importance_score": 313,
-    "also_covered_by": []
-  },
-  {
-    "title": "Claude in Chrome Prompt Injection Steals Gmail Codes to Hijack Slack, X, and Claude.ai Accounts",
-    "summary": "<p>An indirect prompt injection vulnerability in Claude on Chrome can be exploited to steal email verification codes and hijack accounts on platforms like Slack, X, and Claude.ai. The attack begins with a malicious email that lands in the victim’s Gmail inbox. When the user requests Claude in Chrome to summarize recent emails, the assistant may inadvertently read [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/claude-chrome-prompt-injection/\">Claude in Chrome Prompt Injection Steals Gmail Codes to Hijack Slack, X, and Claude.ai Accounts</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/claude-chrome-prompt-injection/",
-    "published": "2026-08-07T12:53:44",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 312,
     "also_covered_by": []
   },
   {
