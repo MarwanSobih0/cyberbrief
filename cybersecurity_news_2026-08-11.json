@@ -80,16 +80,6 @@
     "also_covered_by": []
   },
   {
-    "title": "CISA Urges Organizations to Patch Exposed VPNs and Segment Networks Against Gunra Ransomware",
-    "summary": "<p>CISA and international law-enforcement partners have issued a joint #StopRansomware advisory warning that Gunra ransomware affiliates are exploiting exposed edge infrastructure, including VPN gateways, firewall appliances and RDP-accessible systems, to breach enterprise networks. The advisory positions Gunra as an increasingly organized ransomware-as-a-service operation whose affiliates combine data theft, credential compromise and rapid encryption to pressure [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/gunra-ransomware-attack/\">CISA Urges Organizations to Patch Exposed VPNs and Segment Networks Against Gunra Ransomware</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/gunra-ransomware-attack/",
-    "published": "2026-08-11T05:06:57",
-    "source": "gbhackers.com",
-    "category": "Ransomware",
-    "importance_score": 1694,
-    "also_covered_by": []
-  },
-  {
     "title": "Keeping Google Play & Android app ecosystems safe in 2025",
     "summary": "<span class=\"byline-author\">Posted by Vijaya Kaza, VP and GM, App & Ecosystem Trust</span>\n\n<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNWPkN36d-E-0ZgVQNZYRep5TH3AnZltbtmu6PO7XLRULe4BuLMiRjS9z25JVTNu-imtoi2efJL2p-T4hu7eXdVirZIoNwIhEOY1p7pVtZwpzsmzIV8chhYOOz7ML5qFHoS0gz7Q3sNQwInc4sV4AaHavaIwn5twlSmjmuHG66uasapArBcBNMIg0XG0et/s1600/SafeAppEcosystem_BlogHero_Still_1920x1080.png\" style=\"display: block; padding: 1em 0; text-align: center;\"><img alt=\"\" border=\"0\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNWPkN36d-E-0ZgVQNZYRep5TH3AnZltbtmu6PO7XLRULe4BuLMiRjS9z25JVTNu-imtoi2efJL2p-T4hu7eXdVirZIoNwIhEOY1p7pVtZwpzsmzIV8chhYOOz7ML5qFHoS0gz7Q3sNQwInc4sV4AaHavaIwn5twlSmjmuHG66uasapArBcBNMIg0XG0et/s1600/SafeAppEcosystem_BlogHero_Still_1920x1080.png\" /></a></div>\n\n\n<p>\nThe Android ecosystem is a thriving global community built on trust, giving billions of users the confidence to download the latest apps. In order to maintain that trust, we’re focused on  ensuring that apps do not cause real-world harm, such as malware, financial fraud, hidden subscriptions, and privacy invasions. As bad actors leverage AI to change their tactics and launch increasingly sophisticated attacks, we’ve deepened our investments in AI and real-time defenses over the last year to maintain the upper hand and stop these threats before they reach users.\n</p>\n<h3>Upgrading Google Play’s AI-powered, multi-layered user protections</h3>\n\n\n<p>\nWe’ve seen a clear impact from these safety efforts on Google Play. In 2025, <strong>we prevented over 1.75 million policy-violating apps from being published on Google Play </strong>and<strong> banned more than 80,000 bad developer accounts that attempted to publish harmful apps. </strong>These figures demonstrate how our proactive protections and push for a more accountable ecosystem are discouraging bad actors from publishing malicious apps, while our new tools help honest developers build compliant apps more easily. Initiatives like developer verification, mandatory pre-review checks, and testing requirements have raised the bar for the Google Play ecosystem, significantly reducing the paths for bad actors to enter.\n</p>\n\n<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXqjB3En8VZFiwKb-q2dzxMdWauGxhuxJyMFuwwRrEMYLvx8EvQbpyfwth1M1SamrAc8vwZvZVoP4GYe7PPpFVwFTevniOYB7bLFAWPQ8cD074hraPEkevtcTnVgPbP_OO9Oo0Ohl6-3LpwaRAUnt-uwzSNcl5yEvYK7uBNEpBNGaQds8c5-ynRhsKCseL/s1600/SafeAppEcosystem_HeroVisual_3Claims_1920x1080.png\" style=\"display: block; padding: 1em 0; text-align: center;\"><img alt=\"\" border=\"0\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXqjB3En8VZFiwKb-q2dzxMdWauGxhuxJyMFuwwRrEMYLvx8EvQbpyfwth1M1SamrAc8vwZvZVoP4GYe7PPpFVwFTevniOYB7bLFAWPQ8cD074hraPEkevtcTnVgPbP_OO9Oo0Ohl6-3LpwaRAUnt-uwzSNcl5yEvYK7uBNEpBNGaQds8c5-ynRhsKCseL/s1600/SafeAppEcosystem_HeroVisual_3Claims_1920x1080.png\" /></a></div>\n\n<p>\nUser safety is at the core of everything we build. Over the years, we’ve continually introduced ways to help users stay safe and make informed app choices — from <a href=\"https://support.google.com/googleplay/answer/1075738\">parental controls</a> to <a href=\"https://support.google.com/googleplay/answer/11416267\">data safety transparency</a> and <a href=\"https://android-developers.googleblog.com/2025/01/helping-users-find-trusted-apps-on-google-play.html\">app badges</a>. We’re constantly improving our policies and protections to encourage safe, high-quality apps on Google Play and stop bad actors before they cause harm.\n</p>\n<p>\nApps on Google Play undergo rigorous reviews for safety and compliance with our policies. Last year, <a href=\"https://blog.google/products-and-platforms/platforms/google-play/keeping-google-play-safe-2025/\">we shared</a> that Google Play runs <strong>over 10,000 safety checks</strong> on every app we publish, and we continue to check and recheck apps after they’ve been published. In 2025, we continued scaling our defenses even further by:\n</p>\n<ul>\n\n<li><strong>Boosting AI-enhanced app detection</strong>: We integrated Google’s latest generative AI models into our review process, helping our human review team continue to find complex malicious patterns faster.</li>\n\n<li><strong>Preventing unnecessary access to sensitive data:</strong> We prevented<strong> over 255,000 apps</strong> from getting excessive access to sensitive user data and continued to strengthen our privacy policies. Our commitment to privacy-forward app development, supported by tools like Play Policy Insights in <a href=\"https://developer.android.com/studio\">Android Studio</a> and <a href=\"https://support.google.com/googleplay/android-developer/answer/10787469?hl=en\">Data safety section</a>, has empowered developers to continue to: minimize privacy-sensitive permission requests, and prioritize the user in their design choices.</li>\n\n<li><strong>Blocking spam ratings and reviews:</strong> Whether they lead to review inflation or deflation, spam ratings and reviews can negatively impact our users’ trust and our developers’ growth. We’re continually evolving our detection models to help ensure app reviews are accurate. Our anti-spam protections blocked <strong>160 million spam ratings and reviews </strong>last year, including inflated and deflated reviews.  We also <strong>prevented an average 0.5-star rating drop</strong> for apps targeted by review bombing, protecting our users and developers from unhelpful reviews.</li>\n\n<li><strong>Safeguarding kids and families</strong>: Our approach to kids and families is built on the core belief that children deserve a safe, enriching digital environment. Our commitment is to empower parents with robust tools while providing children with access to high-quality, age-appropriate content. Last year, we announced <a href=\"https://support.google.com/googleplay/android-developer/answer/16302250?sjid=17958105945234987629-NC\">new layers of protection</a>, in addition to our existing <a href=\"https://blog.google/technology/safety-security/age-assurance-measures-safer-online-kids-teens-us/\">safeguards</a>, to prevent younger audiences from discovering or downloading apps involving activities like gambling or dating. </li>\n</ul>\n<h3>Enhancing Google Play Protect to help keep the entire Android ecosystem safe</h3>\n\n\n<p>\nWe also continued to improve our protections for the broader Android ecosystem, by expanding <a href=\"https://support.google.com/googleplay/answer/2812853?hl=en\">Google Play Protect</a> and real-time security measures like in-call scam protections to help keep users safe from scams, fraud, and other threats.\n</p>\n<p>\n<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRRyFyWuAAS0qmMVtLZaUEybmZ13gxGFxa6UsF_BGUocGCqDI6OAH-wM6_Fl84ZRyGZKnHcOCR4ceaPacTMsGsHtkb1R6lWlrcF1BAxBBt06KAe0n-t7C1gn7IMDC7rLZGY2bBshE1oR-0rCaYWponr8e6bh0AQP5K4koLy1CahuD9lT5Ay1I4JjaCSKb3/s1600/SafeAppEcosystem_GooglePlayProtectRealTimeScanning_1920x1080.png\" style=\"display: block; padding: 1em 0; text-align: center;\"><img alt=\"\" border=\"0\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRRyFyWuAAS0qmMVtLZaUEybmZ13gxGFxa6UsF_BGUocGCqDI6OAH-wM6_Fl84ZRyGZKnHcOCR4ceaPacTMsGsHtkb1R6lWlrcF1BAxBBt06KAe0n-t7C1gn7IMDC7rLZGY2bBshE1oR-0rCaYWponr8e6bh0AQP5K4koLy1CahuD9lT5Ay1I4JjaCSKb3/s1600/SafeAppEcosystem_GooglePlayProtectRealTimeScanning_1920x1080.png\" /></a></div>\n\n<p>\nAs Android’s built-in defense against malware and unwanted software, <strong>Google Play Protect now scans over 350 billion Android apps daily.</strong> This proactive protection constantly checks both Play apps and those from other sources to ensure they are not potentially harmful. And, last year, its real-time scanning capability identified <strong>more than 27 million </strong>new malicious apps from outside Google Play, warning users or blocking the app to neutralize the threat. To benefit from these protections, we recommend that users always keep Google Play Protect on. \n</p>\n<p>\nWhile fraudsters are constantly evolving their tactics, Google Play Protect is evolving faster. Last year, we expanded:\n</p>\n<ul>\n\n<li><strong>Enhanced fraud protection:</strong> Google Play Protect’s <a href=\"https://security.googleblog.com/2024/02/piloting-new-ways-to-protect-Android-users-from%20financial-fraud.html\">enhanced fraud protection</a> analyzes and automatically blocks the installation of apps that may abuse sensitive permissions to commit financial fraud. This protection is triggered when a user attempts to install an app from an \"Internet-sideloading source\" — such as a web browser or messaging app — that requests a sensitive permission. Building on the success of our initial pilot in Singapore, we expanded enhanced fraud protection to <strong>185 markets</strong>, now covering more than <strong>2.8 billion Android devices</strong>. In 2025, we <strong>blocked 266 million risky installation attempts</strong> and<strong> helped protect users from 872,000 unique, high-risk applications.</strong></li>\n\n<li><strong>In-call scam protection:</strong> We also <a href=\"https://security.googleblog.com/2025/05/whats-new-in-android-security-privacy-2025.html\">introduced</a> new protections to combat social engineering attacks during phone calls. This feature preemptively disables the ability to turn off Google Play Protect during phone calls, stopping bad actors from being able to trick users into disabling their device's built-in defenses to download a malicious app while on a call.</li>\n</ul>\n<h3>Partnering with developers for a more secure, privacy-friendly future</h3>\n\n\n<p>\nKeeping Android and Google Play safe requires deep collaboration. We want to thank our global developer community for their partnership and for sharing their feedback on the tools and support they need to succeed.\n</p>\n<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuQSOEIEqh9WkZLhfDByQYwJ5oCPUI_tux-OhPo3qgJ9LZ0Uuphey0RcUPiiIoqOcE8eEOWqSreJsex9f_8UAn8JUn8wnc3AcApCymgrDn3YCHeudyrH5QI22iArfEGKjluM1jKVujCXLRwmH06V2MnaSO3f_koSgMelHiuwPJtKQHKwcFi6AksS3TRqWY/s1600/SafeAppEcosystem_PlayIntegrityAPI_1920x1080.png\" style=\"display: block; padding: 1em 0; text-align: center;\"><img alt=\"\" border=\"0\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuQSOEIEqh9WkZLhfDByQYwJ5oCPUI_tux-OhPo3qgJ9LZ0Uuphey0RcUPiiIoqOcE8eEOWqSreJsex9f_8UAn8JUn8wnc3AcApCymgrDn3YCHeudyrH5QI22iArfEGKjluM1jKVujCXLRwmH06V2MnaSO3f_koSgMelHiuwPJtKQHKwcFi6AksS3TRqWY/s1600/SafeAppEcosystem_PlayIntegrityAPI_1920x1080.png\" /></a></div>\n<p>\n In 2025, we focused on reducing friction for developers and providing them with tools to safeguard their businesses:\n</p>\n<ul>\n\n<li><strong>Building safer apps more easily</strong>: We’re helping developers streamline their work by bringing insights directly into their natural workflows. It starts with <a href=\"https://developer.android.com/studio/publish/insights\">Play Policy Insights in Android Studio</a>, which gives developers real-time feedback as they code. We focused first on permissions and APIs that grant deeper system access or handle personal data, like location or photos. This gives developers a head start on policy requirements, including prominent disclosures or usage declarations, while they’re still building. When developers move to Play Console to prepare their apps for submission, our expanded <a href=\"https://support.google.com/googleplay/android-developer/answer/14807773\">pre-review checks</a> help catch common reasons for rejection, like improper usage of credentials or permissions and broken privacy policy links, ensuring smoother, faster reviews.</li>\n\n<li><strong>Stronger threat detection with Play Integrity API</strong>: Every day, apps and games make over 20 billion checks with <a href=\"https://developer.android.com/google/play/integrity\">Play Integrity API</a> to protect against abuse and unauthorized access. In 2025, we added <a href=\"https://android-developers.googleblog.com/2025/10/stronger-threat-detection-simpler.html\">hardware-backed signals</a> to make it even harder for bad actors to spoof devices and introduced <a href=\"https://android-developers.googleblog.com/2025/10/stronger-threat-detection-simpler.html\">new in-app prompts</a> that let users fix common issues like network errors without leaving the app. We also launched <a href=\"https://developer.android.com/google/play/integrity/device-recall\">device recall</a> in beta to help developers identify repeat bad actors even after a device has been reset, all while protecting user privacy.</li>\n\n<li><strong>Building trust through developer verification:</strong> We’ve seen how effective developer verification is on Google Play, and now we’re applying those lessons to the broader Android ecosystem. By ensuring there is a real, accountable identity behind every app, verification helps legitimize authentic developers and prevents bad actors from hiding behind anonymity to repeatedly cause harm. After gathering feedback during our <a href=\"https://developer.android.com/developer-verification/guides/early-access\">early access</a> period, we’ll open up verification to all developers this year. We’ve also added a dedicated account type for students and hobbyists, which will allow them to distribute these apps to a limited number of devices without the full verification requirements.</li>\n\n<li><strong>Greater security with every Android release</strong>: In Android 16, developers can <a href=\"https://android-developers.googleblog.com/2025/12/enhancing-android-security-stop-malware.html\">protect</a> users’ most private information, like bank logins, with just one line of code. We’ve integrated this feature automatically to <a href=\"https://android-developers.googleblog.com/2025/12/enhancing-android-security-stop-malware.html#:~:text=Automatic%2C%20enhanced%20security%20for%20setFilterTouchesWhenObscured%20protection\">certain apps</a> for an instant security boost against “<a href=\"https://developer.android.com/privacy-and-security/risks/tapjacking#mitigations\">tapjacking</a>,” a trick where bad apps use hidden layers to steal clicks for ad fraud. </li>\n</ul>\n<h3>Looking ahead</h3>\n\n\n<p>\nOur top priority remains making Google Play and Android the most trusted app ecosystems for everyone. This year, we’ll continue to invest in AI-driven defenses to stay ahead of emerging threats and equip Android developers with the tools they need to build apps safely. To empower developers who distribute their apps on Google Play, we’ll maintain our focus on embedding checks to help build apps that are compliant by design, while providing guidance to help proactively avoid policy violations before an app is published. We’ll also roll out Android developer verifications to hold bad actors accountable and prevent them from hiding behind anonymity to cause repeated harm.\n</p>\n<p>\nThank you for being part of the Google Play and Android community as we work together to build a safer app ecosystem.\n</p>",
     "link": "http://security.googleblog.com/2026/02/keeping-google-play-android-app-ecosystem-safe-2025.html",
@@ -127,16 +117,6 @@
     "source": "security.googleblog.com",
     "category": "Data Breach",
     "importance_score": 1540,
-    "also_covered_by": []
-  },
-  {
-    "title": "Gunra Ransomware Exploits Fortinet VPN Flaws to Bypass MFA and Steal Enterprise Data",
-    "summary": "<p>A joint cybersecurity advisory from the FBI, CISA, the Department of Defense Cyber Crime Center, the NSA, the U.S. Secret Service, and South Korea&#8217;s National Police Agency has exposed a dangerous new wave of attacks by the Gunra ransomware group, which is actively exploiting known Fortinet VPN vulnerabilities to bypass multi-factor authentication and exfiltrate sensitive [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/gunra-ransomware-exploits-fortinet-vpn-flaws/\">Gunra Ransomware Exploits Fortinet VPN Flaws to Bypass MFA and Steal Enterprise Data</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/gunra-ransomware-exploits-fortinet-vpn-flaws/",
-    "published": "2026-08-10T17:24:00",
-    "source": "cybersecuritynews.com",
-    "category": "Ransomware",
-    "importance_score": 1517,
     "also_covered_by": []
   },
   {
@@ -260,16 +240,6 @@
     "also_covered_by": []
   },
   {
-    "title": "GitHub Expands Supply Chain Malware Detection From npm to 8 Package Registries",
-    "summary": "<p>GitHub has expanded its malware detection capabilities beyond npm, providing developers with broader protection against malicious open-source packages. Dependabot alerts can now identify harmful dependencies across 8 major package ecosystems: npm, PyPI, Maven, RubyGems, NuGet, Go, crates.io, and PHP Composer. A malicious package can steal passwords, API keys, cloud credentials, cryptocurrency wallets, and source code [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/github-expands-supply-chain-malware-detection/\">GitHub Expands Supply Chain Malware Detection From npm to 8 Package Registries</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/github-expands-supply-chain-malware-detection/",
-    "published": "2026-08-10T14:57:47",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 1326,
-    "also_covered_by": []
-  },
-  {
     "title": "Almost Half of Malware Samples Communicate Direct to IP",
     "summary": "<p>Nearly half of C2 malware bypasses DNS by connecting directly to IP addresses. Zero trust IP enforcement secures networks against these threats.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/malware-bypass-dns-direct-to-ip/\">Almost Half of Malware Samples Communicate Direct to IP</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
     "link": "https://unit42.paloaltonetworks.com/malware-bypass-dns-direct-to-ip/",
@@ -377,16 +347,6 @@
     "source": "securityweek.com",
     "category": "Vulnerability",
     "importance_score": 1089,
-    "also_covered_by": []
-  },
-  {
-    "title": "Play Ransomware Masquerades as PsExec to Blend Into Legitimate Windows Administration",
-    "summary": "<p>Play ransomware is using a familiar Windows-administration disguise to reduce suspicion during intrusions: a custom service binary named PSexesvc.exe. The group’s use of a custom service binary named PSexesvc.exe, mimicking Microsoft Sysinternals PsExec, illustrates how attackers can turn routine Windows administration into cover for lateral movement and payload execution. The binary has been observed alongside [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/play-ransomware-minics-psexec/\">Play Ransomware Masquerades as PsExec to Blend Into Legitimate Windows Administration</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/play-ransomware-minics-psexec/",
-    "published": "2026-08-10T11:32:39",
-    "source": "gbhackers.com",
-    "category": "Ransomware",
-    "importance_score": 1081,
     "also_covered_by": []
   },
   {
@@ -610,16 +570,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Fake GoogleTranslate Chrome Extension Lets Attackers Remotely Control Your Browsers",
-    "summary": "<p>A malicious Chrome extension masquerading as GoogleTranslate that can steal sensitive browser data, live-stream web sessions, and allow threat actors to remotely interact with Chrome windows while keeping their activity out of the victim’s view. The operation begins with a suspected Rust-based malware loader. VMRay researchers found that the binary drops a malicious Chrome extension [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fake-googletranslate-chrome-extension/\">Fake GoogleTranslate Chrome Extension Lets Attackers Remotely Control Your Browsers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/fake-googletranslate-chrome-extension/",
-    "published": "2026-08-10T13:35:24",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 867,
-    "also_covered_by": []
-  },
-  {
     "title": "U.S., South Korean government agencies caution to be on lookout for Gunra ransomware gang",
     "summary": "<p>The ransomware-as-a-service outfit has gone after a range of critical infrastructure sectors across the globe.</p>\n<p>The post <a href=\"https://cyberscoop.com/us-south-korea-gunra-ransomware-warning/\">U.S., South Korean government agencies caution to be on lookout for Gunra ransomware gang</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
     "link": "https://cyberscoop.com/us-south-korea-gunra-ransomware-warning/",
@@ -720,36 +670,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Fake Solidity Pro Extensions Turn Trusted Developer Tooling Into Credential-Stealing Malware",
-    "summary": "<p>Malicious “Solidity Pro” extensions are abusing the trust developers place in VS Code and Open VSX tooling, evolving from delayed payload droppers into broad credential and cryptocurrency-wallet stealers. Yeeth Security identified two publishers, helper-beeps and web3devtoolsx, distributing related solidity-pro packages that use Solidity-themed branding, obfuscation, and version churn to target web3 developers. The campaign reflects [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fake-solidity-pro-extensions/\">Fake Solidity Pro Extensions Turn Trusted Developer Tooling Into Credential-Stealing Malware</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/fake-solidity-pro-extensions/",
-    "published": "2026-08-10T10:47:02",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 738,
-    "also_covered_by": []
-  },
-  {
-    "title": "GitHub Expands Dependabot Malware Alerts to Detect Malicious Packages Across 8 Ecosystems",
-    "summary": "<p>GitHub has expanded its Dependabot malware alerts beyond npm, enabling the detection of malicious dependencies across various package ecosystems, including PyPI, Maven, RubyGems, NuGet, Go, crates.io, and PHP Composer. This rollout is supported by a new GitHub Advisory Database importer for OpenSSF&#8217;s malicious-packages repository, which enhances supply chain detection across these eight ecosystems. GitHub Expands [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/github-expands-dependabot-malware-alerts/\">GitHub Expands Dependabot Malware Alerts to Detect Malicious Packages Across 8 Ecosystems</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/github-expands-dependabot-malware-alerts/",
-    "published": "2026-08-10T11:29:29",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 737,
-    "also_covered_by": []
-  },
-  {
-    "title": "Android Banking Droppers Surge as Malware Operators Change Packaging Tactics",
-    "summary": "<p>Android banking malware operators are increasingly relying on dropper-based packaging to evade mobile app-store controls, shifting how threats are classified and delivered rather than simply expanding their overall distribution. Kaspersky telemetry for the second quarter of 2026 recorded 1,996,823 blocked attacks involving malware, adware, and potentially unwanted mobile software, down from 2,676,328 in Q1. Yet [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/android-banking-droppers/\">Android Banking Droppers Surge as Malware Operators Change Packaging Tactics</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/android-banking-droppers/",
-    "published": "2026-08-10T12:51:36",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 727,
-    "also_covered_by": []
-  },
-  {
     "title": "Mirage Kitten targets Middle East and Africa region with new malware",
     "summary": "Kaspersky researchers reveal previously undocumented malware attributed to Mirage Kitten (UNC1549, Smoke Sandstorm, Nimbus Manticore): NightLedger backdoor, ArcBridge, and BridgeHead tunneling tools.",
     "link": "https://securelist.com/mirage-kitten-new-tools/120811/",
@@ -830,16 +750,6 @@
     "also_covered_by": []
   },
   {
-    "title": "CISA Flags Progress LoadMaster Command Injection Vulnerability Exploited in the Wild",
-    "summary": "<p>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a critical command injection vulnerability in Progress LoadMaster, tracked as CVE-2026-8037, to its Known Exploited Vulnerabilities (KEV) catalog after confirming evidence of active exploitation. This vulnerability allows unauthenticated attackers to execute arbitrary commands on vulnerable appliances, posing a significant risk to organizations that expose LoadMaster [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cisa-flags-progress-loadmaster-command-injection-vulnerability/\">CISA Flags Progress LoadMaster Command Injection Vulnerability Exploited in the Wild</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/cisa-flags-progress-loadmaster-command-injection-vulnerability/",
-    "published": "2026-08-10T12:32:35",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 646,
-    "also_covered_by": []
-  },
-  {
     "title": "The AI Act kicks into action, forces companies to be clear about AI chatbots",
     "summary": "The European Union (EU) has started enforcing key parts of the AI Act, with immediate, visible consequences for chatbots, deepfakes and other consumer‑facing AI.",
     "link": "https://www.malwarebytes.com/blog/news/2026/08/the-ai-act-kicks-into-action-forces-companies-to-be-clear-about-ai-bots",
@@ -867,36 +777,6 @@
     "source": "securelist.com",
     "category": "Ransomware",
     "importance_score": 633,
-    "also_covered_by": []
-  },
-  {
-    "title": "CISA Warns of Progress LoadMaster Command Injection Vulnerability Exploited in Attacks",
-    "summary": "<p>CISA has added a critical Progress LoadMaster vulnerability to its Known Exploited Vulnerabilities catalog after attackers were observed targeting exposed devices. Tracked as CVE-2026-8037, the flaw affects Progress LoadMaster and Progress ADC products. It is a command injection issue that could let an unauthenticated attacker run arbitrary commands on a vulnerable LoadMaster appliance. The vulnerability [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/progress-loadmaster-command-injection-vulnerability-exploited/\">CISA Warns of Progress LoadMaster Command Injection Vulnerability Exploited in Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/progress-loadmaster-command-injection-vulnerability-exploited/",
-    "published": "2026-08-10T15:12:07",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 629,
-    "also_covered_by": []
-  },
-  {
-    "title": "Pass-the-Passkey Attacks Expose Windows 11 and Microsoft Entra ID, Bypassing MFA",
-    "summary": "<p>A new &#8220;Pass-the-Passkey&#8221; family of attack techniques demonstrates how systemic implementation flaws surrounding WebAuthn can undermine passkey security even when cryptographic private keys remain securely stored inside hardware tokens or trusted enclaves. SpecterOps research highlights three core vulnerabilities across the WebAuthn ecosystem and over 20 distinct attack techniques impacting Windows 11, Microsoft Entra ID, web [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/pass-the-passkey-attacks/\">Pass-the-Passkey Attacks Expose Windows 11 and Microsoft Entra ID, Bypassing MFA</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/pass-the-passkey-attacks/",
-    "published": "2026-08-10T16:24:29",
-    "source": "cybersecuritynews.com",
-    "category": "Policy / Law",
-    "importance_score": 626,
-    "also_covered_by": []
-  },
-  {
-    "title": "Windows WalletService Vulnerability Allows Attackers to Escalate Privileges – PoC Released",
-    "summary": "<p>Microsoft has patched a Windows WalletService vulnerability that could let local attackers gain SYSTEM privileges, with a public proof of concept urging organizations to deploy the July 2026 security updates. Tracked as CVE-2026-49176, the issue is an elevation-of-privilege flaw caused by improper privilege management in WalletService. The official CVE description says an authorized attacker can [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/windows-walletservice-vulnerability-poc-released/\">Windows WalletService Vulnerability Allows Attackers to Escalate Privileges &#8211; PoC Released</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/windows-walletservice-vulnerability-poc-released/",
-    "published": "2026-08-10T15:01:15",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 626,
     "also_covered_by": []
   },
   {
@@ -1130,16 +1010,6 @@
     "also_covered_by": []
   },
   {
-    "title": "New Abyssos RAT Hijacks Browser Sessions, Steals Credentials and Gives Attackers Remote VNC Access",
-    "summary": "<p>Abyssos, a modular C++ remote-access trojan that combines credential theft, browser-session hijacking, file exfiltration and hidden VNC control in a single post-compromise framework. Technical analysis from ThreatLabz indicates that Abyssos is designed for hands-on intrusion activity rather than opportunistic, single-purpose theft. The most concerning feature is its hidden VNC capability. The HVNC_START command opens a [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/abyssos-rat-hijacks-browser-sessions/\">New Abyssos RAT Hijacks Browser Sessions, Steals Credentials and Gives Attackers Remote VNC Access</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/abyssos-rat-hijacks-browser-sessions/",
-    "published": "2026-08-11T05:43:59",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 488,
-    "also_covered_by": []
-  },
-  {
     "title": "The Xcode Assassin Returns: A Deep Dive Into the Latest XCSSET Version",
     "summary": "<p>Analysis of XCSSET v40 reveals a macOS malware targeting developers via Xcode. Unit 42 used advanced pattern matching and AI to decode its logic.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/xcsset-v40-malware-analysis/\">The Xcode Assassin Returns: A Deep Dive Into the Latest XCSSET Version</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
     "link": "https://unit42.paloaltonetworks.com/xcsset-v40-malware-analysis/",
@@ -1170,16 +1040,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Claude Code Auto Mode Blocks 89% of Dangerous Commands and Prompt Injection Attacks",
-    "summary": "<p>Anthropic will make Auto Mode the default setting in Claude Code for Pro, Max, and Team subscribers starting August 14, 2026. This change introduces an automated classifier to replace repetitive manual permission approvals during long-running development tasks. The goal is to reduce “permission fatigue,” a condition where developers approve prompts without thoroughly examining the associated [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/claude-code-auto-mode-blocks-attacks/\">Claude Code Auto Mode Blocks 89% of Dangerous Commands and Prompt Injection Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/claude-code-auto-mode-blocks-attacks/",
-    "published": "2026-08-11T05:12:10",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 477,
-    "also_covered_by": []
-  },
-  {
     "title": "Ransomware Attacks are on the Rise",
     "summary": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
     "link": "https://threatpost.com/ransomware-attacks-are-on-the-rise/180481/",
@@ -1200,16 +1060,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Red Hat Kubernetes Flaw Allows Attackers to Escalate Privileges to Cluster-Admin",
-    "summary": "<p>Red Hat has disclosed a privilege-escalation vulnerability in Red Hat Advanced Cluster Management for Kubernetes (ACM) that could allow a low-privileged user to gain full cluster-admin control of an affected hub cluster. This vulnerability is tracked as CVE-2026-10090 and affects the Application Subscription controller, specifically the multicluster-operators-subscription. It has a CVSS v3.1 score of 9.9 [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/red-hat-kubernetes-flaw/\">Red Hat Kubernetes Flaw Allows Attackers to Escalate Privileges to Cluster-Admin</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/red-hat-kubernetes-flaw/",
-    "published": "2026-08-11T05:43:27",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 476,
-    "also_covered_by": []
-  },
-  {
     "title": "I tried Google Wallet's new allowance feature, and my kid already ditched their debit card",
     "summary": "The new feature lets you send money to your children without them needing a card or separate account.",
     "link": "https://www.zdnet.com/article/i-tried-google-wallets-new-allowance-feature/",
@@ -1220,26 +1070,6 @@
     "also_covered_by": []
   },
   {
-    "title": "OpenAI Expands Daybreak Cyber with GPT-5.6 for Exploit Validation, Pentesting, and Red Teaming",
-    "summary": "<p>OpenAI has expanded its Daybreak program to give vetted security defenders deeper access to frontier AI models, introducing two access tiers—Daybreak Blue and Daybreak Red—alongside a new specialized model, GPT-5.6-Cyber, purpose-built for exploit validation, vulnerability research, and red teaming. The move is a direct response to a widening gap between attacker and defender capabilities, as [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openai-expands-daybreak-cyber/\">OpenAI Expands Daybreak Cyber with GPT-5.6 for Exploit Validation, Pentesting, and Red Teaming</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/openai-expands-daybreak-cyber/",
-    "published": "2026-08-11T03:33:12",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 470,
-    "also_covered_by": []
-  },
-  {
-    "title": "Red Hat ACM Privilege Escalation Vulnerability Lets Attackers Gain Full Cluster-Admin Access",
-    "summary": "<p>Red Hat has disclosed a critical privilege escalation flaw, tracked as CVE-2026-10090, affecting the Application Subscription controller in Red Hat Advanced Cluster Management for Kubernetes (ACM). Rated Important with a CVSS score of 9.9, the vulnerability allows a user with only namespace-scoped &#8220;edit&#8221; permissions on an ACM hub to escalate all the way to full [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/red-hat-acm-privilege-escalation-vulnerability/\">Red Hat ACM Privilege Escalation Vulnerability Lets Attackers Gain Full Cluster-Admin Access</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/red-hat-acm-privilege-escalation-vulnerability/",
-    "published": "2026-08-10T14:46:22",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 469,
-    "also_covered_by": []
-  },
-  {
     "title": "I tried a solar-powered AirTag alternative that lasts 2 years - and looks like my Apple Watch",
     "summary": "This finder tag has excellent range, and it's built for the outdoors.",
     "link": "https://www.zdnet.com/article/ugreen-finder-pro-solar-powered-finder-tag-review/",
@@ -1247,16 +1077,6 @@
     "source": "zdnet.com",
     "category": "Other",
     "importance_score": 467,
-    "also_covered_by": []
-  },
-  {
-    "title": "HP ThinPro TPM Flaw Lets Attackers Bypass Full Disk Encryption and Steal LUKS Keys",
-    "summary": "<p>A security researcher has revealed a critical design flaw in HP ThinPro versions 8 and 9, which allows attackers with physical access to a thin client&#8217;s storage drive to extract TPM-sealed LUKS disk-encryption keys. This vulnerability arises from an incomplete measured-boot policy that validates the GRUB bootloader but fails to measure the Linux kernel and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hp-thinpro-tpm-flaw/\">HP ThinPro TPM Flaw Lets Attackers Bypass Full Disk Encryption and Steal LUKS Keys</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/hp-thinpro-tpm-flaw/",
-    "published": "2026-08-10T10:22:48",
-    "source": "gbhackers.com",
-    "category": "Ransomware",
-    "importance_score": 465,
     "also_covered_by": []
   },
   {
@@ -1280,16 +1100,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Claude Code Shifts Agent Security From Repeated Human Approval to Auto Mode",
-    "summary": "<p>Anthropic is changing how Claude Code handles risky commands, moving away from constant human approval prompts and toward an automated safety classifier called auto mode. Starting August 14, 2026, auto mode will become the default setting for new sessions on Claude Code&#8217;s Pro, Max, and Team plans, marking a major shift in how AI coding [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/claude-code-shifts-agent-security/\">Claude Code Shifts Agent Security From Repeated Human Approval to Auto Mode</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/claude-code-shifts-agent-security/",
-    "published": "2026-08-10T16:17:57",
-    "source": "cybersecuritynews.com",
-    "category": "AI & Security",
-    "importance_score": 453,
-    "also_covered_by": []
-  },
-  {
     "title": "Stealthium Targets Security Blind Spots in AI Accelerators and Neo-Clouds",
     "summary": "<p>The startup analyzes subtle telemetry signals to detect attacks that traditional security tools cannot see inside accelerator-powered AI infrastructure.</p>\n<p>The post <a href=\"https://www.securityweek.com/stealthium-targets-security-blind-spots-in-ai-accelerators-and-neo-clouds/\">Stealthium Targets Security Blind Spots in AI Accelerators and Neo-Clouds</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
     "link": "https://www.securityweek.com/stealthium-targets-security-blind-spots-in-ai-accelerators-and-neo-clouds/",
@@ -1297,16 +1107,6 @@
     "source": "securityweek.com",
     "category": "AI & Security",
     "importance_score": 451,
-    "also_covered_by": []
-  },
-  {
-    "title": "HP ThinPro TPM Disk Encryption Flaw Lets Attackers Extract LUKS Keys",
-    "summary": "<p>A security researcher has disclosed a boot-chain weakness in HP ThinPro 8 and 9 that could allow attackers with physical access to a thin client to extract its LUKS disk-encryption key. The issue affects HP thin clients in which LUKS2 protects the operating system’s encrypted root partition, and the decryption key is sealed inside the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hp-thinpro-tpm-disk-encryption-flaw/\">HP ThinPro TPM Disk Encryption Flaw Lets Attackers Extract LUKS Keys</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/hp-thinpro-tpm-disk-encryption-flaw/",
-    "published": "2026-08-10T16:26:46",
-    "source": "cybersecuritynews.com",
-    "category": "Ransomware",
-    "importance_score": 450,
     "also_covered_by": []
   },
   {
@@ -1337,16 +1137,6 @@
     "source": "securityweek.com",
     "category": "AI & Security",
     "importance_score": 441,
-    "also_covered_by": []
-  },
-  {
-    "title": "OpenAI's Next AI Model Astra Shows Cyber Performance Strong Enough to Trigger Pause",
-    "summary": "OpenAI has announced that it's pausing some \"internal activities\" involving its upcoming artificial intelligence (AI) model Astra after an internal evaluation found it had made significant advancements in agentic coding and cybersecurity.\n\nIn response to the discovery, the AI upstart said it's implementing security controls for higher-capability models and associated activities, such as isolated",
-    "link": "https://thehackernews.com/2026/08/openais-next-ai-model-astra-shows-cyber.html",
-    "published": "2026-08-10T05:50:03",
-    "source": "thehackernews.com",
-    "category": "AI & Security",
-    "importance_score": 438,
     "also_covered_by": []
   },
   {
@@ -1797,6 +1587,16 @@
     "source": "securityweek.com",
     "category": "Policy / Law",
     "importance_score": 276,
+    "also_covered_by": []
+  },
+  {
+    "title": "OpenAI's Next AI Model Astra Shows Cyber Performance Strong Enough to Trigger Pause",
+    "summary": "OpenAI has announced that it's pausing some \"internal activities\" involving its upcoming artificial intelligence (AI) model Astra after an internal evaluation found it had made significant advancements in agentic coding and cybersecurity.\n\nIn response to the discovery, the AI upstart said it's implementing security controls for higher-capability models and associated activities, such as isolated",
+    "link": "https://thehackernews.com/2026/08/openais-next-ai-model-astra-shows-cyber.html",
+    "published": "2026-08-10T05:50:03",
+    "source": "thehackernews.com",
+    "category": "AI & Security",
+    "importance_score": 273,
     "also_covered_by": []
   },
   {
