@@ -40,16 +40,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Windows AFD.sys 0-Day Actively Exploited by Lazarus Hackers to Deploy FudModule Rootkit",
-    "summary": "<p>North Korea&#8217;s Lazarus group has been caught exploiting a Windows kernel 0-day vulnerability to deploy an upgraded version of its notorious FudModule rootkit, according to new research from Check Point Research. The flaw, now tracked as CVE-2026-68820, lives inside AFD.sys, the Ancillary Function Driver that manages network sockets deep within the Windows kernel. Microsoft patched [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/windows-afd-sys-zero-day-exploited/\">Windows AFD.sys 0-Day Actively Exploited by Lazarus Hackers to Deploy FudModule Rootkit</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/windows-afd-sys-zero-day-exploited/",
-    "published": "2026-08-12T03:23:37",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 2418,
-    "also_covered_by": []
-  },
-  {
     "title": "The Cyber Express Weekly Roundup: Ransomware Surge, Government Data Breaches, Logistics Disruptions, and Third-Party Security Risks",
     "summary": "<p><img alt=\"The Cyber Express weekly roundup H1\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"498\" src=\"https://thecyberexpress.com/wp-content/uploads/The-Cyber-Express-weekly-roundup-H1.webp\" title=\"The Cyber Express Weekly Roundup: Ransomware Surge, Government Data Breaches, Logistics Disruptions, and Third-Party Security Risks 14\" width=\"803\" /></p><span>This weekly roundup highlights the growing cybersecurity risks affecting businesses, government agencies, and critical service providers. From the continued dominance of ransomware operations to government database breaches and third-party supply chain incidents, recent events demonstrate how attackers are increasingly targeting trusted systems and external service providers to maximize disruption and data exposure.</span><span> </span>\n\n<span>The latest developments reinforce that <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/cyber-news/\" title=\"cyber\">cyber</a> threats are no longer limited to direct attacks on organizations. Threat actors are exploiting ransomware-as-a-service ecosystems, compromising government registries, targeting law enforcement databases, and abusing third-party platforms that support retail and healthcare operations. </span><span> </span>\n\n<span>Organizations must strengthen third-party risk management, improve <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-data/\" title=\"data\">data</a> protection measures, and enhance incident response capabilities to reduce the impact of evolving cyber threats.</span><span> </span>\n<h2><b><span>The Cyber Express Weekly Roundup</span></b><span> </span></h2>\n<h3><b><span>Qilin Dominated Ransomware Attacks in H1 2026</span></b><span> </span></h3>\n<span>Qilin emerged as the most active <a class=\"wpil_keyword_link\" href=\"https://cyble.com/knowledge-hub/what-is-ransomware/\" rel=\"noopener\" target=\"_blank\" title=\"ransomware\">ransomware</a> group during the first half of 2026, targeting organizations worldwide through its ransomware-as-a-service (RaaS) operation. Manufacturing, healthcare, construction, and professional services were among the sectors most affected as the group continued expanding its global reach. </span><a href=\"https://thecyberexpress.com/qilin-ransomware-h1-2026/\" rel=\"noopener\" target=\"_blank\"><span>Read more…</span></a><span> </span>\n<h3><b><span>Hackers Breach Beneficial Owners Registry, Expose Data of 31,000 Firms</span></b><span> </span></h3>\n<span>Hackers breached the Register of Beneficial Owners (VwbP), gaining unauthorized access to data associated with approximately 31,000 legal entities. Authorities temporarily took the registry offline, launched an investigation, and established a crisis response team, stating there is currently no evidence that records were altered or deleted. </span><a href=\"https://thecyberexpress.com/beneficial-owners-register-breach/\" rel=\"noopener\" target=\"_blank\"><span>Read more…</span></a><span> </span>\n<h3><b><span>PNLD Data Breach Leaks Police and Government Contact Details</span></b><span> </span></h3>\n<span>A data breach involving the Police National Legal Database (PNLD) exposed names, organizations, and work email addresses belonging to police officers, government partners, criminal justice professionals, and some Ask the Police users after the information appeared on the <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-the-dark-web/\" title=\"dark web\">dark web</a>. Authorities are investigating the incident and assessing its potential impact. </span><a href=\"https://thecyberexpress.com/pnld-data-breach-police-contact-details/\" rel=\"noopener\" target=\"_blank\"><span>Read more…</span></a><span> </span>\n<h3><b><span>De Bijenkorf Logistics Cyberattack Delays Orders and Raises Data Exposure Concerns</span></b><span> </span></h3>\n<span>A <a class=\"wpil_keyword_link\" href=\"https://cyble.com/cyberattack/\" rel=\"noopener\" target=\"_blank\" title=\"cyberattack\">cyberattack</a> targeting a third-party logistics provider disrupted deliveries, returns, and refunds for Dutch retailer De Bijenkorf. While the retailer confirmed its internal systems were not compromised, investigators are assessing whether customer contact details and order information were exposed. Payment information, passwords, and financial data were not affected, and customers have been advised to remain vigilant against <a class=\"wpil_keyword_link\" href=\"https://cyble.com/knowledge-hub/what-is-phishing/\" rel=\"noopener\" target=\"_blank\" title=\"phishing\">phishing</a> attempts. </span><a href=\"https://thecyberexpress.com/de-bijenkorf-cyberattack/\" rel=\"noopener\" target=\"_blank\"><span>Read more…</span></a><span> </span>\n<h3><b><span>Updoc Data Breach Exposes Customer Contact Information</span></b><span> </span></h3>\n<span>Australian telehealth provider Updoc disclosed a <a class=\"wpil_keyword_link\" href=\"https://cyble.com/knowledge-hub/what-is-a-data-breach/\" rel=\"noopener\" target=\"_blank\" title=\"data breach\">data breach</a> after unauthorized access to a third-party operational platform exposed some customers' names, email addresses, and postal addresses. The company confirmed that its internal systems remained secure and that no medical records, payment information, or financial data were compromised. </span><a href=\"https://thecyberexpress.com/updoc-data-breach/\" rel=\"noopener\" target=\"_blank\"><span>Read more…</span></a><span> </span>\n<h2><b><span>Weekly Cybersecurity Takeaway</span></b><span> </span></h2>\n<span>This week's incidents highlight the continued evolution of cyber threats across ransomware operations, government data breaches, and third-party supply chain compromises.</span><span> </span>\n\n<span>A common theme across these <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/cyber-security-events/\" title=\"events\">events</a> is the growing risk posed by trusted third-party platforms and shared digital ecosystems. Attackers are targeting external service providers, government databases, and ransomware affiliate networks to expand their reach and maximize operational disruption.</span><span> </span>\n\n<span>Organizations should prioritize stronger third-party <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-are-risks-in-cybersecurity/\" title=\"risk\">risk</a> management, continuous monitoring, robust access controls, and timely incident response to reduce the impact of supply chain attacks and data breaches. </span>\n\n<span>As businesses become more interconnected, strengthening the <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/\" title=\"security\">security</a> of partner ecosystems is becoming just as important as protecting internal infrastructure.</span><span> </span>",
     "link": "https://thecyberexpress.com/tce-weekly-roundup-data-breaches-h1/",
@@ -127,26 +117,6 @@
     "source": "unit42.paloaltonetworks.com",
     "category": "Vulnerability",
     "importance_score": 1836,
-    "also_covered_by": []
-  },
-  {
-    "title": "Microsoft Patch Tuesday Update August 2026 Fixes Actively Exploited Windows Zero-Day",
-    "summary": "<p>Microsoft’s August 2026 Patch Tuesday released fixes for hundreds of vulnerabilities across various products, including Windows, Office, SharePoint, Azure, .NET, PowerShell, Visual Studio Code, and other enterprise solutions. A total of 394 distinct flaws were documented in this release. Among these vulnerabilities, three zero-day issues are particularly noteworthy. One of these is a Windows elevation-of-privilege [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/microsoft-patch-tuesday-update-august-2026/\">Microsoft Patch Tuesday Update August 2026 Fixes Actively Exploited Windows Zero-Day</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/microsoft-patch-tuesday-update-august-2026/",
-    "published": "2026-08-12T05:49:49",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 1835,
-    "also_covered_by": []
-  },
-  {
-    "title": "Microsoft Outlook Vulnerability Allows Attackers to Execute Malicious Code Remotely",
-    "summary": "<p>Microsoft has disclosed a new remote code execution flaw in Outlook, tracked as CVE-2026-70329, as part of its August 2026 Patch Tuesday rollout. The vulnerability stems from an integer overflow or wraparound weakness in Microsoft Office Outlook, and it carries a CVSS v3.1 base score of 8.8, placing it in the High severity band. Microsoft&#8217;s [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-outlook-rce-vulnerability-2/\">Microsoft Outlook Vulnerability Allows Attackers to Execute Malicious Code Remotely</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/microsoft-outlook-rce-vulnerability-2/",
-    "published": "2026-08-12T03:40:32",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 1807,
     "also_covered_by": []
   },
   {
@@ -360,26 +330,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Microsoft Patch Tuesday Update August 2026 – 394 Vulnerabilities Fixed, Including 3 Zero-Days",
-    "summary": "<p>Microsoft has released its August 2026 Patch Tuesday security updates, addressing a massive 394 vulnerabilities across Windows, Microsoft Office, SharePoint Server, Azure services, .NET, PowerShell, Visual Studio Code, and other enterprise products. The security release, published on August 11, 2026, also includes fixes for three zero-day vulnerabilities, making prompt patching a critical priority for organizations [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-patch-tuesday-update-august-2026/\">Microsoft Patch Tuesday Update August 2026 &#8211; 394 Vulnerabilities Fixed, Including 3 Zero-Days</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/microsoft-patch-tuesday-update-august-2026/",
-    "published": "2026-08-11T17:49:40",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 1230,
-    "also_covered_by": []
-  },
-  {
-    "title": "Microsoft SharePoint Server Vulnerability Allows Attackers to Inject and Execute Malicious Code Remotely",
-    "summary": "<p>A newly disclosed flaw in Microsoft SharePoint Server has raised fresh concerns across enterprise IT environments, as security researchers reveal how attackers could remotely inject and execute malicious code without needing any authentication. The vulnerability, tracked as CVE-2026-63520, was uncovered through a dedicated zero-day research initiative by Rapid7 Labs and has now been jointly disclosed [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-sharepoint-server-vulnerability/\">Microsoft SharePoint Server Vulnerability Allows Attackers to Inject and Execute Malicious Code Remotely</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/microsoft-sharepoint-server-vulnerability/",
-    "published": "2026-08-12T05:16:52",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 1227,
-    "also_covered_by": []
-  },
-  {
     "title": "Logistics Giant Ceva Suffers Data Breach Impacting European Clients",
     "summary": "Supply chain attack and data breach at Ceva Logistics appears to have a large blast radius",
     "link": "https://www.infosecurity-magazine.com/news/logistics-ceva-data-breach/",
@@ -490,16 +440,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Copeland XWEB Pro Vulnerabilities Let Attackers Gain Root Access and Manipulate Refrigeration Systems",
-    "summary": "<p>Security researchers have discovered 23 vulnerabilities in Copeland’s XWEB Pro commercial refrigeration controllers, with 21 rated as high severity. These vulnerabilities could allow unauthenticated attackers to gain root-level remote code execution and control connected cooling equipment. Claroty’s Team82 found that an attacker could exploit a combination of authentication flaws, predictable administrator credentials, and command-injection vulnerabilities [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/23-copeland-xweb-pro-vulnerabilities/\">Copeland XWEB Pro Vulnerabilities Let Attackers Gain Root Access and Manipulate Refrigeration Systems</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/23-copeland-xweb-pro-vulnerabilities/",
-    "published": "2026-08-11T11:06:26",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 1098,
-    "also_covered_by": []
-  },
-  {
     "title": "Gunra Ransomware Exploits Fortinet and Schneider Electric Flaws to Breach Networks",
     "summary": "Cybersecurity and intelligence agencies from South Korea and the U.S. warned of Gunra ransomware attacks targeting critical infrastructure sectors and organizations across the world.\n\nTargets of these attacks include healthcare and public health, financial services, government services and facilities, and professional and nonprofit services.\n\n\"Gunra is another variant in the ongoing trend of",
     "link": "https://thehackernews.com/2026/08/gunra-ransomware-exploits-fortinet-and.html",
@@ -517,16 +457,6 @@
     "source": "securityweek.com",
     "category": "Vulnerability",
     "importance_score": 1090,
-    "also_covered_by": []
-  },
-  {
-    "title": "Zoom Zero-Click ‘Zoomsday’ Flaw Lets Meeting Participants Execute Code on Other Users’ Devices",
-    "summary": "<p>Zoom has released security updates to address four vulnerabilities that could expose meeting participants to significant attacks, including a zero-click remote code execution flaw dubbed “Zoomsday.” The most severe issue, tracked as CVE-2026-53413, affects Zoom’s annotation feature, which allows participants to draw, highlight, and add text during screen sharing sessions. Researchers at A Security indicated [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/zoom-zero-click-zoomsday-flaw/\">Zoom Zero-Click ‘Zoomsday’ Flaw Lets Meeting Participants Execute Code on Other Users’ Devices</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/zoom-zero-click-zoomsday-flaw/",
-    "published": "2026-08-12T05:04:51",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 1082,
     "also_covered_by": []
   },
   {
@@ -810,16 +740,6 @@
     "also_covered_by": []
   },
   {
-    "title": "DEF CON Attendees Allegedly Jam Plane Wi‑Fi, Launch ‘Evil Twin’ Phishing Attack",
-    "summary": "<p>A Delta Air Lines flight returning travelers from Las Vegas reportedly became the site of a high-altitude Wi-Fi phishing incident when someone on board allegedly disrupted the aircraft’s official internet service and broadcast a fraudulent wireless network. The incident occurred on Monday aboard Delta Flight 591, a Boeing 757 flying from Las Vegas Harry Reid [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/def-con-attendees-allegedly-jam-plane-wi-fi/\">DEF CON Attendees Allegedly Jam Plane Wi‑Fi, Launch ‘Evil Twin’ Phishing Attack</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/def-con-attendees-allegedly-jam-plane-wi-fi/",
-    "published": "2026-08-12T05:32:40",
-    "source": "gbhackers.com",
-    "category": "Phishing / Scams",
-    "importance_score": 719,
-    "also_covered_by": []
-  },
-  {
     "title": "Mirage Kitten targets Middle East and Africa region with new malware",
     "summary": "Kaspersky researchers reveal previously undocumented malware attributed to Mirage Kitten (UNC1549, Smoke Sandstorm, Nimbus Manticore): NightLedger backdoor, ArcBridge, and BridgeHead tunneling tools.",
     "link": "https://securelist.com/mirage-kitten-new-tools/120811/",
@@ -937,16 +857,6 @@
     "source": "threatpost.com",
     "category": "Vulnerability",
     "importance_score": 637,
-    "also_covered_by": []
-  },
-  {
-    "title": "OpenAI, Anthropic, and Google LLM APIs vulnerability Exposes Hidden Reasoning Traces",
-    "summary": "<p>A significant architectural flaw in how major AI providers, including OpenAI, Anthropic, and Google, protect the internal &#8220;chain-of-thought&#8221; reasoning generated by their flagship large language models (LLMs). The research reveals that encrypted reasoning envelopes returned by provider APIs can be replayed into weaker, less-guarded sibling models to extract private reasoning traces in plain text. Detailed [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/top-ai-models-apis-flaw-exposes-hidden-reasoning/\">OpenAI, Anthropic, and Google LLM APIs vulnerability Exposes Hidden Reasoning Traces</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/top-ai-models-apis-flaw-exposes-hidden-reasoning/",
-    "published": "2026-08-11T15:35:32",
-    "source": "cybersecuritynews.com",
-    "category": "Ransomware",
-    "importance_score": 628,
     "also_covered_by": []
   },
   {
@@ -1200,26 +1110,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Mozilla Rotates Firefox and Thunderbird GPG Signing Key After Private GitHub Exposure",
-    "summary": "<p>Mozilla has rotated a GPG signing subkey used to authenticate release artifacts for Firefox and Thunderbird after an unencrypted copy of the previous subkey was unintentionally committed to a private GitHub repository. The affected signing infrastructure includes selected release files, such as Linux tarballs, RPM packages, and checksum files. Mozilla&#8217;s investigation into available audit logs [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/mozilla-rotates-firefox-and-thunderbird-gpg-signing-key/\">Mozilla Rotates Firefox and Thunderbird GPG Signing Key After Private GitHub Exposure</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/mozilla-rotates-firefox-and-thunderbird-gpg-signing-key/",
-    "published": "2026-08-11T10:54:47",
-    "source": "gbhackers.com",
-    "category": "Ransomware",
-    "importance_score": 484,
-    "also_covered_by": []
-  },
-  {
-    "title": "Critical Rancher Flaw Lets Authenticated Users Gain Full Admin Access to All Managed Clusters",
-    "summary": "<p>A critical privilege-escalation vulnerability in SUSE Rancher could allow a low-privilege, authenticated user to gain administrative control of the Rancher management plane and every downstream Kubernetes cluster it manages. This issue is tracked as CVE-2026-44945 and GHSA-v584-7w32-jwpq, affecting Rancher releases 2.11.0 through 2.11.15, 2.12.0 through 2.12.11, 2.13.0 through 2.13.7, and 2.14.0 through 2.14.1. Rancher has [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-rancher-flaw/\">Critical Rancher Flaw Lets Authenticated Users Gain Full Admin Access to All Managed Clusters</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/critical-rancher-flaw/",
-    "published": "2026-08-11T10:32:45",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 484,
-    "also_covered_by": []
-  },
-  {
     "title": "Sexual predators targeting online accounts for intimate images, FBI warns",
     "summary": "The FBI is warning that criminals are breaking into social media to steal and distribute non-consensual intimate images and videos.",
     "link": "https://www.malwarebytes.com/blog/news/2026/08/sexual-predators-targeting-online-accounts-for-intimate-images-fbi-warns",
@@ -1227,16 +1117,6 @@
     "source": "malwarebytes.com",
     "category": "Other",
     "importance_score": 482,
-    "also_covered_by": []
-  },
-  {
-    "title": "Plug & Pwn Attack Exploits Windows PnP to Gain SYSTEM Access With Zero Clicks",
-    "summary": "<p>Security researchers Alejandro Hernando, also known as 0xedh, and Borja Martínez have unveiled a research project titled &#8220;Plug &#38; Pwn.&#8221; This project demonstrates how the Windows Plug and Play (PnP) driver installation workflows can be exploited to execute vendor-supplied code with NT AUTHORITY\\SYSTEM privileges. Presented at DEF CON 34, the research explores the risky intersection [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/plug-pwn-attack-exploits-windows-pnp/\">Plug &amp; Pwn Attack Exploits Windows PnP to Gain SYSTEM Access With Zero Clicks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/plug-pwn-attack-exploits-windows-pnp/",
-    "published": "2026-08-11T12:06:33",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 478,
     "also_covered_by": []
   },
   {
@@ -1257,86 +1137,6 @@
     "source": "infosecurity-magazine.com",
     "category": "Ransomware",
     "importance_score": 477,
-    "also_covered_by": []
-  },
-  {
-    "title": "LiteLLM Attack Shows AI Infrastructure Is Becoming a Strategic Software Supply Chain Target",
-    "summary": "<p>The March 2026 compromise of LiteLLM was more than a short-lived malicious PyPI upload. It demonstrated how an upstream breach in developer tooling can turn AI infrastructure into a high-value conduit for credential theft, cloud intrusion, and downstream software supply chain abuse. The packages were available for roughly 40 minutes before quarantine, but their brief [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/litellm-attack-shows-ai-infrastructure/\">LiteLLM Attack Shows AI Infrastructure Is Becoming a Strategic Software Supply Chain Target</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/litellm-attack-shows-ai-infrastructure/",
-    "published": "2026-08-11T12:18:34",
-    "source": "gbhackers.com",
-    "category": "AI & Security",
-    "importance_score": 473,
-    "also_covered_by": []
-  },
-  {
-    "title": "One ClickFix Lure Can Give Hackers a Persistent Remote Shell Through New CNCMachineRMS RAT",
-    "summary": "<p>A ClickFix prompt can end in a remote-access foothold. CNCMachineRMS, an undocumented x64 RAT deployed at the end of a BabaDeda loader chain that turns a user-driven execution event into persistent hands-on-keyboard access. Rather than behaving like a conventional commodity stealer, the 1.14 MB implant is an access platform and second-stage delivery mechanism: its operational [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cncmachinerms-rat/\">One ClickFix Lure Can Give Hackers a Persistent Remote Shell Through New CNCMachineRMS RAT</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/cncmachinerms-rat/",
-    "published": "2026-08-12T05:00:51",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 470,
-    "also_covered_by": []
-  },
-  {
-    "title": "Zoom Zero-Click Vulnerabilities Allow Meeting Participants to Hijack Other Users’ Devices",
-    "summary": "<p>Zoom has rolled out patches for four newly disclosed security flaws that could let a malicious meeting participant remotely execute code on another attendee&#8217;s computer, with no clicks, downloads, or warning signs required. The most severe of the bugs, tracked as CVE-2026-53413, has been dubbed &#8220;Zoomsday&#8221; by A Security, the research team credited with discovering [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/zoom-zero-click-vulnerabilities/\">Zoom Zero-Click Vulnerabilities Allow Meeting Participants to Hijack Other Users&#8217; Devices</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/zoom-zero-click-vulnerabilities/",
-    "published": "2026-08-11T17:03:15",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 467,
-    "also_covered_by": []
-  },
-  {
-    "title": "Docker CopyEscape Vulnerability Enables Host File Overwrite and Root Code Execution",
-    "summary": "<p>A critical vulnerability in Docker, tracked as CVE-2026-17106 and referred to as “CopyEscape,” allows malicious containers to overwrite files on the host system using the widely utilized `docker cp` command. This flaw can lead to code execution as the local user and, potentially, as root on Linux systems where copy operations are performed with elevated [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/docker-copyescape-vulnerability/\">Docker CopyEscape Vulnerability Enables Host File Overwrite and Root Code Execution</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/docker-copyescape-vulnerability/",
-    "published": "2026-08-12T05:00:17",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 466,
-    "also_covered_by": []
-  },
-  {
-    "title": "CopyEscape Docker Vulnerability Lets Malicious Containers Overwrite Host Files and Gain Root",
-    "summary": "<p>A newly disclosed Docker vulnerability, tracked as CVE-2026-17106 and nicknamed &#8220;CopyEscape,&#8221; allows malicious containers to overwrite files on the host machine and, in certain configurations, achieve full root code execution. The flaw was discovered by the Imperva Red Team and affects the widely used docker cp command, along with the related sbx cp command used [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/copyescape-docker-vulnerability/\">CopyEscape Docker Vulnerability Lets Malicious Containers Overwrite Host Files and Gain Root</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/copyescape-docker-vulnerability/",
-    "published": "2026-08-11T16:39:54",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 465,
-    "also_covered_by": []
-  },
-  {
-    "title": "Zenity Raises $125 Million Series C to Strengthen AI Agent Security and Governance",
-    "summary": "<p>AI security and governance platform Zenity has announced a $125 million Series C funding round led by Norwest. The investment signals escalating enterprise concern over the security risks associated with autonomous AI agents that access sensitive data, invoke tools, execute workflows, and drive business decisions. Joining lead investor Norwest, new strategic backers Qumra Capital, SoftBank [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/zenity-ai-agent-security/\">Zenity Raises $125 Million Series C to Strengthen AI Agent Security and Governance</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/zenity-ai-agent-security/",
-    "published": "2026-08-11T16:00:10",
-    "source": "cybersecuritynews.com",
-    "category": "AI & Security",
-    "importance_score": 465,
-    "also_covered_by": []
-  },
-  {
-    "title": "DEF CON Attendees Allegedly Jammed Plane Wi-Fi and Broadcast Fake ‘Delta WiFi Fast’ Network",
-    "summary": "<p>A Delta Air Lines flight carrying passengers home from the world’s largest hacking conference became the center of a rapidly unfolding cybersecurity scare on Monday, after crew members reported that someone onboard had jammed the aircraft’s official Wi-Fi and stood up a convincing fake network designed to phish fellow travelers. The incident, which unfolded on [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/def-con-attendees-plane-wi-fi/\">DEF CON Attendees Allegedly Jammed Plane Wi-Fi and Broadcast Fake ‘Delta WiFi Fast’ Network</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/def-con-attendees-plane-wi-fi/",
-    "published": "2026-08-11T17:24:05",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 461,
-    "also_covered_by": []
-  },
-  {
-    "title": "Intel’s $20 Billion Stock Sale Fuels a Bigger Fight Over Chip Supply Chain Security",
-    "summary": "<p>Intel has priced an upsized $20 billion public stock offering, a move that goes beyond a routine capital raise and lands squarely in the middle of an ongoing global debate over semiconductor supply chain security. The chipmaker sold 210,526,315 shares at $95 apiece, upsizing the deal from an originally planned $15 billion after investor demand [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/intel-20-billion-stock-sale-chip-security/\">Intel&#8217;s $20 Billion Stock Sale Fuels a Bigger Fight Over Chip Supply Chain Security</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/intel-20-billion-stock-sale-chip-security/",
-    "published": "2026-08-11T16:07:08",
-    "source": "cybersecuritynews.com",
-    "category": "Policy / Law",
-    "importance_score": 459,
     "also_covered_by": []
   },
   {

@@ -1,10 +1,10 @@
 CYBERBRIEF • DAILY THREAT INTELLIGENCE
-Generated: Wednesday, August 12, 2026 - 06:08 UTC
+Generated: Wednesday, August 12, 2026 - 06:12 UTC
 ================================================================================
 
-Total topics: 314    •    Scanned raw articles: 314
+Total topics: 294    •    Scanned raw articles: 294
 Severity breakdown:
-  CRITICAL: 10  |  HIGH: 9  |  MEDIUM: 59  |  LOW: 236
+  CRITICAL: 9  |  HIGH: 7  |  MEDIUM: 55  |  LOW: 223
 
 Top 7 active threats:
 
@@ -32,29 +32,29 @@ Top 7 active threats:
    Published: 2026-08-11T11:01:12
    Link     : https://thecyberexpress.com/gunra-ransomware-expands-raas-operations/
 
-5. Alert Triangle  cybersecuritynews.com  [News Site]
-   Title    : Windows AFD.sys 0-Day Actively Exploited by Lazarus Hackers to Deploy FudModule Rootkit
-   Category : Vulnerability    •    Severity: CRITICAL (score: 2418)
-   Published: 2026-08-12T03:23:37
-   Link     : https://cybersecuritynews.com/windows-afd-sys-zero-day-exploited/
-
-6. Alert Triangle  thecyberexpress.com  [Link]
+5. Alert Triangle  thecyberexpress.com  [Link]
    Title    : The Cyber Express Weekly Roundup: Ransomware Surge, Government Data Breaches, Logistics Disruptions, and Third-Party Security Risks
    Category : Ransomware    •    Severity: CRITICAL (score: 2400)
    Published: 2026-08-07T12:31:22
    Link     : https://thecyberexpress.com/tce-weekly-roundup-data-breaches-h1/
 
-7. Alert Triangle  security.googleblog.com  [News Site]
+6. Alert Triangle  security.googleblog.com  [News Site]
    Title    : Bringing Rust to the Pixel Baseband
    Category : Ransomware    •    Severity: CRITICAL (score: 2380)
    Published: 2026-04-10T15:12:00
    Link     : http://security.googleblog.com/2026/04/bringing-rust-to-pixel-baseband.html
+
+7. Alert Triangle  security.googleblog.com  [News Site]
+   Title    : Rust in Android: move fast and fix things
+   Category : Ransomware    •    Severity: CRITICAL (score: 2380)
+   Published: 2025-11-13T16:59:00
+   Link     : http://security.googleblog.com/2025/11/rust-in-android-move-fast-fix-things.html
 
 Security Tips:
 • Never trust unsolicited links or attachments in email or messaging apps.
 • Enable multi-factor authentication (MFA) on email, banking, and admin accounts.
 • Keep browsers, VPNs, and endpoint security fully patched.
 
-Scanned 314 articles • Top 7 topics selected
+Scanned 294 articles • Top 7 topics selected
 Next planned auto-update: 08:00 AM UTC
 Stay safe, stay sharp!
