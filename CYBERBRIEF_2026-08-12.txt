@@ -1,0 +1,60 @@
+CYBERBRIEF • DAILY THREAT INTELLIGENCE
+Generated: Wednesday, August 12, 2026 - 06:08 UTC
+================================================================================
+
+Total topics: 314    •    Scanned raw articles: 314
+Severity breakdown:
+  CRITICAL: 10  |  HIGH: 9  |  MEDIUM: 59  |  LOW: 236
+
+Top 7 active threats:
+
+1. Alert Triangle  microsoft.com  [News Site]
+   Title    : DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure
+   Category : Ransomware    •    Severity: CRITICAL (score: 2552)
+   Published: 2026-08-10T15:00:00
+   Link     : https://www.microsoft.com/en-us/security/blog/2026/08/10/deadlock-ransomware-breaking-down-a-rust-based-encryptor-with-decentralized-recovery-infrastructure/
+
+2. Alert Triangle  bleepingcomputer.com  [Newspaper]
+   Title    : CISA: Microsoft SharePoint flaw now exploited in ransomware attacks
+   Category : Ransomware    •    Severity: CRITICAL (score: 2531)
+   Published: 2026-08-11T12:12:16
+   Link     : https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-flaw-now-exploited-in-ransomware-attacks/
+
+3. Alert Triangle  security.googleblog.com  [News Site]
+   Title    : HTTPS by default
+   Category : Vulnerability    •    Severity: CRITICAL (score: 2520)
+   Published: 2025-10-28T17:01:00
+   Link     : http://security.googleblog.com/2025/10/https-by-default.html
+
+4. Alert Triangle  thecyberexpress.com  [Link]
+   Title    : Gunra Ransomware Builds a New Attack Network Through RaaS
+   Category : Ransomware    •    Severity: CRITICAL (score: 2450)
+   Published: 2026-08-11T11:01:12
+   Link     : https://thecyberexpress.com/gunra-ransomware-expands-raas-operations/
+
+5. Alert Triangle  cybersecuritynews.com  [News Site]
+   Title    : Windows AFD.sys 0-Day Actively Exploited by Lazarus Hackers to Deploy FudModule Rootkit
+   Category : Vulnerability    •    Severity: CRITICAL (score: 2418)
+   Published: 2026-08-12T03:23:37
+   Link     : https://cybersecuritynews.com/windows-afd-sys-zero-day-exploited/
+
+6. Alert Triangle  thecyberexpress.com  [Link]
+   Title    : The Cyber Express Weekly Roundup: Ransomware Surge, Government Data Breaches, Logistics Disruptions, and Third-Party Security Risks
+   Category : Ransomware    •    Severity: CRITICAL (score: 2400)
+   Published: 2026-08-07T12:31:22
+   Link     : https://thecyberexpress.com/tce-weekly-roundup-data-breaches-h1/
+
+7. Alert Triangle  security.googleblog.com  [News Site]
+   Title    : Bringing Rust to the Pixel Baseband
+   Category : Ransomware    •    Severity: CRITICAL (score: 2380)
+   Published: 2026-04-10T15:12:00
+   Link     : http://security.googleblog.com/2026/04/bringing-rust-to-pixel-baseband.html
+
+Security Tips:
+• Never trust unsolicited links or attachments in email or messaging apps.
+• Enable multi-factor authentication (MFA) on email, banking, and admin accounts.
+• Keep browsers, VPNs, and endpoint security fully patched.
+
+Scanned 314 articles • Top 7 topics selected
+Next planned auto-update: 08:00 AM UTC
+Stay safe, stay sharp!
