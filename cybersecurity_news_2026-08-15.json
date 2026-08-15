@@ -130,16 +130,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Apple Warns iPhone Users in 110 Countries of Mercenary Spyware Attacks",
-    "summary": "<p>Apple has issued a new set of high-confidence Apple Threat Notification alerts, warning selected iPhone users in 110 countries that they may be targets of government-grade mercenary spyware. These notifications are not routine phishing messages or general security advisories. According to Apple, these alerts are sent when internal threat intelligence indicates that a sophisticated and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/apple-warns-iphone-users-in-110-countries/\">Apple Warns iPhone Users in 110 Countries of Mercenary Spyware Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/apple-warns-iphone-users-in-110-countries/",
-    "published": "2026-08-14T07:27:48",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 1723,
-    "also_covered_by": []
-  },
-  {
     "title": "Max severity SAP Commerce Cloud flaw now targeted in attacks",
     "summary": "A maximum-severity SAP Commerce Cloud remote code execution vulnerability patched three days ago is already being targeted in attacks, according to threat intelligence company Defused. [...]",
     "link": "https://www.bleepingcomputer.com/news/security/max-severity-sap-commerce-cloud-flaw-now-targeted-in-attacks/",
@@ -397,16 +387,6 @@
     "source": "thehackernews.com",
     "category": "Vulnerability",
     "importance_score": 1098,
-    "also_covered_by": []
-  },
-  {
-    "title": "New DRAM Scrambling Attack Unlocks AMD CPU PSP, SMM and Microcode",
-    "summary": "<p>Security researcher Christopher Domas has released a proof-of-concept project called “skitter-creek-bath-salts,” which demonstrates a vulnerability in AMD&#8217;s DRAM-controller configuration that could compromise hardware-enforced memory isolation. This technique, tested on AMD Family 16h processors, manipulates address-translation behavior in the memory-controller layer, allowing access to data typically protected from the operating system, the kernel, and even ring-0 [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/new-dram-scrambling-attack-unlocks-amd-cpu-psp-smm/\">New DRAM Scrambling Attack Unlocks AMD CPU PSP, SMM and Microcode</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/new-dram-scrambling-attack-unlocks-amd-cpu-psp-smm/",
-    "published": "2026-08-14T07:43:54",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 1096,
     "also_covered_by": []
   },
   {
@@ -780,36 +760,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Malicious SVG Reconstructs DCRat Archive Entirely Inside Victim’s Browser",
-    "summary": "<p>A newly analyzed DarkCrystal RAT (DCRat) campaign shows how threat actors are turning an apparently harmless SVG attachment into a full malware-delivery mechanism. The operation, investigated by the Trellix Advanced Research Center (ARC) following a customer escalation, uses a Colombian judicial-themed lure and reconstructs a password-protected archive directly inside the victim’s browser before progressing through [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/malicious-svg-reconstructs-dcrat-archive-entirely-inside-victims-browser/\">Malicious SVG Reconstructs DCRat Archive Entirely Inside Victim’s Browser</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/malicious-svg-reconstructs-dcrat-archive-entirely-inside-victims-browser/",
-    "published": "2026-08-14T10:00:25",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 740,
-    "also_covered_by": []
-  },
-  {
-    "title": "24 Malware Crypter Sellers Turn EDR Evasion and In-Memory Execution Into Paid Services",
-    "summary": "<p>A growing underground market is turning mature malware-evasion techniques into subscription products. An analysis of 24 active crypting-service vendors shows that customers can now buy payload obfuscation, in-memory execution, anti-analysis controls, process injection, persistence, and rapid “re-crypting” as packaged services rather than develop them internally. Crypting traditionally refers to encrypting or obfuscating a customer-supplied malicious [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/24-malware-crypter-sellers/\">24 Malware Crypter Sellers Turn EDR Evasion and In-Memory Execution Into Paid Services</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/24-malware-crypter-sellers/",
-    "published": "2026-08-14T08:11:22",
-    "source": "gbhackers.com",
-    "category": "Ransomware",
-    "importance_score": 740,
-    "also_covered_by": []
-  },
-  {
-    "title": "Agentic AI Models Rebuild Malware and Sustain Real-World Cyber Intrusions, SentinelOne Warns",
-    "summary": "<p>Four incidents involving OpenAI, Anthropic, Meta and the UK AI Security Institute (AISI) describe AI agents reaching systems belonging to other organizations without their consent. The defining capability is now persistence: models can repeatedly test paths, regenerate disposable tooling, restore communications, and shift techniques until a viable intrusion chain emerges. Although each incident involved different [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/agentic-ai-models-rebuild-malware/\">Agentic AI Models Rebuild Malware and Sustain Real-World Cyber Intrusions, SentinelOne Warns</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/agentic-ai-models-rebuild-malware/",
-    "published": "2026-08-14T11:48:54",
-    "source": "gbhackers.com",
-    "category": "AI & Security",
-    "importance_score": 734,
-    "also_covered_by": []
-  },
-  {
     "title": "AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions",
     "summary": "<p>The Rust-based macOS infostealer harvests users’ passwords, keychain information, Chromium-based browser data, and Safari cookies.</p>\n<p>The post <a href=\"https://www.securityweek.com/amnesiastealer-macos-malware-steals-data-controls-browser-sessions/\">AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
     "link": "https://www.securityweek.com/amnesiastealer-macos-malware-steals-data-controls-browser-sessions/",
@@ -890,18 +840,6 @@
     "also_covered_by": []
   },
   {
-    "title": "VINclarity Publishes Investigation Into Alleged Scam and Fraud Reputation Attack Across Search and AI",
-    "summary": "<p>Selidan, USA, August 14th, 2026, CyberNewswire New report examines suspicious Reddit activity, coordinated YouTube content and BBB Scam Tracker entries influencing how the vehicle history platform appears across Google and AI systems VINclarity has published a new investigation into what researchers describe as a coordinated online reputation attack targeting the vehicle history platform across Reddit, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/vinclarity-publishes-investigation-into-alleged-scam-and-fraud-reputation-attack-across-search-and-ai/\">VINclarity Publishes Investigation Into Alleged Scam and Fraud Reputation Attack Across Search and AI</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/vinclarity-publishes-investigation-into-alleged-scam-and-fraud-reputation-attack-across-search-and-ai/",
-    "published": "2026-08-14T16:31:21",
-    "source": "gbhackers.com",
-    "category": "Phishing / Scams",
-    "importance_score": 650,
-    "also_covered_by": [
-      "cybersecuritynews.com"
-    ]
-  },
-  {
     "title": "Weak IAM affects up to 98% of cloud environments",
     "summary": "<p>Misconfiguration remains one of the leading threats to cloud environments because a single configuration error can result in public network access, unrotated keys, missing encryption, exposed services, and logging gaps. CISA now mandates baseline cloud configuration practices for US federal agencies. More than two-thirds of midmarket organizations use multiple cloud providers, each with its own security model, terminology, and configuration settings. The same security issue can manifest differently across AWS, Azure, and Google Cloud, often &#8230; <a href=\"https://www.helpnetsecurity.com/2026/08/14/intruder-cloud-misconfiguration-trends-report/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/08/14/intruder-cloud-misconfiguration-trends-report/\">Weak IAM affects up to 98% of cloud environments</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
     "link": "https://www.helpnetsecurity.com/2026/08/14/intruder-cloud-misconfiguration-trends-report/",
@@ -909,6 +847,16 @@
     "source": "helpnetsecurity.com",
     "category": "Ransomware",
     "importance_score": 650,
+    "also_covered_by": []
+  },
+  {
+    "title": "VINclarity Publishes Investigation Into Alleged Scam and Fraud Reputation Attack Across Search and AI",
+    "summary": "<p>Selidan, USA, August 14th, 2026, CyberNewswire New report examines suspicious Reddit activity, coordinated YouTube content and BBB Scam Tracker entries influencing how the vehicle history platform appears across Google and AI systems VINclarity has published a new investigation into what researchers describe as a coordinated online reputation attack targeting the vehicle history platform across Reddit, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/vinclarity-publishes-investigation-into-alleged-scam-and-fraud-reputation-attack-across-search-and-ai/\">VINclarity Publishes Investigation Into Alleged Scam and Fraud Reputation Attack Across Search and AI</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/vinclarity-publishes-investigation-into-alleged-scam-and-fraud-reputation-attack-across-search-and-ai/",
+    "published": "2026-08-14T16:31:04",
+    "source": "cybersecuritynews.com",
+    "category": "Phishing / Scams",
+    "importance_score": 642,
     "also_covered_by": []
   },
   {
@@ -1022,16 +970,6 @@
     "also_covered_by": []
   },
   {
-    "title": "PATCHCORD Infrastructure Hosts SuperShell C2 for Remote Commands and Webshell Management",
-    "summary": "<p>A newly uncovered espionage operation targeting Afghan telecom providers and South Asian critical infrastructure has exposed a layered attacker ecosystem built around custom implants, spoofed delivery portals, cloud-backed command-and-control channels. The campaign began with sector-specific social-engineering lures, including a malicious Inno Setup package named TMS_AfghanTelecom.exe, distributed within a ZIP archive masquerading as Afghan Telecom’s telecom-management [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/patchcord-infrastructure-hosts-supershell/\">PATCHCORD Infrastructure Hosts SuperShell C2 for Remote Commands and Webshell Management</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/patchcord-infrastructure-hosts-supershell/",
-    "published": "2026-08-14T06:59:27",
-    "source": "gbhackers.com",
-    "category": "Critical Infrastructure",
-    "importance_score": 499,
-    "also_covered_by": []
-  },
-  {
     "title": "Ransomware is the Scoreboard",
     "summary": "Ransomware is the scoreboard for defensive architecture. Learn why traditional security methods fail and how to use AI and threat intelligence to identify and remediate critical attack paths.",
     "link": "https://www.recordedfuture.com/blog/ransomware-is-the-scoreboard",
@@ -1122,26 +1060,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Dysphoria Hijacks Routers, Gateways and IP Cameras to Build Massive IoT Botnet",
-    "summary": "<p>The Dysphoria botnet has expanded into a major Internet of Things threat, with a new Shadowserver Special Report identifying approximately 296,000 compromised devices. The campaign targets exposed routers, gateways, IP cameras and other embedded Linux systems, converting poorly secured equipment into a distributed platform for DDoS attacks and increasingly, residential proxy and relay operations. Dysphoria’s [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/dysphoria-hijacks-routers/\">Dysphoria Hijacks Routers, Gateways and IP Cameras to Build Massive IoT Botnet</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/dysphoria-hijacks-routers/",
-    "published": "2026-08-14T10:26:05",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 477,
-    "also_covered_by": []
-  },
-  {
-    "title": "New Bring Your Own EDR Attack Turns SentinelOne Into Trojan Horse to Bypass Windows PPL",
-    "summary": "<p>Security researchers have introduced a new technique called “Bring Your Own EDR” (BYOEDR) that exploits legitimate SentinelOne components to bypass Windows Protected Process Light (PPL) protections, allowing the execution of unsigned code within highly secured processes. This research, presented by Akamai at DEF CON 34, demonstrates how trusted endpoint detection and response (EDR) software can [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/new-bring-your-own-edr-attack/\">New Bring Your Own EDR Attack Turns SentinelOne Into Trojan Horse to Bypass Windows PPL</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/new-bring-your-own-edr-attack/",
-    "published": "2026-08-14T08:11:19",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 477,
-    "also_covered_by": []
-  },
-  {
     "title": "Ransomware Attacks are on the Rise",
     "summary": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
     "link": "https://threatpost.com/ransomware-attacks-are-on-the-rise/180481/",
@@ -1169,16 +1087,6 @@
     "source": "securityweek.com",
     "category": "AI & Security",
     "importance_score": 473,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hackers Steal One AI Key, Resell the Compute, and Leave Victims With a Million-Dollar Bill",
-    "summary": "<p>A rapidly expanding financial cybercrime model called AI token jacking, where threat actors steal developer API keys for popular AI platforms, consume the victim’s allocated model capacity, and resell that compute through gray-market proxy services. The term “token” in this context does not refer to a browser session token. It refers to the metered units [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/million-dollar-risk/\">Hackers Steal One AI Key, Resell the Compute, and Leave Victims With a Million-Dollar Bill</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/million-dollar-risk/",
-    "published": "2026-08-14T06:22:27",
-    "source": "gbhackers.com",
-    "category": "Policy / Law",
-    "importance_score": 465,
     "also_covered_by": []
   },
   {
