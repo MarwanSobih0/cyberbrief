@@ -1,10 +1,10 @@
 CYBERBRIEF • DAILY THREAT INTELLIGENCE
-Generated: Sunday, August 16, 2026 - 05:20 UTC
+Generated: Sunday, August 16, 2026 - 05:23 UTC
 ================================================================================
 
-Total topics: 313    •    Scanned raw articles: 314
+Total topics: 294    •    Scanned raw articles: 294
 Severity breakdown:
-  CRITICAL: 8  |  HIGH: 9  |  MEDIUM: 46  |  LOW: 250
+  CRITICAL: 7  |  HIGH: 8  |  MEDIUM: 43  |  LOW: 236
 
 Top 7 active threats:
 
@@ -44,17 +44,17 @@ Top 7 active threats:
    Published: 2026-08-12T07:22:24
    Link     : https://thecyberexpress.com/microsoft-august-2026-patch-tuesday-zero-days/
 
-7. Alert Triangle  cybersecuritynews.com  [News Site]
-   Title    : Citrix NetScaler Heap Overflow Flaw Lets Remote Attackers Execute Code as Root – PoC Released
-   Category : Vulnerability    •    Severity: CRITICAL (score: 2277)
-   Published: 2026-08-14T13:32:45
-   Link     : https://cybersecuritynews.com/citrix-netscaler-heap-overflow/
+7. Alert Triangle  thecyberexpress.com  [Link]
+   Title    : Gunra Ransomware Builds a New Attack Network Through RaaS
+   Category : Ransomware    •    Severity: CRITICAL (score: 2150)
+   Published: 2026-08-11T11:01:12
+   Link     : https://thecyberexpress.com/gunra-ransomware-expands-raas-operations/
 
 Security Tips:
 • Never trust unsolicited links or attachments in email or messaging apps.
 • Enable multi-factor authentication (MFA) on email, banking, and admin accounts.
 • Keep browsers, VPNs, and endpoint security fully patched.
 
-Scanned 314 articles • Top 7 topics selected
+Scanned 294 articles • Top 7 topics selected
 Next planned auto-update: 08:00 AM UTC
 Stay safe, stay sharp!

@@ -60,16 +60,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Citrix NetScaler Heap Overflow Flaw Lets Remote Attackers Execute Code as Root – PoC Released",
-    "summary": "<p>A working proof-of-concept (PoC) exploit demonstrating how a pre-authentication heap overflow in Citrix NetScaler ADC and NetScaler Gateway can be turned into unauthenticated root-level remote code execution (RCE). The vulnerability was originally addressed in Cloud Software Group’s June 30 security bulletin CTX696604, where Citrix described CVE-2026-8452 as a memory overflow that could result in denial-of-service [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/citrix-netscaler-heap-overflow/\">Citrix NetScaler Heap Overflow Flaw Lets Remote Attackers Execute Code as Root &#8211; PoC Released</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/citrix-netscaler-heap-overflow/",
-    "published": "2026-08-14T13:32:45",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 2277,
-    "also_covered_by": []
-  },
-  {
     "title": "Gunra Ransomware Builds a New Attack Network Through RaaS",
     "summary": "<p><img alt=\"Gunra ransomware\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"1024\" src=\"https://thecyberexpress.com/wp-content/uploads/Gunra-ransomware-1.webp\" title=\"Gunra Ransomware Builds a New Attack Network Through RaaS 13\" width=\"1536\" /></p>Gunra ransomware has expanded its operations through a structured <a href=\"https://thecyberexpress.com/noescape-ransomware-as-a-service-raas-threat/\" rel=\"noopener\" target=\"_blank\">ransomware-as-a-service</a> (RaaS) affiliate program, prompting the FBI, CISA and other agencies to issue a joint advisory warning organizations about the threat. The Gunra ransomware variant uses a double-extortion model, encrypting victim data while threatening to publish stolen information on a dedicated leak site if ransom demands are not met.\n\nThe <a href=\"https://thecyberexpress.com/?s=FBI\" rel=\"noopener\" target=\"_blank\">FBI</a> first observed Gunra in April 2025 as a double-extortion ransomware variant derived from leaked Conti ransomware source code.\n<h3><strong>Gunra Ransomware Shifts to Affiliate Model</strong></h3>\nBy early 2026, the group had expanded through a formal ransomware-as-a-service affiliate program advertised on <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/firewall-daily/dark-web-news/\" title=\"dark web\">dark web</a> forums.\n\nThe <a href=\"https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-222a\" rel=\"nofollow noopener\" target=\"_blank\">program provides affiliates</a> with a management panel, configurable ransomware builder, cross-platform locker payloads and affiliate documentation. The FBI also observed Gunra operating under new branding aliases, including Golden Community, while recruiting penetration testers and ethical hackers as initial access brokers.\n\nGunra initially focused on Windows environments before introducing a Linux variant and moving toward broader cross-platform targeting.\n\nVictims observed on the group’s dedicated leak site include organizations across the Americas, Europe, the Middle East, Africa and the Asia-Pacific.\n\nTargeted sectors include healthcare and public health, financial services and insurance, critical manufacturing, transportation, government services, utilities, academia, media and communications, retail, and professional and nonprofit services.\n\n<img alt=\"Gunra ransomware\" class=\"aligncenter wp-image-113629 size-full\" height=\"400\" src=\"https://thecyberexpress.com/wp-content/uploads/Gunra-ransomware-e1786428163930.webp\" width=\"600\" />\n<h3><strong>VPN Vulnerabilities Used for Initial Access</strong></h3>\nAccording to the advisory, Gunra actors primarily gained initial access by exploiting known <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-are-vulnerabilities/\" title=\"vulnerabilities\">vulnerabilities</a> in internet-facing devices, including firewall and VPN gateways. The FBI observed exploitation of CVE-2024-55591 and CVE-2025-24472, authentication bypass vulnerabilities affecting specific FortiOS and FortiProxy versions.\n\nThe Republic of Korea’s National Police Agency also observed Gunra actors exploiting credential exposure and SSH access control weaknesses in internet-facing VPN gateways to obtain unauthorized <a class=\"wpil_keyword_link\" href=\"https://cyble.com/remote-access-trojan/\" rel=\"noopener\" target=\"_blank\" title=\"remote access\">remote access</a>.\n\nAfter gaining access, attackers used tools including Impacket utilities to move laterally through victim networks using SMB. In one case, actors compromised an SSL-VPN appliance using default credentials where account lockout controls were absent. They later used stolen session information to access internal virtual desktop infrastructure and move through systems including Active Directory servers and IT personnel workstations.\n<h3><strong>Data Theft Precedes Encryption</strong></h3>\nThe double-extortion <a class=\"wpil_keyword_link\" href=\"https://cyble.com/knowledge-hub/what-is-ransomware/\" rel=\"noopener\" target=\"_blank\" title=\"ransomware\">ransomware</a> operation involves stealing sensitive information before encrypting systems. The FBI observed Gunra actors collecting business-critical documents, databases, personally identifiable information, and internal email communications.\n\nIn at least one case, the actors used a malicious executable called main.exe to exfiltrate <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-data/\" title=\"data\">data</a> from Microsoft OneDrive and SharePoint. Compressed archives containing sensitive information were also transferred to the Mega file-sharing service, with the volume of exfiltrated data reaching tens of terabytes.\n\nFor encryption, Gunra uses ChaCha20 and RSA-4096 algorithms and has been observed using the <code>.ENCRT</code> extension for encrypted files. A documented sample from July 2025 used the <code>.CRYPT</code> extension. The ransomware also uses Windows Management Instrumentation to delete volume shadow copies before encryption, while one victim had backup and archived data deleted from both primary and disaster recovery infrastructure.\n<h3><strong>Agencies Urge Patching and Network Segmentation</strong></h3>\nThe authoring agencies recommend that organizations prioritize patching known exploited vulnerabilities in internet-facing systems, including <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/how-to-get-a-vpn/\" title=\"VPN\">VPN</a> gateways and RDP-exposed infrastructure. They also advise implementing and testing offline, immutable backups stored in physically separate and segmented locations.\n\nNetwork segmentation is another key recommendation, intended to restrict <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-lateral-movement-in-cyber-security/\" title=\"lateral movement\">lateral movement</a> and limit the spread of ransomware between systems.\n\nThe agencies also recommend reviewing domain controllers, servers, workstations and Active Directory environments for unrecognized accounts, auditing administrative privileges, requiring MFA where possible and testing <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/\" title=\"security\">security</a> controls against the Gunra techniques mapped to the MITRE ATT&amp;CK framework.\n\nThe joint advisory was published August 10, 2026, as part of the ongoing #StopRansomware initiative.",
     "link": "https://thecyberexpress.com/gunra-ransomware-expands-raas-operations/",
@@ -107,16 +97,6 @@
     "source": "unit42.paloaltonetworks.com",
     "category": "Vulnerability",
     "importance_score": 1836,
-    "also_covered_by": []
-  },
-  {
-    "title": "Shell Investigating Data Breach Following Cl0p Ransomware Group Claim",
-    "summary": "<p>Multinational energy giant Shell has launched an active investigation after the notorious Cl0p ransomware syndicate claimed responsibility for exfiltrating sensitive internal data. Security researchers and enterprise defenders are closely monitoring the situation as forensic teams work to assess the legitimacy and operational scope of the cyberattack. The extortion collective listed Shell on its dark web [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/shell-investigating-data-breach/\">Shell Investigating Data Breach Following Cl0p Ransomware Group Claim</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/shell-investigating-data-breach/",
-    "published": "2026-08-15T12:56:42",
-    "source": "cybersecuritynews.com",
-    "category": "Ransomware",
-    "importance_score": 1817,
     "also_covered_by": []
   },
   {
@@ -300,16 +280,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Ruby 4.0 Marshal.load RCE Gadget Chain Exposes Critical Deserialization Risk",
-    "summary": "<p>A newly disclosed universal deserialization gadget chain shows how a single unsafe Marshal.load operation can reportedly produce remote command execution in Ruby 4.0.6, underscoring the persistent danger of exposing Ruby’s native serialization mechanism to attacker-controlled data. According to research published by elttam, the chain also works unchanged on Ruby versions as far back as 3.3. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ruby-4-0-marshal-load-rce-gadget-chain/\">Ruby 4.0 Marshal.load RCE Gadget Chain Exposes Critical Deserialization Risk</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/ruby-4-0-marshal-load-rce-gadget-chain/",
-    "published": "2026-08-15T08:02:08",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 1226,
-    "also_covered_by": []
-  },
-  {
     "title": "RingCentral data breach exposed info of 1.6 million accounts",
     "summary": "The ShinyHunters extortion group stole personal information from 1.6 million RingCentral accounts after hacking the company in July, according to the data breach notification service Have I Been Pwned. [...]",
     "link": "https://www.bleepingcomputer.com/news/security/ringcentral-data-breach-exposed-info-of-16-million-accounts/",
@@ -397,16 +367,6 @@
     "source": "blog.talosintelligence.com",
     "category": "Ransomware",
     "importance_score": 1071,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hackers Started to Exploit Critical SAP Commerce Cloud, Still No Public PoC",
-    "summary": "<p>Threat actors have begun actively probing and attempting to exploit a maximum-severity flaw in SAP Commerce Cloud, just three days after official security fixes were released. Defused honeypot telemetry captured the first wave of unauthenticated remote-execution traffic circulating across the web, despite the complete absence of a public proof of concept. Tracked as CVE-2026-58231, the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-exploit-sap-commerce-cloud/\">Hackers Started to Exploit Critical SAP Commerce Cloud, Still No Public PoC</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/hackers-exploit-sap-commerce-cloud/",
-    "published": "2026-08-15T13:59:41",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 1065,
     "also_covered_by": []
   },
   {
@@ -557,16 +517,6 @@
     "source": "bleepingcomputer.com",
     "category": "Vulnerability",
     "importance_score": 917,
-    "also_covered_by": []
-  },
-  {
-    "title": "Microsoft to Make Passkeys Default in Entra ID and Retires SMS and Voice Authentication",
-    "summary": "<p>Microsoft will make passkeys the default authentication experience in Microsoft Entra ID as part of a broader move away from phishing-prone sign-in methods. The company will also retire Microsoft-provided SMS and voice authentication for multifactor authentication, pushing organizations toward phishing-resistant credentials. Beginning September 1, 2026, users currently enabled for SMS or voice authentication will be [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-make-passkeys-default-in-entra-id/\">Microsoft to Make Passkeys Default in Entra ID and Retires SMS and Voice Authentication</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/microsoft-make-passkeys-default-in-entra-id/",
-    "published": "2026-08-15T10:48:25",
-    "source": "cybersecuritynews.com",
-    "category": "Phishing / Scams",
-    "importance_score": 878,
     "also_covered_by": []
   },
   {
@@ -840,16 +790,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Download More RAM Attack Bypasses Windows VBS, HVCI and Disables Microsoft Defender",
-    "summary": "<p>A newly disclosed Windows attack technique, dubbed “Download More RAM,” can undermine Virtualization-Based Security (VBS), bypass Hypervisor-Protected Code Integrity (HVCI), and disable endpoint protections including Microsoft Defender and third-party EDR products. The attack was presented at USENIX Security 2026 and is tracked by Microsoft as CVE-2026-23670. Unlike a conventional Windows kernel exploit, Download More RAM [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/download-more-ram-attack-bypasses-windows-vbs/\">Download More RAM Attack Bypasses Windows VBS, HVCI and Disables Microsoft Defender</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/download-more-ram-attack-bypasses-windows-vbs/",
-    "published": "2026-08-15T07:43:27",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 637,
-    "also_covered_by": []
-  },
-  {
     "title": "iPhone Users Urged to Update to Patch 2 Zero-Days",
     "summary": "Separate fixes to macOS and iOS patch respective flaws in the kernel and WebKit that can allow threat actors to take over devices and are under attack.",
     "link": "https://threatpost.com/iphone-users-urged-to-update-to-patch-2-zero-days-under-attack/180448/",
@@ -880,26 +820,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Microsoft Copilot App Overhaul Merges Personal Chats and Ends Podcasts, Deep Research",
-    "summary": "<p>Microsoft is reshaping its consumer and productivity AI strategy with a major update to its Copilot application, merging personal chat histories and generated content while discontinuing several prominent capabilities. The changes affect consumer users of Copilot and coincide with the broader transition of the Microsoft 365 (Office) app into the Microsoft 365 Copilot app. The [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/microsoft-copilot-update-merges-chats-retires-podcast/\">Microsoft Copilot App Overhaul Merges Personal Chats and Ends Podcasts, Deep Research</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/microsoft-copilot-update-merges-chats-retires-podcast/",
-    "published": "2026-08-15T07:20:59",
-    "source": "gbhackers.com",
-    "category": "AI & Security",
-    "importance_score": 628,
-    "also_covered_by": []
-  },
-  {
-    "title": "Microsoft Makes Passkeys Default in Entra ID, Retires SMS and Voice Authentication",
-    "summary": "<p>Microsoft will make passkeys the default authentication experience in Entra ID beginning September 1, 2026, and will fully retire its native SMS and voice multifactor authentication (MFA) delivery services on February 1, 2027. According to Microsoft, the transition is part of Microsoft’s broader effort to eliminate phishable credentials as enterprises expand cloud usage, remote access, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/microsoft-entra-id-makes-passkeys-default/\">Microsoft Makes Passkeys Default in Entra ID, Retires SMS and Voice Authentication</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/microsoft-entra-id-makes-passkeys-default/",
-    "published": "2026-08-15T08:31:17",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 627,
-    "also_covered_by": []
-  },
-  {
     "title": "Akira Affiliate Crashes Ransomware After Attempting EDR Evasion",
     "summary": "Huntress documents how a ransomware affiliate sabotaged its own attack with an anti-EDR effort",
     "link": "https://www.infosecurity-magazine.com/news/akira-affiliate-crashes-ransomware/",
@@ -920,26 +840,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Malicious SVG Reconstructs DCRat Archive Entirely Inside Victim’s Browser",
-    "summary": "<p>A newly analyzed DarkCrystal RAT (DCRat) campaign shows how threat actors are turning an apparently harmless SVG attachment into a full malware-delivery mechanism. The operation, investigated by the Trellix Advanced Research Center (ARC) following a customer escalation, uses a Colombian judicial-themed lure and reconstructs a password-protected archive directly inside the victim’s browser before progressing through [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/malicious-svg-reconstructs-dcrat-archive-entirely-inside-victims-browser/\">Malicious SVG Reconstructs DCRat Archive Entirely Inside Victim’s Browser</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/malicious-svg-reconstructs-dcrat-archive-entirely-inside-victims-browser/",
-    "published": "2026-08-14T10:00:25",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 590,
-    "also_covered_by": []
-  },
-  {
-    "title": "24 Malware Crypter Sellers Turn EDR Evasion and In-Memory Execution Into Paid Services",
-    "summary": "<p>A growing underground market is turning mature malware-evasion techniques into subscription products. An analysis of 24 active crypting-service vendors shows that customers can now buy payload obfuscation, in-memory execution, anti-analysis controls, process injection, persistence, and rapid “re-crypting” as packaged services rather than develop them internally. Crypting traditionally refers to encrypting or obfuscating a customer-supplied malicious [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/24-malware-crypter-sellers/\">24 Malware Crypter Sellers Turn EDR Evasion and In-Memory Execution Into Paid Services</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/24-malware-crypter-sellers/",
-    "published": "2026-08-14T08:11:22",
-    "source": "gbhackers.com",
-    "category": "Ransomware",
-    "importance_score": 590,
-    "also_covered_by": []
-  },
-  {
     "title": "This month in security with Tony Anscombe – July 2026 edition",
     "summary": "OpenAI models going rogue, the first documented agentic ransomware operation, and an emergent AI-driven supply chain threat made for a packed July roundup",
     "link": "https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-july-2026/",
@@ -947,16 +847,6 @@
     "source": "welivesecurity.com",
     "category": "Ransomware",
     "importance_score": 585,
-    "also_covered_by": []
-  },
-  {
-    "title": "Agentic AI Models Rebuild Malware and Sustain Real-World Cyber Intrusions, SentinelOne Warns",
-    "summary": "<p>Four incidents involving OpenAI, Anthropic, Meta and the UK AI Security Institute (AISI) describe AI agents reaching systems belonging to other organizations without their consent. The defining capability is now persistence: models can repeatedly test paths, regenerate disposable tooling, restore communications, and shift techniques until a viable intrusion chain emerges. Although each incident involved different [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/agentic-ai-models-rebuild-malware/\">Agentic AI Models Rebuild Malware and Sustain Real-World Cyber Intrusions, SentinelOne Warns</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/agentic-ai-models-rebuild-malware/",
-    "published": "2026-08-14T11:48:54",
-    "source": "gbhackers.com",
-    "category": "AI & Security",
-    "importance_score": 584,
     "also_covered_by": []
   },
   {
@@ -970,16 +860,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Bring Your Own EDR Attack Turns SentinelOne Into PPL-Protected Trojan Horse to Shield Malware",
-    "summary": "<p>A “Bring Your Own EDR” attack abuses trusted SentinelOne components to turn endpoint protection into a powerful malware shield. The research was presented at DEF CON 34 in Las Vegas, and SentinelOne fixed the reported issue in Agent version 26.1.1. Endpoint detection and response tools operate with deep visibility and high privileges because they must [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/bring-your-own-edr-attack/\">Bring Your Own EDR Attack Turns SentinelOne Into PPL-Protected Trojan Horse to Shield Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/bring-your-own-edr-attack/",
-    "published": "2026-08-14T13:36:51",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 558,
-    "also_covered_by": []
-  },
-  {
     "title": "AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions",
     "summary": "<p>The Rust-based macOS infostealer harvests users’ passwords, keychain information, Chromium-based browser data, and Safari cookies.</p>\n<p>The post <a href=\"https://www.securityweek.com/amnesiastealer-macos-malware-steals-data-controls-browser-sessions/\">AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
     "link": "https://www.securityweek.com/amnesiastealer-macos-malware-steals-data-controls-browser-sessions/",
@@ -987,16 +867,6 @@
     "source": "securityweek.com",
     "category": "Other",
     "importance_score": 551,
-    "also_covered_by": []
-  },
-  {
-    "title": "AI Agents Don’t Stop When Malware Fails, They Write Another Tool and Keep Attacking",
-    "summary": "<p>AI agents are changing the shape of cyberattacks. Instead of relying on a fixed piece of malware, an agent can test an approach, see it fail, write a replacement tool, and continue toward the same goal. Recent incidents show that this is no longer only a theoretical risk. Agents linked to advanced AI models reached [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ai-agents/\">AI Agents Don’t Stop When Malware Fails, They Write Another Tool and Keep Attacking</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/ai-agents/",
-    "published": "2026-08-14T12:44:03",
-    "source": "cybersecuritynews.com",
-    "category": "AI & Security",
-    "importance_score": 542,
     "also_covered_by": []
   },
   {
@@ -1018,18 +888,6 @@
     "category": "Phishing / Scams",
     "importance_score": 526,
     "also_covered_by": []
-  },
-  {
-    "title": "VINclarity Publishes Investigation Into Alleged Scam and Fraud Reputation Attack Across Search and AI",
-    "summary": "<p>Selidan, USA, August 14th, 2026, CyberNewswire New report examines suspicious Reddit activity, coordinated YouTube content and BBB Scam Tracker entries influencing how the vehicle history platform appears across Google and AI systems VINclarity has published a new investigation into what researchers describe as a coordinated online reputation attack targeting the vehicle history platform across Reddit, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/vinclarity-publishes-investigation-into-alleged-scam-and-fraud-reputation-attack-across-search-and-ai/\">VINclarity Publishes Investigation Into Alleged Scam and Fraud Reputation Attack Across Search and AI</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/vinclarity-publishes-investigation-into-alleged-scam-and-fraud-reputation-attack-across-search-and-ai/",
-    "published": "2026-08-14T16:31:21",
-    "source": "gbhackers.com",
-    "category": "Phishing / Scams",
-    "importance_score": 500,
-    "also_covered_by": [
-      "cybersecuritynews.com"
-    ]
   },
   {
     "title": "Ransomware is the Scoreboard",
@@ -1119,16 +977,6 @@
     "source": "unit42.paloaltonetworks.com",
     "category": "Other",
     "importance_score": 474,
-    "also_covered_by": []
-  },
-  {
-    "title": "Post-Hugging Face Reflections: The Agentic Attacker Is Already Here",
-    "summary": "<p>Bill Robbins, CEO of Menlo Security&#160; An AI agent broke out of the sandbox built to contain it and put itself on the open internet. Then it attacked another company. The attack wasn&#8217;t executed by a human. Instead, the AI agent independently selected and executed its next actions without a person issuing commands in real time.   OpenAI disclosed that two of [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/post-hugging-face-reflections-the-agentic-attacker-is-already-here/\">Post-Hugging Face Reflections: The Agentic Attacker Is Already Here </a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/post-hugging-face-reflections-the-agentic-attacker-is-already-here/",
-    "published": "2026-08-15T14:34:25",
-    "source": "cybersecuritynews.com",
-    "category": "Policy / Law",
-    "importance_score": 466,
     "also_covered_by": []
   },
   {
@@ -1392,16 +1240,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Multiple TP-Link Vulnerabilities Allow Attackers to Bypass Authentication and Escalate Privileges",
-    "summary": "<p>TP-Link has disclosed multiple high-severity vulnerabilities affecting ISP-managed Aginet networking products, including mesh systems, routers, PON devices, and xDSL modems. The flaws could allow attackers with network access to bypass authentication, escalate privileges, steal sensitive information, read device files, and execute operating system commands. The security advisory, last updated on August 10, 2026, tracks the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/multiple-tp-link-bypass-authentication-vulnerabilities/\">Multiple TP-Link Vulnerabilities Allow Attackers to Bypass Authentication and Escalate Privileges</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/multiple-tp-link-bypass-authentication-vulnerabilities/",
-    "published": "2026-08-14T13:54:56",
-    "source": "cybersecuritynews.com",
-    "category": "Policy / Law",
-    "importance_score": 335,
-    "also_covered_by": []
-  },
-  {
     "title": "Who’s Tracking You? Use This New Service to Find Out",
     "summary": "It can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we use every day. That information is already semi-public, but it is not easily parsed and traditionally much of it has remained walled away in the hands of large advertising platforms. Not anymore: A powerful and free new service called DecryptAds scrapes and correlates this adtech data and makes it simple to quickly learn a great deal about the entities that are tracking you.",
     "link": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
@@ -1462,26 +1300,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Dysphoria Hijacks Routers, Gateways and IP Cameras to Build Massive IoT Botnet",
-    "summary": "<p>The Dysphoria botnet has expanded into a major Internet of Things threat, with a new Shadowserver Special Report identifying approximately 296,000 compromised devices. The campaign targets exposed routers, gateways, IP cameras and other embedded Linux systems, converting poorly secured equipment into a distributed platform for DDoS attacks and increasingly, residential proxy and relay operations. Dysphoria’s [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/dysphoria-hijacks-routers/\">Dysphoria Hijacks Routers, Gateways and IP Cameras to Build Massive IoT Botnet</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/dysphoria-hijacks-routers/",
-    "published": "2026-08-14T10:26:05",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 327,
-    "also_covered_by": []
-  },
-  {
-    "title": "New Bring Your Own EDR Attack Turns SentinelOne Into Trojan Horse to Bypass Windows PPL",
-    "summary": "<p>Security researchers have introduced a new technique called “Bring Your Own EDR” (BYOEDR) that exploits legitimate SentinelOne components to bypass Windows Protected Process Light (PPL) protections, allowing the execution of unsigned code within highly secured processes. This research, presented by Akamai at DEF CON 34, demonstrates how trusted endpoint detection and response (EDR) software can [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/new-bring-your-own-edr-attack/\">New Bring Your Own EDR Attack Turns SentinelOne Into Trojan Horse to Bypass Windows PPL</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/new-bring-your-own-edr-attack/",
-    "published": "2026-08-14T08:11:19",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 327,
-    "also_covered_by": []
-  },
-  {
     "title": "Parents take on Meta, TikTok, Google, and Snap in 3,000 youth safety lawsuits",
     "summary": "It's the biggest legal challenge yet to addictive social media design and its impact on children.",
     "link": "https://www.malwarebytes.com/blog/privacy/2026/08/parents-take-on-meta-tiktok-google-and-snap-in-3000-youth-safety-lawsuits",
@@ -1498,16 +1316,6 @@
     "published": "2026-08-14T11:57:51",
     "source": "securityweek.com",
     "category": "AI & Security",
-    "importance_score": 308,
-    "also_covered_by": []
-  },
-  {
-    "title": "Dysphoria Botnet Turns Compromised Routers and Cameras Into DDoS Bots and C2 Relay Nodes",
-    "summary": "<p>Dysphoria has turned a large number of everyday internet-connected devices into a potential attack network. The botnet is linked to roughly 296,000 compromised devices, placing routers, cameras, gateways, and other connected equipment at risk of being used against targets chosen by its operators. The scale matters because these devices often sit quietly at homes and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/dysphoria-botnet/\">Dysphoria Botnet Turns Compromised Routers and Cameras Into DDoS Bots and C2 Relay Nodes</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/dysphoria-botnet/",
-    "published": "2026-08-14T12:19:37",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
     "importance_score": 308,
     "also_covered_by": []
   },
