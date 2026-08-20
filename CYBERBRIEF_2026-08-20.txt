@@ -1,10 +1,10 @@
 CYBERBRIEF • DAILY THREAT INTELLIGENCE
-Generated: Thursday, August 20, 2026 - 05:22 UTC
+Generated: Thursday, August 20, 2026 - 05:25 UTC
 ================================================================================
 
-Total topics: 294    •    Scanned raw articles: 294
+Total topics: 312    •    Scanned raw articles: 314
 Severity breakdown:
-  CRITICAL: 6  |  HIGH: 9  |  MEDIUM: 58  |  LOW: 221
+  CRITICAL: 6  |  HIGH: 11  |  MEDIUM: 64  |  LOW: 231
 
 Top 7 active threats:
 
@@ -44,17 +44,17 @@ Top 7 active threats:
    Published: 2026-08-10T15:00:00
    Link     : https://www.microsoft.com/en-us/security/blog/2026/08/10/deadlock-ransomware-breaking-down-a-rust-based-encryptor-with-decentralized-recovery-infrastructure/
 
-7. Shield Check  security.googleblog.com  [News Site]
-   Title    : Android Quick Share Support for AirDrop: A Secure Approach to Cross-Platform File Sharing
-   Category : Data Breach    •    Severity: HIGH (score: 1959)
-   Published: 2025-11-20T17:00:00
-   Link     : http://security.googleblog.com/2025/11/android-quick-share-support-for-airdrop-security.html
+7. Shield Check  gbhackers.com  [News Site]
+   Title    : CISA Warns Microsoft Internet Key Exchange RCE Flaw Is Actively Exploited
+   Category : Vulnerability    •    Severity: HIGH (score: 1983)
+   Published: 2026-08-19T12:37:19
+   Link     : https://gbhackers.com/cisa-warns-microsoft-internet-key-exchange-rce-flaw/
 
 Security Tips:
 • Never trust unsolicited links or attachments in email or messaging apps.
 • Enable multi-factor authentication (MFA) on email, banking, and admin accounts.
 • Keep browsers, VPNs, and endpoint security fully patched.
 
-Scanned 294 articles • Top 7 topics selected
+Scanned 314 articles • Top 7 topics selected
 Next planned auto-update: 08:00 AM UTC
 Stay safe, stay sharp!

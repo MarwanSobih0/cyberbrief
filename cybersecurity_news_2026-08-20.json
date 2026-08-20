@@ -60,6 +60,26 @@
     "also_covered_by": []
   },
   {
+    "title": "CISA Warns Microsoft Internet Key Exchange RCE Flaw Is Actively Exploited",
+    "summary": "<p>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a critical vulnerability in Microsoft Internet Key Exchange (IKE) Service Extensions to its Known Exploited Vulnerabilities (KEV) Catalog. This vulnerability, tracked as CVE-2026-33824, is currently being actively exploited. The issue is classified as a double-free vulnerability, which means it affects the memory management of Microsoft [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cisa-warns-microsoft-internet-key-exchange-rce-flaw/\">CISA Warns Microsoft Internet Key Exchange RCE Flaw Is Actively Exploited</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/cisa-warns-microsoft-internet-key-exchange-rce-flaw/",
+    "published": "2026-08-19T12:37:19",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 1983,
+    "also_covered_by": []
+  },
+  {
+    "title": "CISA Adds Microsoft Internet Key Exchange RCE Vulnerability Exploited in Attacks",
+    "summary": "<p>The U.S. Cybersecurity and Infrastructure Security Agency has added a critical Microsoft Internet Key Exchange vulnerability, tracked as CVE-2026-33824, to its Known Exploited Vulnerabilities catalog after confirming exploitation in attacks. The flaw affects Microsoft Internet Key Exchange (IKE) Service Extensions and could allow remote code execution on vulnerable systems. CISA added the vulnerability on August [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-internet-key-exchange-rce-vulnerability/\">CISA Adds Microsoft Internet Key Exchange RCE Vulnerability Exploited in Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/microsoft-internet-key-exchange-rce-vulnerability/",
+    "published": "2026-08-19T16:47:27",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 1976,
+    "also_covered_by": []
+  },
+  {
     "title": "Android Quick Share Support for AirDrop: A Secure Approach to Cross-Platform File Sharing",
     "summary": "<span class=\"byline-author\">Posted by Dave Kleidermacher, VP, Platforms Security & Privacy, Google</span>\n\n<p>\nTechnology should bring people closer together, not create walls. Being able to communicate and connect with friends and family should be easy regardless of the phone they use. That’s why Android has been building experiences that help you stay connected across platforms.\n</p>\n<p>\nAs part of our efforts to continue to make cross-platform communication more seamless for users, we've made Quick Share interoperable with AirDrop, allowing for two-way file sharing between Android and iOS devices, starting with the Pixel 10 Family. This new feature makes it possible to quickly share your photos, videos, and files with people you choose to communicate with, without worrying about the kind of phone they use. \n</p>\n<p>\nMost importantly, when you share personal files and content, you need to trust that it stays secure. You can share across devices with confidence knowing we built this feature with security at its core, protecting your data with strong safeguards that have been tested by independent security experts.\n</p>\n<h3>Secure by Design</h3>\n\n\n<p>\nWe built Quick Share’s interoperability support for AirDrop with the same rigorous security standards that we apply to all Google products. Our approach to security is proactive and deeply integrated into every stage of the development process. This includes:\n</p>\n<ul>\n\n<li><strong>Threat Modeling:</strong> We identify and address potential security risks before they can become a problem.</li>\n\n<li><strong>Internal Security Design and Privacy Reviews:</strong> Our dedicated security and privacy teams thoroughly review the design to ensure it meets our high standards.</li>\n\n<li><strong>Internal Penetration Testing:</strong> We conduct extensive in-house testing to identify and fix vulnerabilities.</li>\n</ul>\n<p>\nThis <a href=\"https://blog.google/technology/safety-security/tackling-cybersecurity-vulnerabilities-through-secure-by-design/\">Secure by Design</a> philosophy ensures that all of our products are not just functional but also fundamentally secure.\n</p>\n<p>\nThis feature is also protected by a multi-layered security approach to ensure a safe sharing experience from end-to-end, regardless of what platform you’re on. \n</p>\n<ul>\n\n<li><strong>Secure Sharing Channel:</strong> The communication channel itself is hardened by our use of Rust to develop this feature. This memory-safe language is the industry benchmark for building secure systems and provides confidence that the connection is protected against buffer overflow attacks and other common vulnerabilities. </li>\n\n<li><strong>Built-in Platform Protections: </strong>This feature is strengthened by the robust built-in security of both Android and iOS. On Android, security is built in at every layer. Our deep investment in Rust at the OS level hardens the foundation, while proactive defenses like <a href=\"https://support.google.com/googleplay/answer/2812853?hl=en\">Google Play Protect</a> work to keep your device safe. This is complemented by the security architecture of iOS that provides its own strong safeguards that mitigate malicious files and exploitation. These overlapping protections on both platforms work in concert with the secure connection to provide comprehensive safety for your data when you share or receive.</li>\n\n<li><strong>You’re in Control: </strong>Sharing across platforms works just like you're used to: a file requires your approval before being received, so you're in control of what you accept.</li>\n</ul>\n<h3>The Power of Rust: A Foundation of Secure Communication</h3>\n\n\n<p>\nA key element of our security strategy for the interoperability layer between Quick Share and AirDrop is the use of the memory-safe Rust programming language. Recognized by security agencies around the world, including the <a href=\"https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/article/3608324/us-and-international-partners-issue-recommendations-to-secure-software-products/\">NSA</a> and <a href=\"https://media.defense.gov/2025/Jun/23/2003742198/-1/-1/0/CSI_MEMORY_SAFE_LANGUAGES_REDUCING_VULNERABILITIES_IN_MODERN_SOFTWARE_DEVELOPMENT.PDF\">CISA</a>, Rust is widely considered the industry benchmark for building secure systems because it eliminates entire classes of memory-safety vulnerabilities by design.\n</p>\n<p>\n<a href=\"https://security.googleblog.com/2024/09/eliminating-memory-safety-vulnerabilities-Android.html\">Rust is already a cornerstone</a> of our broader initiative to eliminate memory safety bugs across Android. Its selection for this feature was deliberate, driven by the unique security challenges of cross-platform communication that demanded the most robust protections for memory safety.\n</p>\n<p>\nThe core of this feature involves receiving and parsing data sent over a wireless protocol from another device. Historically, when using a memory-unsafe language, bugs in data parsing logic are one of the most common sources of high-severity security vulnerabilities. A malformed data packet sent to a parser written in a memory-unsafe language can lead to buffer overflows and other memory corruption bugs, creating an opportunity for code execution.\n</p>\n<p>\nThis is precisely where Rust provides a robust defense. Its compiler enforces strict ownership and borrowing rules at compile time, which guarantees memory safety. Rust removes entire classes of memory-related bugs. This means our implementation is inherently resilient against attackers attempting to use maliciously crafted data packets to exploit memory errors. \n</p>\n<h3>Secure Sharing Using AirDrop's \"Everyone\" Mode</h3>\n\n\n<p>\nTo ensure a seamless experience for both Android and iOS users, Quick Share currently works with AirDrop's \"Everyone for 10 minutes\" mode. This feature does not use a workaround; the connection is direct and peer-to-peer, meaning your data is never routed through a server, shared content is never logged, and no extra data is shared. As with \"Everyone for 10 minutes\" mode on any device when you’re sharing between non-contacts, you can ensure you're sharing with the right person by confirming their device name on your screen with them in person.</p>\n<p>This implementation using \"Everyone for 10 minutes” mode is just the first step in seamless cross-platform sharing, and we welcome the opportunity to work with Apple to enable “Contacts Only” mode in the future.\n</p>\n<h3>Tested by Independent Security Experts</h3>\n\n\n<p>\nAfter conducting our own secure product development, internal threat modeling, privacy reviews, and red team penetration tests, we engaged with <strong><a href=\"https://www.netspi.com/\">NetSPI</a></strong>, a leading third-party penetration testing firm, to further validate the security of this feature and conduct an <a href=\"https://www.netspi.com/wp-content/uploads/2025/11/google-feature-review-report.pdf\">independent security assessment</a>. The assessment found the interoperability between Quick Share and AirDrop is secure, is “notably stronger” than other industry implementations and does not leak any information. \n</p>\n<p>\nBased on these internal and external assessments, we believe our implementation provides a strong security foundation for cross-platform file sharing for both Android and iOS users. We will continue to evaluate and enhance the implementation’s security in collaboration with additional third-party partners.\n</p>\n<p>\nTo complement this deep technical audit, we also sought expert third-party perspective on our approach from <a href=\"https://crypto.stanford.edu/~dabo/\">Dan Boneh</a>, a renowned security expert and professor at Stanford University:\n</p>\n<p>\n“Google’s work on this feature, including the use of memory safe Rust for the core communications layer, is a strong example of how to build secure interoperability, ensuring that cross-platform information sharing remains safe. I applaud the effort to open more secure information sharing between platforms and encourage Google and Apple to work together more on this.\"\n</p>\n<h3>The Future of File-Sharing Should Be Interoperable</h3>\n\n\n<p>\nThis is just the first step as we work to improve the experience and expand it to more devices. We look forward to continuing to work with industry partners to make connecting and communicating across platforms a secure, seamless experience for all users.\n</p>",
     "link": "http://security.googleblog.com/2025/11/android-quick-share-support-for-airdrop-security.html",
@@ -280,6 +300,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Google Mandiant AI Agents Find Over 100 Critical Vulnerabilities in Source Code Within Two Days",
+    "summary": "<p>Google&#8217;s Threat Intelligence Group has announced that its Agentic Vulnerability Discovery Harness (AVDH) identified over 100 critical true-positive vulnerabilities in stolen corporate source code repositories within just two days. This result highlights how agentic AI can significantly accelerate vulnerability discovery during incident response, red teaming, penetration testing, and proactive secure code reviews, especially when adversaries [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/google-mandiant-ai-agents-find-over-100-critical-vulnerabilities/\">Google Mandiant AI Agents Find Over 100 Critical Vulnerabilities in Source Code Within Two Days</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/google-mandiant-ai-agents-find-over-100-critical-vulnerabilities/",
+    "published": "2026-08-19T12:14:23",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 1250,
+    "also_covered_by": []
+  },
+  {
     "title": "Medusa ransomware gang has hit over 500 organizations, CISA warns",
     "summary": "<p>Medusa ransomware has breached more than 500 organizations since it first appeared in June 2021, the FBI, CISA, and the Department of Health and Human Services (HHS) said in an updated joint advisory. The update builds on an advisory first issued in March 2025 and draws on FBI investigations conducted as late as April 2026. &#8220;Medusa developers and affiliates have impacted over 500 victims from a variety of critical infrastructure sectors,&#8221; the advisory reads, listing &#8230; <a href=\"https://www.helpnetsecurity.com/2026/08/19/medusa-ransomware-cisa-warning/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/08/19/medusa-ransomware-cisa-warning/\">Medusa ransomware gang has hit over 500 organizations, CISA warns</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
     "link": "https://www.helpnetsecurity.com/2026/08/19/medusa-ransomware-cisa-warning/",
@@ -300,6 +330,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Balonx PhaaS Steals Bank OTPs in Real Time While AI Calls and Android RAT Target Victims",
+    "summary": "<p>Mexico’s banking sector is facing a more industrialized fraud threat as the Balonx Sistema phishing-as-a-service (PhaaS) operation combines real-time OTP theft, Android malware, and AI-generated vishing calls. Balonx is not a conventional credential-harvesting kit. It operates as a subscription-based criminal service that rents access to affiliates, lowering the barrier for telemarketing fraud groups and inexperienced [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/balonx-phaas-steals-bank-otps/\">Balonx PhaaS Steals Bank OTPs in Real Time While AI Calls and Android RAT Target Victims</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/balonx-phaas-steals-bank-otps/",
+    "published": "2026-08-19T11:44:12",
+    "source": "gbhackers.com",
+    "category": "Phishing / Scams",
+    "importance_score": 1233,
+    "also_covered_by": []
+  },
+  {
     "title": "16 Typosquatted RubyGems Packages Steal Browser Credentials and Crypto Wallets",
     "summary": "Cybersecurity researchers have flagged a new typosquatting campaign targeting RubyGems users with a Windows-based information stealer.\n\nOpenSourceMalware, which discovered the activity on August 15, 2026, is tracking the threat under the moniker StubMaker. The complete list of packages published as part of the campaign is below -\n\n\n  ubnuler\n  ubnlder\n  ri18nr\n  reaker\n  rakier\n  orakw\n  joxn",
     "link": "https://thehackernews.com/2026/08/16-typosquatted-rubygems-packages-steal.html",
@@ -307,6 +347,16 @@
     "source": "thehackernews.com",
     "category": "Vulnerability",
     "importance_score": 1207,
+    "also_covered_by": []
+  },
+  {
+    "title": "Windows 11 24H2 Home and Pro Support Ends in October 2026",
+    "summary": "<p>Microsoft has issued a 60-day reminder that the Windows 11 version 24H2 Home and Pro editions will reach the end of updates on October 13, 2026. This date also marks the end of servicing for Windows 10 Enterprise LTSB 2016. As a result, both organizations and individual users must plan their upgrade or migration activities [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/windows-11-24h2-home-and-pro-support-ends/\">Windows 11 24H2 Home and Pro Support Ends in October 2026</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/windows-11-24h2-home-and-pro-support-ends/",
+    "published": "2026-08-19T11:46:00",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 1204,
     "also_covered_by": []
   },
   {
@@ -470,6 +520,16 @@
     "also_covered_by": []
   },
   {
+    "title": "China-Nexus Hackers Target Myanmar Diplomats With QUICAgent Go Backdoor via Malicious VHD Files",
+    "summary": "<p>A China-nexus threat actor is targeting Myanmar government and diplomatic personnel with a multi-stage malware campaign that delivers a custom Go-based backdoor, dubbed QUICAgent, through Virtual Hard Disk (VHD) files disguised as benign images. The campaign relies on highly targeted social engineering. One malicious file, named TrainingAnnouncement.jpg, is not an image but a VHD container. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/myanmar-diplomats-with-quicagent/\">China-Nexus Hackers Target Myanmar Diplomats With QUICAgent Go Backdoor via Malicious VHD Files</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/myanmar-diplomats-with-quicagent/",
+    "published": "2026-08-19T13:30:34",
+    "source": "gbhackers.com",
+    "category": "Phishing / Scams",
+    "importance_score": 979,
+    "also_covered_by": []
+  },
+  {
     "title": "Microsoft Plugs Nearly 400 Security Holes",
     "summary": "Microsoft today released updates to remedy at least 398 security vulnerabilities in its Windows operating systems and supported software, including one weakness that is already being actively exploited and two others that were publicly detailed prior to today.",
     "link": "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
@@ -610,6 +670,16 @@
     "also_covered_by": []
   },
   {
+    "title": "U.S. Agencies Warn of Hackers Actively Attacking Siemens S7 PLCs in Critical Facilities",
+    "summary": "<p>The NSA, CISA, FBI, Department of Energy, and EPA issued a joint cybersecurity advisory on August 19 warning that threat actors are actively targeting Siemens S7 Series programmable logic controllers (PLCs) across America&#8217;s critical infrastructure. The agencies describe this as a live, ongoing threat rather than a theoretical risk, with attackers using AI-generated exploitation scripts [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-attacking-siemens-s7-plcs/\">U.S. Agencies Warn of Hackers Actively Attacking Siemens S7 PLCs in Critical Facilities</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/hackers-attacking-siemens-s7-plcs/",
+    "published": "2026-08-20T04:11:55",
+    "source": "cybersecuritynews.com",
+    "category": "Critical Infrastructure",
+    "importance_score": 919,
+    "also_covered_by": []
+  },
+  {
     "title": "Curiouser and Curiouser",
     "summary": "In this edition of the Threat Source newsletter, William reflects on the “Make Hazel a Hacker” segment in Beers with Talos, and how cybersecurity is a field where questions can lead to multiple correct answers.",
     "link": "https://blog.talosintelligence.com/curiouser-and-curiouser/",
@@ -657,6 +727,16 @@
     "source": "thehackernews.com",
     "category": "Other",
     "importance_score": 877,
+    "also_covered_by": []
+  },
+  {
+    "title": "Hackers Let Microsoft 365 Users Complete MFA, Then Steal Logged-In Sessions",
+    "summary": "<p>A sophisticated Phishing-as-a-Service (PhaaS) platform marketed as Mirage2FA is enabling threat actors to bypass multi-factor authentication (MFA) by allowing Microsoft 365 users to complete their regular login process before covertly stealing the authenticated session. Threat researchers at ANY.RUN discovered that the Adversary-in-the-Middle (AiTM) framework generated thousands of potential compromise events from late 2024 through 2026, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-365-session-theft/\">Hackers Let Microsoft 365 Users Complete MFA, Then Steal Logged-In Sessions</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/microsoft-365-session-theft/",
+    "published": "2026-08-19T16:17:56",
+    "source": "cybersecuritynews.com",
+    "category": "Phishing / Scams",
+    "importance_score": 876,
     "also_covered_by": []
   },
   {
@@ -850,6 +930,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Critical Citrix NetScaler Flaw Lets Remote Attackers Bypass Authentication Without Credentials",
+    "summary": "<p>Cloud Software Group has issued a critical security bulletin warning customers of two serious vulnerabilities affecting NetScaler ADC (formerly Citrix ADC) and NetScaler Gateway (formerly Citrix Gateway). Tracked as CVE-2026-19489 and CVE-2026-19490, the flaws could allow attackers to trigger denial-of-service conditions or bypass authentication entirely on unpatched appliances, putting enterprise remote access infrastructure at significant [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/critical-citrix-netscaler-vulnerability/\">Critical Citrix NetScaler Flaw Lets Remote Attackers Bypass Authentication Without Credentials</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/critical-citrix-netscaler-vulnerability/",
+    "published": "2026-08-19T16:56:38",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 635,
+    "also_covered_by": []
+  },
+  {
     "title": "Three-quarters of Ransomware Attacks Target Mid-Market Firms",
     "summary": "Black Kite finds mid-market is the sweet spot for ransomware as manufacturers are most likely to be hit",
     "link": "https://www.infosecurity-magazine.com/news/threequarters-ransomware-attacks/",
@@ -867,6 +957,16 @@
     "source": "infosecurity-magazine.com",
     "category": "Data Breach",
     "importance_score": 623,
+    "also_covered_by": []
+  },
+  {
+    "title": "Microsoft 365 Service Degradation Disrupts Users Across South America",
+    "summary": "<p>Microsoft is responding to a regional outage that may leave users in South America unable to use multiple Microsoft 365 services. The company is tracking the disruption as issue MO1457636, a service degradation of the Microsoft 365 suite that began at 2:34 p.m. UTC on August 19, 2026 (8:04 p.m. IST). Microsoft 365 Status posted [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-365-service-degradation/\">Microsoft 365 Service Degradation Disrupts Users Across South America</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/microsoft-365-service-degradation/",
+    "published": "2026-08-19T15:53:44",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 598,
     "also_covered_by": []
   },
   {
@@ -970,6 +1070,18 @@
     "also_covered_by": []
   },
   {
+    "title": "Airlock Digital Completes Independent IRAP Assessment at the PROTECTED Level",
+    "summary": "<p>Adelaide, Australia, August 19th, 2026, CyberNewswire Independent assessment provides Australian organisations with additional evidence when evaluating application control for sensitive, government, defence and critical infrastructure environments.&#160; Airlock Digital, a global provider of application control and allowlisting solutions, today announced that it has completed an independent Information Security Registered Assessors Program (IRAP) assessment at the PROTECTED [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/airlock-digital-completes-independent-irap-assessment-at-the-protected-level/\">Airlock Digital Completes Independent IRAP Assessment at the PROTECTED Level</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/airlock-digital-completes-independent-irap-assessment-at-the-protected-level/",
+    "published": "2026-08-20T04:43:06",
+    "source": "gbhackers.com",
+    "category": "Critical Infrastructure",
+    "importance_score": 500,
+    "also_covered_by": [
+      "cybersecuritynews.com"
+    ]
+  },
+  {
     "title": "Researchers find a loophole that lets expired credit cards make unauthorized payments",
     "summary": "<p>A team from the University of Massachusetts Amherst has shown that a contactless credit card keeps working past its printed expiration date, even after the cardholder gets a replacement. They named it the Zombie Card attack and presented the findings at USENIX Security 2026. The question behind the loophole &#8220;This work is motivated by documented patterns of improper expired card handling. Although issuers instruct cardholders to destroy expired cards after replacement, cardholders routinely underestimate this &#8230; <a href=\"https://www.helpnetsecurity.com/2026/08/20/zombie-credit-card-attack-expired/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/08/20/zombie-credit-card-attack-expired/\">Researchers find a loophole that lets expired credit cards make unauthorized payments</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
     "link": "https://www.helpnetsecurity.com/2026/08/20/zombie-credit-card-attack-expired/",
@@ -1008,6 +1120,18 @@
     "category": "Ransomware",
     "importance_score": 497,
     "also_covered_by": []
+  },
+  {
+    "title": "Former Ping Identity and CyberArk Executives Join AppViewX to Scale Machine and Agent Identity Security",
+    "summary": "<p>New York, New York, August 19th, 2026, CyberNewswire New revenue leader and board member join as AppViewX&#8217;s identity security business continues its rapid growth&#160; AppViewX, the leading machine and agent identity security company built for the AI and quantum enterprise, today announced the appointment of Mike Durso as Chief Revenue Officer and the addition of [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/former-ping-identity-and-cyberark-executives-join-appviewx-to-scale-machine-and-agent-identity-security/\">Former Ping Identity and CyberArk Executives Join AppViewX to Scale Machine and Agent Identity Security</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/former-ping-identity-and-cyberark-executives-join-appviewx-to-scale-machine-and-agent-identity-security/",
+    "published": "2026-08-19T15:19:55",
+    "source": "gbhackers.com",
+    "category": "AI & Security",
+    "importance_score": 493,
+    "also_covered_by": [
+      "cybersecuritynews.com"
+    ]
   },
   {
     "title": "Describing attacks with crime script analysis",
@@ -1080,6 +1204,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Critical Snowflake GitHub Actions Flaw Allows Attackers to Steal Internal Jira Credentials",
+    "summary": "<p>A significant GitHub Actions injection vulnerability in Snowflake’s public snowflake-connector-net repository. This flaw could have allowed unauthenticated attackers to execute commands on a GitHub-hosted runner and potentially steal internal Jira credentials. The vulnerability was discovered by Wiz Red Agent, an autonomous AI-powered security research tool, just five days after the vulnerable workflow was deployed. Snowflake [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-snowflake-github-actions-flaw/\">Critical Snowflake GitHub Actions Flaw Allows Attackers to Steal Internal Jira Credentials</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/critical-snowflake-github-actions-flaw/",
+    "published": "2026-08-20T05:03:02",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 488,
+    "also_covered_by": []
+  },
+  {
     "title": "The Xcode Assassin Returns: A Deep Dive Into the Latest XCSSET Version",
     "summary": "<p>Analysis of XCSSET v40 reveals a macOS malware targeting developers via Xcode. Unit 42 used advanced pattern matching and AI to decode its logic.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/xcsset-v40-malware-analysis/\">The Xcode Assassin Returns: A Deep Dive Into the Latest XCSSET Version</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
     "link": "https://unit42.paloaltonetworks.com/xcsset-v40-malware-analysis/",
@@ -1130,6 +1264,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Trusted Vendors Are Becoming Attack Paths: How US and EU Enterprises Can Reduce the Risk",
+    "summary": "<p>A trusted supplier can become an attack path overnight.&#160; Large US and EU enterprises often rely on hundreds of vendors, giving attackers plenty of opportunities to hide malicious activity inside legitimate emails, files, and business workflows.&#160; The window to react is small: attackers can move laterally in just&#160;29 minutes, while overwhelmed SOC teams may leave [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/trusted-vendors-are-becoming-attack-paths-how-us-and-eu-enterprises-can-reduce-the-risk/\">Trusted Vendors Are Becoming Attack Paths: How US and EU Enterprises Can Reduce the Risk </a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/trusted-vendors-are-becoming-attack-paths-how-us-and-eu-enterprises-can-reduce-the-risk/",
+    "published": "2026-08-19T18:37:36",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 479,
+    "also_covered_by": []
+  },
+  {
     "title": "Pixel 11 XL Pro: Google's big flagship is more Pro than ever, but the camera is no big thing",
     "summary": "The Pixel 11 Pro XL has some gorgeous hardware and some neat AI tricks, but the cameras need good lighting to shine.",
     "link": "https://www.zdnet.com/article/pixel-11-pro-xl-review/",
@@ -1157,6 +1301,46 @@
     "source": "unit42.paloaltonetworks.com",
     "category": "Other",
     "importance_score": 474,
+    "also_covered_by": []
+  },
+  {
+    "title": "T-Mobile Physically Cuts Network Cable to Evict Chinese Salt Typhoon Hackers",
+    "summary": "<p>In 2024, T-Mobile’s security team took an unusually direct approach to contain a cybersecurity threat: they physically cut a network cable to terminate suspected access by the Chinese state-backed hackers known as Salt Typhoon. According to CSN, this action came after months of incident response efforts within T-Mobile’s network, during which defenders investigated signs of [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/t-mobile-physically-cuts-network-cable/\">T-Mobile Physically Cuts Network Cable to Evict Chinese Salt Typhoon Hackers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/t-mobile-physically-cuts-network-cable/",
+    "published": "2026-08-20T05:20:38",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 471,
+    "also_covered_by": []
+  },
+  {
+    "title": "659 Stripe Merchant API Keys Leaked Online, Exposing 688,000 Customer Records",
+    "summary": "<p>A data leak published on a cybercrime data-trading forum has exposed live Stripe API credentials for 659 merchant accounts, along with approximately 35 GB of customer- and payment-related data. The exposure affects an estimated 688,363 customer records across merchants in 42 countries, but available evidence indicates that Stripe’s own infrastructure was not breached. The dataset [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/659-stripe-merchant-api-keys/\">659 Stripe Merchant API Keys Leaked Online, Exposing 688,000 Customer Records</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/659-stripe-merchant-api-keys/",
+    "published": "2026-08-19T10:28:53",
+    "source": "gbhackers.com",
+    "category": "Data Breach",
+    "importance_score": 471,
+    "also_covered_by": []
+  },
+  {
+    "title": "T-Mobile Cyber Team Physically Cuts Cable to Remove Chinese Hackers From Network",
+    "summary": "<p>T-Mobile&#8217;s security team resorted to an unusually low-tech fix for a high-tech problem in 2024, physically severing a network cable to cut off Chinese state-backed hackers&#8217; access to its systems, according to new reporting from Bloomberg. The dramatic move came amid a sprawling espionage campaign that compromised telecom and internet infrastructure across the United States. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/t-mobile-cyber-team-physically-cuts-cable/\">T-Mobile Cyber Team Physically Cuts Cable to Remove Chinese Hackers From Network</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/t-mobile-cyber-team-physically-cuts-cable/",
+    "published": "2026-08-20T03:31:41",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 468,
+    "also_covered_by": []
+  },
+  {
+    "title": "AI Agent Hacks Snowflake GitHub Workflow and Reaches Internal Jira",
+    "summary": "<p>An autonomous AI security agent built by Wiz Research has demonstrated how quickly a single overlooked line of shell code can cascade into a full credential leak. The tool, known as Wiz Red Agent, independently discovered, exploited, and validated a critical GitHub Actions injection flaw in Snowflake&#8217;s public repository, snowflake-connector-net, ultimately gaining read access to [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ai-agent-hacks-snowflake-github-workflow/\">AI Agent Hacks Snowflake GitHub Workflow and Reaches Internal Jira</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/ai-agent-hacks-snowflake-github-workflow/",
+    "published": "2026-08-20T02:32:50",
+    "source": "cybersecuritynews.com",
+    "category": "Data Breach",
+    "importance_score": 464,
     "also_covered_by": []
   },
   {
