@@ -1,10 +1,10 @@
 CYBERBRIEF • DAILY THREAT INTELLIGENCE
-Generated: Friday, August 21, 2026 - 05:24 UTC
+Generated: Friday, August 21, 2026 - 05:29 UTC
 ================================================================================
 
-Total topics: 304    •    Scanned raw articles: 304
+Total topics: 294    •    Scanned raw articles: 294
 Severity breakdown:
-  CRITICAL: 5  |  HIGH: 10  |  MEDIUM: 52  |  LOW: 237
+  CRITICAL: 4  |  HIGH: 9  |  MEDIUM: 50  |  LOW: 231
 
 Top 7 active threats:
 
@@ -32,29 +32,29 @@ Top 7 active threats:
    Published: 2025-11-13T16:59:00
    Link     : http://security.googleblog.com/2025/11/rust-in-android-move-fast-fix-things.html
 
-5. Alert Triangle  microsoft.com  [News Site]
-   Title    : DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure
-   Category : Ransomware    •    Severity: CRITICAL (score: 2342)
-   Published: 2026-08-10T15:00:00
-   Link     : https://www.microsoft.com/en-us/security/blog/2026/08/10/deadlock-ransomware-breaking-down-a-rust-based-encryptor-with-decentralized-recovery-infrastructure/
-
-6. Shield Check  security.googleblog.com  [News Site]
+5. Shield Check  security.googleblog.com  [News Site]
    Title    : Android Quick Share Support for AirDrop: A Secure Approach to Cross-Platform File Sharing
    Category : Data Breach    •    Severity: HIGH (score: 1959)
    Published: 2025-11-20T17:00:00
    Link     : http://security.googleblog.com/2025/11/android-quick-share-support-for-airdrop-security.html
 
-7. Shield Check  unit42.paloaltonetworks.com  [News Site]
+6. Shield Check  unit42.paloaltonetworks.com  [News Site]
    Title    : The Frontier AI Vulnerability Burst: Industrializing Autonomous Zero-Day Discovery in Open-Source Software
    Category : Vulnerability    •    Severity: HIGH (score: 1836)
    Published: 2026-08-04T13:00:11
    Link     : https://unit42.paloaltonetworks.com/frontier-ai-vulnerability-burst/
+
+7. Shield Check  thecyberexpress.com  [Link]
+   Title    : Oz Hair and Beauty Data Breach Exposes Customer Information
+   Category : Data Breach    •    Severity: HIGH (score: 1700)
+   Published: 2026-08-20T06:44:26
+   Link     : https://thecyberexpress.com/oz-hair-and-beauty-data-breach/
 
 Security Tips:
 • Never trust unsolicited links or attachments in email or messaging apps.
 • Enable multi-factor authentication (MFA) on email, banking, and admin accounts.
 • Keep browsers, VPNs, and endpoint security fully patched.
 
-Scanned 304 articles • Top 7 topics selected
+Scanned 294 articles • Top 7 topics selected
 Next planned auto-update: 08:00 AM UTC
 Stay safe, stay sharp!

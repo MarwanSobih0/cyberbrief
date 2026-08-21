@@ -40,16 +40,6 @@
     "also_covered_by": []
   },
   {
-    "title": "DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure",
-    "summary": "<p>Microsoft Threat Intelligence examines DeadLock ransomware, an emerging financially motivated operation distinguished by its use of decentralized infrastructure to support victim communications, negotiations, and data leak operations alongside double extortion tactics used to pressure victims.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/08/10/deadlock-ransomware-breaking-down-a-rust-based-encryptor-with-decentralized-recovery-infrastructure/\">DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/08/10/deadlock-ransomware-breaking-down-a-rust-based-encryptor-with-decentralized-recovery-infrastructure/",
-    "published": "2026-08-10T15:00:00",
-    "source": "microsoft.com",
-    "category": "Ransomware",
-    "importance_score": 2342,
-    "also_covered_by": []
-  },
-  {
     "title": "Android Quick Share Support for AirDrop: A Secure Approach to Cross-Platform File Sharing",
     "summary": "<span class=\"byline-author\">Posted by Dave Kleidermacher, VP, Platforms Security & Privacy, Google</span>\n\n<p>\nTechnology should bring people closer together, not create walls. Being able to communicate and connect with friends and family should be easy regardless of the phone they use. That’s why Android has been building experiences that help you stay connected across platforms.\n</p>\n<p>\nAs part of our efforts to continue to make cross-platform communication more seamless for users, we've made Quick Share interoperable with AirDrop, allowing for two-way file sharing between Android and iOS devices, starting with the Pixel 10 Family. This new feature makes it possible to quickly share your photos, videos, and files with people you choose to communicate with, without worrying about the kind of phone they use. \n</p>\n<p>\nMost importantly, when you share personal files and content, you need to trust that it stays secure. You can share across devices with confidence knowing we built this feature with security at its core, protecting your data with strong safeguards that have been tested by independent security experts.\n</p>\n<h3>Secure by Design</h3>\n\n\n<p>\nWe built Quick Share’s interoperability support for AirDrop with the same rigorous security standards that we apply to all Google products. Our approach to security is proactive and deeply integrated into every stage of the development process. This includes:\n</p>\n<ul>\n\n<li><strong>Threat Modeling:</strong> We identify and address potential security risks before they can become a problem.</li>\n\n<li><strong>Internal Security Design and Privacy Reviews:</strong> Our dedicated security and privacy teams thoroughly review the design to ensure it meets our high standards.</li>\n\n<li><strong>Internal Penetration Testing:</strong> We conduct extensive in-house testing to identify and fix vulnerabilities.</li>\n</ul>\n<p>\nThis <a href=\"https://blog.google/technology/safety-security/tackling-cybersecurity-vulnerabilities-through-secure-by-design/\">Secure by Design</a> philosophy ensures that all of our products are not just functional but also fundamentally secure.\n</p>\n<p>\nThis feature is also protected by a multi-layered security approach to ensure a safe sharing experience from end-to-end, regardless of what platform you’re on. \n</p>\n<ul>\n\n<li><strong>Secure Sharing Channel:</strong> The communication channel itself is hardened by our use of Rust to develop this feature. This memory-safe language is the industry benchmark for building secure systems and provides confidence that the connection is protected against buffer overflow attacks and other common vulnerabilities. </li>\n\n<li><strong>Built-in Platform Protections: </strong>This feature is strengthened by the robust built-in security of both Android and iOS. On Android, security is built in at every layer. Our deep investment in Rust at the OS level hardens the foundation, while proactive defenses like <a href=\"https://support.google.com/googleplay/answer/2812853?hl=en\">Google Play Protect</a> work to keep your device safe. This is complemented by the security architecture of iOS that provides its own strong safeguards that mitigate malicious files and exploitation. These overlapping protections on both platforms work in concert with the secure connection to provide comprehensive safety for your data when you share or receive.</li>\n\n<li><strong>You’re in Control: </strong>Sharing across platforms works just like you're used to: a file requires your approval before being received, so you're in control of what you accept.</li>\n</ul>\n<h3>The Power of Rust: A Foundation of Secure Communication</h3>\n\n\n<p>\nA key element of our security strategy for the interoperability layer between Quick Share and AirDrop is the use of the memory-safe Rust programming language. Recognized by security agencies around the world, including the <a href=\"https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/article/3608324/us-and-international-partners-issue-recommendations-to-secure-software-products/\">NSA</a> and <a href=\"https://media.defense.gov/2025/Jun/23/2003742198/-1/-1/0/CSI_MEMORY_SAFE_LANGUAGES_REDUCING_VULNERABILITIES_IN_MODERN_SOFTWARE_DEVELOPMENT.PDF\">CISA</a>, Rust is widely considered the industry benchmark for building secure systems because it eliminates entire classes of memory-safety vulnerabilities by design.\n</p>\n<p>\n<a href=\"https://security.googleblog.com/2024/09/eliminating-memory-safety-vulnerabilities-Android.html\">Rust is already a cornerstone</a> of our broader initiative to eliminate memory safety bugs across Android. Its selection for this feature was deliberate, driven by the unique security challenges of cross-platform communication that demanded the most robust protections for memory safety.\n</p>\n<p>\nThe core of this feature involves receiving and parsing data sent over a wireless protocol from another device. Historically, when using a memory-unsafe language, bugs in data parsing logic are one of the most common sources of high-severity security vulnerabilities. A malformed data packet sent to a parser written in a memory-unsafe language can lead to buffer overflows and other memory corruption bugs, creating an opportunity for code execution.\n</p>\n<p>\nThis is precisely where Rust provides a robust defense. Its compiler enforces strict ownership and borrowing rules at compile time, which guarantees memory safety. Rust removes entire classes of memory-related bugs. This means our implementation is inherently resilient against attackers attempting to use maliciously crafted data packets to exploit memory errors. \n</p>\n<h3>Secure Sharing Using AirDrop's \"Everyone\" Mode</h3>\n\n\n<p>\nTo ensure a seamless experience for both Android and iOS users, Quick Share currently works with AirDrop's \"Everyone for 10 minutes\" mode. This feature does not use a workaround; the connection is direct and peer-to-peer, meaning your data is never routed through a server, shared content is never logged, and no extra data is shared. As with \"Everyone for 10 minutes\" mode on any device when you’re sharing between non-contacts, you can ensure you're sharing with the right person by confirming their device name on your screen with them in person.</p>\n<p>This implementation using \"Everyone for 10 minutes” mode is just the first step in seamless cross-platform sharing, and we welcome the opportunity to work with Apple to enable “Contacts Only” mode in the future.\n</p>\n<h3>Tested by Independent Security Experts</h3>\n\n\n<p>\nAfter conducting our own secure product development, internal threat modeling, privacy reviews, and red team penetration tests, we engaged with <strong><a href=\"https://www.netspi.com/\">NetSPI</a></strong>, a leading third-party penetration testing firm, to further validate the security of this feature and conduct an <a href=\"https://www.netspi.com/wp-content/uploads/2025/11/google-feature-review-report.pdf\">independent security assessment</a>. The assessment found the interoperability between Quick Share and AirDrop is secure, is “notably stronger” than other industry implementations and does not leak any information. \n</p>\n<p>\nBased on these internal and external assessments, we believe our implementation provides a strong security foundation for cross-platform file sharing for both Android and iOS users. We will continue to evaluate and enhance the implementation’s security in collaboration with additional third-party partners.\n</p>\n<p>\nTo complement this deep technical audit, we also sought expert third-party perspective on our approach from <a href=\"https://crypto.stanford.edu/~dabo/\">Dan Boneh</a>, a renowned security expert and professor at Stanford University:\n</p>\n<p>\n“Google’s work on this feature, including the use of memory safe Rust for the core communications layer, is a strong example of how to build secure interoperability, ensuring that cross-platform information sharing remains safe. I applaud the effort to open more secure information sharing between platforms and encourage Google and Apple to work together more on this.\"\n</p>\n<h3>The Future of File-Sharing Should Be Interoperable</h3>\n\n\n<p>\nThis is just the first step as we work to improve the experience and expand it to more devices. We look forward to continuing to work with industry partners to make connecting and communicating across platforms a secure, seamless experience for all users.\n</p>",
     "link": "http://security.googleblog.com/2025/11/android-quick-share-support-for-airdrop-security.html",
@@ -67,16 +57,6 @@
     "source": "unit42.paloaltonetworks.com",
     "category": "Vulnerability",
     "importance_score": 1836,
-    "also_covered_by": []
-  },
-  {
-    "title": "Microsoft Entra ID Remote Code Execution Vulnerability Exploited in the Wild",
-    "summary": "<p>Microsoft has confirmed that a critical remote code execution flaw in Entra ID, its cloud-based identity and access management platform, has already been exploited in the wild. The vulnerability, tracked as CVE-2026-69836, was disclosed on August 20, 2026, and carries the maximum severity rating of Critical, underscoring just how dangerous this bug is for organizations [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/entra-id-rce-vulnerability-exploited/\">Microsoft Entra ID Remote Code Execution Vulnerability Exploited in the Wild</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/entra-id-rce-vulnerability-exploited/",
-    "published": "2026-08-21T03:38:36",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 1811,
     "also_covered_by": []
   },
   {
@@ -310,16 +290,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Popular Rust Packages With 244M Downloads Compromised to Run Malware",
-    "summary": "<p>A major supply chain attack targeting the Rust ecosystem, in which two widely used crates, arrayref and append-only-vec, were hijacked to silently deliver malware the moment developers compiled their projects. Together, the two packages account for hundreds of millions of downloads, making this one of the largest Rust crate compromises ever recorded by download volume. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/rust-packages-malware/\">Popular Rust Packages With 244M Downloads Compromised to Run Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/rust-packages-malware/",
-    "published": "2026-08-20T16:15:06",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 1155,
-    "also_covered_by": []
-  },
-  {
     "title": "The push to designate AI as the next critical infrastructure sector",
     "summary": "<p>The designation would unlock a range of federal services, tools and resources for an industry that policymakers view as increasingly tied to national and economic security.</p>\n<p>The post <a href=\"https://cyberscoop.com/ai-critical-infrastructure-designation-cisa-report/\">The push to designate AI as the next critical infrastructure sector</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
     "link": "https://cyberscoop.com/ai-critical-infrastructure-designation-cisa-report/",
@@ -440,16 +410,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Critical NASA AIT-GUI Flaw Lets Unauthenticated Attackers Issue Spacecraft Commands",
-    "summary": "<p>A critical security flaw in NASA/JPL&#8217;s open-source AMMOS Instrument Toolkit GUI (AIT-GUI) could let an unauthenticated attacker send live commands to spacecraft and scientific instruments, run arbitrary scripts, and execute command sequences without ever logging in. Security researcher Yuval Elbar of Cycode disclosed an issue rated 9.4 on the CVSS v3.1 scale on August 13, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/nasa-ait-gui-flaw/\">Critical NASA AIT-GUI Flaw Lets Unauthenticated Attackers Issue Spacecraft Commands</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/nasa-ait-gui-flaw/",
-    "published": "2026-08-20T15:24:09",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 1060,
-    "also_covered_by": []
-  },
-  {
     "title": "Protecting Cookies with Device Bound Session Credentials",
     "summary": "<span class=\"byline-author\">Posted by Ben Ackerman, Chrome team,  Daniel Rubery, Chrome team and Guillaume Ehinger, Google Account Security team</span>\n\n<p>\nFollowing our April 2024 <a href=\"https://blog.chromium.org/2024/04/fighting-cookie-theft-using-device.html\">announcement</a>, Device Bound Session Credentials (DBSC) is now entering public availability for Windows users on Chrome 146, and expanding to macOS in an upcoming Chrome release. This project represents a significant step forward in our ongoing efforts to combat session theft, which remains a prevalent threat in the modern security landscape.\n</p>\n<p>\nSession theft typically occurs when a user inadvertently downloads malware onto their device. Once active, the malware can silently extract existing session cookies from the browser or wait for the user to log in to new accounts, before exfiltrating these tokens to an attacker-controlled server. Infostealer malware families, such as LummaC2, have become increasingly sophisticated at harvesting these credentials. Because cookies often have extended lifetimes, attackers can use them to gain unauthorized access to a user’s accounts without ever needing their passwords; this access is then often bundled, traded, or sold among threat actors.\n</p>\n<p>\nCrucially, once sophisticated malware has gained access to a machine, it can read the local files and memory where browsers store authentication cookies. As a result, there is no reliable way to prevent cookie exfiltration using software alone on any operating system. Historically, mitigating session theft relied on detecting the stolen credentials after the fact using a complex set of abuse heuristics – a reactive approach that persistent attackers could often circumvent. DBSC fundamentally changes the web's capability to defend against this threat by shifting the paradigm from reactive detection to proactive prevention, ensuring that successfully exfiltrated cookies cannot be used to access users’ accounts.\n</p>\n<h3>How DBSC Works</h3>\n\n\n<p>\nDBSC protects against session theft by cryptographically binding authentication sessions to a specific device. It does this using hardware-backed security modules, such as the Trusted Platform Module (TPM) on Windows and the Secure Enclave on macOS, to generate a unique public/private key pair that cannot be exported from the machine. The issuance of new short-lived session cookies is contingent upon Chrome proving possession of the corresponding private key to the server. Because attackers cannot steal this key, any exfiltrated cookies quickly expire and become useless to those attackers. This design allows large and small websites to upgrade to secure, hardware-bound sessions by adding dedicated registration and refresh endpoints to their backends, while maintaining complete compatibility with their existing front-end. The browser handles the complex cryptography and cookie rotation in the background, allowing the web app to continue using standard cookies for access just as it always has. \n</p>\n<p>\nGoogle rolled out an early version of this protocol over the last year. For sessions protected by DBSC, we have observed a significant reduction in session theft since its launch.\n</p>\n<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjk4eZvzfBqPL0Xf1ckUo7l58eyeZKSzIelxjLOiOE_XHYNZc-qdx24Sv9n3tgRgc2xOzKZvcHsCksprOlxwd-gIRQaLPsOu2jjuCV4e6G1_ImsXhQeOean1CWndOiQuikT94gbvZLlWfktpCBRtxh9dJkxjpfvradSkzWD1Wqxohg9TJUdyC1kC88y6Abu/s1600/Screenshot%202026-04-09%20at%2010.11.22%E2%80%AFAM.png\" style=\"display: block; padding: 1em 0; text-align: center;\"><img alt=\"\" border=\"0\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjk4eZvzfBqPL0Xf1ckUo7l58eyeZKSzIelxjLOiOE_XHYNZc-qdx24Sv9n3tgRgc2xOzKZvcHsCksprOlxwd-gIRQaLPsOu2jjuCV4e6G1_ImsXhQeOean1CWndOiQuikT94gbvZLlWfktpCBRtxh9dJkxjpfvradSkzWD1Wqxohg9TJUdyC1kC88y6Abu/s1600/Screenshot%202026-04-09%20at%2010.11.22%E2%80%AFAM.png\" /></a></div>\n<p style=\"text-align: center;\">\n<em>An overview of the DBSC protocol showing the interaction between the browser and server.</em>\n</p>\n<h3>Private by design</h3>\n\n\n<p>\nA core tenet of the DBSC architecture is the preservation of user privacy. Each session is backed by a distinct key, preventing websites from using these credentials to correlate a user's activity across different sessions or sites on the same device. Furthermore, the protocol is designed to be lean: it does not leak device identifiers or attestation data to the server beyond the per-session public key required to certify proof of possession. This minimal information exchange ensures DBSC helps secure sessions without enabling cross-site tracking or acting as a device fingerprinting mechanism.\n</p>\n<h3>Engagement with the ecosystem</h3>\n\n\n<p>\nDBSC was designed from the beginning to be an open web standard through the W3C process and adoption by the Web Application Security Working Group. Through this process we partnered with Microsoft to design the standard to ensure it works for the web and got input from many in the industry that are responsible for web security.\n</p>\n<p>\nAdditionally, over the past year, we have also conducted two Origin Trials to ensure DBSC effectively serves the requirements of the broader web community. Many web platforms, including Okta, actively participated in these trials and their own testing and provided essential feedback to ensure the protocol effectively addresses their diverse needs.\n</p>\n<p>\nIf you are a web developer and are looking for a way to secure your users against session theft, refer to our <a href=\"https://developer.chrome.com/docs/web-platform/device-bound-session-credentials\">developer guide</a> for implementation details. Additionally, all the details about DBSC can be found on the <a href=\"https://w3c.github.io/webappsec-dbsc/\">spec</a> and the corresponding <a href=\"https://github.com/w3c/webappsec-dbsc\">github</a>. Feel free to use the <a href=\"https://github.com/w3c/webappsec-dbsc/issues\">issues</a> page to report bugs or provide feature requests.\n</p>\n<h3>Future improvements</h3>\n\n\n<p>\nAs we continue to evolve the DBSC standard, future iterations will focus on increasing support across diverse ecosystems and introducing advanced capabilities tailored for complex enterprise environments. Key areas of ongoing development include:\n</p>\n<ul>\n\n<li><strong>Securing Federated Identity: </strong>In modern enterprise environments, Single Sign-On (SSO) is ubiquitous. We are expanding the DBSC protocol to support cross-origin bindings, ensuring that a relying party (RP) session remains continuously bound to the same original device key used by the Identity Provider (IdP). This guarantees that the high-assurance security of the initial device binding is maintained throughout the entire federated login process, creating an unbroken chain of trust.</li>\n\n<li><strong>Advanced Registration Capabilities:</strong> While DBSC provides robust protection for established cookies, some environments require an even stronger foundation when the session is first created. We are developing mechanisms to bind DBSC sessions to pre-existing, trusted key material rather than generating a new key at sign-in. This advanced capability enables websites to integrate complementary technologies, such as mTLS certificates or hardware security keys, creating a highly secure registration environment.</li>\n\n<li><strong>Broader Device Support:</strong> We are also actively exploring the potential addition of software-based keys to extend protections to devices without dedicated secure hardware.",
     "link": "http://security.googleblog.com/2026/04/protecting-cookies-with-device-bound.html",
@@ -467,16 +427,6 @@
     "source": "malwarebytes.com",
     "category": "Vulnerability",
     "importance_score": 1024,
-    "also_covered_by": []
-  },
-  {
-    "title": "128 Seconds to disruption: Microsoft Defender stops ransomware at QNET",
-    "summary": "<p>Microsoft Defender automatically isolated a compromised QNET endpoint in 128 seconds, stopping a multi-stage attack before the payload could persist or spread.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/08/04/129-seconds-disruption-microsoft-defender-stops-ransomware-qnet/\">128 Seconds to disruption: Microsoft Defender stops ransomware at QNET </a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/08/04/129-seconds-disruption-microsoft-defender-stops-ransomware-qnet/",
-    "published": "2026-08-04T17:54:04",
-    "source": "microsoft.com",
-    "category": "Ransomware",
-    "importance_score": 1012,
     "also_covered_by": []
   },
   {
@@ -520,13 +470,13 @@
     "also_covered_by": []
   },
   {
-    "title": "New Android Malware Steals Banking PINs and Relays Data Through Someone Else’s Infected Phones",
-    "summary": "<p>A newly discovered Android malware family named Manic combines banking fraud with full-scale spyware, and it comes with a trick researchers rarely see in the wild: when an infected phone has no internet connection of its own, it can quietly borrow one from another infected device nearby. The malware was identified by ThreatFabric&#8217;s Mobile Threat [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/manic-android-malware/\">New Android Malware Steals Banking PINs and Relays Data Through Someone Else&#8217;s Infected Phones</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/manic-android-malware/",
-    "published": "2026-08-20T13:20:41",
-    "source": "cybersecuritynews.com",
-    "category": "Phishing / Scams",
-    "importance_score": 959,
+    "title": "Microsoft Plugs Nearly 400 Security Holes",
+    "summary": "Microsoft today released updates to remedy at least 398 security vulnerabilities in its Windows operating systems and supported software, including one weakness that is already being actively exploited and two others that were publicly detailed prior to today.",
+    "link": "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
+    "published": "2026-08-11T21:28:35",
+    "source": "krebsonsecurity.com",
+    "category": "Other",
+    "importance_score": 978,
     "also_covered_by": []
   },
   {
@@ -660,13 +610,23 @@
     "also_covered_by": []
   },
   {
-    "title": "CaptiveCrunch: Midnight Blizzard targets travelers worldwide for malware delivery and credential theft",
-    "summary": "<p>Storm-2945, a sub-cluster of the Russian threat actor Midnight Blizzard, has been observed compromising the sign-in portals of hospitality-related organizations such as hotels since May 2026 in order to deliver malware to travelers and steal credentials in an operation we call CaptiveCrunch.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/07/31/captivecrunch-midnight-blizzard-targets-travelers-worldwide-for-malware-delivery-and-credential-theft/\">CaptiveCrunch: Midnight Blizzard targets travelers worldwide for malware delivery and credential theft</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/31/captivecrunch-midnight-blizzard-targets-travelers-worldwide-for-malware-delivery-and-credential-theft/",
-    "published": "2026-07-31T21:01:37",
-    "source": "microsoft.com",
-    "category": "Critical Infrastructure",
-    "importance_score": 802,
+    "title": "LG to Ban Residential Proxies from Smart TV Apps",
+    "summary": "The home appliance giant LG Electronics USA said this week it plans to suspend any apps built for its smart TVs that turn one's television into an always-on residential proxy node. The move comes less than a month after researchers found that more than 42 percent of games and other apps available for download on LG's webOS store allow unknown third-parties to route their Internet traffic through a user's TV.",
+    "link": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
+    "published": "2026-07-22T01:10:38",
+    "source": "krebsonsecurity.com",
+    "category": "Vulnerability",
+    "importance_score": 842,
+    "also_covered_by": []
+  },
+  {
+    "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
+    "summary": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform they operated under assumed names.",
+    "link": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
+    "published": "2026-07-08T12:31:39",
+    "source": "krebsonsecurity.com",
+    "category": "Vulnerability",
+    "importance_score": 819,
     "also_covered_by": []
   },
   {
@@ -750,16 +710,6 @@
     "also_covered_by": []
   },
   {
-    "title": "China-Linked Spy Campaign Uses Five New Malware Families Against Central Asian Governments",
-    "summary": "<p>Central Asian government bodies have been targeted in a cyberespionage operation using a compact but varied set of remote access tools. The activity, tracked as SilkParasite, relied on convincing government-themed documents and trusted Windows programs to quietly place malware on victims’ systems. The campaign appears designed for intelligence collection rather than widespread disruption. Its operators [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/china-linked-spy-campaign/\">China-Linked Spy Campaign Uses Five New Malware Families Against Central Asian Governments</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/china-linked-spy-campaign/",
-    "published": "2026-08-21T05:11:11",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 720,
-    "also_covered_by": []
-  },
-  {
     "title": "ToxicPanda 2.0 and GoldDigger Expand Android Banking Attacks with On-Device Fraud",
     "summary": "Cybersecurity researchers have shed light on an updated version of ToxicPanda (aka TgToxic) that comes with \"significant enhancements,\" including a set of 167 remote commands and expands its targeting footprint globally.\n\nZimperium zLabs, in a Wednesday report, said the Android malware also features a PIN harvesting workflow targeting more than 140 banking and cryptocurrency applications.",
     "link": "https://thehackernews.com/2026/08/toxicpanda-20-and-golddigger-expand.html",
@@ -767,16 +717,6 @@
     "source": "thehackernews.com",
     "category": "Phishing / Scams",
     "importance_score": 711,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hackers Use Fake CAPTCHA to Install Malware That Kills 145 Security Processes",
-    "summary": "<p>Hackers are using fake CAPTCHA pages to push a malware loader that can shut down security software before a follow-on payload runs. The campaign combines compromised WordPress websites, a familiar browser verification prompt, and a Windows command that victims are persuaded to execute themselves. The operation uses ErrTraffic, a malware delivery service that creates ClickFix [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-use-fake-captcha/\">Hackers Use Fake CAPTCHA to Install Malware That Kills 145 Security Processes</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/hackers-use-fake-captcha/",
-    "published": "2026-08-20T13:39:22",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 710,
     "also_covered_by": []
   },
   {
@@ -800,16 +740,6 @@
     "also_covered_by": []
   },
   {
-    "title": "ToxicPanda Android Malware Can Steal Banking PINs and Gain Shell Access to Phones",
-    "summary": "<p>A new version of the ToxicPanda Android banking trojan is widening the danger for mobile users. The malware can steal banking PINs, imitate trusted screens, and take deeper control of infected phones through a feature intended for developers. ToxicPanda 2.0 arrives with a far broader set of targets and remote commands than earlier versions. It [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/toxicpanda-android-malware/\">ToxicPanda Android Malware Can Steal Banking PINs and Gain Shell Access to Phones</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/toxicpanda-android-malware/",
-    "published": "2026-08-20T13:55:54",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 703,
-    "also_covered_by": []
-  },
-  {
     "title": "How MSPs can catch phishing attacks email filters miss",
     "summary": "AI is making phishing attacks more personalized, convincing, and difficult for traditional email filters to detect. Kaseya explains how MSPs can monitor identity, email, and endpoint activity to detect and contain attacks that make it past the inbox. [...]",
     "link": "https://www.bleepingcomputer.com/news/security/how-msps-can-catch-phishing-attacks-email-filters-miss/",
@@ -817,6 +747,16 @@
     "source": "bleepingcomputer.com",
     "category": "Phishing / Scams",
     "importance_score": 675,
+    "also_covered_by": []
+  },
+  {
+    "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
+    "summary": "A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organizations that used the cloud data storage provider Snowflake. Connor Riley Moucka, of Kitchener, Ontario, also admitted to stealing call and text history records of more than 100 million AT&#038;T customers.",
+    "link": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
+    "published": "2026-08-06T17:00:56",
+    "source": "krebsonsecurity.com",
+    "category": "Phishing / Scams",
+    "importance_score": 661,
     "also_covered_by": []
   },
   {
@@ -900,16 +840,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Microsoft Defender Driver Can Be Weaponized to Disable EDR and AV From Windows Kernel",
-    "summary": "<p>Microsoft Defender’s legitimate Boot-Time Removal (BTR.sys) driver can be repurposed to perform powerful kernel-level file and registry operations, potentially enabling attackers with administrative privileges to neutralize endpoint security protections. The Check Point research does not describe a conventional vulnerability or memory-corruption flaw; instead, it exposes how a trusted, Microsoft-signed remediation component can become a Living-off-the-Land [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/defender-driver-can-be-weaponized/\">Microsoft Defender Driver Can Be Weaponized to Disable EDR and AV From Windows Kernel</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/defender-driver-can-be-weaponized/",
-    "published": "2026-08-20T16:39:41",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 635,
-    "also_covered_by": []
-  },
-  {
     "title": "Three-quarters of Ransomware Attacks Target Mid-Market Firms",
     "summary": "Black Kite finds mid-market is the sweet spot for ransomware as manufacturers are most likely to be hit",
     "link": "https://www.infosecurity-magazine.com/news/threequarters-ransomware-attacks/",
@@ -927,16 +857,6 @@
     "source": "infosecurity-magazine.com",
     "category": "Vulnerability",
     "importance_score": 618,
-    "also_covered_by": []
-  },
-  {
-    "title": "Microsoft named a Leader in the Frost Radar™: Cloud Workload Protection Platforms, 2026",
-    "summary": "<p>Microsoft is named a visionary leader in the 2026 Frost Radar for Cloud Workload Protection Platforms, recognized for unified runtime security with Microsoft Defender for Cloud.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/08/19/microsoft-named-a-leader-in-the-frost-radar-cloud-workload-protection-platforms-2026/\">Microsoft named a Leader in the Frost Radar™: Cloud Workload Protection Platforms, 2026</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/08/19/microsoft-named-a-leader-in-the-frost-radar-cloud-workload-protection-platforms-2026/",
-    "published": "2026-08-19T17:30:00",
-    "source": "microsoft.com",
-    "category": "Other",
-    "importance_score": 611,
     "also_covered_by": []
   },
   {
@@ -967,16 +887,6 @@
     "source": "thehackernews.com",
     "category": "Vulnerability",
     "importance_score": 602,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hunting MacSync Stealer infrastructure through behavioral pivots",
-    "summary": "<p>MacSync Stealer rapidly rotates domains to evade detection, but its behavior remains consistent. Learn how Microsoft uncovered 30+ related domains using durable hunting pivots.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/08/18/hunting-macsync-stealer-infrastructure-through-behavioral-pivots/\">Hunting MacSync Stealer infrastructure through behavioral pivots</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/08/18/hunting-macsync-stealer-infrastructure-through-behavioral-pivots/",
-    "published": "2026-08-18T17:08:28",
-    "source": "microsoft.com",
-    "category": "Other",
-    "importance_score": 596,
     "also_covered_by": []
   },
   {
@@ -1310,16 +1220,6 @@
     "also_covered_by": []
   },
   {
-    "title": "CRLF-Powered Desync Lets Attackers Poison CDN Cache and Serve XSS to Live Users",
-    "summary": "<p>A limited CRLF injection flaw can be escalated into a severe HTTP desynchronization attack, poisoning CDN caches and delivering XSS payloads to users on legitimate websites. The attack, called CRLF-Powered Desync, begins when an application incorrectly handles encoded carriage return and line feed characters, commonly represented as&#160;%0d%0a. These characters mark new lines in HTTP messages. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/crlf-powered-desync-attack/\">CRLF-Powered Desync Lets Attackers Poison CDN Cache and Serve XSS to Live Users</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/crlf-powered-desync-attack/",
-    "published": "2026-08-20T17:04:18",
-    "source": "cybersecuritynews.com",
-    "category": "Policy / Law",
-    "importance_score": 466,
-    "also_covered_by": []
-  },
-  {
     "title": "New Zombie Card Attack Lets Expired Visa Cards Make Contactless Payments",
     "summary": "<p>Security researchers have demonstrated a “Zombie Card” attack that can reactivate certain expired Visa contactless cards, allowing them to be used for NFC payments. This attack exploits a vulnerability in Visa’s EMV Kernel 3 regarding the handling of card expiry data. An attacker, positioned between the card and the payment terminal, can modify the expiry [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/new-zombie-card-attack/\">New Zombie Card Attack Lets Expired Visa Cards Make Contactless Payments</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
     "link": "https://gbhackers.com/new-zombie-card-attack/",
@@ -1327,16 +1227,6 @@
     "source": "gbhackers.com",
     "category": "Vulnerability",
     "importance_score": 462,
-    "also_covered_by": []
-  },
-  {
-    "title": "AWS Shows How to Stop a Hijacked AI Agent From Reading Data the User Cannot Access",
-    "summary": "<p>Enterprises are racing to deploy AI agents that pull from databases, document repositories, SaaS platforms, and internal knowledge bases to automate workflows. But a quiet risk lurks beneath the convenience: most agents have no built-in awareness of who is actually asking the question, which means a compromised or manipulated agent could hand over data the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/aws-ai-agent-data-access/\">AWS Shows How to Stop a Hijacked AI Agent From Reading Data the User Cannot Access</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/aws-ai-agent-data-access/",
-    "published": "2026-08-20T16:55:37",
-    "source": "cybersecuritynews.com",
-    "category": "AI & Security",
-    "importance_score": 456,
     "also_covered_by": []
   },
   {
@@ -1470,16 +1360,6 @@
     "also_covered_by": []
   },
   {
-    "title": "ChainDrop supply chain compromise: Anatomy of a self-propagating worm",
-    "summary": "<p>A credential-stealing worm hidden in more than 400 compromised npm packages automatically spread across software ecosystems by republishing malicious updates. This analysis details the attack chain, affected environments, and practical guidance for detection, hunting, and remediation.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/\">ChainDrop supply chain compromise: Anatomy of a self-propagating worm</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/",
-    "published": "2026-08-04T23:46:41",
-    "source": "microsoft.com",
-    "category": "Other",
-    "importance_score": 425,
-    "also_covered_by": []
-  },
-  {
     "title": "Dissecting the JWR phishing framework",
     "summary": "Cisco Talos recently identified an undocumented phishing framework, internally branded \"JWR\" by its developer, built to convincingly impersonate checkout and login pages across major payment and shopping platforms.",
     "link": "https://blog.talosintelligence.com/dissecting-the-jwr-phishing-framework/",
@@ -1540,26 +1420,6 @@
     "also_covered_by": []
   },
   {
-    "title": "​​Microsoft named a Leader in the KuppingerCole Leadership Compass for Cloud Native Application Protection Platforms (CNAPP)",
-    "summary": "<p>Learn why KuppingerCole named Microsoft a Leader in its Leadership Compass: Cloud Native Application Protection Platforms report.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/08/05/microsoft-named-a-leader-in-the-kuppingercole-leadership-compass-for-cloud-native-application-protection-platforms-cnapp/\">​​Microsoft named a Leader in the KuppingerCole Leadership Compass for Cloud Native Application Protection Platforms (CNAPP)</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/08/05/microsoft-named-a-leader-in-the-kuppingercole-leadership-compass-for-cloud-native-application-protection-platforms-cnapp/",
-    "published": "2026-08-05T16:30:00",
-    "source": "microsoft.com",
-    "category": "Other",
-    "importance_score": 410,
-    "also_covered_by": []
-  },
-  {
-    "title": "From open lures to cloaked gates: How a macOS ClickFix campaign learned to hide",
-    "summary": "<p>A macOS ClickFix campaign shifted tactics from openly serving infostealer lures to hiding them behind a browser-fingerprinting gate. The change makes malicious infrastructure harder to detect while giving defenders new hunting opportunities.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/08/05/macos-clickfix-campaign-learned-hide/\">From open lures to cloaked gates: How a macOS ClickFix campaign learned to hide</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/08/05/macos-clickfix-campaign-learned-hide/",
-    "published": "2026-08-05T15:48:39",
-    "source": "microsoft.com",
-    "category": "Other",
-    "importance_score": 404,
-    "also_covered_by": []
-  },
-  {
     "title": "Head Mare APT is exploiting vulnerabilities in an unpatched TrueConf server to deliver PhantomCore and PhantomGraph to video conference participants",
     "summary": "Kaspersky experts have discovered malicious TrueConf software installers. The Head Mare APT group uses them to deliver the PhantomCore and PhantomGraph backdoors to target systems by exploiting vulnerabilities in an unpatched TrueConf server.",
     "link": "https://securelist.com/tr/head-mare-targets-trueconf-server-with-phantomcore/120988/",
@@ -1580,16 +1440,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Microsoft named a Leader in the 2026 IDC MarketScape for MDR/MXDR for the Enterprise",
-    "summary": "<p>Microsoft is named a Leader in the 2026 IDC MarketScape for MDR services. Discover how Microsoft Defender Experts MDR combines AI, threat intelligence, and human expertise.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/08/10/microsoft-named-a-leader-in-the-2026-idc-marketscape-for-mdr-mxdr-for-the-enterprise/\">Microsoft named a Leader in the 2026 IDC MarketScape for MDR/MXDR for the Enterprise </a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/08/10/microsoft-named-a-leader-in-the-2026-idc-marketscape-for-mdr-mxdr-for-the-enterprise/",
-    "published": "2026-08-10T16:00:00",
-    "source": "microsoft.com",
-    "category": "Other",
-    "importance_score": 399,
-    "also_covered_by": []
-  },
-  {
     "title": "OctLurk and SilkLurk: newly identified tailored backdoors in cyber-espionage campaign in Central Asia",
     "summary": "Our experts discovered OctLurk and SilkLurk, backdoors operating primarily in memory, targeting Central Asia. They inject plugins to launch shells, scan networks, dump credentials, and keylogging.",
     "link": "https://securelist.com/octlurk-silklurk-backdoors-central-asia/120840/",
@@ -1607,16 +1457,6 @@
     "source": "securelist.com",
     "category": "Other",
     "importance_score": 387,
-    "also_covered_by": []
-  },
-  {
-    "title": "Advance Zero Trust for AI: New tools and guidance to secure AI agents and DevSecOps",
-    "summary": "<p>Microsoft expands its Zero Trust for AI strategy to enhance security for AI and DevSecOps environments with new tools and guidance.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/08/04/advance-zero-trust-for-ai-new-tools-and-guidance-to-secure-ai-agents-and-devsecops/\">Advance Zero Trust for AI: New tools and guidance to secure AI agents and DevSecOps</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/08/04/advance-zero-trust-for-ai-new-tools-and-guidance-to-secure-ai-agents-and-devsecops/",
-    "published": "2026-08-04T18:30:00",
-    "source": "microsoft.com",
-    "category": "AI & Security",
-    "importance_score": 383,
     "also_covered_by": []
   },
   {
@@ -1657,6 +1497,16 @@
     "source": "zdnet.com",
     "category": "Other",
     "importance_score": 341,
+    "also_covered_by": []
+  },
+  {
+    "title": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
+    "summary": "The Federal Bureau of Investigation (FBI) said today it worked with industry partners to seize hundreds of domains associated with NetNut, a sprawling residential proxy service operated by the publicly-traded Israeli company Alarum Technologies [NASDAQ: ALAR]. The action comes roughly two weeks after KrebsOnSecurity published findings from multiple security firms connecting NetNut to the Popa botnet, a collection of at least two million devices that have been compromised by malicious software with little or no consent from victims.",
+    "link": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/",
+    "published": "2026-07-02T19:27:33",
+    "source": "krebsonsecurity.com",
+    "category": "Other",
+    "importance_score": 340,
     "also_covered_by": []
   },
   {
@@ -1850,6 +1700,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Lessons Learned from CISA’s Recent GitHub Leak",
+    "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud keys -- in a public GitHub repository for almost six months before being notified by KrebsOnSecurity. Experts say the gaps identified in the agency's initial response provide important lessons that all security teams should absorb.",
+    "link": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
+    "published": "2026-07-13T15:03:28",
+    "source": "krebsonsecurity.com",
+    "category": "Data Breach",
+    "importance_score": 307,
+    "also_covered_by": []
+  },
+  {
     "title": "Malware Crypting Services and the Threat Actors Who Sell Them",
     "summary": "Insikt Group analyzes 24 threat actors selling malware crypting services. Learn about their evasion techniques, market dynamics, and how defenders can prioritize behavioral detection over static analysis.",
     "link": "https://www.recordedfuture.com/research/malware-crypting-services-threat-actors",
@@ -1857,6 +1717,16 @@
     "source": "recordedfuture.com",
     "category": "Other",
     "importance_score": 301,
+    "also_covered_by": []
+  },
+  {
+    "title": "Microsoft Patches a Record 570 Security Flaws",
+    "summary": "Microsoft Corp. today released software updates to plug at least 570 security holes in its Windows operating systems and other software, almost triple the number of vulnerabilities the software giant fixed in its record-smashing Patch Tuesday release last month. Microsoft attributed the burgeoning patch counts to vulnerability discoveries aided by artificial intelligence.",
+    "link": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
+    "published": "2026-07-14T19:22:42",
+    "source": "krebsonsecurity.com",
+    "category": "Vulnerability",
+    "importance_score": 291,
     "also_covered_by": []
   },
   {
@@ -2270,6 +2140,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Who’s Tracking You? Use This New Service to Find Out",
+    "summary": "It can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we use every day. That information is already semi-public, but it is not easily parsed and traditionally much of it has remained walled away in the hands of large advertising platforms. Not anymore: A powerful and free new service called DecryptAds scrapes and correlates this adtech data and makes it simple to quickly learn a great deal about the entities that are tracking you.",
+    "link": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
+    "published": "2026-08-14T11:24:35",
+    "source": "krebsonsecurity.com",
+    "category": "Other",
+    "importance_score": 154,
+    "also_covered_by": []
+  },
+  {
     "title": "Behind the Scenes: Fixing an In-the-Wild Firefox Exploit",
     "summary": "<p>At Mozilla, browser security is a critical mission, and part of that mission involves responding swiftly to new threats. Tuesday, around 8 AM Eastern time, we received a heads-up from &#8230; <a class=\"go\" href=\"https://blog.mozilla.org/security/2024/10/11/behind-the-scenes-fixing-an-in-the-wild-firefox-exploit/\">Read more</a></p>\n<p>The post <a href=\"https://blog.mozilla.org/security/2024/10/11/behind-the-scenes-fixing-an-in-the-wild-firefox-exploit/\">Behind the Scenes: Fixing an In-the-Wild Firefox Exploit</a> appeared first on <a href=\"https://blog.mozilla.org/security\">Mozilla Security Blog</a>.</p>",
     "link": "https://blog.mozilla.org/security/2024/10/11/behind-the-scenes-fixing-an-in-the-wild-firefox-exploit/",
@@ -2317,6 +2197,16 @@
     "source": "blog.mozilla.org",
     "category": "Other",
     "importance_score": 144,
+    "also_covered_by": []
+  },
+  {
+    "title": "Read This Before You Buy That TV Streaming Stick",
+    "summary": "Security experts have been sounding the alarm for years about the risks of using generic TV boxes that promise unlimited content streaming for a one-time fee, warning that they secretly rent the user's Internet connection out to strangers. But a groundbreaking new analysis finds these devices also routinely spoof themselves as mobile phones clicking ads on AI-generated websites as part of sprawling operation that seeks to defraud online merchants and advertising networks.",
+    "link": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
+    "published": "2026-07-30T16:49:00",
+    "source": "krebsonsecurity.com",
+    "category": "Phishing / Scams",
+    "importance_score": 142,
     "also_covered_by": []
   },
   {
@@ -2397,6 +2287,16 @@
     "source": "unit42.paloaltonetworks.com",
     "category": "Other",
     "importance_score": 123,
+    "also_covered_by": []
+  },
+  {
+    "title": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
+    "summary": "Two men pleaded guilty in the United Kingdom this week to criminal charges stemming from an August 2024 cyberattack that crippled Transport for London, the entity responsible for the public transport network in the Greater London area. The duo were key members of a prolific cybercrime group known as Scattered Spider, and their guilty pleas came on the first day of what was expected to be a six-week trial.",
+    "link": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
+    "published": "2026-06-23T16:12:49",
+    "source": "krebsonsecurity.com",
+    "category": "Other",
+    "importance_score": 122,
     "also_covered_by": []
   },
   {
