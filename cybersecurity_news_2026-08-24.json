@@ -50,6 +50,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Weekly Cyber Security Newsletter Bulletin – Entra ID RCE, Claude Code Ransomware, T-Mobile Cable, Azure Credential Theft +20 Stories",
+    "summary": "<p>This week&#8217;s bulletin captures a cybersecurity landscape increasingly shaped by artificial intelligence, both as a weapon and a shield. A ransomware affiliate weaponized Claude Code to autonomously steal LDAP credentials, backdoor VPNs, and exfiltrate SQL databases, while a separate criminal AI service called MessiahGPT surfaced on BreachForums offering uncensored malware generation to low-skill attackers. On [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/cyber-security-newsletter-bulletin-august/\">Weekly Cyber Security Newsletter Bulletin – Entra ID RCE, Claude Code Ransomware, T-Mobile Cable, Azure Credential Theft +20 Stories</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/cyber-security-newsletter-bulletin-august/",
+    "published": "2026-08-23T16:45:52",
+    "source": "cybersecuritynews.com",
+    "category": "Ransomware",
+    "importance_score": 2038,
+    "also_covered_by": []
+  },
+  {
     "title": "Android Quick Share Support for AirDrop: A Secure Approach to Cross-Platform File Sharing",
     "summary": "<span class=\"byline-author\">Posted by Dave Kleidermacher, VP, Platforms Security & Privacy, Google</span>\n\n<p>\nTechnology should bring people closer together, not create walls. Being able to communicate and connect with friends and family should be easy regardless of the phone they use. That’s why Android has been building experiences that help you stay connected across platforms.\n</p>\n<p>\nAs part of our efforts to continue to make cross-platform communication more seamless for users, we've made Quick Share interoperable with AirDrop, allowing for two-way file sharing between Android and iOS devices, starting with the Pixel 10 Family. This new feature makes it possible to quickly share your photos, videos, and files with people you choose to communicate with, without worrying about the kind of phone they use. \n</p>\n<p>\nMost importantly, when you share personal files and content, you need to trust that it stays secure. You can share across devices with confidence knowing we built this feature with security at its core, protecting your data with strong safeguards that have been tested by independent security experts.\n</p>\n<h3>Secure by Design</h3>\n\n\n<p>\nWe built Quick Share’s interoperability support for AirDrop with the same rigorous security standards that we apply to all Google products. Our approach to security is proactive and deeply integrated into every stage of the development process. This includes:\n</p>\n<ul>\n\n<li><strong>Threat Modeling:</strong> We identify and address potential security risks before they can become a problem.</li>\n\n<li><strong>Internal Security Design and Privacy Reviews:</strong> Our dedicated security and privacy teams thoroughly review the design to ensure it meets our high standards.</li>\n\n<li><strong>Internal Penetration Testing:</strong> We conduct extensive in-house testing to identify and fix vulnerabilities.</li>\n</ul>\n<p>\nThis <a href=\"https://blog.google/technology/safety-security/tackling-cybersecurity-vulnerabilities-through-secure-by-design/\">Secure by Design</a> philosophy ensures that all of our products are not just functional but also fundamentally secure.\n</p>\n<p>\nThis feature is also protected by a multi-layered security approach to ensure a safe sharing experience from end-to-end, regardless of what platform you’re on. \n</p>\n<ul>\n\n<li><strong>Secure Sharing Channel:</strong> The communication channel itself is hardened by our use of Rust to develop this feature. This memory-safe language is the industry benchmark for building secure systems and provides confidence that the connection is protected against buffer overflow attacks and other common vulnerabilities. </li>\n\n<li><strong>Built-in Platform Protections: </strong>This feature is strengthened by the robust built-in security of both Android and iOS. On Android, security is built in at every layer. Our deep investment in Rust at the OS level hardens the foundation, while proactive defenses like <a href=\"https://support.google.com/googleplay/answer/2812853?hl=en\">Google Play Protect</a> work to keep your device safe. This is complemented by the security architecture of iOS that provides its own strong safeguards that mitigate malicious files and exploitation. These overlapping protections on both platforms work in concert with the secure connection to provide comprehensive safety for your data when you share or receive.</li>\n\n<li><strong>You’re in Control: </strong>Sharing across platforms works just like you're used to: a file requires your approval before being received, so you're in control of what you accept.</li>\n</ul>\n<h3>The Power of Rust: A Foundation of Secure Communication</h3>\n\n\n<p>\nA key element of our security strategy for the interoperability layer between Quick Share and AirDrop is the use of the memory-safe Rust programming language. Recognized by security agencies around the world, including the <a href=\"https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/article/3608324/us-and-international-partners-issue-recommendations-to-secure-software-products/\">NSA</a> and <a href=\"https://media.defense.gov/2025/Jun/23/2003742198/-1/-1/0/CSI_MEMORY_SAFE_LANGUAGES_REDUCING_VULNERABILITIES_IN_MODERN_SOFTWARE_DEVELOPMENT.PDF\">CISA</a>, Rust is widely considered the industry benchmark for building secure systems because it eliminates entire classes of memory-safety vulnerabilities by design.\n</p>\n<p>\n<a href=\"https://security.googleblog.com/2024/09/eliminating-memory-safety-vulnerabilities-Android.html\">Rust is already a cornerstone</a> of our broader initiative to eliminate memory safety bugs across Android. Its selection for this feature was deliberate, driven by the unique security challenges of cross-platform communication that demanded the most robust protections for memory safety.\n</p>\n<p>\nThe core of this feature involves receiving and parsing data sent over a wireless protocol from another device. Historically, when using a memory-unsafe language, bugs in data parsing logic are one of the most common sources of high-severity security vulnerabilities. A malformed data packet sent to a parser written in a memory-unsafe language can lead to buffer overflows and other memory corruption bugs, creating an opportunity for code execution.\n</p>\n<p>\nThis is precisely where Rust provides a robust defense. Its compiler enforces strict ownership and borrowing rules at compile time, which guarantees memory safety. Rust removes entire classes of memory-related bugs. This means our implementation is inherently resilient against attackers attempting to use maliciously crafted data packets to exploit memory errors. \n</p>\n<h3>Secure Sharing Using AirDrop's \"Everyone\" Mode</h3>\n\n\n<p>\nTo ensure a seamless experience for both Android and iOS users, Quick Share currently works with AirDrop's \"Everyone for 10 minutes\" mode. This feature does not use a workaround; the connection is direct and peer-to-peer, meaning your data is never routed through a server, shared content is never logged, and no extra data is shared. As with \"Everyone for 10 minutes\" mode on any device when you’re sharing between non-contacts, you can ensure you're sharing with the right person by confirming their device name on your screen with them in person.</p>\n<p>This implementation using \"Everyone for 10 minutes” mode is just the first step in seamless cross-platform sharing, and we welcome the opportunity to work with Apple to enable “Contacts Only” mode in the future.\n</p>\n<h3>Tested by Independent Security Experts</h3>\n\n\n<p>\nAfter conducting our own secure product development, internal threat modeling, privacy reviews, and red team penetration tests, we engaged with <strong><a href=\"https://www.netspi.com/\">NetSPI</a></strong>, a leading third-party penetration testing firm, to further validate the security of this feature and conduct an <a href=\"https://www.netspi.com/wp-content/uploads/2025/11/google-feature-review-report.pdf\">independent security assessment</a>. The assessment found the interoperability between Quick Share and AirDrop is secure, is “notably stronger” than other industry implementations and does not leak any information. \n</p>\n<p>\nBased on these internal and external assessments, we believe our implementation provides a strong security foundation for cross-platform file sharing for both Android and iOS users. We will continue to evaluate and enhance the implementation’s security in collaboration with additional third-party partners.\n</p>\n<p>\nTo complement this deep technical audit, we also sought expert third-party perspective on our approach from <a href=\"https://crypto.stanford.edu/~dabo/\">Dan Boneh</a>, a renowned security expert and professor at Stanford University:\n</p>\n<p>\n“Google’s work on this feature, including the use of memory safe Rust for the core communications layer, is a strong example of how to build secure interoperability, ensuring that cross-platform information sharing remains safe. I applaud the effort to open more secure information sharing between platforms and encourage Google and Apple to work together more on this.\"\n</p>\n<h3>The Future of File-Sharing Should Be Interoperable</h3>\n\n\n<p>\nThis is just the first step as we work to improve the experience and expand it to more devices. We look forward to continuing to work with industry partners to make connecting and communicating across platforms a secure, seamless experience for all users.\n</p>",
     "link": "http://security.googleblog.com/2025/11/android-quick-share-support-for-airdrop-security.html",
@@ -70,6 +80,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Cybersecurity Newsletter Bulletin– Top 50 Biggest Cybersecurity Stories of the Week – Shell & Azure Mega-Breaches, Salt Typhoon Evicted, Entra ID RCE, Chinese vCenter ESXi Ransomware & More",
+    "summary": "<p>Welcome to this week&#8217;s edition of the GBHackers cybersecurity newsletter — your weekly cybersecurity bulletin covering the 50 most important stories from August 17–21, 2026. Breaches and exploited flaws dominated: Cl0p claimed 89GB from Shell, a mass Azure credential-theft campaign hit McDonald&#8217;s and Vodafone, and T-Mobile physically cut a cable to evict Salt Typhoon. CISA [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cybersecurity-newsletter-bulletin-stories/\">Cybersecurity Newsletter Bulletin– Top 50 Biggest Cybersecurity Stories of the Week &#8211; Shell &amp; Azure Mega-Breaches, Salt Typhoon Evicted, Entra ID RCE, Chinese vCenter ESXi Ransomware &amp; More</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/cybersecurity-newsletter-bulletin-stories/",
+    "published": "2026-08-24T03:37:01",
+    "source": "gbhackers.com",
+    "category": "Ransomware",
+    "importance_score": 1700,
+    "also_covered_by": []
+  },
+  {
     "title": "Keeping Google Play & Android app ecosystems safe in 2025",
     "summary": "<span class=\"byline-author\">Posted by Vijaya Kaza, VP and GM, App & Ecosystem Trust</span>\n\n<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNWPkN36d-E-0ZgVQNZYRep5TH3AnZltbtmu6PO7XLRULe4BuLMiRjS9z25JVTNu-imtoi2efJL2p-T4hu7eXdVirZIoNwIhEOY1p7pVtZwpzsmzIV8chhYOOz7ML5qFHoS0gz7Q3sNQwInc4sV4AaHavaIwn5twlSmjmuHG66uasapArBcBNMIg0XG0et/s1600/SafeAppEcosystem_BlogHero_Still_1920x1080.png\" style=\"display: block; padding: 1em 0; text-align: center;\"><img alt=\"\" border=\"0\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNWPkN36d-E-0ZgVQNZYRep5TH3AnZltbtmu6PO7XLRULe4BuLMiRjS9z25JVTNu-imtoi2efJL2p-T4hu7eXdVirZIoNwIhEOY1p7pVtZwpzsmzIV8chhYOOz7ML5qFHoS0gz7Q3sNQwInc4sV4AaHavaIwn5twlSmjmuHG66uasapArBcBNMIg0XG0et/s1600/SafeAppEcosystem_BlogHero_Still_1920x1080.png\" /></a></div>\n\n\n<p>\nThe Android ecosystem is a thriving global community built on trust, giving billions of users the confidence to download the latest apps. In order to maintain that trust, we’re focused on  ensuring that apps do not cause real-world harm, such as malware, financial fraud, hidden subscriptions, and privacy invasions. As bad actors leverage AI to change their tactics and launch increasingly sophisticated attacks, we’ve deepened our investments in AI and real-time defenses over the last year to maintain the upper hand and stop these threats before they reach users.\n</p>\n<h3>Upgrading Google Play’s AI-powered, multi-layered user protections</h3>\n\n\n<p>\nWe’ve seen a clear impact from these safety efforts on Google Play. In 2025, <strong>we prevented over 1.75 million policy-violating apps from being published on Google Play </strong>and<strong> banned more than 80,000 bad developer accounts that attempted to publish harmful apps. </strong>These figures demonstrate how our proactive protections and push for a more accountable ecosystem are discouraging bad actors from publishing malicious apps, while our new tools help honest developers build compliant apps more easily. Initiatives like developer verification, mandatory pre-review checks, and testing requirements have raised the bar for the Google Play ecosystem, significantly reducing the paths for bad actors to enter.\n</p>\n\n<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXqjB3En8VZFiwKb-q2dzxMdWauGxhuxJyMFuwwRrEMYLvx8EvQbpyfwth1M1SamrAc8vwZvZVoP4GYe7PPpFVwFTevniOYB7bLFAWPQ8cD074hraPEkevtcTnVgPbP_OO9Oo0Ohl6-3LpwaRAUnt-uwzSNcl5yEvYK7uBNEpBNGaQds8c5-ynRhsKCseL/s1600/SafeAppEcosystem_HeroVisual_3Claims_1920x1080.png\" style=\"display: block; padding: 1em 0; text-align: center;\"><img alt=\"\" border=\"0\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXqjB3En8VZFiwKb-q2dzxMdWauGxhuxJyMFuwwRrEMYLvx8EvQbpyfwth1M1SamrAc8vwZvZVoP4GYe7PPpFVwFTevniOYB7bLFAWPQ8cD074hraPEkevtcTnVgPbP_OO9Oo0Ohl6-3LpwaRAUnt-uwzSNcl5yEvYK7uBNEpBNGaQds8c5-ynRhsKCseL/s1600/SafeAppEcosystem_HeroVisual_3Claims_1920x1080.png\" /></a></div>\n\n<p>\nUser safety is at the core of everything we build. Over the years, we’ve continually introduced ways to help users stay safe and make informed app choices — from <a href=\"https://support.google.com/googleplay/answer/1075738\">parental controls</a> to <a href=\"https://support.google.com/googleplay/answer/11416267\">data safety transparency</a> and <a href=\"https://android-developers.googleblog.com/2025/01/helping-users-find-trusted-apps-on-google-play.html\">app badges</a>. We’re constantly improving our policies and protections to encourage safe, high-quality apps on Google Play and stop bad actors before they cause harm.\n</p>\n<p>\nApps on Google Play undergo rigorous reviews for safety and compliance with our policies. Last year, <a href=\"https://blog.google/products-and-platforms/platforms/google-play/keeping-google-play-safe-2025/\">we shared</a> that Google Play runs <strong>over 10,000 safety checks</strong> on every app we publish, and we continue to check and recheck apps after they’ve been published. In 2025, we continued scaling our defenses even further by:\n</p>\n<ul>\n\n<li><strong>Boosting AI-enhanced app detection</strong>: We integrated Google’s latest generative AI models into our review process, helping our human review team continue to find complex malicious patterns faster.</li>\n\n<li><strong>Preventing unnecessary access to sensitive data:</strong> We prevented<strong> over 255,000 apps</strong> from getting excessive access to sensitive user data and continued to strengthen our privacy policies. Our commitment to privacy-forward app development, supported by tools like Play Policy Insights in <a href=\"https://developer.android.com/studio\">Android Studio</a> and <a href=\"https://support.google.com/googleplay/android-developer/answer/10787469?hl=en\">Data safety section</a>, has empowered developers to continue to: minimize privacy-sensitive permission requests, and prioritize the user in their design choices.</li>\n\n<li><strong>Blocking spam ratings and reviews:</strong> Whether they lead to review inflation or deflation, spam ratings and reviews can negatively impact our users’ trust and our developers’ growth. We’re continually evolving our detection models to help ensure app reviews are accurate. Our anti-spam protections blocked <strong>160 million spam ratings and reviews </strong>last year, including inflated and deflated reviews.  We also <strong>prevented an average 0.5-star rating drop</strong> for apps targeted by review bombing, protecting our users and developers from unhelpful reviews.</li>\n\n<li><strong>Safeguarding kids and families</strong>: Our approach to kids and families is built on the core belief that children deserve a safe, enriching digital environment. Our commitment is to empower parents with robust tools while providing children with access to high-quality, age-appropriate content. Last year, we announced <a href=\"https://support.google.com/googleplay/android-developer/answer/16302250?sjid=17958105945234987629-NC\">new layers of protection</a>, in addition to our existing <a href=\"https://blog.google/technology/safety-security/age-assurance-measures-safer-online-kids-teens-us/\">safeguards</a>, to prevent younger audiences from discovering or downloading apps involving activities like gambling or dating. </li>\n</ul>\n<h3>Enhancing Google Play Protect to help keep the entire Android ecosystem safe</h3>\n\n\n<p>\nWe also continued to improve our protections for the broader Android ecosystem, by expanding <a href=\"https://support.google.com/googleplay/answer/2812853?hl=en\">Google Play Protect</a> and real-time security measures like in-call scam protections to help keep users safe from scams, fraud, and other threats.\n</p>\n<p>\n<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRRyFyWuAAS0qmMVtLZaUEybmZ13gxGFxa6UsF_BGUocGCqDI6OAH-wM6_Fl84ZRyGZKnHcOCR4ceaPacTMsGsHtkb1R6lWlrcF1BAxBBt06KAe0n-t7C1gn7IMDC7rLZGY2bBshE1oR-0rCaYWponr8e6bh0AQP5K4koLy1CahuD9lT5Ay1I4JjaCSKb3/s1600/SafeAppEcosystem_GooglePlayProtectRealTimeScanning_1920x1080.png\" style=\"display: block; padding: 1em 0; text-align: center;\"><img alt=\"\" border=\"0\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRRyFyWuAAS0qmMVtLZaUEybmZ13gxGFxa6UsF_BGUocGCqDI6OAH-wM6_Fl84ZRyGZKnHcOCR4ceaPacTMsGsHtkb1R6lWlrcF1BAxBBt06KAe0n-t7C1gn7IMDC7rLZGY2bBshE1oR-0rCaYWponr8e6bh0AQP5K4koLy1CahuD9lT5Ay1I4JjaCSKb3/s1600/SafeAppEcosystem_GooglePlayProtectRealTimeScanning_1920x1080.png\" /></a></div>\n\n<p>\nAs Android’s built-in defense against malware and unwanted software, <strong>Google Play Protect now scans over 350 billion Android apps daily.</strong> This proactive protection constantly checks both Play apps and those from other sources to ensure they are not potentially harmful. And, last year, its real-time scanning capability identified <strong>more than 27 million </strong>new malicious apps from outside Google Play, warning users or blocking the app to neutralize the threat. To benefit from these protections, we recommend that users always keep Google Play Protect on. \n</p>\n<p>\nWhile fraudsters are constantly evolving their tactics, Google Play Protect is evolving faster. Last year, we expanded:\n</p>\n<ul>\n\n<li><strong>Enhanced fraud protection:</strong> Google Play Protect’s <a href=\"https://security.googleblog.com/2024/02/piloting-new-ways-to-protect-Android-users-from%20financial-fraud.html\">enhanced fraud protection</a> analyzes and automatically blocks the installation of apps that may abuse sensitive permissions to commit financial fraud. This protection is triggered when a user attempts to install an app from an \"Internet-sideloading source\" — such as a web browser or messaging app — that requests a sensitive permission. Building on the success of our initial pilot in Singapore, we expanded enhanced fraud protection to <strong>185 markets</strong>, now covering more than <strong>2.8 billion Android devices</strong>. In 2025, we <strong>blocked 266 million risky installation attempts</strong> and<strong> helped protect users from 872,000 unique, high-risk applications.</strong></li>\n\n<li><strong>In-call scam protection:</strong> We also <a href=\"https://security.googleblog.com/2025/05/whats-new-in-android-security-privacy-2025.html\">introduced</a> new protections to combat social engineering attacks during phone calls. This feature preemptively disables the ability to turn off Google Play Protect during phone calls, stopping bad actors from being able to trick users into disabling their device's built-in defenses to download a malicious app while on a call.</li>\n</ul>\n<h3>Partnering with developers for a more secure, privacy-friendly future</h3>\n\n\n<p>\nKeeping Android and Google Play safe requires deep collaboration. We want to thank our global developer community for their partnership and for sharing their feedback on the tools and support they need to succeed.\n</p>\n<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuQSOEIEqh9WkZLhfDByQYwJ5oCPUI_tux-OhPo3qgJ9LZ0Uuphey0RcUPiiIoqOcE8eEOWqSreJsex9f_8UAn8JUn8wnc3AcApCymgrDn3YCHeudyrH5QI22iArfEGKjluM1jKVujCXLRwmH06V2MnaSO3f_koSgMelHiuwPJtKQHKwcFi6AksS3TRqWY/s1600/SafeAppEcosystem_PlayIntegrityAPI_1920x1080.png\" style=\"display: block; padding: 1em 0; text-align: center;\"><img alt=\"\" border=\"0\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuQSOEIEqh9WkZLhfDByQYwJ5oCPUI_tux-OhPo3qgJ9LZ0Uuphey0RcUPiiIoqOcE8eEOWqSreJsex9f_8UAn8JUn8wnc3AcApCymgrDn3YCHeudyrH5QI22iArfEGKjluM1jKVujCXLRwmH06V2MnaSO3f_koSgMelHiuwPJtKQHKwcFi6AksS3TRqWY/s1600/SafeAppEcosystem_PlayIntegrityAPI_1920x1080.png\" /></a></div>\n<p>\n In 2025, we focused on reducing friction for developers and providing them with tools to safeguard their businesses:\n</p>\n<ul>\n\n<li><strong>Building safer apps more easily</strong>: We’re helping developers streamline their work by bringing insights directly into their natural workflows. It starts with <a href=\"https://developer.android.com/studio/publish/insights\">Play Policy Insights in Android Studio</a>, which gives developers real-time feedback as they code. We focused first on permissions and APIs that grant deeper system access or handle personal data, like location or photos. This gives developers a head start on policy requirements, including prominent disclosures or usage declarations, while they’re still building. When developers move to Play Console to prepare their apps for submission, our expanded <a href=\"https://support.google.com/googleplay/android-developer/answer/14807773\">pre-review checks</a> help catch common reasons for rejection, like improper usage of credentials or permissions and broken privacy policy links, ensuring smoother, faster reviews.</li>\n\n<li><strong>Stronger threat detection with Play Integrity API</strong>: Every day, apps and games make over 20 billion checks with <a href=\"https://developer.android.com/google/play/integrity\">Play Integrity API</a> to protect against abuse and unauthorized access. In 2025, we added <a href=\"https://android-developers.googleblog.com/2025/10/stronger-threat-detection-simpler.html\">hardware-backed signals</a> to make it even harder for bad actors to spoof devices and introduced <a href=\"https://android-developers.googleblog.com/2025/10/stronger-threat-detection-simpler.html\">new in-app prompts</a> that let users fix common issues like network errors without leaving the app. We also launched <a href=\"https://developer.android.com/google/play/integrity/device-recall\">device recall</a> in beta to help developers identify repeat bad actors even after a device has been reset, all while protecting user privacy.</li>\n\n<li><strong>Building trust through developer verification:</strong> We’ve seen how effective developer verification is on Google Play, and now we’re applying those lessons to the broader Android ecosystem. By ensuring there is a real, accountable identity behind every app, verification helps legitimize authentic developers and prevents bad actors from hiding behind anonymity to repeatedly cause harm. After gathering feedback during our <a href=\"https://developer.android.com/developer-verification/guides/early-access\">early access</a> period, we’ll open up verification to all developers this year. We’ve also added a dedicated account type for students and hobbyists, which will allow them to distribute these apps to a limited number of devices without the full verification requirements.</li>\n\n<li><strong>Greater security with every Android release</strong>: In Android 16, developers can <a href=\"https://android-developers.googleblog.com/2025/12/enhancing-android-security-stop-malware.html\">protect</a> users’ most private information, like bank logins, with just one line of code. We’ve integrated this feature automatically to <a href=\"https://android-developers.googleblog.com/2025/12/enhancing-android-security-stop-malware.html#:~:text=Automatic%2C%20enhanced%20security%20for%20setFilterTouchesWhenObscured%20protection\">certain apps</a> for an instant security boost against “<a href=\"https://developer.android.com/privacy-and-security/risks/tapjacking#mitigations\">tapjacking</a>,” a trick where bad apps use hidden layers to steal clicks for ad fraud. </li>\n</ul>\n<h3>Looking ahead</h3>\n\n\n<p>\nOur top priority remains making Google Play and Android the most trusted app ecosystems for everyone. This year, we’ll continue to invest in AI-driven defenses to stay ahead of emerging threats and equip Android developers with the tools they need to build apps safely. To empower developers who distribute their apps on Google Play, we’ll maintain our focus on embedding checks to help build apps that are compliant by design, while providing guidance to help proactively avoid policy violations before an app is published. We’ll also roll out Android developer verifications to hold bad actors accountable and prevent them from hiding behind anonymity to cause repeated harm.\n</p>\n<p>\nThank you for being part of the Google Play and Android community as we work together to build a safer app ecosystem.\n</p>",
     "link": "http://security.googleblog.com/2026/02/keeping-google-play-android-app-ecosystem-safe-2025.html",
@@ -77,6 +97,16 @@
     "source": "security.googleblog.com",
     "category": "Vulnerability",
     "importance_score": 1680,
+    "also_covered_by": []
+  },
+  {
+    "title": "US Bank Investigates Alleged Data Breach After LockBit Ransomware Extortion Claim",
+    "summary": "<p>US Bank is currently investigating claims made by the LockBit ransomware group, which alleges that it breached the bank and stole sensitive data. The group has set a deadline of September 3 for the bank to meet an undisclosed extortion demand. As of now, the details of the alleged attack have not been independently verified, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/us-bank-investigates-alleged-data-breach/\">US Bank Investigates Alleged Data Breach After LockBit Ransomware Extortion Claim</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/us-bank-investigates-alleged-data-breach/",
+    "published": "2026-08-21T13:08:51",
+    "source": "gbhackers.com",
+    "category": "Ransomware",
+    "importance_score": 1661,
     "also_covered_by": []
   },
   {
@@ -290,6 +320,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Iran-Linked Hackers Shut Down UK Power Plant for Four Days in Cyberattack",
+    "summary": "<p>A cyberattack linked to Iranian threat actors forced a British power plant offline for four consecutive days in July, reportedly marking the first successful cyber incident to disrupt a UK energy-generation facility completely. This incident, first reported by The Telegraph, affected a small-scale electricity generator rather than a major power station. The UK government emphasized [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/iran-linked-hackers-shut-down-uk-power-plant/\">Iran-Linked Hackers Shut Down UK Power Plant for Four Days in Cyberattack</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/iran-linked-hackers-shut-down-uk-power-plant/",
+    "published": "2026-08-24T05:11:21",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 1074,
+    "also_covered_by": []
+  },
+  {
     "title": "Chaos ransomware's msaRAT: Living off the browser to build a covert C2 channel",
     "summary": "The Chaos ransomware group uses new malware \"msaRAT\" that hijacks browsers. The malware doesn't communicate directly with C2 but connects through the browser. It enables arbitrary command execution while hiding the attacker's IP from victims via WebRTC over TURN.",
     "link": "https://blog.talosintelligence.com/chaos-msarat-living-off-the-browser-to-build-covert-c2-channel/",
@@ -297,6 +337,16 @@
     "source": "blog.talosintelligence.com",
     "category": "Ransomware",
     "importance_score": 1071,
+    "also_covered_by": []
+  },
+  {
+    "title": "Iran-Linked Hackers Force UK Power Plant Offline in Unprecedented Four-Day Cyberattack",
+    "summary": "<p>A cyberattack attributed to hackers linked to Iran forced a British power plant offline for four consecutive days last month, marking what officials describe as the first successful attack of its kind against UK energy infrastructure. The incident, first reported by The Telegraph, has raised fresh alarm over the vulnerability of critical infrastructure amid heightened [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-force-uk-power-plant-offline/\">Iran-Linked Hackers Force UK Power Plant Offline in Unprecedented Four-Day Cyberattack</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/hackers-force-uk-power-plant-offline/",
+    "published": "2026-08-23T17:21:38",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 1063,
     "also_covered_by": []
   },
   {
@@ -440,6 +490,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Top 10 Best Wireless / Wi-Fi Security Solutions in 2026",
+    "summary": "<p>Cisco Meraki scores highest in our 2026 evaluation of automatic Wi-Fi security solutions, combining cloud-managed simplicity with strong policy enforcement, while HPE Aruba leads on enterprise-grade wireless security depth, and Juniper Mist wins on AI-driven operations. Wi-Fi security solutions protect wireless networks through encryption (WPA3), authentication (802.1X), rogue access point detection, and client isolation, and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-wireless-wifi-security-solutions/\">Top 10 Best Wireless / Wi-Fi Security Solutions in 2026</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/best-wireless-wifi-security-solutions/",
+    "published": "2026-08-22T09:31:33",
+    "source": "cybersecuritynews.com",
+    "category": "Ransomware",
+    "importance_score": 921,
+    "also_covered_by": []
+  },
+  {
     "title": "Curiouser and Curiouser",
     "summary": "In this edition of the Threat Source newsletter, William reflects on the “Make Hazel a Hacker” segment in Beers with Talos, and how cybersecurity is a field where questions can lead to multiple correct answers.",
     "link": "https://blog.talosintelligence.com/curiouser-and-curiouser/",
@@ -570,16 +630,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Nearly half of enterprises have no one leading PQC migration",
-    "summary": "<p>Enterprises believe they are prepared for the security challenges posed by quantum computing, but gaps in ownership, testing and visibility could complicate their transition to post-quantum cryptography (PQC), according to new research from Axiad. Who owns PQC migration? (Source: Axiad) Organizations need to know where certificates, cryptographic keys and algorithms are used before they can plan a PQC migration. About 75% of respondents said they maintain a continuously updated inventory of these assets. However, responses &#8230; <a href=\"https://www.helpnetsecurity.com/2026/08/21/axiad-pqc-migration-readiness-gaps-report/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/08/21/axiad-pqc-migration-readiness-gaps-report/\">Nearly half of enterprises have no one leading PQC migration</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
-    "link": "https://www.helpnetsecurity.com/2026/08/21/axiad-pqc-migration-readiness-gaps-report/",
-    "published": "2026-08-21T04:30:46",
-    "source": "helpnetsecurity.com",
-    "category": "Vulnerability",
-    "importance_score": 800,
-    "also_covered_by": []
-  },
-  {
     "title": "Google Patches Chrome’s Fifth Zero-Day of the Year",
     "summary": "An insufficient validation input flaw, one of 11 patched in an update this week, could allow for arbitrary code execution and is under active attack.",
     "link": "https://threatpost.com/google-patches-chromes-fifth-zero-day-of-the-year/180432/",
@@ -607,6 +657,16 @@
     "source": "infosecurity-magazine.com",
     "category": "Vulnerability",
     "importance_score": 784,
+    "also_covered_by": []
+  },
+  {
+    "title": "Apollo Global Management Data Breach Exposes Social Security Numbers and Personal Data",
+    "summary": "<p>Apollo Global Management has disclosed a cyber incident in which attackers gained unauthorized access to cloud platforms and may have acquired highly sensitive personal information. The alternative asset manager said the intrusion occurred between July 6 and July 10 after threat actors used social engineering techniques to compromise its cloud environment. The company has not [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/apollo-global-management-data-breach/\">Apollo Global Management Data Breach Exposes Social Security Numbers and Personal Data</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/apollo-global-management-data-breach/",
+    "published": "2026-08-22T07:45:30",
+    "source": "gbhackers.com",
+    "category": "Data Breach",
+    "importance_score": 774,
     "also_covered_by": []
   },
   {
@@ -667,6 +727,16 @@
     "source": "bleepingcomputer.com",
     "category": "Data Breach",
     "importance_score": 737,
+    "also_covered_by": []
+  },
+  {
+    "title": "New Malware-as-a-service Leveraging Adobe-themed Domain to Attack Windows Users Using .bat File",
+    "summary": "<p>A criminal service is hiding behind a website that appears to offer Adobe Acrobat Reader. The site, acrobatreaderonline.com, is not a document service. Instead, it appears to expose an operator panel for building and managing attacks against Windows users. The campaign uses a familiar trick: a trusted-looking document or payment theme leads a target toward [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/malware-as-a-service-adobe-themed-domain/\">New Malware-as-a-service Leveraging Adobe-themed Domain to Attack Windows Users Using .bat File</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/malware-as-a-service-adobe-themed-domain/",
+    "published": "2026-08-24T04:47:41",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 714,
     "also_covered_by": []
   },
   {
@@ -780,6 +850,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Microsoft Windows 11 App Pushes Bing as Default Search in Chrome, Firefox and Brave",
+    "summary": "<p>Microsoft has built a dedicated Windows 11 app that exists to put Bing in front of users who already chose another search engine. The utility, Microsoft Recommended Search Settings, arrives as a standalone 22.2 MB installer named MicrosoftSettings.exe. It is hosted on Microsoft’s official download servers rather than Windows Update or the Microsoft Store, and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/windows-11-default-search-app/\">Microsoft Windows 11 App Pushes Bing as Default Search in Chrome, Firefox and Brave</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/windows-11-default-search-app/",
+    "published": "2026-08-23T13:24:54",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 609,
+    "also_covered_by": []
+  },
+  {
     "title": "This month in security with Tony Anscombe – July 2026 edition",
     "summary": "OpenAI models going rogue, the first documented agentic ransomware operation, and an emergent AI-driven supply chain threat made for a packed July roundup",
     "link": "https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-july-2026/",
@@ -787,6 +867,26 @@
     "source": "welivesecurity.com",
     "category": "Ransomware",
     "importance_score": 585,
+    "also_covered_by": []
+  },
+  {
+    "title": "UAT-10147 Compromises Web Servers to Deploy BadIIS for SEO Fraud and Data Theft",
+    "summary": "<p>A Chinese-speaking cybercrime group, tracked as UAT-10147, targeting vulnerable Windows and Linux web servers worldwide to deploy BadIIS malware, steal data, and manipulate search engine results for financial gain. Talos observed victims in Brazil, Bolivia, China, Canada, and Vietnam, spanning government, education, media, technology, and gaming organizations. An operational security lapse exposed an attacker download [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/uat-10147-compromises-web-servers/\">UAT-10147 Compromises Web Servers to Deploy BadIIS for SEO Fraud and Data Theft</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/uat-10147-compromises-web-servers/",
+    "published": "2026-08-21T11:30:16",
+    "source": "gbhackers.com",
+    "category": "Phishing / Scams",
+    "importance_score": 582,
+    "also_covered_by": []
+  },
+  {
+    "title": "768 Leaked AWS Keys Still Active With Full Admin Access to Corporate Accounts",
+    "summary": "<p>A large-scale investigation has uncovered 768 publicly exposed AWS access keys that remain active and grant full administrative privileges to corporate cloud environments, posing a serious risk of account takeover, data theft, infrastructure abuse, and cloud billing fraud. The credentials include 526 root access keys and 242 IAM user keys attached to AWS’s AdministratorAccess managed [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/768-leaked-aws-keys-still-active-with-full-admin/\">768 Leaked AWS Keys Still Active With Full Admin Access to Corporate Accounts</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/768-leaked-aws-keys-still-active-with-full-admin/",
+    "published": "2026-08-22T07:16:08",
+    "source": "gbhackers.com",
+    "category": "Data Breach",
+    "importance_score": 577,
     "also_covered_by": []
   },
   {
@@ -840,6 +940,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Product showcase: AI Paper Trail shows the privacy cost of talking to AI",
+    "summary": "<p>Proton’s AI Paper Trail is a free tool designed to make the information accumulated across AI conversations easier to see. It analyzes exported ChatGPT or Claude conversation data and produces a personal privacy report showing what can be inferred from those conversations. Proton says the uploaded data is deleted after analysis and is not stored on Lumo’s servers. AI conversations can reveal a surprising amount about their users over time. Individual questions may seem harmless, &#8230; <a href=\"https://www.helpnetsecurity.com/2026/08/24/product-showcase-ai-paper-trail/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/08/24/product-showcase-ai-paper-trail/\">Product showcase: AI Paper Trail shows the privacy cost of talking to AI</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "link": "https://www.helpnetsecurity.com/2026/08/24/product-showcase-ai-paper-trail/",
+    "published": "2026-08-24T05:30:33",
+    "source": "helpnetsecurity.com",
+    "category": "AI & Security",
+    "importance_score": 500,
+    "also_covered_by": []
+  },
+  {
     "title": "AWS makes it easier to spot firewall rules that have gone quiet",
     "summary": "<p>AWS Network Firewall’s rule hit count capability gives security teams visibility into which stateful firewall rules are matching traffic, helping them identify unused or redundant rules and validate whether security controls are working as intended. The capability covers stateful rules in both custom and managed rule groups, while stateless rules are not supported. The feature is enabled by default and comes at no additional Network Firewall cost, although standard charges still apply for storing and &#8230; <a href=\"https://www.helpnetsecurity.com/2026/08/24/aws-network-firewall-rule-hit-count-capability/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/08/24/aws-network-firewall-rule-hit-count-capability/\">AWS makes it easier to spot firewall rules that have gone quiet</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
     "link": "https://www.helpnetsecurity.com/2026/08/24/aws-network-firewall-rule-hit-count-capability/",
@@ -887,6 +997,16 @@
     "source": "bleepingcomputer.com",
     "category": "Phishing / Scams",
     "importance_score": 495,
+    "also_covered_by": []
+  },
+  {
+    "title": "Anthropic Brings Claude Mythos 5 to Cyber Defenders for Vulnerability Scanning and Patching",
+    "summary": "<p>Anthropic has enhanced its AI-driven cyber defense offerings by integrating Claude Mythos 5 into Claude Security. This new feature enables enterprise customers to scan their own codebases for security vulnerabilities and receive suggested remediation patches. This rollout, announced on August 21, 2026, introduces the company&#8217;s most advanced cyber model into a structured workflow that delivers [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/anthropic-brings-claude-mythos-5-vulnerability-scanning-and-patching/\">Anthropic Brings Claude Mythos 5 to Cyber Defenders for Vulnerability Scanning and Patching</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/anthropic-brings-claude-mythos-5-vulnerability-scanning-and-patching/",
+    "published": "2026-08-24T05:00:12",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 489,
     "also_covered_by": []
   },
   {
@@ -1037,6 +1157,16 @@
     "source": "securityweek.com",
     "category": "Other",
     "importance_score": 463,
+    "also_covered_by": []
+  },
+  {
+    "title": "Microsoft Expands Mailbox Storage From 50 GB to 100 GB for Users",
+    "summary": "<p>Microsoft has started expanding primary mailbox storage for Microsoft 365 Business Basic, Business Standard, and Business Premium users. Eligible users can now receive up to 100 GB of Exchange Online mailbox capacity, doubling the previous 50 GB entitlement. The change is part of Microsoft’s 2026 packaging updates, which began rolling out in June and are [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-expands-mailbox-storage-50gb-to-100gb/\">Microsoft Expands Mailbox Storage From 50 GB to 100 GB for Users</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/microsoft-expands-mailbox-storage-50gb-to-100gb/",
+    "published": "2026-08-21T16:37:25",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 457,
     "also_covered_by": []
   },
   {
@@ -1270,6 +1400,26 @@
     "also_covered_by": []
   },
   {
+    "title": "What 45 Million wp2shell Exploit Attempts Reveal About the New Vulnerability Response Window",
+    "summary": "<p>The latest&#160;wp2shell vulnerability&#160;was one of the biggest WordPress security events in history. The critical vulnerability chain combined two flaws that allowed unauthenticated attackers to exploit vulnerable sites and ultimately execute malicious code remotely, potentially taking control of them. In the first week after the disclosure, more than 45 million exploit attempts from nearly 150,000 unique [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/what-45-million-wp2shell-exploit-attempts-reveal-about-the-new-vulnerability-response-window/\">What 45 Million wp2shell Exploit Attempts Reveal About the New Vulnerability Response Window</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/what-45-million-wp2shell-exploit-attempts-reveal-about-the-new-vulnerability-response-window/",
+    "published": "2026-08-22T04:43:01",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 339,
+    "also_covered_by": []
+  },
+  {
+    "title": "Chinese Hacker Uses DeepSeek and Hermes Agent to Launch Autonomous Cyberattacks",
+    "summary": "<p>A Chinese-speaking threat actor has been observed using DeepSeek through the Hermes Agent framework to automate reconnaissance, vulnerability research, exploit acquisition, and attack attempts against internet-facing infrastructure. According to Unit 42, the actor tracked under the aliases knaithe and KnYuan built an AI-assisted offensive environment that combined DeepSeek’s reasoning capabilities with Hermes Agent’s terminal access, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/chinese-hacker-uses-deepseek-hermes-agent/\">Chinese Hacker Uses DeepSeek and Hermes Agent to Launch Autonomous Cyberattacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/chinese-hacker-uses-deepseek-hermes-agent/",
+    "published": "2026-08-22T08:03:01",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 338,
+    "also_covered_by": []
+  },
+  {
     "title": "FishMonger’s arsenal upgraded: SprySOCKS for Windows",
     "summary": "ESET researchers have discovered SprySOCKS for Windows, FishMonger’s backdoor weaponizing a kernel driver for advanced stealthiness",
     "link": "https://www.welivesecurity.com/en/eset-research/fishmongers-arsenal-upgraded-sprysocks-windows/",
@@ -1277,6 +1427,16 @@
     "source": "welivesecurity.com",
     "category": "Other",
     "importance_score": 338,
+    "also_covered_by": []
+  },
+  {
+    "title": "Zero-Click Grok Attack Lets Hackers Steal Chat History Using Encrypted Prompt Injection",
+    "summary": "<p>A newly disclosed prompt-injection technique could turn a routine request to summarize a webpage in xAI’s Grok web chat into a silent data-exfiltration attack, potentially exposing a user’s name, approximate location, subscription tier, and active conversation history. Security researchers at Adversa AI have dubbed the technique &#8220;Cryptographic Context Injection.&#8221; The attack targets Grok’s ability to [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/zero-click-grok-attack-prompt-injection/\">Zero-Click Grok Attack Lets Hackers Steal Chat History Using Encrypted Prompt Injection</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/zero-click-grok-attack-prompt-injection/",
+    "published": "2026-08-22T07:29:17",
+    "source": "gbhackers.com",
+    "category": "Ransomware",
+    "importance_score": 334,
     "also_covered_by": []
   },
   {
@@ -1300,6 +1460,26 @@
     "also_covered_by": []
   },
   {
+    "title": "Deepfake Ads Funnel Investors Into WhatsApp Groups Controlled by Fake Financial Analysts",
+    "summary": "<p>Investment fraud is increasingly exploiting the one action banks struggle most to block: a payment the customer actively wants to make. Deepfake advertisements, impersonated financial experts, and coordinated WhatsApp groups are now being used to steer retail investors into manipulated stock trades and fake investment platforms. In 2025, investment scams became the largest fraud-loss category [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/deepfake-investment-scam/\">Deepfake Ads Funnel Investors Into WhatsApp Groups Controlled by Fake Financial Analysts</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/deepfake-investment-scam/",
+    "published": "2026-08-21T13:06:34",
+    "source": "gbhackers.com",
+    "category": "Phishing / Scams",
+    "importance_score": 326,
+    "also_covered_by": []
+  },
+  {
+    "title": "What specifically allowed the agent to reach a real company’s systems during testing?",
+    "summary": "<p>Wayne Anderson, Managing Director, Cybersecurity and Digital Innovation, BDO USA. First and foremost, the technical “walls” were reduced during the testing experience. One of the questions that many organizations have asked is, “Why wasn’t this run in an AI testing location?” The actual answer to that is, surprisingly, it was!&#160;&#160;In fact, this specific AI testing [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/what-specifically-allowed-the-agent-to-reach-a-real-companys-systems-during-testing/\">What specifically allowed the agent to reach a real company’s systems during testing? </a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/what-specifically-allowed-the-agent-to-reach-a-real-companys-systems-during-testing/",
+    "published": "2026-08-22T05:09:10",
+    "source": "cybersecuritynews.com",
+    "category": "AI & Security",
+    "importance_score": 326,
+    "also_covered_by": []
+  },
+  {
     "title": "You can instantly curate your Discover feed now by telling Google exactly what you want",
     "summary": "If you're not happy with the algorithm on your Discover page, you'll love this new feature.",
     "link": "https://www.zdnet.com/article/how-to-fix-your-google-discover-feed-algorithm/",
@@ -1317,6 +1497,16 @@
     "source": "bleepingcomputer.com",
     "category": "Other",
     "importance_score": 321,
+    "also_covered_by": []
+  },
+  {
+    "title": "Claude Mythos 5 Now Available in Claude Security for Vulnerability Scanning",
+    "summary": "<p>Anthropic has expanded access to its frontier AI cyber-defense capabilities by making Claude Mythos 5 available in Claude Security, enabling enterprise customers to scan codebases for vulnerabilities and receive AI-generated remediation guidance. The move is designed to give defenders stronger vulnerability discovery and patching support while keeping direct access to the model constrained by purpose-built [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/mythos-5-claude-security-scanning/\">Claude Mythos 5 Now Available in Claude Security for Vulnerability Scanning</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/mythos-5-claude-security-scanning/",
+    "published": "2026-08-21T17:46:37",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 320,
     "also_covered_by": []
   },
   {
@@ -1347,6 +1537,16 @@
     "source": "securityweek.com",
     "category": "AI & Security",
     "importance_score": 300,
+    "also_covered_by": []
+  },
+  {
+    "title": "Grok Zero-Click Attack Steals Chat Data Using Encrypted Prompt Injection",
+    "summary": "<p>A newly disclosed attack can turn a routine “summarize this page” request in xAI’s Grok web chat into a silent theft of the user’s name, coarse location, subscription tier, and the prompt history of the active conversation. Adversa AI said in a report shared with Cyber Security News (CSN) that the method, named Cryptographic Context [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/grok-zero-click-attack/\">Grok Zero-Click Attack Steals Chat Data Using Encrypted Prompt Injection</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/grok-zero-click-attack/",
+    "published": "2026-08-22T01:31:34",
+    "source": "cybersecuritynews.com",
+    "category": "Ransomware",
+    "importance_score": 297,
     "also_covered_by": []
   },
   {
