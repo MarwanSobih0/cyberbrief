@@ -270,6 +270,16 @@
     "also_covered_by": []
   },
   {
+    "title": "New SynkLoader Malware Uses Fake Windows Lock Screen to Steal Passwords and Pivot Networks",
+    "summary": "<p>SynkLoader, a newly identified modular malware framework that combines Python, C#, C++, PowerShell, and memory-resident payloads to evade endpoint detection. Delivered through Microsoft Teams phishing, the operation uses a convincing fake Windows lock screen to capture credentials before enabling network tunneling and interactive access to compromised enterprise environments. Compile timestamps and file metadata indicate the [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/new-synkloader-malware/\">New SynkLoader Malware Uses Fake Windows Lock Screen to Steal Passwords and Pivot Networks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/new-synkloader-malware/",
+    "published": "2026-08-24T08:30:35",
+    "source": "gbhackers.com",
+    "category": "Phishing / Scams",
+    "importance_score": 1134,
+    "also_covered_by": []
+  },
+  {
     "title": "Anthropic Expands Mythos 5 Access to More Defenders, Unveils $35M Open Source Fund",
     "summary": "<p>Claude Security, currently in public beta for Claude Enterprise customers, now runs codebase scans on Mythos 5.</p>\n<p>The post <a href=\"https://www.securityweek.com/anthropic-expands-mythos-5-access-to-more-defenders-unveils-35m-open-source-fund/\">Anthropic Expands Mythos 5 Access to More Defenders, Unveils $35M Open Source Fund</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
     "link": "https://www.securityweek.com/anthropic-expands-mythos-5-access-to-more-defenders-unveils-35m-open-source-fund/",
@@ -320,6 +330,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Microsoft Teams Phishing Deploys New SynkLoader Malware to Steal Windows Passwords",
+    "summary": "<p>Microsoft Teams phishing is again being used as a doorway to deliver a malware family called SynkLoader. The campaign relies on a familiar social-engineering trick: an attacker poses as an IT helpdesk worker and persuades an employee to install what appears to be a useful fix. It deploys a layered toolkit that hides much of [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-teams-phishing/\">Microsoft Teams Phishing Deploys New SynkLoader Malware to Steal Windows Passwords</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/microsoft-teams-phishing/",
+    "published": "2026-08-24T12:33:55",
+    "source": "cybersecuritynews.com",
+    "category": "Phishing / Scams",
+    "importance_score": 1098,
+    "also_covered_by": []
+  },
+  {
     "title": "Shipping More AI Code Than You Can Secure? Watch How to Control Remediation Debt",
     "summary": "If your developers are using AI coding tools, you are probably already seeing the upside: faster development, more code, and less time spent on routine work.\n\nThe harder part is what comes after. AI can also introduce open-source packages at a pace your security team was never built to handle. More dependencies mean more vulnerabilities to review, more remediation work, and a backlog that can",
     "link": "https://thehackernews.com/2026/08/shipping-more-ai-code-than-you-can.html",
@@ -337,6 +357,26 @@
     "source": "thehackernews.com",
     "category": "Vulnerability",
     "importance_score": 1097,
+    "also_covered_by": []
+  },
+  {
+    "title": "Zimbra Collaboration Suite Flaw Actively Exploited to Execute Arbitrary Commands",
+    "summary": "<p>Threat actors are actively exploiting a critical operating system command injection vulnerability in Zimbra Collaboration Suite, identified as CVE-2026-73570. This vulnerability allows unauthenticated attackers to execute arbitrary operating system commands with the privileges of the zimbra user. Zimbra Collaboration Suite Flaw The flaw specifically affects Zimbra deployments where the SNMP trap notification service is enabled [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/zimbra-collaboration-suite-flaw/\">Zimbra Collaboration Suite Flaw Actively Exploited to Execute Arbitrary Commands</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/zimbra-collaboration-suite-flaw/",
+    "published": "2026-08-24T11:24:55",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 1084,
+    "also_covered_by": []
+  },
+  {
+    "title": "Zimbra Collaboration Suite Vulnerability Actively Exploited in the Wild",
+    "summary": "<p>CERT Polska has warned that threat actors are actively exploiting CVE-2026-73570, a critical OS command-injection vulnerability in Zimbra Collaboration Suite that allows remote, unauthenticated attackers to execute arbitrary shell commands as the zimbra user. The vulnerability affects Zimbra installations in which the SNMP trap service is enabled via the snmp_notify parameter and the swatchdog service [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/zimbra-collaboration-suite-vulnerability-exploited/\">Zimbra Collaboration Suite Vulnerability Actively Exploited in the Wild</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/zimbra-collaboration-suite-vulnerability-exploited/",
+    "published": "2026-08-24T17:04:30",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 1072,
     "also_covered_by": []
   },
   {
@@ -480,6 +520,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Google and Bing Search Results Used to Deliver Hidden Banking Phishing Pages",
+    "summary": "<p>Threat actors are increasingly using Google and Bing as phishing delivery channels, employing a cloaking technique that presents harmless pages to security scanners while serving credential-harvesting banking portals to genuine search users. The campaigns target users of major financial institutions and combine search-engine optimization abuse, recently registered lookalike domains, and referral-aware payload delivery to extend [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/google-and-bing-search-results/\">Google and Bing Search Results Used to Deliver Hidden Banking Phishing Pages</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/google-and-bing-search-results/",
+    "published": "2026-08-24T13:29:05",
+    "source": "gbhackers.com",
+    "category": "Phishing / Scams",
+    "importance_score": 883,
+    "also_covered_by": []
+  },
+  {
     "title": "Rust Supply Chain Attack Puts Build-Time Malware in Crates with 245 Million Downloads",
     "summary": "The Rust Project has deleted malicious versions of three widely used Rust crates from crates.io after a compromised maintainer account published releases that added a typosquatted dependency whose build script downloaded and executed a remote payload during compilation.\n\nThe affected releases are arrayref 0.3.10, internment 0.8.7, and append-only-vec 0.1.9, all published from the same owner",
     "link": "https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html",
@@ -487,6 +537,16 @@
     "source": "thehackernews.com",
     "category": "Other",
     "importance_score": 877,
+    "also_covered_by": []
+  },
+  {
+    "title": "Hackers Poison Google and Bing Results to Deliver Cloaked Banking Phishing Pages",
+    "summary": "<p>Bank customers searching for a login page can now be led into a trap before they receive a suspicious email or text message. Criminals are manipulating Google and Bing results so that fraudulent banking pages appear where people expect to find legitimate services. The campaign, called Chameleon SEO Poisoning, turns ordinary searches for terms such [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-poison-google-bing-results/\">Hackers Poison Google and Bing Results to Deliver Cloaked Banking Phishing Pages</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/hackers-poison-google-bing-results/",
+    "published": "2026-08-24T14:06:52",
+    "source": "cybersecuritynews.com",
+    "category": "Phishing / Scams",
+    "importance_score": 856,
     "also_covered_by": []
   },
   {
@@ -600,6 +660,16 @@
     "also_covered_by": []
   },
   {
+    "title": "North Korean Hackers Hide AnyDesk on Victim PCs to Maintain Secret Remote Access",
+    "summary": "<p>North Korea-linked Kimsuky operators have targeted organizations in South Korea and Japan with spear-phishing campaigns that install and conceal AnyDesk, giving attackers persistent, interactive remote access while blending into legitimate software activity. The operation combines OneDrive-hosted lures, malicious Windows shortcut files, scheduled-task persistence, PowerShell payloads, and email theft across Thunderbird, Outlook, and Gmail. The archives [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/anydesk-on-victim-pcs/\">North Korean Hackers Hide AnyDesk on Victim PCs to Maintain Secret Remote Access</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/anydesk-on-victim-pcs/",
+    "published": "2026-08-24T13:03:15",
+    "source": "gbhackers.com",
+    "category": "Phishing / Scams",
+    "importance_score": 738,
+    "also_covered_by": []
+  },
+  {
     "title": "North Korean Hackers Tied to Rust Supply Chain Attack",
     "summary": "Cybersecurity researchers have linked a malicious backdoor in compromised Rust packages to previous North Korean supply chain attacks",
     "link": "https://www.infosecurity-magazine.com/news/north-korean-rust-supply-chain/",
@@ -617,6 +687,16 @@
     "source": "infosecurity-magazine.com",
     "category": "Other",
     "importance_score": 721,
+    "also_covered_by": []
+  },
+  {
+    "title": "Open VSX Unblocks 3 IDs Used in 77-Extension Evil-Twin Malware Campaign",
+    "summary": "<p>Open VSX has removed three extension identifiers from its malicious-extension list after the legitimate projects they impersonated began reclaiming their names. The move restores publishing access for the affected maintainers but highlights a supply-chain tracking gap: a single extension ID can represent both a removed malicious artifact and a later legitimate release. Between August 16 [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/evil-twin-malware-campaign/\">Open VSX Unblocks 3 IDs Used in 77-Extension Evil-Twin Malware Campaign</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/evil-twin-malware-campaign/",
+    "published": "2026-08-24T10:12:00",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 720,
     "also_covered_by": []
   },
   {
@@ -647,6 +727,16 @@
     "source": "securityweek.com",
     "category": "Phishing / Scams",
     "importance_score": 707,
+    "also_covered_by": []
+  },
+  {
+    "title": "Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data",
+    "summary": "<p>Kimsuky has been linked to a new espionage campaign that turns a Chrome extension into a quiet Gmail collector. The operation begins with convincing phishing emails and ends with attackers gaining access to messages, attachments, and a victim’s computer. Its mix of browser theft and remote control makes a single opened file especially risky. The [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension/\">Kimsuky Uses AI-Generated Chrome Extension to Automatically Steal Gmail Data</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/kimsuky-ai-generated-chrome-extension/",
+    "published": "2026-08-24T13:42:08",
+    "source": "cybersecuritynews.com",
+    "category": "Phishing / Scams",
+    "importance_score": 705,
     "also_covered_by": []
   },
   {
@@ -747,6 +837,36 @@
     "source": "infosecurity-magazine.com",
     "category": "Vulnerability",
     "importance_score": 634,
+    "also_covered_by": []
+  },
+  {
+    "title": "Hackers Exploit Critical Oracle HTTP Server Flaw to Access and Modify Sensitive Data",
+    "summary": "<p>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a critical vulnerability in Oracle HTTP Server to its Known Exploited Vulnerabilities (KEV) Catalog after confirming evidence of active exploitation in the wild. The vulnerability, tracked as CVE-2026-21962, affects both Oracle HTTP Server and the Oracle WebLogic Server Proxy Plug-in. CISA classified this issue as [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-exploit-critical-oracle-http-server-flaw/\">Hackers Exploit Critical Oracle HTTP Server Flaw to Access and Modify Sensitive Data</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/hackers-exploit-critical-oracle-http-server-flaw/",
+    "published": "2026-08-25T05:09:18",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 629,
+    "also_covered_by": []
+  },
+  {
+    "title": "Microsoft Teams New Security Policy Lets Admins Automatically Block Meeting Bots",
+    "summary": "<p>Microsoft is introducing a new Microsoft Teams meeting policy that automatically blocks identified external bots. This aims to address growing concerns regarding unauthorized AI notetakers, transcription tools, and recording assistants that may enter sensitive virtual meetings. The new capability was outlined in the Microsoft 365 message center notice MC1459141, published on August 21, 2026. It [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/microsoft-teams-new-security-policy/\">Microsoft Teams New Security Policy Lets Admins Automatically Block Meeting Bots</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/microsoft-teams-new-security-policy/",
+    "published": "2026-08-25T05:00:41",
+    "source": "gbhackers.com",
+    "category": "AI & Security",
+    "importance_score": 627,
+    "also_covered_by": []
+  },
+  {
+    "title": "Microsoft Teams’ New Policy Lets Admins Automatically Block Meeting Bots",
+    "summary": "<p>Microsoft is rolling out a fresh line of defense against unwanted digital eavesdroppers in virtual meetings. The tech giant confirmed that Microsoft Teams will soon let administrators automatically block identified external meeting bots from entering meetings, closing a gap that automated notetakers, transcription tools, and AI assistants have exploited for months. The change, detailed in [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-teams-policy-to-block-bots/\">Microsoft Teams&#8217; New Policy Lets Admins Automatically Block Meeting Bots</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/microsoft-teams-policy-to-block-bots/",
+    "published": "2026-08-24T16:53:06",
+    "source": "cybersecuritynews.com",
+    "category": "AI & Security",
+    "importance_score": 617,
     "also_covered_by": []
   },
   {
@@ -880,6 +1000,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Hackers Impersonate Security Staff to Steal Credentials in ReliaQuest Social Engineering Attack",
+    "summary": "<p>ReliaQuest has reported a targeted social engineering attack in which threat actors impersonated company security personnel, used a spoofed domain, and successfully persuaded one employee to approve a malicious multi-factor authentication (MFA) request. The incident, detected on August 22, 2026, resulted in the temporary exposure of a single identity session with view-only access to ReliaQuest’s [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-impersonate-security-staff-to-steal-credentials-in-reliaquest/\">Hackers Impersonate Security Staff to Steal Credentials in ReliaQuest Social Engineering Attack</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/hackers-impersonate-security-staff-to-steal-credentials-in-reliaquest/",
+    "published": "2026-08-24T12:28:44",
+    "source": "gbhackers.com",
+    "category": "Phishing / Scams",
+    "importance_score": 489,
+    "also_covered_by": []
+  },
+  {
     "title": "Emerging Threats to Neurotechnology",
     "summary": "Explore the evolving security landscape of neurotechnology, including risks like IP theft, data extortion, and regulatory challenges in this emerging field.",
     "link": "https://www.recordedfuture.com/research/emerging-threats-neurotechnology",
@@ -980,6 +1110,16 @@
     "also_covered_by": []
   },
   {
+    "title": "5 Palo Alto GlobalProtect Flaws Let Attackers Gain SYSTEM/Root Access and Steal AD Passwords",
+    "summary": "<p>Security researcher Martijn van Ramesdonk has disclosed five vulnerabilities affecting Palo Alto Networks&#8217; GlobalProtect, an enterprise VPN and endpoint agent widely used across corporate environments on Windows, macOS, and Linux. The issues include local privilege escalation vulnerabilities that could allow a low-privileged attacker with access to an endpoint to gain full SYSTEM privileges on Windows [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/5-palo-alto-globalprotect-flaws/\">5 Palo Alto GlobalProtect Flaws Let Attackers Gain SYSTEM/Root Access and Steal AD Passwords</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/5-palo-alto-globalprotect-flaws/",
+    "published": "2026-08-25T04:51:46",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 482,
+    "also_covered_by": []
+  },
+  {
     "title": "Google's AI-first Googlebook laptop is almost here - can it avoid the Copilot+ PC problem?",
     "summary": "It won't be another high-end Chromebook like the Pixel, and Google has to hope it'll succeed where Copilot+ PCs have fallen short.",
     "link": "https://www.zdnet.com/article/googlebook-laptop-is-almost-here-can-it-avoid-copilot-pc-problem/",
@@ -1030,6 +1170,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Researcher Discloses Five High-Risk Vulnerabilities in Palo Alto GlobalProtect VPN",
+    "summary": "<p>A security researcher has disclosed five vulnerabilities that he responsibly reported to Palo Alto Networks, affecting GlobalProtect, the VPN and endpoint agent used across thousands of enterprise networks worldwide. The disclosure, published through a dedicated research site, has reignited debate over how vendors handle vulnerability reports even when researchers follow coordinated disclosure norms. According to [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/5-vulnerabilities-palo-alto-globalprotect/\">Researcher Discloses Five High-Risk Vulnerabilities in Palo Alto GlobalProtect VPN</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/5-vulnerabilities-palo-alto-globalprotect/",
+    "published": "2026-08-25T01:54:08",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 475,
+    "also_covered_by": []
+  },
+  {
     "title": "Kimwolf v7: An Evolution of the Kimwolf Botnet",
     "summary": "<p>Discover how Kimwolf v7 targets Android IoT devices with HTTP/2 DDoS fingerprinting, Ethereum ENS C2 resolution and Tor backup routing.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/kimwolf-v7-botnet-malware/\">Kimwolf v7: An Evolution of the Kimwolf Botnet</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
     "link": "https://unit42.paloaltonetworks.com/kimwolf-v7-botnet-malware/",
@@ -1060,6 +1210,46 @@
     "also_covered_by": []
   },
   {
+    "title": "768 Leaked Corporate AWS Keys Remain Active With Full Administrator Access",
+    "summary": "<p>A new cloud security investigation from Truffle Security has found that 768 publicly exposed AWS credentials still provide full administrative control over corporate AWS environments. The findings highlight a persistent failure in credential rotation, secret management, and cloud account monitoring. Truffle Security re-verified 10,616 leaked AWS credential pairs on August 10, 2026, after locating them [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/768-leaked-corporate-aws-keys-remain-active/\">768 Leaked Corporate AWS Keys Remain Active With Full Administrator Access</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/768-leaked-corporate-aws-keys-remain-active/",
+    "published": "2026-08-24T13:43:10",
+    "source": "cybersecuritynews.com",
+    "category": "Data Breach",
+    "importance_score": 471,
+    "also_covered_by": []
+  },
+  {
+    "title": "Hackers Impersonate ReliaQuest Security Team Member to Steal SSO Credentials and MFA Access",
+    "summary": "<p>ReliaQuest has disclosed a social engineering attack in which threat actors impersonated members of its security team to lure employees to a fraudulent single sign-on page. The incident briefly exposed one employee identity, but ReliaQuest said its layered controls prevented access to internal applications, customer data, and business systems. The attack occurred on August 22, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-impersonate-reliaquest-security-staff/\">Hackers Impersonate ReliaQuest Security Team Member to Steal SSO Credentials and MFA Access</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/hackers-impersonate-reliaquest-security-staff/",
+    "published": "2026-08-24T13:44:58",
+    "source": "cybersecuritynews.com",
+    "category": "Phishing / Scams",
+    "importance_score": 469,
+    "also_covered_by": []
+  },
+  {
+    "title": "Mysterious Ox Alpha Stealth AI Model Emerges for Coding and Agentic Work",
+    "summary": "<p>A newly discovered AI system called Ox Alpha has emerged on OpenRouter, sparking widespread speculation within the AI community regarding its origin, technical capabilities, and potential connections to major Chinese or Western model developers. Released on Thursday as a free preview model, Ox Alpha is described on OpenRouter as “a reasoning model designed for coding, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/mysterious-ox-alpha-stealth-ai-model/\">Mysterious Ox Alpha Stealth AI Model Emerges for Coding and Agentic Work</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/mysterious-ox-alpha-stealth-ai-model/",
+    "published": "2026-08-24T12:15:04",
+    "source": "gbhackers.com",
+    "category": "AI & Security",
+    "importance_score": 468,
+    "also_covered_by": []
+  },
+  {
+    "title": "WordPress Plugin Vulnerability Exposes 100,000 Sites to Complete Site Takeover Attacks",
+    "summary": "<p>A critical vulnerability tracked as CVE-2026-19598 in the Everest Forms WordPress plugin has exposed more than 100,000 websites to complete site takeover attacks. The flaw has a CVSS severity score of 9.8. It can allow unauthenticated attackers to upload malicious files, execute code remotely, and potentially gain full control of affected WordPress sites. The vulnerability [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/wordpress-everest-forms-plugin-flaw/\">WordPress Plugin Vulnerability Exposes 100,000 Sites to Complete Site Takeover Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/wordpress-everest-forms-plugin-flaw/",
+    "published": "2026-08-24T13:08:35",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 464,
+    "also_covered_by": []
+  },
+  {
     "title": "TikTok Reaches $400 Million Settlement With US Justice Department Over Children’s Privacy",
     "summary": "<p>TikTok will pay $300 million immediately and another $100 million after an order vacates an earlier consent decree against its predecessor company, Musical.ly.</p>\n<p>The post <a href=\"https://www.securityweek.com/tiktok-reaches-400-million-settlement-with-us-justice-department-over-childrens-privacy/\">TikTok Reaches $400 Million Settlement With US Justice Department Over Children&#8217;s Privacy</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
     "link": "https://www.securityweek.com/tiktok-reaches-400-million-settlement-with-us-justice-department-over-childrens-privacy/",
@@ -1067,6 +1257,16 @@
     "source": "securityweek.com",
     "category": "Other",
     "importance_score": 463,
+    "also_covered_by": []
+  },
+  {
+    "title": "New Mysterious AI Model Dubbed Ox Alpha With Free 100 Trillion Tokens a Day for Coders",
+    "summary": "<p>A mysterious AI system named Ox Alpha has sparked intense speculation across the developer community after appearing on OpenRouter as a free “stealth model” aimed at coding, long-running AI agents, and production workloads. The identity of its developer remains undisclosed. Ox Alpha was released on OpenRouter on August 20, 2026, with a claimed allowance of [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/new-mysterious-ai-model-dubbed-ox-alpha/\">New Mysterious AI Model Dubbed Ox Alpha With Free 100 Trillion Tokens a Day for Coders</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/new-mysterious-ai-model-dubbed-ox-alpha/",
+    "published": "2026-08-24T13:47:38",
+    "source": "cybersecuritynews.com",
+    "category": "AI & Security",
+    "importance_score": 461,
     "also_covered_by": []
   },
   {
