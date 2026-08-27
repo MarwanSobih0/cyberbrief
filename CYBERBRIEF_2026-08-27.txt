@@ -1,0 +1,60 @@
+CYBERBRIEF • DAILY THREAT INTELLIGENCE
+Generated: Thursday, August 27, 2026 - 16:01 UTC
+================================================================================
+
+Total topics: 313    •    Scanned raw articles: 314
+Severity breakdown:
+  CRITICAL: 8  |  HIGH: 14  |  MEDIUM: 44  |  LOW: 247
+
+Top 7 active threats:
+
+1. Alert Triangle  bleepingcomputer.com  [Newspaper]
+   Title    : CISA orders feds to patch Citrix NetScaler RCE flaw by Saturday
+   Category : Vulnerability    •    Severity: CRITICAL (score: 2686)
+   Published: 2026-08-27T09:16:50
+   Link     : https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploiting-citrix-netscaler-rce-flaw-in-attacks/
+
+2. Alert Triangle  gbhackers.com  [News Site]
+   Title    : CISA Warns of Actively Exploited Microsoft SQL Server RCE Vulnerability
+   Category : Vulnerability    •    Severity: CRITICAL (score: 2577)
+   Published: 2026-08-27T09:49:47
+   Link     : https://gbhackers.com/microsoft-sql-server-rce-vulnerability/
+
+3. Alert Triangle  security.googleblog.com  [News Site]
+   Title    : HTTPS by default
+   Category : Vulnerability    •    Severity: CRITICAL (score: 2520)
+   Published: 2025-10-28T17:01:00
+   Link     : http://security.googleblog.com/2025/10/https-by-default.html
+
+4. Alert Triangle  thehackernews.com  [Newspaper]
+   Title    : Critical Gitea RCE Actively Exploited as Reported Attack Drops Miner-Like Payload
+   Category : Vulnerability    •    Severity: CRITICAL (score: 2417)
+   Published: 2026-08-26T06:27:07
+   Link     : https://thehackernews.com/2026/08/critical-gitea-rce-actively-exploited.html
+
+5. Alert Triangle  krebsonsecurity.com  [Newspaper]
+   Title    : Two Alleged ‘TeamPCP’ Hackers Arrested in Australia
+   Category : Vulnerability    •    Severity: CRITICAL (score: 2400)
+   Published: 2026-08-27T11:04:15
+   Link     : https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/
+
+6. Alert Triangle  security.googleblog.com  [News Site]
+   Title    : Bringing Rust to the Pixel Baseband
+   Category : Ransomware    •    Severity: CRITICAL (score: 2380)
+   Published: 2026-04-10T15:12:00
+   Link     : http://security.googleblog.com/2026/04/bringing-rust-to-pixel-baseband.html
+
+7. Alert Triangle  security.googleblog.com  [News Site]
+   Title    : Rust in Android: move fast and fix things
+   Category : Ransomware    •    Severity: CRITICAL (score: 2380)
+   Published: 2025-11-13T16:59:00
+   Link     : http://security.googleblog.com/2025/11/rust-in-android-move-fast-fix-things.html
+
+Security Tips:
+• Never trust unsolicited links or attachments in email or messaging apps.
+• Enable multi-factor authentication (MFA) on email, banking, and admin accounts.
+• Keep browsers, VPNs, and endpoint security fully patched.
+
+Scanned 314 articles • Top 7 topics selected
+Next planned auto-update: 08:00 AM UTC
+Stay safe, stay sharp!
