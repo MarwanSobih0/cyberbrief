@@ -420,6 +420,16 @@
     "also_covered_by": []
   },
   {
+    "title": "TP-Link Kasa Smart Home Devices Vulnerability Allows Attackers to Disrupt Device Functionality",
+    "summary": "<p>TP-Link has disclosed a high-severity vulnerability affecting multiple Kasa smart home devices that could allow attackers on the same local network to intercept, replay, or forge device-control commands. Tracked as CVE-2026-76784, the flaw can lead to unauthorized changes to device state, disruption of normal functionality, or denial-of-service conditions. The security advisory, last updated on August [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/tp-link-kasa-smart-home-devices-vulnerability/\">TP-Link Kasa Smart Home Devices Vulnerability Allows Attackers to Disrupt Device Functionality</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/tp-link-kasa-smart-home-devices-vulnerability/",
+    "published": "2026-08-27T16:03:24",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 1076,
+    "also_covered_by": []
+  },
+  {
     "title": "Critical Veeam ONE Flaw Lets Unauthenticated Attackers Coerce SMB Authentication From Service Accounts",
     "summary": "<p>Veeam has released security updates for a critical vulnerability in Veeam ONE that could allow an unauthenticated network attacker to coerce SMB authentication from the account running an affected service. Tracked as CVE-2026-65641, the vulnerability received a CVSS v4.0 severity score of 9.3. Veeam disclosed the issue through Knowledge Base article 4905, published on August [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-veeam-one-flaw-2/\">Critical Veeam ONE Flaw Lets Unauthenticated Attackers Coerce SMB Authentication From Service Accounts</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
     "link": "https://gbhackers.com/critical-veeam-one-flaw-2/",
@@ -537,16 +547,6 @@
     "source": "gbhackers.com",
     "category": "Ransomware",
     "importance_score": 929,
-    "also_covered_by": []
-  },
-  {
-    "title": "Nutex Health Data Breach – Hackers Gained Access to Network and Exfiltrated Data",
-    "summary": "<p>Nutex Health has disclosed a cybersecurity incident involving unauthorized activity on its computer network, with preliminary findings indicating that an unknown third party accessed and exfiltrated information stored on company servers. The Houston, Texas-based healthcare company revealed the incident in a Form 8-K filing with the U.S. Securities and Exchange Commission dated August 24, 2026. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/nutex-health-data-breach/\">Nutex Health Data Breach &#8211; Hackers Gained Access to Network and Exfiltrated Data</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/nutex-health-data-breach/",
-    "published": "2026-08-27T09:21:34",
-    "source": "cybersecuritynews.com",
-    "category": "Data Breach",
-    "importance_score": 917,
     "also_covered_by": []
   },
   {
@@ -1732,6 +1732,16 @@
     "also_covered_by": []
   },
   {
+    "title": "How AI-armed script kiddies will soon wield the power of state-sponsored threat actors",
+    "summary": "Low-skill hacktivists are now 'enabled with the same tooling and sophistication as a state-sponsored group,' according to cybersecurity consultant Unit 42.",
+    "link": "https://www.zdnet.com/article/ai-armed-script-kiddies-power-of-state-threat-actors-unit-42/",
+    "published": "2026-08-27T16:02:07",
+    "source": "zdnet.com",
+    "category": "Other",
+    "importance_score": 338,
+    "also_covered_by": []
+  },
+  {
     "title": "FishMonger’s arsenal upgraded: SprySOCKS for Windows",
     "summary": "ESET researchers have discovered SprySOCKS for Windows, FishMonger’s backdoor weaponizing a kernel driver for advanced stealthiness",
     "link": "https://www.welivesecurity.com/en/eset-research/fishmongers-arsenal-upgraded-sprysocks-windows/",
@@ -1879,6 +1889,16 @@
     "source": "zdnet.com",
     "category": "Other",
     "importance_score": 320,
+    "also_covered_by": []
+  },
+  {
+    "title": "Sony's new Bravia 6 OLED TV aims to bring flagship visuals to the $1,300 price point",
+    "summary": "The Bravia 6 OLED TV is a new entry-level option in a variety of screen sizes.",
+    "link": "https://www.zdnet.com/article/everything-you-need-to-know-about-the-new-sony-bravia-6-oled-tv/",
+    "published": "2026-08-27T16:00:42",
+    "source": "zdnet.com",
+    "category": "Other",
+    "importance_score": 319,
     "also_covered_by": []
   },
   {
@@ -2202,16 +2222,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Have an old PC monitor laying around? Turning it into a TV is easier than you think",
-    "summary": "Give your old monitor a second chance at life as a dedicated streaming screen or over-the-air TV with just a few simple steps.",
-    "link": "https://www.zdnet.com/article/how-to-turn-your-monitor-into-a-tv/",
-    "published": "2026-08-26T09:30:00",
-    "source": "zdnet.com",
-    "category": "Other",
-    "importance_score": 181,
-    "also_covered_by": []
-  },
-  {
     "title": "4 AI development skills you need, according to Andrew Ng - and what experts say he's missing",
     "summary": "The rise of generative and agentic AI has dramatically changed the software-building process - and the skills required.",
     "link": "https://www.zdnet.com/article/4-ai-development-skills-you-need-according-to-andrew-ng-and-what-experts-say-hes-missing/",
@@ -2307,16 +2317,6 @@
     "link": "https://www.infosecurity-magazine.com/news/ddos-attack-hits-norwegian/",
     "published": "2026-08-26T09:00:00",
     "source": "infosecurity-magazine.com",
-    "category": "Other",
-    "importance_score": 171,
-    "also_covered_by": []
-  },
-  {
-    "title": "The best reading tablets of 2026: Expert tested",
-    "summary": "We rounded up the best reading tablets of the year that you can take with you anywhere.",
-    "link": "https://www.zdnet.com/article/best-reading-tablet/",
-    "published": "2026-08-26T11:00:46",
-    "source": "zdnet.com",
     "category": "Other",
     "importance_score": 171,
     "also_covered_by": []
