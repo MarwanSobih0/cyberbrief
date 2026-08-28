@@ -1,10 +1,10 @@
 CYBERBRIEF • DAILY THREAT INTELLIGENCE
-Generated: Friday, August 28, 2026 - 17:04 UTC
+Generated: Friday, August 28, 2026 - 17:10 UTC
 ================================================================================
 
 Total topics: 294    •    Scanned raw articles: 294
 Severity breakdown:
-  CRITICAL: 6  |  HIGH: 13  |  MEDIUM: 37  |  LOW: 238
+  CRITICAL: 5  |  HIGH: 10  |  MEDIUM: 41  |  LOW: 238
 
 Top 7 active threats:
 
@@ -38,17 +38,17 @@ Top 7 active threats:
    Published: 2026-08-27T11:04:15
    Link     : https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/
 
-6. Alert Triangle  thecyberexpress.com  [Link]
-   Title    : The Cyber Express Weekly Roundup: Exploited Entra ID Flaw, AI Agent Risks, and Global Cybercrime Crackdown
-   Category : Vulnerability    •    Severity: CRITICAL (score: 2000)
-   Published: 2026-08-28T11:17:31
-   Link     : https://thecyberexpress.com/weekly-roundup-microsoft-entra-id-ai-risks/
-
-7. Shield Check  security.googleblog.com  [News Site]
+6. Shield Check  security.googleblog.com  [News Site]
    Title    : Android Quick Share Support for AirDrop: A Secure Approach to Cross-Platform File Sharing
    Category : Data Breach    •    Severity: HIGH (score: 1959)
    Published: 2025-11-20T17:00:00
    Link     : http://security.googleblog.com/2025/11/android-quick-share-support-for-airdrop-security.html
+
+7. Shield Check  unit42.paloaltonetworks.com  [News Site]
+   Title    : The Frontier AI Vulnerability Burst: Industrializing Autonomous Zero-Day Discovery in Open-Source Software
+   Category : Vulnerability    •    Severity: HIGH (score: 1836)
+   Published: 2026-08-04T13:00:11
+   Link     : https://unit42.paloaltonetworks.com/frontier-ai-vulnerability-burst/
 
 Security Tips:
 • Never trust unsolicited links or attachments in email or messaging apps.
