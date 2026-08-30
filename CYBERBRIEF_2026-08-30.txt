@@ -1,10 +1,10 @@
 CYBERBRIEF • DAILY THREAT INTELLIGENCE
-Generated: Sunday, August 30, 2026 - 10:12 UTC
+Generated: Sunday, August 30, 2026 - 10:14 UTC
 ================================================================================
 
-Total topics: 314    •    Scanned raw articles: 314
+Total topics: 284    •    Scanned raw articles: 284
 Severity breakdown:
-  CRITICAL: 5  |  HIGH: 13  |  MEDIUM: 45  |  LOW: 251
+  CRITICAL: 4  |  HIGH: 12  |  MEDIUM: 34  |  LOW: 234
 
 Top 7 active threats:
 
@@ -32,29 +32,29 @@ Top 7 active threats:
    Published: 2026-08-10T15:00:00
    Link     : https://www.microsoft.com/en-us/security/blog/2026/08/10/deadlock-ransomware-breaking-down-a-rust-based-encryptor-with-decentralized-recovery-infrastructure/
 
-5. Alert Triangle  krebsonsecurity.com  [Newspaper]
-   Title    : Two Alleged ‘TeamPCP’ Hackers Arrested in Australia
-   Category : Vulnerability    •    Severity: CRITICAL (score: 2220)
-   Published: 2026-08-27T11:04:15
-   Link     : https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/
-
-6. Shield Check  security.googleblog.com  [News Site]
+5. Shield Check  security.googleblog.com  [News Site]
    Title    : Android Quick Share Support for AirDrop: A Secure Approach to Cross-Platform File Sharing
    Category : Data Breach    •    Severity: HIGH (score: 1959)
    Published: 2025-11-20T17:00:00
    Link     : http://security.googleblog.com/2025/11/android-quick-share-support-for-airdrop-security.html
 
-7. Shield Check  thecyberexpress.com  [Link]
+6. Shield Check  thecyberexpress.com  [Link]
    Title    : The Cyber Express Weekly Roundup: Exploited Entra ID Flaw, AI Agent Risks, and Global Cybercrime Crackdown
    Category : Vulnerability    •    Severity: HIGH (score: 1850)
    Published: 2026-08-28T11:17:31
    Link     : https://thecyberexpress.com/weekly-roundup-microsoft-entra-id-ai-risks/
+
+7. Shield Check  unit42.paloaltonetworks.com  [News Site]
+   Title    : The Frontier AI Vulnerability Burst: Industrializing Autonomous Zero-Day Discovery in Open-Source Software
+   Category : Vulnerability    •    Severity: HIGH (score: 1836)
+   Published: 2026-08-04T13:00:11
+   Link     : https://unit42.paloaltonetworks.com/frontier-ai-vulnerability-burst/
 
 Security Tips:
 • Never trust unsolicited links or attachments in email or messaging apps.
 • Enable multi-factor authentication (MFA) on email, banking, and admin accounts.
 • Keep browsers, VPNs, and endpoint security fully patched.
 
-Scanned 314 articles • Top 7 topics selected
+Scanned 284 articles • Top 7 topics selected
 Next planned auto-update: 08:00 AM UTC
 Stay safe, stay sharp!
