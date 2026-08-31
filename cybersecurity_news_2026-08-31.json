@@ -60,16 +60,6 @@
     "also_covered_by": []
   },
   {
-    "title": "The Cyber Express Weekly Roundup: Exploited Entra ID Flaw, AI Agent Risks, and Global Cybercrime Crackdown",
-    "summary": "<p><img alt=\"The Cyber Express weekly roundup, podcast\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"484\" src=\"https://thecyberexpress.com/wp-content/uploads/The-Cyber-Express-weekly-roundup-podcast.webp\" title=\"The Cyber Express Weekly Roundup: Exploited Entra ID Flaw, AI Agent Risks, and Global Cybercrime Crackdown 9\" width=\"804\" /></p><span>This weekly roundup highlights a broad range of cybersecurity and technology developments affecting cloud identity infrastructure, social media platforms, businesses, digital assets, and international law enforcement. </span><span> </span>\n\n<span>From a critical Microsoft Entra ID vulnerability exploited before remediation to a global crackdown on West African cybercrime networks, recent developments demonstrate how attackers continue to target both technical systems and human trust.</span><span> </span>\n\n<span>The latest developments also show that <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-cybersecurity/\" title=\"cybersecurity\">cybersecurity</a> risks are expanding alongside the rapid adoption of cloud services and artificial intelligence. Organizations are facing threats involving identity infrastructure, autonomous AI agents, software vulnerabilities, digital transactions, online <a class=\"wpil_keyword_link\" href=\"https://cyble.com/cybercrime/fraud/\" rel=\"noopener\" target=\"_blank\" title=\"fraud\">fraud</a>, and the misuse of emerging technologies.</span><span> </span>\n<h3><b><span>The Cyber Express Weekly Roundup</span></b><span> </span></h3>\n<h4><b><span>Microsoft Confirms Exploited Entra ID Flaw</span></b><span> </span></h4>\n<span>Microsoft confirmed that a critical <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/firewall-daily/vulnerabilities/\" title=\"vulnerability\">vulnerability</a> in Entra ID, CVE-2026-69836, was exploited before the flaw was fixed server-side. The vulnerability carries a CVSS score of 10.0 and could allow unauthenticated attackers to achieve remote code execution, potentially affecting Microsoft’s cloud-based identity infrastructure. </span><a href=\"https://thecyberexpress.com/microsoft-entra-id-cve-2026-69836-exploited/\" rel=\"noopener\" target=\"_blank\"><b><span>Read more...</span></b></a><span> </span>\n<h4><b><span>New Zealand Proposes Social Media Ban for Under-16s</span></b><span> </span></h4>\n<span>New Zealand has introduced legislation that would require high-risk social media platforms to prevent users under the age of 16 from accessing their services. Proposed age-verification methods could include digital identification, facial age estimation, or official identification documents. </span><a href=\"https://thecyberexpress.com/new-zealand-social-media-ban-for-under-16s/\" rel=\"noopener\" target=\"_blank\"><b><span>Read more...</span></b></a><span> </span>\n<h4><b><span>Cyble and DRONA Launch AI Cyber Defense Initiative in India</span></b><span> </span></h4>\n<span>Cyble and DRONA <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/cyber-news/\" title=\"Cyber\">Cyber</a> Solutions have launched an AI-powered cybersecurity initiative in Ahmedabad aimed at helping mid-sized businesses detect, investigate, and contain cyber threats. The initiative combines <a class=\"wpil_keyword_link\" href=\"https://cyble.com/knowledge-hub/different-types-of-threat-intelligence/\" rel=\"noopener\" target=\"_blank\" title=\"threat intelligence\">threat intelligence</a>, AI-driven investigations, and endpoint enforcement to provide organizations with faster and more coordinated responses to security incidents. </span><a href=\"https://thecyberexpress.com/ai-powered-cyber-defense-cyble-drona/\" rel=\"noopener\" target=\"_blank\"><b><span>Read more...</span></b></a><span> </span>\n<h4><b><span>AI Agents Could Create New Cybersecurity Risks</span></b><span> </span></h4>\n<span><a href=\"https://www.youtube.com/watch?v=MRy_ASQAfy0\" rel=\"nofollow noopener\" target=\"_blank\">Adarsh Kant Sinha</a>, CEO of ANVE.AI, warned that autonomous AI agents could introduce significant new <a class=\"wpil_keyword_link\" href=\"https://cyble.com/knowledge-hub/what-is-cybersecurity/\" rel=\"noopener\" target=\"_blank\" title=\"cybersecurity\">cybersecurity</a> risks as organizations increasingly allow them to interact with business-critical systems. AI agents may gain access to email, customer relationship management platforms, cloud infrastructure, and financial systems, potentially creating new avenues for misuse or compromise. </span><a href=\"https://thecyberexpress.com/ai-agents-ai-security-risks-adarsh-sinha/\" rel=\"noopener\" target=\"_blank\"><b><span>Read more...</span></b></a><span> </span>\n<h4><b><span>Ledger Fixes Ethereum App Flaw Amid Disclosure Dispute</span></b><span> </span></h4>\n<span>Ledger said it fixed a clear-signing vulnerability in its Ethereum application approximately two weeks before security firm TestMachine publicly disclosed the issue. The vulnerability could potentially allow a malicious application to display one transaction to a user while preparing a different transaction for signing. </span><a href=\"https://thecyberexpress.com/ledger-ethereum-app-clear-signing-flaw/\" rel=\"noopener\" target=\"_blank\"><b><span>Read more...</span></b></a><span> </span>\n<h4><b><span>Global Crackdown Nets 58 Arrests in West African Crime Networks</span></b><span> </span></h4>\n<span>An eight-month international law enforcement operation led by INTERPOL has resulted in 58 arrests and the identification of 263 suspects across 22 countries. Operation Jackal IV targeted West African criminal networks involved in cyber-enabled fraud, money laundering, romance scams, and investment scams. </span><a href=\"https://thecyberexpress.com/west-african-organized-crime-groups-crackdown/\" rel=\"noopener\" target=\"_blank\"><b><span>Read more...</span></b></a><span> </span>\n<h3><b><span>Weekly Cybersecurity Takeaway</span></b><span> </span></h3>\n<span>This week’s developments demonstrate that <a class=\"wpil_keyword_link\" href=\"https://cyble.com/knowledge-hub/what-are-cyber-threats/\" rel=\"noopener\" target=\"_blank\" title=\"cybersecurity threats\">cybersecurity threats</a> are crossing organizational, technological, and geographical boundaries, affecting cloud identity systems, artificial intelligence, digital platforms, cryptocurrency applications, and international financial crime.</span><span> </span>\n\n<span>Organizations should prioritize strong identity and access controls, rapid vulnerability remediation, careful management of AI-agent permissions, secure integrations, human oversight, and continuous threat monitoring. </span><span> </span>\n\n<span>As autonomous technologies become more deeply integrated into business operations and cybercriminal networks continue to operate across borders, security teams must adapt to a threat landscape that is becoming broader, more interconnected, and increasingly difficult to contain.</span><span> </span>",
-    "link": "https://thecyberexpress.com/weekly-roundup-microsoft-entra-id-ai-risks/",
-    "published": "2026-08-28T11:17:31",
-    "source": "thecyberexpress.com",
-    "category": "Vulnerability",
-    "importance_score": 1850,
-    "also_covered_by": []
-  },
-  {
     "title": "The Frontier AI Vulnerability Burst: Industrializing Autonomous Zero-Day Discovery in Open-Source Software",
     "summary": "<p>Frontier AI is reshaping vulnerability discovery. Learn how our NOVA system found 14,000+ unknown vulnerabilities across the open-source software supply chain.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/frontier-ai-vulnerability-burst/\">The Frontier AI Vulnerability Burst: Industrializing Autonomous Zero-Day Discovery in Open-Source Software</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
     "link": "https://unit42.paloaltonetworks.com/frontier-ai-vulnerability-burst/",
@@ -80,6 +70,16 @@
     "also_covered_by": []
   },
   {
+    "title": "The Cyber Express Weekly Roundup: Exploited Entra ID Flaw, AI Agent Risks, and Global Cybercrime Crackdown",
+    "summary": "<p><img alt=\"The Cyber Express weekly roundup, podcast\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"484\" src=\"https://thecyberexpress.com/wp-content/uploads/The-Cyber-Express-weekly-roundup-podcast.webp\" title=\"The Cyber Express Weekly Roundup: Exploited Entra ID Flaw, AI Agent Risks, and Global Cybercrime Crackdown 9\" width=\"804\" /></p><span>This weekly roundup highlights a broad range of cybersecurity and technology developments affecting cloud identity infrastructure, social media platforms, businesses, digital assets, and international law enforcement. </span><span> </span>\n\n<span>From a critical Microsoft Entra ID vulnerability exploited before remediation to a global crackdown on West African cybercrime networks, recent developments demonstrate how attackers continue to target both technical systems and human trust.</span><span> </span>\n\n<span>The latest developments also show that <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-cybersecurity/\" title=\"cybersecurity\">cybersecurity</a> risks are expanding alongside the rapid adoption of cloud services and artificial intelligence. Organizations are facing threats involving identity infrastructure, autonomous AI agents, software vulnerabilities, digital transactions, online <a class=\"wpil_keyword_link\" href=\"https://cyble.com/cybercrime/fraud/\" rel=\"noopener\" target=\"_blank\" title=\"fraud\">fraud</a>, and the misuse of emerging technologies.</span><span> </span>\n<h3><b><span>The Cyber Express Weekly Roundup</span></b><span> </span></h3>\n<h4><b><span>Microsoft Confirms Exploited Entra ID Flaw</span></b><span> </span></h4>\n<span>Microsoft confirmed that a critical <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/firewall-daily/vulnerabilities/\" title=\"vulnerability\">vulnerability</a> in Entra ID, CVE-2026-69836, was exploited before the flaw was fixed server-side. The vulnerability carries a CVSS score of 10.0 and could allow unauthenticated attackers to achieve remote code execution, potentially affecting Microsoft’s cloud-based identity infrastructure. </span><a href=\"https://thecyberexpress.com/microsoft-entra-id-cve-2026-69836-exploited/\" rel=\"noopener\" target=\"_blank\"><b><span>Read more...</span></b></a><span> </span>\n<h4><b><span>New Zealand Proposes Social Media Ban for Under-16s</span></b><span> </span></h4>\n<span>New Zealand has introduced legislation that would require high-risk social media platforms to prevent users under the age of 16 from accessing their services. Proposed age-verification methods could include digital identification, facial age estimation, or official identification documents. </span><a href=\"https://thecyberexpress.com/new-zealand-social-media-ban-for-under-16s/\" rel=\"noopener\" target=\"_blank\"><b><span>Read more...</span></b></a><span> </span>\n<h4><b><span>Cyble and DRONA Launch AI Cyber Defense Initiative in India</span></b><span> </span></h4>\n<span>Cyble and DRONA <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/cyber-news/\" title=\"Cyber\">Cyber</a> Solutions have launched an AI-powered cybersecurity initiative in Ahmedabad aimed at helping mid-sized businesses detect, investigate, and contain cyber threats. The initiative combines <a class=\"wpil_keyword_link\" href=\"https://cyble.com/knowledge-hub/different-types-of-threat-intelligence/\" rel=\"noopener\" target=\"_blank\" title=\"threat intelligence\">threat intelligence</a>, AI-driven investigations, and endpoint enforcement to provide organizations with faster and more coordinated responses to security incidents. </span><a href=\"https://thecyberexpress.com/ai-powered-cyber-defense-cyble-drona/\" rel=\"noopener\" target=\"_blank\"><b><span>Read more...</span></b></a><span> </span>\n<h4><b><span>AI Agents Could Create New Cybersecurity Risks</span></b><span> </span></h4>\n<span><a href=\"https://www.youtube.com/watch?v=MRy_ASQAfy0\" rel=\"nofollow noopener\" target=\"_blank\">Adarsh Kant Sinha</a>, CEO of ANVE.AI, warned that autonomous AI agents could introduce significant new <a class=\"wpil_keyword_link\" href=\"https://cyble.com/knowledge-hub/what-is-cybersecurity/\" rel=\"noopener\" target=\"_blank\" title=\"cybersecurity\">cybersecurity</a> risks as organizations increasingly allow them to interact with business-critical systems. AI agents may gain access to email, customer relationship management platforms, cloud infrastructure, and financial systems, potentially creating new avenues for misuse or compromise. </span><a href=\"https://thecyberexpress.com/ai-agents-ai-security-risks-adarsh-sinha/\" rel=\"noopener\" target=\"_blank\"><b><span>Read more...</span></b></a><span> </span>\n<h4><b><span>Ledger Fixes Ethereum App Flaw Amid Disclosure Dispute</span></b><span> </span></h4>\n<span>Ledger said it fixed a clear-signing vulnerability in its Ethereum application approximately two weeks before security firm TestMachine publicly disclosed the issue. The vulnerability could potentially allow a malicious application to display one transaction to a user while preparing a different transaction for signing. </span><a href=\"https://thecyberexpress.com/ledger-ethereum-app-clear-signing-flaw/\" rel=\"noopener\" target=\"_blank\"><b><span>Read more...</span></b></a><span> </span>\n<h4><b><span>Global Crackdown Nets 58 Arrests in West African Crime Networks</span></b><span> </span></h4>\n<span>An eight-month international law enforcement operation led by INTERPOL has resulted in 58 arrests and the identification of 263 suspects across 22 countries. Operation Jackal IV targeted West African criminal networks involved in cyber-enabled fraud, money laundering, romance scams, and investment scams. </span><a href=\"https://thecyberexpress.com/west-african-organized-crime-groups-crackdown/\" rel=\"noopener\" target=\"_blank\"><b><span>Read more...</span></b></a><span> </span>\n<h3><b><span>Weekly Cybersecurity Takeaway</span></b><span> </span></h3>\n<span>This week’s developments demonstrate that <a class=\"wpil_keyword_link\" href=\"https://cyble.com/knowledge-hub/what-are-cyber-threats/\" rel=\"noopener\" target=\"_blank\" title=\"cybersecurity threats\">cybersecurity threats</a> are crossing organizational, technological, and geographical boundaries, affecting cloud identity systems, artificial intelligence, digital platforms, cryptocurrency applications, and international financial crime.</span><span> </span>\n\n<span>Organizations should prioritize strong identity and access controls, rapid vulnerability remediation, careful management of AI-agent permissions, secure integrations, human oversight, and continuous threat monitoring. </span><span> </span>\n\n<span>As autonomous technologies become more deeply integrated into business operations and cybercriminal networks continue to operate across borders, security teams must adapt to a threat landscape that is becoming broader, more interconnected, and increasingly difficult to contain.</span><span> </span>",
+    "link": "https://thecyberexpress.com/weekly-roundup-microsoft-entra-id-ai-risks/",
+    "published": "2026-08-28T11:17:31",
+    "source": "thecyberexpress.com",
+    "category": "Vulnerability",
+    "importance_score": 1700,
+    "also_covered_by": []
+  },
+  {
     "title": "Keeping Google Play & Android app ecosystems safe in 2025",
     "summary": "<span class=\"byline-author\">Posted by Vijaya Kaza, VP and GM, App & Ecosystem Trust</span>\n\n<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNWPkN36d-E-0ZgVQNZYRep5TH3AnZltbtmu6PO7XLRULe4BuLMiRjS9z25JVTNu-imtoi2efJL2p-T4hu7eXdVirZIoNwIhEOY1p7pVtZwpzsmzIV8chhYOOz7ML5qFHoS0gz7Q3sNQwInc4sV4AaHavaIwn5twlSmjmuHG66uasapArBcBNMIg0XG0et/s1600/SafeAppEcosystem_BlogHero_Still_1920x1080.png\" style=\"display: block; padding: 1em 0; text-align: center;\"><img alt=\"\" border=\"0\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNWPkN36d-E-0ZgVQNZYRep5TH3AnZltbtmu6PO7XLRULe4BuLMiRjS9z25JVTNu-imtoi2efJL2p-T4hu7eXdVirZIoNwIhEOY1p7pVtZwpzsmzIV8chhYOOz7ML5qFHoS0gz7Q3sNQwInc4sV4AaHavaIwn5twlSmjmuHG66uasapArBcBNMIg0XG0et/s1600/SafeAppEcosystem_BlogHero_Still_1920x1080.png\" /></a></div>\n\n\n<p>\nThe Android ecosystem is a thriving global community built on trust, giving billions of users the confidence to download the latest apps. In order to maintain that trust, we’re focused on  ensuring that apps do not cause real-world harm, such as malware, financial fraud, hidden subscriptions, and privacy invasions. As bad actors leverage AI to change their tactics and launch increasingly sophisticated attacks, we’ve deepened our investments in AI and real-time defenses over the last year to maintain the upper hand and stop these threats before they reach users.\n</p>\n<h3>Upgrading Google Play’s AI-powered, multi-layered user protections</h3>\n\n\n<p>\nWe’ve seen a clear impact from these safety efforts on Google Play. In 2025, <strong>we prevented over 1.75 million policy-violating apps from being published on Google Play </strong>and<strong> banned more than 80,000 bad developer accounts that attempted to publish harmful apps. </strong>These figures demonstrate how our proactive protections and push for a more accountable ecosystem are discouraging bad actors from publishing malicious apps, while our new tools help honest developers build compliant apps more easily. Initiatives like developer verification, mandatory pre-review checks, and testing requirements have raised the bar for the Google Play ecosystem, significantly reducing the paths for bad actors to enter.\n</p>\n\n<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXqjB3En8VZFiwKb-q2dzxMdWauGxhuxJyMFuwwRrEMYLvx8EvQbpyfwth1M1SamrAc8vwZvZVoP4GYe7PPpFVwFTevniOYB7bLFAWPQ8cD074hraPEkevtcTnVgPbP_OO9Oo0Ohl6-3LpwaRAUnt-uwzSNcl5yEvYK7uBNEpBNGaQds8c5-ynRhsKCseL/s1600/SafeAppEcosystem_HeroVisual_3Claims_1920x1080.png\" style=\"display: block; padding: 1em 0; text-align: center;\"><img alt=\"\" border=\"0\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXqjB3En8VZFiwKb-q2dzxMdWauGxhuxJyMFuwwRrEMYLvx8EvQbpyfwth1M1SamrAc8vwZvZVoP4GYe7PPpFVwFTevniOYB7bLFAWPQ8cD074hraPEkevtcTnVgPbP_OO9Oo0Ohl6-3LpwaRAUnt-uwzSNcl5yEvYK7uBNEpBNGaQds8c5-ynRhsKCseL/s1600/SafeAppEcosystem_HeroVisual_3Claims_1920x1080.png\" /></a></div>\n\n<p>\nUser safety is at the core of everything we build. Over the years, we’ve continually introduced ways to help users stay safe and make informed app choices — from <a href=\"https://support.google.com/googleplay/answer/1075738\">parental controls</a> to <a href=\"https://support.google.com/googleplay/answer/11416267\">data safety transparency</a> and <a href=\"https://android-developers.googleblog.com/2025/01/helping-users-find-trusted-apps-on-google-play.html\">app badges</a>. We’re constantly improving our policies and protections to encourage safe, high-quality apps on Google Play and stop bad actors before they cause harm.\n</p>\n<p>\nApps on Google Play undergo rigorous reviews for safety and compliance with our policies. Last year, <a href=\"https://blog.google/products-and-platforms/platforms/google-play/keeping-google-play-safe-2025/\">we shared</a> that Google Play runs <strong>over 10,000 safety checks</strong> on every app we publish, and we continue to check and recheck apps after they’ve been published. In 2025, we continued scaling our defenses even further by:\n</p>\n<ul>\n\n<li><strong>Boosting AI-enhanced app detection</strong>: We integrated Google’s latest generative AI models into our review process, helping our human review team continue to find complex malicious patterns faster.</li>\n\n<li><strong>Preventing unnecessary access to sensitive data:</strong> We prevented<strong> over 255,000 apps</strong> from getting excessive access to sensitive user data and continued to strengthen our privacy policies. Our commitment to privacy-forward app development, supported by tools like Play Policy Insights in <a href=\"https://developer.android.com/studio\">Android Studio</a> and <a href=\"https://support.google.com/googleplay/android-developer/answer/10787469?hl=en\">Data safety section</a>, has empowered developers to continue to: minimize privacy-sensitive permission requests, and prioritize the user in their design choices.</li>\n\n<li><strong>Blocking spam ratings and reviews:</strong> Whether they lead to review inflation or deflation, spam ratings and reviews can negatively impact our users’ trust and our developers’ growth. We’re continually evolving our detection models to help ensure app reviews are accurate. Our anti-spam protections blocked <strong>160 million spam ratings and reviews </strong>last year, including inflated and deflated reviews.  We also <strong>prevented an average 0.5-star rating drop</strong> for apps targeted by review bombing, protecting our users and developers from unhelpful reviews.</li>\n\n<li><strong>Safeguarding kids and families</strong>: Our approach to kids and families is built on the core belief that children deserve a safe, enriching digital environment. Our commitment is to empower parents with robust tools while providing children with access to high-quality, age-appropriate content. Last year, we announced <a href=\"https://support.google.com/googleplay/android-developer/answer/16302250?sjid=17958105945234987629-NC\">new layers of protection</a>, in addition to our existing <a href=\"https://blog.google/technology/safety-security/age-assurance-measures-safer-online-kids-teens-us/\">safeguards</a>, to prevent younger audiences from discovering or downloading apps involving activities like gambling or dating. </li>\n</ul>\n<h3>Enhancing Google Play Protect to help keep the entire Android ecosystem safe</h3>\n\n\n<p>\nWe also continued to improve our protections for the broader Android ecosystem, by expanding <a href=\"https://support.google.com/googleplay/answer/2812853?hl=en\">Google Play Protect</a> and real-time security measures like in-call scam protections to help keep users safe from scams, fraud, and other threats.\n</p>\n<p>\n<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRRyFyWuAAS0qmMVtLZaUEybmZ13gxGFxa6UsF_BGUocGCqDI6OAH-wM6_Fl84ZRyGZKnHcOCR4ceaPacTMsGsHtkb1R6lWlrcF1BAxBBt06KAe0n-t7C1gn7IMDC7rLZGY2bBshE1oR-0rCaYWponr8e6bh0AQP5K4koLy1CahuD9lT5Ay1I4JjaCSKb3/s1600/SafeAppEcosystem_GooglePlayProtectRealTimeScanning_1920x1080.png\" style=\"display: block; padding: 1em 0; text-align: center;\"><img alt=\"\" border=\"0\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRRyFyWuAAS0qmMVtLZaUEybmZ13gxGFxa6UsF_BGUocGCqDI6OAH-wM6_Fl84ZRyGZKnHcOCR4ceaPacTMsGsHtkb1R6lWlrcF1BAxBBt06KAe0n-t7C1gn7IMDC7rLZGY2bBshE1oR-0rCaYWponr8e6bh0AQP5K4koLy1CahuD9lT5Ay1I4JjaCSKb3/s1600/SafeAppEcosystem_GooglePlayProtectRealTimeScanning_1920x1080.png\" /></a></div>\n\n<p>\nAs Android’s built-in defense against malware and unwanted software, <strong>Google Play Protect now scans over 350 billion Android apps daily.</strong> This proactive protection constantly checks both Play apps and those from other sources to ensure they are not potentially harmful. And, last year, its real-time scanning capability identified <strong>more than 27 million </strong>new malicious apps from outside Google Play, warning users or blocking the app to neutralize the threat. To benefit from these protections, we recommend that users always keep Google Play Protect on. \n</p>\n<p>\nWhile fraudsters are constantly evolving their tactics, Google Play Protect is evolving faster. Last year, we expanded:\n</p>\n<ul>\n\n<li><strong>Enhanced fraud protection:</strong> Google Play Protect’s <a href=\"https://security.googleblog.com/2024/02/piloting-new-ways-to-protect-Android-users-from%20financial-fraud.html\">enhanced fraud protection</a> analyzes and automatically blocks the installation of apps that may abuse sensitive permissions to commit financial fraud. This protection is triggered when a user attempts to install an app from an \"Internet-sideloading source\" — such as a web browser or messaging app — that requests a sensitive permission. Building on the success of our initial pilot in Singapore, we expanded enhanced fraud protection to <strong>185 markets</strong>, now covering more than <strong>2.8 billion Android devices</strong>. In 2025, we <strong>blocked 266 million risky installation attempts</strong> and<strong> helped protect users from 872,000 unique, high-risk applications.</strong></li>\n\n<li><strong>In-call scam protection:</strong> We also <a href=\"https://security.googleblog.com/2025/05/whats-new-in-android-security-privacy-2025.html\">introduced</a> new protections to combat social engineering attacks during phone calls. This feature preemptively disables the ability to turn off Google Play Protect during phone calls, stopping bad actors from being able to trick users into disabling their device's built-in defenses to download a malicious app while on a call.</li>\n</ul>\n<h3>Partnering with developers for a more secure, privacy-friendly future</h3>\n\n\n<p>\nKeeping Android and Google Play safe requires deep collaboration. We want to thank our global developer community for their partnership and for sharing their feedback on the tools and support they need to succeed.\n</p>\n<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuQSOEIEqh9WkZLhfDByQYwJ5oCPUI_tux-OhPo3qgJ9LZ0Uuphey0RcUPiiIoqOcE8eEOWqSreJsex9f_8UAn8JUn8wnc3AcApCymgrDn3YCHeudyrH5QI22iArfEGKjluM1jKVujCXLRwmH06V2MnaSO3f_koSgMelHiuwPJtKQHKwcFi6AksS3TRqWY/s1600/SafeAppEcosystem_PlayIntegrityAPI_1920x1080.png\" style=\"display: block; padding: 1em 0; text-align: center;\"><img alt=\"\" border=\"0\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuQSOEIEqh9WkZLhfDByQYwJ5oCPUI_tux-OhPo3qgJ9LZ0Uuphey0RcUPiiIoqOcE8eEOWqSreJsex9f_8UAn8JUn8wnc3AcApCymgrDn3YCHeudyrH5QI22iArfEGKjluM1jKVujCXLRwmH06V2MnaSO3f_koSgMelHiuwPJtKQHKwcFi6AksS3TRqWY/s1600/SafeAppEcosystem_PlayIntegrityAPI_1920x1080.png\" /></a></div>\n<p>\n In 2025, we focused on reducing friction for developers and providing them with tools to safeguard their businesses:\n</p>\n<ul>\n\n<li><strong>Building safer apps more easily</strong>: We’re helping developers streamline their work by bringing insights directly into their natural workflows. It starts with <a href=\"https://developer.android.com/studio/publish/insights\">Play Policy Insights in Android Studio</a>, which gives developers real-time feedback as they code. We focused first on permissions and APIs that grant deeper system access or handle personal data, like location or photos. This gives developers a head start on policy requirements, including prominent disclosures or usage declarations, while they’re still building. When developers move to Play Console to prepare their apps for submission, our expanded <a href=\"https://support.google.com/googleplay/android-developer/answer/14807773\">pre-review checks</a> help catch common reasons for rejection, like improper usage of credentials or permissions and broken privacy policy links, ensuring smoother, faster reviews.</li>\n\n<li><strong>Stronger threat detection with Play Integrity API</strong>: Every day, apps and games make over 20 billion checks with <a href=\"https://developer.android.com/google/play/integrity\">Play Integrity API</a> to protect against abuse and unauthorized access. In 2025, we added <a href=\"https://android-developers.googleblog.com/2025/10/stronger-threat-detection-simpler.html\">hardware-backed signals</a> to make it even harder for bad actors to spoof devices and introduced <a href=\"https://android-developers.googleblog.com/2025/10/stronger-threat-detection-simpler.html\">new in-app prompts</a> that let users fix common issues like network errors without leaving the app. We also launched <a href=\"https://developer.android.com/google/play/integrity/device-recall\">device recall</a> in beta to help developers identify repeat bad actors even after a device has been reset, all while protecting user privacy.</li>\n\n<li><strong>Building trust through developer verification:</strong> We’ve seen how effective developer verification is on Google Play, and now we’re applying those lessons to the broader Android ecosystem. By ensuring there is a real, accountable identity behind every app, verification helps legitimize authentic developers and prevents bad actors from hiding behind anonymity to repeatedly cause harm. After gathering feedback during our <a href=\"https://developer.android.com/developer-verification/guides/early-access\">early access</a> period, we’ll open up verification to all developers this year. We’ve also added a dedicated account type for students and hobbyists, which will allow them to distribute these apps to a limited number of devices without the full verification requirements.</li>\n\n<li><strong>Greater security with every Android release</strong>: In Android 16, developers can <a href=\"https://android-developers.googleblog.com/2025/12/enhancing-android-security-stop-malware.html\">protect</a> users’ most private information, like bank logins, with just one line of code. We’ve integrated this feature automatically to <a href=\"https://android-developers.googleblog.com/2025/12/enhancing-android-security-stop-malware.html#:~:text=Automatic%2C%20enhanced%20security%20for%20setFilterTouchesWhenObscured%20protection\">certain apps</a> for an instant security boost against “<a href=\"https://developer.android.com/privacy-and-security/risks/tapjacking#mitigations\">tapjacking</a>,” a trick where bad apps use hidden layers to steal clicks for ad fraud. </li>\n</ul>\n<h3>Looking ahead</h3>\n\n\n<p>\nOur top priority remains making Google Play and Android the most trusted app ecosystems for everyone. This year, we’ll continue to invest in AI-driven defenses to stay ahead of emerging threats and equip Android developers with the tools they need to build apps safely. To empower developers who distribute their apps on Google Play, we’ll maintain our focus on embedding checks to help build apps that are compliant by design, while providing guidance to help proactively avoid policy violations before an app is published. We’ll also roll out Android developer verifications to hold bad actors accountable and prevent them from hiding behind anonymity to cause repeated harm.\n</p>\n<p>\nThank you for being part of the Google Play and Android community as we work together to build a safer app ecosystem.\n</p>",
     "link": "http://security.googleblog.com/2026/02/keeping-google-play-android-app-ecosystem-safe-2025.html",
@@ -87,6 +87,16 @@
     "source": "security.googleblog.com",
     "category": "Vulnerability",
     "importance_score": 1680,
+    "also_covered_by": []
+  },
+  {
+    "title": "AI Shopping Assistant Vulnerabilities Enable Remote Code Execution on Retailer’s Servers",
+    "summary": "<p>Security researchers have demonstrated how flaws in the AI shopping assistant of a major unnamed U.S. retailer could be exploited to enable remote code execution (RCE) on the company’s backend infrastructure through its public-facing mobile application. Netanel Rubin, co-founder and CTO of Rein Security, along with researcher Dan Avraham, presented their findings during a Black [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ai-shopping-assistant-vulnerabilities/\">AI Shopping Assistant Vulnerabilities Enable Remote Code Execution on Retailer’s Servers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/ai-shopping-assistant-vulnerabilities/",
+    "published": "2026-08-31T09:33:26",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 1675,
     "also_covered_by": []
   },
   {
@@ -320,6 +330,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Critical Microsoft UFO MCP Flaw Lets Attackers Remotely Control Android Devices Without Authentication",
+    "summary": "<p>A critical vulnerability in Microsoft’s open-source UFO Desktop AgentOS could allow remote attackers to access and control Android devices connected via the platform’s Mobile Model Context Protocol (MCP) servers without requiring authentication. This vulnerability is tracked as CVE-2026-73296 and GHSA-24fq-m9rr-g3mm, carrying a CVSS v3.1 score of 9.4. It affects UFO versions up to and including [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-microsoft-ufo-mcp-flaw/\">Critical Microsoft UFO MCP Flaw Lets Attackers Remotely Control Android Devices Without Authentication</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/critical-microsoft-ufo-mcp-flaw/",
+    "published": "2026-08-31T06:13:19",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 1231,
+    "also_covered_by": []
+  },
+  {
     "title": "Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE",
     "summary": "Multiple critical security flaws have been disclosed in WordPress plugins and themes, including WPMU DEV Dashboard, Avada, TranslatePress, Pods, and GiveWP, that could lead to authentication bypass, account takeover, and arbitrary code execution.\n\nThe vulnerabilities, according to Wordfence and Patchstack, are listed below -\n\n\n  CVE-2026-76581 (CVSS score: 9.8) - An authentication bypass flaw in",
     "link": "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html",
@@ -327,6 +347,16 @@
     "source": "thehackernews.com",
     "category": "Vulnerability",
     "importance_score": 1208,
+    "also_covered_by": []
+  },
+  {
+    "title": "Critical Microsoft Flaw Lets Hackers Remotely Control Android Devices Without a Login",
+    "summary": "<p>A critical vulnerability in Microsoft’s open-source UFO automation framework, tracked as CVE-2026-73296 with a CVSS score of 9.4, could allow remote attackers to view and control Android devices without authentication or user interaction. The flaw, tracked as CVE-2026-73296, has a CVSS severity score of 9.4 out of 10. The issue affects Microsoft UFO versions before [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-flaw/\">Critical Microsoft Flaw Lets Hackers Remotely Control Android Devices Without a Login</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/microsoft-flaw/",
+    "published": "2026-08-31T07:34:58",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 1207,
     "also_covered_by": []
   },
   {
@@ -360,6 +390,56 @@
     "also_covered_by": []
   },
   {
+    "title": "Shai-Hulud Trinitite Worm Infects Popular TanStack Query npm Package to Steal Developer Secrets",
+    "summary": "<p>A new Shai-Hulud supply-chain attack dubbed Trinitite has compromised the npm package @7nohe/openapi-react-query-codegen, a TanStack Query code-generation library with more than 150,000 weekly downloads. The malicious releases deploy an evolved Mini Shai-Hulud worm designed to steal developer, cloud, CI/CD, package-registry, Kubernetes, Vault, and source-control credentials before using recovered access to spread through additional packages. While [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/shai-hulud-trinitite-worm/\">Shai-Hulud Trinitite Worm Infects Popular TanStack Query npm Package to Steal Developer Secrets</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/shai-hulud-trinitite-worm/",
+    "published": "2026-08-31T10:21:35",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 1092,
+    "also_covered_by": []
+  },
+  {
+    "title": "TerminalFix Uses Fake CAPTCHA, DLL Sideloading and Steganography to Breach Networks",
+    "summary": "<p>A sophisticated ClickFix variant dubbed TerminalFix that uses fake Cloudflare CAPTCHA prompts to trick users into executing attacker-controlled PowerShell commands. Rather than delivering a conventional infostealer, the campaign builds persistent access and deploys a reverse-tunnel implant capable of turning an infected Windows endpoint into a proxy for reaching internal network resources. The intrusion begins on [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/terminalfix-uses-fake-captcha/\">TerminalFix Uses Fake CAPTCHA, DLL Sideloading and Steganography to Breach Networks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/terminalfix-uses-fake-captcha/",
+    "published": "2026-08-31T06:08:27",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 1081,
+    "also_covered_by": []
+  },
+  {
+    "title": "Magecart Hackers Abuse Ethereum Smart Contracts to Steal Card Data From 40+ Online Stores",
+    "summary": "<p>A Magecart campaign dubbed HexMage has compromised more than 40 e-commerce storefronts across at least 15 countries, using Ethereum smart contracts as a resilient delivery mechanism for payment-card skimmers. The operation blends traditional client-side checkout theft with EtherHiding, allowing attackers to conceal and rotate skimmer infrastructure through Ethereum’s Sepolia testnet. Because the malicious code is [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/magecart-campaign-3/\">Magecart Hackers Abuse Ethereum Smart Contracts to Steal Card Data From 40+ Online Stores</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/magecart-campaign-3/",
+    "published": "2026-08-31T09:06:19",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 1080,
+    "also_covered_by": []
+  },
+  {
+    "title": "OpenClaw 2.0 Released With Major Security Upgrades for AI Agents, Plugins and Credentials",
+    "summary": "<p>OpenClaw has released version 2026.8.1, also called OpenClaw 2.0, in what the open-source AI agent platform described as its largest update to date. The release was built by 933 contributors, including 569 first-time contributors, and contains more than 16,000 pull requests across installation, agents, plugins, credentials, browser controls, messaging, automation, memory, and native applications. The [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openclaw-2-0-released/\">OpenClaw 2.0 Released With Major Security Upgrades for AI Agents, Plugins and Credentials</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/openclaw-2-0-released/",
+    "published": "2026-08-31T10:54:46",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 1069,
+    "also_covered_by": []
+  },
+  {
+    "title": "Hackers Use Ethereum Blockchain to Steal Credit Card Data From Online Shoppers",
+    "summary": "<p>Online shoppers can have their card details stolen without ever leaving a legitimate store. A tracked Magecart campaign plants malicious checkout code on compromised e-commerce sites, then uses Ethereum blockchain infrastructure to keep its delivery system active. The campaign, dubbed HexMage, has affected more than 40 merchant websites in at least 15 countries since about [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-use-ethereum-blockchain/\">Hackers Use Ethereum Blockchain to Steal Credit Card Data From Online Shoppers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/hackers-use-ethereum-blockchain/",
+    "published": "2026-08-31T11:06:00",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 1061,
+    "also_covered_by": []
+  },
+  {
     "title": "Protecting Cookies with Device Bound Session Credentials",
     "summary": "<span class=\"byline-author\">Posted by Ben Ackerman, Chrome team,  Daniel Rubery, Chrome team and Guillaume Ehinger, Google Account Security team</span>\n\n<p>\nFollowing our April 2024 <a href=\"https://blog.chromium.org/2024/04/fighting-cookie-theft-using-device.html\">announcement</a>, Device Bound Session Credentials (DBSC) is now entering public availability for Windows users on Chrome 146, and expanding to macOS in an upcoming Chrome release. This project represents a significant step forward in our ongoing efforts to combat session theft, which remains a prevalent threat in the modern security landscape.\n</p>\n<p>\nSession theft typically occurs when a user inadvertently downloads malware onto their device. Once active, the malware can silently extract existing session cookies from the browser or wait for the user to log in to new accounts, before exfiltrating these tokens to an attacker-controlled server. Infostealer malware families, such as LummaC2, have become increasingly sophisticated at harvesting these credentials. Because cookies often have extended lifetimes, attackers can use them to gain unauthorized access to a user’s accounts without ever needing their passwords; this access is then often bundled, traded, or sold among threat actors.\n</p>\n<p>\nCrucially, once sophisticated malware has gained access to a machine, it can read the local files and memory where browsers store authentication cookies. As a result, there is no reliable way to prevent cookie exfiltration using software alone on any operating system. Historically, mitigating session theft relied on detecting the stolen credentials after the fact using a complex set of abuse heuristics – a reactive approach that persistent attackers could often circumvent. DBSC fundamentally changes the web's capability to defend against this threat by shifting the paradigm from reactive detection to proactive prevention, ensuring that successfully exfiltrated cookies cannot be used to access users’ accounts.\n</p>\n<h3>How DBSC Works</h3>\n\n\n<p>\nDBSC protects against session theft by cryptographically binding authentication sessions to a specific device. It does this using hardware-backed security modules, such as the Trusted Platform Module (TPM) on Windows and the Secure Enclave on macOS, to generate a unique public/private key pair that cannot be exported from the machine. The issuance of new short-lived session cookies is contingent upon Chrome proving possession of the corresponding private key to the server. Because attackers cannot steal this key, any exfiltrated cookies quickly expire and become useless to those attackers. This design allows large and small websites to upgrade to secure, hardware-bound sessions by adding dedicated registration and refresh endpoints to their backends, while maintaining complete compatibility with their existing front-end. The browser handles the complex cryptography and cookie rotation in the background, allowing the web app to continue using standard cookies for access just as it always has. \n</p>\n<p>\nGoogle rolled out an early version of this protocol over the last year. For sessions protected by DBSC, we have observed a significant reduction in session theft since its launch.\n</p>\n<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjk4eZvzfBqPL0Xf1ckUo7l58eyeZKSzIelxjLOiOE_XHYNZc-qdx24Sv9n3tgRgc2xOzKZvcHsCksprOlxwd-gIRQaLPsOu2jjuCV4e6G1_ImsXhQeOean1CWndOiQuikT94gbvZLlWfktpCBRtxh9dJkxjpfvradSkzWD1Wqxohg9TJUdyC1kC88y6Abu/s1600/Screenshot%202026-04-09%20at%2010.11.22%E2%80%AFAM.png\" style=\"display: block; padding: 1em 0; text-align: center;\"><img alt=\"\" border=\"0\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjk4eZvzfBqPL0Xf1ckUo7l58eyeZKSzIelxjLOiOE_XHYNZc-qdx24Sv9n3tgRgc2xOzKZvcHsCksprOlxwd-gIRQaLPsOu2jjuCV4e6G1_ImsXhQeOean1CWndOiQuikT94gbvZLlWfktpCBRtxh9dJkxjpfvradSkzWD1Wqxohg9TJUdyC1kC88y6Abu/s1600/Screenshot%202026-04-09%20at%2010.11.22%E2%80%AFAM.png\" /></a></div>\n<p style=\"text-align: center;\">\n<em>An overview of the DBSC protocol showing the interaction between the browser and server.</em>\n</p>\n<h3>Private by design</h3>\n\n\n<p>\nA core tenet of the DBSC architecture is the preservation of user privacy. Each session is backed by a distinct key, preventing websites from using these credentials to correlate a user's activity across different sessions or sites on the same device. Furthermore, the protocol is designed to be lean: it does not leak device identifiers or attestation data to the server beyond the per-session public key required to certify proof of possession. This minimal information exchange ensures DBSC helps secure sessions without enabling cross-site tracking or acting as a device fingerprinting mechanism.\n</p>\n<h3>Engagement with the ecosystem</h3>\n\n\n<p>\nDBSC was designed from the beginning to be an open web standard through the W3C process and adoption by the Web Application Security Working Group. Through this process we partnered with Microsoft to design the standard to ensure it works for the web and got input from many in the industry that are responsible for web security.\n</p>\n<p>\nAdditionally, over the past year, we have also conducted two Origin Trials to ensure DBSC effectively serves the requirements of the broader web community. Many web platforms, including Okta, actively participated in these trials and their own testing and provided essential feedback to ensure the protocol effectively addresses their diverse needs.\n</p>\n<p>\nIf you are a web developer and are looking for a way to secure your users against session theft, refer to our <a href=\"https://developer.chrome.com/docs/web-platform/device-bound-session-credentials\">developer guide</a> for implementation details. Additionally, all the details about DBSC can be found on the <a href=\"https://w3c.github.io/webappsec-dbsc/\">spec</a> and the corresponding <a href=\"https://github.com/w3c/webappsec-dbsc\">github</a>. Feel free to use the <a href=\"https://github.com/w3c/webappsec-dbsc/issues\">issues</a> page to report bugs or provide feature requests.\n</p>\n<h3>Future improvements</h3>\n\n\n<p>\nAs we continue to evolve the DBSC standard, future iterations will focus on increasing support across diverse ecosystems and introducing advanced capabilities tailored for complex enterprise environments. Key areas of ongoing development include:\n</p>\n<ul>\n\n<li><strong>Securing Federated Identity: </strong>In modern enterprise environments, Single Sign-On (SSO) is ubiquitous. We are expanding the DBSC protocol to support cross-origin bindings, ensuring that a relying party (RP) session remains continuously bound to the same original device key used by the Identity Provider (IdP). This guarantees that the high-assurance security of the initial device binding is maintained throughout the entire federated login process, creating an unbroken chain of trust.</li>\n\n<li><strong>Advanced Registration Capabilities:</strong> While DBSC provides robust protection for established cookies, some environments require an even stronger foundation when the session is first created. We are developing mechanisms to bind DBSC sessions to pre-existing, trusted key material rather than generating a new key at sign-in. This advanced capability enables websites to integrate complementary technologies, such as mTLS certificates or hardware security keys, creating a highly secure registration environment.</li>\n\n<li><strong>Broader Device Support:</strong> We are also actively exploring the potential addition of software-based keys to extend protections to devices without dedicated secure hardware.",
     "link": "http://security.googleblog.com/2026/04/protecting-cookies-with-device-bound.html",
@@ -380,6 +460,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Hackers’ Own Malware Infection Exposes Their RATs, Phishing Kits and Attack Infrastructure",
+    "summary": "<p>A malware investigation has exposed the tools and infrastructure used by suspected operators behind a Blind Eagle-linked campaign targeting Colombia and the wider region. The break came after an apparent attacker workstation was infected by a separate information-stealing program, leaving a record of its activity. The operation used phishing emails impersonating Colombian judicial bodies and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-own-malware-infection/\">Hackers’ Own Malware Infection Exposes Their RATs, Phishing Kits and Attack Infrastructure</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/hackers-own-malware-infection/",
+    "published": "2026-08-31T05:22:17",
+    "source": "cybersecuritynews.com",
+    "category": "Phishing / Scams",
+    "importance_score": 969,
+    "also_covered_by": []
+  },
+  {
     "title": "Threat landscape for industrial automation systems. Q2 2026",
     "summary": "The report contains statistics on industrial threats for Q2 2026, including ransomware, miners, spyware and other threats that were detected and blocked on industrial control systems.",
     "link": "https://securelist.com/industrial-threat-report-q2-2026/121159/",
@@ -397,6 +487,26 @@
     "source": "unit42.paloaltonetworks.com",
     "category": "Vulnerability",
     "importance_score": 958,
+    "also_covered_by": []
+  },
+  {
+    "title": "New AI-Built Malware Watches How Security Teams Remove It and Fights Back",
+    "summary": "<p>A new Windows malware toolkit is showing how artificial intelligence can change the economics of cybercrime. Known as Gryxa, it gives a criminal operator remote access, stays active after partial cleanup, and targets passwords stored in Chromium-based browsers. It can also watch defenders trying to remove it. The suspected entry point is a phishing message [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/new-ai-built-malware-watches/\">New AI-Built Malware Watches How Security Teams Remove It and Fights Back</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/new-ai-built-malware-watches/",
+    "published": "2026-08-31T09:25:07",
+    "source": "cybersecuritynews.com",
+    "category": "Phishing / Scams",
+    "importance_score": 955,
+    "also_covered_by": []
+  },
+  {
+    "title": "Free Router DNS Tweak Blocks Malware and Phishing Across Home Networks",
+    "summary": "<p>A router configuration change is gaining attention as a way to add defense against phishing and malware. Cybersecurity commentator Luis Catacora urged users to replace default DNS resolvers on a router with Cloudflare’s addresses: 1.1.1.2 as the primary server and 1.0.0.2 as the secondary server. The change does not replace endpoint security, but it can [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/router-dns-tweak-blocks-malware/\">Free Router DNS Tweak Blocks Malware and Phishing Across Home Networks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/router-dns-tweak-blocks-malware/",
+    "published": "2026-08-31T03:58:08",
+    "source": "cybersecuritynews.com",
+    "category": "Phishing / Scams",
+    "importance_score": 954,
     "also_covered_by": []
   },
   {
@@ -600,6 +710,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Hackers Steal Claude Login Sessions With Infostealer Malware to Hijack Accounts",
+    "summary": "<p>Anthropic&#8217;s Claude AI platform has become an active target for cybercriminals, with two distinct attack chains now confirmed to be stealing credentials, hijacking paid usage, and reinfecting devices even after cleanup. The company has begun signing out compromised accounts, stripping saved payment methods, and issuing refunds as it works to contain the damage. According to [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-steal-claude-login-sessions/\">Hackers Steal Claude Login Sessions With Infostealer Malware to Hijack Accounts</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/hackers-steal-claude-login-sessions/",
+    "published": "2026-08-31T02:36:07",
+    "source": "cybersecuritynews.com",
+    "category": "AI & Security",
+    "importance_score": 714,
+    "also_covered_by": []
+  },
+  {
     "title": "TerminalFix Uses Fake Cloudflare CAPTCHAs to Deploy Reverse-Tunnel Backdoor",
     "summary": "Microsoft has disclosed details of a new ClickFix variant, dubbed TerminalFix, that aims to trick users into running a malicious command in Windows Terminal or PowerShell.\n\n\"While traditional ClickFix campaigns direct victims to the Windows Run dialog, TerminalFix campaigns apply the same technique but direct users to Windows Terminal or PowerShell instead, increasing the likelihood that complex",
     "link": "https://thehackernews.com/2026/08/terminalfix-uses-fake-cloudflare.html",
@@ -680,6 +800,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Microsoft Defender Bug Triggers False “Antivirus Turned Off” Alerts on Windows",
+    "summary": "<p>Microsoft has confirmed an issue with Microsoft Defender Antivirus that generates false notifications on Windows systems, claiming &#8220;Microsoft Defender Antivirus is turned off,&#8221; even though the protection is still operational. These alerts may appear after installing the latest Defender updates, potentially causing unnecessary concern for administrators who observe that Defender settings are healthy and security [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/microsoft-defender-bug-triggers-false-antivirus-turned-off-alerts/\">Microsoft Defender Bug Triggers False “Antivirus Turned Off” Alerts on Windows</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/microsoft-defender-bug-triggers-false-antivirus-turned-off-alerts/",
+    "published": "2026-08-31T09:51:33",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 641,
+    "also_covered_by": []
+  },
+  {
     "title": "AI a 'force multiplier' for low-skilled threat actors: 4 ways organizations should respond",
     "summary": "Low-skill hacktivists are now 'enabled with the same tooling and sophistication as a state-sponsored group,' according to cybersecurity consultant Unit 42.",
     "link": "https://www.zdnet.com/article/ai-armed-script-kiddies-power-of-state-threat-actors-unit-42/",
@@ -707,6 +837,36 @@
     "source": "infosecurity-magazine.com",
     "category": "Policy / Law",
     "importance_score": 637,
+    "also_covered_by": []
+  },
+  {
+    "title": "Android 17 Adds New Network Security Features to Block 2G SMS Blaster Attacks",
+    "summary": "<p>Android 17 introduces a new set of network security controls to reduce cellular downgrade attacks, protect local networks, and limit metadata exposure during encrypted web sessions. This update includes carrier-managed 2G shutdown capabilities designed to combat SMS blaster campaigns that increasingly target users in public spaces. Google states the Android 17 changes focus on four [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/android-17-adds-new-network-security-features/\">Android 17 Adds New Network Security Features to Block 2G SMS Blaster Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/android-17-adds-new-network-security-features/",
+    "published": "2026-08-31T09:17:07",
+    "source": "gbhackers.com",
+    "category": "Ransomware",
+    "importance_score": 625,
+    "also_covered_by": []
+  },
+  {
+    "title": "Microsoft Confirms False “Defender Antivirus Turned Off” Alerts Spreading Across Windows Devices",
+    "summary": "<p>Microsoft has confirmed that a wave of alarming Windows Security pop-ups telling users their antivirus protection is disabled is nothing more than a software bug, not an actual security issue. In an official statement, Microsoft said the erroneous notifications began appearing after devices installed the latest Microsoft Defender Antivirus updates, and that &#8220;the antivirus is [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-defender-antivirus-turned-off/\">Microsoft Confirms False &#8220;Defender Antivirus Turned Off&#8221; Alerts Spreading Across Windows Devices</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/microsoft-defender-antivirus-turned-off/",
+    "published": "2026-08-31T09:05:53",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 623,
+    "also_covered_by": []
+  },
+  {
+    "title": "Composer Flaw Lets Malicious Dependencies Expose SSH Keys and Sensitive Files",
+    "summary": "<p>A newly disclosed security flaw in Composer, the widely used dependency manager for PHP, could allow a malicious or compromised package to alter permissions on files located outside its own installation directory. The issue, tracked as CVE-2026-59944, can expose sensitive files on shared or multi-tenant systems when vulnerable Composer versions process unsafe package binary paths. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/composer-flaw-expose-ssh-keys/\">Composer Flaw Lets Malicious Dependencies Expose SSH Keys and Sensitive Files</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/composer-flaw-expose-ssh-keys/",
+    "published": "2026-08-31T08:11:56",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 613,
     "also_covered_by": []
   },
   {
@@ -850,6 +1010,16 @@
     "also_covered_by": []
   },
   {
+    "title": "D-Link DIR-X1860Z Flaws Enable Unauthenticated Admin Password Reset and Wi-Fi Credential Theft",
+    "summary": "<p>D-Link has released a security update for the DIR-X1860Z router after researchers discovered vulnerabilities that could enable an unauthenticated attacker on the local network to reset the administrator password and retrieve wireless configuration information, including Wi-Fi credentials. The vulnerabilities affect the non-US DIR-X1860Z hardware revision A1/V1.0 running firmware version V1.0.2.220120.165402. D-Link addressed these issues in [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/d-link-dir-x1860z-flaws/\">D-Link DIR-X1860Z Flaws Enable Unauthenticated Admin Password Reset and Wi-Fi Credential Theft</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/d-link-dir-x1860z-flaws/",
+    "published": "2026-08-31T08:03:15",
+    "source": "gbhackers.com",
+    "category": "Policy / Law",
+    "importance_score": 489,
+    "also_covered_by": []
+  },
+  {
     "title": "Emerging Threats to Neurotechnology",
     "summary": "Explore the evolving security landscape of neurotechnology, including risks like IP theft, data extortion, and regulatory challenges in this emerging field.",
     "link": "https://www.recordedfuture.com/research/emerging-threats-neurotechnology",
@@ -960,6 +1130,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Composer Path Traversal Flaw Lets Malicious Packages Expose Sensitive Files",
+    "summary": "<p>Composer users are urged to update their software following the disclosure of a path-traversal vulnerability. This flaw could allow a malicious or compromised PHP package to change file permissions outside of its own installation directory. The vulnerability is tracked as CVE-2026-59944 and GHSA-96h3-5x6v-m776, affecting Composer versions 2.3.0 through 2.10.2 and versions 1.0 through 2.2.29. Composer [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/composer-path-traversal-flaw/\">Composer Path Traversal Flaw Lets Malicious Packages Expose Sensitive Files</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/composer-path-traversal-flaw/",
+    "published": "2026-08-31T07:00:20",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 475,
+    "also_covered_by": []
+  },
+  {
     "title": "Kimwolf v7: An Evolution of the Kimwolf Botnet",
     "summary": "<p>Discover how Kimwolf v7 targets Android IoT devices with HTTP/2 DDoS fingerprinting, Ethereum ENS C2 resolution and Tor backup routing.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/kimwolf-v7-botnet-malware/\">Kimwolf v7: An Evolution of the Kimwolf Botnet</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
     "link": "https://unit42.paloaltonetworks.com/kimwolf-v7-botnet-malware/",
@@ -967,6 +1147,26 @@
     "source": "unit42.paloaltonetworks.com",
     "category": "Other",
     "importance_score": 474,
+    "also_covered_by": []
+  },
+  {
+    "title": "New Gryxa Toolkit Uses AI-Built Persistence to Fight Back Against Security Teams",
+    "summary": "<p>A financially motivated threat actor using a new Windows toolkit named Gryxa that combines remote monitoring and management abuse, AI-assisted development, browser credential theft, and aggressive persistence designed to survive incomplete remediation. The toolkit’s most unusual feature is its ability to collect evidence of how defenders removed its visible access and send that information back [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/gryxa-toolkit-uses-ai/\">New Gryxa Toolkit Uses AI-Built Persistence to Fight Back Against Security Teams</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/gryxa-toolkit-uses-ai/",
+    "published": "2026-08-31T07:35:53",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 473,
+    "also_covered_by": []
+  },
+  {
+    "title": "Hackers Use Fake Cloudflare CAPTCHA to Deploy Reverse Tunnel Into Corporate Networks",
+    "summary": "<p>Hackers are using a fake Cloudflare CAPTCHA to turn a routine web check into a doorway into corporate networks. The campaign, called TerminalFix, begins on compromised websites and persuades visitors to paste a supposed verification command into Windows Terminal or PowerShell. It relies on a victim completing the attacker’s instructions. It has been seen against [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fake-cloudflare-captcha/\">Hackers Use Fake Cloudflare CAPTCHA to Deploy Reverse Tunnel Into Corporate Networks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/fake-cloudflare-captcha/",
+    "published": "2026-08-31T07:58:22",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 458,
     "also_covered_by": []
   },
   {
@@ -1227,16 +1427,6 @@
     "source": "unit42.paloaltonetworks.com",
     "category": "Other",
     "importance_score": 369,
-    "also_covered_by": []
-  },
-  {
-    "title": "North Korean remote workers are broadening their job hunt beyond IT",
-    "summary": "<p>North Korean (DPRK) remote workers are expanding their job searches beyond IT, according to Huntress. Recent investigations have identified suspected DPRK workers employed in sales and marketing and the medical profession. “DPRK workers present a unique detection challenge for defenders: rather than compromising accounts or breaking in via gaps in the organizations&#8217; environments, they&#8217;re tricking companies into remotely hiring them, and oftentimes actually doing the legitimate work they were hired to do,” Huntress said. “Furthermore, &#8230; <a href=\"https://www.helpnetsecurity.com/2026/08/28/north-korean-remote-workers-jobs-sales-and-marketing/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/08/28/north-korean-remote-workers-jobs-sales-and-marketing/\">North Korean remote workers are broadening their job hunt beyond IT</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
-    "link": "https://www.helpnetsecurity.com/2026/08/28/north-korean-remote-workers-jobs-sales-and-marketing/",
-    "published": "2026-08-28T11:16:25",
-    "source": "helpnetsecurity.com",
-    "category": "Other",
-    "importance_score": 350,
     "also_covered_by": []
   },
   {
@@ -1578,6 +1768,16 @@
     "published": "2026-08-26T05:26:22",
     "source": "thecyberexpress.com",
     "category": "AI & Security",
+    "importance_score": 200,
+    "also_covered_by": []
+  },
+  {
+    "title": "North Korean remote workers are broadening their job hunt beyond IT",
+    "summary": "<p>North Korean (DPRK) remote workers are expanding their job searches beyond IT, according to Huntress. Recent investigations have identified suspected DPRK workers employed in sales and marketing and the medical profession. “DPRK workers present a unique detection challenge for defenders: rather than compromising accounts or breaking in via gaps in the organizations&#8217; environments, they&#8217;re tricking companies into remotely hiring them, and oftentimes actually doing the legitimate work they were hired to do,” Huntress said. “Furthermore, &#8230; <a href=\"https://www.helpnetsecurity.com/2026/08/28/north-korean-remote-workers-jobs-sales-and-marketing/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/08/28/north-korean-remote-workers-jobs-sales-and-marketing/\">North Korean remote workers are broadening their job hunt beyond IT</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "link": "https://www.helpnetsecurity.com/2026/08/28/north-korean-remote-workers-jobs-sales-and-marketing/",
+    "published": "2026-08-28T11:16:25",
+    "source": "helpnetsecurity.com",
+    "category": "Other",
     "importance_score": 200,
     "also_covered_by": []
   },

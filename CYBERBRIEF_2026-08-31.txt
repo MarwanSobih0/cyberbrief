@@ -1,10 +1,10 @@
 CYBERBRIEF • DAILY THREAT INTELLIGENCE
-Generated: Monday, August 31, 2026 - 11:15 UTC
+Generated: Monday, August 31, 2026 - 11:18 UTC
 ================================================================================
 
-Total topics: 283    •    Scanned raw articles: 284
+Total topics: 303    •    Scanned raw articles: 304
 Severity breakdown:
-  CRITICAL: 5  |  HIGH: 14  |  MEDIUM: 30  |  LOW: 234
+  CRITICAL: 5  |  HIGH: 15  |  MEDIUM: 40  |  LOW: 243
 
 Top 7 active threats:
 
@@ -44,17 +44,17 @@ Top 7 active threats:
    Published: 2025-11-20T17:00:00
    Link     : http://security.googleblog.com/2025/11/android-quick-share-support-for-airdrop-security.html
 
-7. Shield Check  thecyberexpress.com  [Link]
-   Title    : The Cyber Express Weekly Roundup: Exploited Entra ID Flaw, AI Agent Risks, and Global Cybercrime Crackdown
-   Category : Vulnerability    •    Severity: HIGH (score: 1850)
-   Published: 2026-08-28T11:17:31
-   Link     : https://thecyberexpress.com/weekly-roundup-microsoft-entra-id-ai-risks/
+7. Shield Check  unit42.paloaltonetworks.com  [News Site]
+   Title    : The Frontier AI Vulnerability Burst: Industrializing Autonomous Zero-Day Discovery in Open-Source Software
+   Category : Vulnerability    •    Severity: HIGH (score: 1836)
+   Published: 2026-08-04T13:00:11
+   Link     : https://unit42.paloaltonetworks.com/frontier-ai-vulnerability-burst/
 
 Security Tips:
 • Never trust unsolicited links or attachments in email or messaging apps.
 • Enable multi-factor authentication (MFA) on email, banking, and admin accounts.
 • Keep browsers, VPNs, and endpoint security fully patched.
 
-Scanned 284 articles • Top 7 topics selected
+Scanned 304 articles • Top 7 topics selected
 Next planned auto-update: 08:00 AM UTC
 Stay safe, stay sharp!
