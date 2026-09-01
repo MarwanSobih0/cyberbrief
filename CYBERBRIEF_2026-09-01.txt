@@ -1,0 +1,60 @@
+CYBERBRIEF • DAILY THREAT INTELLIGENCE
+Generated: Tuesday, September 01, 2026 - 09:41 UTC
+================================================================================
+
+Total topics: 294    •    Scanned raw articles: 294
+Severity breakdown:
+  CRITICAL: 7  |  HIGH: 12  |  MEDIUM: 38  |  LOW: 237
+
+Top 7 active threats:
+
+1. Alert Triangle  thecyberexpress.com  [Link]
+   Title    : PaperCut Issues Second Emergency Patch as Researchers Break Fix for Exploited Zero-Days
+   Category : Ransomware    •    Severity: CRITICAL (score: 3650)
+   Published: 2026-08-31T10:45:20
+   Link     : https://thecyberexpress.com/papercut-issues-second-emergency-patch/
+
+2. Alert Triangle  security.googleblog.com  [News Site]
+   Title    : HTTPS by default
+   Category : Vulnerability    •    Severity: CRITICAL (score: 2520)
+   Published: 2025-10-28T17:01:00
+   Link     : http://security.googleblog.com/2025/10/https-by-default.html
+
+3. Alert Triangle  gbhackers.com  [News Site]
+   Title    : PoC Released for Microsoft Exchange CVE-2026-62911 Pre-Auth RCE Attack Chain
+   Category : Vulnerability    •    Severity: CRITICAL (score: 2443)
+   Published: 2026-09-01T06:24:56
+   Link     : https://gbhackers.com/poc-released-for-microsoft-exchange-cve-2026-62911/
+
+4. Alert Triangle  security.googleblog.com  [News Site]
+   Title    : Bringing Rust to the Pixel Baseband
+   Category : Ransomware    •    Severity: CRITICAL (score: 2380)
+   Published: 2026-04-10T15:12:00
+   Link     : http://security.googleblog.com/2026/04/bringing-rust-to-pixel-baseband.html
+
+5. Alert Triangle  security.googleblog.com  [News Site]
+   Title    : Rust in Android: move fast and fix things
+   Category : Ransomware    •    Severity: CRITICAL (score: 2380)
+   Published: 2025-11-13T16:59:00
+   Link     : http://security.googleblog.com/2025/11/rust-in-android-move-fast-fix-things.html
+
+6. Alert Triangle  microsoft.com  [News Site]
+   Title    : DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure
+   Category : Ransomware    •    Severity: CRITICAL (score: 2342)
+   Published: 2026-08-10T15:00:00
+   Link     : https://www.microsoft.com/en-us/security/blog/2026/08/10/deadlock-ransomware-breaking-down-a-rust-based-encryptor-with-decentralized-recovery-infrastructure/
+
+7. Alert Triangle  krebsonsecurity.com  [Newspaper]
+   Title    : Two Alleged ‘TeamPCP’ Hackers Arrested in Australia
+   Category : Vulnerability    •    Severity: CRITICAL (score: 2040)
+   Published: 2026-08-27T11:04:15
+   Link     : https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/
+
+Security Tips:
+• Never trust unsolicited links or attachments in email or messaging apps.
+• Enable multi-factor authentication (MFA) on email, banking, and admin accounts.
+• Keep browsers, VPNs, and endpoint security fully patched.
+
+Scanned 294 articles • Top 7 topics selected
+Next planned auto-update: 08:00 AM UTC
+Stay safe, stay sharp!
