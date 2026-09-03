@@ -1350,6 +1350,16 @@
     "also_covered_by": []
   },
   {
+    "title": "I’ve been deepfaked: What do I do?",
+    "summary": "Don’t panic if you spot an illegally created image or video of you online – there are ways to request its removal",
+    "link": "https://www.welivesecurity.com/en/how-to/ive-been-deepfaked-what-do/",
+    "published": "2026-09-02T11:48:09",
+    "source": "welivesecurity.com",
+    "category": "Other",
+    "importance_score": 393,
+    "also_covered_by": []
+  },
+  {
     "title": "JavaScript obfuscation: From party trick to phishing kit",
     "summary": "Learn the basics of what obfuscation is, why a researcher would try to reverse it, and several ways to approach the problem.",
     "link": "https://blog.talosintelligence.com/javascript-obfuscation-from-party-trick-to-phishing-kit/",
@@ -1497,26 +1507,6 @@
     "source": "infosecurity-magazine.com",
     "category": "Data Breach",
     "importance_score": 339,
-    "also_covered_by": []
-  },
-  {
-    "title": "FishMonger’s arsenal upgraded: SprySOCKS for Windows",
-    "summary": "ESET researchers have discovered SprySOCKS for Windows, FishMonger’s backdoor weaponizing a kernel driver for advanced stealthiness",
-    "link": "https://www.welivesecurity.com/en/eset-research/fishmongers-arsenal-upgraded-sprysocks-windows/",
-    "published": "2026-06-16T08:54:04",
-    "source": "welivesecurity.com",
-    "category": "Other",
-    "importance_score": 338,
-    "also_covered_by": []
-  },
-  {
-    "title": "Your AI chats could be used in court",
-    "summary": "What you tell an AI chatbot could come back to haunt you in court. The Washington Post found chat histories already used in 12 legal cases.",
-    "link": "https://www.malwarebytes.com/blog/ai/2026/09/your-ai-chats-could-be-used-in-court",
-    "published": "2026-09-02T09:22:19",
-    "source": "malwarebytes.com",
-    "category": "AI & Security",
-    "importance_score": 334,
     "also_covered_by": []
   },
   {
@@ -1786,6 +1776,16 @@
     "published": "2026-08-27T12:00:00",
     "source": "infosecurity-magazine.com",
     "category": "Other",
+    "importance_score": 184,
+    "also_covered_by": []
+  },
+  {
+    "title": "Your AI chats could be used in court",
+    "summary": "What you tell an AI chatbot could come back to haunt you in court. The Washington Post found chat histories already used in 12 legal cases.",
+    "link": "https://www.malwarebytes.com/blog/ai/2026/09/your-ai-chats-could-be-used-in-court",
+    "published": "2026-09-02T09:22:19",
+    "source": "malwarebytes.com",
+    "category": "AI & Security",
     "importance_score": 184,
     "also_covered_by": []
   },
