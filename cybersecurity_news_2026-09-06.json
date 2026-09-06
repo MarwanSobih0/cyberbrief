@@ -10,6 +10,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Hackers Actively Exploiting Magento and Adobe Commerce 0-Day RCE Vulnerability",
+    "summary": "<p>A newly discovered zero-day vulnerability in Magento Open Source and Adobe Commerce is being actively exploited by attackers to seize full control of online stores, and there is still no official patch available. Dutch e-commerce security firm Sansec disclosed the flaw, dubbed StyleSmuggler, on September 5, 2026, warning that unauthenticated attackers can achieve remote code [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/magento-and-adobe-commerce-0-day-rce/\">Hackers Actively Exploiting Magento and Adobe Commerce 0-Day RCE Vulnerability</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/magento-and-adobe-commerce-0-day-rce/",
+    "published": "2026-09-06T03:52:46",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 2863,
+    "also_covered_by": []
+  },
+  {
     "title": "The Cyber Express Weekly Roundup: Claude Session Hijacking, PaperCut Exploits, and Enterprise Cyberattacks",
     "summary": "<p><img alt=\"Weekly Roundup September 2026\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"504\" src=\"https://thecyberexpress.com/wp-content/uploads/Weekly-Roundup-September-2026.webp\" title=\"The Cyber Express Weekly Roundup: Claude Session Hijacking, PaperCut Exploits, and Enterprise Cyberattacks 1\" width=\"824\" /></p><span>This weekly roundup highlights a range of cybersecurity developments affecting artificial intelligence platforms, enterprise software, healthcare organizations, social media accounts, and internet-facing infrastructure.</span><span> </span>\n\n<span>From stolen Claude sessions and bypassed PaperCut security fixes to an attempted attack targeting hundreds of thousands of X users, recent incidents demonstrate how attackers continue to exploit both software vulnerabilities and active user sessions.</span><span> </span>\n\n<span>The latest developments also show that organizations face growing <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-are-risks-in-cybersecurity/\" title=\"risks\">risks</a> across AI services, on-premises systems, enterprise edge devices, and account recovery infrastructure. Security teams are being urged to respond quickly as attackers increasingly target exposed systems and authentication mechanisms.</span><span> </span>\n<h3><b><span>The Cyber Express Weekly Roundup</span></b><span> </span></h3>\n<h4><b><span>Anthropic Warns of Claude Session Hijacking</span></b><span> </span></h4>\n<span>Anthropic has warned that common <a class=\"wpil_keyword_link\" href=\"https://cyble.com/malware/infostealer/\" rel=\"noopener\" target=\"_blank\" title=\"infostealer\">infostealer</a> malware is being used to steal active Claude sessions, potentially allowing attackers to bypass passwords and two-factor authentication. The campaign involves malware such as Vidar, LummaC2, RedLine, and Atomic <a class=\"wpil_keyword_link\" href=\"https://cyble.com/stealer/\" rel=\"noopener\" target=\"_blank\" title=\"Stealer\">Stealer</a>, which is often distributed through pirated software and illicit downloads. Attackers may also consume victims’ paid AI usage. </span><a href=\"https://thecyberexpress.com/infostealers-hijacking-claude-sessions/\"><b><span>Read more…</span></b></a><span> </span>\n<h4><b><span>PaperCut Releases Second Emergency Patch After First Fix Is Bypassed</span></b><span> </span></h4>\n<span>PaperCut has released a second emergency patch for two actively exploited <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-are-vulnerabilities/\" title=\"vulnerabilities\">vulnerabilities</a> affecting its NG and MF print management servers. Researchers discovered ways to bypass the initial security fix, potentially allowing attackers to chain the flaws and achieve pre-authentication remote code execution on exposed systems. </span><a href=\"https://thecyberexpress.com/papercut-issues-second-emergency-patch/\"><b><span>Read more…</span></b></a><span> </span>\n<h4><b><span>Boston Scientific Cyberattack Limited to Certain On-Premises Systems</span></b><span> </span></h4>\n<span>Boston Scientific says its ongoing <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-cybersecurity/\" title=\"cybersecurity\">cybersecurity</a> incident is limited to certain on-premises systems, with no impact identified on its cloud-based applications. The company has also reported no confirmed <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-data/\" title=\"data\">data</a> breach or evidence of unauthorized activity since August 25, as its investigation into the incident continues. </span><a href=\"https://thecyberexpress.com/boston-scientific-cyberattack/\"><span>Read more…</span></a><span> </span>\n<h4><b><span>DOJ Investigates Attempted Cyberattack on Hundreds of Thousands of X Users</span></b><span> </span></h4>\n<span>The <a href=\"https://x.com/AGToddBlanche/status/2095249494401237242?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E2095249494401237242%7Ctwgr%5E39e2b77907a2b7176c6f7bae1cdf1a796bcd4efd%7Ctwcon%5Es1_&amp;ref_url=https%3A%2F%2Fwww.jpost.com%2Finternational%2Farticle-907384\" rel=\"nofollow noopener\" target=\"_blank\">U.S. Department of Justice</a> is investigating a large-scale cyberattack targeting hundreds of thousands of X accounts through the platform’s password-recovery system. Attorney <a class=\"wpil_keyword_link\" href=\"https://cyble.com/general/\" rel=\"noopener\" target=\"_blank\" title=\"General\">General</a> Todd Blanche said X detected and disrupted the campaign before the targeted accounts could be captured, preventing the attempted account takeover operation from succeeding. </span><a href=\"https://thecyberexpress.com/cyberattack-on-x-users-doj-investigation/\"><b><span>Read more…</span></b></a><span> </span>\n<h4><b><span>Two Citrix NetScaler Flaws Put Enterprise Edge Devices at Risk</span></b><span> </span></h4>\n<span>Two vulnerabilities in Citrix NetScaler ADC and Gateway have prompted an urgent patching warning from Australia’s <a class=\"wpil_keyword_link\" href=\"https://cyble.com/knowledge-hub/what-is-cybersecurity/\" rel=\"noopener\" target=\"_blank\" title=\"cybersecurity\">cybersecurity</a> agency. CVE-2026-19489, a memory overflow flaw, and CVE-2026-19490, an authentication bypass, can affect systems with specific configurations involving SIP ALG, SAML, or <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/how-to-get-a-vpn/\" title=\"VPN\">VPN</a> gateway functionality. </span><a href=\"https://thecyberexpress.com/citrix-netscaler-vulnerabilities-prompt-patch/\"><b><span>Read more…</span></b></a><span> </span>\n<h3><b><span>Weekly Cybersecurity Takeaway</span></b><span> </span></h3>\n<span>This week’s developments demonstrate that <a class=\"wpil_keyword_link\" href=\"https://cyble.com/knowledge-hub/what-are-cyber-threats/\" rel=\"noopener\" target=\"_blank\" title=\"cybersecurity threats\">cybersecurity threats</a> are increasingly targeting authentication systems, active user sessions, exposed enterprise infrastructure, and critical business applications. AI platforms, print management servers, healthcare environments, social media accounts, and network edge devices all remain potential targets for attackers.</span><span> </span>\n\n<span>Organizations should prioritize rapid security patching, protection of active sessions, strong authentication controls, careful monitoring of exposed infrastructure, and timely investigation of suspicious activity. Security teams should also review systems that rely on password-recovery mechanisms and identify enterprise devices operating with vulnerable configurations.</span><span> </span>\n\n<span>As businesses continue to rely on cloud services, AI platforms, <a class=\"wpil_keyword_link\" href=\"https://cyble.com/remote-access-trojan/\" rel=\"noopener\" target=\"_blank\" title=\"remote access\">remote access</a> technologies, and internet-facing enterprise systems, attackers are finding new opportunities to exploit trusted sessions and security weaknesses. Organizations must maintain continuous monitoring and rapid response capabilities to reduce the impact of increasingly targeted cyberattacks.</span><span> </span>",
     "link": "https://thecyberexpress.com/weekly-roundup-claude-papercut-citrix/",
@@ -277,6 +287,16 @@
     "source": "unit42.paloaltonetworks.com",
     "category": "Vulnerability",
     "importance_score": 1323,
+    "also_covered_by": []
+  },
+  {
+    "title": "Hackers Turn HiveMQ and Element Messenger Into Control Channels for Windows Backdoors",
+    "summary": "<p>The financially motivated threat actor Toy Ghouls has expanded its custom malware arsenal with two Windows backdoors that abuse HiveMQ’s public MQTT infrastructure and the Matrix-based Element messaging ecosystem for command-and-control communications. The development marks a notable evolution for the group, which previously leaned on publicly available tools and leaked ransomware builders before introducing its [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hivemq-powers-backdoor/\">Hackers Turn HiveMQ and Element Messenger Into Control Channels for Windows Backdoors</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/hivemq-powers-backdoor/",
+    "published": "2026-09-04T13:38:33",
+    "source": "gbhackers.com",
+    "category": "Ransomware",
+    "importance_score": 1279,
     "also_covered_by": []
   },
   {
@@ -550,6 +570,16 @@
     "also_covered_by": []
   },
   {
+    "title": "NodeStealer Spyware Adds Keylogging, Screenshot Capture and Facebook Data Theft",
+    "summary": "<p>A major upgrade to the Python-based NodeStealer malware, transforming the Facebook-focused infostealer into a broader spyware platform capable of logging keystrokes, monitoring clipboard data, capturing screenshots, and harvesting extensive Facebook profile information. The newly observed variant, identified in August 2026, also expands browser and local data theft, using a split Telegram command-and-control (C2) design to [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/nodestealer-spyware-malware/\">NodeStealer Spyware Adds Keylogging, Screenshot Capture and Facebook Data Theft</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/nodestealer-spyware-malware/",
+    "published": "2026-09-04T12:18:19",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 832,
+    "also_covered_by": []
+  },
+  {
     "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
     "summary": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform they operated under assumed names.",
     "link": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
@@ -590,6 +620,36 @@
     "also_covered_by": []
   },
   {
+    "title": "New Panzer Ransomware Hits 16 Victims Across 11 Countries With Data Theft and Encryption",
+    "summary": "<p>Panzer ransomware has emerged as a new Ransomware-as-a-Service (RaaS) operation, publishing 16 alleged victims across 11 countries while combining data theft with file encryption. Documented by CyberXtron, its dedicated leak site was first observed active on August 5, 2026, and its early victim list includes organizations in technology, manufacturing, government, agriculture, energy, education, and retail. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/new-panzer-ransomware-hits-16-victim/\">New Panzer Ransomware Hits 16 Victims Across 11 Countries With Data Theft and Encryption</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/new-panzer-ransomware-hits-16-victim/",
+    "published": "2026-09-05T07:53:57",
+    "source": "gbhackers.com",
+    "category": "Ransomware",
+    "importance_score": 782,
+    "also_covered_by": []
+  },
+  {
+    "title": "ShipMonk Data Breach Exposes Personal Data of 67,000 Additional Trezor Customers",
+    "summary": "<p>Trezor has revealed that a data breach involving its fulfillment provider, ShipMonk, exposed personal and order information of approximately 67,000 additional US customers. This significantly broadens the scope of an incident initially reported in August. The newly identified data pertains to Trezor orders processed during a prior partnership with ShipMonk, which lasted from November 2019 [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/shipmonk-data-breach-exposes-personal-data/\">ShipMonk Data Breach Exposes Personal Data of 67,000 Additional Trezor Customers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/shipmonk-data-breach-exposes-personal-data/",
+    "published": "2026-09-04T12:52:42",
+    "source": "gbhackers.com",
+    "category": "Data Breach",
+    "importance_score": 777,
+    "also_covered_by": []
+  },
+  {
+    "title": "CARS24 Data Breach Exposes 3,100 Customer Records, Leads Allegedly Sold for ₹1,000 Each",
+    "summary": "<p>Used-car platform CARS24 has alleged that confidential information belonging to approximately 3,100 customers was stolen and supplied to a rival business and outside dealers. The company claims that leads were offered for about ₹1,000 each, resulting in an estimated commercial loss of ₹5.70 crore. The complaint was filed at a Cyber Crime Police Station by [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cars24-data-breach-exposes-3100-customer-records/\">CARS24 Data Breach Exposes 3,100 Customer Records, Leads Allegedly Sold for ₹1,000 Each</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/cars24-data-breach-exposes-3100-customer-records/",
+    "published": "2026-09-05T06:59:50",
+    "source": "gbhackers.com",
+    "category": "Data Breach",
+    "importance_score": 772,
+    "also_covered_by": []
+  },
+  {
     "title": "Week in review: Claude accounts compromised through infostealer, Patch Tuesday forecast",
     "summary": "<p>Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: Anthropic locks out Claude users after infostealers hijack login sessions Anthropic has started locking users out of their Claude accounts due to their login sessions having been compromised through infostealer malware. September 2026 Patch Tuesday forecast: All we need is more time The Patch Apocalypse is continuing unabated. We are seeing record numbers of patches being released and reported CVEs &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/06/week-in-review-claude-accounts-compromised-through-infostealer-patch-tuesday-forecast/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/06/week-in-review-claude-accounts-compromised-through-infostealer-patch-tuesday-forecast/\">Week in review: Claude accounts compromised through infostealer, Patch Tuesday forecast</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
     "link": "https://www.helpnetsecurity.com/2026/09/06/week-in-review-claude-accounts-compromised-through-infostealer-patch-tuesday-forecast/",
@@ -617,6 +677,16 @@
     "source": "recordedfuture.com",
     "category": "Ransomware",
     "importance_score": 743,
+    "also_covered_by": []
+  },
+  {
+    "title": "Russian Hackers Deploy New HOOKEDGE Backdoor in Espionage Attacks Across Europe",
+    "summary": "<p>Russian state-sponsored threat actor BlueDelta, also tracked as APT28, Fancy Bear, and Forest Blizzard, has deployed a lightweight Windows backdoor named HOOKEDGE in espionage operations targeting government, diplomatic, and defense-manufacturing organizations across Europe. The activity, documented by PolySwarm, targeted entities in Romania, Spain, and Turkey between late September 2025 and early April 2026. New variants [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/russian-apt28-linked-hackers-deploy-hookedge-backdoor/\">Russian Hackers Deploy New HOOKEDGE Backdoor in Espionage Attacks Across Europe</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/russian-apt28-linked-hackers-deploy-hookedge-backdoor/",
+    "published": "2026-09-05T09:27:32",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 738,
     "also_covered_by": []
   },
   {
@@ -730,6 +800,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Microsoft Teams Desktop Client Fails to Load on Windows System – Microsoft Investigating",
+    "summary": "<p>Microsoft is investigating an ongoing issue causing some Windows users to face significant delays or outright failures when launching the Microsoft Teams desktop client. The company acknowledged the problem, tracked internally as TM1466820, and confirmed it remains unresolved as engineers continue digging through service logs to find a root cause. According to Microsoft&#8217;s incident notice, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-teams-desktop-client-fails/\">Microsoft Teams Desktop Client Fails to Load on Windows System &#8211; Microsoft Investigating</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/microsoft-teams-desktop-client-fails/",
+    "published": "2026-09-05T09:20:18",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 622,
+    "also_covered_by": []
+  },
+  {
     "title": "Critical VMware Workstation and Fusion Flaw Lets VM Admins Execute Host Code",
     "summary": "Broadcom has released security updates for two security flaws impacting VMware Workstation and Fusion, including one critical bug that could result in arbitrary code execution under certain conditions.\n\nThe vulnerability, tracked as CVE-2026-59346 (CVSS score: 9.3), is an integer-overflow vulnerability that a local attacker with elevated privileges can exploit to run arbitrary code.\n\n\"A",
     "link": "https://thehackernews.com/2026/09/critical-vmware-workstation-and-fusion.html",
@@ -770,6 +850,16 @@
     "also_covered_by": []
   },
   {
+    "title": "12-Year-Old PostgreSQL Flaw Lets Attackers Execute Code and Take Over Database Servers",
+    "summary": "<p>A critical PostgreSQL vulnerability dubbed PostGREShell could allow low-privileged replication accounts to execute attacker-controlled code, escalate to database superuser, and establish persistent backdoors on affected servers. Tracked as CVE-2026-6471, the flaw reportedly affected PostgreSQL releases from version 9.4 onward, leaving a dangerous plugin-loading path exposed for roughly 12 years. Cyera Research disclosed the issue on [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/12-year-old-postgresql-flaw/\">12-Year-Old PostgreSQL Flaw Lets Attackers Execute Code and Take Over Database Servers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/12-year-old-postgresql-flaw/",
+    "published": "2026-09-05T07:34:32",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 586,
+    "also_covered_by": []
+  },
+  {
     "title": "This month in security with Tony Anscombe – July 2026 edition",
     "summary": "OpenAI models going rogue, the first documented agentic ransomware operation, and an emergent AI-driven supply chain threat made for a packed July roundup",
     "link": "https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-july-2026/",
@@ -777,6 +867,16 @@
     "source": "welivesecurity.com",
     "category": "Ransomware",
     "importance_score": 585,
+    "also_covered_by": []
+  },
+  {
+    "title": "Hackers Turn Claude, Qwen and DeepSeek Into AI Agents for Real-World Cyberattacks",
+    "summary": "<p>Hackers have turned commercial AI models into working parts of a cyberattack operation. The campaign paired AI-directed tasking with familiar methods such as vulnerable public-facing servers, stolen credentials, webshells, and custom remote-access malware. The operation reached Taiwan&#8217;s Kuomintang Party History Archives, Indonesia&#8217;s Ministry of Foreign Affairs, and government and education networks in mainland China. A [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ai-agents-for-real-world-cyberattacks/\">Hackers Turn Claude, Qwen and DeepSeek Into AI Agents for Real-World Cyberattacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/ai-agents-for-real-world-cyberattacks/",
+    "published": "2026-09-04T13:21:43",
+    "source": "cybersecuritynews.com",
+    "category": "AI & Security",
+    "importance_score": 578,
     "also_covered_by": []
   },
   {
@@ -790,6 +890,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Hackers Use Invisible Unicode Characters to Evade Phishing Detection in Millions of Emails",
+    "summary": "<p>Attackers are using invisible Unicode characters to make phishing emails appear harmless while disrupting the security systems built to spot suspicious language. The campaign pushed finance-themed messages at massive scale, showing how a tiny change inside a word can weaken standard filtering. Recipients saw ordinary offers for funding, loans, or credit, but the underlying text [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-use-invisible-unicode/\">Hackers Use Invisible Unicode Characters to Evade Phishing Detection in Millions of Emails</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/hackers-use-invisible-unicode/",
+    "published": "2026-09-04T14:09:55",
+    "source": "cybersecuritynews.com",
+    "category": "Phishing / Scams",
+    "importance_score": 565,
+    "also_covered_by": []
+  },
+  {
     "title": "12-Year-Old PostgreSQL Vulnerability Enables Database, Server Takeover",
     "summary": "<p>Dubbed PostGREShell, CVE-2026-6471 turns low-level replication access into code execution, permanent superuser privileges and a persistent database backdoor.</p>\n<p>The post <a href=\"https://www.securityweek.com/12-year-old-postgresql-vulnerability-enables-database-server-takeover/\">12-Year-Old PostgreSQL Vulnerability Enables Database, Server Takeover</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
     "link": "https://www.securityweek.com/12-year-old-postgresql-vulnerability-enables-database-server-takeover/",
@@ -797,6 +907,16 @@
     "source": "securityweek.com",
     "category": "Vulnerability",
     "importance_score": 561,
+    "also_covered_by": []
+  },
+  {
+    "title": "Hackers Use Popular Messaging Services to Control New Windows Backdoors",
+    "summary": "<p>A financially motivated threat group known as Toy Ghouls has begun using two custom Windows backdoors that communicate through popular messaging and broker services. The tools give attackers a discreet way to run commands, collect system details, and maintain control over compromised devices. The campaign marks a change for the group, which had previously relied [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/popular-messaging-services/\">Hackers Use Popular Messaging Services to Control New Windows Backdoors</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/popular-messaging-services/",
+    "published": "2026-09-04T14:44:43",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 556,
     "also_covered_by": []
   },
   {
@@ -960,6 +1080,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Chainguard Hits 1 Billion Build Manifests With AI-Powered Software Supply Chain Security",
+    "summary": "<p>Chainguard has surpassed 1 billion container build manifests, doubling production from 500 million in six months as it expands its AI-assisted software supply-chain security platform. The company now maintains more than 3,000 unique container images and 675,000 image versions. The milestone reflects more than raw build volume. Each build manifest represents a newly generated, verifiable [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/chainguard-hits-1-billion-build-manifests/\">Chainguard Hits 1 Billion Build Manifests With AI-Powered Software Supply Chain Security</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/chainguard-hits-1-billion-build-manifests/",
+    "published": "2026-09-05T09:47:35",
+    "source": "gbhackers.com",
+    "category": "Policy / Law",
+    "importance_score": 478,
+    "also_covered_by": []
+  },
+  {
     "title": "Ransomware Attacks are on the Rise",
     "summary": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
     "link": "https://threatpost.com/ransomware-attacks-are-on-the-rise/180481/",
@@ -1007,6 +1137,36 @@
     "source": "infosecurity-magazine.com",
     "category": "Data Breach",
     "importance_score": 467,
+    "also_covered_by": []
+  },
+  {
+    "title": "10 Best ZTNA Solutions (Zero Trust Network Access) In 2026",
+    "summary": "<p>Zero Trust Network Access (ZTNA) anchors 2026 cybersecurity amid remote, cloud, and hybrid booms. ZTNA solutions aren&#8217;t hype—they&#8217;re vital for data locks, compliance wins, and borderless teams. &#8220;Never trust, always verify&#8221;: ZTNA okays only vetted users/devices, location-blind. Shrink attack planes, block lateral creeps, master app gates. Market clutter and threat flux complicate picks. We rank [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-ztna-solutions/\">10 Best ZTNA Solutions (Zero Trust Network Access) In 2026</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/best-ztna-solutions/",
+    "published": "2026-09-06T04:48:58",
+    "source": "cybersecuritynews.com",
+    "category": "Policy / Law",
+    "importance_score": 465,
+    "also_covered_by": []
+  },
+  {
+    "title": "Microsoft Unveils Project Zenith Windows PCs That Can Run 30B+ AI Models Locally",
+    "summary": "<p>Microsoft has introduced Project Zenith, a new developer-optimized Windows 11 experience built for a class of high-memory PCs capable of running large AI models directly on-device, marking a significant shift away from cloud-dependent AI development workflows. Announced as a follow-up to commitments made at Build 2026, Project Zenith targets developer-class hardware equipped with at least [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/project-zenith-windows-pcs/\">Microsoft Unveils Project Zenith Windows PCs That Can Run 30B+ AI Models Locally</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/project-zenith-windows-pcs/",
+    "published": "2026-09-04T16:44:18",
+    "source": "cybersecuritynews.com",
+    "category": "AI & Security",
+    "importance_score": 465,
+    "also_covered_by": []
+  },
+  {
+    "title": "Microsoft Confirms New Exchange Online Outage Delaying Emails from External Domains",
+    "summary": "<p>Microsoft has confirmed a fresh Exchange Online incident, tracked as EX1467029, causing delays for users sending and receiving email messages from external domains. The company first acknowledged the disruption on September 4, 2026, flagging it as a service degradation issue affecting Exchange Online, one of the most widely used business email platforms in the world. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/exchange-online-outage-delaying-emails/\">Microsoft Confirms New Exchange Online Outage Delaying Emails from External Domains</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/exchange-online-outage-delaying-emails/",
+    "published": "2026-09-04T13:00:28",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 463,
     "also_covered_by": []
   },
   {
@@ -1330,6 +1490,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Hackers Use Frontier AI Agents to Breach Enterprise Network in Under 10 Hours",
+    "summary": "<p>A threat actor used frontier artificial-intelligence models and attack-specific agentic frameworks to breach an enterprise environment, harvest root credentials, and hijack cloud AI infrastructure in less than 10 hours. The investigation, documented by Palo Alto Networks Unit 42, highlights a significant shift in intrusion operations. AI-assisted automation compressed an attack that could otherwise demand several [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-use-frontier-ai-agents/\">Hackers Use Frontier AI Agents to Breach Enterprise Network in Under 10 Hours</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/hackers-use-frontier-ai-agents/",
+    "published": "2026-09-05T07:18:41",
+    "source": "gbhackers.com",
+    "category": "AI & Security",
+    "importance_score": 330,
+    "also_covered_by": []
+  },
+  {
     "title": "FBI Probes Possible Breach of 153 Million Driver’s Licenses",
     "summary": "The FBI is investigating how scans of over 153 million driver’s licenses are being sold on the dark web",
     "link": "https://www.infosecurity-magazine.com/news/fbi-probes-breach-153-million/",
@@ -1340,12 +1510,42 @@
     "also_covered_by": []
   },
   {
+    "title": "OpenAI Agents Collude on Public Wiki to Share Sandbox Bypass and Evasion Techniques",
+    "summary": "<p>Researchers have discovered a public wiki message board that they claim was used by autonomous AI agents, identifying themselves as OpenAI systems, to exchange answers to tasks, inspect their operating environment, and discuss methods to circumvent sandbox controls. This finding, published on September 4 by Sydney Von Arx, Cormac Slade Byrd, Spencer Kitts, and Thomas [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/openai-agents-collude-on-public-wiki/\">OpenAI Agents Collude on Public Wiki to Share Sandbox Bypass and Evasion Techniques</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/openai-agents-collude-on-public-wiki/",
+    "published": "2026-09-04T13:21:00",
+    "source": "gbhackers.com",
+    "category": "AI & Security",
+    "importance_score": 321,
+    "also_covered_by": []
+  },
+  {
+    "title": "NodeStealer Can Now Record Everything Victims Type and Steal Their Screenshots",
+    "summary": "<p>NodeStealer has returned with a more invasive toolkit. The Python-based information stealer can now record keystrokes, watch copied text, and capture victims’ screens, turning an account-stealing infection into continuous surveillance. The change raises the stakes for people whose browsers hold work, banking, or social-media access. First tracked in 2023, NodeStealer initially focused on sensitive browser [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/nodestealer-record-everything/\">NodeStealer Can Now Record Everything Victims Type and Steal Their Screenshots</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/nodestealer-record-everything/",
+    "published": "2026-09-04T14:29:44",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 319,
+    "also_covered_by": []
+  },
+  {
     "title": "Lessons Learned from CISA’s Recent GitHub Leak",
     "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud keys -- in a public GitHub repository for almost six months before being notified by KrebsOnSecurity. Experts say the gaps identified in the agency's initial response provide important lessons that all security teams should absorb.",
     "link": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
     "published": "2026-07-13T15:03:28",
     "source": "krebsonsecurity.com",
     "category": "Data Breach",
+    "importance_score": 307,
+    "also_covered_by": []
+  },
+  {
+    "title": "AI Agents Breach Company Network in Under 10 Hours and Steal Root Credentials",
+    "summary": "<p>A human attacker armed with frontier artificial intelligence models breached an enterprise network and seized root credentials in under 10 hours, a timeline that would normally take human red teams roughly two weeks to complete, according to a new incident response report from Palo Alto Networks&#8217; Unit 42. The threat actor told Unit 42 investigators [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ai-agents-breach-company-network/\">AI Agents Breach Company Network in Under 10 Hours and Steal Root Credentials</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/ai-agents-breach-company-network/",
+    "published": "2026-09-05T07:46:07",
+    "source": "cybersecuritynews.com",
+    "category": "AI & Security",
     "importance_score": 307,
     "also_covered_by": []
   },
