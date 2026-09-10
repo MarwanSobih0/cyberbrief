@@ -1,10 +1,10 @@
 CYBERBRIEF • DAILY THREAT INTELLIGENCE
-Generated: Thursday, September 10, 2026 - 09:18 UTC
+Generated: Thursday, September 10, 2026 - 09:21 UTC
 ================================================================================
 
-Total topics: 294    •    Scanned raw articles: 294
+Total topics: 284    •    Scanned raw articles: 284
 Severity breakdown:
-  CRITICAL: 7  |  HIGH: 12  |  MEDIUM: 52  |  LOW: 223
+  CRITICAL: 7  |  HIGH: 12  |  MEDIUM: 47  |  LOW: 218
 
 Top 7 active threats:
 
@@ -44,17 +44,17 @@ Top 7 active threats:
    Published: 2025-11-13T16:59:00
    Link     : http://security.googleblog.com/2025/11/rust-in-android-move-fast-fix-things.html
 
-7. Alert Triangle  krebsonsecurity.com  [Newspaper]
-   Title    : Two Alleged ‘TeamPCP’ Hackers Arrested in Australia
-   Category : Vulnerability    •    Severity: CRITICAL (score: 2040)
-   Published: 2026-08-27T11:04:15
-   Link     : https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/
+7. Alert Triangle  bleepingcomputer.com  [Newspaper]
+   Title    : CISA: WatchGuard RCE flaw now exploited in ransomware attacks
+   Category : Ransomware    •    Severity: CRITICAL (score: 2373)
+   Published: 2026-09-10T09:10:20
+   Link     : https://www.bleepingcomputer.com/news/security/cisa-watchguard-rce-flaw-now-exploited-in-ransomware-attacks/
 
 Security Tips:
 • Never trust unsolicited links or attachments in email or messaging apps.
 • Enable multi-factor authentication (MFA) on email, banking, and admin accounts.
 • Keep browsers, VPNs, and endpoint security fully patched.
 
-Scanned 294 articles • Top 7 topics selected
+Scanned 284 articles • Top 7 topics selected
 Next planned auto-update: 08:00 AM UTC
 Stay safe, stay sharp!
