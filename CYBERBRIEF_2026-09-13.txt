@@ -1,10 +1,10 @@
 CYBERBRIEF • DAILY THREAT INTELLIGENCE
-Generated: Sunday, September 13, 2026 - 09:54 UTC
+Generated: Sunday, September 13, 2026 - 09:56 UTC
 ================================================================================
 
-Total topics: 293    •    Scanned raw articles: 294
+Total topics: 264    •    Scanned raw articles: 264
 Severity breakdown:
-  CRITICAL: 8  |  HIGH: 7  |  MEDIUM: 43  |  LOW: 235
+  CRITICAL: 6  |  HIGH: 5  |  MEDIUM: 37  |  LOW: 216
 
 Top 7 active threats:
 
@@ -44,17 +44,17 @@ Top 7 active threats:
    Published: 2026-09-09T06:51:42
    Link     : https://thecyberexpress.com/patch-tuesday-september-2026/
 
-7. Alert Triangle  cybersecuritynews.com  [News Site]
-   Title    : Beyond the Perimeter: Building Resilience Against Cloud and SaaS Supply-Chain Attacks
-   Category : Vulnerability    •    Severity: CRITICAL (score: 2150)
-   Published: 2026-09-12T10:46:44
-   Link     : https://cybersecuritynews.com/beyond-the-perimeter-building-resilience-against-cloud-and-saas-supply-chain-attacks/
+7. Shield Check  security.googleblog.com  [News Site]
+   Title    : Android Quick Share Support for AirDrop: A Secure Approach to Cross-Platform File Sharing
+   Category : Data Breach    •    Severity: HIGH (score: 1959)
+   Published: 2025-11-20T17:00:00
+   Link     : http://security.googleblog.com/2025/11/android-quick-share-support-for-airdrop-security.html
 
 Security Tips:
 • Never trust unsolicited links or attachments in email or messaging apps.
 • Enable multi-factor authentication (MFA) on email, banking, and admin accounts.
 • Keep browsers, VPNs, and endpoint security fully patched.
 
-Scanned 294 articles • Top 7 topics selected
+Scanned 264 articles • Top 7 topics selected
 Next planned auto-update: 08:00 AM UTC
 Stay safe, stay sharp!
