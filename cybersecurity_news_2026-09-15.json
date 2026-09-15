@@ -40,16 +40,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Hackers Exploit Marimo RCE to Steal AWS Credentials and Reach Bastion Host in 8 Seconds",
-    "summary": "<p>Threat actors have been observed exploiting a critical remote code execution vulnerability in the Marimo notebook platform to steal AWS credentials and authenticate to an SSH bastion host within eight seconds. The attack, documented by the Sysdig Threat Research Team, abused CVE-2026-39987, a pre-authentication remote code execution flaw affecting Marimo versions up to and including [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/marimo-rce-to-steal-aws-credentials-in-8-seconds/\">Hackers Exploit Marimo RCE to Steal AWS Credentials and Reach Bastion Host in 8 Seconds</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/marimo-rce-to-steal-aws-credentials-in-8-seconds/",
-    "published": "2026-09-15T09:02:20",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 2270,
-    "also_covered_by": []
-  },
-  {
     "title": "Two Alleged ‘TeamPCP’ Hackers Arrested in Australia",
     "summary": "Authorities in Australia have arrested two men believed to be members of TeamPCP, a prolific cybercrime and data extortion group blamed for perpetrating the longest running spree of software supply chain attacks ever.\n\nIn a statement released today, the Australian Federal Police (AFP) said two unnamed suspects from Western Australia, aged 21 and 23, were arrested in connection with a \"sophisticated cybercrime syndicate that allegedly created malicious open-source software to rob thousands of global businesses.\"\n\nThe AFP did not name the defendants, but KrebsOnSecurity learned the 21-year-old suspect's real identity in June, and has been communicating with him ever since. This story includes interviews with TeamPCP's self-described spokesperson, and examines clues left behind by the TeamPCP leader that likely led to his undoing.",
     "link": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
@@ -137,16 +127,6 @@
     "source": "malwarebytes.com",
     "category": "Vulnerability",
     "importance_score": 1380,
-    "also_covered_by": []
-  },
-  {
-    "title": "11 Best CSPM Tools Compared (2026): Features & Pricing",
-    "summary": "<p>Quick Answer: Wiz leads agentless attack-path CSPM; Prisma Cloud leads breadth; Microsoft Defender for Cloud offers a free foundational tier plus published per-resource plans; Orca pioneered agentless SideScanning. Consolidation note: Ermetic is now Tenable Cloud Security and Lacework is now Fortinet’s FortiCNAPP our list reflects both. Misconfiguration a public bucket, an over-permissive role, an exposed [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-cspm-compared/\">11 Best CSPM Tools Compared (2026): Features &#038; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/best-cspm-compared/",
-    "published": "2026-09-15T06:37:15",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 1370,
     "also_covered_by": []
   },
   {
@@ -240,16 +220,6 @@
     "also_covered_by": []
   },
   {
-    "title": "12 Best CNAPP Platforms Compared (2026): Features & Pricing",
-    "summary": "<p>Quick Answer: CNAPP quotes swing 2–3× on identical estates because “workload” definitions differ. Microsoft Defender for Cloud is the only major with fully published per-resource rates; Wiz and Orca quote per workload; Prisma Cloud uses credits; challengers like Upwind and Uptycs undercut on runtime-first models. This guide compares all 12 on how the money actually [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-cnapp-compared/\">12 Best CNAPP Platforms Compared (2026): Features &#038; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/best-cnapp-compared/",
-    "published": "2026-09-15T06:49:50",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 1211,
-    "also_covered_by": []
-  },
-  {
     "title": "4 in 5 Singapore Business Websites Have WordPress Vulnerabilities",
     "summary": "<p><img alt=\"WordPress Vulnerabilities\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"480\" src=\"https://thecyberexpress.com/wp-content/uploads/WordPress-Vulnerabilities.png\" title=\"4 in 5 Singapore Business Websites Have WordPress Vulnerabilities 1\" width=\"818\" /></p><span>A new Singapore Study has found that four in five websites run by local businesses carry at least one detectable WordPress vulnerabilities. </span><span>The Singapore WordPress Website Cybersecurity Study, released by Equinet Academy on August 31, 2026, in partnership with Cutlazz Cyber Consulting, examined 102 publicly accessible WordPress sites operated by Singapore-based businesses. </span><span> </span>\n\n<span>Using passive, automated scanning between April and August 2026, researchers found that 80.4% of the sites had at least one identifiable <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/firewall-daily/vulnerabilities/\" title=\"vulnerability\">vulnerability</a>, and 33.3% fell into the High or Critical Risk categories. Seven sites were rated Critical <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-are-risks-in-cybersecurity/\" title=\"Risk\">Risk</a>.</span><span> </span>\n\n<span>Across the sample, 1,853 confirmed <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-are-vulnerabilities/\" title=\"vulnerabilities\">vulnerabilities</a> were matched to documented CVEs, and the average risk score came in at 42.1 out of 100 — placing the group at the upper end of \"Elevated Risk.\"</span><span> </span>\n<h3><b><span>Outdated Software Drives WordPress Vulnerabilities</span></b><span> </span></h3>\n<span>Aging software was a recurring theme. Of the 102 sites, 41 (40.2%) were running outdated WordPress core versions, some dating back to 2015. Notably, every site flagged Critical Risk was also running outdated core software.</span><span> </span>\n\n<span>Plugins added further exposure: 70.6% of sites had at least one plugin with a confirmed CVE, and 65.7% had at least one outdated plugin, with 199 outdated <a href=\"https://thecyberexpress.com/cleantalk-cve-2026-1490/\" rel=\"noopener\" target=\"_blank\">plugin installations</a> counted overall.</span><span> </span>\n\n<span>Other findings included:</span><span> </span>\n<ul>\n \t<li><span>56.9% had XML-RPC publicly exposed</span><span> </span></li>\n \t<li><span>54.9% had wp-cron publicly accessible</span><span> </span></li>\n \t<li><span>29.4% revealed their login path through robots.txt</span><span> </span></li>\n</ul>\n<h3><b><span>Most Gaps Stem From Routine Maintenance, Not Sophisticated Attacks</span></b><span> </span></h3>\n<span>The <a href=\"https://www.manilatimes.net/2026/09/15/tmt-newswire/pr-newswire/updated-singapore-study-finds-4-in-5-business-wordpress-sites-have-at-least-one-detectable-vulnerability/2425079\" rel=\"nofollow noopener\" target=\"_blank\">study</a> concluded that many of these vulnerabilities in CMS setups weren't the product of advanced hacking techniques but of neglected upkeep and default configurations left unchanged.</span><span> </span>\n\n<span>Dylan Sun, Founder and Managing Director of Equinet Academy, said the results show that WordPress <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/\" title=\"security\">security</a> often comes down to basics rather than elaborate defenses. He noted that unpatched software and unreviewed configurations accumulate risk over time, and that regularly updating systems and checking public-facing exposure are practical ways businesses can cut down avoidable risk.</span><span> </span>\n<h3><b><span>Methodology and Limitations</span></b><span> </span></h3>\n<span>Researchers used the WPSec Automated Scanner to assess publicly visible data — WordPress versions, plugin inventories, CVE matches, header configurations, and <a href=\"https://thecyberexpress.com/bissa-scanner-ai-assisted-credential-factory/\" rel=\"noopener\" target=\"_blank\">exposed endpoints</a> — without attempting authenticated access, brute-force entry, or exploitation of any flaws found. </span><span> </span>\n\n<span>The results reflect a snapshot of visible indicators rather than a full audit, and a detected vulnerability doesn't necessarily mean a site has been breached. Still, the study points out that the same information is just as discoverable to potential attackers running routine scans.</span><span> </span>\n<h3><b><span>Compliance and Business Implications</span></b><span> </span></h3>\n<span>For sites that collect personal <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-data/\" title=\"data\">data</a>, unresolved vulnerabilities in CMS software may also carry compliance risk under Singapore's Personal Data Protection Act (PDPA), which requires reasonable security safeguards.</span><span> </span>\n\n<span>The report recommends businesses adopt HTTPS across their sites, keep WordPress core and plugins current, disable unused XML-RPC functionality, review login-path visibility, restrict access to files like readme.html and wp-cron.php, and run security scans at least quarterly.</span><span> </span>\n\n<span>The Singapore Study analyzed sites selected by Singapore-registered <a href=\"https://thecyberexpress.com/illegal-world-cup-streaming-domains-seized/\" rel=\"noopener\" target=\"_blank\">domains</a> or Singapore-hosted IPs, focusing on small and medium-sized businesses while excluding multinational subsidiaries.</span><span> </span>",
     "link": "https://thecyberexpress.com/wordpress-vulnerabilities-singapore-study/",
@@ -340,26 +310,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Hackers Turn Windows Shadow Copies Into a Tool for Credential Theft and Ransomware",
-    "summary": "<p>Threat actors are increasingly weaponizing Microsoft’s Volume Shadow Copy Service (VSS) for two distinct objectives: removing recovery options before ransomware deployment and extracting credential material from protected Windows files. The shift means VSS telemetry should no longer be treated as a simple backup or disk-maintenance event, but as behavior requiring process, identity, and endpoint context. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/shadow-copies-abuse/\">Hackers Turn Windows Shadow Copies Into a Tool for Credential Theft and Ransomware</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/shadow-copies-abuse/",
-    "published": "2026-09-15T05:51:50",
-    "source": "gbhackers.com",
-    "category": "Ransomware",
-    "importance_score": 1076,
-    "also_covered_by": []
-  },
-  {
-    "title": "12 Best CWPP Solutions Compared (2026): Features & Pricing",
-    "summary": "<p>Quick Answer: Sysdig (built on open-source Falco) leads container/K8s runtime depth; Prisma Cloud leads workload breadth including serverless; Aqua leads cloud-native lifecycle security; Wiz and CrowdStrike lead platform correlation. Category notes: Illumio is microsegmentation and Fidelis is NDR/XDR containment and detection layers rather than classic CWPP. CSPM tells you how the cloud is configured; CWPP [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-cwpp-compared/\">12 Best CWPP Solutions Compared (2026): Features &#038; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/best-cwpp-compared/",
-    "published": "2026-09-15T06:43:35",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 1071,
-    "also_covered_by": []
-  },
-  {
     "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
     "summary": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with individuals whose licenses are available for purchase on this service, it appears to be siphoning images collected by a widely-used identity verification company based in Louisiana. KrebsOnSecurity also has learned that the New Orleans field office of the Federal Bureau of Investigation (FBI) today launched an official inquiry into the source of the images.",
     "link": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
@@ -377,16 +327,6 @@
     "source": "microsoft.com",
     "category": "Phishing / Scams",
     "importance_score": 1065,
-    "also_covered_by": []
-  },
-  {
-    "title": "Top 10 Best Kubernetes Security Tools in 2026",
-    "summary": "<p>Kubernetes security has its own shape admission control gating what deploys, network policy governing pod-to-pod traffic, runtime detection watching live workloads, and posture checking cluster configuration across modern multi-cloud security architectures. Sysdig and Aqua lead as specialists, Red Hat ACS owns OpenShift, and this category has the strongest open-source options in all of cloud security: [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-kubernetes-security-tools/\">Top 10 Best Kubernetes Security Tools in 2026</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/best-kubernetes-security-tools/",
-    "published": "2026-09-15T06:41:07",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 1060,
     "also_covered_by": []
   },
   {
@@ -467,16 +407,6 @@
     "source": "infosecurity-magazine.com",
     "category": "Vulnerability",
     "importance_score": 920,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hackers Abuse VSSAdmin to Extract NTDS.dit and Delete Windows Recovery Copies",
-    "summary": "<p>Windows attackers are turning a built-in recovery feature into a tool for disruption. By abusing Volume Shadow Copy Service, intruders can copy protected data, access the Active Directory database, and erase recovery copies after ransomware. The technique blends into Windows activity. Backup software, remote management tools, and administrators may create or remove shadow copies, forcing [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-abuse-vssadmin/\">Hackers Abuse VSSAdmin to Extract NTDS.dit and Delete Windows Recovery Copies</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/hackers-abuse-vssadmin/",
-    "published": "2026-09-15T08:29:37",
-    "source": "cybersecuritynews.com",
-    "category": "Ransomware",
-    "importance_score": 913,
     "also_covered_by": []
   },
   {
@@ -700,16 +630,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Hackers Hijack HBO Max Reddit Account to Push 108 ClickFix Malware Ads",
-    "summary": "<p>Hackers have used a trusted Reddit identity to turn advertisements into a malware delivery channel. A compromised, verified HBO Max account, u/hbomax, published 108 malicious ClickFix ads over 48 hours, sending people toward fake software pages. The campaign did not rely on a software vulnerability. It relied on persuasion: a polished page claimed to offer [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-hijack-hbo-max/\">Hackers Hijack HBO Max Reddit Account to Push 108 ClickFix Malware Ads</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/hackers-hijack-hbo-max/",
-    "published": "2026-09-15T06:56:40",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 703,
-    "also_covered_by": []
-  },
-  {
     "title": "Chinese espionage groups swarm to exploit triple-link chain of zero-days",
     "summary": "<p>Multiple China-aligned threat groups exploited the defects quickly to target various organizations. Proofpoint said the activity is ongoing and expects it to widen.</p>\n<p>The post <a href=\"https://cyberscoop.com/china-espionage-groups-exploit-chain-zero-days/\">Chinese espionage groups swarm to exploit triple-link chain of zero-days</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
     "link": "https://cyberscoop.com/china-espionage-groups-exploit-chain-zero-days/",
@@ -780,16 +700,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Microsoft Offers $60,000 Bounty for Critical Cross-Tenant Vulnerabilities",
-    "summary": "<p>Microsoft has expanded its incentives for security researchers focusing on Dynamics 365 and Power Platform, offering rewards ranging from $1,250 to $60,000 for qualifying vulnerabilities. The program prioritizes flaws that have a direct and demonstrable security impact in supported cloud services, including cross-tenant issues that could compromise isolation between customer environments. Microsoft Offers $60,000 Bounty [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/microsoft-offers-60000-bounty/\">Microsoft Offers $60,000 Bounty for Critical Cross-Tenant Vulnerabilities</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/microsoft-offers-60000-bounty/",
-    "published": "2026-09-15T08:08:26",
-    "source": "gbhackers.com",
-    "category": "Policy / Law",
-    "importance_score": 630,
-    "also_covered_by": []
-  },
-  {
     "title": "Update Chrome now to protect against an actively exploited vulnerability",
     "summary": "Chrome issues another monster update, fixing an actively exploited V8 vulnerability and 229 other flaws.",
     "link": "https://www.malwarebytes.com/blog/bugs/2026/09/update-chrome-now-to-protect-against-an-actively-exploited-vulnerability",
@@ -800,16 +710,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Hackers Deploy Agentic AI to Automate Exploitation and Mass Credential Harvesting",
-    "summary": "<p>Threat actors are moving from using artificial intelligence as a productivity aid to deploying autonomous agentic systems that can execute major portions of an intrusion with minimal human intervention. Google Threat Intelligence Group (GTIG) has documented a financially motivated actor that used a multi-agent framework to plan, build, and run a mass credential-harvesting operation in [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/agentic-ai-exploitation/\">Hackers Deploy Agentic AI to Automate Exploitation and Mass Credential Harvesting</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/agentic-ai-exploitation/",
-    "published": "2026-09-15T07:46:50",
-    "source": "gbhackers.com",
-    "category": "AI & Security",
-    "importance_score": 622,
-    "also_covered_by": []
-  },
-  {
     "title": "Microsoft AI Code of Conduct Sets Cyberattack Boundaries, Chain of Command, Safety Constraints",
     "summary": "<p>The Humanist AI Code of Conduct draws a line between defensive cyber research and operational attack capability.</p>\n<p>The post <a href=\"https://www.securityweek.com/microsoft-ai-code-of-conduct-sets-cyberattack-boundaries-chain-of-command-safety-constraints/\">Microsoft AI Code of Conduct Sets Cyberattack Boundaries, Chain of Command, Safety Constraints</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
     "link": "https://www.securityweek.com/microsoft-ai-code-of-conduct-sets-cyberattack-boundaries-chain-of-command-safety-constraints/",
@@ -817,26 +717,6 @@
     "source": "securityweek.com",
     "category": "AI & Security",
     "importance_score": 616,
-    "also_covered_by": []
-  },
-  {
-    "title": "Microsoft Confirms KB5002914 Update Breaks Copy and Paste on Excel",
-    "summary": "<p>Microsoft has confirmed that the September 8, 2026 Excel security update KB5002914 can silently break copy and paste in Excel 2016, 2019, 2021, and 2024. Microsoft added the defect to the update’s known issues after Patch Tuesday users reported that paste, autofill, and formula dragging failed with no error. Microsoft’s advisory says the paste operation [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/kb5002914-update-breaks-copy-paste/\">Microsoft Confirms KB5002914 Update Breaks Copy and Paste on Excel</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/kb5002914-update-breaks-copy-paste/",
-    "published": "2026-09-15T09:25:42",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 604,
-    "also_covered_by": []
-  },
-  {
-    "title": "Top 10 Best Cloud Access Security Broker (CASB) Solutions in 2026",
-    "summary": "<p>Bottom line up front: almost nobody buys a standalone CASB anymore it’s a function of a secure web gateway/SSE platform, and increasingly overlaps with SSPM for SaaS posture. Netskope leads on depth, Microsoft Defender for Cloud Apps on Microsoft-estate economics, and the real decision is which SSE platform you’re standardizing on. This guide sizes it [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-casb-solutions/\">Top 10 Best Cloud Access Security Broker (CASB) Solutions in 2026</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/best-casb-solutions/",
-    "published": "2026-09-15T06:24:54",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 600,
     "also_covered_by": []
   },
   {
@@ -1080,16 +960,6 @@
     "also_covered_by": []
   },
   {
-    "title": "12 Best Browser Isolation Solutions Compared (2026): Features & Pricing",
-    "summary": "<p>Quick Answer: Zscaler and Cloudflare lead RBI delivered inside SSE platforms; Menlo Security leads isolate-everything efficacy; Garrison (Everfox) owns hardware-grade high assurance for government; Authentic8 Silo dominates managed OSINT/investigations; Kasm is the self-host value play. RBI typically prices per user per month. The browser executes more untrusted code than any other program on an endpoint [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-browser-isolation-compared/\">12 Best Browser Isolation Solutions Compared (2026): Features &#038; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/best-browser-isolation-compared/",
-    "published": "2026-09-15T06:27:05",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 477,
-    "also_covered_by": []
-  },
-  {
     "title": "Ransomware Attacks are on the Rise",
     "summary": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
     "link": "https://threatpost.com/ransomware-attacks-are-on-the-rise/180481/",
@@ -1100,16 +970,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Nintendo Switch QR Code Vulnerability Lets Nearby Attackers Execute Unauthorized Code",
-    "summary": "<p>Nintendo released system version 23.0.0 to address CVE-2026-82079, a vulnerability in the Nintendo Switch&#8217;s local wireless networking that could turn the QR code sharing process into an attack vector. This issue affects consoles running firmware older than version 23.0.0, allowing a nearby attacker to execute unauthorized code or access data stored on the device. Nintendo [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/nintendo-switch-qr-code-vulnerability/\">Nintendo Switch QR Code Vulnerability Lets Nearby Attackers Execute Unauthorized Code</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/nintendo-switch-qr-code-vulnerability/",
-    "published": "2026-09-15T06:19:11",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 474,
-    "also_covered_by": []
-  },
-  {
     "title": "Kimwolf v7: An Evolution of the Kimwolf Botnet",
     "summary": "<p>Discover how Kimwolf v7 targets Android IoT devices with HTTP/2 DDoS fingerprinting, Ethereum ENS C2 resolution and Tor backup routing.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/kimwolf-v7-botnet-malware/\">Kimwolf v7: An Evolution of the Kimwolf Botnet</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
     "link": "https://unit42.paloaltonetworks.com/kimwolf-v7-botnet-malware/",
@@ -1117,16 +977,6 @@
     "source": "unit42.paloaltonetworks.com",
     "category": "Other",
     "importance_score": 474,
-    "also_covered_by": []
-  },
-  {
-    "title": "Linux Kernel ZcopyReaper Vulnerability Lets Local Attackers Gain Root Privileges",
-    "summary": "<p>Security researchers have disclosed a local privilege escalation vulnerability in the Linux kernel related to the Reliable Datagram Sockets (RDS) zero-copy send path. This vulnerability could let an unprivileged local attacker gain root privileges. It is tracked as CVE-2026-43502 and is referred to as “ZcopyReaper.” NebuSec researcher Yuan Tan reported the issue in a disclosure [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/linux-kernel-zcopyreaper-vulnerability/\">Linux Kernel ZcopyReaper Vulnerability Lets Local Attackers Gain Root Privileges</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/linux-kernel-zcopyreaper-vulnerability/",
-    "published": "2026-09-15T08:18:47",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 473,
     "also_covered_by": []
   },
   {
@@ -1150,46 +1000,6 @@
     "also_covered_by": []
   },
   {
-    "title": "12 Best Enterprise Browsers Compared (2026): Features & Pricing",
-    "summary": "<p>Quick Answer: Island and Palo Alto (Talon) lead purpose-built enterprise browsers; Chrome Enterprise (free Core tier) and Edge for Business (bundled) secure the browsers you already run; LayerX and Seraphic add enterprise controls without switching browsers. Note: Mammoth Cyber has ceased operations treat any references as historical. Work happens in the browser now 90%+ of [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-enterprise-browsers-compared/\">12 Best Enterprise Browsers Compared (2026): Features &#038; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/best-enterprise-browsers-compared/",
-    "published": "2026-09-15T06:32:28",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 468,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hackers Use Autonomous AI Agents to Harvest Thousands of Credentials in Under 6 Hours",
-    "summary": "<p>Cybercriminals are using autonomous AI agents to turn compromised cloud systems into rapid credential-harvesting platforms. In a newly documented case, a suspected financially motivated actor planned, built, and ran a large-scale operation in under six hours, taking thousands of third-party credentials. The intrusion shows how quickly a cloud breach can become a wider identity crisis. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-use-autonomous-ai-agents/\">Hackers Use Autonomous AI Agents to Harvest Thousands of Credentials in Under 6 Hours</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/hackers-use-autonomous-ai-agents/",
-    "published": "2026-09-15T09:28:15",
-    "source": "cybersecuritynews.com",
-    "category": "AI & Security",
-    "importance_score": 466,
-    "also_covered_by": []
-  },
-  {
-    "title": "Top 10 Best Cloud Infrastructure Entitlement Management (CIEM) Tools in 2026",
-    "summary": "<p>Bottom line up front: cloud identities human and machine are the perimeter now, and most are wildly over-privileged. CIEM answers “who can reach what, and should they,” then right-sizes it across complex multi-cloud security architectures. The market splits three ways: CNAPP-bundled CIEM (Wiz, Prisma), identity-suite CIEM (CyberArk, SailPoint, Saviynt), and specialists (Sonrai, Britive, Tenable/Ermetic). This [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-ciem-tools/\">Top 10 Best Cloud Infrastructure Entitlement Management (CIEM) Tools in 2026</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/best-ciem-tools/",
-    "published": "2026-09-15T06:30:33",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 466,
-    "also_covered_by": []
-  },
-  {
-    "title": "Top 10 Best Container Security Tools in 2026",
-    "summary": "<p>Container security spans the whole lifecycle build (image scanning, IaC), ship (registry, admission), and run (runtime detection, drift) across modern multi-cloud security architectures. Aqua and Sysdig lead as specialists, Snyk owns developer-first shift-left, and the platform CNAPPs (Prisma, Wiz, CrowdStrike) increasingly absorb container security into a broader graph. Here are the ten best, matched to [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-container-security-tools/\">Top 10 Best Container Security Tools in 2026</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/best-container-security-tools/",
-    "published": "2026-09-15T06:36:10",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 460,
-    "also_covered_by": []
-  },
-  {
     "title": "New Warnings About the Risks of AI to Humanity Revive a Long-Running Debate",
     "summary": "<p>Concerns over the potential risks of the technology are rising as new AI models become more powerful, heightening both the potential for misuse by people with criminal aims.</p>\n<p>The post <a href=\"https://www.securityweek.com/new-warnings-about-the-risks-of-ai-to-humanity-revive-a-long-running-debate/\">New Warnings About the Risks of AI to Humanity Revive a Long-Running Debate</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
     "link": "https://www.securityweek.com/new-warnings-about-the-risks-of-ai-to-humanity-revive-a-long-running-debate/",
@@ -1197,16 +1007,6 @@
     "source": "securityweek.com",
     "category": "AI & Security",
     "importance_score": 457,
-    "also_covered_by": []
-  },
-  {
-    "title": "Top 10 Best Serverless Security Solutions in 2026",
-    "summary": "<p>Serverless changed the attack surface: no host to protect, but every function is a tiny privileged identity with its own code, dependencies, and permissions and there are thousands of them. Security shifted to least-privilege function roles, code and dependency scanning, and runtime behaviour. Palo Alto and Aqua lead, Snyk owns the code layer, and the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-serverless-security-solutions/\">Top 10 Best Serverless Security Solutions in 2026</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/best-serverless-security-solutions/",
-    "published": "2026-09-15T06:48:12",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 449,
     "also_covered_by": []
   },
   {
