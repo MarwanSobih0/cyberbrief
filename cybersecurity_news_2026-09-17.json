@@ -50,6 +50,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Hackers Allegedly Selling Fortinet FortiGate 1-Day Vulnerability on Underground Forums",
+    "summary": "<p>A threat actor is allegedly offering a private remote code execution exploit for Fortinet FortiGate SSL VPN appliances, claiming that FortiOS 7.2.x and 7.4.x are affected. The listing has not been independently verified and does not confirm the existence of a new FortiGate zero-day vulnerability. The advertisement, shared by Dark Web Intelligence, promotes what the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-selling-fortinet-fortigate-1-day-vulnerability/\">Hackers Allegedly Selling Fortinet FortiGate 1-Day Vulnerability on Underground Forums</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/hackers-selling-fortinet-fortigate-1-day-vulnerability/",
+    "published": "2026-09-17T09:33:32",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 1817,
+    "also_covered_by": []
+  },
+  {
     "title": "China-Linked Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy GRIMWEDGE",
     "summary": "A Chinese threat actor has been attributed to a spear-phishing campaign that exploits recently patched security flaws in Google Chrome and Microsoft Windows to deliver a malicious JavaScript backdoor called GRIMWEDGE.\n\nVolexity, which is tracking the threat cluster under the moniker UTA0560, said the activity targeted multiple non-governmental organizations (NGOs) on September 1, 2026.\n\n\"The",
     "link": "https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html",
@@ -120,6 +130,16 @@
     "also_covered_by": []
   },
   {
+    "title": "GhostCode Abuses Microsoft Entra Device Enrollment to Maintain Access After Token Revocation",
+    "summary": "<p>A newly identified device-code phishing kit dubbed GhostCode exploits Microsoft Entra device enrollment to maintain access after stolen tokens are revoked. GhostCode begins with business-email social engineering rather than a conventional credential-harvesting page. Operators impersonated procurement staff from legitimate organizations, including BJ’s Wholesale Club, and submitted benign inquiries through Salesforce contact forms. Once a sales [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ghostcode-abuses-microsoft-entra/\">GhostCode Abuses Microsoft Entra Device Enrollment to Maintain Access After Token Revocation</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/ghostcode-abuses-microsoft-entra/",
+    "published": "2026-09-16T13:41:39",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 1492,
+    "also_covered_by": []
+  },
+  {
     "title": "Cisco warns customers of actively exploited zero-day in email gateways",
     "summary": "<p>The company confirmed the defect was exploited before it was disclosed and patched, but it did not describe the nature of the attacks or the scope of impact across its customer base. </p>\n<p>The post <a href=\"https://cyberscoop.com/cisco-secure-email-gateway-zero-day-exploited/\">Cisco warns customers of actively exploited zero-day in email gateways</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
     "link": "https://cyberscoop.com/cisco-secure-email-gateway-zero-day-exploited/",
@@ -137,6 +157,16 @@
     "source": "malwarebytes.com",
     "category": "Vulnerability",
     "importance_score": 1380,
+    "also_covered_by": []
+  },
+  {
+    "title": "Top 10 Best Google Cloud (GCP) Security Tools in 2026",
+    "summary": "<p>Quick Answer: Google Security Command Center (Standard tier included) is every GCP project’s floor; Wiz leads agentless attack-path correlation; Sysdig leads GKE runtime; Prisma Cloud leads multicloud breadth; Fortinet (Lacework) brings behavioral anomaly detection. Note: the once-popular open-source Forseti is deprecated don’t build on it. Google Cloud rewards engineering-led teams and punishes configuration drift the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-gcp-security-tools/\">Top 10 Best Google Cloud (GCP) Security Tools in 2026</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/best-gcp-security-tools/",
+    "published": "2026-09-17T08:37:13",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 1365,
     "also_covered_by": []
   },
   {
@@ -280,6 +310,16 @@
     "also_covered_by": []
   },
   {
+    "title": "CISA Warns of Critical ScreenConnect Vulnerability Actively Exploited in Attacks",
+    "summary": "<p>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a critical ConnectWise ScreenConnect vulnerability, tracked as CVE-2026-84869, to its Known Exploited Vulnerabilities (KEV) Catalog after confirming that threat actors are actively exploiting the flaw in attacks. The issue affects ScreenConnect, a widely used remote monitoring and support platform that enables administrators and managed service [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/screenconnect-vulnerability-exploited/\">CISA Warns of Critical ScreenConnect Vulnerability Actively Exploited in Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/screenconnect-vulnerability-exploited/",
+    "published": "2026-09-16T15:31:36",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 1225,
+    "also_covered_by": []
+  },
+  {
     "title": "Three Threat Groups Target Russian Enterprises With Backdoors, Ransomware, and Wipers",
     "summary": "Enterprises in Russia have emerged as the target of three threat activity clusters tracked as NightEagle, Hacking Cat, and Toy Ghouls, according to multiple reports from Kaspersky.\n\nThe cybersecurity vendor said it has identified attacks mounted by NightEagle (aka APT-Q-95), a threat actor known to be active since at least 2023, that involve new techniques for persistence and lateral movement.",
     "link": "https://thehackernews.com/2026/09/three-threat-groups-target-russian.html",
@@ -287,6 +327,16 @@
     "source": "thehackernews.com",
     "category": "Ransomware",
     "importance_score": 1208,
+    "also_covered_by": []
+  },
+  {
+    "title": "Top 10 Best Microsoft Azure Security Tools in 2026",
+    "summary": "<p>Quick Answer: Microsoft Defender for Cloud with its free foundational tier and published per-resource plans is the anchor for every Azure estate. Add Wiz or Orca for agentless attack-path correlation, Prisma Cloud for multicloud breadth, CrowdStrike for runtime, and Rapid7 or Qualys to unify cloud with existing vulnerability programs. Azure’s tight coupling of identity (Entra [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-azure-security-tools/\">Top 10 Best Microsoft Azure Security Tools in 2026</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/best-azure-security-tools/",
+    "published": "2026-09-17T08:31:31",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 1204,
     "also_covered_by": []
   },
   {
@@ -360,6 +410,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Jenkins Patches 20 Plugin Flaws Leading to RCE, XSS and Credential Theft",
+    "summary": "<p>Jenkins has released security updates addressing 20 vulnerabilities across 13 plugins, including multiple high-severity flaws that could allow authorized attackers to bypass Groovy sandbox protections and execute arbitrary code on Jenkins controllers. The advisory, dated September 16, 2026, also addresses stored cross-site scripting (XSS), server-side request forgery (SSRF), credential exposure, path traversal, OAuth token hijacking, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/jenkins-patches-20-plugin-flaws/\">Jenkins Patches 20 Plugin Flaws Leading to RCE, XSS and Credential Theft</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/jenkins-patches-20-plugin-flaws/",
+    "published": "2026-09-17T06:21:07",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 1084,
+    "also_covered_by": []
+  },
+  {
     "title": "Google Pixel owners urged to patch actively exploited modem flaw",
     "summary": "Google’s September Pixel update fixes 110 vulnerabilities, including a modem flaw being used in limited, targeted attacks.",
     "link": "https://www.malwarebytes.com/blog/mobile/2026/09/google-pixel-owners-urged-to-patch-actively-exploited-modem-flaw",
@@ -367,6 +427,16 @@
     "source": "malwarebytes.com",
     "category": "Policy / Law",
     "importance_score": 1080,
+    "also_covered_by": []
+  },
+  {
+    "title": "Docker Sandboxes Vulnerabilities Let Malicious Guests Escape Workspace and Access Host Files",
+    "summary": "<p>Docker has released security fixes for two serious vulnerabilities in Docker Sandboxes that could let a malicious guest environment bypass workspace isolation and access sensitive resources on the host. These flaws, identified as CVE-2026-77179 and CVE-2026-79994, were addressed in Docker Sandboxes version 0.42.0, which was released on September 7. Docker Sandboxes isolate development agents and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/docker-sandboxes-vulnerabilities/\">Docker Sandboxes Vulnerabilities Let Malicious Guests Escape Workspace and Access Host Files</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/docker-sandboxes-vulnerabilities/",
+    "published": "2026-09-17T07:17:56",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 1079,
     "also_covered_by": []
   },
   {
@@ -427,6 +497,16 @@
     "source": "securelist.com",
     "category": "Ransomware",
     "importance_score": 968,
+    "also_covered_by": []
+  },
+  {
+    "title": "New Android Malware Steals Banking PINs and Reinstalls Itself After Users Delete It",
+    "summary": "<p>A newly tracked Android malware called RatHat is targeting banking customers with fake screens, stolen verification codes and persistent phone access. The threat can capture PINs, passwords and unlock patterns, raising the risk of account takeovers and payments after a victim believes the malicious app is gone. The campaign relies on deceptive download pages promoted [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/new-android-malware/\">New Android Malware Steals Banking PINs and Reinstalls Itself After Users Delete It</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/new-android-malware/",
+    "published": "2026-09-17T08:55:37",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 958,
     "also_covered_by": []
   },
   {
@@ -520,6 +600,16 @@
     "also_covered_by": []
   },
   {
+    "title": "CenterPoint Energy Data Breach – Hackers Stolen Customer’s Personal Data",
+    "summary": "<p>CenterPoint Energy disclosed a data breach after an unauthorized third party obtained personal information from some of its customers through an internet-facing company system. The Houston-based utility company revealed the incident in a Form 8-K filing with the U.S. Securities and Exchange Commission on September 14, 2026. CenterPoint said it learned of an online post [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/centerpoint-energy-data-breach/\">CenterPoint Energy Data Breach &#8211; Hackers Stolen Customer’s Personal Data</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/centerpoint-energy-data-breach/",
+    "published": "2026-09-16T15:32:51",
+    "source": "cybersecuritynews.com",
+    "category": "Data Breach",
+    "importance_score": 910,
+    "also_covered_by": []
+  },
+  {
     "title": "We've got one word for it, and it's usually the wrong one",
     "summary": "In this week's Threat Source newsletter, Joe explores why the word \"burnout\" often fails to capture the true toll of working in the cybersecurity industry and why we need better language to address it.",
     "link": "https://blog.talosintelligence.com/weve-got-one-word-for-it-and-its-usually-the-wrong-one/",
@@ -568,6 +658,18 @@
     "category": "Other",
     "importance_score": 888,
     "also_covered_by": []
+  },
+  {
+    "title": "NightEagle Hackers Abuse Microsoft Dev Tunnels and GhostContainer to Breach Russian Companies",
+    "summary": "<p>The NightEagle advanced persistent threat group, tracked as APT-Q-95, has expanded its operations to target businesses in Russia, combining stolen VPN credentials, a stealthy Microsoft Exchange backdoor, and legitimate tunneling technologies to move through victim networks. Researchers from Kaspersky’s Global Emergency Response Team said the group has been active since at least 2023 and previously [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/nighteagle-abuse-microsoft-dev-tunnels/\">NightEagle Hackers Abuse Microsoft Dev Tunnels and GhostContainer to Breach Russian Companies</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/nighteagle-abuse-microsoft-dev-tunnels/",
+    "published": "2026-09-17T05:41:54",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 882,
+    "also_covered_by": [
+      "cybersecuritynews.com"
+    ]
   },
   {
     "title": "Acronis warns of actively exploited flaw in its cPanel backup plugin",
@@ -700,6 +802,26 @@
     "also_covered_by": []
   },
   {
+    "title": "RatHat Abuses Android Wireless Debugging to Gain Shell Access and Steal Banking PINs",
+    "summary": "<p>RatHat, a newly identified Android banking malware family that combines Accessibility abuse, local Android Debug Bridge (ADB) pairing, native shell-level components, and generative-AI-assisted interface automation. The operation appears linked to China-based threat actors and is primarily designed to steal banking credentials, payment PINs, one-time passwords, device-unlock secrets, and other high-value data from infected Android devices. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/rathat-malware-attack/\">RatHat Abuses Android Wireless Debugging to Gain Shell Access and Steal Banking PINs</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/rathat-malware-attack/",
+    "published": "2026-09-17T08:01:48",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 736,
+    "also_covered_by": []
+  },
+  {
+    "title": "Hackers Turn AI Agent Into a Cyber Weapon After Deleting Its Safety Refusals",
+    "summary": "<p>A French-speaking cybercrime crew calling itself BlackHatSect0r &#38;&#38; DXQRTXX allegedly disabled safety controls in a self-hosted AI agent and used the resulting system to automate mass credential harvesting, target discovery, phishing preparation, and attack orchestration. The internet-exposed server reportedly contained 4.9 GB of material across 9,299 files, including a custom Go-based command-and-control platform named DXSCAN, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ai-agent-into-a-cyber-weapon/\">Hackers Turn AI Agent Into a Cyber Weapon After Deleting Its Safety Refusals</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/ai-agent-into-a-cyber-weapon/",
+    "published": "2026-09-17T07:00:10",
+    "source": "gbhackers.com",
+    "category": "Phishing / Scams",
+    "importance_score": 734,
+    "also_covered_by": []
+  },
+  {
     "title": "ASCII smuggling crosses over from AI prompt injection to phishing evasion",
     "summary": "<p>Invisible Unicode characters popularized for hiding instructions from AI models are now being used to obfuscate words before email filters parse them.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/09/03/ascii-smuggling-crosses-over-from-ai-prompt-injection-to-phishing-evasion/\">ASCII smuggling crosses over from AI prompt injection to phishing evasion</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/09/03/ascii-smuggling-crosses-over-from-ai-prompt-injection-to-phishing-evasion/",
@@ -710,6 +832,26 @@
     "also_covered_by": []
   },
   {
+    "title": "VectraRAT Malware-as-a-Service Lets Hackers Bypass UAC and Hijack Windows Systems",
+    "summary": "<p>VectraRAT, a previously undocumented Malware-as-a-Service platform that combines remote-access trojan capabilities with automated credential theft and a silent Windows privilege-escalation chain. Unlike the large number of commodity RATs that recycle leaked AsyncRAT, XWorm, or QuasarRAT code, VectraRAT appears to be a purpose-built, full-stack product maintained by a single developer. The platform is rented rather than [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/vectrarat-malware-as-a-service/\">VectraRAT Malware-as-a-Service Lets Hackers Bypass UAC and Hijack Windows Systems</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/vectrarat-malware-as-a-service/",
+    "published": "2026-09-16T13:11:23",
+    "source": "gbhackers.com",
+    "category": "Data Breach",
+    "importance_score": 732,
+    "also_covered_by": []
+  },
+  {
+    "title": "APT36 Targets Indian Government and Defense Organizations With New Rust Malware Arsenal",
+    "summary": "<p>Pakistan-nexus threat actor APT36 has launched a renewed espionage campaign targeting government and defense organizations in India and Afghanistan. Deploying a new Rust-based malware suite designed for covert command-and-control, data theft, and propagation into isolated networks. Tracked by Zscaler ThreatLabz as Operation RapidRust, the activity was observed in August 2026 and reflects a significant evolution [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/apt36-malware-campaign/\">APT36 Targets Indian Government and Defense Organizations With New Rust Malware Arsenal</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/apt36-malware-campaign/",
+    "published": "2026-09-17T09:42:38",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 730,
+    "also_covered_by": []
+  },
+  {
     "title": "Securing the unpatchable in an age of AI-driven vulnerabilities",
     "summary": "Advances in AI technology will continue to identify vulnerabilities that in some circumstances are difficult, or effectively impossible, to patch. Appropriate network segmentation, rigorous visibility, and the deployment of NGFW/IPS combinations can provide a powerful compensatory layer.",
     "link": "https://blog.talosintelligence.com/securing-the-unpatchable-in-an-age-of-ai-driven-vulnerabilities/",
@@ -717,6 +859,16 @@
     "source": "blog.talosintelligence.com",
     "category": "AI & Security",
     "importance_score": 730,
+    "also_covered_by": []
+  },
+  {
+    "title": "German Manufacturer Shrinks Security Alert Response While Protecting 10,000 Endpoints",
+    "summary": "<p>A five-person security team at an unnamed German manufacturer has cut a reported 15 minutes from each alert investigation after replacing an air-gapped forensic laptop with ANY.RUN’s cloud-managed Interactive Sandbox. The team protects approximately 10,000 endpoints and 10,000 users across office systems and servers, illustrating how smaller security operations centers can scale enterprise malware and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/german-manufacturer-security-alerts/\">German Manufacturer Shrinks Security Alert Response While Protecting 10,000 Endpoints</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/german-manufacturer-security-alerts/",
+    "published": "2026-09-16T15:12:24",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 721,
     "also_covered_by": []
   },
   {
@@ -790,6 +942,16 @@
     "also_covered_by": []
   },
   {
+    "title": "12 Serverless Security Options Compared (2026): Features & Pricing",
+    "summary": "<p>Quick Answer: There is no standalone serverless-security SKU worth buying in 2026 functions are a line item inside CNAPP or observability contracts. Datadog publishes per-function rates (the category’s only clean anchor); Prisma Cloud carries the deepest lineage (PureSec); Aqua, Sysdig, Wiz, CloudGuard, and Fortinet (Lacework) bill functions inside platform units. Graveyard warning: Thundra and Epsagon [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-serverless-security-compared/\">12 Serverless Security Options Compared (2026): Features &#038; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/best-serverless-security-compared/",
+    "published": "2026-09-17T08:33:12",
+    "source": "gbhackers.com",
+    "category": "Policy / Law",
+    "importance_score": 626,
+    "also_covered_by": []
+  },
+  {
     "title": "Update Chrome now to protect against an actively exploited vulnerability",
     "summary": "Chrome issues another monster update, fixing an actively exploited V8 vulnerability and 229 other flaws.",
     "link": "https://www.malwarebytes.com/blog/bugs/2026/09/update-chrome-now-to-protect-against-an-actively-exploited-vulnerability",
@@ -797,6 +959,16 @@
     "source": "malwarebytes.com",
     "category": "Vulnerability",
     "importance_score": 626,
+    "also_covered_by": []
+  },
+  {
+    "title": "Windows 11 KB5124008 Update Breaks Active Directory Domain Trust and Blocks User Logins",
+    "summary": "<p>Microsoft is investigating reports that the Windows 11 KB5124008 security update is breaking Active Directory domain trust on some enterprise computers, leaving users unable to sign in with valid credentials. The problem appears linked to Machine Identity Isolation, although Microsoft has not confirmed the root cause or published an official workaround. Released on September 8, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/windows-11-kb5124008-update/\">Windows 11 KB5124008 Update Breaks Active Directory Domain Trust and Blocks User Logins</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/windows-11-kb5124008-update/",
+    "published": "2026-09-17T00:29:16",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 614,
     "also_covered_by": []
   },
   {
@@ -1100,6 +1272,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Critical Check Point Vulnerability Allows Remote Root Code Execution Without Authentication",
+    "summary": "<p>Check Point has issued a high-severity security alert for CVE-2026-91843, which is a critical stack overflow vulnerability in the login process of its Security Management and Log Server products. This flaw could allow an unauthenticated remote attacker to execute arbitrary code with root privileges, posing a significant risk to organizations utilizing affected Check Point management [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-check-point-vulnerability/\">Critical Check Point Vulnerability Allows Remote Root Code Execution Without Authentication</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/critical-check-point-vulnerability/",
+    "published": "2026-09-17T05:23:21",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 476,
+    "also_covered_by": []
+  },
+  {
     "title": "Kimwolf v7: An Evolution of the Kimwolf Botnet",
     "summary": "<p>Discover how Kimwolf v7 targets Android IoT devices with HTTP/2 DDoS fingerprinting, Ethereum ENS C2 resolution and Tor backup routing.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/kimwolf-v7-botnet-malware/\">Kimwolf v7: An Evolution of the Kimwolf Botnet</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
     "link": "https://unit42.paloaltonetworks.com/kimwolf-v7-botnet-malware/",
@@ -1127,6 +1309,16 @@
     "source": "microsoft.com",
     "category": "Phishing / Scams",
     "importance_score": 470,
+    "also_covered_by": []
+  },
+  {
+    "title": "Check Point Vulnerability Lets Remote Hackers Gain Root Access Without Authentication",
+    "summary": "<p>Check Point has released an urgent security fix for CVE-2026-91843, a critical stack-based buffer overflow that could let an unauthenticated remote attacker execute arbitrary code with root privileges on vulnerable security management and logging systems. The flaw carries a CVSS 3.1 score of 9.8, reflecting a network-accessible attack requiring low complexity, no privileges, and no [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/check-point-root-access-flaw/\">Check Point Vulnerability Lets Remote Hackers Gain Root Access Without Authentication</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/check-point-root-access-flaw/",
+    "published": "2026-09-16T17:14:35",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 465,
     "also_covered_by": []
   },
   {
