@@ -130,26 +130,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Click2Shell WordPress Flaw Lets Attackers Gain RCE With a Single Malicious Link",
-    "summary": "<p>WordPress administrators are being urged to update after researchers disclosed Click2Shell, an exploit chain that can turn one malicious link into remote code execution (RCE) on a vulnerable website. The issue begins with a WordPress Core theme-preview weakness that silently installs an attacker-selected theme from the official directory, then becomes a server compromise when chained [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/click2shell-wordpress-vulnerability/\">Click2Shell WordPress Flaw Lets Attackers Gain RCE With a Single Malicious Link</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/click2shell-wordpress-vulnerability/",
-    "published": "2026-09-19T04:30:11",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 1515,
-    "also_covered_by": []
-  },
-  {
-    "title": "TanStack Supply Chain Attack Lets Hackers Steal 170 Private CrowdSec GitHub Repositories",
-    "summary": "<p>CrowdSec has disclosed that attackers copied about 170 private GitHub repositories after a former employee’s account was compromised through May’s TanStack npm supply chain attack. The May 22 theft remained undetected until stolen source code appeared on a cybercrime forum on September 16, showing how a poisoned dependency can outlive its infection window and undermine [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/tanstack-supply-chain-attack/\">TanStack Supply Chain Attack Lets Hackers Steal 170 Private CrowdSec GitHub Repositories</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/tanstack-supply-chain-attack/",
-    "published": "2026-09-19T11:21:50",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 1512,
-    "also_covered_by": []
-  },
-  {
     "title": "Cisco alerts customers to second actively exploited zero-day in as many days",
     "summary": "<p>The latest zero-day has a maximum-severity rating and affects Cisco Identity Services Engine, a product hit with three actively exploited vulnerabilities since June 2025.</p>\n<p>The post <a href=\"https://cyberscoop.com/cisco-ise-zero-day-cve-2026-76460/\">Cisco alerts customers to second actively exploited zero-day in as many days</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
     "link": "https://cyberscoop.com/cisco-ise-zero-day-cve-2026-76460/",
@@ -257,26 +237,6 @@
     "source": "security.googleblog.com",
     "category": "Ransomware",
     "importance_score": 1330,
-    "also_covered_by": []
-  },
-  {
-    "title": "JADEPUFFER Evolves Agentic Ransomware to Target AI Models and Training Data",
-    "summary": "<p>JADEPUFFER, the agentic threat actor first linked to an autonomous ransomware operation against exposed Langflow infrastructure, has evolved its tooling to target artificial intelligence models, training datasets, and vector data. Its latest payload, ENCFORGE, marks a shift from conventional database extortion toward destruction-focused attacks on high-value AI and machine-learning assets. The group’s ENCFORGE locker targets [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/agentic-ransomware-to-target-ai-models/\">JADEPUFFER Evolves Agentic Ransomware to Target AI Models and Training Data</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/agentic-ransomware-to-target-ai-models/",
-    "published": "2026-09-18T12:23:02",
-    "source": "gbhackers.com",
-    "category": "Ransomware",
-    "importance_score": 1234,
-    "also_covered_by": []
-  },
-  {
-    "title": "CISA Warns of Linux Kernel Vulnerabilities Actively Exploited in Attacks",
-    "summary": "<p>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has warned that attackers are actively exploiting three Linux kernel vulnerabilities, creating an urgent patching and investigation deadline. CISA added CVE-2025-39682, CVE-2026-53266, and CVE-2025-39964 to its Known Exploited Vulnerabilities catalog on September 18, 2026, with remediation required by September 21 under Binding Operational Directive 26-04. The KEV [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/linux-kernel-vulnerabilities-actively-exploited/\">CISA Warns of Linux Kernel Vulnerabilities Actively Exploited in Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/linux-kernel-vulnerabilities-actively-exploited/",
-    "published": "2026-09-19T15:09:43",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 1228,
     "also_covered_by": []
   },
   {
@@ -590,16 +550,6 @@
     "also_covered_by": []
   },
   {
-    "title": "When Ransomware Targets AI Models: Defending the AI/ML Recovery Chain",
-    "summary": "<p>By Crystal Morin&#160; Ransomware crews have always followed the money. For years, that meant targets like banks and hospitals organizations with high-value assets and sensitive data who couldn’t afford downtime. Now, it means AI models too.  A threat actor the Sysdig Threat Research Team (TRT) dubbed JADEPUFFER has already shown us where the future of ransomware is heading. In the span of a [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/when-ransomware-targets-ai-models-defending-the-ai-ml-recovery-chain/\">When Ransomware Targets AI Models: Defending the AI/ML Recovery Chain </a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/when-ransomware-targets-ai-models-defending-the-ai-ml-recovery-chain/",
-    "published": "2026-09-20T04:42:15",
-    "source": "cybersecuritynews.com",
-    "category": "Ransomware",
-    "importance_score": 923,
-    "also_covered_by": []
-  },
-  {
     "title": "We've got one word for it, and it's usually the wrong one",
     "summary": "In this week's Threat Source newsletter, Joe explores why the word \"burnout\" often fails to capture the true toll of working in the cybersecurity industry and why we need better language to address it.",
     "link": "https://blog.talosintelligence.com/weve-got-one-word-for-it-and-its-usually-the-wrong-one/",
@@ -710,16 +660,6 @@
     "also_covered_by": []
   },
   {
-    "title": "New SETTRA Ransomware Uses MeshAgent RMM and BYOVD to Encrypt Windows Systems",
-    "summary": "<p>A newly observed ransomware operation dubbed SETTRA is abusing the legitimate MeshAgent remote monitoring and management platform for persistence while using recovery-inhibition and defense-evasion techniques to maximize the impact of Windows encryption attacks. Huntress investigated two SETTRA incidents in July and September 2026, uncovering a repeatable operational pattern involving victim-specific ransomware binaries, Windows log clearing, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/settra-ransomware/\">New SETTRA Ransomware Uses MeshAgent RMM and BYOVD to Encrypt Windows Systems</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/settra-ransomware/",
-    "published": "2026-09-18T12:50:05",
-    "source": "gbhackers.com",
-    "category": "Ransomware",
-    "importance_score": 784,
-    "also_covered_by": []
-  },
-  {
     "title": "Google Pixel owners urged to patch actively exploited modem flaw",
     "summary": "Google’s September Pixel update fixes 110 vulnerabilities, including a modem flaw being used in limited, targeted attacks.",
     "link": "https://www.malwarebytes.com/blog/mobile/2026/09/google-pixel-owners-urged-to-patch-actively-exploited-modem-flaw",
@@ -727,16 +667,6 @@
     "source": "malwarebytes.com",
     "category": "Policy / Law",
     "importance_score": 780,
-    "also_covered_by": []
-  },
-  {
-    "title": "Feral Wolf Hackers Exploit Confluence and 1C to Deploy GenieLocker Ransomware",
-    "summary": "<p>Feral Wolf has expanded its ransomware tradecraft by abusing exposed Atlassian Confluence servers and insecure 1C:Enterprise deployments to gain access to Russian corporate networks before deploying GenieLocker ransomware. The campaign, tracked from May through August 2026, targeted organizations in the retail, construction, manufacturing, and IT sectors. BI.ZONE DFIR investigators found that the threat actor combined [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/genielocker-ransomware/\">Feral Wolf Hackers Exploit Confluence and 1C to Deploy GenieLocker Ransomware</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/genielocker-ransomware/",
-    "published": "2026-09-18T13:02:07",
-    "source": "gbhackers.com",
-    "category": "Ransomware",
-    "importance_score": 779,
     "also_covered_by": []
   },
   {
@@ -770,16 +700,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Feral Wolf Ransomware Attacks Exploit Atlassian Confluence and Misconfigured 1C Systems",
-    "summary": "<p>Feral Wolf is using exposed business software and weak server settings to reach corporate networks, then locking files with ransomware. The campaign shows how one overlooked internet-facing system can become the starting point for a much larger incident. The group targeted Russian organizations in retail, construction, manufacturing, and information technology from May through August 2026. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/feral-wolf-ransomware/\">Feral Wolf Ransomware Attacks Exploit Atlassian Confluence and Misconfigured 1C Systems</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/feral-wolf-ransomware/",
-    "published": "2026-09-18T13:59:26",
-    "source": "cybersecuritynews.com",
-    "category": "Ransomware",
-    "importance_score": 765,
-    "also_covered_by": []
-  },
-  {
     "title": "23 Million User Records Compromised in Gyazo Data Breach",
     "summary": "<p>Gyazo maker Helpfeel said the attacker exploited a vulnerability in its image upload server to gain unauthorized access.</p>\n<p>The post <a href=\"https://www.securityweek.com/23-million-user-records-compromised-in-gyazo-data-breach/\">23 Million User Records Compromised in Gyazo Data Breach </a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
     "link": "https://www.securityweek.com/23-million-user-records-compromised-in-gyazo-data-breach/",
@@ -807,16 +727,6 @@
     "source": "microsoft.com",
     "category": "Phishing / Scams",
     "importance_score": 733,
-    "also_covered_by": []
-  },
-  {
-    "title": "Autonomous AI Attacks: The Hugging Face Reality Check",
-    "summary": "<p>For several years the forecast has been constant: AI lowers the skill barrier, AI&#160;writes&#160;novel&#160;malware,&#160;AI will soon run attacks end to end with minimal human direction. It is worth noticing where that forecast mostly came from. Not from the people who reverse malware for a living, who were&#160;largely skeptical&#160;throughout, but from the commentary layer around them: [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/autonomous-ai-attacks-the-hugging-face-reality-check/\">Autonomous AI Attacks: The Hugging Face Reality Check </a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/autonomous-ai-attacks-the-hugging-face-reality-check/",
-    "published": "2026-09-20T05:09:00",
-    "source": "cybersecuritynews.com",
-    "category": "AI & Security",
-    "importance_score": 715,
     "also_covered_by": []
   },
   {
@@ -870,16 +780,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Google Gemini AI Hacked 3 Real Companies After Cybersecurity Test Exposed It to Internet",
-    "summary": "<p>Google has confirmed that its Gemini artificial intelligence model accidentally accessed protected systems belonging to three real companies during a cybersecurity evaluation. The incident stemmed from a configuration error that exposed the AI agent to the public internet. Google Gemini AI Hacked This situation highlights how autonomous AI systems can breach intended testing boundaries when [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/google-gemini-ai-hacked-3-real-companies/\">Google Gemini AI Hacked 3 Real Companies After Cybersecurity Test Exposed It to Internet</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/google-gemini-ai-hacked-3-real-companies/",
-    "published": "2026-09-19T13:16:43",
-    "source": "gbhackers.com",
-    "category": "AI & Security",
-    "importance_score": 629,
-    "also_covered_by": []
-  },
-  {
     "title": "PHP Webshell Campaign Targets WordPress Through Critical WooCommerce Plugin Bug",
     "summary": "Attackers are exploiting a critical flaw in a third-party WooCommerce plugin to upload PHP webshells",
     "link": "https://www.infosecurity-magazine.com/news/woocommerce-wholesale-lead-capture/",
@@ -920,16 +820,6 @@
     "also_covered_by": []
   },
   {
-    "title": "PowerShell Malware Abuses Registry and DNS TXT Records to Deploy XMRig Crypto Miner",
-    "summary": "<p>A sophisticated cryptomining campaign is employing multiple layers of obfuscation to conceal malicious PowerShell payloads and ultimately deploy an XMRig-based cryptocurrency miner. This obfuscation includes Windows Registry entries, DNS TXT records, PNG images, and WAV audio files. The infection was detected after repeated security alerts indicated suspicious PowerShell activity. The initial execution command launched PowerShell [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/powershell-malware-abuses-registry-and-dns-txt-records/\">PowerShell Malware Abuses Registry and DNS TXT Records to Deploy XMRig Crypto Miner</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/powershell-malware-abuses-registry-and-dns-txt-records/",
-    "published": "2026-09-19T07:11:04",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 591,
-    "also_covered_by": []
-  },
-  {
     "title": "CrowdStrike Extends Endpoint Security to Stop Software Supply Chain Attacks",
     "summary": "No summary available",
     "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-extends-endpoint-security-to-stop-supply-chain-attacks/",
@@ -940,16 +830,6 @@
     "also_covered_by": []
   },
   {
-    "title": "AI-Powered RatHat Android Trojan Steals Bank Credentials, PINs and MFA Codes",
-    "summary": "<p>Researchers have identified a new Android banking Trojan called RatHat that utilizes artificial intelligence to automate device compromise and steal financial credentials, PINs, and one-time passcodes. Zimperium’s zLabs researchers analyzed this malware, which represents a significant evolution in Android threats. AI-Powered RatHat Android Trojan Unlike traditional malware that relies on fixed scripts, RatHat offers a [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ai-powered-rathat-android-trojan-steals-bank-credentials/\">AI-Powered RatHat Android Trojan Steals Bank Credentials, PINs and MFA Codes</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/ai-powered-rathat-android-trojan-steals-bank-credentials/",
-    "published": "2026-09-19T08:29:06",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 587,
-    "also_covered_by": []
-  },
-  {
     "title": "This month in security with Tony Anscombe – July 2026 edition",
     "summary": "OpenAI models going rogue, the first documented agentic ransomware operation, and an emergent AI-driven supply chain threat made for a packed July roundup",
     "link": "https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-july-2026/",
@@ -957,16 +837,6 @@
     "source": "welivesecurity.com",
     "category": "Ransomware",
     "importance_score": 585,
-    "also_covered_by": []
-  },
-  {
-    "title": "ChatGPT Phishing Campaign Targets Both Work and Personal OpenAI Accounts",
-    "summary": "<p>Threat actors are increasingly impersonating OpenAI’s ChatGPT service in credential-phishing campaigns, exploiting the growing use of generative AI across both enterprise and personal environments. A recently observed campaign uses a fraudulent subscription-payment notice to lure victims into disclosing OpenAI account credentials and potentially payment details through a convincing fake ChatGPT login page. The lure claims [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/chatgpt-phishing-campaign/\">ChatGPT Phishing Campaign Targets Both Work and Personal OpenAI Accounts</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/chatgpt-phishing-campaign/",
-    "published": "2026-09-18T10:22:51",
-    "source": "gbhackers.com",
-    "category": "Phishing / Scams",
-    "importance_score": 579,
     "also_covered_by": []
   },
   {
@@ -1110,16 +980,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Google Chrome 153 Update Fixes 16 Security Flaws, Including Two Critical Vulnerabilities",
-    "summary": "<p>Google has released Chrome version 153 to the Stable desktop channel, addressing 16 security vulnerabilities, including two critical-severity flaws affecting the Dawn graphics component and WebGL. This update is rolling out as version 153.0.8010.52 for Windows and macOS. Linux users will receive version 153.0.8010.52 over the coming days and weeks. Google Chrome 153 Update Fixes [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/google-chrome-153-update-fixes-16-security-flaws/\">Google Chrome 153 Update Fixes 16 Security Flaws, Including Two Critical Vulnerabilities</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/google-chrome-153-update-fixes-16-security-flaws/",
-    "published": "2026-09-18T10:36:04",
-    "source": "gbhackers.com",
-    "category": "Policy / Law",
-    "importance_score": 478,
-    "also_covered_by": []
-  },
-  {
     "title": "Most Firms Unable to Recover Quickly from Ransomware",
     "summary": "Fenix24 found only four of more than 800 clients came close to stated ransomware recovery targets of 24-48 hours",
     "link": "https://www.infosecurity-magazine.com/news/four-of-800-clients-hit-ransomware/",
@@ -1170,16 +1030,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Critical Microsoft Azure AI Foundry Vulnerability Allows Attackers to Escalate Privileges",
-    "summary": "<p>Microsoft has patched a maximum-severity security flaw in Azure AI Foundry, its enterprise platform for building and managing generative AI applications and agents, that could have allowed an unauthenticated attacker to escalate privileges over the network without any user interaction. Tracked as CVE-2026-85889, the vulnerability carries the highest possible CVSS score of 10.0, placing it [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-azure-ai-foundry-vulnerability/\">Critical Microsoft Azure AI Foundry Vulnerability Allows Attackers to Escalate Privileges</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/microsoft-azure-ai-foundry-vulnerability/",
-    "published": "2026-09-18T14:14:16",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 470,
-    "also_covered_by": []
-  },
-  {
     "title": "Impersonating IT support: how threat actors turn a remote session into enterprise-wide access",
     "summary": "<p>Microsoft Threat Intelligence observed a human-operated intrusion campaign that abuses Microsoft Teams external collaboration to impersonate IT support, gain remote access, and deploy a Node.js-based implant. Learn how attackers move from social engineering to lateral movement using legitimate tools, and how Microsoft Defender helps detect and disrupt the activity.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/09/02/impersonating-it-support-threat-actors-turn-remote-session-into-enterprise-wide-access/\">Impersonating IT support: how threat actors turn a remote session into enterprise-wide access</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/09/02/impersonating-it-support-threat-actors-turn-remote-session-into-enterprise-wide-access/",
@@ -1187,26 +1037,6 @@
     "source": "microsoft.com",
     "category": "Phishing / Scams",
     "importance_score": 470,
-    "also_covered_by": []
-  },
-  {
-    "title": "Google Gemini AI Hacked 3 Real Companies during a Cybersecurity Test",
-    "summary": "<p>Google has confirmed that its Gemini artificial intelligence model accessed protected systems belonging to three companies during a cybersecurity evaluation after a testing error exposed the agent to the public internet. The incident shows how an autonomous AI system can move beyond a sandbox when controls, target definitions, and network isolation fail even without instructions [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/google-gemini-ai-hacked-3-real-companies/\">Google Gemini AI Hacked 3 Real Companies during a Cybersecurity Test</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/google-gemini-ai-hacked-3-real-companies/",
-    "published": "2026-09-19T08:59:08",
-    "source": "cybersecuritynews.com",
-    "category": "AI & Security",
-    "importance_score": 463,
-    "also_covered_by": []
-  },
-  {
-    "title": "Business Survival in the Age of AI",
-    "summary": "<p>Adam Ochayon, VP of Strategy, Oasis Security&#160; Deploying agentic AI in the enterprise is no longer optional &#8211;&#160;it’s&#160;fundamental to survival.&#160;And the main unlock to ensure security while deploying agentic AI is through agentic access management.&#160; AI agents improve efficiency, reduce costs, and automate both complex and repetitive tasks: From HR and marketing to IT and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/business-survival-in-the-age-of-ai/\">Business Survival in the Age of AI </a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/business-survival-in-the-age-of-ai/",
-    "published": "2026-09-20T08:54:42",
-    "source": "cybersecuritynews.com",
-    "category": "AI & Security",
-    "importance_score": 457,
     "also_covered_by": []
   },
   {
@@ -1560,26 +1390,6 @@
     "also_covered_by": []
   },
   {
-    "title": "North Korean WaterPlum Hackers Target IT Professionals With Fake Job Interviews to Steal Crypto",
-    "summary": "<p>North Korean threat actors, known as WaterPlum (also referred to as Contagious Interview), have infected at least 30,000 devices in over 100 countries by luring software developers and IT professionals into malicious job interviews.   This campaign specifically targets web developers, freelancers, blockchain specialists, and cryptocurrency professionals. The attackers use persuasive recruitment messages that mimic legitimate [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/north-korean-waterplum-hackers-target-it-professionals/\">North Korean WaterPlum Hackers Target IT Professionals With Fake Job Interviews to Steal Crypto</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/north-korean-waterplum-hackers-target-it-professionals/",
-    "published": "2026-09-19T09:01:16",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 343,
-    "also_covered_by": []
-  },
-  {
-    "title": "PeckBirdy C2 Traffic Seen Across Enterprise Networks While Hiding Behind Casino Domains",
-    "summary": "<p>China-aligned threat actors are using low-quality Chinese-language casino and adult websites to conceal PeckBirdy command-and-control infrastructure, creating a detection challenge for enterprises that routinely deprioritize gambling-related domains. Infoblox telemetry found that just over 3% of enterprise customers resolved at least one PeckBirdy-related C2 domain, indicating that the infrastructure is appearing well beyond the campaign’s apparent [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/casino-domains-hide-c2-traffic/\">PeckBirdy C2 Traffic Seen Across Enterprise Networks While Hiding Behind Casino Domains</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/casino-domains-hide-c2-traffic/",
-    "published": "2026-09-18T13:43:38",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 341,
-    "also_covered_by": []
-  },
-  {
     "title": "GuardBreaker: Derailing AI-assisted malware analysis with a code comment",
     "summary": "LLM-based code scanners won’t help attackers build a nuclear weapon, but that refusal could work in their favor",
     "link": "https://www.welivesecurity.com/en/business-security/guardbreaker-derailing-ai-assisted-malware-analysis-code-comment/",
@@ -1627,16 +1437,6 @@
     "source": "infosecurity-magazine.com",
     "category": "Critical Infrastructure",
     "importance_score": 324,
-    "also_covered_by": []
-  },
-  {
-    "title": "BragJack Attack Lets Malicious Extensions Hijack AI Agents Across 5 Major Browsers",
-    "summary": "<p>A new attack technique dubbed &#8220;BragJack&#8221; allows a malicious browser extension to seize trusted communication channels used by AI assistants in Chrome, Edge, Opera Neon, Comet, and Claude in Chrome. Rather than bypassing model guardrails or hiding instructions inside web content, the proof-of-concept attacks directly supplied commands to privileged browser components, turning an assistant into [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/bragjack-ai-agent-hijacking/\">BragJack Attack Lets Malicious Extensions Hijack AI Agents Across 5 Major Browsers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/bragjack-ai-agent-hijacking/",
-    "published": "2026-09-19T03:05:12",
-    "source": "cybersecuritynews.com",
-    "category": "AI & Security",
-    "importance_score": 319,
     "also_covered_by": []
   },
   {
