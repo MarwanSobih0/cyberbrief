@@ -580,6 +580,16 @@
     "also_covered_by": []
   },
   {
+    "title": "ShinyHunters hacks rival extortion gang and takes over its dark web site",
+    "summary": "Hackers hacked the hackers as a feud between two cybercrime groups escalated, leaving ShinyHunters with the upper hand over rival Clop.",
+    "link": "https://www.malwarebytes.com/blog/news/2026/09/shinyhunters-hacks-rival-extortion-gang-and-takes-over-its-dark-web-site",
+    "published": "2026-09-21T10:17:09",
+    "source": "malwarebytes.com",
+    "category": "Other",
+    "importance_score": 783,
+    "also_covered_by": []
+  },
+  {
     "title": "New Chinese-Made ‘RatHat’ Android Malware Leverages AI to Steal Financial Data",
     "summary": "Researchers at Zimperium have uncovered a new Android malware strain, dubbed RatHat, with spyware and backdoor capabilities",
     "link": "https://www.infosecurity-magazine.com/news/rathat-android-malware-ai-steal/",
@@ -2478,16 +2488,6 @@
     "published": "2026-08-27T09:00:00",
     "source": "welivesecurity.com",
     "category": "Phishing / Scams",
-    "importance_score": 34,
-    "also_covered_by": []
-  },
-  {
-    "title": "BlueMoon exploit kit turns Chrome and Windows flaws into attacks",
-    "summary": "Four different espionage groups used the same exploit kit to target recently fixed flaws, showing why “patch later” is a dangerous gamble.",
-    "link": "https://www.malwarebytes.com/blog/bugs/2026/09/bluemoon-exploit-kit-turns-chrome-and-windows-flaws-into-attacks",
-    "published": "2026-09-10T15:49:13",
-    "source": "malwarebytes.com",
-    "category": "Policy / Law",
     "importance_score": 34,
     "also_covered_by": []
   },
