@@ -1,10 +1,10 @@
 CYBERBRIEF • DAILY THREAT INTELLIGENCE
-Generated: Wednesday, September 23, 2026 - 09:39 UTC
+Generated: Wednesday, September 23, 2026 - 09:42 UTC
 ================================================================================
 
-Total topics: 284    •    Scanned raw articles: 284
+Total topics: 294    •    Scanned raw articles: 294
 Severity breakdown:
-  CRITICAL: 5  |  HIGH: 10  |  MEDIUM: 51  |  LOW: 218
+  CRITICAL: 4  |  HIGH: 13  |  MEDIUM: 52  |  LOW: 225
 
 Top 7 active threats:
 
@@ -32,29 +32,29 @@ Top 7 active threats:
    Published: 2026-09-23T07:17:23
    Link     : https://www.bleepingcomputer.com/news/security/f5-warns-of-big-ip-apm-remote-code-execution-zero-day-exploited-in-attacks/
 
-5. Alert Triangle  krebsonsecurity.com  [Newspaper]
-   Title    : Two Alleged ‘TeamPCP’ Hackers Arrested in Australia
-   Category : Vulnerability    •    Severity: CRITICAL (score: 2040)
-   Published: 2026-08-27T11:04:15
-   Link     : https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/
-
-6. Shield Check  security.googleblog.com  [News Site]
+5. Shield Check  security.googleblog.com  [News Site]
    Title    : Android Quick Share Support for AirDrop: A Secure Approach to Cross-Platform File Sharing
    Category : Data Breach    •    Severity: HIGH (score: 1959)
    Published: 2025-11-20T17:00:00
    Link     : http://security.googleblog.com/2025/11/android-quick-share-support-for-airdrop-security.html
 
-7. Shield Check  thehackernews.com  [Newspaper]
+6. Shield Check  thehackernews.com  [Newspaper]
    Title    : SharePoint Flaw Initially Listed as Spoofing by Microsoft Enables Authenticated RCE
    Category : Vulnerability    •    Severity: HIGH (score: 1922)
    Published: 2026-09-22T11:17:41
    Link     : https://thehackernews.com/2026/09/sharepoint-flaw-initially-listed-as.html
+
+7. Shield Check  gbhackers.com  [News Site]
+   Title    : Microsoft SharePoint Flaw Lets Low-Privilege Attackers Execute Remote Code
+   Category : Vulnerability    •    Severity: HIGH (score: 1834)
+   Published: 2026-09-23T08:53:20
+   Link     : https://gbhackers.com/microsoft-sharepoint-flaw/
 
 Security Tips:
 • Never trust unsolicited links or attachments in email or messaging apps.
 • Enable multi-factor authentication (MFA) on email, banking, and admin accounts.
 • Keep browsers, VPNs, and endpoint security fully patched.
 
-Scanned 284 articles • Top 7 topics selected
+Scanned 294 articles • Top 7 topics selected
 Next planned auto-update: 08:00 AM UTC
 Stay safe, stay sharp!
