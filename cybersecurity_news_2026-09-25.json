@@ -30,16 +30,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Beyond the ransomware: Tracking Storm-2570’s consistent tradecraft across deployments",
-    "summary": "<p>Storm-2570 is a ransomware affiliate that uses consistent post-compromise tools and techniques across deployments involving Qilin, DragonForce, Anubis, and BERT ransomware, and provides guidance to help defenders detect and disrupt this activity before ransomware deployment.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/09/24/beyond-ransomware-tracking-storm-2570-consistent-tradecraft-across-deployments/\">Beyond the ransomware: Tracking Storm-2570’s consistent tradecraft across deployments</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/24/beyond-ransomware-tracking-storm-2570-consistent-tradecraft-across-deployments/",
-    "published": "2026-09-24T16:00:00",
-    "source": "microsoft.com",
-    "category": "Ransomware",
-    "importance_score": 2322,
-    "also_covered_by": []
-  },
-  {
     "title": "Check Point warns of hackers exploiting Security Gateway VPN RCE flaw",
     "summary": "Cybersecurity company Check Point has confirmed active exploitation of CVE-2026-85102, a pre-authentication remote code execution (RCE) vulnerability in the VPN certificate-handling functionality of its Security Gateway product. [...]",
     "link": "https://www.bleepingcomputer.com/news/security/check-point-warns-of-hackers-exploiting-security-gateway-vpn-rce-flaw/",
@@ -47,16 +37,6 @@
     "source": "bleepingcomputer.com",
     "category": "Vulnerability",
     "importance_score": 2208,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hackers Exploit Check Point VPN RCE and Management Zero-Day in Attacks",
-    "summary": "<p>Check Point has warned customers about the active exploitation of two critical vulnerabilities in its VPN gateway and Security Management products: CVE-2026-85102 and the newly disclosed CVE-2026-93616. Both vulnerabilities have a CVSS score of 9.8 and allow for pre-authentication attacks, making immediate patching and reducing exposure essential. Check Point Flaws CVE-2026-85102 is an improper certificate-validation [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-exploit-check-point-vpn-rce-and-management-zero-day/\">Hackers Exploit Check Point VPN RCE and Management Zero-Day in Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/hackers-exploit-check-point-vpn-rce-and-management-zero-day/",
-    "published": "2026-09-24T09:41:25",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 2136,
     "also_covered_by": []
   },
   {
@@ -127,16 +107,6 @@
     "source": "securityweek.com",
     "category": "Vulnerability",
     "importance_score": 1386,
-    "also_covered_by": []
-  },
-  {
-    "title": "Unmasking EvilTokens: Getting to the root of device code phishing",
-    "summary": "<p>EvilTokens has quickly become one of the top PhaaS platforms, enabling device code phishing attacks through AI-assisted lures, automated infrastructure, and token theft. In collaboration with partners, Microsoft Digital Crimes Unit (DCU) facilitated a disruption of EvilTokens infrastructure and operations.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/09/22/unmasking-eviltokens-getting-to-the-root-of-device-code-phishing/\">Unmasking EvilTokens: Getting to the root of device code phishing</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/22/unmasking-eviltokens-getting-to-the-root-of-device-code-phishing/",
-    "published": "2026-09-22T15:00:00",
-    "source": "microsoft.com",
-    "category": "Phishing / Scams",
-    "importance_score": 1342,
     "also_covered_by": []
   },
   {
@@ -290,16 +260,6 @@
     "also_covered_by": []
   },
   {
-    "title": "SCOUTz Prospect Intelligence Platform Launches for MSPs with 30-Day Beta",
-    "summary": "<p>Phoenix, Arizona, September 24th, 2026, CyberNewswire SCOUTz, a prospect intelligence platform built for managed service provider (MSP) security sales, is now available in open beta. The platform gives an MSP dated evidence about a prospect&#8217;s environment before the first meeting and keeps that evidence attached through delivery and reassessment. The open beta is available at [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/scoutz-prospect-intelligence-platform-launches-for-msps-with-30-day-beta/\">SCOUTz Prospect Intelligence Platform Launches for MSPs with 30-Day Beta</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/scoutz-prospect-intelligence-platform-launches-for-msps-with-30-day-beta/",
-    "published": "2026-09-24T18:58:54",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 1081,
-    "also_covered_by": []
-  },
-  {
     "title": "Salesforce Indirect Prompt Injection Vulnerability Enables 0-click Data Exfiltration",
     "summary": "<p>Zenity Labs disclosed a now-patched Salesforce Agentforce vulnerability, dubbed SalesBleed, that could have allowed attackers to steal sensitive CRM data without logging in, accessing a target Salesforce tenant, or requiring victim interaction. The attack relied on indirect prompt injection delivered through Salesforce Web-to-Lead forms. Salesforce investigated the reports and remediated the specific Trusted URLs bypass [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/salesforce-salesbleed-vulnerability/\">Salesforce Indirect Prompt Injection Vulnerability Enables 0-click Data Exfiltration</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
     "link": "https://cybersecuritynews.com/salesforce-salesbleed-vulnerability/",
@@ -320,26 +280,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Duelbits Hot Wallet Hack Drains $7 Million, Forces Platform Offline",
-    "summary": "<p>Crypto casino Duelbits has confirmed a cybersecurity breach that drained approximately $7 million from its hot wallets. In response, the company has taken its platform offline while it investigates the incident. Co-founder Joe said they are still determining “exactly what happened and how,” while assuring customers their funds are safe. Multi-Chain Wallet Drain The incident [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/duelbits-hot-wallet-hack-drains-7-million/\">Duelbits Hot Wallet Hack Drains $7 Million, Forces Platform Offline</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/duelbits-hot-wallet-hack-drains-7-million/",
-    "published": "2026-09-25T06:16:34",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 1070,
-    "also_covered_by": []
-  },
-  {
-    "title": "Salesforce Agentforce Flaw Enables 0-Click Data Exfiltration via Prompt Injection",
-    "summary": "<p>Security researchers have revealed a vulnerability chain known as “SalesBleed,” associated with Salesforce&#8217;s Agentforce. This vulnerability could allow attackers to extract sensitive CRM data through an indirect prompt injection embedded in a public Web-to-Lead form. The attack does not require a Salesforce login or a click from the victim and could leak data via DNS [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/salesforce-agentforce-flaw/\">Salesforce Agentforce Flaw Enables 0-Click Data Exfiltration via Prompt Injection</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/salesforce-agentforce-flaw/",
-    "published": "2026-09-25T07:47:45",
-    "source": "gbhackers.com",
-    "category": "Data Breach",
-    "importance_score": 1069,
-    "also_covered_by": []
-  },
-  {
     "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
     "summary": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with individuals whose licenses are available for purchase on this service, it appears to be siphoning images collected by a widely-used identity verification company based in Louisiana. KrebsOnSecurity also has learned that the New Orleans field office of the Federal Bureau of Investigation (FBI) today launched an official inquiry into the source of the images.",
     "link": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
@@ -347,16 +287,6 @@
     "source": "krebsonsecurity.com",
     "category": "Vulnerability",
     "importance_score": 1068,
-    "also_covered_by": []
-  },
-  {
-    "title": "Detect and disrupt AI-themed attacks with Microsoft Defender",
-    "summary": "<p>See how Microsoft Defender detects and disrupts AI-themed phishing, malware, and multi-stage attacks across the attack chain.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/09/10/detect-and-disrupt-ai-themed-attacks-with-microsoft-defender/\">Detect and disrupt AI-themed attacks with Microsoft Defender</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/10/detect-and-disrupt-ai-themed-attacks-with-microsoft-defender/",
-    "published": "2026-09-10T16:00:00",
-    "source": "microsoft.com",
-    "category": "Phishing / Scams",
-    "importance_score": 1065,
     "also_covered_by": []
   },
   {
@@ -437,16 +367,6 @@
     "source": "securelist.com",
     "category": "Ransomware",
     "importance_score": 968,
-    "also_covered_by": []
-  },
-  {
-    "title": "Roundcube Webmail Flaw Lets Attackers Trigger SQL Injection Without Authentication",
-    "summary": "<p>A highly severe vulnerability in Roundcube Webmail is being actively exploited, posing risks to unpatched email servers through unauthenticated SQL injection attacks. This vulnerability, tracked as CVE-2026-48842, affects Roundcube Webmail versions 1.6.x before 1.6.16 and 1.7.x before 1.7.1. On September 21, the Canadian Center for Cyber Security updated advisory AV26-503, warning that reports from the [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/roundcube-webmail-flaw/\">Roundcube Webmail Flaw Lets Attackers Trigger SQL Injection Without Authentication</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/roundcube-webmail-flaw/",
-    "published": "2026-09-24T09:56:01",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 926,
     "also_covered_by": []
   },
   {
@@ -590,16 +510,6 @@
     "also_covered_by": []
   },
   {
-    "title": "​​​​​​​​What’s new in Microsoft Security: September 2026​​",
-    "summary": "<p>This month's updates help you discover and control local AI agents, extend Zero Trust to agent traffic, and strengthen SOC foundations.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/09/24/whats-new-in-microsoft-security-september-2026/\">​​​​​​​​What’s new in Microsoft Security: September 2026​​</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/24/whats-new-in-microsoft-security-september-2026/",
-    "published": "2026-09-24T16:00:00",
-    "source": "microsoft.com",
-    "category": "AI & Security",
-    "importance_score": 782,
-    "also_covered_by": []
-  },
-  {
     "title": "OT Security Guidance: NIST Drafts Updated Guide, CISA/FBI Advise on ICS Integrators",
     "summary": "<p>Revision 4 of NIST’s operational technology security guide is open for public comments until November 30.</p>\n<p>The post <a href=\"https://www.securityweek.com/ot-security-guidance-nist-drafts-updated-guide-cisa-fbi-advise-on-ics-integrators/\">OT Security Guidance: NIST Drafts Updated Guide, CISA/FBI Advise on ICS Integrators</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
     "link": "https://www.securityweek.com/ot-security-guidance-nist-drafts-updated-guide-cisa-fbi-advise-on-ics-integrators/",
@@ -627,16 +537,6 @@
     "source": "recordedfuture.com",
     "category": "Ransomware",
     "importance_score": 743,
-    "also_covered_by": []
-  },
-  {
-    "title": "Revolut phishing texts appear days after data breach",
-    "summary": "Revolut customers received phishing texts only days after the digital bank acknowledged disclosing customer data to a government impostor.",
-    "link": "https://www.malwarebytes.com/blog/threat-intel/2026/09/revolut-phishing-texts-appear-days-after-data-breach",
-    "published": "2026-09-17T14:07:15",
-    "source": "malwarebytes.com",
-    "category": "Data Breach",
-    "importance_score": 734,
     "also_covered_by": []
   },
   {
@@ -790,16 +690,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Reimagining the SOC for the agentic era in Microsoft Defender",
-    "summary": "<p>We are announcing ISOC in Microsoft Defender: a foundation built for agentic security that brings leading solutions for SIEM and threat protection together.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/09/23/reimagining-the-soc-for-the-agentic-era-in-microsoft-defender/\">Reimagining the SOC for the agentic era in Microsoft Defender</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/23/reimagining-the-soc-for-the-agentic-era-in-microsoft-defender/",
-    "published": "2026-09-23T16:00:00",
-    "source": "microsoft.com",
-    "category": "Other",
-    "importance_score": 586,
-    "also_covered_by": []
-  },
-  {
     "title": "This month in security with Tony Anscombe – July 2026 edition",
     "summary": "OpenAI models going rogue, the first documented agentic ransomware operation, and an emergent AI-driven supply chain threat made for a packed July roundup",
     "link": "https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-july-2026/",
@@ -807,16 +697,6 @@
     "source": "welivesecurity.com",
     "category": "Ransomware",
     "importance_score": 585,
-    "also_covered_by": []
-  },
-  {
-    "title": "Operation Conflict Compass Deploys VelvetCake PowerShell Malware Through Malicious LNK Files",
-    "summary": "<p>North Korea-linked threat actor Konni has launched a targeted cyberespionage operation against Ukraine-focused entities using malicious Windows shortcut files disguised as PDF documents. The campaign, tracked by SOCRadar Threat Research Unit as Operation Conflict Compass, deploys a modular PowerShell malware family dubbed VelvetCake to collect intelligence on the Russia-Ukraine war. The activity appears designed to [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/velvetcake-powershell-malware/\">Operation Conflict Compass Deploys VelvetCake PowerShell Malware Through Malicious LNK Files</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/velvetcake-powershell-malware/",
-    "published": "2026-09-24T09:34:36",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 584,
     "also_covered_by": []
   },
   {
@@ -1090,16 +970,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Sudo Vulnerability Lets Attackers Bypass Time-Based Authorization Controls",
-    "summary": "<p>A recently disclosed high-severity vulnerability in Sudo could allow local, unprivileged Linux users to manipulate time-based authorization restrictions in sudoers policies. Tracked as CVE-2026-96512, this vulnerability arises from how Sudo handles the attacker-controlled TZ environment variable when evaluating NOTBEFORE and NOTAFTER constraints. Red Hat is monitoring this flaw under Bug 2539327, which is currently categorized [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/sudo-vulnerability/\">Sudo Vulnerability Lets Attackers Bypass Time-Based Authorization Controls</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/sudo-vulnerability/",
-    "published": "2026-09-25T07:26:40",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 479,
-    "also_covered_by": []
-  },
-  {
     "title": "Ransomware Attacks are on the Rise",
     "summary": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
     "link": "https://threatpost.com/ransomware-attacks-are-on-the-rise/180481/",
@@ -1120,16 +990,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Bitget Confirms $351.6 Million Hot Wallet Hack, Suspends Withdrawals",
-    "summary": "<p>Crypto exchange Bitget has confirmed unauthorized transfers from part of its hot wallet infrastructure, resulting in estimated losses of about $351.6 million. To conduct a security review, the company has temporarily suspended withdrawals; however, deposits and trading will remain operational, according to its official incident notice. Bitget Hot Wallet Hack Bitget reported that its security [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/bitget-confirms-351-6-million-hot-wallet-hack/\">Bitget Confirms $351.6 Million Hot Wallet Hack, Suspends Withdrawals</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/bitget-confirms-351-6-million-hot-wallet-hack/",
-    "published": "2026-09-25T06:02:16",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 476,
-    "also_covered_by": []
-  },
-  {
     "title": "Critical GitLab Bugs Let Attackers Execute Code Through Malicious CI/CD Regex",
     "summary": "<p>GitLab has released emergency security updates to fix two critical vulnerabilities that could allow authenticated attackers to execute arbitrary code on vulnerable GitLab servers through specially crafted regular expressions in CI/CD configurations. The flaws, tracked as CVE-2026-89078 and CVE-2026-93577, affect GitLab Community Edition and Enterprise Edition installations. GitLab issued patched releases 19.4.1, 19.3.3, and 19.2.7 [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/gitlab-bugs-enable-code-execution/\">Critical GitLab Bugs Let Attackers Execute Code Through Malicious CI/CD Regex</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
     "link": "https://cybersecuritynews.com/gitlab-bugs-enable-code-execution/",
@@ -1137,16 +997,6 @@
     "source": "cybersecuritynews.com",
     "category": "Vulnerability",
     "importance_score": 476,
-    "also_covered_by": []
-  },
-  {
-    "title": "Cloudflare Containers Flaw Could Expose Data From Other Customers’ Workloads",
-    "summary": "<p>Cloudflare has addressed a cross-tenant data exposure vulnerability in its Containers platform that could have allowed one customer&#8217;s workload to recover residual data belonging to other customers on the same infrastructure. This flaw also affected Cloudflare Sandboxes and the Browser Run service within Browser Rendering, both of which utilize the same underlying disk implementation. Cloudflare [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cloudflare-containers-flaw/\">Cloudflare Containers Flaw Could Expose Data From Other Customers’ Workloads</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/cloudflare-containers-flaw/",
-    "published": "2026-09-25T05:52:33",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 475,
     "also_covered_by": []
   },
   {
@@ -1177,16 +1027,6 @@
     "source": "zdnet.com",
     "category": "Other",
     "importance_score": 472,
-    "also_covered_by": []
-  },
-  {
-    "title": "Attackers Drain Payy Network After Exploiting Ethereum Bridge Contract",
-    "summary": "<p>Payy Network has confirmed that an attacker exploited its Ethereum bridge contract and drained its entire balance. As a result, the network and wallet services were immediately suspended. This incident affected users&#8217; non-custodial deposits held within the Payy Network and Payy Wallet bridge infrastructure. The exploit occurred around 04:21 UTC on September 24, 2026. Payy [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/attackers-drain-payy-network/\">Attackers Drain Payy Network After Exploiting Ethereum Bridge Contract</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/attackers-drain-payy-network/",
-    "published": "2026-09-25T06:09:53",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 468,
     "also_covered_by": []
   },
   {
@@ -1350,16 +1190,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Passkey-themed social engineering leads to identity and cloud compromise",
-    "summary": "<p>Passkey-themed social engineering is being used to compromise identities and enable broader cloud attacks. Learn how threat actors establish MFA persistence, abuse Microsoft Graph for reconnaissance, and access SharePoint, OneDrive, and email data, along with key detection and mitigation guidance.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/09/09/passkey-themed-social-engineering-leads-identity-cloud-compromise/\">Passkey-themed social engineering leads to identity and cloud compromise</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/09/passkey-themed-social-engineering-leads-identity-cloud-compromise/",
-    "published": "2026-09-09T17:41:18",
-    "source": "microsoft.com",
-    "category": "Phishing / Scams",
-    "importance_score": 431,
-    "also_covered_by": []
-  },
-  {
     "title": "Roundcube Webmail Vulnerability in Attackers’ Crosshairs",
     "summary": "<p>Tracked as CVE-2026-48842, the exploited bug is an SQL injection that can be exploited without authentication.</p>\n<p>The post <a href=\"https://www.securityweek.com/roundcube-webmail-vulnerability-in-attackers-crosshairs/\">Roundcube Webmail Vulnerability in Attackers’ Crosshairs</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
     "link": "https://www.securityweek.com/roundcube-webmail-vulnerability-in-attackers-crosshairs/",
@@ -1410,16 +1240,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Improving email security outcomes with real-world Microsoft Defender insights",
-    "summary": "<p>The latest email security benchmarking reports show strong Microsoft Defender performance across pre-delivery and post-delivery scenarios and reveal where threats and defenses continue to evolve.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/09/17/improving-email-security-outcomes-with-real-world-microsoft-defender-insights/\">Improving email security outcomes with real-world Microsoft Defender insights</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/17/improving-email-security-outcomes-with-real-world-microsoft-defender-insights/",
-    "published": "2026-09-17T16:00:00",
-    "source": "microsoft.com",
-    "category": "Other",
-    "importance_score": 401,
-    "also_covered_by": []
-  },
-  {
     "title": "Phone-hacking company that won U.S. security agency contracts hid Russian ownership, DOJ alleges",
     "summary": "<p>The Justice Department said two leaders of the company have been arrested and face conspiracy to commit wire fraud.</p>\n<p>The post <a href=\"https://cyberscoop.com/oxygen-forensics-ceo-arrested-russian-ownership-fraud/\">Phone-hacking company that won U.S. security agency contracts hid Russian ownership, DOJ alleges</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
     "link": "https://cyberscoop.com/oxygen-forensics-ceo-arrested-russian-ownership-fraud/",
@@ -1435,26 +1255,6 @@
     "link": "https://securelist.com/toy-ghouls-new-hivemq-and-element-backdoors/121270/",
     "published": "2026-09-04T10:00:05",
     "source": "securelist.com",
-    "category": "Other",
-    "importance_score": 397,
-    "also_covered_by": []
-  },
-  {
-    "title": "From guidance to action: Security fundamentals that materially reduce risk",
-    "summary": "<p>AI has made fundamental changes to the operating environment for cybersecurity. Explore exposure management guidance on recommended controls and take action and stay ahead of cyberthreats.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/09/17/from-guidance-to-action-security-fundamentals-that-materially-reduce-risk/\">From guidance to action: Security fundamentals that materially reduce risk </a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/17/from-guidance-to-action-security-fundamentals-that-materially-reduce-risk/",
-    "published": "2026-09-17T17:00:00",
-    "source": "microsoft.com",
-    "category": "Other",
-    "importance_score": 397,
-    "also_covered_by": []
-  },
-  {
-    "title": "Threat matrix: Mapping threats across cloud web applications",
-    "summary": "<p>Microsoft introduces the Cloud Web Applications Threat Matrix, a MITRE ATT&#038;CK-aligned framework that helps defenders understand, prioritize, and mitigate threats to cloud-hosted web apps and serverless platforms.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/09/09/threat-matrix-mapping-threats-across-cloud-web-applications/\">Threat matrix: Mapping threats across cloud web applications</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/09/threat-matrix-mapping-threats-across-cloud-web-applications/",
-    "published": "2026-09-09T21:30:00",
-    "source": "microsoft.com",
     "category": "Other",
     "importance_score": 397,
     "also_covered_by": []
@@ -1485,16 +1285,6 @@
     "link": "https://blog.talosintelligence.com/javascript-obfuscation-from-party-trick-to-phishing-kit/",
     "published": "2026-08-27T10:00:27",
     "source": "blog.talosintelligence.com",
-    "category": "Phishing / Scams",
-    "importance_score": 393,
-    "also_covered_by": []
-  },
-  {
-    "title": "Protecting organizations from AI-assisted executive impersonation and invoice fraud",
-    "summary": "<p>Microsoft examines an AI-assisted business email compromise campaign that used executive impersonation and fake invoices to target finance teams with ACH payment fraud.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/09/10/protecting-organizations-ai-assisted-executive-impersonation-invoice-fraud/\">Protecting organizations from AI-assisted executive impersonation and invoice fraud</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/10/protecting-organizations-ai-assisted-executive-impersonation-invoice-fraud/",
-    "published": "2026-09-10T17:23:05",
-    "source": "microsoft.com",
     "category": "Phishing / Scams",
     "importance_score": 393,
     "also_covered_by": []
@@ -1667,6 +1457,16 @@
     "source": "infosecurity-magazine.com",
     "category": "Other",
     "importance_score": 325,
+    "also_covered_by": []
+  },
+  {
+    "title": "That shipping rebate offer may come with a monthly charge",
+    "summary": "Customers say they signed up for shipping rebates, then found recurring charges they didn’t expect.",
+    "link": "https://www.malwarebytes.com/blog/threat-intel/2026/09/that-shipping-rebate-offer-may-come-with-a-monthly-charge",
+    "published": "2026-09-25T09:51:26",
+    "source": "malwarebytes.com",
+    "category": "Other",
+    "importance_score": 324,
     "also_covered_by": []
   },
   {

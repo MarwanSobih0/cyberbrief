@@ -1,10 +1,10 @@
 CYBERBRIEF • DAILY THREAT INTELLIGENCE
-Generated: Friday, September 25, 2026 - 09:56 UTC
+Generated: Friday, September 25, 2026 - 09:58 UTC
 ================================================================================
 
-Total topics: 304    •    Scanned raw articles: 304
+Total topics: 284    •    Scanned raw articles: 284
 Severity breakdown:
-  CRITICAL: 7  |  HIGH: 5  |  MEDIUM: 44  |  LOW: 248
+  CRITICAL: 5  |  HIGH: 5  |  MEDIUM: 38  |  LOW: 236
 
 Top 7 active threats:
 
@@ -26,35 +26,35 @@ Top 7 active threats:
    Published: 2025-11-13T16:59:00
    Link     : http://security.googleblog.com/2025/11/rust-in-android-move-fast-fix-things.html
 
-4. Alert Triangle  microsoft.com  [News Site]
-   Title    : Beyond the ransomware: Tracking Storm-2570’s consistent tradecraft across deployments
-   Category : Ransomware    •    Severity: CRITICAL (score: 2322)
-   Published: 2026-09-24T16:00:00
-   Link     : https://www.microsoft.com/en-us/security/blog/2026/09/24/beyond-ransomware-tracking-storm-2570-consistent-tradecraft-across-deployments/
-
-5. Alert Triangle  bleepingcomputer.com  [Newspaper]
+4. Alert Triangle  bleepingcomputer.com  [Newspaper]
    Title    : Check Point warns of hackers exploiting Security Gateway VPN RCE flaw
    Category : Vulnerability    •    Severity: CRITICAL (score: 2208)
    Published: 2026-09-23T19:53:54
    Link     : https://www.bleepingcomputer.com/news/security/check-point-warns-of-hackers-exploiting-security-gateway-vpn-rce-flaw/
 
-6. Alert Triangle  gbhackers.com  [News Site]
-   Title    : Hackers Exploit Check Point VPN RCE and Management Zero-Day in Attacks
-   Category : Vulnerability    •    Severity: CRITICAL (score: 2136)
-   Published: 2026-09-24T09:41:25
-   Link     : https://gbhackers.com/hackers-exploit-check-point-vpn-rce-and-management-zero-day/
-
-7. Alert Triangle  krebsonsecurity.com  [Newspaper]
+5. Alert Triangle  krebsonsecurity.com  [Newspaper]
    Title    : Two Alleged ‘TeamPCP’ Hackers Arrested in Australia
    Category : Vulnerability    •    Severity: CRITICAL (score: 2040)
    Published: 2026-08-27T11:04:15
    Link     : https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/
+
+6. Shield Check  security.googleblog.com  [News Site]
+   Title    : Android Quick Share Support for AirDrop: A Secure Approach to Cross-Platform File Sharing
+   Category : Data Breach    •    Severity: HIGH (score: 1959)
+   Published: 2025-11-20T17:00:00
+   Link     : http://security.googleblog.com/2025/11/android-quick-share-support-for-airdrop-security.html
+
+7. Shield Check  security.googleblog.com  [News Site]
+   Title    : Keeping Google Play & Android app ecosystems safe in 2025
+   Category : Vulnerability    •    Severity: HIGH (score: 1680)
+   Published: 2026-02-19T17:00:00
+   Link     : http://security.googleblog.com/2026/02/keeping-google-play-android-app-ecosystem-safe-2025.html
 
 Security Tips:
 • Never trust unsolicited links or attachments in email or messaging apps.
 • Enable multi-factor authentication (MFA) on email, banking, and admin accounts.
 • Keep browsers, VPNs, and endpoint security fully patched.
 
-Scanned 304 articles • Top 7 topics selected
+Scanned 284 articles • Top 7 topics selected
 Next planned auto-update: 08:00 AM UTC
 Stay safe, stay sharp!
