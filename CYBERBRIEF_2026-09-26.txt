@@ -1,10 +1,10 @@
 CYBERBRIEF • DAILY THREAT INTELLIGENCE
-Generated: Saturday, September 26, 2026 - 09:38 UTC
+Generated: Saturday, September 26, 2026 - 09:40 UTC
 ================================================================================
 
-Total topics: 294    •    Scanned raw articles: 294
+Total topics: 303    •    Scanned raw articles: 304
 Severity breakdown:
-  CRITICAL: 5  |  HIGH: 11  |  MEDIUM: 40  |  LOW: 238
+  CRITICAL: 4  |  HIGH: 13  |  MEDIUM: 37  |  LOW: 249
 
 Top 7 active threats:
 
@@ -32,29 +32,29 @@ Top 7 active threats:
    Published: 2026-09-24T16:00:00
    Link     : https://www.microsoft.com/en-us/security/blog/2026/09/24/beyond-ransomware-tracking-storm-2570-consistent-tradecraft-across-deployments/
 
-5. Alert Triangle  krebsonsecurity.com  [Newspaper]
-   Title    : Two Alleged ‘TeamPCP’ Hackers Arrested in Australia
-   Category : Vulnerability    •    Severity: CRITICAL (score: 2040)
-   Published: 2026-08-27T11:04:15
-   Link     : https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/
-
-6. Shield Check  security.googleblog.com  [News Site]
+5. Shield Check  security.googleblog.com  [News Site]
    Title    : Android Quick Share Support for AirDrop: A Secure Approach to Cross-Platform File Sharing
    Category : Data Breach    •    Severity: HIGH (score: 1959)
    Published: 2025-11-20T17:00:00
    Link     : http://security.googleblog.com/2025/11/android-quick-share-support-for-airdrop-security.html
 
-7. Shield Check  thecyberexpress.com  [Link]
+6. Shield Check  thecyberexpress.com  [Link]
    Title    : Latvia Hacker Arrested Over TSC Data Theft and Extortion Attempt
    Category : Data Breach    •    Severity: HIGH (score: 1850)
    Published: 2026-09-24T06:50:33
    Link     : https://thecyberexpress.com/latvia-cyberattack-hacker-arrested/
+
+7. Shield Check  thehackernews.com  [Newspaper]
+   Title    : Roundcube Pre-Auth SQL Injection Flaw Actively Exploited in the Wild
+   Category : Vulnerability    •    Severity: HIGH (score: 1758)
+   Published: 2026-09-25T10:14:02
+   Link     : https://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html
 
 Security Tips:
 • Never trust unsolicited links or attachments in email or messaging apps.
 • Enable multi-factor authentication (MFA) on email, banking, and admin accounts.
 • Keep browsers, VPNs, and endpoint security fully patched.
 
-Scanned 294 articles • Top 7 topics selected
+Scanned 304 articles • Top 7 topics selected
 Next planned auto-update: 08:00 AM UTC
 Stay safe, stay sharp!

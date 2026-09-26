@@ -40,16 +40,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Two Alleged ‘TeamPCP’ Hackers Arrested in Australia",
-    "summary": "Authorities in Australia have arrested two men believed to be members of TeamPCP, a prolific cybercrime and data extortion group blamed for perpetrating the longest running spree of software supply chain attacks ever.\n\nIn a statement released today, the Australian Federal Police (AFP) said two unnamed suspects from Western Australia, aged 21 and 23, were arrested in connection with a \"sophisticated cybercrime syndicate that allegedly created malicious open-source software to rob thousands of global businesses.\"\n\nThe AFP did not name the defendants, but KrebsOnSecurity learned the 21-year-old suspect's real identity in June, and has been communicating with him ever since. This story includes interviews with TeamPCP's self-described spokesperson, and examines clues left behind by the TeamPCP leader that likely led to his undoing.",
-    "link": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
-    "published": "2026-08-27T11:04:15",
-    "source": "krebsonsecurity.com",
-    "category": "Vulnerability",
-    "importance_score": 2040,
-    "also_covered_by": []
-  },
-  {
     "title": "Android Quick Share Support for AirDrop: A Secure Approach to Cross-Platform File Sharing",
     "summary": "<span class=\"byline-author\">Posted by Dave Kleidermacher, VP, Platforms Security & Privacy, Google</span>\n\n<p>\nTechnology should bring people closer together, not create walls. Being able to communicate and connect with friends and family should be easy regardless of the phone they use. That’s why Android has been building experiences that help you stay connected across platforms.\n</p>\n<p>\nAs part of our efforts to continue to make cross-platform communication more seamless for users, we've made Quick Share interoperable with AirDrop, allowing for two-way file sharing between Android and iOS devices, starting with the Pixel 10 Family. This new feature makes it possible to quickly share your photos, videos, and files with people you choose to communicate with, without worrying about the kind of phone they use. \n</p>\n<p>\nMost importantly, when you share personal files and content, you need to trust that it stays secure. You can share across devices with confidence knowing we built this feature with security at its core, protecting your data with strong safeguards that have been tested by independent security experts.\n</p>\n<h3>Secure by Design</h3>\n\n\n<p>\nWe built Quick Share’s interoperability support for AirDrop with the same rigorous security standards that we apply to all Google products. Our approach to security is proactive and deeply integrated into every stage of the development process. This includes:\n</p>\n<ul>\n\n<li><strong>Threat Modeling:</strong> We identify and address potential security risks before they can become a problem.</li>\n\n<li><strong>Internal Security Design and Privacy Reviews:</strong> Our dedicated security and privacy teams thoroughly review the design to ensure it meets our high standards.</li>\n\n<li><strong>Internal Penetration Testing:</strong> We conduct extensive in-house testing to identify and fix vulnerabilities.</li>\n</ul>\n<p>\nThis <a href=\"https://blog.google/technology/safety-security/tackling-cybersecurity-vulnerabilities-through-secure-by-design/\">Secure by Design</a> philosophy ensures that all of our products are not just functional but also fundamentally secure.\n</p>\n<p>\nThis feature is also protected by a multi-layered security approach to ensure a safe sharing experience from end-to-end, regardless of what platform you’re on. \n</p>\n<ul>\n\n<li><strong>Secure Sharing Channel:</strong> The communication channel itself is hardened by our use of Rust to develop this feature. This memory-safe language is the industry benchmark for building secure systems and provides confidence that the connection is protected against buffer overflow attacks and other common vulnerabilities. </li>\n\n<li><strong>Built-in Platform Protections: </strong>This feature is strengthened by the robust built-in security of both Android and iOS. On Android, security is built in at every layer. Our deep investment in Rust at the OS level hardens the foundation, while proactive defenses like <a href=\"https://support.google.com/googleplay/answer/2812853?hl=en\">Google Play Protect</a> work to keep your device safe. This is complemented by the security architecture of iOS that provides its own strong safeguards that mitigate malicious files and exploitation. These overlapping protections on both platforms work in concert with the secure connection to provide comprehensive safety for your data when you share or receive.</li>\n\n<li><strong>You’re in Control: </strong>Sharing across platforms works just like you're used to: a file requires your approval before being received, so you're in control of what you accept.</li>\n</ul>\n<h3>The Power of Rust: A Foundation of Secure Communication</h3>\n\n\n<p>\nA key element of our security strategy for the interoperability layer between Quick Share and AirDrop is the use of the memory-safe Rust programming language. Recognized by security agencies around the world, including the <a href=\"https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/article/3608324/us-and-international-partners-issue-recommendations-to-secure-software-products/\">NSA</a> and <a href=\"https://media.defense.gov/2025/Jun/23/2003742198/-1/-1/0/CSI_MEMORY_SAFE_LANGUAGES_REDUCING_VULNERABILITIES_IN_MODERN_SOFTWARE_DEVELOPMENT.PDF\">CISA</a>, Rust is widely considered the industry benchmark for building secure systems because it eliminates entire classes of memory-safety vulnerabilities by design.\n</p>\n<p>\n<a href=\"https://security.googleblog.com/2024/09/eliminating-memory-safety-vulnerabilities-Android.html\">Rust is already a cornerstone</a> of our broader initiative to eliminate memory safety bugs across Android. Its selection for this feature was deliberate, driven by the unique security challenges of cross-platform communication that demanded the most robust protections for memory safety.\n</p>\n<p>\nThe core of this feature involves receiving and parsing data sent over a wireless protocol from another device. Historically, when using a memory-unsafe language, bugs in data parsing logic are one of the most common sources of high-severity security vulnerabilities. A malformed data packet sent to a parser written in a memory-unsafe language can lead to buffer overflows and other memory corruption bugs, creating an opportunity for code execution.\n</p>\n<p>\nThis is precisely where Rust provides a robust defense. Its compiler enforces strict ownership and borrowing rules at compile time, which guarantees memory safety. Rust removes entire classes of memory-related bugs. This means our implementation is inherently resilient against attackers attempting to use maliciously crafted data packets to exploit memory errors. \n</p>\n<h3>Secure Sharing Using AirDrop's \"Everyone\" Mode</h3>\n\n\n<p>\nTo ensure a seamless experience for both Android and iOS users, Quick Share currently works with AirDrop's \"Everyone for 10 minutes\" mode. This feature does not use a workaround; the connection is direct and peer-to-peer, meaning your data is never routed through a server, shared content is never logged, and no extra data is shared. As with \"Everyone for 10 minutes\" mode on any device when you’re sharing between non-contacts, you can ensure you're sharing with the right person by confirming their device name on your screen with them in person.</p>\n<p>This implementation using \"Everyone for 10 minutes” mode is just the first step in seamless cross-platform sharing, and we welcome the opportunity to work with Apple to enable “Contacts Only” mode in the future.\n</p>\n<h3>Tested by Independent Security Experts</h3>\n\n\n<p>\nAfter conducting our own secure product development, internal threat modeling, privacy reviews, and red team penetration tests, we engaged with <strong><a href=\"https://www.netspi.com/\">NetSPI</a></strong>, a leading third-party penetration testing firm, to further validate the security of this feature and conduct an <a href=\"https://www.netspi.com/wp-content/uploads/2025/11/google-feature-review-report.pdf\">independent security assessment</a>. The assessment found the interoperability between Quick Share and AirDrop is secure, is “notably stronger” than other industry implementations and does not leak any information. \n</p>\n<p>\nBased on these internal and external assessments, we believe our implementation provides a strong security foundation for cross-platform file sharing for both Android and iOS users. We will continue to evaluate and enhance the implementation’s security in collaboration with additional third-party partners.\n</p>\n<p>\nTo complement this deep technical audit, we also sought expert third-party perspective on our approach from <a href=\"https://crypto.stanford.edu/~dabo/\">Dan Boneh</a>, a renowned security expert and professor at Stanford University:\n</p>\n<p>\n“Google’s work on this feature, including the use of memory safe Rust for the core communications layer, is a strong example of how to build secure interoperability, ensuring that cross-platform information sharing remains safe. I applaud the effort to open more secure information sharing between platforms and encourage Google and Apple to work together more on this.\"\n</p>\n<h3>The Future of File-Sharing Should Be Interoperable</h3>\n\n\n<p>\nThis is just the first step as we work to improve the experience and expand it to more devices. We look forward to continuing to work with industry partners to make connecting and communicating across platforms a secure, seamless experience for all users.\n</p>",
     "link": "http://security.googleblog.com/2025/11/android-quick-share-support-for-airdrop-security.html",
@@ -77,6 +67,26 @@
     "source": "thehackernews.com",
     "category": "Vulnerability",
     "importance_score": 1758,
+    "also_covered_by": []
+  },
+  {
+    "title": "Kiteworks Warns Users to Take Systems Offline Amid Suspected Zero-Day Threat",
+    "summary": "<p>Kiteworks has urged customers worldwide to temporarily shut down their servers after receiving credible law-enforcement intelligence that a threat actor may target Kiteworks deployments over the weekend. The emergency advisory is preventive, but the company said the potential activity may involve an unknown zero-day vulnerability. The secure file-sharing and managed content communications provider asked organizations [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/kiteworks-systems-offline-amid-suspected-zero-day/\">Kiteworks Warns Users to Take Systems Offline Amid Suspected Zero-Day Threat</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/kiteworks-systems-offline-amid-suspected-zero-day/",
+    "published": "2026-09-26T07:45:21",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 1685,
+    "also_covered_by": []
+  },
+  {
+    "title": "Red Heron Exploits Critical Gitea Flaw to Steal Repositories and Deploy Linux Rootkit",
+    "summary": "<p>A threat actor tracked as Red Heron has exploited the critical Gitea remote code execution vulnerability CVE-2026-60004 to steal source-code repositories, establish persistent access, and deploy a covert Linux toolset consisting of the JITTERLY implant and SIXZUT LD_PRELOAD rootkit. Acronis reported that the actor rapidly weaponized the flaw against internet-exposed Gitea environments, turning initial access [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/red-heron-exploits-critical-gitea-flaw/\">Red Heron Exploits Critical Gitea Flaw to Steal Repositories and Deploy Linux Rootkit</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/red-heron-exploits-critical-gitea-flaw/",
+    "published": "2026-09-26T08:15:11",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 1682,
     "also_covered_by": []
   },
   {
@@ -250,6 +260,26 @@
     "also_covered_by": []
   },
   {
+    "title": "TWEAKOS Malware Turns Telegram Into a Stealer, C2 Platform and Stolen Account Marketplace",
+    "summary": "<p>TWEAKOS steals messaging accounts and turns them into items for sale. The operation pairs a Windows stealer with a Telegram bot for managing victims and selling stolen access. The threat surfaced after its source code appeared on Pastebin. Researchers recovered two related Python components, but do not know how the stealer reaches victims or how [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/tweakos-malware/\">TWEAKOS Malware Turns Telegram Into a Stealer, C2 Platform and Stolen Account Marketplace</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/tweakos-malware/",
+    "published": "2026-09-25T12:53:52",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 1303,
+    "also_covered_by": []
+  },
+  {
+    "title": "Storm-3168 Hackers Abuse Compromised Service Principals to Destroy Azure Cloud Resources",
+    "summary": "<p>Microsoft has uncovered a destructive Azure campaign linked to Storm-3168, also known as JADEPUFFER, in which attackers abused compromised service principals to map cloud environments, delete critical resources, target recovery safeguards, and obtain storage-account credentials. The activity shows how a single exposed workload identity can give attackers the automation and permissions needed to cause rapid [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/storm-3168-hackers-abuse-compromised-service-principals/\">Storm-3168 Hackers Abuse Compromised Service Principals to Destroy Azure Cloud Resources</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/storm-3168-hackers-abuse-compromised-service-principals/",
+    "published": "2026-09-26T07:09:54",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 1237,
+    "also_covered_by": []
+  },
+  {
     "title": "‘SalesBleed’ Flaws in Salesforce Agentforce Enabled Zero-Click Data Exfiltration",
     "summary": "<p>Three vulnerabilities in Salesforce Agentforce allowed hackers to hijack trusted agents, steal data, and launch phishing attacks.</p>\n<p>The post <a href=\"https://www.securityweek.com/salesbleed-flaws-in-salesforce-agentforce-enabled-zero-click-data-exfiltration/\">&#8216;SalesBleed&#8217; Flaws in Salesforce Agentforce Enabled Zero-Click Data Exfiltration</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
     "link": "https://www.securityweek.com/salesbleed-flaws-in-salesforce-agentforce-enabled-zero-click-data-exfiltration/",
@@ -320,16 +350,6 @@
     "also_covered_by": []
   },
   {
-    "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
-    "summary": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with individuals whose licenses are available for purchase on this service, it appears to be siphoning images collected by a widely-used identity verification company based in Louisiana. KrebsOnSecurity also has learned that the New Orleans field office of the Federal Bureau of Investigation (FBI) today launched an official inquiry into the source of the images.",
-    "link": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
-    "published": "2026-09-01T22:40:28",
-    "source": "krebsonsecurity.com",
-    "category": "Vulnerability",
-    "importance_score": 1068,
-    "also_covered_by": []
-  },
-  {
     "title": "Detect and disrupt AI-themed attacks with Microsoft Defender",
     "summary": "<p>See how Microsoft Defender detects and disrupts AI-themed phishing, malware, and multi-stage attacks across the attack chain.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/09/10/detect-and-disrupt-ai-themed-attacks-with-microsoft-defender/\">Detect and disrupt AI-themed attacks with Microsoft Defender</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/09/10/detect-and-disrupt-ai-themed-attacks-with-microsoft-defender/",
@@ -377,26 +397,6 @@
     "source": "helpnetsecurity.com",
     "category": "Other",
     "importance_score": 1000,
-    "also_covered_by": []
-  },
-  {
-    "title": "U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions",
-    "summary": "A U.S. Army soldier who pleaded guilty to hacking into multiple telecommunications companies and stealing mobile call and text metadata for more than 100 million AT&#038;T customers in 2024 was sentenced to 70 months in federal prison today and ordered to pay nearly $300,000 in restitution to victims.",
-    "link": "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/",
-    "published": "2026-09-25T21:44:40",
-    "source": "krebsonsecurity.com",
-    "category": "Other",
-    "importance_score": 990,
-    "also_covered_by": []
-  },
-  {
-    "title": "Microsoft Plugs Nearly 400 Security Holes",
-    "summary": "Microsoft today released updates to remedy at least 398 security vulnerabilities in its Windows operating systems and supported software, including one weakness that is already being actively exploited and two others that were publicly detailed prior to today.",
-    "link": "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
-    "published": "2026-08-11T21:28:35",
-    "source": "krebsonsecurity.com",
-    "category": "Other",
-    "importance_score": 978,
     "also_covered_by": []
   },
   {
@@ -460,16 +460,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Data Broker Radaris Loses Domains in Privacy Fight",
-    "summary": "The consumer data broker Radaris.com has long had a reputation for ignoring requests to remove personal information from its vast empire of people-search services online. That reputation caught up with the company recently in a lawsuit alleging Radaris violated a New Jersey privacy law that provides for hefty fines against data brokers that publish personal information on state law enforcement officials. In the face of repeated stonewalling and prevarication by attorneys for Radaris, the judge in the case ordered that radaris.com and more than a dozen other data broker domains be transferred to the plaintiffs.",
-    "link": "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/",
-    "published": "2026-09-16T18:14:22",
-    "source": "krebsonsecurity.com",
-    "category": "Vulnerability",
-    "importance_score": 904,
-    "also_covered_by": []
-  },
-  {
     "title": "“Sorry, I can’t help with that”: How your guardrails might become the attacker’s best friend",
     "summary": "In his first Threat Source newsletter, David Bianco explores the critical need for operational sovereignty in customizing AI guardrails to maintain the defender’s advantage.",
     "link": "https://blog.talosintelligence.com/sorry-i-cant-help-with-that-how-your-guardrails-might-become-the-attackers-best-friend/",
@@ -527,16 +517,6 @@
     "source": "cyberscoop.com",
     "category": "Vulnerability",
     "importance_score": 857,
-    "also_covered_by": []
-  },
-  {
-    "title": "LG to Ban Residential Proxies from Smart TV Apps",
-    "summary": "The home appliance giant LG Electronics USA said this week it plans to suspend any apps built for its smart TVs that turn one's television into an always-on residential proxy node. The move comes less than a month after researchers found that more than 42 percent of games and other apps available for download on LG's webOS store allow unknown third-parties to route their Internet traffic through a user's TV.",
-    "link": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
-    "published": "2026-07-22T01:10:38",
-    "source": "krebsonsecurity.com",
-    "category": "Vulnerability",
-    "importance_score": 842,
     "also_covered_by": []
   },
   {
@@ -650,13 +630,13 @@
     "also_covered_by": []
   },
   {
-    "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
-    "summary": "A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organizations that used the cloud data storage provider Snowflake. Connor Riley Moucka, of Kitchener, Ontario, also admitted to stealing call and text history records of more than 100 million AT&#038;T customers.",
-    "link": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
-    "published": "2026-08-06T17:00:56",
-    "source": "krebsonsecurity.com",
-    "category": "Phishing / Scams",
-    "importance_score": 661,
+    "title": "Sauron Loader Malware Uses DLL Side-Loading and In-Memory Decryption to Evade Detection",
+    "summary": "<p>Sauron Loader has surfaced in attacks on German organizations, giving intruders a way to deliver more malware. The new tool need not be the first thing a victim encounters. In the cases examined, it arrived at the end of attack chains built around deception rather than a newly disclosed software flaw. Some victims faced ClickFix [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/sauron-loader-malware/\">Sauron Loader Malware Uses DLL Side-Loading and In-Memory Decryption to Evade Detection</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/sauron-loader-malware/",
+    "published": "2026-09-25T13:47:28",
+    "source": "cybersecuritynews.com",
+    "category": "Policy / Law",
+    "importance_score": 700,
     "also_covered_by": []
   },
   {
@@ -697,6 +677,36 @@
     "source": "infosecurity-magazine.com",
     "category": "Ransomware",
     "importance_score": 636,
+    "also_covered_by": []
+  },
+  {
+    "title": "16-Year-Old Researcher Finds Microsoft Auth Vulnerability that Exposes 17.3 Trillion Stored Records",
+    "summary": "<p>A 16-year-old security researcher known as Faav uncovered an authentication flaw in Microsoft’s internal Titan analytics service that potentially exposed an estimated 17.3 trillion database rows. The vulnerability allowed forged administrator access and unauthorized SQL queries without Microsoft credentials. However, Faav emphasized that the potential impact was hypothetical. The researcher relied on metadata, table descriptions, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-auth-vulnerability-expose-records/\">16-Year-Old Researcher Finds Microsoft Auth Vulnerability that Exposes 17.3 Trillion Stored Records</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/microsoft-auth-vulnerability-expose-records/",
+    "published": "2026-09-26T03:55:43",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 634,
+    "also_covered_by": []
+  },
+  {
+    "title": "Windows 11 Update Causes Black Screen and Desktop Loading Issues After Sign-In",
+    "summary": "<p>Microsoft has confirmed a Windows 11 issue that can leave users with a black screen after sign-in or prevent the desktop from loading automatically. The problem affects devices that installed the August 2026 non-security preview updates and potentially later cumulative updates, with Azure Virtual Desktop environments using FSLogix profile containers most frequently affected. The issue [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/windows-11-update-causes-black-screen/\">Windows 11 Update Causes Black Screen and Desktop Loading Issues After Sign-In</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/windows-11-update-causes-black-screen/",
+    "published": "2026-09-26T08:02:06",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 624,
+    "also_covered_by": []
+  },
+  {
+    "title": "14-Year-Old Linux Kernel Flaw Lets Local Users Gain Root Access and Escape Containers",
+    "summary": "<p>A 14-year-old Linux kernel vulnerability can let a local attacker escalate to root privileges and, in a proof-of-concept environment, escape a Docker container to compromise the underlying host. The flaw in Linux’s AF_ALG userspace cryptographic interface stems from unsafe concurrent writes to the same socket used for operations like AES encryption and decryption. Because an [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/14-year-old-linux-kernel-flaw/\">14-Year-Old Linux Kernel Flaw Lets Local Users Gain Root Access and Escape Containers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/14-year-old-linux-kernel-flaw/",
+    "published": "2026-09-25T17:56:35",
+    "source": "cybersecuritynews.com",
+    "category": "Ransomware",
+    "importance_score": 613,
     "also_covered_by": []
   },
   {
@@ -820,6 +830,18 @@
     "also_covered_by": []
   },
   {
+    "title": "Salmon Introduces Execution Verification Infrastructure (EVI) for Securing AI Agents and Autonomous Systems",
+    "summary": "<p>San Francisco, USA, September 25th, 2026, CyberNewswire Archipelo today announced Salmon, Execution Verification Infrastructure (EVI) for AI agents and autonomous systems, powered by a cryptographic protocol designed to make execution history verifiable. Salmon establishes verifiable execution history and state lineage across humans, AI agents, and automation. The launch follows the OpenAI–Hugging Face incident, in which [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/salmon-introduces-execution-verification-infrastructure-evi-for-securing-ai-agents-and-autonomous-systems/\">Salmon Introduces Execution Verification Infrastructure (EVI) for Securing AI Agents and Autonomous Systems</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/salmon-introduces-execution-verification-infrastructure-evi-for-securing-ai-agents-and-autonomous-systems/",
+    "published": "2026-09-25T13:37:32",
+    "source": "gbhackers.com",
+    "category": "AI & Security",
+    "importance_score": 500,
+    "also_covered_by": [
+      "cybersecuritynews.com"
+    ]
+  },
+  {
     "title": "Sam Altman at UN Security Council: 6 AI Security Risks the World Cannot Ignore",
     "summary": "<p><img alt=\"AI security risks\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"618\" src=\"https://thecyberexpress.com/wp-content/uploads/AI-security-risks.webp\" title=\"Sam Altman at UN Security Council: 6 AI Security Risks the World Cannot Ignore 3\" width=\"1247\" /></p>Artificial intelligence systems are becoming more capable and autonomous, raising new questions about how they can be monitored, controlled and secured. Speaking before the United Nations Security Council, <a href=\"https://thecyberexpress.com/openai-models-access-internet/\" rel=\"noopener\" target=\"_blank\">OpenAI</a> CEO <a href=\"https://thecyberexpress.com/sam-altman-on-ai/\" rel=\"noopener\" target=\"_blank\">Sam Altman</a> warned that the rapid pace of AI development could create significant AI security risks, particularly if systems advance faster than institutions can respond.\n\nAltman highlighted concerns ranging from human control and <a href=\"https://thecyberexpress.com/lessons-from-autonomous-ai-cyberattack/\" rel=\"noopener\" target=\"_blank\">autonomous AI</a> to emerging vulnerabilities, concentrated technological power and the need for international incident reporting. He also called for stronger cooperation between governments, critical infrastructure operators and technical experts to address emerging AI threats.\n<h2><strong>Here are six key AI security risks highlighted in his remarks.</strong></h2>\n<h3><strong>1. Losing Human Control Over Advanced AI</strong></h3>\nOne of Altman’s central <a href=\"https://openai.com/index/sam-altman-un-security-council-remarks/\" rel=\"nofollow noopener\" target=\"_blank\">concerns</a> was the possibility that humans could lose control over increasingly capable AI systems.\n\nHe warned that AI could move so quickly that people may no longer be able to understand what systems are doing or intervene when necessary. He argued that developers should not train systems unless they can make a strong case that those systems can remain under human control.\n\nThe concern becomes more significant as AI systems become capable of handling increasingly complex tasks and making decisions with less direct human involvement.\n<h3><strong>2. AI Systems Becoming More Autonomous</strong></h3>\nThe growing autonomy of AI systems presents another challenge for AI <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-cybersecurity/\" title=\"cybersecurity\">cybersecurity</a>.\n\nAltman pointed to the possibility of AI systems improving themselves and future versions of themselves, describing this as recursive self-improvement. As the process of developing AI becomes more automated, the pace of progress could accelerate.\n\nFor <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/\" title=\"security\">security</a> teams and policymakers, increasingly autonomous systems could make monitoring, testing and intervention more difficult.\n<h3><strong>3. Emerging Vulnerabilities and New Threats</strong></h3>\nMore capable AI systems could also introduce <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-are-vulnerabilities/\" title=\"vulnerabilities\">vulnerabilities</a> and threats that organizations and governments may not yet fully understand.\n\nAltman called for secure channels between governments, critical infrastructure operators and technical experts to share information about emerging vulnerabilities and threats.\n\nThe remarks place information sharing at the center of preparing for AI vulnerabilities, particularly as AI becomes increasingly integrated into important systems and infrastructure.\n<h3><strong>4. AI Power Concentrating in Too Few Hands</strong></h3>\nAltman also warned about the concentration of advanced AI capabilities among a small number of companies, individuals or countries.\n\nHe argued that no single company or country should be able to use the most powerful AI systems to impose its worldview on others.\n\nFrom a security perspective, concentrated control over highly capable AI could create systemic risks if a limited number of actors have disproportionate access to powerful technology.\n<h3><strong>5. The Need for Global AI Incident Reporting and Threat Sharing</strong></h3>\nAltman called for accurate and speedy AI incident reporting, including classification and reporting protocols that would allow countries to learn from failures before they become larger problems.\n\nHe also called for common standards covering AI capabilities, <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-are-risks-in-cybersecurity/\" title=\"risk\">risk</a> assessments, safeguards and human oversight.\n\nSuch standards, he said, could help countries compare evidence and establish a shared understanding of what effective safeguards and oversight should look like.\n<h3><strong>6. AI Development Could Outpace Existing Safety Measures</strong></h3>\nThe speed of AI development itself could become a security challenge.\n\nAltman warned that rapid progress could move faster than institutions are prepared to handle. He argued that competition between companies should not become a reason to accept excessive technological risk.\n\nHe also stressed the importance of alignment, monitoring and safety guarantees as AI systems become more capable.\n\nFor AI safety, this means ensuring that security measures and oversight develop alongside increasingly powerful systems rather than being added only after problems emerge.\n<h2><strong>AI Security Moves Into a Global Conversation</strong></h2>\nAltman’s remarks put AI security risks alongside broader questions about international cooperation, human oversight and technological governance.\n\nHis proposed approach includes global standards for measuring AI capabilities and risks, incident reporting mechanisms, and secure communication between governments, critical infrastructure operators and technical experts.\n\nAs AI systems become more autonomous and capable, the challenge will not only be what these systems can do, but whether organizations and governments can monitor, understand and respond to the risks they create.",
     "link": "https://thecyberexpress.com/sam-altman-warns-of-6-ai-security-risks-at-un/",
@@ -857,6 +879,26 @@
     "source": "unit42.paloaltonetworks.com",
     "category": "Other",
     "importance_score": 494,
+    "also_covered_by": []
+  },
+  {
+    "title": "Critical ServiceNow Vulnerabilities Let Attackers Bypass Authorization – Update Now!",
+    "summary": "<p>ServiceNow released security updates for five AI Platform flaws, including two critical vulnerabilities that could let unauthenticated attackers access, modify, or extract sensitive instance data, urging self-hosted users to verify versions and patch promptly. ServiceNow advisory covers CVE-2026-86857, CVE-2026-86858, CVE-2026-13016, CVE-2026-86859, and CVE-2026-86860, identified through internal testing, customer assessments, responsible disclosures, and its bug bounty [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/critical-servicenow-vulnerabilities/\">Critical ServiceNow Vulnerabilities Let Attackers Bypass Authorization &#8211; Update Now!</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/critical-servicenow-vulnerabilities/",
+    "published": "2026-09-25T12:18:09",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 490,
+    "also_covered_by": []
+  },
+  {
+    "title": "ServiceNow Security Flaws Allow Attackers to Execute SQL and Modify Instance Data",
+    "summary": "<p>ServiceNow has disclosed five vulnerabilities affecting its AI Platform, including two critical flaws that could allow unauthenticated attackers to execute arbitrary SQL commands, extract sensitive instance data, modify records, and escalate privileges. The security advisory, published in September 2026 and tracked as KB3159623 on September 24, details the following vulnerabilities: CVE-2026-86857, CVE-2026-86858, CVE-2026-13016, CVE-2026-86859, and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/servicenow-security-flaws/\">ServiceNow Security Flaws Allow Attackers to Execute SQL and Modify Instance Data</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/servicenow-security-flaws/",
+    "published": "2026-09-25T10:58:04",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 489,
     "also_covered_by": []
   },
   {
@@ -930,6 +972,16 @@
     "also_covered_by": []
   },
   {
+    "title": "OpenAI Says Misaligned AI Agents Hacked Hugging Face and Bypassed Security Controls",
+    "summary": "<p>OpenAI has disclosed that autonomous AI agents compromised portions of Hugging Face’s infrastructure during internal cybersecurity evaluations after pursuing misaligned strategies to complete difficult tasks. The company said the event was not simply a platform-security failure, but its most severe identified example of model-driven cyber activity and a warning that advanced agents can pursue objectives [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/openai-says-misaligned-ai-agents-hacked-hugging-face/\">OpenAI Says Misaligned AI Agents Hacked Hugging Face and Bypassed Security Controls</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/openai-says-misaligned-ai-agents-hacked-hugging-face/",
+    "published": "2026-09-26T06:54:16",
+    "source": "gbhackers.com",
+    "category": "AI & Security",
+    "importance_score": 484,
+    "also_covered_by": []
+  },
+  {
     "title": "Identity Abuse Through Trusted Communication Channels",
     "summary": "<p>Unit 42 details how attackers exploit enterprise collaboration tools for identity phishing and credential theft. Discover key defense strategies.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/communication-channel-identity-risks/\">Identity Abuse Through Trusted Communication Channels</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
     "link": "https://unit42.paloaltonetworks.com/communication-channel-identity-risks/",
@@ -960,12 +1012,32 @@
     "also_covered_by": []
   },
   {
+    "title": "OpenAI’s AI Agents Tried Hacking 4 Websites Without Being Prompted",
+    "summary": "<p>OpenAI’s autonomous AI agents attempted to hack four government, university, and public-data systems while carrying out routine information-gathering tasks, according to researchers and government officials. The agents were not instructed to conduct cyberattacks; when normal retrieval methods failed, they allegedly escalated to vulnerability probing, access-control bypasses, and other intrusive techniques, exposing a critical safety problem [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openais-ai-agents-tried-hacking-4-websites/\">OpenAI’s AI Agents Tried Hacking 4 Websites Without Being Prompted</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/openais-ai-agents-tried-hacking-4-websites/",
+    "published": "2026-09-26T04:36:57",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 478,
+    "also_covered_by": []
+  },
+  {
     "title": "MacSync malware uses public iCloud calendars to deliver new payloads",
     "summary": "A new variant of the MacSync malware targeting macOS systems now uses public iCloud calendar events to deliver new native payloads. [...]",
     "link": "https://www.bleepingcomputer.com/news/security/macsync-malware-uses-public-icloud-calendars-to-deliver-new-payloads/",
     "published": "2026-09-24T20:53:35",
     "source": "bleepingcomputer.com",
     "category": "Other",
+    "importance_score": 477,
+    "also_covered_by": []
+  },
+  {
+    "title": "Rogue AI Agents Tried to Hack Public Websites After Data Retrieval Failed",
+    "summary": "<p>Research from Transluce shows that autonomous AI agents shifted from standard web data collection to probing for vulnerabilities in three public-facing services after traditional data retrieval methods failed. This activity targeted an Australian government health data platform, Data USA, and the University of New Mexico&#8217;s digital library. Rogue AI Tried to Hack Public Websites Transluce [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/rogue-ai-agents-tried-to-hack-public-websites/\">Rogue AI Agents Tried to Hack Public Websites After Data Retrieval Failed</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/rogue-ai-agents-tried-to-hack-public-websites/",
+    "published": "2026-09-25T10:41:35",
+    "source": "gbhackers.com",
+    "category": "AI & Security",
     "importance_score": 477,
     "also_covered_by": []
   },
@@ -990,6 +1062,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Uncensored Local AI Model Bypasses EDR to Dump Windows LSASS Credentials",
+    "summary": "<p>A new demonstration shows how a locally hosted, uncensored AI model can help generate a Windows LSASS credential-dumping utility that reportedly evaded endpoint detection and response products during laboratory testing. The finding highlights how accessible local models can reduce the time and expertise needed to adapt offensive tooling after an attacker gains administrative access. Eddie [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/uncensored-local-ai-model-bypasses-edr/\">Uncensored Local AI Model Bypasses EDR to Dump Windows LSASS Credentials</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/uncensored-local-ai-model-bypasses-edr/",
+    "published": "2026-09-26T07:28:09",
+    "source": "gbhackers.com",
+    "category": "AI & Security",
+    "importance_score": 474,
+    "also_covered_by": []
+  },
+  {
     "title": "This one WatchOS 27 feature just solved my biggest issue with Apple Watch",
     "summary": "Sometimes less is more, and the most helpful software update is the simplest.",
     "link": "https://www.zdnet.com/uncategorized/watchos-27-update-fix-apple-watch/",
@@ -1007,6 +1089,46 @@
     "source": "securityweek.com",
     "category": "Data Breach",
     "importance_score": 468,
+    "also_covered_by": []
+  },
+  {
+    "title": "14-Year-Old Linux Kernel Vulnerability Enables Root Access and Docker Escape",
+    "summary": "<p>A vulnerability in the Linux kernel’s AF_ALG cryptographic interface, which has existed for 14 years, can let an unprivileged local attacker gain root access and escape a Docker container by exploiting a race condition in concurrent socket writes. This flaw, tracked as CVE-2025-39964, was discovered in 2025 by STAR Labs researcher Muhammad Alifa Ramdhan, with [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/14-year-old-linux-kernel-vulnerability/\">14-Year-Old Linux Kernel Vulnerability Enables Root Access and Docker Escape</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/14-year-old-linux-kernel-vulnerability/",
+    "published": "2026-09-25T12:48:13",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 468,
+    "also_covered_by": []
+  },
+  {
+    "title": "OnePlus 15 Flaws Let Zero-Permission Apps Gain Root Access Through OxygenOS Services",
+    "summary": "<p>Two flaws in the latest OxygenOS build could let malicious Android apps run code with root privileges on OnePlus devices, including the OnePlus 15, by exploiting accessible privileged services. The vulnerabilities are significant because Android permission prompts normally act as a barrier between untrusted apps and sensitive device functions. A user may reasonably assume that [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/oneplus-15-flaws-zero-permission-apps/\">OnePlus 15 Flaws Let Zero-Permission Apps Gain Root Access Through OxygenOS Services</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/oneplus-15-flaws-zero-permission-apps/",
+    "published": "2026-09-25T18:02:16",
+    "source": "cybersecuritynews.com",
+    "category": "Policy / Law",
+    "importance_score": 465,
+    "also_covered_by": []
+  },
+  {
+    "title": "Researchers Found a Botnet That Uses an AI Agent to Operate Inside Compromised Servers",
+    "summary": "<p>CARBONATO is a botnet that turns Docker servers into footholds for attackers. It places an AI agent inside compromised systems, letting operators send tasks through Telegram and receive results. The campaign begins with Docker services carelessly exposed to the internet without authentication. Once inside, CARBONATO launches a privileged container, gains access to the host, establishes [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/botnet-uses-ai-agent/\">Researchers Found a Botnet That Uses an AI Agent to Operate Inside Compromised Servers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/botnet-uses-ai-agent/",
+    "published": "2026-09-25T14:17:54",
+    "source": "cybersecuritynews.com",
+    "category": "AI & Security",
+    "importance_score": 464,
+    "also_covered_by": []
+  },
+  {
+    "title": "Hackers Used a Samsung Flaw to Build a Cryptominer Inside Victim Systems",
+    "summary": "<p>Attackers broke into a Windows system through a known flaw in Samsung&#8217;s MagicINFO software, then built a cryptocurrency miner on the compromised machine. Rather than arriving as a finished program, the miner was assembled there, leaving an unusual activity trail. The case began in early September 2026 with an alert tied to MagicINFO Premium, software [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/samsung-flaw/\">Hackers Used a Samsung Flaw to Build a Cryptominer Inside Victim Systems</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/samsung-flaw/",
+    "published": "2026-09-25T14:34:58",
+    "source": "cybersecuritynews.com",
+    "category": "Policy / Law",
+    "importance_score": 451,
     "also_covered_by": []
   },
   {
@@ -1550,16 +1672,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Microsoft Plugs Nearly 1,000 Security Holes",
-    "summary": "Microsoft Corp. today issued updates to plug at least 974 security holes in its Windows operating systems and other software, by far its biggest single patch batch ever. Microsoft says artificial intelligence is helping to speed the discovery of vulnerabilities, but security experts warn that many organizations already are struggling to prioritize the more human-intensive endeavor of testing and deploying so many fixes each month.",
-    "link": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
-    "published": "2026-09-08T21:44:22",
-    "source": "krebsonsecurity.com",
-    "category": "Other",
-    "importance_score": 309,
-    "also_covered_by": []
-  },
-  {
     "title": "New bill would create federal investigative body for AI-driven hacks",
     "summary": "<p>A new Democratic bill in Congress would establish a federal Cybersecurity and AI Board of Investigations to provide independent government oversight of cyberattacks carried out by AI agents, following recent hacks by models run at companies like Anthropic, OpenAI, Meta and others. The bill, introduced by Sen. Ed Markey, D-Mass., would attempt to establish a [&#8230;]</p>\n<p>The post <a href=\"https://cyberscoop.com/new-bill-would-create-federal-investigative-body-for-ai-driven-hacks/\">New bill would create federal investigative body for AI-driven hacks </a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
     "link": "https://cyberscoop.com/new-bill-would-create-federal-investigative-body-for-ai-driven-hacks/",
@@ -2010,16 +2122,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Who’s Tracking You? Use This New Service to Find Out",
-    "summary": "It can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we use every day. That information is already semi-public, but it is not easily parsed and traditionally much of it has remained walled away in the hands of large advertising platforms. Not anymore: A powerful and free new service called DecryptAds scrapes and correlates this adtech data and makes it simple to quickly learn a great deal about the entities that are tracking you.",
-    "link": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
-    "published": "2026-08-14T11:24:35",
-    "source": "krebsonsecurity.com",
-    "category": "Other",
-    "importance_score": 154,
-    "also_covered_by": []
-  },
-  {
     "title": "Behind the Scenes: Fixing an In-the-Wild Firefox Exploit",
     "summary": "<p>At Mozilla, browser security is a critical mission, and part of that mission involves responding swiftly to new threats. Tuesday, around 8 AM Eastern time, we received a heads-up from &#8230; <a class=\"go\" href=\"https://blog.mozilla.org/security/2024/10/11/behind-the-scenes-fixing-an-in-the-wild-firefox-exploit/\">Read more</a></p>\n<p>The post <a href=\"https://blog.mozilla.org/security/2024/10/11/behind-the-scenes-fixing-an-in-the-wild-firefox-exploit/\">Behind the Scenes: Fixing an In-the-Wild Firefox Exploit</a> appeared first on <a href=\"https://blog.mozilla.org/security\">Mozilla Security Blog</a>.</p>",
     "link": "https://blog.mozilla.org/security/2024/10/11/behind-the-scenes-fixing-an-in-the-wild-firefox-exploit/",
@@ -2117,16 +2219,6 @@
     "source": "blog.mozilla.org",
     "category": "Other",
     "importance_score": 144,
-    "also_covered_by": []
-  },
-  {
-    "title": "Read This Before You Buy That TV Streaming Stick",
-    "summary": "Security experts have been sounding the alarm for years about the risks of using generic TV boxes that promise unlimited content streaming for a one-time fee, warning that they secretly rent the user's Internet connection out to strangers. But a groundbreaking new analysis finds these devices also routinely spoof themselves as mobile phones clicking ads on AI-generated websites as part of sprawling operation that seeks to defraud online merchants and advertising networks.",
-    "link": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
-    "published": "2026-07-30T16:49:00",
-    "source": "krebsonsecurity.com",
-    "category": "Phishing / Scams",
-    "importance_score": 142,
     "also_covered_by": []
   },
   {
