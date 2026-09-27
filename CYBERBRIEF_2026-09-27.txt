@@ -1,0 +1,60 @@
+CYBERBRIEF • DAILY THREAT INTELLIGENCE
+Generated: Sunday, September 27, 2026 - 10:18 UTC
+================================================================================
+
+Total topics: 284    •    Scanned raw articles: 284
+Severity breakdown:
+  CRITICAL: 5  |  HIGH: 9  |  MEDIUM: 34  |  LOW: 236
+
+Top 7 active threats:
+
+1. Alert Triangle  thehackernews.com  [Newspaper]
+   Title    : Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation
+   Category : Vulnerability    •    Severity: CRITICAL (score: 3243)
+   Published: 2026-09-27T07:47:57
+   Link     : https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html
+
+2. Alert Triangle  security.googleblog.com  [News Site]
+   Title    : HTTPS by default
+   Category : Vulnerability    •    Severity: CRITICAL (score: 2520)
+   Published: 2025-10-28T17:01:00
+   Link     : http://security.googleblog.com/2025/10/https-by-default.html
+
+3. Alert Triangle  security.googleblog.com  [News Site]
+   Title    : Bringing Rust to the Pixel Baseband
+   Category : Ransomware    •    Severity: CRITICAL (score: 2380)
+   Published: 2026-04-10T15:12:00
+   Link     : http://security.googleblog.com/2026/04/bringing-rust-to-pixel-baseband.html
+
+4. Alert Triangle  security.googleblog.com  [News Site]
+   Title    : Rust in Android: move fast and fix things
+   Category : Ransomware    •    Severity: CRITICAL (score: 2380)
+   Published: 2025-11-13T16:59:00
+   Link     : http://security.googleblog.com/2025/11/rust-in-android-move-fast-fix-things.html
+
+5. Alert Triangle  microsoft.com  [News Site]
+   Title    : Beyond the ransomware: Tracking Storm-2570’s consistent tradecraft across deployments
+   Category : Ransomware    •    Severity: CRITICAL (score: 2112)
+   Published: 2026-09-24T16:00:00
+   Link     : https://www.microsoft.com/en-us/security/blog/2026/09/24/beyond-ransomware-tracking-storm-2570-consistent-tradecraft-across-deployments/
+
+6. Shield Check  security.googleblog.com  [News Site]
+   Title    : Android Quick Share Support for AirDrop: A Secure Approach to Cross-Platform File Sharing
+   Category : Data Breach    •    Severity: HIGH (score: 1959)
+   Published: 2025-11-20T17:00:00
+   Link     : http://security.googleblog.com/2025/11/android-quick-share-support-for-airdrop-security.html
+
+7. Shield Check  thehackernews.com  [Newspaper]
+   Title    : Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells
+   Category : Vulnerability    •    Severity: HIGH (score: 1923)
+   Published: 2026-09-26T11:46:40
+   Link     : https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html
+
+Security Tips:
+• Never trust unsolicited links or attachments in email or messaging apps.
+• Enable multi-factor authentication (MFA) on email, banking, and admin accounts.
+• Keep browsers, VPNs, and endpoint security fully patched.
+
+Scanned 284 articles • Top 7 topics selected
+Next planned auto-update: 08:00 AM UTC
+Stay safe, stay sharp!
