@@ -1,5 +1,15 @@
 [
   {
+    "title": "CISA Warns of Citrix NetScaler 0-Day RCE Vulnerabilities Exploited in Attacks",
+    "summary": "<p>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added two critical Citrix NetScaler vulnerabilities to its Known Exploited Vulnerabilities catalog after evidence showed they were being actively exploited in attacks. The flaws affect Citrix NetScaler ADC and NetScaler Gateway appliances. They could allow unauthenticated attackers to take control of vulnerable systems remotely. Tracked as [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/citrix-netscaler-0-day-rce-vulnerabilities-exploited/\">CISA Warns of Citrix NetScaler 0-Day RCE Vulnerabilities Exploited in Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/citrix-netscaler-0-day-rce-vulnerabilities-exploited/",
+    "published": "2026-09-28T09:28:38",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 2575,
+    "also_covered_by": []
+  },
+  {
     "title": "Citrix confirms two NetScaler RCE zero-days exploited in attacks",
     "summary": "Citrix has confirmed that two critical NetScaler remote code execution vulnerabilities, tracked as CVE-2026-88771 and CVE-2026-88772, are being exploited in attacks and that it has released security updates to fix the flaws. [...]",
     "link": "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/",
@@ -147,6 +157,16 @@
     "source": "security.googleblog.com",
     "category": "Data Breach",
     "importance_score": 1540,
+    "also_covered_by": []
+  },
+  {
+    "title": "12 Best Cloud Compliance Tools Compared (2026): Features & Pricing",
+    "summary": "<p>For most teams facing an audit, Vanta is the best overall compliance automation platform, with Drata the closest rival choose between them on integrations and framework-crosswalk economics. For technical posture evidence, free open-source Prowler plus a CNAPP compliance view (Wiz, Prisma, Orca) covers the engineering side to prevent cloud misconfigurations that lead to data breaches. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-cloud-compliance-compared/\">12 Best Cloud Compliance Tools Compared (2026): Features &#038; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/best-cloud-compliance-compared/",
+    "published": "2026-09-28T07:04:16",
+    "source": "gbhackers.com",
+    "category": "Data Breach",
+    "importance_score": 1521,
     "also_covered_by": []
   },
   {
@@ -320,6 +340,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Top 10 Best Adaptive / Risk-Based Authentication Tools in 2026 [Ranked & Scored]",
+    "summary": "<p>Prompting every user for MFA on every login trains people to approve anything, leaving enterprises open to push-bombing and MFA fatigue attacks; challenging nobody invites automated account takeover (ATO) attacks and credential stuffing. Adaptive authentication resolves the tension score the context, challenge the risky and 2026’s leaders now pair those risk engines with passkeys and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-adaptive-authentication/\">Top 10 Best Adaptive / Risk-Based Authentication Tools in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/best-adaptive-authentication/",
+    "published": "2026-09-28T07:02:08",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 1165,
+    "also_covered_by": []
+  },
+  {
     "title": "Unmasking EvilTokens: Getting to the root of device code phishing",
     "summary": "<p>EvilTokens has quickly become one of the top PhaaS platforms, enabling device code phishing attacks through AI-assisted lures, automated infrastructure, and token theft. In collaboration with partners, Microsoft Digital Crimes Unit (DCU) facilitated a disruption of EvilTokens infrastructure and operations.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/09/22/unmasking-eviltokens-getting-to-the-root-of-device-code-phishing/\">Unmasking EvilTokens: Getting to the root of device code phishing</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/09/22/unmasking-eviltokens-getting-to-the-root-of-device-code-phishing/",
@@ -390,6 +420,26 @@
     "also_covered_by": []
   },
   {
+    "title": "Hackers Turn an Open-Source AI Agent Into a Tool for Controlling Compromised Docker Servers",
+    "summary": "<p>A Docker-focused botnet that repurposes the legitimate, open-source Hermes Agent framework as an interactive post-compromise control layer. The campaign, tracked as CARBONATO, targets Docker daemons exposed without authentication on TCP port 2375, then combines worm-like propagation, stealthy persistence, reverse SSH access and Telegram-driven AI-agent operations. The investigation began in August 2026 after researchers identified a [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/docker-servers-hijacking/\">Hackers Turn an Open-Source AI Agent Into a Tool for Controlling Compromised Docker Servers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/docker-servers-hijacking/",
+    "published": "2026-09-28T06:57:50",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 1087,
+    "also_covered_by": []
+  },
+  {
+    "title": "Kiteworks Urges Customers to Shut Down Servers Over Potential Zero-Day Threat",
+    "summary": "<p>Kiteworks has lifted its emergency shutdown recommendation after advising customers to temporarily take their systems offline in response to credible intelligence indicating that a threat actor may target its platforms. The company clarified that this action was preventive and did not indicate a confirmed compromise. It also urged customers to remain on the latest version [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/kiteworks-urges-customers-to-shut-down-servers/\">Kiteworks Urges Customers to Shut Down Servers Over Potential Zero-Day Threat</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/kiteworks-urges-customers-to-shut-down-servers/",
+    "published": "2026-09-28T07:04:41",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 1073,
+    "also_covered_by": []
+  },
+  {
     "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
     "summary": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with individuals whose licenses are available for purchase on this service, it appears to be siphoning images collected by a widely-used identity verification company based in Louisiana. KrebsOnSecurity also has learned that the New Orleans field office of the Federal Bureau of Investigation (FBI) today launched an official inquiry into the source of the images.",
     "link": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
@@ -397,6 +447,16 @@
     "source": "krebsonsecurity.com",
     "category": "Vulnerability",
     "importance_score": 1068,
+    "also_covered_by": []
+  },
+  {
+    "title": "Kiteworks Warned Customers to Shut Down Servers Over Potential Zero-Day Attack",
+    "summary": "<p>Kiteworks warned customers to temporarily shut down their servers after receiving credible threat intelligence that a threat actor could target some Kiteworks systems. The company said the measure was preventative, stressed that it had no evidence of a compromise, and later lifted the shutdown recommendation for all customers. The San Mateo, California-based secure data exchange [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/kiteworks-warned-customers-over-zero-day-attack/\">Kiteworks Warned Customers to Shut Down Servers Over Potential Zero-Day Attack</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/kiteworks-warned-customers-over-zero-day-attack/",
+    "published": "2026-09-28T09:28:02",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 1067,
     "also_covered_by": []
   },
   {
@@ -450,6 +510,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Hackers Don’t Need to Break Into the Cloud When They Can Steal the Keys",
+    "summary": "<p>Infostealer malware is giving criminals a quieter route into corporate cloud environments. Instead of forcing their way through a hardened cloud perimeter, they infect a developer or employee device and take the credentials, API keys, and active sessions already trusted by the organization. The initial infection can arrive through phishing, deceptive downloads, or a poisoned [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/break-into-the-cloud/\">Hackers Don’t Need to Break Into the Cloud When They Can Steal the Keys</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/break-into-the-cloud/",
+    "published": "2026-09-28T09:21:40",
+    "source": "cybersecuritynews.com",
+    "category": "Phishing / Scams",
+    "importance_score": 957,
+    "also_covered_by": []
+  },
+  {
     "title": "Ex-US soldier gets 70 months for role in AT&T, Snowflake data thefts",
     "summary": "<p>A former U.S. Army soldier who was part of a group that stole data from telecom companies, including AT&#038;T, has been sentenced to 70 months in prison. Cameron John Wagenius, 22, was part of the group that hacked Snowflake customer accounts in 2024. They took data from more than 165 organizations that used the US cloud storage company, then threatened to leak it unless the victims paid. Snowflake is a US-based cloud data storage and &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/28/us-army-soldier-snowflake-breaches-extortion/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/28/us-army-soldier-snowflake-breaches-extortion/\">Ex-US soldier gets 70 months for role in AT&#038;T, Snowflake data thefts</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
     "link": "https://www.helpnetsecurity.com/2026/09/28/us-army-soldier-snowflake-breaches-extortion/",
@@ -457,6 +527,16 @@
     "source": "helpnetsecurity.com",
     "category": "Data Breach",
     "importance_score": 950,
+    "also_covered_by": []
+  },
+  {
+    "title": "Operation Master Exploits GlobalProtect CVE-2026-0257 and Deploys AdaptixC2 Across Enterprise Networks",
+    "summary": "<p>“Operation Master,” an end-to-end cybercrime operation that combined GlobalProtect VPN exploitation, web-application attacks, credential theft, data monetization, and an industrial-scale invoice-fraud platform. The campaign illustrates how enterprise intrusions can be converted into persistent, localized financial fraud operations rather than ending with data theft or ransomware. The operation exploited CVE-2026-0257, an authentication-bypass vulnerability affecting Palo Alto [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/adaptixc2-deployment/\">Operation Master Exploits GlobalProtect CVE-2026-0257 and Deploys AdaptixC2 Across Enterprise Networks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/adaptixc2-deployment/",
+    "published": "2026-09-28T08:33:08",
+    "source": "gbhackers.com",
+    "category": "Ransomware",
+    "importance_score": 949,
     "also_covered_by": []
   },
   {
@@ -537,6 +617,16 @@
     "source": "malwarebytes.com",
     "category": "Vulnerability",
     "importance_score": 883,
+    "also_covered_by": []
+  },
+  {
+    "title": "Microsoft Entra TrustSink Attack Uses Rogue MFA Provider to Steal Passwords",
+    "summary": "<p>TrustSink, a post-compromise credential-phishing technique that abuses Microsoft Entra External Authentication Methods (EAMs) to place a rogue password prompt inside an otherwise legitimate Microsoft sign-in flow. The attack enables an adversary with elevated tenant privileges to capture plaintext passwords while returning a valid signed token to Entra, allowing the victim’s login to complete without an [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/microsoft-entra-trustsink/\">Microsoft Entra TrustSink Attack Uses Rogue MFA Provider to Steal Passwords</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/microsoft-entra-trustsink/",
+    "published": "2026-09-28T09:33:31",
+    "source": "gbhackers.com",
+    "category": "Phishing / Scams",
+    "importance_score": 875,
     "also_covered_by": []
   },
   {
@@ -630,6 +720,16 @@
     "also_covered_by": []
   },
   {
+    "title": "New Python Infostealer Targets 17 Browsers to Steal Passwords, Cards and Session Cookies",
+    "summary": "<p>A Python-based information stealer that targets data from 17 Chromium-based browsers, alongside Firefox, to harvest saved credentials, payment-card details, browsing history and active session cookies. The malware is delivered through a builder framework that enables operators to generate customized Windows payloads and configure their own data-exfiltration webhook. The archive included a “TokenGrabber Builder” folder containing [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/python-infostealer-campaign/\">New Python Infostealer Targets 17 Browsers to Steal Passwords, Cards and Session Cookies</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/python-infostealer-campaign/",
+    "published": "2026-09-28T07:26:13",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 736,
+    "also_covered_by": []
+  },
+  {
     "title": "ShinyHunters hacked Clop leak site using Grav CMS path traversal flaw",
     "summary": "The Clop ransomware gang has moved its data leak site to a new Tor address after confirming its previous server was compromised and defaced through an unpatched Grav CMS flaw that BleepingComputer has learned is an unauthenticated path traversal vulnerability. [...]",
     "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/",
@@ -660,6 +760,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Lumma, RedLine and Vidar Infostealers Fuel Cloud Credential Theft Campaigns",
+    "summary": "<p>Infostealer malware is increasingly becoming the bridge between a compromised developer workstation and an enterprise cloud environment, with Lumma, RedLine, and Vidar emerging as major threats to credentials, API keys, and active browser sessions. Identity, rather than exposed infrastructure, remains the most valuable cloud attack surface. Attackers no longer need to exploit a public-facing server [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/infostealer-malware-3/\">Lumma, RedLine and Vidar Infostealers Fuel Cloud Credential Theft Campaigns</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/infostealer-malware-3/",
+    "published": "2026-09-28T09:12:23",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 723,
+    "also_covered_by": []
+  },
+  {
     "title": "Bipartisan Senate leaders introduce bill to bolster telecom cybersecurity in response to Salt Typhoon hacks",
     "summary": "<p>The legislation from Senate Intelligence Vice-Chairman. Mark Warner, D-Va., and Senate Commerce Chairman Ted Cruz, R-Tex., would create a government-industry group to write voluntary best practices.</p>\n<p>The post <a href=\"https://cyberscoop.com/senate-telecom-cybersecurity-resilience-act-salt-typhoon/\">Bipartisan Senate leaders introduce bill to bolster telecom cybersecurity in response to Salt Typhoon hacks</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
     "link": "https://cyberscoop.com/senate-telecom-cybersecurity-resilience-act-salt-typhoon/",
@@ -677,6 +787,16 @@
     "source": "bleepingcomputer.com",
     "category": "Policy / Law",
     "importance_score": 719,
+    "also_covered_by": []
+  },
+  {
+    "title": "Python MaaS Infostealer Builder Steals Passwords, Credit Cards and Cookies From 17 Browsers",
+    "summary": "<p>A Python-based malware builder can turn a single stealer into Windows programs for different operators. The tool packages a payload designed to take saved passwords, payment card details and browser cookies, then send them to an attacker-controlled webhook set by its operator. Its reach extends beyond browsers to messaging accounts, wireless passwords and details about [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/python-maas-infostealer/\">Python MaaS Infostealer Builder Steals Passwords, Credit Cards and Cookies From 17 Browsers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/python-maas-infostealer/",
+    "published": "2026-09-28T08:41:03",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 712,
     "also_covered_by": []
   },
   {
@@ -727,6 +847,26 @@
     "source": "malwarebytes.com",
     "category": "Other",
     "importance_score": 635,
+    "also_covered_by": []
+  },
+  {
+    "title": "12 Best Cloud Encryption Solutions Compared (2026): Features & Pricing",
+    "summary": "<p>For most estates, native KMS is the best starting point AWS KMS, Azure Key Vault, and Google Cloud KMS are usage-priced, deeply integrated, and publish their rates. Ensuring robust cloud storage encryption at rest and in transit is fundamental to preventing unauthorized exposure of sensitive assets. Thales CipherTrust is the best enterprise key-management platform once [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-cloud-encryption-compared/\">12 Best Cloud Encryption Solutions Compared (2026): Features &#038; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/best-cloud-encryption-compared/",
+    "published": "2026-09-28T07:11:46",
+    "source": "gbhackers.com",
+    "category": "Ransomware",
+    "importance_score": 618,
+    "also_covered_by": []
+  },
+  {
+    "title": "11 Best GCP Security Tools Compared (2026): Features & Pricing",
+    "summary": "<p>Securing Google Cloud starts with Security Command Center Standard included with every org and the best free first move while Wiz is the best third-party platform for estates whose finding volume and service-account sprawl demand attack-path triage. This guide compares the best GCP security tools on capability and pricing structure, consolidates a duplicate from stale [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/best-gcp-security-compared/\">11 Best GCP Security Tools Compared (2026): Features &amp; Pricing</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/best-gcp-security-compared/",
+    "published": "2026-09-28T06:58:01",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 614,
     "also_covered_by": []
   },
   {
@@ -987,6 +1127,66 @@
     "source": "unit42.paloaltonetworks.com",
     "category": "Other",
     "importance_score": 477,
+    "also_covered_by": []
+  },
+  {
+    "title": "Critical ViewSonic vCast Vulnerabilities Allow Attackers to Gain Full Control Over the Device",
+    "summary": "<p>Critical vulnerabilities in ViewSonic’s vCast software could allow attackers on the same network to steal screen content, install malicious Android applications, and potentially gain full control of affected ViewBoard smart displays. The issues were disclosed in CERT Coordination Center Vulnerability Note VU#234131, published on September 24, 2026. The advisory states that multiple unauthenticated network endpoints [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/viewsonic-vcast-vulnerabilities/\">Critical ViewSonic vCast Vulnerabilities Allow Attackers to Gain Full Control Over the Device</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/viewsonic-vcast-vulnerabilities/",
+    "published": "2026-09-28T09:27:28",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 476,
+    "also_covered_by": []
+  },
+  {
+    "title": "Top 10 Best Authentication-as-a-Service (AaaS) Providers in 2026 [Ranked & Scored]",
+    "summary": "<p>Nobody gets promoted for building login, but plenty get breached maintaining it. Authentication-as-a-Service moved from convenience to best practice: passkeys, attack protection, and compliance maintained by vendors whose whole business is sign-in. Integrating modern AaaS with established Customer Identity and Access Management (CIAM) solutions has cemented Identity and Access Management (IAM) resilience as a CISO [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-authentication-as-a-service/\">Top 10 Best Authentication-as-a-Service (AaaS) Providers in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/best-authentication-as-a-service/",
+    "published": "2026-09-28T06:48:35",
+    "source": "cybersecuritynews.com",
+    "category": "Policy / Law",
+    "importance_score": 474,
+    "also_covered_by": []
+  },
+  {
+    "title": "670 Jev Domains Registered After Launch as Fake AI Marketplaces Target Users",
+    "summary": "<p>A surge of lookalike domains targeting users of TypeSafe AI’s newly launched Jev decision model, with roughly 670 “jev”-branded domains obtaining TLS certificates within eight days of the product’s debut. Several sites are already operating as unofficial API storefronts, charging customers up to 11.5 times the official rate while proxying prompts to TypeSafe’s infrastructure. TypeSafe [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/670-jev-domains-registered/\">670 Jev Domains Registered After Launch as Fake AI Marketplaces Target Users</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/670-jev-domains-registered/",
+    "published": "2026-09-28T10:21:58",
+    "source": "gbhackers.com",
+    "category": "AI & Security",
+    "importance_score": 471,
+    "also_covered_by": []
+  },
+  {
+    "title": "Hackers Exploit GlobalProtect Flaw and Turn Stolen Data Into 2.4 Million Fraud Messages",
+    "summary": "<p>Hackers broke into business networks, stole customer records and used those details to send convincing fake bills. The campaign, called Operation Master, combined a VPN login bypass with attacks on web applications and a large-scale invoice fraud system aimed mainly at Brazilian customers. The activity stretched from April to mid-September 2026. Investigators found evidence of [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-exploit-globalprotect-flaw/\">Hackers Exploit GlobalProtect Flaw and Turn Stolen Data Into 2.4 Million Fraud Messages</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/hackers-exploit-globalprotect-flaw/",
+    "published": "2026-09-28T07:16:08",
+    "source": "cybersecuritynews.com",
+    "category": "Data Breach",
+    "importance_score": 465,
+    "also_covered_by": []
+  },
+  {
+    "title": "Top 10 Best Biometric Authentication Solutions in 2026 [Ranked & Scored]",
+    "summary": "<p>Matching a face got easy; proving the face is a live human at a real camera while generative AI mass-produces convincing deepfake threats is where the modern biometric authentication market earns its keep. We scored ten vendors with liveness and injection-attack defense weighted highest, because that’s where fraud actually breaks through. iProov ranks #1 on [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-biometric-authentication/\">Top 10 Best Biometric Authentication Solutions in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/best-biometric-authentication/",
+    "published": "2026-09-28T06:56:08",
+    "source": "cybersecuritynews.com",
+    "category": "Phishing / Scams",
+    "importance_score": 457,
+    "also_covered_by": []
+  },
+  {
+    "title": "PHP Fixed a Bug That Could Send Your Login Credentials to the Wrong Server",
+    "summary": "<p>PHP has fixed a security flaw that could expose login credentials, cookies, and proxy authentication data to an unintended server during HTTP redirects. The vulnerability, tracked as CVE-2026-91766 and GHSA-fpwc-w8rq-cr92, affects PHP’s HTTP stream wrapper and has been rated as moderate severity. The issue occurs when a PHP application uses the http:// or https:// stream [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/php-fixed-a-bug/\">PHP Fixed a Bug That Could Send Your Login Credentials to the Wrong Server</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/php-fixed-a-bug/",
+    "published": "2026-09-28T09:29:32",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 456,
     "also_covered_by": []
   },
   {
