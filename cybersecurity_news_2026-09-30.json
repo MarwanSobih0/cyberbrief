@@ -90,6 +90,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Attackers Use PaperCut RCE Chain to Steal Tokens and Access Domain Controller",
+    "summary": "<p>Threat actors exploited a chained pair of PaperCut MF zero-day vulnerabilities to compromise an education-sector environment, steal a domain-privileged service account token, and reach a domain controller before attempting to extract the Active Directory database. The campaign abused CVE-2026-81578, an authentication-bypass vulnerability in PaperCut MF and NG’s web management interface, together with CVE-2026-82078, a critical [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/papercut-rce-chain/\">Attackers Use PaperCut RCE Chain to Steal Tokens and Access Domain Controller</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/papercut-rce-chain/",
+    "published": "2026-09-30T09:33:11",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 1680,
+    "also_covered_by": []
+  },
+  {
     "title": "Keeping Google Play & Android app ecosystems safe in 2025",
     "summary": "<span class=\"byline-author\">Posted by Vijaya Kaza, VP and GM, App & Ecosystem Trust</span>\n\n<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNWPkN36d-E-0ZgVQNZYRep5TH3AnZltbtmu6PO7XLRULe4BuLMiRjS9z25JVTNu-imtoi2efJL2p-T4hu7eXdVirZIoNwIhEOY1p7pVtZwpzsmzIV8chhYOOz7ML5qFHoS0gz7Q3sNQwInc4sV4AaHavaIwn5twlSmjmuHG66uasapArBcBNMIg0XG0et/s1600/SafeAppEcosystem_BlogHero_Still_1920x1080.png\" style=\"display: block; padding: 1em 0; text-align: center;\"><img alt=\"\" border=\"0\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNWPkN36d-E-0ZgVQNZYRep5TH3AnZltbtmu6PO7XLRULe4BuLMiRjS9z25JVTNu-imtoi2efJL2p-T4hu7eXdVirZIoNwIhEOY1p7pVtZwpzsmzIV8chhYOOz7ML5qFHoS0gz7Q3sNQwInc4sV4AaHavaIwn5twlSmjmuHG66uasapArBcBNMIg0XG0et/s1600/SafeAppEcosystem_BlogHero_Still_1920x1080.png\" /></a></div>\n\n\n<p>\nThe Android ecosystem is a thriving global community built on trust, giving billions of users the confidence to download the latest apps. In order to maintain that trust, we’re focused on  ensuring that apps do not cause real-world harm, such as malware, financial fraud, hidden subscriptions, and privacy invasions. As bad actors leverage AI to change their tactics and launch increasingly sophisticated attacks, we’ve deepened our investments in AI and real-time defenses over the last year to maintain the upper hand and stop these threats before they reach users.\n</p>\n<h3>Upgrading Google Play’s AI-powered, multi-layered user protections</h3>\n\n\n<p>\nWe’ve seen a clear impact from these safety efforts on Google Play. In 2025, <strong>we prevented over 1.75 million policy-violating apps from being published on Google Play </strong>and<strong> banned more than 80,000 bad developer accounts that attempted to publish harmful apps. </strong>These figures demonstrate how our proactive protections and push for a more accountable ecosystem are discouraging bad actors from publishing malicious apps, while our new tools help honest developers build compliant apps more easily. Initiatives like developer verification, mandatory pre-review checks, and testing requirements have raised the bar for the Google Play ecosystem, significantly reducing the paths for bad actors to enter.\n</p>\n\n<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXqjB3En8VZFiwKb-q2dzxMdWauGxhuxJyMFuwwRrEMYLvx8EvQbpyfwth1M1SamrAc8vwZvZVoP4GYe7PPpFVwFTevniOYB7bLFAWPQ8cD074hraPEkevtcTnVgPbP_OO9Oo0Ohl6-3LpwaRAUnt-uwzSNcl5yEvYK7uBNEpBNGaQds8c5-ynRhsKCseL/s1600/SafeAppEcosystem_HeroVisual_3Claims_1920x1080.png\" style=\"display: block; padding: 1em 0; text-align: center;\"><img alt=\"\" border=\"0\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXqjB3En8VZFiwKb-q2dzxMdWauGxhuxJyMFuwwRrEMYLvx8EvQbpyfwth1M1SamrAc8vwZvZVoP4GYe7PPpFVwFTevniOYB7bLFAWPQ8cD074hraPEkevtcTnVgPbP_OO9Oo0Ohl6-3LpwaRAUnt-uwzSNcl5yEvYK7uBNEpBNGaQds8c5-ynRhsKCseL/s1600/SafeAppEcosystem_HeroVisual_3Claims_1920x1080.png\" /></a></div>\n\n<p>\nUser safety is at the core of everything we build. Over the years, we’ve continually introduced ways to help users stay safe and make informed app choices — from <a href=\"https://support.google.com/googleplay/answer/1075738\">parental controls</a> to <a href=\"https://support.google.com/googleplay/answer/11416267\">data safety transparency</a> and <a href=\"https://android-developers.googleblog.com/2025/01/helping-users-find-trusted-apps-on-google-play.html\">app badges</a>. We’re constantly improving our policies and protections to encourage safe, high-quality apps on Google Play and stop bad actors before they cause harm.\n</p>\n<p>\nApps on Google Play undergo rigorous reviews for safety and compliance with our policies. Last year, <a href=\"https://blog.google/products-and-platforms/platforms/google-play/keeping-google-play-safe-2025/\">we shared</a> that Google Play runs <strong>over 10,000 safety checks</strong> on every app we publish, and we continue to check and recheck apps after they’ve been published. In 2025, we continued scaling our defenses even further by:\n</p>\n<ul>\n\n<li><strong>Boosting AI-enhanced app detection</strong>: We integrated Google’s latest generative AI models into our review process, helping our human review team continue to find complex malicious patterns faster.</li>\n\n<li><strong>Preventing unnecessary access to sensitive data:</strong> We prevented<strong> over 255,000 apps</strong> from getting excessive access to sensitive user data and continued to strengthen our privacy policies. Our commitment to privacy-forward app development, supported by tools like Play Policy Insights in <a href=\"https://developer.android.com/studio\">Android Studio</a> and <a href=\"https://support.google.com/googleplay/android-developer/answer/10787469?hl=en\">Data safety section</a>, has empowered developers to continue to: minimize privacy-sensitive permission requests, and prioritize the user in their design choices.</li>\n\n<li><strong>Blocking spam ratings and reviews:</strong> Whether they lead to review inflation or deflation, spam ratings and reviews can negatively impact our users’ trust and our developers’ growth. We’re continually evolving our detection models to help ensure app reviews are accurate. Our anti-spam protections blocked <strong>160 million spam ratings and reviews </strong>last year, including inflated and deflated reviews.  We also <strong>prevented an average 0.5-star rating drop</strong> for apps targeted by review bombing, protecting our users and developers from unhelpful reviews.</li>\n\n<li><strong>Safeguarding kids and families</strong>: Our approach to kids and families is built on the core belief that children deserve a safe, enriching digital environment. Our commitment is to empower parents with robust tools while providing children with access to high-quality, age-appropriate content. Last year, we announced <a href=\"https://support.google.com/googleplay/android-developer/answer/16302250?sjid=17958105945234987629-NC\">new layers of protection</a>, in addition to our existing <a href=\"https://blog.google/technology/safety-security/age-assurance-measures-safer-online-kids-teens-us/\">safeguards</a>, to prevent younger audiences from discovering or downloading apps involving activities like gambling or dating. </li>\n</ul>\n<h3>Enhancing Google Play Protect to help keep the entire Android ecosystem safe</h3>\n\n\n<p>\nWe also continued to improve our protections for the broader Android ecosystem, by expanding <a href=\"https://support.google.com/googleplay/answer/2812853?hl=en\">Google Play Protect</a> and real-time security measures like in-call scam protections to help keep users safe from scams, fraud, and other threats.\n</p>\n<p>\n<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRRyFyWuAAS0qmMVtLZaUEybmZ13gxGFxa6UsF_BGUocGCqDI6OAH-wM6_Fl84ZRyGZKnHcOCR4ceaPacTMsGsHtkb1R6lWlrcF1BAxBBt06KAe0n-t7C1gn7IMDC7rLZGY2bBshE1oR-0rCaYWponr8e6bh0AQP5K4koLy1CahuD9lT5Ay1I4JjaCSKb3/s1600/SafeAppEcosystem_GooglePlayProtectRealTimeScanning_1920x1080.png\" style=\"display: block; padding: 1em 0; text-align: center;\"><img alt=\"\" border=\"0\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRRyFyWuAAS0qmMVtLZaUEybmZ13gxGFxa6UsF_BGUocGCqDI6OAH-wM6_Fl84ZRyGZKnHcOCR4ceaPacTMsGsHtkb1R6lWlrcF1BAxBBt06KAe0n-t7C1gn7IMDC7rLZGY2bBshE1oR-0rCaYWponr8e6bh0AQP5K4koLy1CahuD9lT5Ay1I4JjaCSKb3/s1600/SafeAppEcosystem_GooglePlayProtectRealTimeScanning_1920x1080.png\" /></a></div>\n\n<p>\nAs Android’s built-in defense against malware and unwanted software, <strong>Google Play Protect now scans over 350 billion Android apps daily.</strong> This proactive protection constantly checks both Play apps and those from other sources to ensure they are not potentially harmful. And, last year, its real-time scanning capability identified <strong>more than 27 million </strong>new malicious apps from outside Google Play, warning users or blocking the app to neutralize the threat. To benefit from these protections, we recommend that users always keep Google Play Protect on. \n</p>\n<p>\nWhile fraudsters are constantly evolving their tactics, Google Play Protect is evolving faster. Last year, we expanded:\n</p>\n<ul>\n\n<li><strong>Enhanced fraud protection:</strong> Google Play Protect’s <a href=\"https://security.googleblog.com/2024/02/piloting-new-ways-to-protect-Android-users-from%20financial-fraud.html\">enhanced fraud protection</a> analyzes and automatically blocks the installation of apps that may abuse sensitive permissions to commit financial fraud. This protection is triggered when a user attempts to install an app from an \"Internet-sideloading source\" — such as a web browser or messaging app — that requests a sensitive permission. Building on the success of our initial pilot in Singapore, we expanded enhanced fraud protection to <strong>185 markets</strong>, now covering more than <strong>2.8 billion Android devices</strong>. In 2025, we <strong>blocked 266 million risky installation attempts</strong> and<strong> helped protect users from 872,000 unique, high-risk applications.</strong></li>\n\n<li><strong>In-call scam protection:</strong> We also <a href=\"https://security.googleblog.com/2025/05/whats-new-in-android-security-privacy-2025.html\">introduced</a> new protections to combat social engineering attacks during phone calls. This feature preemptively disables the ability to turn off Google Play Protect during phone calls, stopping bad actors from being able to trick users into disabling their device's built-in defenses to download a malicious app while on a call.</li>\n</ul>\n<h3>Partnering with developers for a more secure, privacy-friendly future</h3>\n\n\n<p>\nKeeping Android and Google Play safe requires deep collaboration. We want to thank our global developer community for their partnership and for sharing their feedback on the tools and support they need to succeed.\n</p>\n<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuQSOEIEqh9WkZLhfDByQYwJ5oCPUI_tux-OhPo3qgJ9LZ0Uuphey0RcUPiiIoqOcE8eEOWqSreJsex9f_8UAn8JUn8wnc3AcApCymgrDn3YCHeudyrH5QI22iArfEGKjluM1jKVujCXLRwmH06V2MnaSO3f_koSgMelHiuwPJtKQHKwcFi6AksS3TRqWY/s1600/SafeAppEcosystem_PlayIntegrityAPI_1920x1080.png\" style=\"display: block; padding: 1em 0; text-align: center;\"><img alt=\"\" border=\"0\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuQSOEIEqh9WkZLhfDByQYwJ5oCPUI_tux-OhPo3qgJ9LZ0Uuphey0RcUPiiIoqOcE8eEOWqSreJsex9f_8UAn8JUn8wnc3AcApCymgrDn3YCHeudyrH5QI22iArfEGKjluM1jKVujCXLRwmH06V2MnaSO3f_koSgMelHiuwPJtKQHKwcFi6AksS3TRqWY/s1600/SafeAppEcosystem_PlayIntegrityAPI_1920x1080.png\" /></a></div>\n<p>\n In 2025, we focused on reducing friction for developers and providing them with tools to safeguard their businesses:\n</p>\n<ul>\n\n<li><strong>Building safer apps more easily</strong>: We’re helping developers streamline their work by bringing insights directly into their natural workflows. It starts with <a href=\"https://developer.android.com/studio/publish/insights\">Play Policy Insights in Android Studio</a>, which gives developers real-time feedback as they code. We focused first on permissions and APIs that grant deeper system access or handle personal data, like location or photos. This gives developers a head start on policy requirements, including prominent disclosures or usage declarations, while they’re still building. When developers move to Play Console to prepare their apps for submission, our expanded <a href=\"https://support.google.com/googleplay/android-developer/answer/14807773\">pre-review checks</a> help catch common reasons for rejection, like improper usage of credentials or permissions and broken privacy policy links, ensuring smoother, faster reviews.</li>\n\n<li><strong>Stronger threat detection with Play Integrity API</strong>: Every day, apps and games make over 20 billion checks with <a href=\"https://developer.android.com/google/play/integrity\">Play Integrity API</a> to protect against abuse and unauthorized access. In 2025, we added <a href=\"https://android-developers.googleblog.com/2025/10/stronger-threat-detection-simpler.html\">hardware-backed signals</a> to make it even harder for bad actors to spoof devices and introduced <a href=\"https://android-developers.googleblog.com/2025/10/stronger-threat-detection-simpler.html\">new in-app prompts</a> that let users fix common issues like network errors without leaving the app. We also launched <a href=\"https://developer.android.com/google/play/integrity/device-recall\">device recall</a> in beta to help developers identify repeat bad actors even after a device has been reset, all while protecting user privacy.</li>\n\n<li><strong>Building trust through developer verification:</strong> We’ve seen how effective developer verification is on Google Play, and now we’re applying those lessons to the broader Android ecosystem. By ensuring there is a real, accountable identity behind every app, verification helps legitimize authentic developers and prevents bad actors from hiding behind anonymity to repeatedly cause harm. After gathering feedback during our <a href=\"https://developer.android.com/developer-verification/guides/early-access\">early access</a> period, we’ll open up verification to all developers this year. We’ve also added a dedicated account type for students and hobbyists, which will allow them to distribute these apps to a limited number of devices without the full verification requirements.</li>\n\n<li><strong>Greater security with every Android release</strong>: In Android 16, developers can <a href=\"https://android-developers.googleblog.com/2025/12/enhancing-android-security-stop-malware.html\">protect</a> users’ most private information, like bank logins, with just one line of code. We’ve integrated this feature automatically to <a href=\"https://android-developers.googleblog.com/2025/12/enhancing-android-security-stop-malware.html#:~:text=Automatic%2C%20enhanced%20security%20for%20setFilterTouchesWhenObscured%20protection\">certain apps</a> for an instant security boost against “<a href=\"https://developer.android.com/privacy-and-security/risks/tapjacking#mitigations\">tapjacking</a>,” a trick where bad apps use hidden layers to steal clicks for ad fraud. </li>\n</ul>\n<h3>Looking ahead</h3>\n\n\n<p>\nOur top priority remains making Google Play and Android the most trusted app ecosystems for everyone. This year, we’ll continue to invest in AI-driven defenses to stay ahead of emerging threats and equip Android developers with the tools they need to build apps safely. To empower developers who distribute their apps on Google Play, we’ll maintain our focus on embedding checks to help build apps that are compliant by design, while providing guidance to help proactively avoid policy violations before an app is published. We’ll also roll out Android developer verifications to hold bad actors accountable and prevent them from hiding behind anonymity to cause repeated harm.\n</p>\n<p>\nThank you for being part of the Google Play and Android community as we work together to build a safer app ecosystem.\n</p>",
     "link": "http://security.googleblog.com/2026/02/keeping-google-play-android-app-ecosystem-safe-2025.html",
@@ -187,6 +197,16 @@
     "source": "cyberscoop.com",
     "category": "Vulnerability",
     "importance_score": 1453,
+    "also_covered_by": []
+  },
+  {
+    "title": "Hackers Exploit Citrix NetScaler Zero-Day to Gain Root Access and Deploy Web Shells",
+    "summary": "<p>Threat actors are actively exploiting a critical zero-day vulnerability in Citrix NetScaler, identified as CVE-2026-88772, to gain unauthenticated root-level access to vulnerable Application Delivery Controller (ADC) and Gateway appliances. After the initial compromise, they deploy custom PHP web shells and tools to tunnel within the internal network. Mandiant Consulting and the Google Threat Intelligence Group [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-exploit-citrix-netscaler-zero-day/\">Hackers Exploit Citrix NetScaler Zero-Day to Gain Root Access and Deploy Web Shells</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/hackers-exploit-citrix-netscaler-zero-day/",
+    "published": "2026-09-30T09:47:33",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 1383,
     "also_covered_by": []
   },
   {
@@ -400,6 +420,16 @@
     "also_covered_by": []
   },
   {
+    "title": "OperTraitor Finds Kubernetes Operators With Cluster-Wide Secret Access and Admin Paths",
+    "summary": "<p>OperTraitor, an open-source, LLM-powered engine that identifies Kubernetes operators whose RBAC (Role-Based Access Control) privileges exceed their documented operational requirements. Research indicates that over 5% of assessed operators requested excessive permissions, including cluster-wide access to secrets and potential pathways to cluster-admin-level control. Kubernetes operators automate application deployment, configuration, and lifecycle management through Custom Resource Definitions [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/opertraitor-finds-kubernetes-operators/\">OperTraitor Finds Kubernetes Operators With Cluster-Wide Secret Access and Admin Paths</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/opertraitor-finds-kubernetes-operators/",
+    "published": "2026-09-30T08:05:52",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 1100,
+    "also_covered_by": []
+  },
+  {
     "title": "OWASP Noir: Open-source static analysis tool",
     "summary": "<p>OWASP Noir is an open-source static analysis tool that reads an application&#8217;s source code and lists the endpoints it exposes: paths, HTTP methods, parameters, headers, and cookies, each tied to the file and line it came from. Here&#8217;s where it gets useful. Shadow APIs, the endpoints that live in the code but never made it into any documentation, show up in Noir&#8217;s inventory right next to everything else, along with deprecated routes and undocumented handlers. &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/30/owasp-noir-open-source-static-analysis-tool/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/30/owasp-noir-open-source-static-analysis-tool/\">OWASP Noir: Open-source static analysis tool</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
     "link": "https://www.helpnetsecurity.com/2026/09/30/owasp-noir-open-source-static-analysis-tool/",
@@ -450,6 +480,26 @@
     "also_covered_by": []
   },
   {
+    "title": "RSA Agent ID Secures AI Agents and MCP Servers With Identity-Based Access Controls",
+    "summary": "<p>RSA has launched RSA Agent ID, an identity security platform that discovers, secures, and governs AI agents and Model Context Protocol (MCP) servers in highly regulated environments. The company states that this offering addresses a growing “agentic identity” gap by applying workforce-style identity governance, authorization controls, and auditability to non-human AI actors. Announced at The [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/rsa-agent-id-secures-ai-agents-and-mcp-servers/\">RSA Agent ID Secures AI Agents and MCP Servers With Identity-Based Access Controls</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/rsa-agent-id-secures-ai-agents-and-mcp-servers/",
+    "published": "2026-09-30T09:33:46",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 1079,
+    "also_covered_by": []
+  },
+  {
+    "title": "New OperTraitors Tool Reveals Dangerous Privilege Escalation Paths in Kubernetes Operators",
+    "summary": "<p>A new open-source security tool, OperTraitor, has revealed how Kubernetes operators can create dangerous privilege escalation paths when they receive excessive role-based access control permissions. The tool analyzes operator manifests and compares their documented function with the permissions actually granted to their service accounts. Kubernetes operators automate administrative tasks such as deploying databases, monitoring workloads, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/opertraitors-tool/\">New OperTraitors Tool Reveals Dangerous Privilege Escalation Paths in Kubernetes Operators</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/opertraitors-tool/",
+    "published": "2026-09-30T08:33:58",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 1077,
+    "also_covered_by": []
+  },
+  {
     "title": "Apple Patches CoreGraphics Zero Day Exploited in Attacks",
     "summary": "Apple has patched CVE-2026-86950, a zero-day bug in the iOS CoreGraphics engine",
     "link": "https://www.infosecurity-magazine.com/news/apple-patches-coregraphics-zero/",
@@ -467,6 +517,16 @@
     "source": "krebsonsecurity.com",
     "category": "Vulnerability",
     "importance_score": 1068,
+    "also_covered_by": []
+  },
+  {
+    "title": "Unsloth Studio RCE Flaw Lets Malicious Hugging Face Models Execute Code",
+    "summary": "<p>A now-patched vulnerability in Unsloth Studio allowed a malicious Hugging Face model repository to execute Python code when a user merely selected the model in the browser interface. Unsloth fixed the issue in version 2026.6.9, and users running Studio should upgrade immediately. Unsloth is a popular open-source library used to fine-tune and quantize large language [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/unsloth-studio-rce-flaw/\">Unsloth Studio RCE Flaw Lets Malicious Hugging Face Models Execute Code</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/unsloth-studio-rce-flaw/",
+    "published": "2026-09-30T08:14:51",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 1056,
     "also_covered_by": []
   },
   {
@@ -520,6 +580,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Hackers Abuse MSP360 and ScreenConnect RMM Tools for Persistent Access and Credential Theft",
+    "summary": "<p>The phishing campaigns that weaponize legitimate remote monitoring and management software to establish persistent access and support credential theft on Windows systems. The campaign demonstrates a recurring operational trend: rather than exploit a vulnerability or deploy obvious custom malware, attackers are abusing trusted administrative platforms already designed to execute commands, transfer files, deploy applications, and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/msp360-and-rmm-abuse/\">Hackers Abuse MSP360 and ScreenConnect RMM Tools for Persistent Access and Credential Theft</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/msp360-and-rmm-abuse/",
+    "published": "2026-09-30T10:25:40",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 984,
+    "also_covered_by": []
+  },
+  {
     "title": "3 Consulting Myths Debunked by Unit 42 Experts",
     "summary": "<p>Unit 42 security experts address critical cybersecurity misconceptions, offering practical insights to help your organization reinforce its enterprise defenses.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/3-consulting-myths-debunked-by-unit-42-experts/\">3 Consulting Myths Debunked by Unit 42 Experts</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
     "link": "https://unit42.paloaltonetworks.com/3-consulting-myths-debunked-by-unit-42-experts/",
@@ -547,6 +617,16 @@
     "source": "securelist.com",
     "category": "Ransomware",
     "importance_score": 968,
+    "also_covered_by": []
+  },
+  {
+    "title": "RATHat Android Malware Uses Gemini AI to Control Phones Outside Normal App Permissions",
+    "summary": "<p>RATHat Android malware uses Gemini AI to help take control of infected phones beyond normal app permissions. The banking trojan abuses a developer feature to establish a separate command channel that can survive removal of the malicious application until the phone reboots. Attackers distribute it through malicious adverts and phishing text messages targeting Europe, Latin [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/rathat-android-malware/\">RATHat Android Malware Uses Gemini AI to Control Phones Outside Normal App Permissions</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/rathat-android-malware/",
+    "published": "2026-09-30T09:14:00",
+    "source": "cybersecuritynews.com",
+    "category": "Phishing / Scams",
+    "importance_score": 961,
     "also_covered_by": []
   },
   {
@@ -640,6 +720,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Storm-3068 Hijacks Azure DevOps Pipelines to Steal Kubernetes Credentials After Account Takeover",
+    "summary": "<p>Microsoft has detailed a cloud-focused intrusion attributed to Storm-3068, in which attackers turned a compromised user account into a launch point for Azure DevOps abuse, Kubernetes credential theft, and potential access to connected cloud environments. The campaign demonstrates how identity compromise can quickly escalate into a software supply-chain and production-infrastructure incident when development platforms have [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/storm-3068-hijacks-azure/\">Storm-3068 Hijacks Azure DevOps Pipelines to Steal Kubernetes Credentials After Account Takeover</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/storm-3068-hijacks-azure/",
+    "published": "2026-09-30T06:38:15",
+    "source": "gbhackers.com",
+    "category": "Critical Infrastructure",
+    "importance_score": 885,
+    "also_covered_by": []
+  },
+  {
     "title": "Meta’s Muse AI assistant has a zero-day that can turn it into a Mac backdoor",
     "summary": "A simple terminal command can hijack Muse and use its extensive permissions to spy on Mac users and control their connected accounts.",
     "link": "https://www.malwarebytes.com/blog/bugs/2026/09/metas-muse-ai-assistant-has-a-zero-day-that-can-turn-it-into-a-mac-backdoor",
@@ -660,6 +750,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Android Malware Turns Gemini AI Into an Assistant for On-Device Attacks",
+    "summary": "<p>A newly documented Android banking trojan named RATHat is demonstrating how generative AI can be operationalized inside mobile malware. The threat uses Google Gemini models to navigate unfamiliar Android interfaces, while its operator panel applies AI to identify higher-value victims from stolen SMS data. The malware disguises itself as legitimate applications, then relies on social [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/gemini-powered-malware/\">Android Malware Turns Gemini AI Into an Assistant for On-Device Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/gemini-powered-malware/",
+    "published": "2026-09-30T05:58:20",
+    "source": "gbhackers.com",
+    "category": "AI & Security",
+    "importance_score": 868,
+    "also_covered_by": []
+  },
+  {
     "title": "China-nexus UAT-11587 targets government and policy organizations across Asia with Antino backdoor",
     "summary": "Cisco Talos uncovered a cluster of activity we track as UAT-11587 targeting government and policy organizations across Asia, including in Taiwan, India, the Philippines, and Cambodia, to deliver a previously undocumented backdoor referred to as “Antino” in developer artifacts.",
     "link": "https://blog.talosintelligence.com/china-nexus-uat-11587-targets-government-and-policy-organizations-across-asia-with-antino-backdoor/",
@@ -667,6 +767,16 @@
     "source": "blog.talosintelligence.com",
     "category": "Other",
     "importance_score": 866,
+    "also_covered_by": []
+  },
+  {
+    "title": "Fortinet Uncovers SectopRAT Variant Hidden Inside Tampered Legitimate Windows Software",
+    "summary": "<p>A SectopRAT variant has been found hidden inside tampered Windows software, allowing attackers to control an infected computer and steal sensitive information. The intrusion used legitimate application components as cover, with encrypted files concealing the malware until it was loaded into memory. The affected program came from an Italian developer known for a long-running digital [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fortinet-uncovers-sectoprat/\">Fortinet Uncovers SectopRAT Variant Hidden Inside Tampered Legitimate Windows Software</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/fortinet-uncovers-sectoprat/",
+    "published": "2026-09-30T08:13:22",
+    "source": "cybersecuritynews.com",
+    "category": "Ransomware",
+    "importance_score": 865,
     "also_covered_by": []
   },
   {
@@ -757,6 +867,16 @@
     "source": "thehackernews.com",
     "category": "Policy / Law",
     "importance_score": 768,
+    "also_covered_by": []
+  },
+  {
+    "title": "MCP Python SDK OAuth Flaw Lets Malicious Servers Hijack AI Agent Accounts",
+    "summary": "<p>A high-severity flaw in the official Model Context Protocol (MCP) Python SDK could allow a malicious MCP server to steal OAuth authentication material and take over AI agent accounts. The issue affects vulnerable HTTP-based MCP clients that connect to untrusted servers while using OAuth to access legitimate identity providers such as Google, Okta, or Microsoft [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/mcp-python-sdk-oauth-flaw/\">MCP Python SDK OAuth Flaw Lets Malicious Servers Hijack AI Agent Accounts</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/mcp-python-sdk-oauth-flaw/",
+    "published": "2026-09-30T05:30:04",
+    "source": "cybersecuritynews.com",
+    "category": "Policy / Law",
+    "importance_score": 755,
     "also_covered_by": []
   },
   {
@@ -870,6 +990,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Hackers Target 5,700 Microsoft 365 Accounts Using Forgotten Service Accounts With No MFA",
+    "summary": "<p>Threat actors have targeted more than 5,700 Microsoft 365 accounts across 28 tenants in a password-spraying campaign that successfully breached seven forgotten service accounts lacking MFA. The activity, tracked by Proofpoint as UNK_CondorFiltration, focused heavily on Chilean retail and financial organizations and abused the TeamFiltration offensive framework. The framework, initially created for legitimate Microsoft 365 [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/microsoft-365-accounts-targeted/\">Hackers Target 5,700 Microsoft 365 Accounts Using Forgotten Service Accounts With No MFA</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/microsoft-365-accounts-targeted/",
+    "published": "2026-09-30T07:11:16",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 635,
+    "also_covered_by": []
+  },
+  {
     "title": "Zero-Click Vulnerabilities in Salesforce Agentforce Expose Wider AI Agent Risk",
     "summary": "The ‘SalesBleed’ set of weaknesses in Salesforce’s Agentforce agents exposed CRM data to attackers via prompt injection and DNS exfiltration",
     "link": "https://www.infosecurity-magazine.com/news/vulnerabilities-salesforce-ai/",
@@ -897,6 +1027,16 @@
     "source": "krebsonsecurity.com",
     "category": "Other",
     "importance_score": 630,
+    "also_covered_by": []
+  },
+  {
+    "title": "Octopus Server Flaw Lets Authenticated Users Execute Code Through Insecure JSON Deserialization",
+    "summary": "<p>Octopus Deploy has disclosed a high-severity vulnerability in Octopus Server that could allow authenticated users to execute arbitrary code on affected servers through insecure JSON deserialization. Tracked as CVE-2026-101169, the flaw affects Octopus Server deployments on Linux and Microsoft Windows. The company released Security Advisory 2026-10 on September 29, 2026, and urged customers to upgrade [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/octopus-server-flaw-2/\">Octopus Server Flaw Lets Authenticated Users Execute Code Through Insecure JSON Deserialization</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/octopus-server-flaw-2/",
+    "published": "2026-09-30T04:11:37",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 620,
     "also_covered_by": []
   },
   {
@@ -970,7 +1110,7 @@
     "also_covered_by": []
   },
   {
-    "title": "The devil is still in the email – but wears a new mask",
+    "title": "The devil is still in the email – but wearing a new mask",
     "summary": "When phishing can increasingly pass familiar checks, avoiding or limiting the damage depends on how quickly your company can detect and contain the attack",
     "link": "https://www.welivesecurity.com/en/business-security/devil-email-wearing-new-mask/",
     "published": "2026-09-28T09:00:00",
@@ -1110,6 +1250,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Linux Kernel CVE-2026-72018 Flaw Lets Local Attackers Gain Root Access",
+    "summary": "<p>A high-severity Linux kernel vulnerability, tracked as CVE-2026-72018, lets a local attacker with CAP_NET_ADMIN privileges escalate to root. This exploitation involves an out-of-bounds write in the Shared Memory Communications Direct (SMC-D) DIBS loopback implementation. Researchers at XBOW discovered and demonstrated the flaw, creating a local privilege escalation proof of concept using a constrained 16-byte zero-write [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/linux-kernel-cve-2026-72018-flaw/\">Linux Kernel CVE-2026-72018 Flaw Lets Local Attackers Gain Root Access</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/linux-kernel-cve-2026-72018-flaw/",
+    "published": "2026-09-30T07:46:51",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 480,
+    "also_covered_by": []
+  },
+  {
     "title": "LLMjacking can run up your business’ AI bill fast – how to stop it",
     "summary": "Google analysts warn that stolen AI credentials are being sold underground, and businesses are footing the bill.",
     "link": "https://www.zdnet.com/innovation/llmjacking-business-ai-bill-cost-how-to-stop/",
@@ -1140,6 +1290,26 @@
     "also_covered_by": []
   },
   {
+    "title": "Unsloth Fixes Arbitrary Code Execution Flaw Triggered by Malicious Hugging Face Models",
+    "summary": "<p>Unsloth has addressed a critical arbitrary code execution vulnerability in its Studio web interface. This flaw allowed a malicious Hugging Face model repository to execute attacker-controlled Python code simply by a user selecting or inspecting it. Unsloth resolved the issue in version 2026.6.9, and users running Studio are urged to update immediately. Unsloth Fixes Arbitrary [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/unsloth-fixes-arbitrary-code-execution-flaw/\">Unsloth Fixes Arbitrary Code Execution Flaw Triggered by Malicious Hugging Face Models</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/unsloth-fixes-arbitrary-code-execution-flaw/",
+    "published": "2026-09-30T06:22:18",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 476,
+    "also_covered_by": []
+  },
+  {
+    "title": "OpenAI Rolled out Codex Security Cloud, an Always-on Application Security Service",
+    "summary": "<p>OpenAI has upgraded Codex with Codex Security Cloud, an always-on application security service designed to scan GitHub repositories, monitor incoming commits, investigate flaws, remove duplicate findings, and prepare fixes for human review. The cloud-hosted system keeps operating when a developer’s laptop is closed, bringing continuous, agent-driven vulnerability analysis into Codex workflows. Available through a plugin [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openai-rolled-out-codex-security-cloud/\">OpenAI Rolled out Codex Security Cloud, an Always-on Application Security Service</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/openai-rolled-out-codex-security-cloud/",
+    "published": "2026-09-30T04:36:20",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 476,
+    "also_covered_by": []
+  },
+  {
     "title": "Is ChatGPT your new Google Workspace alternative? Meet Space, Pages, and slides",
     "summary": "OpenAI now lets teams create documents, build presentations, and work with AI agents inside ChatGPT",
     "link": "https://www.zdnet.com/innovation/chatgpt-space-pages-slides-google-workspace-alternative/",
@@ -1147,6 +1317,36 @@
     "source": "zdnet.com",
     "category": "AI & Security",
     "importance_score": 474,
+    "also_covered_by": []
+  },
+  {
+    "title": "Security Teams Can Now Monitor Claude Chats, Files and AI Agent Activity",
+    "summary": "<p>The Claude Compliance API gives security teams visibility into employee and AI-agent activity, integrating Claude data with existing monitoring, DLP, identity, eDiscovery, SIEM, and security workflows. The change addresses a growing enterprise security challenge: generative AI tools are increasingly used for research, software development, document processing, and automated workflows, but they can also become a [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/security-teams-can-monitor-claude-activity/\">Security Teams Can Now Monitor Claude Chats, Files and AI Agent Activity</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/security-teams-can-monitor-claude-activity/",
+    "published": "2026-09-30T10:46:10",
+    "source": "cybersecuritynews.com",
+    "category": "Policy / Law",
+    "importance_score": 472,
+    "also_covered_by": []
+  },
+  {
+    "title": "AI Agent Finds Linux Kernel Bug That Turns a Tiny Memory Write Into Root Access",
+    "summary": "<p>Autonomous security research platform XBOW has disclosed CVE-2026-72018, a high-severity Linux kernel vulnerability that converts a tightly constrained out-of-bounds memory write into local root access. The flaw affects the DIBS loopback implementation used by the SMC-D shared-memory communication path, where a missing bounds check allows attacker-controlled data to be copied beyond an allocated kernel buffer. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ai-agent-finds-linux-kernel-bug/\">AI Agent Finds Linux Kernel Bug That Turns a Tiny Memory Write Into Root Access</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/ai-agent-finds-linux-kernel-bug/",
+    "published": "2026-09-30T08:50:27",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 471,
+    "also_covered_by": []
+  },
+  {
+    "title": "RSA Launches Agent ID Platform to Secure AI Agents and MCP Servers",
+    "summary": "<p>RSA has announced RSA Agent ID, a new identity security platform that helps regulated organizations discover, secure, and govern AI agents. The launch targets financial services, government agencies, critical infrastructure operators, and other organizations that need to control what AI agents can access and prove who authorized sensitive actions. The platform addresses a growing problem [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/rsa-agent-id/\">RSA Launches Agent ID Platform to Secure AI Agents and MCP Servers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/rsa-agent-id/",
+    "published": "2026-09-30T09:49:50",
+    "source": "cybersecuritynews.com",
+    "category": "AI & Security",
+    "importance_score": 457,
     "also_covered_by": []
   },
   {
@@ -1776,16 +1976,6 @@
     "published": "2026-09-29T09:04:06",
     "source": "bleepingcomputer.com",
     "category": "Vulnerability",
-    "importance_score": 206,
-    "also_covered_by": []
-  },
-  {
-    "title": "Timeshare exit scams: From fake buyers to recovery fraud",
-    "summary": "Con artists are targeting timeshare owners who want out – and some victims are hit twice",
-    "link": "https://www.welivesecurity.com/en/scams/timeshare-exit-scams-fake-buyers-recovery-scams/",
-    "published": "2026-09-29T09:00:00",
-    "source": "welivesecurity.com",
-    "category": "Phishing / Scams",
     "importance_score": 206,
     "also_covered_by": []
   },
@@ -2606,6 +2796,16 @@
     "published": "2026-09-16T09:00:00",
     "source": "welivesecurity.com",
     "category": "AI & Security",
+    "importance_score": 36,
+    "also_covered_by": []
+  },
+  {
+    "title": "Beyond the screenshot: Why you should verify what you see",
+    "summary": "The screenshot may look convincing, but it doesn’t necessarily prove that the payment, booking or conversation is genuine",
+    "link": "https://www.welivesecurity.com/en/cybersecurity/beyond-screenshot-why-verify-you-see/",
+    "published": "2026-07-30T08:50:00",
+    "source": "welivesecurity.com",
+    "category": "Other",
     "importance_score": 36,
     "also_covered_by": []
   },
