@@ -860,6 +860,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Armadin raises $255.5 million to expand AI offensive security platform",
+    "summary": "<p>Armadin has raised $255.5 million in Series B funding co-led by Andreessen Horowitz (a16z) and Accel that brings the company’s valuation to over $2.5 billion. The round includes participation from new investors Bain Capital Ventures (BCV) and Redpoint. Existing investors 8VC, Ballistic Ventures, Google Ventures, In-Q-Tel, Kleiner Perkins, and Menlo Ventures also returned, reflecting their continued confidence, bringing Armadin’s total funding to $445 million. Seven months after emerging from stealth, Armadin is running agentic attack &#8230; <a href=\"https://www.helpnetsecurity.com/2026/10/01/armadin-raises-255-5-million-funding/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/10/01/armadin-raises-255-5-million-funding/\">Armadin raises $255.5 million to expand AI offensive security platform</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "link": "https://www.helpnetsecurity.com/2026/10/01/armadin-raises-255-5-million-funding/",
+    "published": "2026-10-01T11:16:53",
+    "source": "helpnetsecurity.com",
+    "category": "Policy / Law",
+    "importance_score": 650,
+    "also_covered_by": []
+  },
+  {
     "title": "The vulnerabilities AI finds are the ones attackers want",
     "summary": "<p>Attackers exploited a flaw found by an AI research agent within four days of its public disclosure, and they are exploiting more vulnerabilities overall, according to new research by Google Threat Intelligence Group (GTIG). The researchers examined vulnerability disclosure and exploitation data from January 2025 to August 2026. Disclosures doubled, exploitation stays rare Monthly CVE disclosures doubled in 2026, from 5,045 in January to 10,740 in August. Only 0.23% of the vulnerabilities disclosed this year, &#8230; <a href=\"https://www.helpnetsecurity.com/2026/10/01/google-ai-discovered-vulnerabilities-remote-code-execution/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/10/01/google-ai-discovered-vulnerabilities-remote-code-execution/\">The vulnerabilities AI finds are the ones attackers want</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
     "link": "https://www.helpnetsecurity.com/2026/10/01/google-ai-discovered-vulnerabilities-remote-code-execution/",
@@ -876,16 +886,6 @@
     "published": "2026-10-01T04:00:41",
     "source": "helpnetsecurity.com",
     "category": "Policy / Law",
-    "importance_score": 650,
-    "also_covered_by": []
-  },
-  {
-    "title": "Google’s SynthID Bio can watermark AI-designed protein binders without breaking them",
-    "summary": "<p>Google DeepMind has built SynthID Bio, a watermark for AI-designed proteins, and shown in wet-lab tests on protein binders that it leaves their function intact. The method hides a signature in the amino acid sequence of a designed protein and in the atomic coordinates of a predicted 3D structure. DeepMind says the signature can be checked on the physical protein after synthesis. DeepMind aims the watermark at DNA synthesis screening. Providers who turn digital protein &#8230; <a href=\"https://www.helpnetsecurity.com/2026/10/01/synthid-bio-watermark/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/10/01/synthid-bio-watermark/\">Google&#8217;s SynthID Bio can watermark AI-designed protein binders without breaking them</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
-    "link": "https://www.helpnetsecurity.com/2026/10/01/synthid-bio-watermark/",
-    "published": "2026-10-01T03:31:14",
-    "source": "helpnetsecurity.com",
-    "category": "Other",
     "importance_score": 650,
     "also_covered_by": []
   },
@@ -1017,16 +1017,6 @@
     "source": "infosecurity-magazine.com",
     "category": "Other",
     "importance_score": 583,
-    "also_covered_by": []
-  },
-  {
-    "title": "Malwarebytes earns another Top Product award in independent testing",
-    "summary": "Three independent labs, three standout results: a perfect score, top certification, and every threat stopped before it ran.",
-    "link": "https://www.malwarebytes.com/blog/product/2026/10/malwarebytes-earns-another-top-product-award-in-independent-testing",
-    "published": "2026-10-01T10:51:52",
-    "source": "malwarebytes.com",
-    "category": "Other",
-    "importance_score": 580,
     "also_covered_by": []
   },
   {
@@ -1837,6 +1827,16 @@
     "source": "malwarebytes.com",
     "category": "Ransomware",
     "importance_score": 285,
+    "also_covered_by": []
+  },
+  {
+    "title": "How device code phishing gives scammers access to your account",
+    "summary": "A scammer asks you to enter a code to open a file or join a meeting. Approving it could sign them in to your account instead.",
+    "link": "https://www.malwarebytes.com/blog/how-to/2026/09/how-device-code-phishing-gives-scammers-access-to-your-account",
+    "published": "2026-09-23T18:59:38",
+    "source": "malwarebytes.com",
+    "category": "Phishing / Scams",
+    "importance_score": 281,
     "also_covered_by": []
   },
   {
