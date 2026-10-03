@@ -1,10 +1,10 @@
 CYBERBRIEF • DAILY THREAT INTELLIGENCE
-Generated: Saturday, October 03, 2026 - 10:08 UTC
+Generated: Saturday, October 03, 2026 - 10:10 UTC
 ================================================================================
 
-Total topics: 294    •    Scanned raw articles: 294
+Total topics: 304    •    Scanned raw articles: 304
 Severity breakdown:
-  CRITICAL: 5  |  HIGH: 10  |  MEDIUM: 48  |  LOW: 231
+  CRITICAL: 5  |  HIGH: 12  |  MEDIUM: 52  |  LOW: 235
 
 Top 7 active threats:
 
@@ -14,29 +14,29 @@ Top 7 active threats:
    Published: 2025-10-28T17:01:00
    Link     : http://security.googleblog.com/2025/10/https-by-default.html
 
-2. Alert Triangle  security.googleblog.com  [News Site]
+2. Alert Triangle  gbhackers.com  [News Site]
+   Title    : Citrix NetScaler Appliances Reboot Repeatedly After 0-Day Security Update
+   Category : Vulnerability    •    Severity: CRITICAL (score: 2435)
+   Published: 2026-10-03T05:51:55
+   Link     : https://gbhackers.com/citrix-netscaler-appliances-reboot/
+
+3. Alert Triangle  security.googleblog.com  [News Site]
    Title    : Bringing Rust to the Pixel Baseband
    Category : Ransomware    •    Severity: CRITICAL (score: 2380)
    Published: 2026-04-10T15:12:00
    Link     : http://security.googleblog.com/2026/04/bringing-rust-to-pixel-baseband.html
 
-3. Alert Triangle  security.googleblog.com  [News Site]
+4. Alert Triangle  security.googleblog.com  [News Site]
    Title    : Rust in Android: move fast and fix things
    Category : Ransomware    •    Severity: CRITICAL (score: 2380)
    Published: 2025-11-13T16:59:00
    Link     : http://security.googleblog.com/2025/11/rust-in-android-move-fast-fix-things.html
 
-4. Alert Triangle  unit42.paloaltonetworks.com  [News Site]
+5. Alert Triangle  unit42.paloaltonetworks.com  [News Site]
    Title    : Threat Brief: NetScaler Zero Days CVE-2026-88771 and CVE-2026-88772 Exploited in the Wild (Updated September 30)
    Category : Vulnerability    •    Severity: CRITICAL (score: 2255)
    Published: 2026-09-30T20:00:04
    Link     : https://unit42.paloaltonetworks.com/netscaler-zero-days-exploited/
-
-5. Alert Triangle  krebsonsecurity.com  [Newspaper]
-   Title    : Two Alleged ‘TeamPCP’ Hackers Arrested in Australia
-   Category : Vulnerability    •    Severity: CRITICAL (score: 2040)
-   Published: 2026-08-27T11:04:15
-   Link     : https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/
 
 6. Shield Check  security.googleblog.com  [News Site]
    Title    : Android Quick Share Support for AirDrop: A Secure Approach to Cross-Platform File Sharing
@@ -44,17 +44,17 @@ Top 7 active threats:
    Published: 2025-11-20T17:00:00
    Link     : http://security.googleblog.com/2025/11/android-quick-share-support-for-airdrop-security.html
 
-7. Shield Check  thecyberexpress.com  [Link]
-   Title    : MSP360 RMM Abused in Phishing Campaigns to Deploy ScreenConnect
-   Category : Ransomware    •    Severity: HIGH (score: 1950)
-   Published: 2026-10-01T07:36:58
-   Link     : https://thecyberexpress.com/msp360-rmm-phishing-screenconnect/
+7. Shield Check  cybersecuritynews.com  [News Site]
+   Title    : Citrix NetScaler Keeps Rebooting Following the 0-Day Patch
+   Category : Vulnerability    •    Severity: HIGH (score: 1956)
+   Published: 2026-10-03T02:41:43
+   Link     : https://cybersecuritynews.com/citrix-netscaler-0-day-patch/
 
 Security Tips:
 • Never trust unsolicited links or attachments in email or messaging apps.
 • Enable multi-factor authentication (MFA) on email, banking, and admin accounts.
 • Keep browsers, VPNs, and endpoint security fully patched.
 
-Scanned 294 articles • Top 7 topics selected
+Scanned 304 articles • Top 7 topics selected
 Next planned auto-update: 08:00 AM UTC
 Stay safe, stay sharp!
