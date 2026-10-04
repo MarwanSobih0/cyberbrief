@@ -1,10 +1,10 @@
 CYBERBRIEF • DAILY THREAT INTELLIGENCE
-Generated: Sunday, October 04, 2026 - 10:49 UTC
+Generated: Sunday, October 04, 2026 - 10:52 UTC
 ================================================================================
 
-Total topics: 294    •    Scanned raw articles: 294
+Total topics: 304    •    Scanned raw articles: 304
 Severity breakdown:
-  CRITICAL: 6  |  HIGH: 10  |  MEDIUM: 41  |  LOW: 237
+  CRITICAL: 7  |  HIGH: 10  |  MEDIUM: 45  |  LOW: 242
 
 Top 7 active threats:
 
@@ -44,17 +44,17 @@ Top 7 active threats:
    Published: 2026-09-30T20:00:04
    Link     : https://unit42.paloaltonetworks.com/netscaler-zero-days-exploited/
 
-7. Shield Check  security.googleblog.com  [News Site]
-   Title    : Android Quick Share Support for AirDrop: A Secure Approach to Cross-Platform File Sharing
-   Category : Data Breach    •    Severity: HIGH (score: 1959)
-   Published: 2025-11-20T17:00:00
-   Link     : http://security.googleblog.com/2025/11/android-quick-share-support-for-airdrop-security.html
+7. Alert Triangle  krebsonsecurity.com  [Newspaper]
+   Title    : Two Alleged ‘TeamPCP’ Hackers Arrested in Australia
+   Category : Vulnerability    •    Severity: CRITICAL (score: 2040)
+   Published: 2026-08-27T11:04:15
+   Link     : https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/
 
 Security Tips:
 • Never trust unsolicited links or attachments in email or messaging apps.
 • Enable multi-factor authentication (MFA) on email, banking, and admin accounts.
 • Keep browsers, VPNs, and endpoint security fully patched.
 
-Scanned 294 articles • Top 7 topics selected
+Scanned 304 articles • Top 7 topics selected
 Next planned auto-update: 08:00 AM UTC
 Stay safe, stay sharp!
