@@ -1,10 +1,10 @@
 CYBERBRIEF • DAILY THREAT INTELLIGENCE
-Generated: Monday, October 05, 2026 - 11:57 UTC
+Generated: Monday, October 05, 2026 - 12:00 UTC
 ================================================================================
 
 Total topics: 304    •    Scanned raw articles: 304
 Severity breakdown:
-  CRITICAL: 6  |  HIGH: 7  |  MEDIUM: 52  |  LOW: 239
+  CRITICAL: 5  |  HIGH: 12  |  MEDIUM: 53  |  LOW: 234
 
 Top 7 active threats:
 
@@ -14,41 +14,41 @@ Top 7 active threats:
    Published: 2025-10-28T17:01:00
    Link     : http://security.googleblog.com/2025/10/https-by-default.html
 
-2. Alert Triangle  helpnetsecurity.com  [Shield]
-   Title    : Week in review: Researcher breaks into Microsoft analytics service, NetScaler RCE 0-day exploited
-   Category : Vulnerability    •    Severity: CRITICAL (score: 2450)
-   Published: 2026-10-04T08:00:19
-   Link     : https://www.helpnetsecurity.com/2026/10/04/week-in-review-researcher-breaks-into-microsoft-analytics-service-netscaler-rce-0-day-exploited/
-
-3. Alert Triangle  security.googleblog.com  [News Site]
+2. Alert Triangle  security.googleblog.com  [News Site]
    Title    : Bringing Rust to the Pixel Baseband
    Category : Ransomware    •    Severity: CRITICAL (score: 2380)
    Published: 2026-04-10T15:12:00
    Link     : http://security.googleblog.com/2026/04/bringing-rust-to-pixel-baseband.html
 
-4. Alert Triangle  security.googleblog.com  [News Site]
+3. Alert Triangle  security.googleblog.com  [News Site]
    Title    : Rust in Android: move fast and fix things
    Category : Ransomware    •    Severity: CRITICAL (score: 2380)
    Published: 2025-11-13T16:59:00
    Link     : http://security.googleblog.com/2025/11/rust-in-android-move-fast-fix-things.html
 
-5. Alert Triangle  unit42.paloaltonetworks.com  [News Site]
+4. Alert Triangle  unit42.paloaltonetworks.com  [News Site]
    Title    : Threat Brief: NetScaler Zero Days CVE-2026-88771 and CVE-2026-88772 Exploited in the Wild (Updated September 30)
    Category : Vulnerability    •    Severity: CRITICAL (score: 2045)
    Published: 2026-09-30T20:00:04
    Link     : https://unit42.paloaltonetworks.com/netscaler-zero-days-exploited/
 
-6. Alert Triangle  krebsonsecurity.com  [Newspaper]
+5. Alert Triangle  krebsonsecurity.com  [Newspaper]
    Title    : Two Alleged ‘TeamPCP’ Hackers Arrested in Australia
    Category : Vulnerability    •    Severity: CRITICAL (score: 2040)
    Published: 2026-08-27T11:04:15
    Link     : https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/
 
-7. Shield Check  security.googleblog.com  [News Site]
+6. Shield Check  security.googleblog.com  [News Site]
    Title    : Android Quick Share Support for AirDrop: A Secure Approach to Cross-Platform File Sharing
    Category : Data Breach    •    Severity: HIGH (score: 1959)
    Published: 2025-11-20T17:00:00
    Link     : http://security.googleblog.com/2025/11/android-quick-share-support-for-airdrop-security.html
+
+7. Shield Check  microsoft.com  [News Site]
+   Title    : Beyond the ransomware: Tracking Storm-2570’s consistent tradecraft across deployments
+   Category : Ransomware    •    Severity: HIGH (score: 1902)
+   Published: 2026-09-24T16:00:00
+   Link     : https://www.microsoft.com/en-us/security/blog/2026/09/24/beyond-ransomware-tracking-storm-2570-consistent-tradecraft-across-deployments/
 
 Security Tips:
 • Never trust unsolicited links or attachments in email or messaging apps.
