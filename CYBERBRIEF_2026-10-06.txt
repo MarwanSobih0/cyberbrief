@@ -1,10 +1,10 @@
 CYBERBRIEF • DAILY THREAT INTELLIGENCE
-Generated: Tuesday, October 06, 2026 - 11:37 UTC
+Generated: Tuesday, October 06, 2026 - 11:43 UTC
 ================================================================================
 
-Total topics: 314    •    Scanned raw articles: 314
+Total topics: 304    •    Scanned raw articles: 304
 Severity breakdown:
-  CRITICAL: 6  |  HIGH: 14  |  MEDIUM: 62  |  LOW: 232
+  CRITICAL: 5  |  HIGH: 14  |  MEDIUM: 58  |  LOW: 227
 
 Top 7 active threats:
 
@@ -38,23 +38,23 @@ Top 7 active threats:
    Published: 2026-09-30T20:00:04
    Link     : https://unit42.paloaltonetworks.com/netscaler-zero-days-exploited/
 
-6. Alert Triangle  krebsonsecurity.com  [Newspaper]
-   Title    : Two Alleged ‘TeamPCP’ Hackers Arrested in Australia
-   Category : Vulnerability    •    Severity: CRITICAL (score: 2040)
-   Published: 2026-08-27T11:04:15
-   Link     : https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/
-
-7. Shield Check  bleepingcomputer.com  [Newspaper]
+6. Shield Check  bleepingcomputer.com  [Newspaper]
    Title    : Rejetto HFS servers now actively scanned for critical RCE flaw
    Category : Vulnerability    •    Severity: HIGH (score: 1977)
    Published: 2026-10-05T20:20:05
    Link     : https://www.bleepingcomputer.com/news/security/rejetto-hfs-servers-now-actively-scanned-for-critical-rce-flaw/
+
+7. Shield Check  security.googleblog.com  [News Site]
+   Title    : Android Quick Share Support for AirDrop: A Secure Approach to Cross-Platform File Sharing
+   Category : Data Breach    •    Severity: HIGH (score: 1959)
+   Published: 2025-11-20T17:00:00
+   Link     : http://security.googleblog.com/2025/11/android-quick-share-support-for-airdrop-security.html
 
 Security Tips:
 • Never trust unsolicited links or attachments in email or messaging apps.
 • Enable multi-factor authentication (MFA) on email, banking, and admin accounts.
 • Keep browsers, VPNs, and endpoint security fully patched.
 
-Scanned 314 articles • Top 7 topics selected
+Scanned 304 articles • Top 7 topics selected
 Next planned auto-update: 08:00 AM UTC
 Stay safe, stay sharp!
