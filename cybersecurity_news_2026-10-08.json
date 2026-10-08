@@ -1570,6 +1570,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Inside a brand deal scam targeting YouTube creators",
+    "summary": "A plausible-sounding sponsorship offer could mask an attempt to compromise your Google account",
+    "link": "https://www.welivesecurity.com/en/social-media/brand-deal-scam-targeting-youtube-creators/",
+    "published": "2026-10-07T09:00:00",
+    "source": "welivesecurity.com",
+    "category": "Phishing / Scams",
+    "importance_score": 387,
+    "also_covered_by": []
+  },
+  {
     "title": "Hackers exploit critical Atlassian flaw after public PoC release",
     "summary": "A critical vulnerability (CVE-2026-21589) affecting multiple Atlassian product families, including Jira, Confluence, and Bitbucket, is being exploited in attacks that do not require authentication. [...]",
     "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-atlassian-flaw-after-public-poc-release/",
@@ -2586,16 +2596,6 @@
     "published": "2026-09-24T09:00:00",
     "source": "welivesecurity.com",
     "category": "Phishing / Scams",
-    "importance_score": 38,
-    "also_covered_by": []
-  },
-  {
-    "title": "Black Hat USA 2026: AI is racing ahead of cybersecurity controls",
-    "summary": "AI took center stage, but the clearest lesson was less about what AI can do than about who is accountable when something goes wrong",
-    "link": "https://www.welivesecurity.com/en/business-security/black-hat-usa-2026-ai-racing-cybersecurity-controls/",
-    "published": "2026-08-12T13:28:07",
-    "source": "welivesecurity.com",
-    "category": "AI & Security",
     "importance_score": 38,
     "also_covered_by": []
   },
