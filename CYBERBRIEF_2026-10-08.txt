@@ -1,0 +1,60 @@
+CYBERBRIEF • DAILY THREAT INTELLIGENCE
+Generated: Thursday, October 08, 2026 - 11:43 UTC
+================================================================================
+
+Total topics: 304    •    Scanned raw articles: 304
+Severity breakdown:
+  CRITICAL: 6  |  HIGH: 9  |  MEDIUM: 55  |  LOW: 234
+
+Top 7 active threats:
+
+1. Alert Triangle  thecyberexpress.com  [Link]
+   Title    : 86,644 Firewalls in 194 Countries Breached With Stolen Passwords
+   Category : Ransomware    •    Severity: CRITICAL (score: 2800)
+   Published: 2026-10-07T07:13:27
+   Link     : https://thecyberexpress.com/fortibleed-campaign-hits-fortinet-devices/
+
+2. Alert Triangle  security.googleblog.com  [News Site]
+   Title    : HTTPS by default
+   Category : Vulnerability    •    Severity: CRITICAL (score: 2520)
+   Published: 2025-10-28T17:01:00
+   Link     : http://security.googleblog.com/2025/10/https-by-default.html
+
+3. Alert Triangle  security.googleblog.com  [News Site]
+   Title    : Bringing Rust to the Pixel Baseband
+   Category : Ransomware    •    Severity: CRITICAL (score: 2380)
+   Published: 2026-04-10T15:12:00
+   Link     : http://security.googleblog.com/2026/04/bringing-rust-to-pixel-baseband.html
+
+4. Alert Triangle  security.googleblog.com  [News Site]
+   Title    : Rust in Android: move fast and fix things
+   Category : Ransomware    •    Severity: CRITICAL (score: 2380)
+   Published: 2025-11-13T16:59:00
+   Link     : http://security.googleblog.com/2025/11/rust-in-android-move-fast-fix-things.html
+
+5. Alert Triangle  unit42.paloaltonetworks.com  [News Site]
+   Title    : Threat Brief: NetScaler Zero Days CVE-2026-88771 and CVE-2026-88772 Exploited in the Wild (Updated September 30)
+   Category : Vulnerability    •    Severity: CRITICAL (score: 2045)
+   Published: 2026-09-30T20:00:04
+   Link     : https://unit42.paloaltonetworks.com/netscaler-zero-days-exploited/
+
+6. Alert Triangle  unit42.paloaltonetworks.com  [News Site]
+   Title    : Evolution of Web3 in Cloud Supply Chain Attacks
+   Category : Vulnerability    •    Severity: CRITICAL (score: 2018)
+   Published: 2026-10-07T22:00:16
+   Link     : https://unit42.paloaltonetworks.com/web3-cloud-supply-chain-attacks/
+
+7. Shield Check  security.googleblog.com  [News Site]
+   Title    : Android Quick Share Support for AirDrop: A Secure Approach to Cross-Platform File Sharing
+   Category : Data Breach    •    Severity: HIGH (score: 1959)
+   Published: 2025-11-20T17:00:00
+   Link     : http://security.googleblog.com/2025/11/android-quick-share-support-for-airdrop-security.html
+
+Security Tips:
+• Never trust unsolicited links or attachments in email or messaging apps.
+• Enable multi-factor authentication (MFA) on email, banking, and admin accounts.
+• Keep browsers, VPNs, and endpoint security fully patched.
+
+Scanned 304 articles • Top 7 topics selected
+Next planned auto-update: 08:00 AM UTC
+Stay safe, stay sharp!
