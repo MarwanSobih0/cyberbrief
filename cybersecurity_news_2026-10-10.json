@@ -2050,16 +2050,6 @@
     "also_covered_by": []
   },
   {
-    "title": "AI-powered phishkit arms criminals with account-hijacking tools in 10 minutes",
-    "summary": "BlueKit puts account-hijacking tools in more criminals’ hands, making it easier to target you with convincing fake login pages and scam messages.",
-    "link": "https://www.malwarebytes.com/blog/threat-intel/2026/10/ai-powered-phishkit-arms-criminals-with-account-hijacking-tools-in-10-minutes",
-    "published": "2026-10-07T10:54:19",
-    "source": "malwarebytes.com",
-    "category": "Phishing / Scams",
-    "importance_score": 186,
-    "also_covered_by": []
-  },
-  {
     "title": "Critical Flaw in Multiple Atlassian Products Exploited in the Wild",
     "summary": "A critical vulnerability affecting eight Atlassian products, including Jira and Confluence, is being exploited in the wild, said VulnCheck",
     "link": "https://www.infosecurity-magazine.com/news/critical-vulnerability-atlassian/",
@@ -2666,6 +2656,16 @@
     "published": "2026-09-16T09:00:00",
     "source": "welivesecurity.com",
     "category": "AI & Security",
+    "importance_score": 36,
+    "also_covered_by": []
+  },
+  {
+    "title": "AI-powered phishkit arms criminals with account-hijacking tools in 10 minutes",
+    "summary": "BlueKit puts account-hijacking tools in more criminals’ hands, making it easier to target you with convincing fake login pages and scam messages.",
+    "link": "https://www.malwarebytes.com/blog/threat-intel/2026/10/ai-powered-phishkit-arms-criminals-with-account-hijacking-tools-in-10-minutes",
+    "published": "2026-10-07T10:54:19",
+    "source": "malwarebytes.com",
+    "category": "Phishing / Scams",
     "importance_score": 36,
     "also_covered_by": []
   },
