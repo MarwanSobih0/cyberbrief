@@ -1520,16 +1520,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Meta’s Muse AI files away your friendships, arguments, and secrets",
-    "summary": "Meta’s Muse AI builds personal dossiers that would make the FBI jealous. Even people who never signed up can get caught in its files.",
-    "link": "https://www.malwarebytes.com/blog/privacy/2026/10/metas-muse-ai-files-away-your-friendships-arguments-and-secrets",
-    "published": "2026-10-08T11:07:58",
-    "source": "malwarebytes.com",
-    "category": "AI & Security",
-    "importance_score": 333,
-    "also_covered_by": []
-  },
-  {
     "title": "GuardBreaker: Derailing AI-assisted malware analysis with a code comment",
     "summary": "LLM-based code scanners won’t help attackers build a nuclear weapon, but that refusal could work in their favor",
     "link": "https://www.welivesecurity.com/en/business-security/guardbreaker-derailing-ai-assisted-malware-analysis-code-comment/",
@@ -2047,6 +2037,16 @@
     "source": "zdnet.com",
     "category": "AI & Security",
     "importance_score": 185,
+    "also_covered_by": []
+  },
+  {
+    "title": "Meta’s Muse AI files away your friendships, arguments, and secrets",
+    "summary": "Meta’s Muse AI builds personal dossiers that would make the FBI jealous. Even people who never signed up can get caught in its files.",
+    "link": "https://www.malwarebytes.com/blog/privacy/2026/10/metas-muse-ai-files-away-your-friendships-arguments-and-secrets",
+    "published": "2026-10-08T11:07:58",
+    "source": "malwarebytes.com",
+    "category": "AI & Security",
+    "importance_score": 183,
     "also_covered_by": []
   },
   {
