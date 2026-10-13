@@ -30,16 +30,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Hackers Exploit Citrix NetScaler Zero-Days to Deploy Modified Platypus Backdoor",
-    "summary": "<p>Threat actors are exploiting two critical zero-day vulnerabilities in Citrix NetScaler to deploy a modified version of the open-source Platypus remote administration framework on compromised Application Delivery Controller (ADC) and Gateway appliances. Binary Defense&#8217;s Analysis on Demand and Incident Response team investigated an intrusion involving two Citrix NetScaler devices. One appliance showed evidence of exploitation [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-exploit-citrix-netscaler-zero-days/\">Hackers Exploit Citrix NetScaler Zero-Days to Deploy Modified Platypus Backdoor</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/hackers-exploit-citrix-netscaler-zero-days/",
-    "published": "2026-10-13T12:12:59",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 2087,
-    "also_covered_by": []
-  },
-  {
     "title": "Threat Brief: NetScaler Zero Days CVE-2026-88771 and CVE-2026-88772 Exploited in the Wild (Updated September 30)",
     "summary": "<p>Unit 42 is aware of possible 0-day activity against NetScaler devices. Citrix reports CVE-2026-88771, CVE-2026-88772 have been exploited in the wild. </p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/netscaler-zero-days-exploited/\">Threat Brief: NetScaler Zero Days CVE-2026-88771 and CVE-2026-88772 Exploited in the Wild (Updated September 30)</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
     "link": "https://unit42.paloaltonetworks.com/netscaler-zero-days-exploited/",
@@ -77,16 +67,6 @@
     "source": "thehackernews.com",
     "category": "Ransomware",
     "importance_score": 1868,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hackers Exploit Citrix NetScaler 0-Days to Deploy Platypus Remote Access Tool",
-    "summary": "<p>Threat actors are exploiting two critical Citrix NetScaler zero-day vulnerabilities to deploy a modified Platypus remote access tool on exposed ADC and Gateway appliances. The activity shows how quickly attackers are moving from initial access to persistent control of edge devices that often sit between corporate networks and the public internet. The campaign targets CVE-2026-88771 [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-exploit-citrix-netscaler-0-days/\">Hackers Exploit Citrix NetScaler 0-Days to Deploy Platypus Remote Access Tool</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/hackers-exploit-citrix-netscaler-0-days/",
-    "published": "2026-10-13T10:33:55",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 1815,
     "also_covered_by": []
   },
   {
@@ -330,16 +310,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Kimsuky Uses Quasar RAT to Deploy Funhouse Ransomware Through Multi-Stage Scripts",
-    "summary": "<p>A Kimsuky campaign that delivers Funhouse ransomware through a malicious Hangul document disguised as a resume. The operation combines embedded OLE objects, sequential scripts, a Python backdoor, and Quasar RAT, linking the September 2026 activity to earlier Endpoint ransomware deployments attributed to the group. The findings indicate continuity rather than an entirely new ransomware operation. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/funhouse-ransomware-attack/\">Kimsuky Uses Quasar RAT to Deploy Funhouse Ransomware Through Multi-Stage Scripts</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/funhouse-ransomware-attack/",
-    "published": "2026-10-13T10:07:21",
-    "source": "gbhackers.com",
-    "category": "Ransomware",
-    "importance_score": 1175,
-    "also_covered_by": []
-  },
-  {
     "title": "Star Blizzard refines phishing and malware delivery with the RedFlick technique",
     "summary": "<p>Since January 2026, Microsoft has observed Russian state threat actor Star Blizzard evolve their detection evasion capabilities through large-scale phishing campaigns, the use of accounts on compromised websites, and a novel malware delivery technique, tracked by Microsoft as “RedFlick”.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/09/29/star-blizzard-refines-phishing-and-malware-delivery-with-the-redflick-technique/\">Star Blizzard refines phishing and malware delivery with the RedFlick technique</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/09/29/star-blizzard-refines-phishing-and-malware-delivery-with-the-redflick-technique/",
@@ -410,26 +380,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Critical MariaDB Vulnerabilities Could Enable Remote Code Execution and Privilege Escalation",
-    "summary": "<p>MariaDB maintainers have disclosed ten vulnerabilities affecting database server components, Linux packaging, and Connector/C. Under specific conditions, these flaws could lead to remote code execution, privilege escalation, unauthorized table access, and credential theft. Although the headline uses &#8220;Critical,&#8221; the advisories classify six vulnerabilities as High and four as Moderate; none has a Critical rating. Critical [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-mariadb-vulnerabilities/\">Critical MariaDB Vulnerabilities Could Enable Remote Code Execution and Privilege Escalation</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/critical-mariadb-vulnerabilities/",
-    "published": "2026-10-13T09:56:31",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 1089,
-    "also_covered_by": []
-  },
-  {
-    "title": "Researchers Discover 253 Security Vulnerabilities Across 343 AI Agent Tools in MCP Servers",
-    "summary": "<p>Researchers have identified 253 verified security vulnerabilities affecting 343 AI agent tools across 118 Model Context Protocol (MCP) servers. These vulnerabilities expose weaknesses in how software processes arguments generated by large language models (LLMs). The findings are based on an evaluation of 273 open-source MCP servers containing 3,405 tools, using a new fuzzing framework called [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/researchers-discover-253-security-vulnerabilities/\">Researchers Discover 253 Security Vulnerabilities Across 343 AI Agent Tools in MCP Servers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/researchers-discover-253-security-vulnerabilities/",
-    "published": "2026-10-13T11:57:38",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 1082,
-    "also_covered_by": []
-  },
-  {
     "title": "Dutch tax authorities cancel Microsoft 365 cloud rollout – and turn toward open source",
     "summary": "Another European move toward digital sovereignty has curtailed adopting the US workplace suite.",
     "link": "https://www.zdnet.com/business/dutch-tax-authorities-cancel-microsoft-365-cloud-rollout/",
@@ -440,16 +390,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Critical Ghostscript Vulnerability Lets Malicious PDFs Trigger Remote Code Execution",
-    "summary": "<p>A critical vulnerability in Ghostscript could allow attackers to execute code on vulnerable servers by uploading a specially crafted PDF containing a malicious JPEG 2000 image. Tracked as CVE-2026-39919, the vulnerability is a heap-based buffer overflow rated 9.8 out of 10 under CVSS v3.1 and 9.3 under CVSS v4.0, reflecting a worst-case unauthenticated, network-reachable remote [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ghostscript-vulnerability/\">Critical Ghostscript Vulnerability Lets Malicious PDFs Trigger Remote Code Execution</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/ghostscript-vulnerability/",
-    "published": "2026-10-13T10:38:28",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 1071,
-    "also_covered_by": []
-  },
-  {
     "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
     "summary": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with individuals whose licenses are available for purchase on this service, it appears to be siphoning images collected by a widely-used identity verification company based in Louisiana. KrebsOnSecurity also has learned that the New Orleans field office of the Federal Bureau of Investigation (FBI) today launched an official inquiry into the source of the images.",
     "link": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
@@ -457,36 +397,6 @@
     "source": "krebsonsecurity.com",
     "category": "Vulnerability",
     "importance_score": 1068,
-    "also_covered_by": []
-  },
-  {
-    "title": "Top 10 Best Mobile Application Security Testing Tools in 2026 [Ranked & Scored]",
-    "summary": "<p>Mobile security is two budgets wearing one name: testing finds the flaws before release, shielding hardens the binary against the hostile devices it ships to. When evaluating Mobile Application Security Testing (MAST) tools alongside commercial mobile application penetration testing, engineering teams quickly discover that inspecting source code covers only half the threat landscape. We scored [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-mobile-appsec-testing-tools/\">Top 10 Best Mobile Application Security Testing Tools in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/best-mobile-appsec-testing-tools/",
-    "published": "2026-10-13T10:25:09",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 1068,
-    "also_covered_by": []
-  },
-  {
-    "title": "Top 10 Best RASP Tools in 2026 [Ranked & Scored]",
-    "summary": "<p>RASP’s idea block attacks from inside the running app won so convincingly that observability and edge platforms absorbed it, leaving a thinner standalone market that stale lists misrepresent. Rather than relying solely on pre-deployment scans from static application security testing (SAST) tools, modern engineering organizations deploy real-time runtime protection directly inside running workloads to intercept [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-rasp-tools/\">Top 10 Best RASP Tools in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/best-rasp-tools/",
-    "published": "2026-10-13T10:10:52",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 1061,
-    "also_covered_by": []
-  },
-  {
-    "title": "Meta Zurp AI Toolkit Connects Burp Suite With AI Coding Agents for Bug Bounty Research",
-    "summary": "<p>Meta has introduced Zurp, an open-source toolkit that connects Burp Suite workflows with AI coding agents for approved bug bounty research. The project is designed for vetted researchers in Meta’s bug bounty program and brings several research functions into one place, reducing the need to switch between separate tools, logins, and tokens while testing Meta-owned [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/meta-zurp-ai-toolkit/\">Meta Zurp AI Toolkit Connects Burp Suite With AI Coding Agents for Bug Bounty Research</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/meta-zurp-ai-toolkit/",
-    "published": "2026-10-13T10:03:55",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 1058,
     "also_covered_by": []
   },
   {
@@ -740,16 +650,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Fake Web3 Accelerator Offers Claude and Gemini Credits to Spread Malware",
-    "summary": "<p>A sophisticated campaign in which threat actors posed as a Web3 venture-capital accelerator to target cryptocurrency start-ups, developers and founders with free Claude and Gemini credits, AI coding tools and smart-contract security audits. It claimed to support more than 200 portfolio projects and to have raised over $124 million, while promoting founder assessments, security audits, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/fake-web3-accelerator/\">Fake Web3 Accelerator Offers Claude and Gemini Credits to Spread Malware</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/fake-web3-accelerator/",
-    "published": "2026-10-13T09:03:31",
-    "source": "gbhackers.com",
-    "category": "AI & Security",
-    "importance_score": 719,
-    "also_covered_by": []
-  },
-  {
     "title": "Anthropic rolls out program for ‘long-term commitment’ to secure critical infrastructure, open source software",
     "summary": "<p>The critical infrastructure defense program will seek to pair Claude models, Anthropic engineers and threat research with the expertise of cybersecurity companies.</p>\n<p>The post <a href=\"https://cyberscoop.com/anthropic-cybersecurity-program-critical-infrastructure-open-source/\">Anthropic rolls out program for ‘long-term commitment’ to secure critical infrastructure, open source software</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
     "link": "https://cyberscoop.com/anthropic-cybersecurity-program-critical-infrastructure-open-source/",
@@ -777,16 +677,6 @@
     "source": "thehackernews.com",
     "category": "Phishing / Scams",
     "importance_score": 711,
-    "also_covered_by": []
-  },
-  {
-    "title": "Fake Web3 Accelerator Uses Malicious npm Packages to Target Crypto Founders",
-    "summary": "<p>A fake Web3 accelerator called Apex has been using malicious npm packages to target cryptocurrency start-ups and founders with what appeared to be free AI credits, coding tools, smart-contract audits, investment access, and invitations to in-person events. Behind the polished Web3 pitch, the operation delivered malware for macOS and Windows, exposed AI-agent data to attacker-run [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fake-web3-accelerator/\">Fake Web3 Accelerator Uses Malicious npm Packages to Target Crypto Founders</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/fake-web3-accelerator/",
-    "published": "2026-10-13T11:59:35",
-    "source": "cybersecuritynews.com",
-    "category": "AI & Security",
-    "importance_score": 710,
     "also_covered_by": []
   },
   {
@@ -1000,26 +890,6 @@
     "also_covered_by": []
   },
   {
-    "title": "SonicWall Fixes 4 SMA 1000 Vulnerabilities, Including Critical CVSS 10.0 SSRF Flaw",
-    "summary": "<p>SonicWall released security updates to address four vulnerabilities in its SMA 1000 series appliances, including a critical server-side request forgery (SSRF) flaw rated 10.0. These vulnerabilities could allow unauthorized operations, operating system command execution, malicious archive extraction, and stored cross-site scripting. Published on October 6, 2026, advisory SNWLID-2026-0017 covers CVE-2026-102255, CVE-2026-102256, CVE-2026-102257, and CVE-2026-102258. SonicWall [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/sonicwall-fixes-4-sma-1000-vulnerabilities/\">SonicWall Fixes 4 SMA 1000 Vulnerabilities, Including Critical CVSS 10.0 SSRF Flaw</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/sonicwall-fixes-4-sma-1000-vulnerabilities/",
-    "published": "2026-10-13T10:04:47",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 499,
-    "also_covered_by": []
-  },
-  {
-    "title": "Amazon Fire TV Cube Security Flaws Allow Bootloader Unlocking and Permanent Root Access",
-    "summary": "<p>A recently released exploit package lets the third-generation Amazon Fire TV Cube gain an unlocked bootloader and persistent root access on firmware version PS7717 or earlier. Developed by XDA developer Pro-me3us, the project targets devices codenamed “gazelle”. It combines temporary privilege escalation with a separate bootloader vulnerability to enable lasting system modifications. This release includes [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/amazon-fire-tv-cube-security-flaws-allow-bootloader-unlocking-and-permanent-root-access/\">Amazon Fire TV Cube Security Flaws Allow Bootloader Unlocking and Permanent Root Access</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/amazon-fire-tv-cube-security-flaws-allow-bootloader-unlocking-and-permanent-root-access/",
-    "published": "2026-10-13T10:30:08",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 494,
-    "also_covered_by": []
-  },
-  {
     "title": "Nippon Columbia malware incident exposes 8.6 million karaoke fan records",
     "summary": "Daiichi Kosho, a major Japanese entertainment system maker, disclosed that a malware infection at its contractor, Nippon Columbia, exposed more than 8.7 million customer and employee records. [...]",
     "link": "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/",
@@ -1037,16 +907,6 @@
     "source": "infosecurity-magazine.com",
     "category": "Ransomware",
     "importance_score": 491,
-    "also_covered_by": []
-  },
-  {
-    "title": "Critical Progress MarkLogic Server Vulnerabilities Could Enable Code Execution and Privilege Escalation",
-    "summary": "<p>Progress has disclosed 31 vulnerabilities in MarkLogic Server that could lead to privilege escalation, server-side code execution, authentication bypass, credential exposure, and data compromise. In its security bulletin dated October 12, 2026, the company urges customers to install updates, warning that affected instances may operate normally without any prior signs of exploitation. The bulletin covers [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-progress-marklogic-server-vulnerabilities/\">Critical Progress MarkLogic Server Vulnerabilities Could Enable Code Execution and Privilege Escalation</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/critical-progress-marklogic-server-vulnerabilities/",
-    "published": "2026-10-13T10:15:18",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 489,
     "also_covered_by": []
   },
   {
@@ -1110,16 +970,6 @@
     "also_covered_by": []
   },
   {
-    "title": "XWorm HBrowser Plugin Lets Attackers Control Authenticated Browser Sessions Without Credentials",
-    "summary": "<p>XWorm’s HBrowser plugin gives attackers interactive control of authenticated browser sessions on infected endpoints, allowing them to operate accounts without stealing passwords or completing another multifactor authentication challenge. Researchers recorded 1,236 XWorm detection events across more than 100 customer organizations during Q3 2026, four times the volume observed in Q3 2025. Financial services represented approximately [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/xworm-hbrowser-plugin/\">XWorm HBrowser Plugin Lets Attackers Control Authenticated Browser Sessions Without Credentials</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/xworm-hbrowser-plugin/",
-    "published": "2026-10-13T11:01:50",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 487,
-    "also_covered_by": []
-  },
-  {
     "title": "Using Threat Intelligence to Stop Ransomware Attacks",
     "summary": "Learn how ransomware threat intelligence empowers your team to actively follow adversary infrastructure, monitor dark web chatter and prevent attacks.",
     "link": "https://www.recordedfuture.com/blog/ransomware-threat-intelligence",
@@ -1170,36 +1020,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Top 10 Best CI/CD Pipeline Security Tools in 2026 [Ranked & Scored]",
-    "summary": "<p>Supply-chain attackers stopped bothering with your code they poison the pipelines that build it. Modern build pipelines execute untrusted third-party code with elevated infrastructure privileges, making CI/CD pipeline security best practices the frontline of defense against software factory tampering. We scored ten options with native-first honesty: what your CI platform already includes resets every business [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-cicd-security-tools/\">Top 10 Best CI/CD Pipeline Security Tools in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/best-cicd-security-tools/",
-    "published": "2026-10-13T10:16:21",
-    "source": "cybersecuritynews.com",
-    "category": "Critical Infrastructure",
-    "importance_score": 467,
-    "also_covered_by": []
-  },
-  {
-    "title": "npm Trusted Publishing Flaw With 10 Million Downloads Exposes 1,500+ Packages to Malicious Takeover",
-    "summary": "<p>A security flaw in npm’s Trusted Publishing feature exposed more than 1,500 packages to possible takeover through reclaimed GitHub repository names. The affected packages accounted for more than 10 million total downloads and over one million downloads per month, creating a serious software supply-chain risk for developers, CI/CD systems, and organizations that rely on npm [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/npm-trusted-publishing-flaw/\">npm Trusted Publishing Flaw With 10 Million Downloads Exposes 1,500+ Packages to Malicious Takeover</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/npm-trusted-publishing-flaw/",
-    "published": "2026-10-13T10:56:59",
-    "source": "cybersecuritynews.com",
-    "category": "Policy / Law",
-    "importance_score": 466,
-    "also_covered_by": []
-  },
-  {
-    "title": "Anthropic Warns AI Models Could Soon Self-Replicate on Smart TVs and IoT Devices Without a Data Center",
-    "summary": "<p>Anthropic warns that small AI models may be months away from self-replicating across poorly secured smart TVs and other internet-connected devices. Its research suggests future AI worms could run on consumer hardware rather than depend on a data center, making them harder to shut down through a single central service. According to research published on October [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/anthropic-ai-self-replication-iot/\">Anthropic Warns AI Models Could Soon Self-Replicate on Smart TVs and IoT Devices Without a Data Center</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/anthropic-ai-self-replication-iot/",
-    "published": "2026-10-13T11:59:24",
-    "source": "cybersecuritynews.com",
-    "category": "AI & Security",
-    "importance_score": 465,
-    "also_covered_by": []
-  },
-  {
     "title": "Google’s new Fitbit Edge solves my biggest gripe with the Pixel Watch",
     "summary": "Google’s watches are too dang chunky.",
     "link": "https://www.zdnet.com/tech/googles-new-fitbit-edge-solves-my-biggest-gripe-with-the-pixel-watch/",
@@ -1210,16 +1030,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Amazon Fire TV Cube 3 Exploit Enables Root Access and Bootloader Unlock",
-    "summary": "<p>A public exploit package now lets owners of Amazon’s third-generation Fire TV Cube gain persistent root access and unlock the bootloader on firmware PS7717 or older. Released by XDA developer Pro-me3us, the project targets devices known as “gazelle”. It combines temporary root access with a separate bootloader flaw to enable deeper system changes. According to [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/amazon-fire-tv-cube-3-exploit/\">Amazon Fire TV Cube 3 Exploit Enables Root Access and Bootloader Unlock</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/amazon-fire-tv-cube-3-exploit/",
-    "published": "2026-10-13T09:46:44",
-    "source": "cybersecuritynews.com",
-    "category": "Policy / Law",
-    "importance_score": 456,
-    "also_covered_by": []
-  },
-  {
     "title": "Small AI Models May Soon Be Able to Self-Replicate on IoT Devices, Anthropic Warns",
     "summary": "<p>Experiments show cheap TV boxes can run capable AI models, and small models may soon be able to spread across such devices on their own.</p>\n<p>The post <a href=\"https://www.securityweek.com/small-ai-models-may-soon-be-able-to-self-replicate-on-iot-devices-anthropic-warns/\">Small AI Models May Soon Be Able to Self-Replicate on IoT Devices, Anthropic Warns</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
     "link": "https://www.securityweek.com/small-ai-models-may-soon-be-able-to-self-replicate-on-iot-devices-anthropic-warns/",
@@ -1227,16 +1037,6 @@
     "source": "securityweek.com",
     "category": "AI & Security",
     "importance_score": 451,
-    "also_covered_by": []
-  },
-  {
-    "title": "Top 10 Best SBOM Tools in 2026 [Ranked & Scored]",
-    "summary": "<p>Federal buyers, the FDA, and the EU’s CRA era all want your software’s ingredients list and next year’s CVE will interrogate the SBOMs you generate today. Evaluating these platforms alongside the Top 10 Best Software Supply Chain Security Tools shows that simply creating a static inventory is insufficient; organizations must manage, correlate, and monitor those [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-sbom-tools/\">Top 10 Best SBOM Tools in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/best-sbom-tools/",
-    "published": "2026-10-13T10:21:12",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 448,
     "also_covered_by": []
   },
   {

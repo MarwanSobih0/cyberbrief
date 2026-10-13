@@ -1,10 +1,10 @@
 CYBERBRIEF • DAILY THREAT INTELLIGENCE
-Generated: Tuesday, October 13, 2026 - 12:23 UTC
+Generated: Tuesday, October 13, 2026 - 12:26 UTC
 ================================================================================
 
-Total topics: 314    •    Scanned raw articles: 314
+Total topics: 294    •    Scanned raw articles: 294
 Severity breakdown:
-  CRITICAL: 6  |  HIGH: 14  |  MEDIUM: 44  |  LOW: 250
+  CRITICAL: 5  |  HIGH: 13  |  MEDIUM: 37  |  LOW: 239
 
 Top 7 active threats:
 
@@ -26,35 +26,35 @@ Top 7 active threats:
    Published: 2025-11-13T16:59:00
    Link     : http://security.googleblog.com/2025/11/rust-in-android-move-fast-fix-things.html
 
-4. Alert Triangle  gbhackers.com  [News Site]
-   Title    : Hackers Exploit Citrix NetScaler Zero-Days to Deploy Modified Platypus Backdoor
-   Category : Vulnerability    •    Severity: CRITICAL (score: 2087)
-   Published: 2026-10-13T12:12:59
-   Link     : https://gbhackers.com/hackers-exploit-citrix-netscaler-zero-days/
-
-5. Alert Triangle  unit42.paloaltonetworks.com  [News Site]
+4. Alert Triangle  unit42.paloaltonetworks.com  [News Site]
    Title    : Threat Brief: NetScaler Zero Days CVE-2026-88771 and CVE-2026-88772 Exploited in the Wild (Updated September 30)
    Category : Vulnerability    •    Severity: CRITICAL (score: 2045)
    Published: 2026-09-30T20:00:04
    Link     : https://unit42.paloaltonetworks.com/netscaler-zero-days-exploited/
 
-6. Alert Triangle  krebsonsecurity.com  [Newspaper]
+5. Alert Triangle  krebsonsecurity.com  [Newspaper]
    Title    : Two Alleged ‘TeamPCP’ Hackers Arrested in Australia
    Category : Vulnerability    •    Severity: CRITICAL (score: 2040)
    Published: 2026-08-27T11:04:15
    Link     : https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/
 
-7. Shield Check  security.googleblog.com  [News Site]
+6. Shield Check  security.googleblog.com  [News Site]
    Title    : Android Quick Share Support for AirDrop: A Secure Approach to Cross-Platform File Sharing
    Category : Data Breach    •    Severity: HIGH (score: 1959)
    Published: 2025-11-20T17:00:00
    Link     : http://security.googleblog.com/2025/11/android-quick-share-support-for-airdrop-security.html
+
+7. Shield Check  thehackernews.com  [Newspaper]
+   Title    : ⚡ Weekly Recap: Helpdesk 0-Days, Rogue Certs, ShinyHunters Arrest, AI-Fooling Malware and More
+   Category : Ransomware    •    Severity: HIGH (score: 1868)
+   Published: 2026-10-12T15:16:26
+   Link     : https://thehackernews.com/2026/10/weekly-recap-helpdesk-0-days-rogue.html
 
 Security Tips:
 • Never trust unsolicited links or attachments in email or messaging apps.
 • Enable multi-factor authentication (MFA) on email, banking, and admin accounts.
 • Keep browsers, VPNs, and endpoint security fully patched.
 
-Scanned 314 articles • Top 7 topics selected
+Scanned 294 articles • Top 7 topics selected
 Next planned auto-update: 08:00 AM UTC
 Stay safe, stay sharp!
