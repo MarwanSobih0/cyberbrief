@@ -100,6 +100,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Ivanti Connect Secure 0-Days Exploited to Steal Active Directory Credentials",
+    "summary": "<p>Attackers chained three zero-day flaws in Ivanti Connect Secure VPN appliances to gain root-level access without logging in, then searched for credentials and sensitive Active Directory data. The activity, which began on October 3, 2026, targeted a fully patched appliance running version 22.8R2.4, showing that keeping a device current did not protect it from these [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ivanti-connect-secure/\">Ivanti Connect Secure 0-Days Exploited to Steal Active Directory Credentials</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/ivanti-connect-secure/",
+    "published": "2026-10-14T07:51:39",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 1656,
+    "also_covered_by": []
+  },
+  {
     "title": "Evolution of Web3 in Cloud Supply Chain Attacks",
     "summary": "<p>Unit 42 details how threat actors leverage Web3 infrastructure and open-source supply chain attacks to breach enterprise cloud environments</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/web3-cloud-supply-chain-attacks/\">Evolution of Web3 in Cloud Supply Chain Attacks</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
     "link": "https://unit42.paloaltonetworks.com/web3-cloud-supply-chain-attacks/",
@@ -230,6 +240,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Windows Shell Zero-Day Lets Attackers Bypass Mark of the Web Security Protections",
+    "summary": "<p>Microsoft has addressed a vulnerability in Windows Shell that attackers are actively exploiting, allowing them to bypass the Mark of the Web (MOTW) security protections. Designated CVE-2026-96951, the flaw was disclosed on October 13, 2026, during the company&#8217;s monthly security update. Microsoft classifies the vulnerability as Important, giving it a CVSS v3.1 base score of [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/windows-shell-zero-day/\">Windows Shell Zero-Day Lets Attackers Bypass Mark of the Web Security Protections</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/windows-shell-zero-day/",
+    "published": "2026-10-14T06:15:44",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 1220,
+    "also_covered_by": []
+  },
+  {
     "title": "​​Beyond source code: A path to the keys to the kingdom",
     "summary": "<p>Explore how Storm-3068 turned a compromised identity into broader cloud access and the steps organizations can take to defend their identities, pipelines, and cloud infrastructure.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/09/29/beyond-source-code-a-path-to-the-keys-to-the-kingdom/\">​​Beyond source code: A path to the keys to the kingdom</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/09/29/beyond-source-code-a-path-to-the-keys-to-the-kingdom/",
@@ -320,6 +340,26 @@
     "also_covered_by": []
   },
   {
+    "title": "Ivanti Connect Secure CVE-2026-104935 Flaw Enables Unauthenticated Remote Code Execution",
+    "summary": "<p>Ivanti released security updates for Ivanti Connect Secure (ICS) to address CVE-2026-104935, a high-severity authentication-bypass vulnerability. This vulnerability allows remote, unauthenticated attackers to execute arbitrary commands. The company disclosed the issue on October 13, 2026. It confirmed that exploitation had affected a limited number of customers at the time of disclosure. Fixed software versions are [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ivanti-connect-secure-cve-2026-104935-flaw/\">Ivanti Connect Secure CVE-2026-104935 Flaw Enables Unauthenticated Remote Code Execution</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/ivanti-connect-secure-cve-2026-104935-flaw/",
+    "published": "2026-10-14T08:42:19",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 1086,
+    "also_covered_by": []
+  },
+  {
+    "title": "Hackers Chain 3 Ivanti VPN Zero-Days to Gain Root Access Without Authentication",
+    "summary": "<p>Attackers chained three zero-day vulnerabilities in Ivanti Connect Secure (ICS) VPN appliances to execute commands as root without authentication, then searched the affected network for credentials and sensitive Active Directory data. Volexity attributed the activity to an unknown threat actor it tracks as UTA0576, which repeatedly exploited an appliance running version 22.8R2.4, Build 19097 the [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ivanti-vpn-zero-days/\">Hackers Chain 3 Ivanti VPN Zero-Days to Gain Root Access Without Authentication</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/ivanti-vpn-zero-days/",
+    "published": "2026-10-14T08:30:47",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 1073,
+    "also_covered_by": []
+  },
+  {
     "title": "Dutch tax authorities cancel Microsoft 365 cloud rollout – and turn toward open source",
     "summary": "Another European move toward digital sovereignty has curtailed adopting the US workplace suite.",
     "link": "https://www.zdnet.com/business/dutch-tax-authorities-cancel-microsoft-365-cloud-rollout/",
@@ -327,6 +367,36 @@
     "source": "zdnet.com",
     "category": "Vulnerability",
     "importance_score": 1073,
+    "also_covered_by": []
+  },
+  {
+    "title": "Meta Removes 3.7 Million Scam Accounts as 28 Arrested in Global Crackdown",
+    "summary": "<p>Meta removed more than 3.7 million Facebook and Instagram accounts, Pages, and Groups during an international crackdown on West African scam networks that resulted in 28 arrests and the rescue of 117 trafficking victims. Announced October 13, the operation combined platform enforcement, financial tracing, and physical raids against fraud infrastructure targeting victims worldwide. Meta and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/meta-scam-crackdown/\">Meta Removes 3.7 Million Scam Accounts as 28 Arrested in Global Crackdown</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/meta-scam-crackdown/",
+    "published": "2026-10-14T07:57:39",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 1070,
+    "also_covered_by": []
+  },
+  {
+    "title": "Hackers Breach Meta GitHub Repositories, Steal Source Code and Data of 1,500 People",
+    "summary": "<p>Hackers used an employee’s stolen credentials to access some of Meta’s GitHub repositories, taking product source code and personal information linked to roughly 1,500 people. Most affected individuals are Meta employees in the United States, according to the company’s disclosure to SecurityWeek. Meta confirmed the breach on October 13, 2026, when it began notifying affected [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-breach-meta-github-repositories/\">Hackers Breach Meta GitHub Repositories, Steal Source Code and Data of 1,500 People</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/hackers-breach-meta-github-repositories/",
+    "published": "2026-10-14T08:49:41",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 1065,
+    "also_covered_by": []
+  },
+  {
+    "title": "Gears of War: E-Day Hit by DDoS Attack, Causing Login Failures and Disconnects",
+    "summary": "<p>Gear of War: E-Day players faced login failures, sudden disconnects, and other online service problems after distributed denial-of-service attacks targeted the game’s online services. The official Gears Community account confirmed the cause on X, linking the disruption to DDoS activity and ending speculation about the source of the failures. The Gears Community reported attacks on [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/gears-of-war-e-day-hit-by-ddos-attack/\">Gears of War: E-Day Hit by DDoS Attack, Causing Login Failures and Disconnects</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/gears-of-war-e-day-hit-by-ddos-attack/",
+    "published": "2026-10-14T08:11:57",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 1065,
     "also_covered_by": []
   },
   {
@@ -387,6 +457,26 @@
     "source": "blog.talosintelligence.com",
     "category": "Vulnerability",
     "importance_score": 893,
+    "also_covered_by": []
+  },
+  {
+    "title": "Hackers Target PuTTY Users With SEO Poisoning and Ethereum-Powered Malware",
+    "summary": "<p>A search for PuTTY can lead to more than a fake download. In a campaign reported on October 12, attackers used search-engine optimization (SEO) poisoning to steer users to a counterfeit PuTTY site and deliver a trojanized Windows installer. The campaign targets people searching Google for “PuTTY” or “PuTTY download.” A high-ranking result leads to [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ethereum-powered-malware/\">Hackers Target PuTTY Users With SEO Poisoning and Ethereum-Powered Malware</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/ethereum-powered-malware/",
+    "published": "2026-10-14T06:27:45",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 861,
+    "also_covered_by": []
+  },
+  {
+    "title": "Hackers Abuse Google Search to Attacks ITadmins with Weaponized PuTTY Installer",
+    "summary": "<p>IT administrators searching Google for PuTTY may see a convincing fake download result mixed with legitimate links. Researchers documented a campaign that uses a lookalike website to deliver a malicious Windows installer disguised as the popular SSH client. The installer opens a working PuTTY window as a decoy while secretly starting a separate malware chain [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-abuse-google-search/\">Hackers Abuse Google Search to Attacks ITadmins with Weaponized PuTTY Installer</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/hackers-abuse-google-search/",
+    "published": "2026-10-14T06:57:55",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 857,
     "also_covered_by": []
   },
   {
@@ -580,6 +670,16 @@
     "also_covered_by": []
   },
   {
+    "title": "North Korean IT Worker Scheme Targets Dozens of Organizations Across Critical U.S. Sectors",
+    "summary": "<p>The FBI and CrowdStrike have disrupted U.S. laptop farms supporting FAMOUS CHOLLIMA, a North Korean operation that places fraudulent remote IT workers inside American companies. The infrastructure enabled workers abroad to collect salaries, conceal their locations, and maintain access to corporate environments. Victims identified by CrowdStrike spanned aerospace, energy, financial services, healthcare, cybersecurity, defense engineering, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/north-korean-it-worker-scheme/\">North Korean IT Worker Scheme Targets Dozens of Organizations Across Critical U.S. Sectors</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/north-korean-it-worker-scheme/",
+    "published": "2026-10-14T05:39:03",
+    "source": "gbhackers.com",
+    "category": "Phishing / Scams",
+    "importance_score": 639,
+    "also_covered_by": []
+  },
+  {
     "title": "The Zero-Day Blind Spot: Why Your Agentic SOC needs Retrospective Packet Replay",
     "summary": "Learn how the .conf26 Agentic SOC paired Endace full PCAP with Cisco Secure Firewall and Talos rules to retrospectively replay wire data against zero-days.",
     "link": "https://blogs.cisco.com/security/conf26-agentic-soc-packet-replay/",
@@ -607,6 +707,16 @@
     "source": "infosecurity-magazine.com",
     "category": "Ransomware",
     "importance_score": 637,
+    "also_covered_by": []
+  },
+  {
+    "title": "Windows BitLocker Vulnerabilities Could Allow Attackers to Bypass Security Protections and Escalate Privileges",
+    "summary": "<p>Three Windows BitLocker vulnerabilities, as described in the provided advisory, could let attackers elevate privileges or bypass security protections under various access conditions. Microsoft is the assigning authority, with a release date of October 13, 2026, and all three vulnerabilities are rated Important. Two require existing local privileges, while the third requires physical access. We [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/windows-bitlocker-vulnerabilities/\">Windows BitLocker Vulnerabilities Could Allow Attackers to Bypass Security Protections and Escalate Privileges</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/windows-bitlocker-vulnerabilities/",
+    "published": "2026-10-14T09:01:53",
+    "source": "gbhackers.com",
+    "category": "Ransomware",
+    "importance_score": 634,
     "also_covered_by": []
   },
   {
@@ -640,6 +750,26 @@
     "also_covered_by": []
   },
   {
+    "title": "Multiple Google Chrome Flaws Could Enable Memory Corruption and Code Execution Attacks",
+    "summary": "<p>Google released a Chrome security update that addresses 37 vulnerabilities, including seven critical flaws that raise concerns about memory corruption and possible code execution. Published on October 13, 2026, the update covers Windows, Mac, and Linux, with fixes spanning graphics, PDF handling, media processing, networking, and other browser components. According to Google’s Stable Channel Update [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/multiple-google-chrome-vulnerabilities/\">Multiple Google Chrome Flaws Could Enable Memory Corruption and Code Execution Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/multiple-google-chrome-vulnerabilities/",
+    "published": "2026-10-14T07:59:42",
+    "source": "cybersecuritynews.com",
+    "category": "Policy / Law",
+    "importance_score": 622,
+    "also_covered_by": []
+  },
+  {
+    "title": "Windows BitLocker Vulnerabilities Security Feature Bypass and Privilege Elevation Attacks",
+    "summary": "<p>Microsoft fixed three Windows BitLocker vulnerabilities CVE-2026-85920, CVE-2026-88070, and CVE-2026-83500 that could enable privilege escalation or bypass security protections in its October 2026 updates. BitLocker is a core Windows disk-encryption feature designed to protect data if a laptop, desktop, or storage drive is lost or stolen. It helps prevent someone from reading protected files by [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/windows-bitlocker-bypass-vulnerabilities/\">Windows BitLocker Vulnerabilities Security Feature Bypass and Privilege Elevation Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/windows-bitlocker-bypass-vulnerabilities/",
+    "published": "2026-10-14T07:03:08",
+    "source": "cybersecuritynews.com",
+    "category": "Ransomware",
+    "importance_score": 622,
+    "also_covered_by": []
+  },
+  {
     "title": "Employee Arrested After Listening Device Found in OpenAI Conference Room, FBI and the Company Say",
     "summary": "<p>Saudi national Abdulrahman Alfozan was arrested Friday and terminated by OpenAI.</p>\n<p>The post <a href=\"https://www.securityweek.com/employee-arrested-after-listening-device-found-in-openai-conference-room-fbi-and-the-company-say/\">Employee Arrested After Listening Device Found in OpenAI Conference Room, FBI and the Company Say</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
     "link": "https://www.securityweek.com/employee-arrested-after-listening-device-found-in-openai-conference-room-fbi-and-the-company-say/",
@@ -647,6 +777,16 @@
     "source": "securityweek.com",
     "category": "Other",
     "importance_score": 609,
+    "also_covered_by": []
+  },
+  {
+    "title": "Windows SmartScreen Vulnerability Enables Privilege Escalation Attacks",
+    "summary": "<p>Microsoft has released fixes for a Windows SmartScreen vulnerability that allows an attacker with local access to gain higher privileges. Tracked as CVE-2026-85851, the flaw was disclosed on October 13, 2026, and carries a CVSS base score of 7.8. Microsoft rates it Important. The issue involves a use-after-free memory error and affects several Windows 11 [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/windows-smartscreen-escalation-vulnerability/\">Windows SmartScreen Vulnerability Enables Privilege Escalation Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/windows-smartscreen-escalation-vulnerability/",
+    "published": "2026-10-14T09:28:05",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 608,
     "also_covered_by": []
   },
   {
@@ -666,6 +806,16 @@
     "published": "2026-10-14T04:34:43",
     "source": "thehackernews.com",
     "category": "Vulnerability",
+    "importance_score": 602,
+    "also_covered_by": []
+  },
+  {
+    "title": "Google Awarded a $250,000 Bounty for a Full-chain Chrome Exploit Found Using GPT-5.6",
+    "summary": "<p>XBOW says its security researchers earned a $250,000 reward from Google after building a full-chain Chrome exploit with AI agents. The team says the work took six days and about $40,000 in computing costs, using OpenAI’s publicly available GPT-5.6 Sol model. Google has fixed the flaws. XBOW disclosed the work on October 13, 2026. Its [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/google-chrome-exploit-gpt-5-6/\">Google Awarded a $250,000 Bounty for a Full-chain Chrome Exploit Found Using GPT-5.6</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/google-chrome-exploit-gpt-5-6/",
+    "published": "2026-10-14T09:37:45",
+    "source": "cybersecuritynews.com",
+    "category": "Policy / Law",
     "importance_score": 602,
     "also_covered_by": []
   },
@@ -880,6 +1030,26 @@
     "also_covered_by": []
   },
   {
+    "title": "Critical Docker Hub Vulnerability Lets Attackers Impersonate Users and Tamper With Container Images",
+    "summary": "<p>Docker disclosed a critical vulnerability in Docker Hub that let attackers impersonate other users at the container registry level. This flaw, tracked as CVE-2026-105445 and dubbed GhostPat, exploited how Docker handled personal access tokens during account conversions. Depending on token permissions, it could enable unauthorized image downloads, malicious image uploads, and repository image deletions. Docker [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-docker-hub-vulnerability/\">Critical Docker Hub Vulnerability Lets Attackers Impersonate Users and Tamper With Container Images</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/critical-docker-hub-vulnerability/",
+    "published": "2026-10-14T08:21:11",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 485,
+    "also_covered_by": []
+  },
+  {
+    "title": "Zoom Certificate Validation Vulnerability Allows Attackers to Access Sensitive Information",
+    "summary": "<p>Zoom has disclosed a high-severity vulnerability in the My Notes feature that affects multiple Zoom Workplace clients. This issue, tracked as CVE-2026-108185, could allow an unauthenticated attacker with network access to disclose sensitive information. On October 13, 2026, Zoom published security bulletin ZSB-26022, which identifies the vulnerable releases across Windows, macOS, Linux, Android, and iOS, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/zoom-certificate-validation-vulnerability/\">Zoom Certificate Validation Vulnerability Allows Attackers to Access Sensitive Information</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/zoom-certificate-validation-vulnerability/",
+    "published": "2026-10-14T08:29:56",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 483,
+    "also_covered_by": []
+  },
+  {
     "title": "Apple’s $299 HomeView smart hub is here: 8 highlights, including the wall model",
     "summary": "As an Apple Home user, here’s what stands out about Apple’s new smart home hub – and what I want to test firsthand.",
     "link": "https://www.zdnet.com/home-and-office/apple-homeview-smart-home-hub-features-price/",
@@ -960,6 +1130,26 @@
     "also_covered_by": []
   },
   {
+    "title": "TFG London Confirms Cyberattack Affecting Hobbs, Whistles, and Phase Eight",
+    "summary": "<p>TFG London has confirmed a cybersecurity incident affecting the IT systems that support its brands Hobbs, Whistles, and Phase Eight. Several of these systems remain unavailable. The parent company, The Foschini Group, disclosed the incident in a stock exchange announcement on October 13, 2026, after its UK business identified the security disruption on October 11. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/tfg-london-confirms-cyberattack/\">TFG London Confirms Cyberattack Affecting Hobbs, Whistles, and Phase Eight</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/tfg-london-confirms-cyberattack/",
+    "published": "2026-10-14T06:09:59",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 467,
+    "also_covered_by": []
+  },
+  {
+    "title": "Attackers Breach European Bank Through Third-Party Gateway and Target WSUS Server",
+    "summary": "<p>A European bank was breached through a poorly secured, third-party gateway before an attacker tried to exploit its Windows Server Update Services (WSUS) infrastructure. The case shows how stolen login details and weak access controls can put a bank’s central software systems at risk without a complex attack chain. The bank’s security team uncovered unauthorized [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/attackers-breach-european-bank/\">Attackers Breach European Bank Through Third-Party Gateway and Target WSUS Server</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/attackers-breach-european-bank/",
+    "published": "2026-10-14T08:33:31",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 459,
+    "also_covered_by": []
+  },
+  {
     "title": "Small AI Models Could Soon Self-Replicate on IoT Devices, Anthropic Warns",
     "summary": "<p>Experiments show cheap TV boxes can run capable AI models, and small models may soon be able to spread across such devices on their own.</p>\n<p>The post <a href=\"https://www.securityweek.com/small-ai-models-may-soon-be-able-to-self-replicate-on-iot-devices-anthropic-warns/\">Small AI Models Could Soon Self-Replicate on IoT Devices, Anthropic Warns</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
     "link": "https://www.securityweek.com/small-ai-models-may-soon-be-able-to-self-replicate-on-iot-devices-anthropic-warns/",
@@ -977,6 +1167,16 @@
     "source": "blog.talosintelligence.com",
     "category": "AI & Security",
     "importance_score": 448,
+    "also_covered_by": []
+  },
+  {
+    "title": "Coruna and DarkSword Exploit Kits Can Fully Compromise iPhones From a Single Web Visit",
+    "summary": "<p>Two powerful iPhone exploit kits, Coruna and DarkSword, show how a visit to a malicious or compromised website can put an outdated device at risk. The kits can link several software flaws together to break out of the browser and reach deeper parts of iOS. Depending on the device’s software version and the kit used, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/coruna-and-darksword/\">Coruna and DarkSword Exploit Kits Can Fully Compromise iPhones From a Single Web Visit</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/coruna-and-darksword/",
+    "published": "2026-10-14T09:26:22",
+    "source": "cybersecuritynews.com",
+    "category": "Policy / Law",
+    "importance_score": 446,
     "also_covered_by": []
   },
   {
