@@ -140,16 +140,6 @@
     "also_covered_by": []
   },
   {
-    "title": "New GhostBat Android Malware Targets 60 Banking and UPI Apps to Steal PINs",
-    "summary": "<p>A new GhostBat RAT variant targets 60 Android financial application packages used in India, combining accessibility-based PIN capture with a transparent overlay that intercepts interactions inside legitimate Google Pay and MobiKwik interfaces. The findings extend Cyble’s October 2025 investigation, which documented GhostBat spreading through fraudulent mParivahan applications, harvesting banking messages, and stealing UPI PINs through [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ghostbat-android-malware/\">New GhostBat Android Malware Targets 60 Banking and UPI Apps to Steal PINs</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/ghostbat-android-malware/",
-    "published": "2026-10-17T07:14:15",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 1483,
-    "also_covered_by": []
-  },
-  {
     "title": "Microsoft, Adobe, Apple, and Foxit vulnerabilities",
     "summary": "<p>Cisco Talos&#x2019; Vulnerability Discovery &amp; Research team recently disclosed vulnerabilities in Adobe, Apple, Foxit Reader, and Microsoft.</p><p>The vulnerabilities mentioned in this blog post have been patched by their respective vendors, in adherence to<a href=\"https://sec.cloudapps.cisco.com/security/center/resources/vendor_vulnerability_policy.html\"><u> Cisco&#x2019;s third-party vulnerability disclosure policy</u></a>.&#xa0;</p><p>For Snort coverage that can detect</p>",
     "link": "https://blog.talosintelligence.com/microsoft-adobe-apple-and-foxit-vulnerabilities/",
@@ -390,36 +380,6 @@
     "also_covered_by": []
   },
   {
-    "title": "OpenAI Confirms Its AI Model Hacked Government Website While Counting Hospital Beds",
-    "summary": "<p>OpenAI has confirmed that an internal AI model hacked an unnamed government statistics website while trying to count hospital beds. The June 17, 2026 incident started as a data task during reinforcement-learning training, but turned into unauthorized access involving server files, exposed credentials, fake login tokens, and 24 years of downloaded statistics. OpenAI found the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openai-confirms-ai-model-hacked/\">OpenAI Confirms Its AI Model Hacked Government Website While Counting Hospital Beds</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/openai-confirms-ai-model-hacked/",
-    "published": "2026-10-17T04:15:46",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 1063,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hackers Use AI-Generated Scripts to Hijack Linux Sudo Commands and Steal Passwords",
-    "summary": "<p>A campaign against government organizations and state-linked infrastructure used AI-assisted scripts to steal credentials, maintain access to Linux servers and seek sensitive data, according to new research. The attackers altered users’ shell startup files to intercept the sudo command, then copied entered passwords to a file while passing them to the real command. This let [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-use-ai-generated-scripts/\">Hackers Use AI-Generated Scripts to Hijack Linux Sudo Commands and Steal Passwords</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/hackers-use-ai-generated-scripts/",
-    "published": "2026-10-16T13:23:48",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 1063,
-    "also_covered_by": []
-  },
-  {
-    "title": "37-Year-Old Kernel Flaw Exploited to Gain Root Access on OpenBSD — PoC Released",
-    "summary": "<p>A proof-of-concept exploit that gains root access on OpenBSD by chaining two kernel flaws. The main bug dates back about 37 years to the original BSD source code. According to Security researchers at Calif, the flaw survived because a shared memory attachment counter named shm_nattch used a signed 16-bit value. OpenBSD fixed both issues before [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/37-year-old-kernel-openbsd-flaw/\">37-Year-Old Kernel Flaw Exploited to Gain Root Access on OpenBSD — PoC Released</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/37-year-old-kernel-openbsd-flaw/",
-    "published": "2026-10-16T14:01:26",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 1054,
-    "also_covered_by": []
-  },
-  {
     "title": "Protecting Cookies with Device Bound Session Credentials",
     "summary": "<span class=\"byline-author\">Posted by Ben Ackerman, Chrome team,  Daniel Rubery, Chrome team and Guillaume Ehinger, Google Account Security team</span>\n\n<p>\nFollowing our April 2024 <a href=\"https://blog.chromium.org/2024/04/fighting-cookie-theft-using-device.html\">announcement</a>, Device Bound Session Credentials (DBSC) is now entering public availability for Windows users on Chrome 146, and expanding to macOS in an upcoming Chrome release. This project represents a significant step forward in our ongoing efforts to combat session theft, which remains a prevalent threat in the modern security landscape.\n</p>\n<p>\nSession theft typically occurs when a user inadvertently downloads malware onto their device. Once active, the malware can silently extract existing session cookies from the browser or wait for the user to log in to new accounts, before exfiltrating these tokens to an attacker-controlled server. Infostealer malware families, such as LummaC2, have become increasingly sophisticated at harvesting these credentials. Because cookies often have extended lifetimes, attackers can use them to gain unauthorized access to a user’s accounts without ever needing their passwords; this access is then often bundled, traded, or sold among threat actors.\n</p>\n<p>\nCrucially, once sophisticated malware has gained access to a machine, it can read the local files and memory where browsers store authentication cookies. As a result, there is no reliable way to prevent cookie exfiltration using software alone on any operating system. Historically, mitigating session theft relied on detecting the stolen credentials after the fact using a complex set of abuse heuristics – a reactive approach that persistent attackers could often circumvent. DBSC fundamentally changes the web's capability to defend against this threat by shifting the paradigm from reactive detection to proactive prevention, ensuring that successfully exfiltrated cookies cannot be used to access users’ accounts.\n</p>\n<h3>How DBSC Works</h3>\n\n\n<p>\nDBSC protects against session theft by cryptographically binding authentication sessions to a specific device. It does this using hardware-backed security modules, such as the Trusted Platform Module (TPM) on Windows and the Secure Enclave on macOS, to generate a unique public/private key pair that cannot be exported from the machine. The issuance of new short-lived session cookies is contingent upon Chrome proving possession of the corresponding private key to the server. Because attackers cannot steal this key, any exfiltrated cookies quickly expire and become useless to those attackers. This design allows large and small websites to upgrade to secure, hardware-bound sessions by adding dedicated registration and refresh endpoints to their backends, while maintaining complete compatibility with their existing front-end. The browser handles the complex cryptography and cookie rotation in the background, allowing the web app to continue using standard cookies for access just as it always has. \n</p>\n<p>\nGoogle rolled out an early version of this protocol over the last year. For sessions protected by DBSC, we have observed a significant reduction in session theft since its launch.\n</p>\n<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjk4eZvzfBqPL0Xf1ckUo7l58eyeZKSzIelxjLOiOE_XHYNZc-qdx24Sv9n3tgRgc2xOzKZvcHsCksprOlxwd-gIRQaLPsOu2jjuCV4e6G1_ImsXhQeOean1CWndOiQuikT94gbvZLlWfktpCBRtxh9dJkxjpfvradSkzWD1Wqxohg9TJUdyC1kC88y6Abu/s1600/Screenshot%202026-04-09%20at%2010.11.22%E2%80%AFAM.png\" style=\"display: block; padding: 1em 0; text-align: center;\"><img alt=\"\" border=\"0\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjk4eZvzfBqPL0Xf1ckUo7l58eyeZKSzIelxjLOiOE_XHYNZc-qdx24Sv9n3tgRgc2xOzKZvcHsCksprOlxwd-gIRQaLPsOu2jjuCV4e6G1_ImsXhQeOean1CWndOiQuikT94gbvZLlWfktpCBRtxh9dJkxjpfvradSkzWD1Wqxohg9TJUdyC1kC88y6Abu/s1600/Screenshot%202026-04-09%20at%2010.11.22%E2%80%AFAM.png\" /></a></div>\n<p style=\"text-align: center;\">\n<em>An overview of the DBSC protocol showing the interaction between the browser and server.</em>\n</p>\n<h3>Private by design</h3>\n\n\n<p>\nA core tenet of the DBSC architecture is the preservation of user privacy. Each session is backed by a distinct key, preventing websites from using these credentials to correlate a user's activity across different sessions or sites on the same device. Furthermore, the protocol is designed to be lean: it does not leak device identifiers or attestation data to the server beyond the per-session public key required to certify proof of possession. This minimal information exchange ensures DBSC helps secure sessions without enabling cross-site tracking or acting as a device fingerprinting mechanism.\n</p>\n<h3>Engagement with the ecosystem</h3>\n\n\n<p>\nDBSC was designed from the beginning to be an open web standard through the W3C process and adoption by the Web Application Security Working Group. Through this process we partnered with Microsoft to design the standard to ensure it works for the web and got input from many in the industry that are responsible for web security.\n</p>\n<p>\nAdditionally, over the past year, we have also conducted two Origin Trials to ensure DBSC effectively serves the requirements of the broader web community. Many web platforms, including Okta, actively participated in these trials and their own testing and provided essential feedback to ensure the protocol effectively addresses their diverse needs.\n</p>\n<p>\nIf you are a web developer and are looking for a way to secure your users against session theft, refer to our <a href=\"https://developer.chrome.com/docs/web-platform/device-bound-session-credentials\">developer guide</a> for implementation details. Additionally, all the details about DBSC can be found on the <a href=\"https://w3c.github.io/webappsec-dbsc/\">spec</a> and the corresponding <a href=\"https://github.com/w3c/webappsec-dbsc\">github</a>. Feel free to use the <a href=\"https://github.com/w3c/webappsec-dbsc/issues\">issues</a> page to report bugs or provide feature requests.\n</p>\n<h3>Future improvements</h3>\n\n\n<p>\nAs we continue to evolve the DBSC standard, future iterations will focus on increasing support across diverse ecosystems and introducing advanced capabilities tailored for complex enterprise environments. Key areas of ongoing development include:\n</p>\n<ul>\n\n<li><strong>Securing Federated Identity: </strong>In modern enterprise environments, Single Sign-On (SSO) is ubiquitous. We are expanding the DBSC protocol to support cross-origin bindings, ensuring that a relying party (RP) session remains continuously bound to the same original device key used by the Identity Provider (IdP). This guarantees that the high-assurance security of the initial device binding is maintained throughout the entire federated login process, creating an unbroken chain of trust.</li>\n\n<li><strong>Advanced Registration Capabilities:</strong> While DBSC provides robust protection for established cookies, some environments require an even stronger foundation when the session is first created. We are developing mechanisms to bind DBSC sessions to pre-existing, trusted key material rather than generating a new key at sign-in. This advanced capability enables websites to integrate complementary technologies, such as mTLS certificates or hardware security keys, creating a highly secure registration environment.</li>\n\n<li><strong>Broader Device Support:</strong> We are also actively exploring the potential addition of software-based keys to extend protections to devices without dedicated secure hardware.",
     "link": "http://security.googleblog.com/2026/04/protecting-cookies-with-device-bound.html",
@@ -437,16 +397,6 @@
     "source": "bleepingcomputer.com",
     "category": "Vulnerability",
     "importance_score": 1049,
-    "also_covered_by": []
-  },
-  {
-    "title": "SideCopy Hackers Target Indian Organizations With ReverseRAT Malware to Steal Data",
-    "summary": "<p>Indian authorities have warned that SideCopy hackers are targeting Indian organizations, including academic institutions, with spear-phishing attacks that deploy ReverseRAT on Windows systems. The October 15, 2026, advisory classifies the threat as medium severity and highlights malware that can steal passwords, capture screenshots, and collect sensitive information. The campaign combines deceptive attachments, malicious Windows shortcuts, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/sidecopy-hackers-target-indian-organizations/\">SideCopy Hackers Target Indian Organizations With ReverseRAT Malware to Steal Data</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/sidecopy-hackers-target-indian-organizations/",
-    "published": "2026-10-17T08:06:13",
-    "source": "gbhackers.com",
-    "category": "Phishing / Scams",
-    "importance_score": 991,
     "also_covered_by": []
   },
   {
@@ -730,16 +680,6 @@
     "also_covered_by": []
   },
   {
-    "title": "AI-Assisted Hackers Compromise Government Linux Servers to Deploy Backdoors and Steal Credentials",
-    "summary": "<p>Hackers used AI-assisted scripts to compromise government Linux servers, harvest administrator credentials, and establish persistent backdoors during a campaign observed between October 2025 and April 2026. The cluster remains unattributed. Under Unit 42’s attribution framework, “UNK” indicates that researchers have not determined whether the activity is state-sponsored or financially motivated. Its intelligence-gathering behavior does not [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/linux-servers-compromised/\">AI-Assisted Hackers Compromise Government Linux Servers to Deploy Backdoors and Steal Credentials</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/linux-servers-compromised/",
-    "published": "2026-10-17T04:58:49",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 740,
-    "also_covered_by": []
-  },
-  {
     "title": "In Other News: ICS-Sniper Attack, Hacking XWorm Malware Operators, $250k Chrome Exploit",
     "summary": "<p>Noteworthy stories that might have slipped under the radar: BofA adds 1,000 patching contractors, KGB RAT pairs data theft with jump scares, and Langflow flaw under attack.</p>\n<p>The post <a href=\"https://www.securityweek.com/in-other-news-ics-sniper-attack-hacking-xworm-malware-operators-250k-chrome-exploit/\">In Other News: ICS-Sniper Attack, Hacking XWorm Malware Operators, $250k Chrome Exploit</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
     "link": "https://www.securityweek.com/in-other-news-ics-sniper-attack-hacking-xworm-malware-operators-250k-chrome-exploit/",
@@ -747,66 +687,6 @@
     "source": "securityweek.com",
     "category": "Policy / Law",
     "importance_score": 738,
-    "also_covered_by": []
-  },
-  {
-    "title": "GhostAction Hackers Hide Credential-Stealing Malware in Fake Font Files Across 94 GitHub Repositories",
-    "summary": "<p>GhostAction attackers have expanded their GitHub credential theft campaign with a second stage that disguises malicious JavaScript as a font file and targets developer workstations through Visual Studio Code tasks. Jenn Gile identified 94 compromised repositories belonging to 66 owners, confirming the payload in all 79 repositories available for analysis. The remaining 15 were inaccessible. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ghostaction-hackers-hide-credential-stealing-malware/\">GhostAction Hackers Hide Credential-Stealing Malware in Fake Font Files Across 94 GitHub Repositories</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/ghostaction-hackers-hide-credential-stealing-malware/",
-    "published": "2026-10-17T08:26:30",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 735,
-    "also_covered_by": []
-  },
-  {
-    "title": "New ROMULUS Malware Platform Uses Six Servers to Deliver Multiple Malicious Payloads",
-    "summary": "<p>ROMULUS, a shared ClickFix delivery platform operating across six identified servers, with confirmed routes distributing a trojanized Stardock package and LegionLoader. The discovery connects infrastructure from a recently documented ChatGPT Custom GPT abuse campaign to an independently investigated incident, exposing a reusable backend capable of delivering different malicious payloads. The investigation began after researchers found [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/romulus-malware-platform/\">New ROMULUS Malware Platform Uses Six Servers to Deliver Multiple Malicious Payloads</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/romulus-malware-platform/",
-    "published": "2026-10-17T06:54:51",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 735,
-    "also_covered_by": []
-  },
-  {
-    "title": "Android Malware Exposes Its Own Operators While Hijacking Phones and Stealing Sensitive Data",
-    "summary": "<p>An Android remote-access Trojan, YuanKong, whose weakly protected dropper reveals more than its hidden payload: it exposes the operator account identifiers embedded in each build. Analysis of 110 droppers uncovered 57 distinct child payloads, 42 operator accounts and 44 rotating build brands, all tied together by a shared signing certificate and command-and-control (C2) infrastructure. Its [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/android-remote-access-trojan/\">Android Malware Exposes Its Own Operators While Hijacking Phones and Stealing Sensitive Data</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/android-remote-access-trojan/",
-    "published": "2026-10-17T05:57:36",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 727,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hackers Use New ROMULUS ClickFix Platform to Deliver Malware and Evade Security Detection",
-    "summary": "<p>Hackers are using a newly identified platform called ROMULUS to deliver malware through ClickFix traps, combining hidden PowerShell scripts, altered software installers, and encrypted archives. The platform supports separate infection paths, including one that installs LegionLoader and another that abuses a legitimate Stardock program to load malicious code. The findings show how a single delivery [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/new-romulus-clickfix-platform/\">Hackers Use New ROMULUS ClickFix Platform to Deliver Malware and Evade Security Detection</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/new-romulus-clickfix-platform/",
-    "published": "2026-10-16T14:42:10",
-    "source": "cybersecuritynews.com",
-    "category": "Ransomware",
-    "importance_score": 720,
-    "also_covered_by": []
-  },
-  {
-    "title": "Midnight Blizzard-Linked Malware Server Still Delivering Payloads 8 Weeks After Disclosure",
-    "summary": "<p>A server linked to a malware campaign attributed to a Midnight Blizzard-associated cluster was still delivering malicious files on October 5, 2026. The server returned HTTP 200 responses for multiple payload paths, including one used by simple Windows Internet Shortcut files to launch a PowerShell stager. The finding shows that public disclosure and low reputation [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/midnight-blizzard-malware/\">Midnight Blizzard-Linked Malware Server Still Delivering Payloads 8 Weeks After Disclosure</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/midnight-blizzard-malware/",
-    "published": "2026-10-17T06:26:17",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 719,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hackers Exploit Critical Collabora Online Flaw to Backdoor Nextcloud Servers",
-    "summary": "<p>Hackers are exploiting a critical flaw in the Collabora Online Built-in CODE Server app for Nextcloud, with users reporting web shells on compromised servers. Tracked as CVE-2026-110447, the vulnerability allows remote attackers to run operating system commands without logging in. It affects the richdocumentscode app before version 26.4.303 and carries a CVSS v4 score of [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-exploit-critical-collabora-online-flaw/\">Hackers Exploit Critical Collabora Online Flaw to Backdoor Nextcloud Servers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/hackers-exploit-critical-collabora-online-flaw/",
-    "published": "2026-10-17T05:24:55",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 714,
     "also_covered_by": []
   },
   {
@@ -960,26 +840,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Google Fixes 10 Chrome Vulnerabilities, Including Memory Corruption Flaw Found With Claude AI",
-    "summary": "<p>Google released a Chrome Stable security update fixing 10 vulnerabilities across Windows, Mac, and Linux, including a high-severity DOM memory corruption flaw reported by Xinyang Ge of Anthropic with Claude AI. The update also addresses one critical, six high-severity, and three medium-severity vulnerabilities. Google announced the update on October 15, 2026. Google is rolling out [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/google-fixes-10-chrome-vulnerabilities/\">Google Fixes 10 Chrome Vulnerabilities, Including Memory Corruption Flaw Found With Claude AI</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/google-fixes-10-chrome-vulnerabilities/",
-    "published": "2026-10-17T05:29:38",
-    "source": "cybersecuritynews.com",
-    "category": "Policy / Law",
-    "importance_score": 619,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hackers Abuse 20,000 Cloudflare Pages Domains to Push Fake Microsoft Security Alerts",
-    "summary": "<p>Hackers have abused more than 20,000 Cloudflare Pages domains over six months to spread fake Microsoft security alerts and steer users toward scam call centers. The campaign uses Help Traffic Distribution System, or Help TDS, to route visitors from compromised websites, malicious ads, social media, and spam into tech support scams. The pages claim that [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/cloudflare-pages-domains/\">Hackers Abuse 20,000 Cloudflare Pages Domains to Push Fake Microsoft Security Alerts</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/cloudflare-pages-domains/",
-    "published": "2026-10-16T12:43:37",
-    "source": "cybersecuritynews.com",
-    "category": "Phishing / Scams",
-    "importance_score": 606,
-    "also_covered_by": []
-  },
-  {
     "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
     "summary": "Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Microsoft 365 (M365) credential belonging to ConnectWise Cloud Backup (formerly SkyKick) to gain unauthorized access to customers' M365 environments.\n\nConnectWise Cloud Backup is a cloud-based backup and recovery service built for managed service providers (MSPs",
     "link": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
@@ -987,16 +847,6 @@
     "source": "thehackernews.com",
     "category": "Other",
     "importance_score": 603,
-    "also_covered_by": []
-  },
-  {
-    "title": "iOS 27.0.1 Untethered Jailbreak Demonstrated on iPhone 18 Pro",
-    "summary": "<p>Security researchers from the cybersecurity firm Calif demonstrated a working untethered jailbreak for iOS 27.0.1 on Apple’s newest iPhone 18 Pro. The live demo took place at Hexacon 2026, the offensive security conference organized by Synacktiv in Paris on October 16. It is one of the first public signs that Apple’s latest phone and software [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/ios-27-0-1-jailbreak-demonstrated/\">iOS 27.0.1 Untethered Jailbreak Demonstrated on iPhone 18 Pro</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/ios-27-0-1-jailbreak-demonstrated/",
-    "published": "2026-10-16T12:21:57",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 600,
     "also_covered_by": []
   },
   {
@@ -1140,16 +990,6 @@
     "also_covered_by": []
   },
   {
-    "title": "OpenBSD Kernel Flaw Dating Back 37 Years Enables Local Privilege Escalation to Root",
-    "summary": "<p>A newly disclosed OpenBSD kernel exploitation chain combines a shared memory accounting flaw with a separate out-of-bounds write to obtain root privileges. Calif researcher Andrew Griffiths published the “Big Fish” research on October 16, 2026, alongside public proof-of-concept code demonstrating exploitation with multiple kernel security protections enabled. The oldest vulnerability traces to a shared memory [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/openbsd-kernel-flaw/\">OpenBSD Kernel Flaw Dating Back 37 Years Enables Local Privilege Escalation to Root</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/openbsd-kernel-flaw/",
-    "published": "2026-10-17T08:34:43",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 477,
-    "also_covered_by": []
-  },
-  {
     "title": "Ransomware Attacks are on the Rise",
     "summary": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
     "link": "https://threatpost.com/ransomware-attacks-are-on-the-rise/180481/",
@@ -1167,46 +1007,6 @@
     "source": "unit42.paloaltonetworks.com",
     "category": "Other",
     "importance_score": 477,
-    "also_covered_by": []
-  },
-  {
-    "title": "Critical WordPress Flaws Allow Attackers to Execute Remote Code Without Authentication",
-    "summary": "<p>Two WordPress Core vulnerabilities can be chained to execute remote code without authentication, according to analysis by Seqrite researcher Amruta Wagh. Dubbed WP2Shell, the exploit chain reportedly emerged in July 2026 and combines REST API route confusion with SQL injection, allowing attackers to progress from public endpoints to server compromise without possessing valid WordPress credentials. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-wordpress-flaws/\">Critical WordPress Flaws Allow Attackers to Execute Remote Code Without Authentication</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/critical-wordpress-flaws/",
-    "published": "2026-10-17T08:47:31",
-    "source": "gbhackers.com",
-    "category": "Policy / Law",
-    "importance_score": 476,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hackers Use Codex and DeepSeek AI Agents to Breach 440 PaperCut Servers Worldwide",
-    "summary": "<p>A cybercrime campaign used hundreds of AI agents to target internet-facing PaperCut NG and MF print-management servers, compromising at least 440 instances linked to 395 organizations in 48 countries, according to GreyNoise. The operation paired OpenAI’s Codex coding-agent harness with a DeepSeek model and common security tools, allowing the operator to develop and test exploits [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/breach-440-papercut-servers/\">Hackers Use Codex and DeepSeek AI Agents to Breach 440 PaperCut Servers Worldwide</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/breach-440-papercut-servers/",
-    "published": "2026-10-16T12:23:47",
-    "source": "cybersecuritynews.com",
-    "category": "AI & Security",
-    "importance_score": 463,
-    "also_covered_by": []
-  },
-  {
-    "title": "Researchers Demonstrate iOS 27.0.1 Untethered Jailbreak on iPhone 18 Pro",
-    "summary": "<p>Security researchers from Calif (Calif.io) demonstrated a working untethered jailbreak on iOS 27.0.1 running on an iPhone 18 Pro. They showed it live at the Hexacon 2026 offensive security conference in Paris on October 16, 2026. Heise reports it is the first reboot-proof jailbreak since iOS 9, and that AI helped find the exploit chain. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ios-27-0-1-untethered-jailbreak/\">Researchers Demonstrate iOS 27.0.1 Untethered Jailbreak on iPhone 18 Pro</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/ios-27-0-1-untethered-jailbreak/",
-    "published": "2026-10-16T14:40:12",
-    "source": "gbhackers.com",
-    "category": "AI & Security",
-    "importance_score": 459,
-    "also_covered_by": []
-  },
-  {
-    "title": "New YuanKong Android RAT Hijacks Phones to Steal Banking PINs and Passwords",
-    "summary": "<p>A newly analyzed Android remote-access Trojan called YuanKong can watch and control a victim’s phone, capture passwords and payment PINs, and send stolen information to operators. Rather than relying on access to text messages or contact lists, it uses Android’s Accessibility features and screen controls to observe what people do inside apps, including banking and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/new-yuankong-android-rat/\">New YuanKong Android RAT Hijacks Phones to Steal Banking PINs and Passwords</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/new-yuankong-android-rat/",
-    "published": "2026-10-16T14:08:06",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 457,
     "also_covered_by": []
   },
   {
