@@ -1,10 +1,10 @@
 CYBERBRIEF • DAILY THREAT INTELLIGENCE
-Generated: Wednesday, October 21, 2026 - 09:45 UTC
+Generated: Wednesday, October 21, 2026 - 09:47 UTC
 ================================================================================
 
-Total topics: 294    •    Scanned raw articles: 294
+Total topics: 314    •    Scanned raw articles: 314
 Severity breakdown:
-  CRITICAL: 5  |  HIGH: 11  |  MEDIUM: 37  |  LOW: 241
+  CRITICAL: 5  |  HIGH: 14  |  MEDIUM: 41  |  LOW: 254
 
 Top 7 active threats:
 
@@ -44,17 +44,17 @@ Top 7 active threats:
    Published: 2025-11-20T17:00:00
    Link     : http://security.googleblog.com/2025/11/android-quick-share-support-for-airdrop-security.html
 
-7. Shield Check  security.googleblog.com  [News Site]
-   Title    : Keeping Google Play & Android app ecosystems safe in 2025
-   Category : Vulnerability    •    Severity: HIGH (score: 1680)
-   Published: 2026-02-19T17:00:00
-   Link     : http://security.googleblog.com/2026/02/keeping-google-play-android-app-ecosystem-safe-2025.html
+7. Shield Check  gbhackers.com  [News Site]
+   Title    : Critical Fortinet FortiSIEM RCE Vulnerability Gets Public PoC Exploit, Allowing Unauthenticated Attacks
+   Category : Vulnerability    •    Severity: HIGH (score: 1849)
+   Published: 2026-10-21T09:44:06
+   Link     : https://gbhackers.com/critical-fortinet-fortisiem-rce-vulnerability/
 
 Security Tips:
 • Never trust unsolicited links or attachments in email or messaging apps.
 • Enable multi-factor authentication (MFA) on email, banking, and admin accounts.
 • Keep browsers, VPNs, and endpoint security fully patched.
 
-Scanned 294 articles • Top 7 topics selected
+Scanned 314 articles • Top 7 topics selected
 Next planned auto-update: 08:00 AM UTC
 Stay safe, stay sharp!

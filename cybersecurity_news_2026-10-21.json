@@ -60,6 +60,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Critical Fortinet FortiSIEM RCE Vulnerability Gets Public PoC Exploit, Allowing Unauthenticated Attacks",
+    "summary": "<p>Horizon3.ai has released a public proof-of-concept exploit for CVE-2026-106173, a critical vulnerability in Fortinet FortiSIEM. This vulnerability allows unauthenticated attackers to turn arbitrary file writes into remote code execution. Researcher Zach Hanley published a technical analysis on October 20, following Fortinet&#8217;s security advisory released on October 13. The vulnerability specifically affects the product&#8217;s gRPC communication [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-fortinet-fortisiem-rce-vulnerability/\">Critical Fortinet FortiSIEM RCE Vulnerability Gets Public PoC Exploit, Allowing Unauthenticated Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/critical-fortinet-fortisiem-rce-vulnerability/",
+    "published": "2026-10-21T09:44:06",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 1849,
+    "also_covered_by": []
+  },
+  {
     "title": "Keeping Google Play & Android app ecosystems safe in 2025",
     "summary": "<span class=\"byline-author\">Posted by Vijaya Kaza, VP and GM, App & Ecosystem Trust</span>\n\n<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNWPkN36d-E-0ZgVQNZYRep5TH3AnZltbtmu6PO7XLRULe4BuLMiRjS9z25JVTNu-imtoi2efJL2p-T4hu7eXdVirZIoNwIhEOY1p7pVtZwpzsmzIV8chhYOOz7ML5qFHoS0gz7Q3sNQwInc4sV4AaHavaIwn5twlSmjmuHG66uasapArBcBNMIg0XG0et/s1600/SafeAppEcosystem_BlogHero_Still_1920x1080.png\" style=\"display: block; padding: 1em 0; text-align: center;\"><img alt=\"\" border=\"0\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNWPkN36d-E-0ZgVQNZYRep5TH3AnZltbtmu6PO7XLRULe4BuLMiRjS9z25JVTNu-imtoi2efJL2p-T4hu7eXdVirZIoNwIhEOY1p7pVtZwpzsmzIV8chhYOOz7ML5qFHoS0gz7Q3sNQwInc4sV4AaHavaIwn5twlSmjmuHG66uasapArBcBNMIg0XG0et/s1600/SafeAppEcosystem_BlogHero_Still_1920x1080.png\" /></a></div>\n\n\n<p>\nThe Android ecosystem is a thriving global community built on trust, giving billions of users the confidence to download the latest apps. In order to maintain that trust, we’re focused on  ensuring that apps do not cause real-world harm, such as malware, financial fraud, hidden subscriptions, and privacy invasions. As bad actors leverage AI to change their tactics and launch increasingly sophisticated attacks, we’ve deepened our investments in AI and real-time defenses over the last year to maintain the upper hand and stop these threats before they reach users.\n</p>\n<h3>Upgrading Google Play’s AI-powered, multi-layered user protections</h3>\n\n\n<p>\nWe’ve seen a clear impact from these safety efforts on Google Play. In 2025, <strong>we prevented over 1.75 million policy-violating apps from being published on Google Play </strong>and<strong> banned more than 80,000 bad developer accounts that attempted to publish harmful apps. </strong>These figures demonstrate how our proactive protections and push for a more accountable ecosystem are discouraging bad actors from publishing malicious apps, while our new tools help honest developers build compliant apps more easily. Initiatives like developer verification, mandatory pre-review checks, and testing requirements have raised the bar for the Google Play ecosystem, significantly reducing the paths for bad actors to enter.\n</p>\n\n<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXqjB3En8VZFiwKb-q2dzxMdWauGxhuxJyMFuwwRrEMYLvx8EvQbpyfwth1M1SamrAc8vwZvZVoP4GYe7PPpFVwFTevniOYB7bLFAWPQ8cD074hraPEkevtcTnVgPbP_OO9Oo0Ohl6-3LpwaRAUnt-uwzSNcl5yEvYK7uBNEpBNGaQds8c5-ynRhsKCseL/s1600/SafeAppEcosystem_HeroVisual_3Claims_1920x1080.png\" style=\"display: block; padding: 1em 0; text-align: center;\"><img alt=\"\" border=\"0\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXqjB3En8VZFiwKb-q2dzxMdWauGxhuxJyMFuwwRrEMYLvx8EvQbpyfwth1M1SamrAc8vwZvZVoP4GYe7PPpFVwFTevniOYB7bLFAWPQ8cD074hraPEkevtcTnVgPbP_OO9Oo0Ohl6-3LpwaRAUnt-uwzSNcl5yEvYK7uBNEpBNGaQds8c5-ynRhsKCseL/s1600/SafeAppEcosystem_HeroVisual_3Claims_1920x1080.png\" /></a></div>\n\n<p>\nUser safety is at the core of everything we build. Over the years, we’ve continually introduced ways to help users stay safe and make informed app choices — from <a href=\"https://support.google.com/googleplay/answer/1075738\">parental controls</a> to <a href=\"https://support.google.com/googleplay/answer/11416267\">data safety transparency</a> and <a href=\"https://android-developers.googleblog.com/2025/01/helping-users-find-trusted-apps-on-google-play.html\">app badges</a>. We’re constantly improving our policies and protections to encourage safe, high-quality apps on Google Play and stop bad actors before they cause harm.\n</p>\n<p>\nApps on Google Play undergo rigorous reviews for safety and compliance with our policies. Last year, <a href=\"https://blog.google/products-and-platforms/platforms/google-play/keeping-google-play-safe-2025/\">we shared</a> that Google Play runs <strong>over 10,000 safety checks</strong> on every app we publish, and we continue to check and recheck apps after they’ve been published. In 2025, we continued scaling our defenses even further by:\n</p>\n<ul>\n\n<li><strong>Boosting AI-enhanced app detection</strong>: We integrated Google’s latest generative AI models into our review process, helping our human review team continue to find complex malicious patterns faster.</li>\n\n<li><strong>Preventing unnecessary access to sensitive data:</strong> We prevented<strong> over 255,000 apps</strong> from getting excessive access to sensitive user data and continued to strengthen our privacy policies. Our commitment to privacy-forward app development, supported by tools like Play Policy Insights in <a href=\"https://developer.android.com/studio\">Android Studio</a> and <a href=\"https://support.google.com/googleplay/android-developer/answer/10787469?hl=en\">Data safety section</a>, has empowered developers to continue to: minimize privacy-sensitive permission requests, and prioritize the user in their design choices.</li>\n\n<li><strong>Blocking spam ratings and reviews:</strong> Whether they lead to review inflation or deflation, spam ratings and reviews can negatively impact our users’ trust and our developers’ growth. We’re continually evolving our detection models to help ensure app reviews are accurate. Our anti-spam protections blocked <strong>160 million spam ratings and reviews </strong>last year, including inflated and deflated reviews.  We also <strong>prevented an average 0.5-star rating drop</strong> for apps targeted by review bombing, protecting our users and developers from unhelpful reviews.</li>\n\n<li><strong>Safeguarding kids and families</strong>: Our approach to kids and families is built on the core belief that children deserve a safe, enriching digital environment. Our commitment is to empower parents with robust tools while providing children with access to high-quality, age-appropriate content. Last year, we announced <a href=\"https://support.google.com/googleplay/android-developer/answer/16302250?sjid=17958105945234987629-NC\">new layers of protection</a>, in addition to our existing <a href=\"https://blog.google/technology/safety-security/age-assurance-measures-safer-online-kids-teens-us/\">safeguards</a>, to prevent younger audiences from discovering or downloading apps involving activities like gambling or dating. </li>\n</ul>\n<h3>Enhancing Google Play Protect to help keep the entire Android ecosystem safe</h3>\n\n\n<p>\nWe also continued to improve our protections for the broader Android ecosystem, by expanding <a href=\"https://support.google.com/googleplay/answer/2812853?hl=en\">Google Play Protect</a> and real-time security measures like in-call scam protections to help keep users safe from scams, fraud, and other threats.\n</p>\n<p>\n<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRRyFyWuAAS0qmMVtLZaUEybmZ13gxGFxa6UsF_BGUocGCqDI6OAH-wM6_Fl84ZRyGZKnHcOCR4ceaPacTMsGsHtkb1R6lWlrcF1BAxBBt06KAe0n-t7C1gn7IMDC7rLZGY2bBshE1oR-0rCaYWponr8e6bh0AQP5K4koLy1CahuD9lT5Ay1I4JjaCSKb3/s1600/SafeAppEcosystem_GooglePlayProtectRealTimeScanning_1920x1080.png\" style=\"display: block; padding: 1em 0; text-align: center;\"><img alt=\"\" border=\"0\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRRyFyWuAAS0qmMVtLZaUEybmZ13gxGFxa6UsF_BGUocGCqDI6OAH-wM6_Fl84ZRyGZKnHcOCR4ceaPacTMsGsHtkb1R6lWlrcF1BAxBBt06KAe0n-t7C1gn7IMDC7rLZGY2bBshE1oR-0rCaYWponr8e6bh0AQP5K4koLy1CahuD9lT5Ay1I4JjaCSKb3/s1600/SafeAppEcosystem_GooglePlayProtectRealTimeScanning_1920x1080.png\" /></a></div>\n\n<p>\nAs Android’s built-in defense against malware and unwanted software, <strong>Google Play Protect now scans over 350 billion Android apps daily.</strong> This proactive protection constantly checks both Play apps and those from other sources to ensure they are not potentially harmful. And, last year, its real-time scanning capability identified <strong>more than 27 million </strong>new malicious apps from outside Google Play, warning users or blocking the app to neutralize the threat. To benefit from these protections, we recommend that users always keep Google Play Protect on. \n</p>\n<p>\nWhile fraudsters are constantly evolving their tactics, Google Play Protect is evolving faster. Last year, we expanded:\n</p>\n<ul>\n\n<li><strong>Enhanced fraud protection:</strong> Google Play Protect’s <a href=\"https://security.googleblog.com/2024/02/piloting-new-ways-to-protect-Android-users-from%20financial-fraud.html\">enhanced fraud protection</a> analyzes and automatically blocks the installation of apps that may abuse sensitive permissions to commit financial fraud. This protection is triggered when a user attempts to install an app from an \"Internet-sideloading source\" — such as a web browser or messaging app — that requests a sensitive permission. Building on the success of our initial pilot in Singapore, we expanded enhanced fraud protection to <strong>185 markets</strong>, now covering more than <strong>2.8 billion Android devices</strong>. In 2025, we <strong>blocked 266 million risky installation attempts</strong> and<strong> helped protect users from 872,000 unique, high-risk applications.</strong></li>\n\n<li><strong>In-call scam protection:</strong> We also <a href=\"https://security.googleblog.com/2025/05/whats-new-in-android-security-privacy-2025.html\">introduced</a> new protections to combat social engineering attacks during phone calls. This feature preemptively disables the ability to turn off Google Play Protect during phone calls, stopping bad actors from being able to trick users into disabling their device's built-in defenses to download a malicious app while on a call.</li>\n</ul>\n<h3>Partnering with developers for a more secure, privacy-friendly future</h3>\n\n\n<p>\nKeeping Android and Google Play safe requires deep collaboration. We want to thank our global developer community for their partnership and for sharing their feedback on the tools and support they need to succeed.\n</p>\n<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuQSOEIEqh9WkZLhfDByQYwJ5oCPUI_tux-OhPo3qgJ9LZ0Uuphey0RcUPiiIoqOcE8eEOWqSreJsex9f_8UAn8JUn8wnc3AcApCymgrDn3YCHeudyrH5QI22iArfEGKjluM1jKVujCXLRwmH06V2MnaSO3f_koSgMelHiuwPJtKQHKwcFi6AksS3TRqWY/s1600/SafeAppEcosystem_PlayIntegrityAPI_1920x1080.png\" style=\"display: block; padding: 1em 0; text-align: center;\"><img alt=\"\" border=\"0\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuQSOEIEqh9WkZLhfDByQYwJ5oCPUI_tux-OhPo3qgJ9LZ0Uuphey0RcUPiiIoqOcE8eEOWqSreJsex9f_8UAn8JUn8wnc3AcApCymgrDn3YCHeudyrH5QI22iArfEGKjluM1jKVujCXLRwmH06V2MnaSO3f_koSgMelHiuwPJtKQHKwcFi6AksS3TRqWY/s1600/SafeAppEcosystem_PlayIntegrityAPI_1920x1080.png\" /></a></div>\n<p>\n In 2025, we focused on reducing friction for developers and providing them with tools to safeguard their businesses:\n</p>\n<ul>\n\n<li><strong>Building safer apps more easily</strong>: We’re helping developers streamline their work by bringing insights directly into their natural workflows. It starts with <a href=\"https://developer.android.com/studio/publish/insights\">Play Policy Insights in Android Studio</a>, which gives developers real-time feedback as they code. We focused first on permissions and APIs that grant deeper system access or handle personal data, like location or photos. This gives developers a head start on policy requirements, including prominent disclosures or usage declarations, while they’re still building. When developers move to Play Console to prepare their apps for submission, our expanded <a href=\"https://support.google.com/googleplay/android-developer/answer/14807773\">pre-review checks</a> help catch common reasons for rejection, like improper usage of credentials or permissions and broken privacy policy links, ensuring smoother, faster reviews.</li>\n\n<li><strong>Stronger threat detection with Play Integrity API</strong>: Every day, apps and games make over 20 billion checks with <a href=\"https://developer.android.com/google/play/integrity\">Play Integrity API</a> to protect against abuse and unauthorized access. In 2025, we added <a href=\"https://android-developers.googleblog.com/2025/10/stronger-threat-detection-simpler.html\">hardware-backed signals</a> to make it even harder for bad actors to spoof devices and introduced <a href=\"https://android-developers.googleblog.com/2025/10/stronger-threat-detection-simpler.html\">new in-app prompts</a> that let users fix common issues like network errors without leaving the app. We also launched <a href=\"https://developer.android.com/google/play/integrity/device-recall\">device recall</a> in beta to help developers identify repeat bad actors even after a device has been reset, all while protecting user privacy.</li>\n\n<li><strong>Building trust through developer verification:</strong> We’ve seen how effective developer verification is on Google Play, and now we’re applying those lessons to the broader Android ecosystem. By ensuring there is a real, accountable identity behind every app, verification helps legitimize authentic developers and prevents bad actors from hiding behind anonymity to repeatedly cause harm. After gathering feedback during our <a href=\"https://developer.android.com/developer-verification/guides/early-access\">early access</a> period, we’ll open up verification to all developers this year. We’ve also added a dedicated account type for students and hobbyists, which will allow them to distribute these apps to a limited number of devices without the full verification requirements.</li>\n\n<li><strong>Greater security with every Android release</strong>: In Android 16, developers can <a href=\"https://android-developers.googleblog.com/2025/12/enhancing-android-security-stop-malware.html\">protect</a> users’ most private information, like bank logins, with just one line of code. We’ve integrated this feature automatically to <a href=\"https://android-developers.googleblog.com/2025/12/enhancing-android-security-stop-malware.html#:~:text=Automatic%2C%20enhanced%20security%20for%20setFilterTouchesWhenObscured%20protection\">certain apps</a> for an instant security boost against “<a href=\"https://developer.android.com/privacy-and-security/risks/tapjacking#mitigations\">tapjacking</a>,” a trick where bad apps use hidden layers to steal clicks for ad fraud. </li>\n</ul>\n<h3>Looking ahead</h3>\n\n\n<p>\nOur top priority remains making Google Play and Android the most trusted app ecosystems for everyone. This year, we’ll continue to invest in AI-driven defenses to stay ahead of emerging threats and equip Android developers with the tools they need to build apps safely. To empower developers who distribute their apps on Google Play, we’ll maintain our focus on embedding checks to help build apps that are compliant by design, while providing guidance to help proactively avoid policy violations before an app is published. We’ll also roll out Android developer verifications to hold bad actors accountable and prevent them from hiding behind anonymity to cause repeated harm.\n</p>\n<p>\nThank you for being part of the Google Play and Android community as we work together to build a safer app ecosystem.\n</p>",
     "link": "http://security.googleblog.com/2026/02/keeping-google-play-android-app-ecosystem-safe-2025.html",
@@ -100,6 +110,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Hackers Compromise 333 Tor Exit Nodes to Steal SSH Credentials and Deploy Ebury Malware",
+    "summary": "<p>Attackers compromised 333 Tor exit nodes in a coordinated campaign to intercept SSH connections, steal passwords, and deploy the Ebury Linux backdoor, according to a research account published on October 20, 2026. The compromised infrastructure accounted for approximately 10% of Tor’s roughly 3,000 exit relays. The researcher reported that attackers accessed the underlying servers in [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-compromise-333-tor-exit-nodes/\">Hackers Compromise 333 Tor Exit Nodes to Steal SSH Credentials and Deploy Ebury Malware</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/hackers-compromise-333-tor-exit-nodes/",
+    "published": "2026-10-21T08:43:03",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 1576,
+    "also_covered_by": []
+  },
+  {
     "title": "Architecting Security for Agentic Capabilities in Chrome",
     "summary": "<span class=\"byline-author\">Posted by Nathan Parker, Chrome security team</span>\n\n<p>\nChrome has been advancing the web’s security for well over 15 years, and we’re committed to meeting new challenges and opportunities with AI. Billions of people trust Chrome to keep them safe by default, and this is a responsibility we take seriously. Following the <a href=\"https://blog.google/products/chrome/new-ai-features-for-chrome/\">recent launch of Gemini in Chrome</a> and the <a href=\"https://www.youtube.com/watch?v=khX5-VHoYds&amp;t=206s\">preview of agentic capabilities</a>, we want to share our approach and some new innovations to improve the safety of agentic browsing. \n</p>\n<p>\nThe primary new threat facing all agentic browsers is <a href=\"https://storage.googleapis.com/deepmind-media/Security%20and%20Privacy/Gemini_Security_Paper.pdf\">indirect prompt injection</a>. It can appear in malicious sites, third-party content in iframes, or from user-generated content like user reviews, and can cause the agent to take unwanted actions such as initiating financial transactions or exfiltrating sensitive data. Given this open challenge, we are investing in a <a href=\"https://security.googleblog.com/2025/06/mitigating-prompt-injection-attacks.html\">layered defense</a> that includes both deterministic and probabilistic defenses to make it difficult and costly for attackers to cause harm. \n</p>\n<p>\nDesigning safe agentic browsing for Chrome has involved deep collaboration of security experts across Google. We built on Gemini's <a href=\"https://deepmind.google/blog/advancing-geminis-security-safeguards/\">existing protections</a> and <a href=\"https://storage.googleapis.com/gweb-research2023-media/pubtools/1018686.pdf\">agent security principles</a> and have implemented several new layers for Chrome.\n</p>\n<p>\nWe’re introducing a<strong> user alignment critic</strong> where the agent’s actions are vetted by a separate model that is isolated from untrusted content. We’re also extending Chrome’s<strong> origin-isolation capabilities</strong> to constrain what origins the agent can interact with, to just those that are relevant to the task. Our layered defense also includes <strong>user confirmations</strong> for critical steps, <strong>real-time detection of threats</strong>, and <strong>red-teaming and response</strong>. We’ll step through these layers below.\n</p>\n<h3 style=\"text-align: left;\">Checking agent outputs with User Alignment Critic </h3>\n\n\n<p>\nThe main planning model for Gemini uses page content shared in Chrome to decide what action to take next. Exposure to untrusted web content means it is inherently vulnerable to indirect prompt injection. We use techniques like <a href=\"https://arxiv.org/abs/2403.14720\">spotlighting</a> that direct the model to strongly prefer following user and system instructions over what’s on the page, and we’ve upstreamed known attacks to train the Gemini model to avoid falling for them. \n</p>\n<p>\nTo further bolster model alignment beyond spotlighting, we’re introducing the <em>User Alignment Critic</em> — a separate model built with Gemini that acts as a high-trust system component. This architecture is inspired partially by the <a href=\"https://simonwillison.net/2023/Apr/25/dual-llm-pattern/\">dual-LLM pattern</a> as well as <a href=\"https://arxiv.org/abs/2503.18813\">CaMeL research</a> from Google DeepMind.\n</p>\n<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWezV0Nm7TXPTsmJ83a-cznJhyphenhyphen_xkl8w37tAJPFxy8BudVH2r1KXm8j2qsaaMd-OynODzr0wR7eNNVgt_DFYXipqlX5YdnWag8w7YdaLRLSJDu7yp9yOppF4NXjVcD3xIP-cTDCMaRGpL32I6fpMuyeW1nAdfpfj4ikl-2yfyuBGwMW39FgCM0pFuZj8gY/s1600/Chrome_Agent%20Safety_Blog%20Graphics_User_AlignmentCriticFlowChart.png\" style=\"display: block; padding: 1em 0; text-align: center;\"><img alt=\"\" border=\"0\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWezV0Nm7TXPTsmJ83a-cznJhyphenhyphen_xkl8w37tAJPFxy8BudVH2r1KXm8j2qsaaMd-OynODzr0wR7eNNVgt_DFYXipqlX5YdnWag8w7YdaLRLSJDu7yp9yOppF4NXjVcD3xIP-cTDCMaRGpL32I6fpMuyeW1nAdfpfj4ikl-2yfyuBGwMW39FgCM0pFuZj8gY/s1600/Chrome_Agent%20Safety_Blog%20Graphics_User_AlignmentCriticFlowChart.png\" /></a></div>\n<p style=\"text-align: center;\">\n<em>A flow chart that depicts the User Alignment Critic: a trusted component that vets each action before it reaches the browser.</em>\n</p>\n<p>\nThe User Alignment Critic runs after the planning is complete to double-check each proposed action. Its primary focus is task alignment: determining whether the proposed action serves the user’s stated goal. If the action is misaligned, the Alignment Critic will veto it. This component is architected to see only metadata about the proposed action and not any unfiltered untrustworthy web content, thus ensuring it cannot be poisoned directly from the web. It has less context, but it also has a simpler job — just approve or reject an action.\n</p>\n<p>\nThis is a powerful, extra layer of defense against both goal-hijacking and data exfiltration within the action step. When an action is rejected, the Critic provides feedback to the planning model to re-formulate its plan, and the planner can return control to the user if there are repeated failures. \n</p>\n<h3 style=\"text-align: left;\">Enforcing stronger security<strong> bound</strong>aries with Origin Sets </h3>\n\n\n<p>\n<a href=\"https://www.chromium.org/Home/chromium-security/site-isolation/\">Site Isolation</a> and the <a href=\"https://web.dev/articles/same-origin-policy\">same-origin policy</a> are fundamental boundaries in Chrome’s security model and we’re carrying forward these concepts into the agentic world. By their nature, agents must operate across websites (e.g. collecting ingredients on one site and filling a shopping cart on another). But if an unrestricted agent is compromised and can interact with arbitrary sites, it can create what is effectively a Site Isolation bypass. That can have a severe impact when the agent operates on a local browser like Chrome, with logged-in sites vulnerable to data exfiltration. To address this, we’re extending those principles with <em>Agent Origin Sets</em>. Our design architecturally limits the agent to only access data from origins that are related to the task at hand, or data that the user has chosen to share with the agent. This prevents a compromised agent from acting arbitrarily on unrelated origins.\n</p>\n<p>\nFor each task on the web, a trustworthy <em>gating function</em> decides which origins proposed by the planner are relevant to the task. The design is to separate these into two sets, tracked for each session:\n</p>\n<ul>\n\n<li><strong>Read-only origins</strong> are those from which Gemini is permitted to consume content. If an iframe’s origin isn’t on the list, the model will not see that content.</li>\n\n<li><strong>Read-writable origins </strong>are those on which the agent is allowed to actuate (e.g., click, type) in addition to reading from. </li>\n</ul>\n<p>\nThis delineation enforces that only data from a limited set of origins is available to the agent, and this data can only be passed on to the writable origins. This bounds the threat vector of cross-origin data leaks. This also gives the browser the ability to enforce some of that separation, such as by not even sending to the model data that is outside the readable set. This reduces the model’s exposure to unnecessary cross-site data. Like the Alignment Critic, the gating functions that calculate these origin sets are not exposed to untrusted web content. The planner can also use context from pages the user explicitly shared in that session, but it cannot add new origins without the gating function’s approval. Outside of web origins, the planning model may ingest other non-web content such as from tool calls, so we also delineate those into read-vs-write calls and similarly check that those calls are appropriate for the task.\n</p>\n<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghyphenhyphenn4DpTjbnJ-VbmzsZDkXeH_6UuBKqmwMaLUPxclu_fmX_-pQaXZ0hmBDvPrBSGX8KeAtdPAasNQRzJuQyG7uMboFixcv4RM-hbJACo263iJ8Cr04JE1PaST2Tcb3x1KfB9ETFj9rYhgpeQO-yXAO7OBHIzzXpaJue0mfqDfqlE6eRYleLz2Y0ZG7MOTu/s1600/Chrome_Agent-Safety_Blog_Read-Writable-Origins.png\" style=\"display: block; padding: 1em 0; text-align: center;\"><img alt=\"\" border=\"0\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghyphenhyphenn4DpTjbnJ-VbmzsZDkXeH_6UuBKqmwMaLUPxclu_fmX_-pQaXZ0hmBDvPrBSGX8KeAtdPAasNQRzJuQyG7uMboFixcv4RM-hbJACo263iJ8Cr04JE1PaST2Tcb3x1KfB9ETFj9rYhgpeQO-yXAO7OBHIzzXpaJue0mfqDfqlE6eRYleLz2Y0ZG7MOTu/s1600/Chrome_Agent-Safety_Blog_Read-Writable-Origins.png\" /></a></div>\n<p style=\"text-align: center;\">\n<em>Iframes from origins that aren’t related to the user’s task are not shown to the model.</em>\n</p>\n<p>\nPage navigations can happen in several ways: If the planner decides to navigate to a new origin that isn’t yet in the readable set, that origin is checked for relevancy by a variant of the User Alignment critic before Chrome adds it and starts the navigation. And since model-generated URLs could exfiltrate private information, we have a deterministic check to restrict them to known, public URLs. If a page in Chrome navigates on its own to a new origin, it’ll get vetted by the same critic.\n</p>\n<p>\nGetting the balance right on the first iteration is hard without seeing how users’ tasks interact with these guardrails. We’ve initially implemented a simpler version of origin gating that just tracks the read-writeable set. We will tune the gating functions and other aspects of this system to reduce unnecessary friction while improving security. We think this architecture will provide a powerful security primitive that can be audited and reasoned about within the client, as it provides guardrails against cross-origin sensitive data exfiltration and unwanted actions.\n</p>\n<h3 style=\"text-align: left;\">Transparency and control for sensitive actions</h3>\n\n\n<p>\nWe designed the agentic capabilities in Chrome to give the user both transparency and control when they need it most. As the agent works in a tab, it details each step in a work log, allowing the user to observe the agent's actions as they happen. The user can pause to take over or stop a task at any time. \n</p>\n<p>\nThis transparency is paired with several layers of deterministic and model-based checks to trigger user confirmations before the agent takes an impactful action. These serve as guardrails against both model mistakes and adversarial input by putting the user in the loop at key moments.\n</p>\n<p>\nFirst, the agent will require a user confirmation before it navigates to certain sensitive sites, such as those dealing with banking transactions or personal medical information. This is based on a deterministic check against a list of sensitive sites. Second, it’ll confirm before allowing Chrome to sign-in to a site via Google Password Manager – the model does not have direct access to stored passwords. Lastly, before any sensitive web actions like completing a purchase or payment, sending messages, or other consequential actions, the agent will try to pause and either get permission from the user before proceeding or ask the user to complete the next step. Like our other safety classifiers, we’re constantly working to improve the accuracy to catch edge cases and grey areas.  \n</p>\n<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOjVhWn_oxNqPIu9-EvQgbwgqzTSp1O_dGOtC-mRTFHcC05Wf-ZY-wUfRHNsYGdnSDvSiVrtW86qsxoeehjaYGBIeuEQuR3oupKhKadZHa0_cyynv2rhWLZQuqcK_o5trwCa6xkCmuDvJDesvfqQrUzgwo-7EC74Zu1dGeJ-2BDnpo6G9Tg6e1M30SVRY5/s1600/Chrome_Agent%20Safety_Blog%20Graphics__Gemini%20in%20Chrome%203.png\" style=\"display: block; padding: 1em 0; text-align: center;\"><img alt=\"\" border=\"0\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOjVhWn_oxNqPIu9-EvQgbwgqzTSp1O_dGOtC-mRTFHcC05Wf-ZY-wUfRHNsYGdnSDvSiVrtW86qsxoeehjaYGBIeuEQuR3oupKhKadZHa0_cyynv2rhWLZQuqcK_o5trwCa6xkCmuDvJDesvfqQrUzgwo-7EC74Zu1dGeJ-2BDnpo6G9Tg6e1M30SVRY5/s1600/Chrome_Agent%20Safety_Blog%20Graphics__Gemini%20in%20Chrome%203.png\" /></a></div>\n<p style=\"text-align: center;\">\n<em>Illustrative example of when the agent gets to a payment page, it stops and asks the user to complete the final step.  </em>\n</p>\n<h3 style=\"text-align: left;\">Detecting “social engineering” of agents </h3>\n\n\n<p>\nIn addition to the structural defenses of alignment checks, origin gating, and confirmations, we have several processes to detect and respond to threats. While the agent is active, it checks every page it sees for indirect prompt injection. This is in addition to Chrome’s <a href=\"https://blog.google/products/chrome/google-chrome-safe-browsing-real-time/\">real-time scanning with Safe Browsing</a> and <a href=\"https://security.googleblog.com/2025/05/using-ai-to-stop-tech-support-scams-in.html\">on-device AI</a> that detect more traditional scams. This prompt-injection classifier runs in parallel to the planning model’s inference, and will prevent actions from being taken based on content that the classifier determined has intentionally targeted the model to do something unaligned with the user’s goal. While it cannot flag everything that might influence the model with malicious intent, it is a valuable layer in our defense-in-depth.\n</p>\n<h3 style=\"text-align: left;\">Continuous auditing, monitoring, response </h3>\n\n\n<p>\nTo validate the security of this set of layered defenses, we’ve built automated red-teaming systems to generate malicious sandboxed sites that try to derail the agent in Chrome. We start with a set of diverse attacks crafted by security researchers, and expand on them using LLMs following a <a href=\"https://storage.googleapis.com/deepmind-media/Security%20and%20Privacy/Gemini_Security_Paper.pdf\">technique</a> we adapted for browser agents. Our continuous testing prioritizes defenses against broad-reach vectors such as user-generated content on social media sites and content delivered via ads. We also prioritize attacks that could lead to lasting harm, such as financial transactions or the leaking of sensitive credentials. The attack success rate across these give immediate feedback to any engineering changes we make, so we can prevent regressions and target improvements. Chrome’s auto-update capabilities allow us to get fixes out to users very quickly, so we can stay ahead of attackers.\n</p>\n<h3 style=\"text-align: left;\">Collaborating across the community</h3>\n\n\n<p>\nWe have a long-standing commitment to working with the broader security research community to advance security together, and this includes agentic safety. We’ve updated our Vulnerability Rewards Program (VRP) guidelines to clarify how external researchers can focus on agentic capabilities in Chrome. We want to hear about any serious vulnerabilities in this system, and will pay up to $20,000 for those that demonstrate breaches in the <a href=\"https://chromium.googlesource.com/chromium/src/+/HEAD/docs/security/faq.md#ai-features\">security boundaries</a>. The full details are available in <a href=\"https://bughunters.google.com/about/rules/chrome-friends/5745167867576320/chrome-vulnerability-reward-program-rules\">VRP rules</a>.\n</p>\n<h3 style=\"text-align: left;\">Looking forward</h3>\n\n\n<p>\nThe upcoming introduction of agentic capabilities in Chrome brings new demands for browser security, and we've approached this challenge with the same rigor that has defined Chrome's security model from its inception. By extending some core principles like origin-isolation and layered defenses, and introducing a trusted-model architecture, we're building a secure foundation for Gemini’s agentic experiences in Chrome. This is an evolving space, and while we're proud of the initial protections we've implemented, we recognize that security for web agents is still an emerging domain. We remain committed to continuous innovation and collaboration with the security community to ensure Chrome users can explore this new era of the web safely.\n</p>",
     "link": "http://security.googleblog.com/2025/12/architecting-security-for-agentic.html",
@@ -117,6 +137,16 @@
     "source": "krebsonsecurity.com",
     "category": "Ransomware",
     "importance_score": 1531,
+    "also_covered_by": []
+  },
+  {
+    "title": "SBI Confirms Data Breach – 3000+ Customer Records Exposed on Dark Web",
+    "summary": "<p>State Bank of India (SBI) has disclosed a data loss incident after a preliminary review identified 3,897 customer records containing personal information on the dark web. The bank reported the findings in an October 21, 2026, stock exchange filing, while saying investigators still needed to establish the data’s authenticity, completeness, and source. The disclosure confirms [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/sbi-confirms-data-breach/\">SBI Confirms Data Breach &#8211; 3000+ Customer Records Exposed on Dark Web</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/sbi-confirms-data-breach/",
+    "published": "2026-10-21T06:16:07",
+    "source": "cybersecuritynews.com",
+    "category": "Data Breach",
+    "importance_score": 1509,
     "also_covered_by": []
   },
   {
@@ -320,6 +350,26 @@
     "also_covered_by": []
   },
   {
+    "title": "CISA Warns SafePay Ransomware Has Hit 600+ Organizations and Destroyed Backup Systems",
+    "summary": "<p>CISA has warned that SafePay ransomware actors have compromised at least 600 organizations across multiple critical infrastructure sectors, combining data theft and encryption with deliberate attacks on backup systems to obstruct recovery. The October 20, 2026, joint advisory describes operations spanning North America, South America, Europe, and Australia since August 2024. Published with the FBI, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/safepay-ransomware-attack/\">CISA Warns SafePay Ransomware Has Hit 600+ Organizations and Destroyed Backup Systems</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/safepay-ransomware-attack/",
+    "published": "2026-10-21T07:07:17",
+    "source": "gbhackers.com",
+    "category": "Ransomware",
+    "importance_score": 1227,
+    "also_covered_by": []
+  },
+  {
+    "title": "Microsoft Offers $40,000 for Complete Azure Vulnerability Reports, Just $4,000 for Incomplete Ones",
+    "summary": "<p>Microsoft has introduced a new report-assessment system across its bug bounty programs, making the evidence security researchers submit a key factor in their rewards. Under the Azure bounty program, eligible critical remote code execution and privilege escalation reports can earn $40,000 when assessed as Complete, compared with $4,000 when marked Not Complete. The change applies [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-new-report-assessment/\">Microsoft Offers $40,000 for Complete Azure Vulnerability Reports, Just $4,000 for Incomplete Ones</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/microsoft-new-report-assessment/",
+    "published": "2026-10-21T09:39:45",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 1218,
+    "also_covered_by": []
+  },
+  {
     "title": "Threat Brief: Active Exploitation of PAN-OS CVE-2026-0257 (Updated October 20)",
     "summary": "<p>Ransomware operators including Spikey Scorpius (aka Qilin) and Tarnished Scorpius (aka Inc) are exploiting PAN-OS vulnerability CVE-2026-0257.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/\">Threat Brief: Active Exploitation of PAN-OS CVE-2026-0257 (Updated October 20)</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
     "link": "https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/",
@@ -327,6 +377,16 @@
     "source": "unit42.paloaltonetworks.com",
     "category": "Ransomware",
     "importance_score": 1195,
+    "also_covered_by": []
+  },
+  {
+    "title": "INC Ransomware Hackers Use Claude AI, Expose 8,257 Messages and 46 Malware Builds",
+    "summary": "<p>Ransomware affiliates associated with INC and The Gentlemen exposed an intrusion ecosystem after leaving operational servers publicly accessible. The investigation began in late September 2026 with open directories on 45.227.254[.]43. Configuration files and credentials led researchers to six additional adversary servers, exposing development infrastructure, command infrastructure and ransomware staging systems. The findings describe an active [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/inc-ransomware-attack-2/\">INC Ransomware Hackers Use Claude AI, Expose 8,257 Messages and 46 Malware Builds</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/inc-ransomware-attack-2/",
+    "published": "2026-10-21T05:57:08",
+    "source": "gbhackers.com",
+    "category": "Ransomware",
+    "importance_score": 1187,
     "also_covered_by": []
   },
   {
@@ -470,6 +530,16 @@
     "also_covered_by": []
   },
   {
+    "title": "SafePay Ransomware Has Affected 600+ Organizations by Exploiting VPNs and Backup Servers",
+    "summary": "<p>SafePay ransomware has affected at least 600 separate victims across multiple critical infrastructure sectors, according to a joint government advisory released on October 20, 2026. Active since August 2024, the group has targeted businesses and essential services across North America, South America, Europe, and Australia, becoming one of the most active ransomware threats in 2026. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/safepay-ransomware/\">SafePay Ransomware Has Affected 600+ Organizations by Exploiting VPNs and Backup Servers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/safepay-ransomware/",
+    "published": "2026-10-21T07:27:03",
+    "source": "cybersecuritynews.com",
+    "category": "Ransomware",
+    "importance_score": 913,
+    "also_covered_by": []
+  },
+  {
     "title": "Data Broker Radaris Loses Domains in Privacy Fight",
     "summary": "The consumer data broker Radaris.com has long had a reputation for ignoring requests to remove personal information from its vast empire of people-search services online. That reputation caught up with the company recently in a lawsuit alleging Radaris violated a New Jersey privacy law that provides for hefty fines against data brokers that publish personal information on state law enforcement officials. In the face of repeated stonewalling and prevarication by attorneys for Radaris, the judge in the case ordered that radaris.com and more than a dozen other data broker domains be transferred to the plaintiffs.",
     "link": "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/",
@@ -600,6 +670,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Rust 1.100 Will Let Developers Block Fresh Cargo Packages to Reduce Malware Supply Chain Risks",
+    "summary": "<p>Rust 1.100, scheduled for November 12, 2026, will introduce stable support for Cargo dependency cooldowns, allowing developers to reject newly published package versions until they reach a configurable minimum age. The feature gives security researchers, maintainers, and registries time to identify malicious releases before automated updates spread them across development environments and CI pipelines access. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/rust-1-100-strengthens-cargo/\">Rust 1.100 Will Let Developers Block Fresh Cargo Packages to Reduce Malware Supply Chain Risks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/rust-1-100-strengthens-cargo/",
+    "published": "2026-10-21T06:17:29",
+    "source": "gbhackers.com",
+    "category": "Critical Infrastructure",
+    "importance_score": 732,
+    "also_covered_by": []
+  },
+  {
     "title": "Mozilla, Google, Apple block compromised eMudhra CA certificates",
     "summary": "Certificate authority eMudhra revoked eight compromised intermediate certificates after researchers found their private keys were so weak that anyone could recover them almost instantly and use them to forge trusted certificates for legitimate websites. [...]",
     "link": "https://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates/",
@@ -697,6 +777,16 @@
     "source": "bleepingcomputer.com",
     "category": "Phishing / Scams",
     "importance_score": 652,
+    "also_covered_by": []
+  },
+  {
+    "title": "Microsoft Introduces New Bug Bounty Rules That Could Affect Security Researchers’ Rewards",
+    "summary": "<p>Microsoft has introduced new rules for assessing reports in its bug bounty programs, tying submission completeness more directly to potential rewards. Announced by the Microsoft Security Response Center (MSRC) on October 20, 2026, these changes replace the previous multiple report quality levels with two assessments: &#8220;Complete&#8221; and &#8220;Not Complete.&#8221; This updated approach establishes clearer expectations [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/microsoft-introduces-new-bug-bounty-rules-that-could-affect-security-researchers-rewards/\">Microsoft Introduces New Bug Bounty Rules That Could Affect Security Researchers&#8217; Rewards</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/microsoft-introduces-new-bug-bounty-rules-that-could-affect-security-researchers-rewards/",
+    "published": "2026-10-21T05:32:06",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 650,
     "also_covered_by": []
   },
   {
@@ -870,6 +960,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Microsoft Unveils New OneDrive Command-Line Tool to Manage Sync Deployments",
+    "summary": "<p>Microsoft has introduced a new command-line tool that gives IT admins a faster way to check and manage OneDrive sync across company devices. Microsoft introduced the OneDrive Sync Client Command Line Interface (CLI) at the OneDrive + Copilot event held today. It is aimed at teams that look after large Microsoft 365 setups. The tool [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/onedrive-command-line-tool/\">Microsoft Unveils New OneDrive Command-Line Tool to Manage Sync Deployments</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/onedrive-command-line-tool/",
+    "published": "2026-10-21T09:38:10",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 599,
+    "also_covered_by": []
+  },
+  {
     "title": "What to do when a data breach notice doesn't say much",
     "summary": "Data breach notifications are telling victims less than ever. What the company leaves out can still shape what you do next.",
     "link": "https://www.welivesecurity.com/en/how-to/what-to-do-when-a-data-breach-notice-tells-you-almost-nothing/",
@@ -1020,6 +1120,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Hackers Exploit Compromised UpdraftCentral Keys to Install Malicious Plugins on WordPress Sites",
+    "summary": "<p>Attackers exploited compromised UpdraftCentral connection keys to send trusted remote-management commands to WordPress sites, ultimately installing malicious plugins that could provide unauthorized access to these websites. This incident followed unauthorized access to TeamUpdraft’s website on October 17-18, 2026. The company suspects attackers accessed its customer database, which contained UpdraftCentral connection keys and customer account information. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/malicious-plugins-on-wordpress-sites/\">Hackers Exploit Compromised UpdraftCentral Keys to Install Malicious Plugins on WordPress Sites</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/malicious-plugins-on-wordpress-sites/",
+    "published": "2026-10-21T05:10:32",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 496,
+    "also_covered_by": []
+  },
+  {
     "title": "AI-Powered Espionage Campaign Targets Government Linux Infrastructure",
     "summary": "<p>Our analysis an AI-powered espionage campaign targeting government Linux infrastructure with custom malware, web shells, and advanced credential theft.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/ai-campaign-targets-linux-infrastructure/\">AI-Powered Espionage Campaign Targets Government Linux Infrastructure</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
     "link": "https://unit42.paloaltonetworks.com/ai-campaign-targets-linux-infrastructure/",
@@ -1067,6 +1177,16 @@
     "source": "unit42.paloaltonetworks.com",
     "category": "Vulnerability",
     "importance_score": 491,
+    "also_covered_by": []
+  },
+  {
+    "title": "Oracle Releases 1,295 Security Patches to Fix Critical Vulnerabilities Across Multiple Products",
+    "summary": "<p>Oracle has released its October 2026 Critical Patch Update, which includes 1,295 new security patches across its enterprise portfolio. Published on October 20, the advisory addresses vulnerabilities in Oracle software as well as third-party components. Notably, it addresses critical flaws that attackers can exploit remotely without authentication. Affected products include databases, middleware, business applications, Java, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/oracle-releases-1295-security-patches/\">Oracle Releases 1,295 Security Patches to Fix Critical Vulnerabilities Across Multiple Products</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/oracle-releases-1295-security-patches/",
+    "published": "2026-10-21T09:18:59",
+    "source": "gbhackers.com",
+    "category": "Policy / Law",
+    "importance_score": 489,
     "also_covered_by": []
   },
   {
@@ -1140,6 +1260,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Apache Tomcat Security Flaws Allow Attackers to Bypass Authentication and Expose User Data",
+    "summary": "<p>Apache disclosed eight vulnerabilities in Tomcat, including authentication bypass, cross-user data exposure, insecure socket access, and cryptographic configuration failures. Of these, three are rated Important, and five are rated Low. Fixes are available in Tomcat versions 11.0.27, 10.1.61, and 9.0.123, depending on the affected version branch. These vulnerabilities affect specific components and configurations, not every [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/apache-tomcat-security-flaws/\">Apache Tomcat Security Flaws Allow Attackers to Bypass Authentication and Expose User Data</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/apache-tomcat-security-flaws/",
+    "published": "2026-10-21T09:05:10",
+    "source": "gbhackers.com",
+    "category": "Policy / Law",
+    "importance_score": 485,
+    "also_covered_by": []
+  },
+  {
     "title": "Google may add your number to all your accounts: How to stop it",
     "summary": "Android users report that Google automatically added their phone number to accounts they wanted to keep separate. Here’s how to check yours.",
     "link": "https://www.malwarebytes.com/blog/mobile/2026/10/google-may-add-your-number-to-all-your-accounts-how-to-stop-it",
@@ -1157,6 +1287,16 @@
     "source": "malwarebytes.com",
     "category": "Other",
     "importance_score": 483,
+    "also_covered_by": []
+  },
+  {
+    "title": "Scattered Spider, LAPSUS$, and ShinyHunters Operate as Distinct Groups Within The Com Ecosystem",
+    "summary": "<p>Scattered Spider, LAPSUS$, and ShinyHunters represent distinct intrusion clusters within The Com, not interchangeable names for one cybercriminal organization. The analysis separates these clusters from SP1D3R HUNTERS, also called Scattered LAPSUS$ Hunters (SLH), which it describes as a shared brand and coordination layer rather than a fourth operational group. That distinction has immediate consequences for [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/com-cybercrime-ecosystem/\">Scattered Spider, LAPSUS$, and ShinyHunters Operate as Distinct Groups Within The Com Ecosystem</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/com-cybercrime-ecosystem/",
+    "published": "2026-10-21T08:21:01",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 481,
     "also_covered_by": []
   },
   {
@@ -1200,6 +1340,46 @@
     "also_covered_by": []
   },
   {
+    "title": "Apache Tomcat Fixes 8 Security Flaws That Could Let Hackers Bypass Authentication",
+    "summary": "<p>Apache Tomcat has fixed eight security flaws that could let attackers bypass password checks, expose data between users, and disrupt connections under specific conditions. Apache disclosed the vulnerabilities on October 20, 2026, after releasing fixes in Tomcat 11.0.27, 10.1.61, and 9.0.123. The eight issues span different release branches, so not every flaw affects every version. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/apache-tomcat-fixes-8-security-flaws/\">Apache Tomcat Fixes 8 Security Flaws That Could Let Hackers Bypass Authentication</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/apache-tomcat-fixes-8-security-flaws/",
+    "published": "2026-10-21T08:28:43",
+    "source": "cybersecuritynews.com",
+    "category": "Policy / Law",
+    "importance_score": 465,
+    "also_covered_by": []
+  },
+  {
+    "title": "Top 10 Best Database Security & Activity Monitoring Tools in 2026 [Ranked & Scored]",
+    "summary": "<p>Databases hold what attackers came for, and service accounts hold the widest keys database security decides whether either gets noticed.We scored ten options from enterprise DAM anchors to warehouse-era access layers. Imperva takes 1 for watching-plus-stopping; IBM Guardium and Satori complete the podium. Key Takeaways • 1 overall: Imperva the DAM anchor that blocks policy [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-database-security-tools/\">Top 10 Best Database Security &#038; Activity Monitoring Tools in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/best-database-security-tools/",
+    "published": "2026-10-21T07:30:57",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 464,
+    "also_covered_by": []
+  },
+  {
+    "title": "Top 10 Best Data Privacy Management Software in 2026 [Ranked & Scored]",
+    "summary": "<p>Privacy stopped being a policy problem and became a data-engineering problem: you cannot fulfill a deletion request against data you cannot find, and in 2026 more US states, deeper AI-governance rules, and shrinking DSAR deadlines punish teams still running privacy on spreadsheets. We scored ten platforms across discovery depth, DSAR automation, consent orchestration, and mid-market [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-data-privacy-management/\">Top 10 Best Data Privacy Management Software in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/best-data-privacy-management/",
+    "published": "2026-10-21T07:35:51",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 462,
+    "also_covered_by": []
+  },
+  {
+    "title": "Meta Muse AI Privacy Flaw Exposes Confidential Business Data Through Shared Chat Links",
+    "summary": "<p>Meta has paused Muse AI’s conversation sharing feature after a privacy flaw exposed confidential business records and personal details through discoverable chat links. The problem affected pages users chose to share, not every private Muse conversation. Anyone who found an affected link could open its contents without signing in. The exposure came from how Muse [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/meta-muse-ai-privacy-flaw/\">Meta Muse AI Privacy Flaw Exposes Confidential Business Data Through Shared Chat Links</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/meta-muse-ai-privacy-flaw/",
+    "published": "2026-10-21T06:15:30",
+    "source": "cybersecuritynews.com",
+    "category": "Policy / Law",
+    "importance_score": 459,
+    "also_covered_by": []
+  },
+  {
     "title": "Ex-OpenAI Worker Accused of Bugging Conference Room Planned to Fly to Saudi Arabia, Prosecutors Say",
     "summary": "<p>Abdulrahman Alfozan’s wife and young son also left the country the day after the 35-year-old Saudi national’s arrest.</p>\n<p>The post <a href=\"https://www.securityweek.com/ex-openai-worker-accused-of-bugging-conference-room-planned-to-fly-to-saudi-arabia-prosecutors-say/\">Ex-OpenAI Worker Accused of Bugging Conference Room Planned to Fly to Saudi Arabia, Prosecutors Say</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
     "link": "https://www.securityweek.com/ex-openai-worker-accused-of-bugging-conference-room-planned-to-fly-to-saudi-arabia-prosecutors-say/",
@@ -1207,6 +1387,26 @@
     "source": "securityweek.com",
     "category": "Other",
     "importance_score": 455,
+    "also_covered_by": []
+  },
+  {
+    "title": "Top 10 Best Data Masking Tools in 2026 [Ranked & Scored]",
+    "summary": "<p>The fastest way to leak production data is to copy it somewhere less defended and most organizations do exactly that every sprint, cloning customer records into test, analytics, and now AI-training environments with a fraction of production’s controls. Data masking closes that gap by making the copies worthless to steal while keeping them useful to [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-data-masking-tools/\">Top 10 Best Data Masking Tools in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/best-data-masking-tools/",
+    "published": "2026-10-21T07:42:57",
+    "source": "cybersecuritynews.com",
+    "category": "Data Breach",
+    "importance_score": 449,
+    "also_covered_by": []
+  },
+  {
+    "title": "Top 10 Best File Integrity Monitoring (FIM) Tools in 2026 [Ranked & Scored]",
+    "summary": "<p>Every breach eventually touches a file a dropped binary, an edited config, a replaced DLL and file integrity monitoring is the control that notices. The 2026 challenge isn’t detection, it’s signal: PCI DSS 4.x demands FIM, but a tool that pages on every patch Tuesday trains the SOC to ignore the one change that matters. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-file-integrity-monitoring/\">Top 10 Best File Integrity Monitoring (FIM) Tools in 2026 [Ranked &#038; Scored]</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/best-file-integrity-monitoring/",
+    "published": "2026-10-21T07:49:12",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 448,
     "also_covered_by": []
   },
   {
@@ -1560,16 +1760,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Revolut outage disrupts online banking operations worldwide",
-    "summary": "Fintech company Revolut is working to resolve a massive outage that disrupted most of its services worldwide earlier today. [...]",
-    "link": "https://www.bleepingcomputer.com/news/security/revolut-outage-disrupts-online-banking-operations-worldwide/",
-    "published": "2026-10-20T09:46:44",
-    "source": "bleepingcomputer.com",
-    "category": "Other",
-    "importance_score": 365,
-    "also_covered_by": []
-  },
-  {
     "title": "MacSync under the microscope: new delivery methods and a new payload",
     "summary": "We look at a new version of the MacSync macOS stealer with a backdoor module that targets crypto enthusiasts and developers.",
     "link": "https://securelist.com/macsync-new-version/121383/",
@@ -1877,6 +2067,16 @@
     "source": "crowdstrike.com",
     "category": "Other",
     "importance_score": 201,
+    "also_covered_by": []
+  },
+  {
+    "title": "Revolut outage disrupts online banking operations worldwide",
+    "summary": "Fintech company Revolut is working to resolve a massive outage that disrupted most of its services worldwide earlier today. [...]",
+    "link": "https://www.bleepingcomputer.com/news/security/revolut-outage-disrupts-online-banking-operations-worldwide/",
+    "published": "2026-10-20T09:46:44",
+    "source": "bleepingcomputer.com",
+    "category": "Other",
+    "importance_score": 200,
     "also_covered_by": []
   },
   {
