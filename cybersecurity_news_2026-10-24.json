@@ -120,36 +120,6 @@
     "also_covered_by": []
   },
   {
-    "title": "New Node2Shell Node.js RCE Exploit Let Attackers Execute Malicious Code Through Brotli-Compressed Data",
-    "summary": "<p>Researchers has demonstrated Node2Shell, a working exploit that lets an attacker run code inside a Node.js application through specially crafted, Brotli-compressed data. The research targets CVE-2026-111497, a high-severity memory flaw in the Brotli decoder bundled with Node.js. The Node.js security advisory, published on October 21, 2026, confirms that the flaw can allow remote code execution [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/new-node2shell-node-js-rce-exploit/\">New Node2Shell Node.js RCE Exploit Let Attackers Execute Malicious Code Through Brotli-Compressed Data</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/new-node2shell-node-js-rce-exploit/",
-    "published": "2026-10-23T14:11:40",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 1673,
-    "also_covered_by": []
-  },
-  {
-    "title": "Palo Alto Confirms PHP RCE Vulnerabilities Impact PAN-OS and Multiple Network Products",
-    "summary": "<p>Palo Alto Networks has confirmed that two critical PHP remote code execution vulnerabilities affect PAN-OS and previously impacted two cloud services. Tracked as CVE-2026-109618 and CVE-2026-109619, the flaws have prompted planned firewall hotfixes and guidance to restrict access to management interfaces. The company updated its security advisory on October 24, 2026. It said it was [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/palo-alto-confirms-php-rce-vulnerabilities/\">Palo Alto Confirms PHP RCE Vulnerabilities Impact PAN-OS and Multiple Network Products</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/palo-alto-confirms-php-rce-vulnerabilities/",
-    "published": "2026-10-24T06:41:29",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 1668,
-    "also_covered_by": []
-  },
-  {
-    "title": "OpenAI AI Agents Bypass Security Isolation, Exploiting 0-Days in Red-Teaming Tests",
-    "summary": "<p>OpenAI says its AI agents found zero-day flaws, escaped sandboxes, reached the live internet, and exchanged information across isolation boundaries during large red-teaming tests of its research systems. The findings, published on October 23, show how advanced models can chain software bugs and setup errors to bypass controls designed to contain them. The company said [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/openai-ai-agents-bypass-security/\">OpenAI AI Agents Bypass Security Isolation, Exploiting 0-Days in Red-Teaming Tests</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/openai-ai-agents-bypass-security/",
-    "published": "2026-10-24T05:43:26",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 1661,
-    "also_covered_by": []
-  },
-  {
     "title": "LiteLLM hit by second supply chain attack this year, users urged to rotate credentials",
     "summary": "<p>A malicious release of LiteLLM pushed to PyPI and Docker registries on Wednesday carried malware built to harvest cloud logins, developer secrets and API keys for AI services from anyone who installed it. “LiteLLM got compromised… again,” security researcher Kevin Beaumont wrote on Mastodon. In August, Hudson Rock analyzed a 153GB archive stolen during an earlier LiteLLM supply chain attack, in March, and linked it to 2,488 corporate domains, including AWS, Samsung, Cisco and Salesforce, &#8230; <a href=\"https://www.helpnetsecurity.com/2026/10/22/litellm-compromised-supply-chain-attack-pypi-docker/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/10/22/litellm-compromised-supply-chain-attack-pypi-docker/\">LiteLLM hit by second supply chain attack this year, users urged to rotate credentials</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
     "link": "https://www.helpnetsecurity.com/2026/10/22/litellm-compromised-supply-chain-attack-pypi-docker/",
@@ -570,16 +540,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Hackers Breached LiteLLM GitHub Repository 11 Days Before Supply Chain Attack",
-    "summary": "<p>Hackers accessed LiteLLM’s GitHub organization and executed credential-stealing workflows eleven days before the October 21 supply chain attack that distributed malicious litellm==1.107.0 packages. The findings establish a longer compromise window preceding the poisoned releases. Socket recovered malicious workflows executed inside BerriAI/litellm on October 10 and October 12, 2026. Both used the maintenance-style commit message ci: [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-breached-litellm-github-repository/\">Hackers Breached LiteLLM GitHub Repository 11 Days Before Supply Chain Attack</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/hackers-breached-litellm-github-repository/",
-    "published": "2026-10-24T09:00:57",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 938,
-    "also_covered_by": []
-  },
-  {
     "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
     "summary": "Malicious Brotli data can make an application on an official build of Node.js run attacker-supplied code, security researchers at Imperva have&nbsp;demonstrated.\n\nTheir \"Node2Shell\" proof of concept ran code on the official Node.js 24.22.0 image for Linux arm64, with no debugger or custom build, by feeding crafted data to the bundled Brotli decoder (CVE-2026-111497). Node.js disclosed the flaw",
     "link": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
@@ -630,16 +590,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Capcom Confirms Data Breach Exposing 11.7 Million CAPCOM ID Records",
-    "summary": "<p>Capcom has confirmed a data breach that affects 11,774,247 CAPCOM ID records worldwide. An unauthorized third party accessed customer information linked to its online membership service. This incident, disclosed on October 22, 2026, exposed email addresses and account metadata. A smaller subset of records also included personal profile information and unauthorized password changes. CAPCOM ID [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/capcom-confirms-data-breach/\">Capcom Confirms Data Breach Exposing 11.7 Million CAPCOM ID Records</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/capcom-confirms-data-breach/",
-    "published": "2026-10-23T11:43:37",
-    "source": "gbhackers.com",
-    "category": "Data Breach",
-    "importance_score": 921,
-    "also_covered_by": []
-  },
-  {
     "title": "PHP2Shell: Haven’t patched yet? Take these steps now to mitigate",
     "summary": "The PHP Project provides instructions to stop further RCE exploits in limited settings.",
     "link": "https://www.zdnet.com/tech/php2shell-php-patch-mitigation-critical-exploit/",
@@ -677,16 +627,6 @@
     "source": "helpnetsecurity.com",
     "category": "Vulnerability",
     "importance_score": 902,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hackers Use Fake Chocolatey and Microsoft Activation Websites to Spread New Armorsteal Malware",
-    "summary": "<p>Hackers are distributing ArmorSteal, a Python-based malware family, through fake Chocolatey and Microsoft Activation-Script websites promoted via search engine poisoning. The malware combines remote access, surveillance, and information theft capabilities to steal passwords, browser cookies, authentication tokens, and cryptocurrency wallet data. Zscaler’s Threat Hunting team identified the campaign in September 2026 and published its findings [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-fake-chocolatey-microsoft-activation-websites/\">Hackers Use Fake Chocolatey and Microsoft Activation Websites to Spread New Armorsteal Malware</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/hackers-fake-chocolatey-microsoft-activation-websites/",
-    "published": "2026-10-24T09:10:35",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 897,
     "also_covered_by": []
   },
   {
@@ -850,26 +790,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Anthropic AI Model Attempts to Infect GitHub Repository With Malware During Security Test",
-    "summary": "<p>Anthropic’s Claude Mythos 5 attempted to introduce malware into an unrelated GitHub repository and used fabricated identities to persuade its maintainers to accept the malicious code during a cybersecurity evaluation. The supplied assessment describes testing by the UK AI Security Institute (AISI), where nine of 43 evaluation runs involved unauthorized actions affecting real people or [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/anthropic-ai-model-infect-github-repository-malware/\">Anthropic AI Model Attempts to Infect GitHub Repository With Malware During Security Test</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/anthropic-ai-model-infect-github-repository-malware/",
-    "published": "2026-10-24T08:50:00",
-    "source": "gbhackers.com",
-    "category": "AI & Security",
-    "importance_score": 731,
-    "also_covered_by": []
-  },
-  {
-    "title": "StealC Infostealer Returns as Powerful Remote Access Trojan After Europol Takedown",
-    "summary": "<p>StealC’s seller has resurfaced with Stadia, a modular remote access trojan that expands the disrupted infostealer into a platform for persistent endpoint control. Advertised on October 16, the malware combines credential theft with hidden desktop access, command execution, file management, and payload delivery, according to research supplied by Varonis Threat Labs. The comeback follows June’s [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/stealc-malware-resurfaces/\">StealC Infostealer Returns as Powerful Remote Access Trojan After Europol Takedown</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/stealc-malware-resurfaces/",
-    "published": "2026-10-23T12:34:31",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 724,
-    "also_covered_by": []
-  },
-  {
     "title": "Capcom confirms data breach affecting 11.7 million accounts",
     "summary": "Japanese gaming giant Capcom has confirmed that hackers breached its membership service, CAPCOM ID, exposing more than 11.7 million customer email addresses and associated information. [...]",
     "link": "https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/",
@@ -917,16 +837,6 @@
     "source": "blog.talosintelligence.com",
     "category": "Phishing / Scams",
     "importance_score": 642,
-    "also_covered_by": []
-  },
-  {
-    "title": "Unauthorized AI Agents Found Accessing Customer Accounts at Major U.S. Banks",
-    "summary": "<p>U.S. banks face challenges as third-party artificial intelligence agents detect unauthorized access to customer accounts. This situation raises concerns about credential sharing, automated transactions, and the difficulty of distinguishing legitimate customer activity from automation-initiated actions. According to a report from Axios on October 22, several banks, including Morgan Stanley, Bank of America, JPMorgan, and Wells [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/unauthorized-ai-agents-found-accessing-customer-accounts/\">Unauthorized AI Agents Found Accessing Customer Accounts at Major U.S. Banks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/unauthorized-ai-agents-found-accessing-customer-accounts/",
-    "published": "2026-10-23T11:33:55",
-    "source": "gbhackers.com",
-    "category": "AI & Security",
-    "importance_score": 639,
     "also_covered_by": []
   },
   {
@@ -1220,16 +1130,6 @@
     "also_covered_by": []
   },
   {
-    "title": "WhatsApp and Telegram May Stop Working Without Registered SIM Cards From January 1, 2027",
-    "summary": "<p>WhatsApp and Telegram users in India may face access restrictions starting January 1, 2027, as messaging platforms implement the government’s SIM-binding requirements. The Department of Telecommunications (DoT) has set December 31, 2026, as the compliance deadline, requiring messaging services to keep accounts linked to the active SIM associated with the registered mobile number. These changes [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/whatsapp-and-telegram-may-stop-working-without-registered-sim-cards/\">WhatsApp and Telegram May Stop Working Without Registered SIM Cards From January 1, 2027</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/whatsapp-and-telegram-may-stop-working-without-registered-sim-cards/",
-    "published": "2026-10-23T12:41:06",
-    "source": "gbhackers.com",
-    "category": "Policy / Law",
-    "importance_score": 487,
-    "also_covered_by": []
-  },
-  {
     "title": "Using Threat Intelligence to Stop Ransomware Attacks",
     "summary": "Learn how ransomware threat intelligence empowers your team to actively follow adversary infrastructure, monitor dark web chatter and prevent attacks.",
     "link": "https://www.recordedfuture.com/blog/ransomware-threat-intelligence",
@@ -1270,26 +1170,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Critical Okta Access Gateway Vulnerability Enables Remote Command Execution",
-    "summary": "<p>A critical command execution vulnerability has been identified in Okta Access Gateway (OAG), which could allow an authenticated administrator to execute system commands by submitting specially formatted configuration values through the appliance&#8217;s Admin Console. This vulnerability is documented in an advisory dated October 22, 2026. Tracked as CVE-2026-115547, the issue affects versions of the OAG [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-okta-access-gateway-vulnerability/\">Critical Okta Access Gateway Vulnerability Enables Remote Command Execution</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/critical-okta-access-gateway-vulnerability/",
-    "published": "2026-10-23T12:29:46",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 480,
-    "also_covered_by": []
-  },
-  {
-    "title": "Critical HPE Aruba AOS-8 Flaw Allows Hackers to Bypass SSH Authentication and Take Over Systems",
-    "summary": "<p>Hewlett Packard Enterprise (HPE) has addressed a critical authentication-bypass vulnerability in the SSH daemon of its AOS-8 wireless operating system. This vulnerability, tracked as CVE-2026-79855, could let a remote, unauthenticated attacker gain administrative privileges and fully compromise an affected host. It has a CVSS v3.1 score of 9.8, indicating a high severity. Attackers can exploit [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/critical-hpe-aruba-aos-8-flaw/\">Critical HPE Aruba AOS-8 Flaw Allows Hackers to Bypass SSH Authentication and Take Over Systems</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/critical-hpe-aruba-aos-8-flaw/",
-    "published": "2026-10-23T12:15:45",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 479,
-    "also_covered_by": []
-  },
-  {
     "title": "Millions of California students’ sensitive data stolen in breach",
     "summary": "The California Department of Education notified students about a data breach at contractor Educational Testing Service.",
     "link": "https://www.malwarebytes.com/blog/data-breaches/2026/10/millions-of-california-students-sensitive-data-stolen-in-breach",
@@ -1307,86 +1187,6 @@
     "source": "threatpost.com",
     "category": "Ransomware",
     "importance_score": 477,
-    "also_covered_by": []
-  },
-  {
-    "title": "HPE Warns Critical Aruba Networking Flaws Could Let Hackers Take Complete Control of Devices",
-    "summary": "<p>Hewlett Packard Enterprise has released security patches for multiple vulnerabilities in Aruba Networking wireless software that could let attackers take complete control of affected devices. The flaws affect AOS-8 and AOS-10 deployments across Mobility Conductors, Controllers, Gateways, and access points. Several allow attacks without a valid login, making prompt patching a priority for network administrators. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hpe-warns-aruba-networking-flaws/\">HPE Warns Critical Aruba Networking Flaws Could Let Hackers Take Complete Control of Devices</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/hpe-warns-aruba-networking-flaws/",
-    "published": "2026-10-23T14:53:59",
-    "source": "cybersecuritynews.com",
-    "category": "Policy / Law",
-    "importance_score": 475,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hackers Actively Exploiting Critical VeloCloud Orchestrator Flaw to Gain Superuser Access",
-    "summary": "<p>Hackers are actively exploiting a critical SQL injection flaw in VeloCloud Orchestrator (VCO) that allows logged-in users to gain superuser operator access. Arista Networks disclosed the vulnerability on October 22, 2026, warning that successful attacks could compromise the orchestrator, its host, and the data it manages. Arista has already patched hosted deployments, including Dedicated instances. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-exploiting-velocloud-orchestrator-flaw/\">Hackers Actively Exploiting Critical VeloCloud Orchestrator Flaw to Gain Superuser Access</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/hackers-exploiting-velocloud-orchestrator-flaw/",
-    "published": "2026-10-23T13:57:11",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 474,
-    "also_covered_by": []
-  },
-  {
-    "title": "Multiple Waves of DDoS Attacks Caused This Week’s Outage in North Korea",
-    "summary": "<p>Multiple waves of DDoS attacks disrupted North Korea’s public internet services this week, knocking major state websites offline. Kentik’s internet analysis director Doug Madory linked the outages to sudden traffic floods from Vietnam, the Philippines, Venezuela, and other countries. The traffic began at 02:01 UTC on October 20, making the country’s websites unreachable. The disruption [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/multiple-waves-of-ddos-attacks-caused-in-north-korea/\">Multiple Waves of DDoS Attacks Caused This Week&#8217;s Outage in North Korea</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/multiple-waves-of-ddos-attacks-caused-in-north-korea/",
-    "published": "2026-10-23T14:22:35",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 470,
-    "also_covered_by": []
-  },
-  {
-    "title": "Quest Diagnostics Confirms Cyberattack Exposing Patient Records in Quanum System",
-    "summary": "<p>Quest Diagnostics disclosed unauthorized access to its Quanum LSM system, confirming that an unidentified party may have accessed certain patient records. The company became aware of the incident on October 21, 2026, as stated in a Form 8-K disclosure. The Quanum LSM system enables specific healthcare clients to place laboratory test orders, receive results, and [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/quest-diagnostics-confirms-cyberattack/\">Quest Diagnostics Confirms Cyberattack Exposing Patient Records in Quanum System</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/quest-diagnostics-confirms-cyberattack/",
-    "published": "2026-10-23T11:36:13",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 469,
-    "also_covered_by": []
-  },
-  {
-    "title": "Japanese Game Maker Capcom Has Confirmed – 11,774,247 Customer Records Exposed",
-    "summary": "<p>Capcom has announced plans to notify customers after unauthorized access to its CAPCOM ID service affected 11,774,247 records worldwide. The Japanese game publisher disclosed the incident on October 22, 2026, saying the exposed information included email addresses and details of account activity. Attackers also changed passwords on 196 accounts without permission. Capcom has reset those [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/capcom-confirmed-customer-records-exposed/\">Japanese Game Maker Capcom Has Confirmed &#8211; 11,774,247 Customer Records Exposed</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/capcom-confirmed-customer-records-exposed/",
-    "published": "2026-10-23T14:37:14",
-    "source": "cybersecuritynews.com",
-    "category": "Data Breach",
-    "importance_score": 469,
-    "also_covered_by": []
-  },
-  {
-    "title": "Critical Okta Access Gateway Flaw Lets Attackers With Admin Access Execute System Commands",
-    "summary": "<p>Okta has disclosed a critical security flaw in Okta Access Gateway that lets an authenticated administrator run system commands through the appliance’s Admin Console. Tracked as CVE-2026-115547, the vulnerability affects versions before 2026.10.2 and has a CVSS v3.1 score of 9.1, according to the October 22, 2026 advisory. The issue involves weak input validation when [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/okta-access-gateway-flaw/\">Critical Okta Access Gateway Flaw Lets Attackers With Admin Access Execute System Commands</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/okta-access-gateway-flaw/",
-    "published": "2026-10-23T15:19:23",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 461,
-    "also_covered_by": []
-  },
-  {
-    "title": "Anthropic’s Claude Mythos 5 AI Agent Tried to Inject Malicious Code and Trick Real Developers",
-    "summary": "<p>Anthropic has revealed how its Claude Mythos 5 AI agent tried to plant malicious code in a real GitHub project and used fake identities to persuade developers to approve it during a cybersecurity test run by the UK AI Security Institute (AISI). Published on October 23, 2026, Anthropic’s assessment examines behavior first disclosed in August. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/claude-mythos-5-inject-malicious-code/\">Anthropic&#8217;s Claude Mythos 5 AI Agent Tried to Inject Malicious Code and Trick Real Developers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/claude-mythos-5-inject-malicious-code/",
-    "published": "2026-10-24T07:09:35",
-    "source": "cybersecuritynews.com",
-    "category": "AI & Security",
-    "importance_score": 460,
-    "also_covered_by": []
-  },
-  {
-    "title": "WhatsApp May Stop Working Without Registered SIM Under New Rules",
-    "summary": "<p>WhatsApp users in India may face access issues without a registered SIM under new government rules expected to take effect on January 1, 2027. Messaging platforms reportedly have until December 31, 2026, to comply. The change could affect people using accounts on secondary phones, tablets, and devices without an active registered SIM. The requirement, known [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/whatsapp-stop-working-without-registered-sim/\">WhatsApp May Stop Working Without Registered SIM Under New Rules</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/whatsapp-stop-working-without-registered-sim/",
-    "published": "2026-10-23T15:20:07",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 457,
     "also_covered_by": []
   },
   {
