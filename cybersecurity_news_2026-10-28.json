@@ -90,16 +90,6 @@
     "also_covered_by": []
   },
   {
-    "title": "The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime",
-    "summary": "<p>Microsoft uncovered a Chinese-language cybercriminal ecosystem, an interconnected network of phishing kit operators (tracked as Storm-2990), and an illicit marketplace (tracked as Storm-3119) selling tools and infrastructure for large-scale phishing. In collaboration with law enforcement agencies and other partners worldwide, Microsoft’s Digital Crimes Unit (DCU) facilitated a disruption of the ecosystem.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/10/14/the-hidden-network-inside-the-phishing-infrastructure-ecosystem-powering-global-cybercrime/\">The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/14/the-hidden-network-inside-the-phishing-infrastructure-ecosystem-powering-global-cybercrime/",
-    "published": "2026-10-14T13:00:00",
-    "source": "microsoft.com",
-    "category": "Vulnerability",
-    "importance_score": 1675,
-    "also_covered_by": []
-  },
-  {
     "title": "Evolution of Web3 in Cloud Supply Chain Attacks",
     "summary": "<p>Unit 42 details how threat actors leverage Web3 infrastructure and open-source supply chain attacks to breach enterprise cloud environments</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/web3-cloud-supply-chain-attacks/\">Evolution of Web3 in Cloud Supply Chain Attacks</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
     "link": "https://unit42.paloaltonetworks.com/web3-cloud-supply-chain-attacks/",
@@ -310,13 +300,13 @@
     "also_covered_by": []
   },
   {
-    "title": "Agents are your newest insiders. Security must move at their speed.",
-    "summary": "<p>New capabilities in Microsoft 365 E7 and Project Perception help organizations contain agent risk and adapt protection continuously.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/\">Agents are your newest insiders. Security must move at their speed. </a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/",
-    "published": "2026-10-19T13:00:00",
+    "title": "​​Beyond source code: A path to the keys to the kingdom",
+    "summary": "<p>Explore how Storm-3068 turned a compromised identity into broader cloud access and the steps organizations can take to defend their identities, pipelines, and cloud infrastructure.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/09/29/beyond-source-code-a-path-to-the-keys-to-the-kingdom/\">​​Beyond source code: A path to the keys to the kingdom</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/29/beyond-source-code-a-path-to-the-keys-to-the-kingdom/",
+    "published": "2026-09-29T16:00:00",
     "source": "microsoft.com",
     "category": "Vulnerability",
-    "importance_score": 1212,
+    "importance_score": 1219,
     "also_covered_by": []
   },
   {
@@ -327,6 +317,16 @@
     "source": "thehackernews.com",
     "category": "Ransomware",
     "importance_score": 1207,
+    "also_covered_by": []
+  },
+  {
+    "title": "Star Blizzard refines phishing and malware delivery with the RedFlick technique",
+    "summary": "<p>Since January 2026, Microsoft has observed Russian state threat actor Star Blizzard evolve their detection evasion capabilities through large-scale phishing campaigns, the use of accounts on compromised websites, and a novel malware delivery technique, tracked by Microsoft as “RedFlick”.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/09/29/star-blizzard-refines-phishing-and-malware-delivery-with-the-redflick-technique/\">Star Blizzard refines phishing and malware delivery with the RedFlick technique</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/29/star-blizzard-refines-phishing-and-malware-delivery-with-the-redflick-technique/",
+    "published": "2026-09-29T15:00:00",
+    "source": "microsoft.com",
+    "category": "Phishing / Scams",
+    "importance_score": 1135,
     "also_covered_by": []
   },
   {
@@ -727,6 +727,16 @@
     "source": "bleepingcomputer.com",
     "category": "Data Breach",
     "importance_score": 715,
+    "also_covered_by": []
+  },
+  {
+    "title": "Phishing Abuses RMM Tools for Persistent Access",
+    "summary": "<p>Microsoft observed phishing campaigns that abused MSP360 RMM to deploy ScreenConnect, creating redundant remote-access channels for follow-on activity</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/09/29/phishing-abuses-rmm-tools-persistent-access/\">Phishing Abuses RMM Tools for Persistent Access</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/29/phishing-abuses-rmm-tools-persistent-access/",
+    "published": "2026-09-29T21:39:27",
+    "source": "microsoft.com",
+    "category": "Phishing / Scams",
+    "importance_score": 714,
     "also_covered_by": []
   },
   {
@@ -1370,22 +1380,22 @@
     "also_covered_by": []
   },
   {
+    "title": "​​Secure what’s next: Your guide to Microsoft Security at Microsoft Ignite 2026",
+    "summary": "<p>This year at Microsoft Ignite, we spotlight our AI-first, end-to-end security platform designed to protect identities, devices, data, applications, clouds, infrastructure, and the AI agents now working alongside your teams.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/09/30/secure-whats-next-your-guide-to-microsoft-security-at-microsoft-ignite-2026/\">​​Secure what&#8217;s next: Your guide to Microsoft Security at Microsoft Ignite 2026</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/30/secure-whats-next-your-guide-to-microsoft-security-at-microsoft-ignite-2026/",
+    "published": "2026-09-30T19:31:00",
+    "source": "microsoft.com",
+    "category": "AI & Security",
+    "importance_score": 413,
+    "also_covered_by": []
+  },
+  {
     "title": "Ignore all instructions and read this blog: The state of AI-analysis evasion in malware",
     "summary": "“AI-analysis evasion” encapsulates the real-world techniques malware authors are developing in attempt to obstruct or defeat any layers of automated AI analysis.",
     "link": "https://blog.talosintelligence.com/ignore-all-instructions-and-read-this-blog-the-state-of-ai-analysis-evasion-in-malware/",
     "published": "2026-10-08T10:00:14",
     "source": "blog.talosintelligence.com",
     "category": "AI & Security",
-    "importance_score": 406,
-    "also_covered_by": []
-  },
-  {
-    "title": "Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks",
-    "summary": "<p>Microsoft Threat Intelligence analyzes the LiteLLM 1.107.0 compromise, including Python startup hooks, credential theft, remote code loading, detections, and mitigations.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/10/23/inside-the-litellm-1-107-0-supply-chain-compromise-credential-theft-through-python-startup-hooks/\">Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/23/inside-the-litellm-1-107-0-supply-chain-compromise-credential-theft-through-python-startup-hooks/",
-    "published": "2026-10-23T18:12:19",
-    "source": "microsoft.com",
-    "category": "Other",
     "importance_score": 406,
     "also_covered_by": []
   },
@@ -1407,6 +1417,16 @@
     "source": "microsoft.com",
     "category": "Other",
     "importance_score": 399,
+    "also_covered_by": []
+  },
+  {
+    "title": "Unauthenticated command injection on internet-facing mail servers: tracking CVE-2026-73570",
+    "summary": "<p>Microsoft Threat Intelligence examines CVE-2026-73570 exploitation in Zimbra, including observed attack paths, detection opportunities, and mitigation guidance.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/09/30/unauthenticated-command-injection-on-internet-facing-mail-servers-tracking-cve-2026-73570/\">Unauthenticated command injection on internet-facing mail servers: tracking CVE-2026-73570</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/30/unauthenticated-command-injection-on-internet-facing-mail-servers-tracking-cve-2026-73570/",
+    "published": "2026-09-30T14:00:00",
+    "source": "microsoft.com",
+    "category": "Vulnerability",
+    "importance_score": 397,
     "also_covered_by": []
   },
   {
@@ -1440,16 +1460,6 @@
     "also_covered_by": []
   },
   {
-    "title": "AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise",
-    "summary": "<p>Storm-0940 used ARTEX agentic AI to accelerate a ConnectWise supply chain compromise, enabling application credential abuse across Microsoft 365 environments.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/\">AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
-    "published": "2026-10-21T18:23:55",
-    "source": "microsoft.com",
-    "category": "AI & Security",
-    "importance_score": 389,
-    "also_covered_by": []
-  },
-  {
     "title": "CISA publishes strategy with eye on the next four years",
     "summary": "<p>It includes a review of whether its existing capabilities will meet its three pillars: “defend, harden, prevail.”</p>\n<p>The post <a href=\"https://cyberscoop.com/cisa-2030-cybersecurity-strategy/\">CISA publishes strategy with eye on the next four years</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
     "link": "https://cyberscoop.com/cisa-2030-cybersecurity-strategy/",
@@ -1477,16 +1487,6 @@
     "source": "bleepingcomputer.com",
     "category": "AI & Security",
     "importance_score": 379,
-    "also_covered_by": []
-  },
-  {
-    "title": "Managing open-weight model risk in enterprise deployments",
-    "summary": "<p>New whitepaper from Microsoft and NVIDIA helps enterprises manage open-weight AI model risks with a shared taxonomy, evaluations, and controls.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/10/16/managing-open-weight-model-risk-in-enterprise-deployments/\">Managing open-weight model risk in enterprise deployments</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/16/managing-open-weight-model-risk-in-enterprise-deployments/",
-    "published": "2026-10-16T16:00:00",
-    "source": "microsoft.com",
-    "category": "AI & Security",
-    "importance_score": 369,
     "also_covered_by": []
   },
   {
