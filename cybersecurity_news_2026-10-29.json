@@ -1020,6 +1020,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Online Scam Volumes Double to Overtake Phishing",
+    "summary": "Akamai research reveals that scam detections topped six million in Q2 2026",
+    "link": "https://www.infosecurity-magazine.com/news/online-scam-volumes-double/",
+    "published": "2026-10-29T11:15:00",
+    "source": "infosecurity-magazine.com",
+    "category": "Phishing / Scams",
+    "importance_score": 568,
+    "also_covered_by": []
+  },
+  {
     "title": "American Organizations Under Attack: Skyw4lker Device Code Phishing Campaign Exposed",
     "summary": "Modern phishing campaigns can compromise American businesses without relying on traditional credential theft. Attackers can abuse legitimate cloud services, authentication mechanisms, and trusted business workflows to gain access to corporate accounts while leaving fewer obvious signs behind.\n\nANY.RUN's analysis of Skyw4lker, a device code phishing campaign primarily targeting U.S. organizations",
     "link": "https://thehackernews.com/2026/10/american-organizations-under-attack.html",
@@ -1170,16 +1180,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Have an older iPhone or iPad? Apple has a security update for you",
-    "summary": "Apple has backported a fix for a CoreGraphics flaw reportedly exploited in targeted attacks to the iPhone XS, XS Max and XR, and seventh-generation iPad.",
-    "link": "https://www.malwarebytes.com/blog/bugs/2026/10/have-an-older-iphone-or-ipad-apple-has-a-security-update-for-you",
-    "published": "2026-10-29T11:03:18",
-    "source": "malwarebytes.com",
-    "category": "Policy / Law",
-    "importance_score": 488,
-    "also_covered_by": []
-  },
-  {
     "title": "Using Threat Intelligence to Stop Ransomware Attacks",
     "summary": "Learn how ransomware threat intelligence empowers your team to actively follow adversary infrastructure, monitor dark web chatter and prevent attacks.",
     "link": "https://www.recordedfuture.com/blog/ransomware-threat-intelligence",
@@ -1197,16 +1197,6 @@
     "source": "zdnet.com",
     "category": "Other",
     "importance_score": 486,
-    "also_covered_by": []
-  },
-  {
-    "title": "Chrome and Firefox updates fix serious security flaws. Install them now",
-    "summary": "Google and Mozilla released security updates for Chrome and Firefox on October 27. Update your browser as soon as you can.",
-    "link": "https://www.malwarebytes.com/blog/ai/2026/10/chrome-and-firefox-updates-fix-serious-security-flaws-install-them-now",
-    "published": "2026-10-28T11:13:06",
-    "source": "malwarebytes.com",
-    "category": "Policy / Law",
-    "importance_score": 480,
     "also_covered_by": []
   },
   {
@@ -1780,6 +1770,16 @@
     "also_covered_by": []
   },
   {
+    "title": "GuardBreaker: Derailing AI-assisted malware analysis with a code comment",
+    "summary": "LLM-based code scanners won’t help attackers build a nuclear weapon, but that refusal could work in their favor",
+    "link": "https://www.welivesecurity.com/en/business-security/guardbreaker-derailing-ai-assisted-malware-analysis-code-comment/",
+    "published": "2026-09-10T09:00:00",
+    "source": "welivesecurity.com",
+    "category": "Other",
+    "importance_score": 332,
+    "also_covered_by": []
+  },
+  {
     "title": "ICO Reprimands Staffordshire Police After Domestic Abuse Breach",
     "summary": "The UK’s privacy regulator has issued a reprimand to Staffordshire Police following a serious breach of personal information",
     "link": "https://www.infosecurity-magazine.com/news/ico-reprimand-staffordshire-police/",
@@ -1806,6 +1806,16 @@
     "published": "2026-10-28T16:10:39",
     "source": "zdnet.com",
     "category": "AI & Security",
+    "importance_score": 330,
+    "also_covered_by": []
+  },
+  {
+    "title": "Chrome and Firefox updates fix serious security flaws. Install them now",
+    "summary": "Google and Mozilla released security updates for Chrome and Firefox on October 27. Update your browser as soon as you can.",
+    "link": "https://www.malwarebytes.com/blog/ai/2026/10/chrome-and-firefox-updates-fix-serious-security-flaws-install-them-now",
+    "published": "2026-10-28T11:13:06",
+    "source": "malwarebytes.com",
+    "category": "Policy / Law",
     "importance_score": 330,
     "also_covered_by": []
   },
@@ -2030,16 +2040,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Lessons from Cybersecurity Black Week",
-    "summary": "A critical PHP flaw, leaked Linux kernel reports, a poisoned LiteLLM release, and more, all in seven days. Which threats called for immediate action, and which generated more noise than real danger?",
-    "link": "https://www.welivesecurity.com/en/business-security/lessons-cybersecurity-black-week/",
-    "published": "2026-10-28T10:33:51",
-    "source": "welivesecurity.com",
-    "category": "Data Breach",
-    "importance_score": 238,
-    "also_covered_by": []
-  },
-  {
     "title": "PHP2Shell: What to know about two critical PHP flaws",
     "summary": "Here's the lowdown on CVE-2026-109618 and CVE-2026-109619, as well as what website owners and IT teams should do to stay safe – all in a little more than two minutes",
     "link": "https://www.welivesecurity.com/en/videos/php2shell-what-know-two-critical-php-flaws/",
@@ -2057,16 +2057,6 @@
     "source": "welivesecurity.com",
     "category": "AI & Security",
     "importance_score": 224,
-    "also_covered_by": []
-  },
-  {
-    "title": "ESET APT Activity Report Q2 2026–Q3 2026",
-    "summary": "An overview of the activities of selected APT groups investigated and analyzed by ESET Research in Q2 2026 and Q3 2026",
-    "link": "https://www.welivesecurity.com/en/eset-research/eset-apt-activity-report-q2-2026-q3-2026/",
-    "published": "2026-10-28T09:45:00",
-    "source": "welivesecurity.com",
-    "category": "Other",
-    "importance_score": 214,
     "also_covered_by": []
   },
   {
@@ -2720,6 +2710,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Cyberthreats are moving faster than SMBs: Readiness must accelerate",
+    "summary": "As AI adoption expands the attack surface and adds to the security workload, businesses need automation backed by experts",
+    "link": "https://www.welivesecurity.com/en/business-security/cyberthreats-moving-faster-smbs-readiness-must-accelerate/",
+    "published": "2026-09-16T09:00:00",
+    "source": "welivesecurity.com",
+    "category": "AI & Security",
+    "importance_score": 36,
+    "also_covered_by": []
+  },
+  {
     "title": "Delivery bots accused of illegally scanning customers",
     "summary": "Two lawsuits allege delivery robots scanned customers’ faces without consent, linked scans to names and addresses, and used them to train AI.",
     "link": "https://www.malwarebytes.com/blog/privacy/2026/10/delivery-bots-accused-of-illegally-scanning-customers",
@@ -2734,6 +2734,16 @@
     "summary": "Many sites were taken offline so admins could patch two critical PHP flaws that could have let attackers run malicious code on their servers.",
     "link": "https://www.malwarebytes.com/blog/bugs/2026/10/php2shell-why-websites-are-going-offline-for-emergency-security-updates",
     "published": "2026-10-21T16:14:18",
+    "source": "malwarebytes.com",
+    "category": "Policy / Law",
+    "importance_score": 35,
+    "also_covered_by": []
+  },
+  {
+    "title": "Signal bug could let someone keep listening after you hang up",
+    "summary": "A flaw in Signal’s calling library could let another participant keep hearing you after you hang up. Update your app to get the latest fixes.",
+    "link": "https://www.malwarebytes.com/blog/bugs/2026/10/signal-bug-could-let-someone-keep-listening-after-you-hang-up",
+    "published": "2026-10-21T11:37:57",
     "source": "malwarebytes.com",
     "category": "Policy / Law",
     "importance_score": 35,
@@ -2867,16 +2877,6 @@
     "source": "malwarebytes.com",
     "category": "Other",
     "importance_score": 28,
-    "also_covered_by": []
-  },
-  {
-    "title": "Blue Initiative Offers Maritime Sector Dedicated Vulnerability Database",
-    "summary": "Blue Initiative launches a new vulnerability database for IT and OT CVEs relevant to the maritime industry",
-    "link": "https://www.infosecurity-magazine.com/news/blue-initiative-maritime/",
-    "published": "2026-10-26T10:15:00",
-    "source": "infosecurity-magazine.com",
-    "category": "Vulnerability",
-    "importance_score": 26,
     "also_covered_by": []
   },
   {
