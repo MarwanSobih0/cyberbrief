@@ -40,6 +40,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
+    "summary": "U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two different ransomware negotiation firms who maintained unusually close relations with the extortion group, KrebsOnSecurity has learned. Sources close to the investigation say one of the executives in the United States even helped ShinyHunters operate a website that pressured victims into paying a ransom.",
+    "link": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
+    "published": "2026-10-19T13:48:56",
+    "source": "krebsonsecurity.com",
+    "category": "Ransomware",
+    "importance_score": 2118,
+    "also_covered_by": []
+  },
+  {
     "title": "Australian Data Breach Incidents Up 66% as AI Sharpens Scams",
     "summary": "<p><img alt=\"ASD Cyber Threat Report\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"941\" src=\"https://thecyberexpress.com/wp-content/uploads/ASD-Cyber-Threat-Report.webp\" title=\"Australian Data Breach Incidents Up 66% as AI Sharpens Scams 13\" width=\"1672\" /></p><p>Australians filed a cybercrime report about every six minutes over the past year, and artificial intelligence is making the attacks behind those reports faster and more convincing. That is the main finding of the ASD Cyber Threat Report 2025-26. It is the seventh annual assessment from the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC).</p>\n<p>In FY2025-26, the agency received more than 82,000 <a class=\"wpil_keyword_link\" href=\"https://cyble.com/cybercrime/\" rel=\"noopener\" target=\"_blank\" title=\"cybercrime\">cybercrime</a> reports through ReportCyber. It responded to over 1,500 <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/cyber-news/\" title=\"cyber\">cyber</a> security incidents, up more than 20% on the previous year and 36% over five years. It also notified Australian entities of potentially malicious activity more than 4,400 times, almost 80% more than in FY2024-25.</p>\n<h3><strong>What the ASD Cyber Threat Report Says About AI</strong></h3>\n<p>The <a href=\"https://www.cyber.gov.au/news/asd-releases-seventh-annual-cyber-threat-report-2025-26\" rel=\"nofollow noopener\" target=\"_blank\">report calls AI the defining force</a> in the threat environment this year. In his foreword, Deputy Prime Minister and Defence Minister Richard Marles wrote that AI is helping malicious actors find vulnerabilities faster and <a class=\"wpil_keyword_link\" href=\"https://cyble.com/exploit/\" rel=\"noopener\" target=\"_blank\" title=\"exploit\">exploit</a> them at greater scale, speed and sophistication. He also noted that new threats have emerged in recent weeks from the unintended actions of AI agents and from model testing.</p>\n<p>ASD’s ACSC makes one clear distinction. AI has not created new kinds of threats. It has amplified and sped up existing ones. <a href=\"https://thecyberexpress.com/sicw-2026-singapore-warns-of-ai-cyber-threats/\" rel=\"noopener\" target=\"_blank\">AI-enabled cyber threats</a> are most visible in <a href=\"https://thecyberexpress.com/social-engineering-in-the-age-of-ai/\" rel=\"noopener\" target=\"_blank\">social engineering</a>. Attackers are using AI to write <a class=\"wpil_keyword_link\" href=\"https://cyble.com/knowledge-hub/what-is-phishing/\" rel=\"noopener\" target=\"_blank\" title=\"phishing\">phishing</a> emails with no spelling or grammar errors and to automate targeted spearphishing. The Australian Securities and Investments Commission has also seen a sharp rise in scams that use <a class=\"wpil_keyword_link\" href=\"https://cyble.com/knowledge-hub/what-are-deepfakes/\" rel=\"noopener\" target=\"_blank\" title=\"deepfake\">deepfake</a> videos of celebrities and politicians.</p>\n<p>The time defenders have to respond is also shrinking. The agency has previously observed that most <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-are-vulnerabilities/\" title=\"vulnerabilities\">vulnerabilities</a> are exploited within two weeks, and some within 48 hours of a patch being released. It expects AI-driven tools to shorten that window further over the next 12 months. Publicly reported vulnerabilities (CVEs) rose 30%. Old flaws are still a problem too: ASD’s ACSC recorded the successful exploitation of a <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/firewall-daily/vulnerabilities/\" title=\"vulnerability\">vulnerability</a> first identified in 2008.</p>\n<h3><strong>Incident Severity Grows in ASD Cyber Threat Report Data</strong></h3>\n<p>Only one Category 2 incident was recorded this year. However, extensive compromises rose from 26 to 40. ASD’s ACSC identified 362 incidents after proactively notifying organisations. A single notification about cPanel vulnerabilities, sent to 340 entities in May 2026, led to more than 60 confirmed incidents.</p><div class=\"thecy-content_2 thecy-entity-placement\" id=\"thecy-203434155\"><a href=\"https://cyble.com/resources/research-reports/\"><img alt=\"\" height=\"127\" src=\"https://thecyberexpress.com/wp-content/uploads/report-display-banner.webp\" width=\"768\" /></a></div>\n<p>The number of <a href=\"https://thecyberexpress.com/weekly-roundup-ransomware-data-breaches-scams/\" rel=\"noopener\" target=\"_blank\">ransomware incidents</a> held steady at 139, but extensive ransomware incidents rose from 16 to 24. Health Care, Professional, Scientific and Technical Services, and Manufacturing remained the most affected sectors. <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-data/\" title=\"Data\">Data</a> breaches made up 98 incidents, a 66% increase on the previous year. Separately, the Office of the Australian Information Commissioner received 1,205 breach notifications in 2025. That is the highest yearly total since its Notifiable Data Breaches scheme began in 2018.</p>\n<p>The financial impact is rising for businesses. The average self-reported cost of cybercrime per business report rose 16% to $93,500. For medium-sized businesses, it rose 45% to $141,300. The average cost for individuals stayed at $33,000. Identity <a class=\"wpil_keyword_link\" href=\"https://cyble.com/cybercrime/fraud/\" rel=\"noopener\" target=\"_blank\" title=\"fraud\">fraud</a> remained the most reported cybercrime, although reports fell 18%.</p>\n<p>Stolen access is now a major entry point. Compromised accounts and credentials were among the most frequently reported incident categories, and phishing appeared in 39% of incidents. Government survey research cited in the report found that 55% of Australians reuse passwords across multiple accounts.</p>\n<h3><strong>State Actors and Critical Infrastructure in the ASD Cyber Threat Report</strong></h3>\n<p><a href=\"https://thecyberexpress.com/hackers-bunch-of-nerds-binging-anime-manga/\" rel=\"noopener\" target=\"_blank\">State-sponsored actors</a> continued to target Australian government, business and individuals to gain sensitive information. The report says these actors are increasingly pre-positioning inside networks to enable future disruption. Marles wrote that the line separating state-sponsored espionage from sabotage and cybercrime is becoming increasingly blurred.</p>\n<p>In April 2026, ASD’s ACSC and international partners highlighted a shift by China-nexus actors. These actors are moving towards large covert networks built from compromised home and small office routers, <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-internet/\" title=\"Internet\">Internet</a> of Things devices and smart devices.</p>\n<p><a href=\"https://thecyberexpress.com/weekly-roundup-ai-fraud-data-breaches-cyber/\" rel=\"noopener\" target=\"_blank\">Critical infrastructure </a>accounted for 154 incidents, or 10% of the total, a decrease of almost 7%. Phishing was the leading initial access technique at 36%, and Financial and Insurance Services was the most affected critical infrastructure division at 30%.</p>\n<h3><strong>What the Threat Report Asks Organisations to Do</strong></h3>\n<p>In October 2026, ASD’s ACSC released the Essentials series. It evolves the Essential Eight into a principles-based framework with three chapters: Enterprise IT, Operational Technology and Cloud.</p>\n<p>Under its Cyber Action Year, the agency is pushing five priorities:</p>\n<ul>\n<li>Replacing or mitigating legacy technology.</li>\n<li>Implementing best-practice event logging.</li>\n<li>Managing supply chain <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-are-risks-in-cybersecurity/\" title=\"risk\">risk</a>.</li>\n<li>Preparing for AI-enabled threats.</li>\n<li>Preparing for post-quantum cryptography, including ceasing the use of traditional asymmetric cryptography by the end of 2030 or sooner.</li>\n</ul>\n<p>The report also urges organisations to patch faster. For individuals, it recommends reviewing privacy settings and enabling <a href=\"https://thecyberexpress.com/evilproxy-new-phishing-service-offers-advance-tactics-to-hackers/\" rel=\"noopener\" target=\"_blank\">multi-factor authentication</a> or passkeys.</p>\n<p>Suspicious activity, incidents and vulnerabilities can be reported at cyber.gov.au or through the Australian <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-cybersecurity/\" title=\"Cyber Security\">Cyber Security</a> Hotline on 1300 CYBER1 (1300 292 371).</p>\n<div><div style=\"text-align: center;\"><div style=\"background: #ffffff; border: 1px solid #e3e3e3; border-radius: 12px; padding: 44px 38px; text-align: center;\"><img alt=\"Cloudflare\" src=\"https://www.cloudflare.com/img/logo-web-badges/cf-logo-on-white-bg.svg\" style=\"width: 64px; height: auto; margin: 0 auto 22px auto;\" width=\"64\" /><div>Verify you are human</div><img alt=\"loading\" height=\"40\" src=\"https://i.gifer.com/ZZ5H.gif\" style=\"width: 40px; height: 40px; margin: 14px auto 16px auto;\" width=\"40\" /><div style=\"font-size: 15px; line-height: 1.55; margin: 0 0 22px 0; color: #6b6b76;\">Checking your browser before accessing this site.</div><div style=\"margin: 0 0 20px 0;\"><span style=\"font-size: 19px; font-weight: 700; color: #ffffff; background: #f6821f; padding: 14px 44px; border-radius: 8px; line-height: 1.6; display: inline-block; cursor: pointer;\">Click to verify &#8594;</span></div><div style=\"font-size: 13px; color: #9a9aa5; line-height: 1.7;\">Then you will be redirected to the requested content.<br />Ray ID: 8f3a2c1b9d4e5f6a &middot; Performance &amp; <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/\" title=\"security\">security</a> by Cloudflare</div></div></div></div><p>site-verification-ok</p>",
     "link": "https://thecyberexpress.com/asd-cyber-threat-report/",
@@ -187,6 +197,26 @@
     "source": "security.googleblog.com",
     "category": "Data Breach",
     "importance_score": 1540,
+    "also_covered_by": []
+  },
+  {
+    "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
+    "summary": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on thousands of agents, multiple sources tell KrebsOnSecurity.",
+    "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
+    "published": "2026-10-10T00:17:42",
+    "source": "krebsonsecurity.com",
+    "category": "Ransomware",
+    "importance_score": 1531,
+    "also_covered_by": []
+  },
+  {
+    "title": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation",
+    "summary": "Authorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolific hacker group ShinyHunters. In the days immediately following the suspect's arrest, remaining ShinyHunters members dramatically escalated their attacks, stealing highly sensitive data from the FBI and extorting the Russian ransomware group Cl0p.",
+    "link": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
+    "published": "2026-09-28T15:08:57",
+    "source": "krebsonsecurity.com",
+    "category": "Ransomware",
+    "importance_score": 1378,
     "also_covered_by": []
   },
   {
@@ -560,6 +590,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Data Broker Radaris Loses Domains in Privacy Fight",
+    "summary": "The consumer data broker Radaris.com has long had a reputation for ignoring requests to remove personal information from its vast empire of people-search services online. That reputation caught up with the company recently in a lawsuit alleging Radaris violated a New Jersey privacy law that provides for hefty fines against data brokers that publish personal information on state law enforcement officials. In the face of repeated stonewalling and prevarication by attorneys for Radaris, the judge in the case ordered that radaris.com and more than a dozen other data broker domains be transferred to the plaintiffs.",
+    "link": "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/",
+    "published": "2026-09-16T18:14:22",
+    "source": "krebsonsecurity.com",
+    "category": "Vulnerability",
+    "importance_score": 904,
+    "also_covered_by": []
+  },
+  {
     "title": "The Q3 Vulnerability Pulse: Discovery ≠ Exploitation",
     "summary": "Is the cybersecurity world really facing a \"Bugmageddon?\" Thor breaks down the latest CVE and KEV trends in the latest Threat Source newsletter.",
     "link": "https://blog.talosintelligence.com/the-q3-vulnerability-pulse-discovery-exploitation/",
@@ -577,6 +617,16 @@
     "source": "microsoft.com",
     "category": "AI & Security",
     "importance_score": 889,
+    "also_covered_by": []
+  },
+  {
+    "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
+    "summary": "A teenager from Amman, Jordan suspected of leading the prolific data theft and extortion group ShinyHunters has been detained and is reportedly cooperating with the FBI to identify other members of the hacking gang. KrebsOnSecurity has learned that the suspect, who uses the hacker handle \"Rey,\" was detained as ShinyHunters was in the process of extorting a business unit recently divested by the global aerospace company Boeing, which manufactures the fleet of planes used by the employer of Rey's father -- Royal Jordanian Airlines.",
+    "link": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
+    "published": "2026-10-07T13:48:45",
+    "source": "krebsonsecurity.com",
+    "category": "Other",
+    "importance_score": 879,
     "also_covered_by": []
   },
   {
@@ -607,6 +657,16 @@
     "source": "securelist.com",
     "category": "Data Breach",
     "importance_score": 852,
+    "also_covered_by": []
+  },
+  {
+    "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
+    "summary": "Expect to see quite a few websites serving \"404\" or \"Page Not Found\" errors today: Nearly 70 percent of websites need to update their core software to fix a pair of vulnerabilities that allow an attacker to seize full control over affected servers. Experts say there are working exploits for the flaws, and that these critical bugs are already being exploited in the wild.",
+    "link": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
+    "published": "2026-10-21T15:26:07",
+    "source": "krebsonsecurity.com",
+    "category": "Vulnerability",
+    "importance_score": 831,
     "also_covered_by": []
   },
   {
@@ -830,6 +890,16 @@
     "also_covered_by": []
   },
   {
+    "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
+    "summary": "The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to ransomware, narcotics, darknet markets, fraud and cybercrime services that are helping Russia circumvent existing financial restrictions.",
+    "link": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
+    "published": "2026-10-14T14:22:49",
+    "source": "krebsonsecurity.com",
+    "category": "Ransomware",
+    "importance_score": 632,
+    "also_covered_by": []
+  },
+  {
     "title": "Recorded Future Introduces AI Infrastructure Indicator Lists, Strengthening AI Governance",
     "summary": "Recorded Future's new AI Infrastructure Indicator Lists help security teams find shadow AI, enforce policy, and prevent data loss.",
     "link": "https://www.recordedfuture.com/blog/ai-infrastructure-indicator-lists",
@@ -837,6 +907,16 @@
     "source": "recordedfuture.com",
     "category": "Vulnerability",
     "importance_score": 632,
+    "also_covered_by": []
+  },
+  {
+    "title": "U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions",
+    "summary": "A U.S. Army soldier who pleaded guilty to hacking into multiple telecommunications companies and stealing mobile call and text metadata for more than 100 million AT&#038;T customers in 2024 was sentenced to 70 months in federal prison today and ordered to pay nearly $300,000 in restitution to victims.",
+    "link": "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/",
+    "published": "2026-09-25T21:44:40",
+    "source": "krebsonsecurity.com",
+    "category": "Other",
+    "importance_score": 630,
     "also_covered_by": []
   },
   {
@@ -1720,6 +1800,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Microsoft Plugs Nearly 1,000 Security Holes",
+    "summary": "Microsoft Corp. today issued updates to plug at least 974 security holes in its Windows operating systems and other software, by far its biggest single patch batch ever. Microsoft says artificial intelligence is helping to speed the discovery of vulnerabilities, but security experts warn that many organizations already are struggling to prioritize the more human-intensive endeavor of testing and deploying so many fixes each month.",
+    "link": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
+    "published": "2026-09-08T21:44:22",
+    "source": "krebsonsecurity.com",
+    "category": "Other",
+    "importance_score": 309,
+    "also_covered_by": []
+  },
+  {
     "title": "There's only so much code: the rise in vulnerability numbers",
     "summary": "The September Microsoft Patch Tuesday release included 975 vulnerability advisories. This month, 1,415 vulnerabilities were just dropped. Compared to a pre-June average of 100 a month, that increase is staggering. Where did they come from? And what does the future look like?",
     "link": "https://blog.talosintelligence.com/theres-only-so-much-code-the-rise-in-vulnerability-numbers/",
@@ -1817,6 +1907,16 @@
     "source": "recordedfuture.com",
     "category": "Phishing / Scams",
     "importance_score": 266,
+    "also_covered_by": []
+  },
+  {
+    "title": "Microsoft Patches More Than 1,400 Security Flaws",
+    "summary": "Microsoft today issued updates to fix more than 1,400 security vulnerabilities in its Windows operating systems and other software. Today's epic patch batch dwarfs September's record of nearly 1,000 fixes, which was already about ten times the normal monthly patch load from Redmond.",
+    "link": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
+    "published": "2026-10-13T23:24:53",
+    "source": "krebsonsecurity.com",
+    "category": "Policy / Law",
+    "importance_score": 264,
     "also_covered_by": []
   },
   {
