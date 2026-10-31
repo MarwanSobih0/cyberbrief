@@ -1080,16 +1080,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Syrian Hacker Behind Fake Tweet That Triggered $136 Billion Market Drop Gets 42 Months in Prison",
-    "summary": "Ahmad Umar Agha, a Syrian Electronic Army hacker known online as \"Th3Pr0,\" has been&nbsp;sentenced by a U.S. federal court&nbsp;to 42 months in prison for his role in a hacking conspiracy that targeted Western news outlets.\n\nThe conspiracy was organized and led by members of former Syrian President Bashar al-Assad's inner circle, including the commander of Syria's General Intelligence",
-    "link": "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html",
-    "published": "2026-10-30T10:40:45",
-    "source": "thehackernews.com",
-    "category": "Policy / Law",
-    "importance_score": 435,
-    "also_covered_by": []
-  },
-  {
     "title": "MR ROBOT Malware-as-a-Service Targets Indian Bank Customers",
     "summary": "MR ROBOT Android malware rents banking trojans that steal one-time passwords and card data",
     "link": "https://www.infosecurity-magazine.com/news/robot-malware-indian-bank-customers/",
@@ -1167,6 +1157,16 @@
     "source": "microsoft.com",
     "category": "Other",
     "importance_score": 406,
+    "also_covered_by": []
+  },
+  {
+    "title": "This month in security with Tony Anscombe – October 2026 edition",
+    "summary": "The PHP2Shell disclosure and other major cybersecurity news this month brought into relief the need for well-thought-out cyber-readiness plans",
+    "link": "https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-october-2026/",
+    "published": "2026-10-30T15:03:14",
+    "source": "welivesecurity.com",
+    "category": "Other",
+    "importance_score": 402,
     "also_covered_by": []
   },
   {
@@ -1597,6 +1597,16 @@
     "source": "thehackernews.com",
     "category": "Vulnerability",
     "importance_score": 271,
+    "also_covered_by": []
+  },
+  {
+    "title": "Syrian Hacker Behind Fake Tweet That Triggered $136 Billion Market Drop Gets 42 Months in Prison",
+    "summary": "Ahmad Umar Agha, a Syrian Electronic Army hacker known online as \"Th3Pr0,\" has been&nbsp;sentenced by a U.S. federal court&nbsp;to 42 months in prison for his role in a hacking conspiracy that targeted Western news outlets.\n\nThe conspiracy was organized and led by members of former Syrian President Bashar al-Assad's inner circle, including the commander of Syria's General Intelligence",
+    "link": "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html",
+    "published": "2026-10-30T10:40:45",
+    "source": "thehackernews.com",
+    "category": "Policy / Law",
+    "importance_score": 270,
     "also_covered_by": []
   },
   {
@@ -2514,16 +2524,6 @@
     "summary": "If you’re suddenly being overwhelmed with sign-up emails, it could very well be a sign of something more serious",
     "link": "https://www.welivesecurity.com/en/cybersecurity/inbox-flooded-signup-messages-email-bombing/",
     "published": "2026-10-16T09:00:00",
-    "source": "welivesecurity.com",
-    "category": "Other",
-    "importance_score": 33,
-    "also_covered_by": []
-  },
-  {
-    "title": "‘Nudify’ apps: What to do if someone makes a fake nude of you",
-    "summary": "Whether you’re a victim, the parent of a victim, or just concerned, here’s what you can do about fake nude images",
-    "link": "https://www.welivesecurity.com/en/privacy/nudify-apps-fake-nude-you/",
-    "published": "2026-09-18T09:00:00",
     "source": "welivesecurity.com",
     "category": "Other",
     "importance_score": 33,
