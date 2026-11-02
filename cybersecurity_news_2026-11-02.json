@@ -267,6 +267,16 @@
     "also_covered_by": []
   },
   {
+    "title": "The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime",
+    "summary": "<p>Microsoft uncovered a Chinese-language cybercriminal ecosystem, an interconnected network of phishing kit operators (tracked as Storm-2990), and an illicit marketplace (tracked as Storm-3119) selling tools and infrastructure for large-scale phishing. In collaboration with law enforcement agencies and other partners worldwide, Microsoft’s Digital Crimes Unit (DCU) facilitated a disruption of the ecosystem.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/10/14/the-hidden-network-inside-the-phishing-infrastructure-ecosystem-powering-global-cybercrime/\">The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/14/the-hidden-network-inside-the-phishing-infrastructure-ecosystem-powering-global-cybercrime/",
+    "published": "2026-10-14T13:00:00",
+    "source": "microsoft.com",
+    "category": "Vulnerability",
+    "importance_score": 1675,
+    "also_covered_by": []
+  },
+  {
     "title": "Evolution of Web3 in Cloud Supply Chain Attacks",
     "summary": "<p>Unit 42 details how threat actors leverage Web3 infrastructure and open-source supply chain attacks to breach enterprise cloud environments</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/web3-cloud-supply-chain-attacks/\">Evolution of Web3 in Cloud Supply Chain Attacks</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
     "link": "https://unit42.paloaltonetworks.com/web3-cloud-supply-chain-attacks/",
@@ -327,16 +337,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Apple Issues Urgent Security Alerts Over Mercenary Spyware Attacks in 99 Countries",
-    "summary": "<p>Apple has started sending a new round of threat notifications to users across 99 countries, warning them about targeted mercenary spyware attacks, according to cybersecurity researcher Costin Raiu. In his post, Raiu noted that these notifications are related to new attacks and are separate from the wave of alerts sent out in August. The notification [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/apple-issues-urgent-security-alerts-over-mercenary-spyware-attacks/\">Apple Issues Urgent Security Alerts Over Mercenary Spyware Attacks in 99 Countries</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/apple-issues-urgent-security-alerts-over-mercenary-spyware-attacks/",
-    "published": "2026-11-02T10:24:33",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 1474,
-    "also_covered_by": []
-  },
-  {
     "title": "INJ3CTOR3 Malware Steals FreePBX Credentials, Enabling Toll Fraud After Cleanup",
     "summary": "<p><img alt=\"INJ3CTOR3\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"483\" src=\"https://thecyberexpress.com/wp-content/uploads/INJ3CTOR3-2.webp\" title=\"INJ3CTOR3 Malware Steals FreePBX Credentials, Enabling Toll Fraud After Cleanup 20\" width=\"831\" /></p><p><span>The INJ3CTOR3 toll-fraud operation has given its FreePBX implant a dangerous new capability. <a href=\"https://cyble.com/blog/hijacked-pbx-to-stolen-trunk-inj3ctor3s-campaign/\" rel=\"nofollow noopener\" target=\"_blank\">Cyble Research &amp; Intelligence Labs (CRIL)</a> documented the JOMANGY PHP webshell in May. </span><span> </span></p>\n<p><span>It has since analyzed artifacts collected from the operator’s staging servers on 9 September 2026 and found that the implant now sends victims’ SIP trunk, AMI, database, and mail-relay credentials off the server. As a result, wiping an infected host no longer ends the <a class=\"wpil_keyword_link\" href=\"https://cyble.com/cybercrime/fraud/\" rel=\"noopener\" target=\"_blank\" title=\"fraud\">fraud</a>.</span><span> </span></p>\n<p><span>INJ3CTOR3 has targeted Asterisk-based phone systems since at least 2020. That November, Check Point Research named the group for exploiting CVE-2019-19006 in FreePBX. Unit 42 linked it to attacks on Elastix in 2022, and Fortinet documented its EncystPHP webshell in January 2026.</span><span> </span></p>\n<h3><b><span>How JOMANGY Now Exfiltrates FreePBX Secrets</span></b><span> </span></h3>\n<figure class=\"wp-caption alignnone\" style=\"width: 1024px;\"><img alt=\"INJ3CTOR3 attack chain, September generation. (Source: 0x1da5 GitHub)\" height=\"521\" src=\"https://cyble.com/wp-content/uploads/2026/10/1-1-1024x521.webp\" title=\"\" width=\"1024\" /><figcaption class=\"wp-caption-text\">INJ3CTOR3 attack chain, September generation. (Source: 0x1da5 GitHub)</figcaption></figure>\n<p><span>The September version of the k.php script ends with two new base64-encoded lines. Each line holds 17 curl commands that upload configuration files from FreePBX, Issabel, and Elastix systems to /hima_data/index.php.</span><span> </span></p>\n<p><span>Cron beacons rerun k.php every minute, so the theft repeats constantly. If a victim changes passwords while the system is still infected, the new passwords leak within minutes. With a stolen trunk secret, attackers can register with the carrier from anywhere and place calls that never touch the victim’s PBX. The only exception is when the carrier limits the trunk to the victim’s <a href=\"https://thecyberexpress.com/russia-weaponizes-ukrainian-ip-addresses/\" rel=\"noopener\" target=\"_blank\">IP addresses</a>.</span></p>\n<p><span>The “hima” name matches a backdoor account the <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-malware/\" title=\"malware\">malware</a> creates. It also matches a Telegram user Check Point spotted in 2020 sharing a tool that scanned and cracked SIP ranges.</span></p><div class=\"thecy-content_2 thecy-entity-placement\" id=\"thecy-2190947606\"><a href=\"https://cyble.com/resources/research-reports/\"><img alt=\"\" height=\"127\" src=\"https://thecyberexpress.com/wp-content/uploads/report-display-banner.webp\" width=\"768\" /></a></div>\n<p><span>Plain-text commands now point to 160[.]119[.]69[.]4, while base64-encoded commands still reach 45[.]95[.]147[.]178. The credential upload targets both hosts. Both hosts stopped responding in late September. CRIL is urging law enforcement agencies and national <a href=\"https://thecyberexpress.com/pakistan-cybersecurity-action-plan/\" rel=\"noopener\" target=\"_blank\">CERTs</a> to work with hosting providers to preserve the server data and sinkhole the addresses.</span></p>\n<h3><b><span>INJ3CTOR3 Rotates the Indicators Defenders Relied On</span></b><span> </span></h3>\n<p><span>The core JOMANGY code is largely unchanged, but the identifiers defenders were told to hunt for have changed:</span><span> </span></p>\n<ul>\n<li><b><span>Watermark:</span></b><span> The single April watermark (trace_e1ebf9066a951be519a24140711839ea) has been replaced by per-build values: trace_bd42a8a0d23ae16c85dede7d2abaec05 and trace_7544725ebaaadac217dfaa7ca8e8fe7e.</span><span> </span></li>\n<li><b><span>Gate hash:</span></b><span> The MD5 gate hash shared by JOMANGY and ZenharR moved from a2f6863413c4192a4abfa360577b9961 to 8b3a1d970fda0c17a0b785a990fb7b6a.</span><span> </span></li>\n<li><b><span>Takeover script:</span></b><span> The /x script grew from 367 to 620 lines, mostly to remove rival actors’ implants and SSH keys.</span><span> </span></li>\n</ul>\n<p><span>The panel can also forge a FreePBX admin session through the ampuser class and setAdmin(). This means changing the admin password does not lock the attacker out.</span><span> </span></p>\n<h3><b><span>Hidden Doors in Compromised FreePBX Systems</span></b><span> </span></h3>\n<p><span>The <a class=\"wpil_keyword_link\" href=\"https://cyble.com/knowledge-hub/what-is-malware/\" rel=\"noopener\" target=\"_blank\" title=\"malware\">malware</a> plants an .htaccess file in /var/www/html/admin/views/. It routes any request containing an encoded space or tab, such as %20 or %09, to config.php. Access logs record only the requested path, never the webshell’s filename, so searching logs for the shell by name can come up empty.</span><span> </span></p>\n<figure class=\"wp-caption alignnone\" style=\"width: 1024px;\"><img alt=\"Lab trunk, known to Asterisk and carrying calls, invisible in the FreePBX console\" height=\"289\" src=\"https://cyble.com/wp-content/uploads/2026/10/4-1024x289.webp\" title=\"\" width=\"1024\" /><figcaption class=\"wp-caption-text\">Lab trunk, known to Asterisk and carrying calls, invisible in the FreePBX console</figcaption></figure>\n<p><span>Trunks written directly to /etc/asterisk files such as pjsip_custom.conf also stay invisible in the FreePBX console. Administrators should audit through Asterisk CLI commands such as </span><span>pjsip show endpoints</span><span> and compare the results with what the console lists.</span><span> </span></p>\n<h3><b><span>Cleaning Up After INJ3CTOR3</span></b><span> </span></h3>\n<p><span>Shadowserver counted more than 900 compromised FreePBX instances in February 2026, and over 700 were still infected in May. Sangoma’s patch for CVE-2025-57819 blocks new exploitation but does not clean systems that are already compromised.</span><span> </span></p>\n<p><span>CRIL recommends this order:</span><span> </span></p>\n<ol>\n<li><span>Isolate the host from the <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-internet/\" title=\"internet\">internet</a>.</span><span> </span></li>\n<li><span>Preserve crontabs, logs, and the ampusers table.</span><span> </span></li>\n<li><span>Remove the cron entries and the zen2 watchdog.</span><span> </span></li>\n<li><span>Delete the eight crontab backups and the login stagers.</span><span> </span></li>\n<li><span>Remove extra UID-0 accounts and accounts with $1$nRz1Cbtk$ password hashes.</span><span> </span></li>\n<li><span>Delete the 12 webshell copies and the freepbxusers row.</span><span> </span></li>\n<li><span>Only then, rotate credentials across all 17 files.</span><span> </span></li>\n</ol>\n<p><span>CRIL’s report-only beagle.sh script can help with triage. Because the operator keeps rotating hashes and hosts, detection based on behavior and file origin will outlast hunting for specific hashes.</span><span> </span></p>\n</div><p></p>",
     "link": "https://thecyberexpress.com/inj3ctor3-jomangy-freepbx-credential-theft/",
@@ -353,16 +353,6 @@
     "published": "2026-11-02T05:46:30",
     "source": "thecyberexpress.com",
     "category": "Vulnerability",
-    "importance_score": 1400,
-    "also_covered_by": []
-  },
-  {
-    "title": "The Cyber Express Weekly Roundup: Binance Hit by $6.3 Billion Security Incident, South Korea Busts AI-Powered Hacking Ring and More",
-    "summary": "<p><img alt=\"weekly roundup October 30\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"426\" src=\"https://thecyberexpress.com/wp-content/uploads/weekly-roundup-October-30.webp\" title=\"The Cyber Express Weekly Roundup: Binance Hit by $6.3 Billion Security Incident, South Korea Busts AI-Powered Hacking Ring and More 5\" width=\"738\" /></p><span>This weekly roundup covers a $6.3 billion security incident at Binance, the arrest of a South Korean hacking ring that used generative AI to breach about 90 companies, Columbia University’s $16.1 million settlement over its 2025 data breach, a 70-month prison sentence for a Ukrainian ransomware affiliate tied to Nefilim and Hive, and Discord’s decision to let search engines index messages from its public servers.</span><span> </span>\n\n<span>Two threads run through this week’s stories. First, attackers are getting more out of less: one compromised laptop put billions of dollars in crypto at <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-are-risks-in-cybersecurity/\" title=\"risk\">risk</a>, and AI tools let a small, self-taught crew scale its attacks to dozens of victims. Second, the fallout from a breach lasts far longer than the breach itself, as lawsuits, prison sentences, and bounties land years after the original attacks, while a simple default setting can create new exposure.</span><span> </span>\n<h3><b><span>The Cyber Express Weekly Roundup</span></b><span> </span></h3>\n<h4><b><span>Binance Hit by $6.3 Billion Security Incident, Nearly $3 Billion Frozen</span></b><span> </span></h4>\n<span>Binance says a security incident affected about $6.3 billion in crypto assets, making it one of the largest in the industry’s history. Close to $3 billion has already been frozen on-chain, including 1.567 billion USDT frozen by Tether and 800 million USDC frozen by Circle. </span><a href=\"https://thecyberexpress.com/binance-data-breach-6-3-billion-assets-frozen/\"><b><span>Read more...</span></b></a><span> </span>\n<h4><b><span>South Korean Police Bust AI-Powered Hacking Ring That Targeted 90 Companies</span></b><span> </span></h4>\n<span>Seoul police have arrested seven people accused of using generative AI to <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-hacking/\" title=\"hack\">hack</a> about 90 companies and steal 8.2 million personal records, then demanding payment to keep the data private. The group’s 32-year-old ringleader, who taught himself to hack, used AI tools in roughly 60 of the attacks. </span><a href=\"https://thecyberexpress.com/south-korea-ai-cybercrime-ring/\"><b><span>Read more...</span></b></a><span> </span>\n<h4><b><span>Columbia University Settles $16.1 Million Lawsuit Over 2025 Data Breach</span></b><span> </span></h4>\n<span>Columbia University will pay $16.1 million to settle a class action over its June 2025 <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-a-cyber-attack/\" title=\"cyberattack\">cyberattack</a>. The breach exposed Social Security numbers, health information and financial aid <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-data/\" title=\"data\">data</a> belonging to about 870,000 applicants and affiliates. An internal investigation concluded the attack was politically motivated, with the <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-a-hacker/\" title=\"hacker\">hacker</a> looking for evidence of affirmative action in admissions, and found no sign that the data was sold. </span><a href=\"https://thecyberexpress.com/columbia-university-cyberattack/\"><b><span>Read more...</span></b></a><span> </span>\n<h4><b><span>Ukrainian Ransomware Affiliate Sentenced to 70 Months for Attacks on Hospitals and Businesses</span></b><span> </span></h4>\n<span>Artem Stryzhak, 36, has been sentenced in the U.S. to 70 months in prison for his part in the Nefilim and Hive <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-ransomware-how-it-work/\" title=\"ransomware\">ransomware</a> operations, which caused more than $100 million in losses. Working as an affiliate, he attacked companies, law firms and healthcare providers, including during the COVID-19 pandemic. Stryzhak was arrested in Spain in 2024, extradited in 2025, and pleaded guilty to two conspiracy counts. </span><a href=\"https://thecyberexpress.com/ukrainian-ransomware-affiliate-sentenced/\"><b><span>Read more...</span></b></a><span> </span>\n<h4><b><span>Discord to Let Google Index Public Server Messages, Raising Privacy Concerns</span></b><span> </span></h4>\n<span>Discord will allow search engines to index content from its Discoverable Servers, the more than 63,000 public communities with at least 1,000 members. Server web pages and discussion summaries go live on November 16, and individual messages follow from mid-December. Usernames and avatars will be hidden, and older messages are excluded. </span><a href=\"https://thecyberexpress.com/discord-messages-discoverable-servers/\"><b><span>Read more...</span></b></a><span> </span>\n<h3><b><span>Weekly Cybersecurity Takeaway</span></b><span> </span></h3>\n<span>Several incidents this week show how far a single foothold can reach. At Binance, one engineer’s compromised laptop was enough to push through unauthorized withdrawals worth billions. In South Korea, generative AI helped a self-taught attacker run dozens of intrusions that would once have needed a larger, more skilled team.</span><span> </span>\n\n<span>The other common thread is that the consequences of a breach outlast the breach. Columbia is paying $16.1 million more than a year after its attack, Stryzhak was sentenced years after the Nefilim and Hive campaigns, and the U.S. is still chasing his alleged partner with an $11 million bounty. Discord’s change is a reminder that exposure doesn’t always come from attackers: a default-on setting can make years of casual conversation searchable going forward.</span><span> </span>\n\n<span>Organizations should treat the devices of privileged staff as high-value targets and require multi-party approval for sensitive actions such as large withdrawals. They should assume AI is lowering the cost of attacks and keep basic defenses tight, minimize how much sensitive data they keep and for how long, and review default <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-privacy/\" title=\"privacy\">privacy</a> settings on the platforms their teams and communities use.</span><span> </span>",
-    "link": "https://thecyberexpress.com/cyber-express-weekly-roundup/",
-    "published": "2026-10-30T13:00:42",
-    "source": "thecyberexpress.com",
-    "category": "Ransomware",
     "importance_score": 1400,
     "also_covered_by": []
   },
@@ -487,6 +477,16 @@
     "also_covered_by": []
   },
   {
+    "title": "The Cyber Express Weekly Roundup: Binance Hit by $6.3 Billion Security Incident, South Korea Busts AI-Powered Hacking Ring and More",
+    "summary": "<p><img alt=\"weekly roundup October 30\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"426\" src=\"https://thecyberexpress.com/wp-content/uploads/weekly-roundup-October-30.webp\" title=\"The Cyber Express Weekly Roundup: Binance Hit by $6.3 Billion Security Incident, South Korea Busts AI-Powered Hacking Ring and More 5\" width=\"738\" /></p><span>This weekly roundup covers a $6.3 billion security incident at Binance, the arrest of a South Korean hacking ring that used generative AI to breach about 90 companies, Columbia University’s $16.1 million settlement over its 2025 data breach, a 70-month prison sentence for a Ukrainian ransomware affiliate tied to Nefilim and Hive, and Discord’s decision to let search engines index messages from its public servers.</span><span> </span>\n\n<span>Two threads run through this week’s stories. First, attackers are getting more out of less: one compromised laptop put billions of dollars in crypto at <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-are-risks-in-cybersecurity/\" title=\"risk\">risk</a>, and AI tools let a small, self-taught crew scale its attacks to dozens of victims. Second, the fallout from a breach lasts far longer than the breach itself, as lawsuits, prison sentences, and bounties land years after the original attacks, while a simple default setting can create new exposure.</span><span> </span>\n<h3><b><span>The Cyber Express Weekly Roundup</span></b><span> </span></h3>\n<h4><b><span>Binance Hit by $6.3 Billion Security Incident, Nearly $3 Billion Frozen</span></b><span> </span></h4>\n<span>Binance says a security incident affected about $6.3 billion in crypto assets, making it one of the largest in the industry’s history. Close to $3 billion has already been frozen on-chain, including 1.567 billion USDT frozen by Tether and 800 million USDC frozen by Circle. </span><a href=\"https://thecyberexpress.com/binance-data-breach-6-3-billion-assets-frozen/\"><b><span>Read more...</span></b></a><span> </span>\n<h4><b><span>South Korean Police Bust AI-Powered Hacking Ring That Targeted 90 Companies</span></b><span> </span></h4>\n<span>Seoul police have arrested seven people accused of using generative AI to <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-hacking/\" title=\"hack\">hack</a> about 90 companies and steal 8.2 million personal records, then demanding payment to keep the data private. The group’s 32-year-old ringleader, who taught himself to hack, used AI tools in roughly 60 of the attacks. </span><a href=\"https://thecyberexpress.com/south-korea-ai-cybercrime-ring/\"><b><span>Read more...</span></b></a><span> </span>\n<h4><b><span>Columbia University Settles $16.1 Million Lawsuit Over 2025 Data Breach</span></b><span> </span></h4>\n<span>Columbia University will pay $16.1 million to settle a class action over its June 2025 <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-a-cyber-attack/\" title=\"cyberattack\">cyberattack</a>. The breach exposed Social Security numbers, health information and financial aid <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-data/\" title=\"data\">data</a> belonging to about 870,000 applicants and affiliates. An internal investigation concluded the attack was politically motivated, with the <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-a-hacker/\" title=\"hacker\">hacker</a> looking for evidence of affirmative action in admissions, and found no sign that the data was sold. </span><a href=\"https://thecyberexpress.com/columbia-university-cyberattack/\"><b><span>Read more...</span></b></a><span> </span>\n<h4><b><span>Ukrainian Ransomware Affiliate Sentenced to 70 Months for Attacks on Hospitals and Businesses</span></b><span> </span></h4>\n<span>Artem Stryzhak, 36, has been sentenced in the U.S. to 70 months in prison for his part in the Nefilim and Hive <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-ransomware-how-it-work/\" title=\"ransomware\">ransomware</a> operations, which caused more than $100 million in losses. Working as an affiliate, he attacked companies, law firms and healthcare providers, including during the COVID-19 pandemic. Stryzhak was arrested in Spain in 2024, extradited in 2025, and pleaded guilty to two conspiracy counts. </span><a href=\"https://thecyberexpress.com/ukrainian-ransomware-affiliate-sentenced/\"><b><span>Read more...</span></b></a><span> </span>\n<h4><b><span>Discord to Let Google Index Public Server Messages, Raising Privacy Concerns</span></b><span> </span></h4>\n<span>Discord will allow search engines to index content from its Discoverable Servers, the more than 63,000 public communities with at least 1,000 members. Server web pages and discussion summaries go live on November 16, and individual messages follow from mid-December. Usernames and avatars will be hidden, and older messages are excluded. </span><a href=\"https://thecyberexpress.com/discord-messages-discoverable-servers/\"><b><span>Read more...</span></b></a><span> </span>\n<h3><b><span>Weekly Cybersecurity Takeaway</span></b><span> </span></h3>\n<span>Several incidents this week show how far a single foothold can reach. At Binance, one engineer’s compromised laptop was enough to push through unauthorized withdrawals worth billions. In South Korea, generative AI helped a self-taught attacker run dozens of intrusions that would once have needed a larger, more skilled team.</span><span> </span>\n\n<span>The other common thread is that the consequences of a breach outlast the breach. Columbia is paying $16.1 million more than a year after its attack, Stryzhak was sentenced years after the Nefilim and Hive campaigns, and the U.S. is still chasing his alleged partner with an $11 million bounty. Discord’s change is a reminder that exposure doesn’t always come from attackers: a default-on setting can make years of casual conversation searchable going forward.</span><span> </span>\n\n<span>Organizations should treat the devices of privileged staff as high-value targets and require multi-party approval for sensitive actions such as large withdrawals. They should assume AI is lowering the cost of attacks and keep basic defenses tight, minimize how much sensitive data they keep and for how long, and review default <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-privacy/\" title=\"privacy\">privacy</a> settings on the platforms their teams and communities use.</span><span> </span>",
+    "link": "https://thecyberexpress.com/cyber-express-weekly-roundup/",
+    "published": "2026-10-30T13:00:42",
+    "source": "thecyberexpress.com",
+    "category": "Ransomware",
+    "importance_score": 1250,
+    "also_covered_by": []
+  },
+  {
     "title": "Apple notifications alert victims in 99 countries about mercenary spyware infections",
     "summary": "<p>The notifications come shortly before the Pall Mall Process is nearing final negotiations on guidelines for the use of commercial hacking tools.</p>\n<p>The post <a href=\"https://cyberscoop.com/apple-spyware-notifications-pall-mall-process/\">Apple notifications alert victims in 99 countries about mercenary spyware infections</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
     "link": "https://cyberscoop.com/apple-spyware-notifications-pall-mall-process/",
@@ -507,13 +507,13 @@
     "also_covered_by": []
   },
   {
-    "title": "​​Beyond source code: A path to the keys to the kingdom",
-    "summary": "<p>Explore how Storm-3068 turned a compromised identity into broader cloud access and the steps organizations can take to defend their identities, pipelines, and cloud infrastructure.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/09/29/beyond-source-code-a-path-to-the-keys-to-the-kingdom/\">​​Beyond source code: A path to the keys to the kingdom</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/29/beyond-source-code-a-path-to-the-keys-to-the-kingdom/",
-    "published": "2026-09-29T16:00:00",
+    "title": "Agents are your newest insiders. Security must move at their speed.",
+    "summary": "<p>New capabilities in Microsoft 365 E7 and Project Perception help organizations contain agent risk and adapt protection continuously.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/\">Agents are your newest insiders. Security must move at their speed. </a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/",
+    "published": "2026-10-19T13:00:00",
     "source": "microsoft.com",
     "category": "Vulnerability",
-    "importance_score": 1219,
+    "importance_score": 1212,
     "also_covered_by": []
   },
   {
@@ -524,16 +524,6 @@
     "source": "thecyberexpress.com",
     "category": "Vulnerability",
     "importance_score": 1200,
-    "also_covered_by": []
-  },
-  {
-    "title": "Star Blizzard refines phishing and malware delivery with the RedFlick technique",
-    "summary": "<p>Since January 2026, Microsoft has observed Russian state threat actor Star Blizzard evolve their detection evasion capabilities through large-scale phishing campaigns, the use of accounts on compromised websites, and a novel malware delivery technique, tracked by Microsoft as “RedFlick”.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/09/29/star-blizzard-refines-phishing-and-malware-delivery-with-the-redflick-technique/\">Star Blizzard refines phishing and malware delivery with the RedFlick technique</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/29/star-blizzard-refines-phishing-and-malware-delivery-with-the-redflick-technique/",
-    "published": "2026-09-29T15:00:00",
-    "source": "microsoft.com",
-    "category": "Phishing / Scams",
-    "importance_score": 1135,
     "also_covered_by": []
   },
   {
@@ -554,16 +544,6 @@
     "source": "helpnetsecurity.com",
     "category": "Vulnerability",
     "importance_score": 1100,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hackers Weaponize Open-Source CyberStrikeAI Framework to Launch AI-Powered Network Intrusions",
-    "summary": "<p>Hackers are abusing CyberStrikeAI, an open-source penetration-testing framework, to orchestrate network intrusions against educational organizations across Africa and Latin America. The findings illustrate AI moving beyond attack preparation into operational decision-making. Published November 2, Kaspersky’s investigation describes a human-directed operation in which an LLM selects tools, generates commands, interprets results, and determines subsequent actions. The [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cyberstrikeai-framework/\">Hackers Weaponize Open-Source CyberStrikeAI Framework to Launch AI-Powered Network Intrusions</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/cyberstrikeai-framework/",
-    "published": "2026-11-02T10:55:52",
-    "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 1095,
     "also_covered_by": []
   },
   {
@@ -657,6 +637,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Inside a malicious Claude Code-branded extension and its persistent SSH backdoor",
+    "summary": "<p>Microsoft analyzes a malicious Claude Code–branded extension, its persistent SSH backdoor, and guidance to detect and remediate it.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/\">Inside a malicious Claude Code-branded extension and its persistent SSH backdoor</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/",
+    "published": "2026-10-31T01:02:57",
+    "source": "microsoft.com",
+    "category": "Other",
+    "importance_score": 940,
+    "also_covered_by": []
+  },
+  {
     "title": "Chainalysis Discloses Data Breach Following AI-Driven Cyberattack",
     "summary": "<p>The attackers used offensive agentic techniques to access the company’s systems and internal tools.</p>\n<p>The post <a href=\"https://www.securityweek.com/chainalysis-discloses-data-breach-following-ai-driven-cyberattack/\">Chainalysis Discloses Data Breach Following AI-Driven Cyberattack</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
     "link": "https://www.securityweek.com/chainalysis-discloses-data-breach-following-ai-driven-cyberattack/",
@@ -684,16 +674,6 @@
     "source": "bleepingcomputer.com",
     "category": "Vulnerability",
     "importance_score": 917,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hackers Exploit Patched Synology NAS Vulnerabilities to Deploy C3RB3R Ransomware and Encrypt Files",
-    "summary": "<p>Synology NAS devices are facing C3RB3R ransomware attacks linked to 2024 security flaws, prompting the company to urge users to update outdated DiskStation Manager versions and packages. The warning followed reports from the 360 Security Team and Solar Emergency Response Team on October 29. Victims found their files encrypted with the .L0CK3D extension and a [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/synology-nas-vulnerabilities-c3rb3r-ransomware/\">Hackers Exploit Patched Synology NAS Vulnerabilities to Deploy C3RB3R Ransomware and Encrypt Files</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/synology-nas-vulnerabilities-c3rb3r-ransomware/",
-    "published": "2026-11-02T11:49:58",
-    "source": "cybersecuritynews.com",
-    "category": "Ransomware",
-    "importance_score": 916,
     "also_covered_by": []
   },
   {
@@ -837,16 +817,6 @@
     "also_covered_by": []
   },
   {
-    "title": "New ChatGPT Phishing Kit Uses Rotating WordPress Websites to Steal Payment Details and OTPs",
-    "summary": "<p>A phishing campaign impersonating OpenAI is using disposable WordPress websites and live attacker oversight to steal payment card details and potentially capture one-time passwords. Fraudulent ChatGPT Plus billing emails warn that subscription payments have failed, directing recipients to counterfeit checkout pages where operators control the victim’s next step. The operation combines infrastructure churn with interactive [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/chatgpt-phishing-kit/\">New ChatGPT Phishing Kit Uses Rotating WordPress Websites to Steal Payment Details and OTPs</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/chatgpt-phishing-kit/",
-    "published": "2026-11-02T11:56:05",
-    "source": "gbhackers.com",
-    "category": "Phishing / Scams",
-    "importance_score": 733,
-    "also_covered_by": []
-  },
-  {
     "title": "Chainalysis discloses data breach from \"offensive agentic techniques\"",
     "summary": "Blockchain analytics firm Chainalysis disclosed a data breach after attackers used \"offensive agentic techniques\" to access internal systems and tools, exposing customer names, email addresses, user IDs, and organizational roles. [...]",
     "link": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
@@ -854,16 +824,6 @@
     "source": "bleepingcomputer.com",
     "category": "Data Breach",
     "importance_score": 723,
-    "also_covered_by": []
-  },
-  {
-    "title": "Phishing Abuses RMM Tools for Persistent Access",
-    "summary": "<p>Microsoft observed phishing campaigns that abused MSP360 RMM to deploy ScreenConnect, creating redundant remote-access channels for follow-on activity</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/09/29/phishing-abuses-rmm-tools-persistent-access/\">Phishing Abuses RMM Tools for Persistent Access</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/29/phishing-abuses-rmm-tools-persistent-access/",
-    "published": "2026-09-29T21:39:27",
-    "source": "microsoft.com",
-    "category": "Phishing / Scams",
-    "importance_score": 714,
     "also_covered_by": []
   },
   {
@@ -967,16 +927,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Top 10 Best Identity Governance & Administration (IGA) Tools in 2026",
-    "summary": "<p>Quick Answer: Linx is the AI-native solution for modern IGA across all identity types; SailPoint remains the IGA benchmark with AI-driven certifications; Saviynt leads cloud-native converged governance; Microsoft Entra ID Governance wins bundled economics in M365 estates; Omada owns the configurable mid-enterprise; One Identity rules AD-heavy shops. IGA answers the question auditors always ask: who should have access and can you prove it? Access reviews done [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/best-iga-tools/\">Top 10 Best Identity Governance &#038; Administration (IGA) Tools in 2026</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/best-iga-tools/",
-    "published": "2026-11-02T10:09:58",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 628,
-    "also_covered_by": []
-  },
-  {
     "title": "New Framework Puts Ransomware Resilience for AI Systems in Focus",
     "summary": "RAID-AI aims to help organizations assess their security preparation for ransomware attacks targeting AI systems",
     "link": "https://www.infosecurity-magazine.com/news/framework-ransomware-resilience-ai/",
@@ -984,16 +934,6 @@
     "source": "infosecurity-magazine.com",
     "category": "Ransomware",
     "importance_score": 628,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hackers Using Microsoft Teams Messages and Calls to Trick Users and Gain Remote Access to System",
-    "summary": "<p>Hackers are using Microsoft Teams messages and voice calls to impersonate IT support staff, persuade employees to approve remote access, and move deeper into corporate networks. Two intrusions investigated by Microsoft show how a seemingly routine help desk conversation can lead to stolen data and access to highly privileged accounts. The attacks did not exploit [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-teams-messages/\">Hackers Using Microsoft Teams Messages and Calls to Trick Users and Gain Remote Access to System</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/microsoft-teams-messages/",
-    "published": "2026-11-02T12:33:55",
-    "source": "cybersecuritynews.com",
-    "category": "Data Breach",
-    "importance_score": 611,
     "also_covered_by": []
   },
   {
@@ -1014,6 +954,16 @@
     "source": "thehackernews.com",
     "category": "Other",
     "importance_score": 603,
+    "also_covered_by": []
+  },
+  {
+    "title": "From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths",
+    "summary": "<p>Teams support impersonation led to remote access, malicious runtime execution, and Certificate Services abuse through authentication relay and Kerberos.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/10/30/help-desk-impersonation-ad-cs-abuse-investigating-esc1-esc8-intrusion-paths/\">From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/30/help-desk-impersonation-ad-cs-abuse-investigating-esc1-esc8-intrusion-paths/",
+    "published": "2026-10-30T16:11:44",
+    "source": "microsoft.com",
+    "category": "Other",
+    "importance_score": 599,
     "also_covered_by": []
   },
   {
@@ -1097,16 +1047,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Hackers Target Emergency Alert Apps in Ukraine and Russia, Sending Fake Nuclear Attack Warnings",
-    "summary": "<p>Hackers compromised emergency alert applications in Ukraine and Russia, distributing fabricated nuclear and radiation warnings as officials sought to reassure residents that no corresponding emergency existed. Ukraine reported interference late on November 1, followed hours later by Russia’s announcement of a “massive cyberattack” against its emergency ministry’s mobile application. The incidents targeted trusted civilian warning [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-target-emergency-alert-apps-in-ukraine-and-russia/\">Hackers Target Emergency Alert Apps in Ukraine and Russia, Sending Fake Nuclear Attack Warnings</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/hackers-target-emergency-alert-apps-in-ukraine-and-russia/",
-    "published": "2026-11-02T11:25:44",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 495,
-    "also_covered_by": []
-  },
-  {
     "title": "AI-Powered Espionage Campaign Targets Government Linux Infrastructure",
     "summary": "<p>Our analysis an AI-powered espionage campaign targeting government Linux infrastructure with custom malware, web shells, and advanced credential theft.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/ai-campaign-targets-linux-infrastructure/\">AI-Powered Espionage Campaign Targets Government Linux Infrastructure</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
     "link": "https://unit42.paloaltonetworks.com/ai-campaign-targets-linux-infrastructure/",
@@ -1114,16 +1054,6 @@
     "source": "unit42.paloaltonetworks.com",
     "category": "Other",
     "importance_score": 494,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hackers Target Supermarket Refrigeration Systems Across Sweden, Raising Freezer Temperatures to 55°C",
-    "summary": "<p>Hackers have disrupted refrigeration systems at several ICA and Coop supermarkets across Sweden, destroying food and prompting temporary closures. One store manager reported finding a freezer at 55°C, which highlights the physical consequences of attacks on connected retail equipment. The disruption follows attacks against French supermarket refrigeration systems, which similarly damaged chilled and frozen stock. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hackers-target-supermarket-refrigeration-systems-across-sweden/\">Hackers Target Supermarket Refrigeration Systems Across Sweden, Raising Freezer Temperatures to 55°C</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/hackers-target-supermarket-refrigeration-systems-across-sweden/",
-    "published": "2026-11-02T11:08:24",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 493,
     "also_covered_by": []
   },
   {
@@ -1217,36 +1147,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Unpatchable Hardware Flaws in Older iPhones Allow Attackers to Steal Crypto Wallet Recovery Phrases",
-    "summary": "<p>Older iPhones that store cryptocurrency recovery phrases are at a continuous security risk due to unpatchable BootROM vulnerabilities, even if the devices are wiped and kept in airplane mode. While attackers require physical access to exploit this vulnerability, doing so does not automatically reveal encrypted wallet data. However, other weaknesses could potentially allow them to [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/unpatchable-hardware-flaws-in-older-iphones/\">Unpatchable Hardware Flaws in Older iPhones Allow Attackers to Steal Crypto Wallet Recovery Phrases</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/unpatchable-hardware-flaws-in-older-iphones/",
-    "published": "2026-11-02T12:01:05",
-    "source": "gbhackers.com",
-    "category": "Ransomware",
-    "importance_score": 480,
-    "also_covered_by": []
-  },
-  {
-    "title": "Researchers Discover High-Severity ChatGPT Flaw That Exposed Private Conversations to Attackers",
-    "summary": "<p>Researchers found a chain of flaws that turned an ordinary public ChatGPT share link into attacker-controlled JavaScript running inside the victim&#8217;s signed-in session. OpenAI fixed the issue on October 26 and classified it as P1. The Parameter researchers&#8217; full technical write-up says the bug earned a $5,000 bounty. High-Severity ChatGPT Flaw An attacker published a [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/researchers-discover-high-severity-chatgpt-flaw/\">Researchers Discover High-Severity ChatGPT Flaw That Exposed Private Conversations to Attackers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/researchers-discover-high-severity-chatgpt-flaw/",
-    "published": "2026-11-02T10:58:59",
-    "source": "gbhackers.com",
-    "category": "Policy / Law",
-    "importance_score": 479,
-    "also_covered_by": []
-  },
-  {
-    "title": "Chainalysis Confirms Cyberattack as Hackers Exploit Vulnerabilities to Access Internal Tools",
-    "summary": "<p>Chainalysis has confirmed a cybersecurity incident in which an external actor gained unauthorized access to the company’s systems and internal tools through what it described as “offensive agentic techniques.” The company disclosed the incident on October 30, 2026, and its investigation is still ongoing. According to the company’s security disclosure, investigators have found no evidence [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/chainalysis-confirms-cyberattack/\">Chainalysis Confirms Cyberattack as Hackers Exploit Vulnerabilities to Access Internal Tools</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/chainalysis-confirms-cyberattack/",
-    "published": "2026-11-02T10:24:15",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 477,
-    "also_covered_by": []
-  },
-  {
     "title": "Ransomware Attacks are on the Rise",
     "summary": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
     "link": "https://threatpost.com/ransomware-attacks-are-on-the-rise/180481/",
@@ -1277,93 +1177,13 @@
     "also_covered_by": []
   },
   {
-    "title": "POC Released for Windows WinSock Ancillary Privilege Escalation Vulnerability",
-    "summary": "<p>A public proof-of-concept exploit for CVE-2023-21768 shows how attackers with local access can gain SYSTEM privileges through the Windows Ancillary Function Driver for WinSock. Researchers Valentina Palmiotti, known as chompie, and Ruben Boonen published the code. Their complete exploit targets vulnerable Windows 11 22H2 systems. The release concerns a vulnerability patched in January 2023, not [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/poc-for-windows-winsock-ancillary-vulnerability/\">POC Released for Windows WinSock Ancillary Privilege Escalation Vulnerability</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/poc-for-windows-winsock-ancillary-vulnerability/",
-    "published": "2026-11-02T11:57:41",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 471,
-    "also_covered_by": []
-  },
-  {
-    "title": "11 Security Log Management Tools: The 2026 Buyer’s Verdict Guide",
-    "summary": "<p>Security log management is bought three times transit, storage, query and most buyers price only one. This verdict guide judges eleven tools on pricing architecture at realistic volumes, search performance where investigations actually reach, and pipeline control, because the 2026 market’s real differentiator is who lets you stop paying analytics prices for logs nobody queries. [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/log-management-buyers-guide/\">11 Security Log Management Tools: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/log-management-buyers-guide/",
-    "published": "2026-11-02T09:41:26",
-    "source": "gbhackers.com",
-    "category": "Critical Infrastructure",
-    "importance_score": 467,
-    "also_covered_by": []
-  },
-  {
-    "title": "Northflank Security Breach Leads to Unauthorized AI API Key Usage, Customers Urged to Rotate Secrets",
-    "summary": "<p>Northflank urged customers to rotate all platform secrets after reports of unauthorized AI API key use, warning that environment variables across workloads, secret groups, and global settings may have been exposed. Northflank is investigating a security incident involving reported misuse of AI keys but has not confirmed the entry point, identified an attacker, or disclosed [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/northflank-security-breach/\">Northflank Security Breach Leads to Unauthorized AI API Key Usage, Customers Urged to Rotate Secrets</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/northflank-security-breach/",
-    "published": "2026-11-02T12:02:20",
-    "source": "cybersecuritynews.com",
+    "title": "Tracking AI adoption in North Korean threat actor tradecraft",
+    "summary": "<p>As Microsoft Threat Intelligence continues to track how threat actors operationalize AI to increase the speed and efficiency of attacks, we’ve identified North Korean threat actors expanding their use of AI with varying levels of adoption. This blog breaks down how North Korean threat actors are utilizing AI across their operations, reflecting a broader trend of threat actors incorporating AI into their attack chains.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/10/29/tracking-ai-adoption-in-north-korean-threat-actor-tradecraft/\">Tracking AI adoption in North Korean threat actor tradecraft</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/29/tracking-ai-adoption-in-north-korean-threat-actor-tradecraft/",
+    "published": "2026-10-29T16:00:00",
+    "source": "microsoft.com",
     "category": "AI & Security",
-    "importance_score": 466,
-    "also_covered_by": []
-  },
-  {
-    "title": "11 Security Data Lake Platforms: The 2026 Buyer’s Verdict Guide",
-    "summary": "<p>The security data lake decision is a custody decision: who owns your telemetry bytes, in what format, queryable by whose engines, at whose prices. This verdict guide judges eleven platforms general data clouds, purpose-built lakes, detection layers, and pipeline feeders on openness, economics, and whether detection genuinely travels with you. It pairs naturally with our [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/security-data-lake-buyers-guide/\">11 Security Data Lake Platforms: The 2026 Buyer’s Verdict Guide</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/security-data-lake-buyers-guide/",
-    "published": "2026-11-02T09:44:46",
-    "source": "gbhackers.com",
-    "category": "Critical Infrastructure",
-    "importance_score": 465,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hackers Exploit ChatGPT’s Popularity With Fake Billing Notices That Target Credit Cards and OTPs",
-    "summary": "<p>Hackers are impersonating OpenAI in fake ChatGPT Plus billing emails that lead users to payment pages designed to steal credit card details and one-time passwords. The campaign combines convincing subscription warnings with a live operator who can decide when to request a verification code, potentially helping approve an unauthorized payment. The emails claim a subscription [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fake-billing-notices/\">Hackers Exploit ChatGPT&#8217;s Popularity With Fake Billing Notices That Target Credit Cards and OTPs</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/fake-billing-notices/",
-    "published": "2026-11-02T11:31:33",
-    "source": "cybersecuritynews.com",
-    "category": "Policy / Law",
-    "importance_score": 465,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hackers Impersonate ChatGPT, Claude, and Perplexity AI Bots to Hunt for Passwords and API Keys",
-    "summary": "<p>Hackers are posing as trusted artificial intelligence bots to search websites for passwords, API keys, and cloud credentials. The campaign uses the names of ChatGPT, Claude, Perplexity, and other AI services to disguise automated scanning, testing whether businesses will let requests through simply because they appear to come from a familiar provider. The operation highlights [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-impersonate-ai-bots/\">Hackers Impersonate ChatGPT, Claude, and Perplexity AI Bots to Hunt for Passwords and API Keys</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/hackers-impersonate-ai-bots/",
-    "published": "2026-11-02T11:01:28",
-    "source": "cybersecuritynews.com",
-    "category": "AI & Security",
-    "importance_score": 465,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hackers Hijack Swedish Supermarket Fridges and Raise Freezer Temperatures to 55°C",
-    "summary": "<p>Hackers have reportedly targeted refrigeration systems at Swedish supermarkets, leaving stores with spoiled food after freezers reached temperatures as high as 55°C. Several ICA locations and six Coop stores were affected overnight into November 2, forcing staff to clear damaged stock and restore cooling systems. The incidents follow similar attacks against French supermarkets in October, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/supermarkets-fridges-hacked/\">Hackers Hijack Swedish Supermarket Fridges and Raise Freezer Temperatures to 55°C</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/supermarkets-fridges-hacked/",
-    "published": "2026-11-02T10:25:14",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 465,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hackers Use CyberStrikeAI Agents to Automate Windows Domain Takeovers and Credential Theft",
-    "summary": "<p>Hackers are now using an AI-driven command framework called CyberStrikeAI to break into Windows networks and take over entire domains. Education organizations in Africa and Latin America were among the confirmed victims. The tool lets a language model decide which commands to run, so the operator no longer types each step by hand. CyberStrikeAI is [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-use-cyberstrikeai-agents-2/\">Hackers Use CyberStrikeAI Agents to Automate Windows Domain Takeovers and Credential Theft</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/hackers-use-cyberstrikeai-agents-2/",
-    "published": "2026-11-02T10:34:24",
-    "source": "cybersecuritynews.com",
-    "category": "AI & Security",
-    "importance_score": 459,
-    "also_covered_by": []
-  },
-  {
-    "title": "PentestPad: How Pentest Companies Adapt In The Era of AI",
-    "summary": "<p>Every penetration testing firm is facing the same pressure right now. AI tools are faster, cheaper, andincreasingly capable, and testers are using them whether the company has a policy on it or not. There’s ahigh change AI has already entered your workflow the question is whether it has entered on your terms oryour employee&#8217;s personal [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/pentestpad-how-pentest-companies-adapt-in-the-era-of-ai/\">PentestPad: How Pentest Companies Adapt In The Era of AI</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/pentestpad-how-pentest-companies-adapt-in-the-era-of-ai/",
-    "published": "2026-11-02T10:05:54",
-    "source": "cybersecuritynews.com",
-    "category": "AI & Security",
-    "importance_score": 454,
+    "importance_score": 468,
     "also_covered_by": []
   },
   {
@@ -1417,13 +1237,13 @@
     "also_covered_by": []
   },
   {
-    "title": "​​Secure what’s next: Your guide to Microsoft Security at Microsoft Ignite 2026",
-    "summary": "<p>This year at Microsoft Ignite, we spotlight our AI-first, end-to-end security platform designed to protect identities, devices, data, applications, clouds, infrastructure, and the AI agents now working alongside your teams.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/09/30/secure-whats-next-your-guide-to-microsoft-security-at-microsoft-ignite-2026/\">​​Secure what&#8217;s next: Your guide to Microsoft Security at Microsoft Ignite 2026</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/30/secure-whats-next-your-guide-to-microsoft-security-at-microsoft-ignite-2026/",
-    "published": "2026-09-30T19:31:00",
+    "title": "The CISO’s evolving role: Protecting and defending in the agentic era",
+    "summary": "<p>As AI and agents reshape the enterprise, CISOs face two critical priorities: enabling innovation with the right identity and data guardrails, and modernizing defense to keep pace with AI-powered threats. Aarti Borkar shares how security leaders can approach both.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/10/28/the-cisos-evolving-role-protecting-and-defending-in-the-agentic-era/\">The CISO’s evolving role: Protecting and defending in the agentic era</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/28/the-cisos-evolving-role-protecting-and-defending-in-the-agentic-era/",
+    "published": "2026-10-28T16:00:00",
     "source": "microsoft.com",
     "category": "AI & Security",
-    "importance_score": 413,
+    "importance_score": 418,
     "also_covered_by": []
   },
   {
@@ -1437,33 +1257,23 @@
     "also_covered_by": []
   },
   {
-    "title": "Post-quantum authentication: Why organizations should start testing certificate ecosystems now",
-    "summary": "<p>Prepare for post-quantum authentication by testing certificate ecosystems now. Learn how Microsoft’s PQC TLS Pilot Program helps advance future readiness.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/10/08/post-quantum-authentication-why-organizations-should-start-testing-certificate-ecosystems-now/\">Post-quantum authentication: Why organizations should start testing certificate ecosystems now</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/08/post-quantum-authentication-why-organizations-should-start-testing-certificate-ecosystems-now/",
-    "published": "2026-10-08T20:44:28",
+    "title": "Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks",
+    "summary": "<p>Microsoft Threat Intelligence analyzes the LiteLLM 1.107.0 compromise, including Python startup hooks, credential theft, remote code loading, detections, and mitigations.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/10/23/inside-the-litellm-1-107-0-supply-chain-compromise-credential-theft-through-python-startup-hooks/\">Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/23/inside-the-litellm-1-107-0-supply-chain-compromise-credential-theft-through-python-startup-hooks/",
+    "published": "2026-10-23T18:12:19",
     "source": "microsoft.com",
     "category": "Other",
-    "importance_score": 399,
+    "importance_score": 406,
     "also_covered_by": []
   },
   {
-    "title": "Unauthenticated command injection on internet-facing mail servers: tracking CVE-2026-73570",
-    "summary": "<p>Microsoft Threat Intelligence examines CVE-2026-73570 exploitation in Zimbra, including observed attack paths, detection opportunities, and mitigation guidance.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/09/30/unauthenticated-command-injection-on-internet-facing-mail-servers-tracking-cve-2026-73570/\">Unauthenticated command injection on internet-facing mail servers: tracking CVE-2026-73570</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/30/unauthenticated-command-injection-on-internet-facing-mail-servers-tracking-cve-2026-73570/",
-    "published": "2026-09-30T14:00:00",
+    "title": "IDC MarketScape names Microsoft a Leader in the 2026 Worldwide Modern Endpoint Security for Enterprises Vendor Assessment",
+    "summary": "<p>IDC has named Microsoft a Leader in the 2026 IDC MarketScape for Worldwide Modern Endpoint Security for Enterprises.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/10/29/idc-marketscape-names-microsoft-a-leader-in-the-2026-worldwide-modern-endpoint-security-for-enterprises-vendor-assessment/\">IDC MarketScape names Microsoft a Leader in the 2026 Worldwide Modern Endpoint Security for Enterprises Vendor Assessment</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/29/idc-marketscape-names-microsoft-a-leader-in-the-2026-worldwide-modern-endpoint-security-for-enterprises-vendor-assessment/",
+    "published": "2026-10-29T16:00:00",
     "source": "microsoft.com",
-    "category": "Vulnerability",
-    "importance_score": 397,
-    "also_covered_by": []
-  },
-  {
-    "title": "Preparing governments for an era of interconnected cyber risk",
-    "summary": "<p>According to this year’s Microsoft Digital Defense Report, government agencies and services were the sector most impacted by cyber threats in 2026, accounting for 27% of observed activity, up from 17% in 2025.</p>\n<p>The post <a href=\"https://blogs.microsoft.com/on-the-issues/2026/10/01/preparing-governments-for-an-era-of-interconnected-cyber-risk/\">Preparing governments for an era of interconnected cyber risk</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
-    "link": "https://blogs.microsoft.com/on-the-issues/2026/10/01/preparing-governments-for-an-era-of-interconnected-cyber-risk/",
-    "published": "2026-10-01T14:00:00",
-    "source": "blogs.microsoft.com",
     "category": "Other",
-    "importance_score": 393,
+    "importance_score": 404,
     "also_covered_by": []
   },
   {
@@ -1474,6 +1284,16 @@
     "source": "securelist.com",
     "category": "Other",
     "importance_score": 391,
+    "also_covered_by": []
+  },
+  {
+    "title": "AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise",
+    "summary": "<p>Storm-0940 used ARTEX agentic AI to accelerate a ConnectWise supply chain compromise, enabling application credential abuse across Microsoft 365 environments.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/\">AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
+    "published": "2026-10-21T18:23:55",
+    "source": "microsoft.com",
+    "category": "AI & Security",
+    "importance_score": 389,
     "also_covered_by": []
   },
   {
@@ -1497,23 +1317,13 @@
     "also_covered_by": []
   },
   {
-    "title": "Insights from the 2026 Microsoft Digital Defense Report",
-    "summary": "<p>Read highlights from the 2026 Microsoft Digital Defense Report, which reflects a security environment that continues to grow more interconnected.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/10/01/insights-from-the-2026-microsoft-digital-defense-report/\">Insights from the 2026 Microsoft Digital Defense Report </a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/01/insights-from-the-2026-microsoft-digital-defense-report/",
-    "published": "2026-10-01T14:00:00",
+    "title": "Managing open-weight model risk in enterprise deployments",
+    "summary": "<p>New whitepaper from Microsoft and NVIDIA helps enterprises manage open-weight AI model risks with a shared taxonomy, evaluations, and controls.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/10/16/managing-open-weight-model-risk-in-enterprise-deployments/\">Managing open-weight model risk in enterprise deployments</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/16/managing-open-weight-model-risk-in-enterprise-deployments/",
+    "published": "2026-10-16T16:00:00",
     "source": "microsoft.com",
-    "category": "Other",
+    "category": "AI & Security",
     "importance_score": 369,
-    "also_covered_by": []
-  },
-  {
-    "title": "CISO perspectives on managing vulnerability risks in the age of AI",
-    "summary": "<p>Learn how CISOs can mitigate cybersecurity risks and increase resilience in the age of AI-powered vulnerability management.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/10/06/ciso-perspectives-on-managing-vulnerability-risks-in-the-age-of-ai/\">CISO perspectives on managing vulnerability risks in the age of AI</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/06/ciso-perspectives-on-managing-vulnerability-risks-in-the-age-of-ai/",
-    "published": "2026-10-06T16:00:00",
-    "source": "microsoft.com",
-    "category": "Vulnerability",
-    "importance_score": 368,
     "also_covered_by": []
   },
   {
@@ -1524,26 +1334,6 @@
     "source": "welivesecurity.com",
     "category": "Other",
     "importance_score": 364,
-    "also_covered_by": []
-  },
-  {
-    "title": "3 lessons from frontier AI vulnerability research",
-    "summary": "<p>Read how How Microsoft Security's FORGE Lab is scaling vulnerability research from Windows to the Linux kernel.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/10/07/3-lessons-from-frontier-ai-vulnerability-research/\">3 lessons from frontier AI vulnerability research</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/07/3-lessons-from-frontier-ai-vulnerability-research/",
-    "published": "2026-10-07T16:00:00",
-    "source": "microsoft.com",
-    "category": "Vulnerability",
-    "importance_score": 352,
-    "also_covered_by": []
-  },
-  {
-    "title": "Assad regime hacker who caused $136 billion market drop sentenced to 42 months",
-    "summary": "<p>A Syrian man who used a hijacked news agency Twitter account to post a fake report of explosions at the White House has been sentenced to 42 months in prison, the US Department of Justice has announced. Ahmad Umar Agha, also known as “Th3Pr0”, was sentenced on Thursday by a federal court in the Eastern District of Virginia for his central role in a hacking conspiracy organized and led by members of former Syrian President &#8230; <a href=\"https://www.helpnetsecurity.com/2026/10/30/syrian-hacker-sentenced-42-months-prison/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/10/30/syrian-hacker-sentenced-42-months-prison/\">Assad regime hacker who caused $136 billion market drop sentenced to 42 months</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
-    "link": "https://www.helpnetsecurity.com/2026/10/30/syrian-hacker-sentenced-42-months-prison/",
-    "published": "2026-10-30T13:00:40",
-    "source": "helpnetsecurity.com",
-    "category": "Policy / Law",
-    "importance_score": 350,
     "also_covered_by": []
   },
   {
@@ -1987,6 +1777,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Assad regime hacker who caused $136 billion market drop sentenced to 42 months",
+    "summary": "<p>A Syrian man who used a hijacked news agency Twitter account to post a fake report of explosions at the White House has been sentenced to 42 months in prison, the US Department of Justice has announced. Ahmad Umar Agha, also known as “Th3Pr0”, was sentenced on Thursday by a federal court in the Eastern District of Virginia for his central role in a hacking conspiracy organized and led by members of former Syrian President &#8230; <a href=\"https://www.helpnetsecurity.com/2026/10/30/syrian-hacker-sentenced-42-months-prison/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/10/30/syrian-hacker-sentenced-42-months-prison/\">Assad regime hacker who caused $136 billion market drop sentenced to 42 months</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "link": "https://www.helpnetsecurity.com/2026/10/30/syrian-hacker-sentenced-42-months-prison/",
+    "published": "2026-10-30T13:00:40",
+    "source": "helpnetsecurity.com",
+    "category": "Policy / Law",
+    "importance_score": 200,
+    "also_covered_by": []
+  },
+  {
     "title": "Apple’s new touchscreen MacBook Pros may be late, but they have one big advantage",
     "summary": "Apple finally revealed its new MacBook M5 Pro and Max with a touchscreen OLED display, bringing the best features from the iPhone to its laptops.",
     "link": "https://www.zdnet.com/tech/apples-new-touchscreen-macbook-pros-may-be-late-but-they-have-one-big-advantage/",
@@ -2114,16 +1914,6 @@
     "source": "zdnet.com",
     "category": "Other",
     "importance_score": 175,
-    "also_covered_by": []
-  },
-  {
-    "title": "Photo ID, bank checks, face scan? The UK’s age-check options",
-    "summary": "Ofcom has set out four possible age-verification methods for UK’s under-16 social media ban.",
-    "link": "https://www.malwarebytes.com/blog/news/2026/10/photo-id-bank-checks-face-scan-the-uks-age-check-options",
-    "published": "2026-10-30T13:00:02",
-    "source": "malwarebytes.com",
-    "category": "Other",
-    "importance_score": 173,
     "also_covered_by": []
   },
   {
@@ -3142,6 +2932,16 @@
     "link": "https://www.infosecurity-magazine.com/news/crest-financial-cyber-resilience/",
     "published": "2026-10-29T14:00:00",
     "source": "infosecurity-magazine.com",
+    "category": "Other",
+    "importance_score": 23,
+    "also_covered_by": []
+  },
+  {
+    "title": "Photo ID, bank checks, face scan? The UK’s age-check options",
+    "summary": "Ofcom has set out four possible age-verification methods for UK’s under-16 social media ban.",
+    "link": "https://www.malwarebytes.com/blog/news/2026/10/photo-id-bank-checks-face-scan-the-uks-age-check-options",
+    "published": "2026-10-30T13:00:02",
+    "source": "malwarebytes.com",
     "category": "Other",
     "importance_score": 23,
     "also_covered_by": []
