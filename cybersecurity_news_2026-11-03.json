@@ -927,16 +927,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Hackers Use Malicious VHDX Files and WebDAV Links to Infect Windows Devices With PapRAT Malware",
-    "summary": "<p>A suspected espionage group is sending fake meeting letters and event invitations to organizations in South Asia. The files look harmless, but they quietly install a custom remote access trojan called PapRAT on Windows computers. The campaign uses Windows disk images, shortcut files, and remote web folders to avoid easy detection. The activity points to [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-use-malicious-vhdx-files/\">Hackers Use Malicious VHDX Files and WebDAV Links to Infect Windows Devices With PapRAT Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/hackers-use-malicious-vhdx-files/",
-    "published": "2026-11-03T06:44:36",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 711,
-    "also_covered_by": []
-  },
-  {
     "title": "Synology warns of C3RB3R ransomware attacks targeting NAS devices",
     "summary": "Taiwanese network-attached storage (NAS) appliance maker Synology warned customers to update their devices immediately due to a surge in C3RB3r ransomware attacks. [...]",
     "link": "https://www.bleepingcomputer.com/news/security/synology-warns-customers-of-ongoing-c3rb3r-ransomware-attacks/",
@@ -952,16 +942,6 @@
     "link": "https://gbhackers.com/383000-vulnerabilities-analyzed/",
     "published": "2026-11-03T11:24:01",
     "source": "gbhackers.com",
-    "category": "Vulnerability",
-    "importance_score": 650,
-    "also_covered_by": []
-  },
-  {
-    "title": "CISA to federal agencies: Remediate exploited Ivanti Connect Secure vulnerabilities (CVE-2026-111357, CVE-2026-118527)",
-    "summary": "<p>CISA added two new Ivanti Connect Secure vulnerabilities (CVE-2026-111357, CVE-2026-118527) to its Known Exploited Vulnerabilities catalog on Friday, after Ivanti updated an earlier security advisory with details about the flaws. Three flaws chained to gain a foothold CVE-2026-111357, a missing authentication for a critical function vulnerability that allows a local authenticated attacker to escalate their privileges, and CVE-2026-118527, a &#8220;Generation of Predictable Numbers or Identifiers Vulnerability&#8221; that makes remote authenticated file upload possible, have been &#8230; <a href=\"https://www.helpnetsecurity.com/2026/11/02/cisa-to-federal-agencies-remediate-exploited-ivanti-connect-secure-vulnerabilities-cve-2026-111357-cve-2026-118527/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/11/02/cisa-to-federal-agencies-remediate-exploited-ivanti-connect-secure-vulnerabilities-cve-2026-111357-cve-2026-118527/\">CISA to federal agencies: Remediate exploited Ivanti Connect Secure vulnerabilities (CVE-2026-111357, CVE-2026-118527)</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
-    "link": "https://www.helpnetsecurity.com/2026/11/02/cisa-to-federal-agencies-remediate-exploited-ivanti-connect-secure-vulnerabilities-cve-2026-111357-cve-2026-118527/",
-    "published": "2026-11-02T15:58:08",
-    "source": "helpnetsecurity.com",
     "category": "Vulnerability",
     "importance_score": 650,
     "also_covered_by": []
@@ -1004,6 +984,16 @@
     "source": "recordedfuture.com",
     "category": "Vulnerability",
     "importance_score": 632,
+    "also_covered_by": []
+  },
+  {
+    "title": "Microsoft Reveals 78% of Exploited Vulnerabilities Enable System Takeover and Privilege Escalation",
+    "summary": "<p>Microsoft&#8217;s new research shows that attackers pick flaws that give them control of a system. About 78% of vulnerabilities exploited in real attacks let an attacker take over a system or raise their privileges. The finding comes from a data study published on November 2, 2026, by Microsoft Security Research. Software flaws keep piling up. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/microsoft-reveals-78-of-exploited-vulnerabilities/\">Microsoft Reveals 78% of Exploited Vulnerabilities Enable System Takeover and Privilege Escalation</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/microsoft-reveals-78-of-exploited-vulnerabilities/",
+    "published": "2026-11-03T12:31:55",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 613,
     "also_covered_by": []
   },
   {
@@ -1117,6 +1107,16 @@
     "also_covered_by": [
       "cybersecuritynews.com"
     ]
+  },
+  {
+    "title": "AI agents scale and speed up Chinese-linked attacks",
+    "summary": "<p>A China-nexus espionage group used AI agents to attack more than 200 organizations in 11 days, CrowdStrike said last week. On Monday, Kaspersky published details of a separate campaign against educational institutions in Africa and Latin America, mounted by Chinese-speaking operators. Though the campaigns don’t appear to be connected, they are executed the same way: a human picks the targets and sets the goals, and a large language model (LLM) decides which commands to run &#8230; <a href=\"https://www.helpnetsecurity.com/2026/11/03/ai-powered-cyberattacks-artex-cyberstrikeai/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/11/03/ai-powered-cyberattacks-artex-cyberstrikeai/\">AI agents scale and speed up Chinese-linked attacks</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "link": "https://www.helpnetsecurity.com/2026/11/03/ai-powered-cyberattacks-artex-cyberstrikeai/",
+    "published": "2026-11-03T12:31:59",
+    "source": "helpnetsecurity.com",
+    "category": "AI & Security",
+    "importance_score": 500,
+    "also_covered_by": []
   },
   {
     "title": "OpenAI raises top bug bounty payout to $172,000 with bonuses",
