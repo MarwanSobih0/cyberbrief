@@ -537,6 +537,16 @@
     "also_covered_by": []
   },
   {
+    "title": "D-Link warns of multiple zero-days in DGS-3130 Series switches",
+    "summary": "D-Link shared mitigation measures for multiple unpatched security flaws affecting DGS-3130 series managed Gigabit stackable switches. [...]",
+    "link": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/",
+    "published": "2026-11-06T12:37:22",
+    "source": "bleepingcomputer.com",
+    "category": "Vulnerability",
+    "importance_score": 1027,
+    "also_covered_by": []
+  },
+  {
     "title": "Virtualization security: attack layers and misconfiguration impact",
     "summary": "A detailed breakdown of misconfigurations in virtual environment cybersecurity as shown by examples of ransomware cases on ESXi and Proxmox environments.",
     "link": "https://securelist.com/virtualization-security-esxi-and-proxmox-ransomware-cases/121819/",
@@ -1104,16 +1114,6 @@
     "source": "welivesecurity.com",
     "category": "Other",
     "importance_score": 517,
-    "also_covered_by": []
-  },
-  {
-    "title": "NIKKE PC game launcher hacked to spread remote access, data-stealing malware",
-    "summary": "The developers of Goddess of Victory: NIKKE have confirmed that hackers tampered with the game's PC launcher scripts in a supply-chain attack, distributing malware capable of stealing credentials and cryptocurrency wallet data. [...]",
-    "link": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/",
-    "published": "2026-11-04T16:58:46",
-    "source": "bleepingcomputer.com",
-    "category": "Other",
-    "importance_score": 503,
     "also_covered_by": []
   },
   {
