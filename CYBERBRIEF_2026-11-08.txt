@@ -1,0 +1,63 @@
+CYBERBRIEF • DAILY THREAT INTELLIGENCE
+Generated: Sunday, November 08, 2026 - 11:37 UTC
+================================================================================
+
+Total topics: 326    •    Scanned raw articles: 334
+Severity breakdown:
+  CRITICAL: 19  |  HIGH: 12  |  MEDIUM: 39  |  LOW: 256
+
+Top 7 active threats:
+
+1. Alert Triangle  cisa.gov  [News Site]
+   Title    : Vulnerability Summary for the Week of August 24, 2026
+   Category : Ransomware    •    Severity: CRITICAL (score: 10800)
+   Published: 2026-08-31T11:06:49
+   Link     : https://www.cisa.gov/news-events/bulletins/sb26-243
+   Also covered by: cisa.gov
+
+2. Alert Triangle  cisa.gov  [News Site]
+   Title    : Vulnerability Summary for the Week of September 7, 2026
+   Category : Ransomware    •    Severity: CRITICAL (score: 8800)
+   Published: 2026-09-14T12:07:08
+   Link     : https://www.cisa.gov/news-events/bulletins/sb26-257
+   Also covered by: cisa.gov, cisa.gov
+
+3. Alert Triangle  cisa.gov  [News Site]
+   Title    : Vulnerability Summary for the Week of July 27, 2026
+   Category : Ransomware    •    Severity: CRITICAL (score: 7200)
+   Published: 2026-08-03T11:14:18
+   Link     : https://www.cisa.gov/news-events/bulletins/sb26-215
+   Also covered by: cisa.gov
+
+4. Alert Triangle  cisa.gov  [News Site]
+   Title    : Chinese Government-linked Cyber Threat Actors Combine Automated and Hands-on Hacking Tools to Steal Sensitive Data
+   Category : Ransomware    •    Severity: CRITICAL (score: 4960)
+   Published: 2026-10-06T16:22:53
+   Link     : https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a
+
+5. Alert Triangle  cisa.gov  [News Site]
+   Title    : Russian State-Supported Cyber Actors Conduct Phishing Campaign Targeting Users of Zimbra Collaboration Suite
+   Category : Ransomware    •    Severity: CRITICAL (score: 4720)
+   Published: 2026-07-21T19:08:02
+   Link     : https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-204a
+
+6. Alert Triangle  cisa.gov  [News Site]
+   Title    : #StopRansomware: Gunra Ransomware
+   Category : Ransomware    •    Severity: CRITICAL (score: 4560)
+   Published: 2026-08-05T12:27:56
+   Link     : https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-222a
+
+7. Alert Triangle  cisa.gov  [News Site]
+   Title    : #StopRansomware: SafePay Ransomware
+   Category : Ransomware    •    Severity: CRITICAL (score: 4480)
+   Published: 2026-10-19T19:18:07
+   Link     : https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-293a
+
+Security Tips:
+• Never trust unsolicited links or attachments in email or messaging apps.
+• Enable multi-factor authentication (MFA) on email, banking, and admin accounts.
+• Keep browsers, VPNs, and endpoint security fully patched.
+
+Scanned 334 articles • Top 7 topics selected
+Next planned auto-update: 08:00 AM UTC
+Stay safe, stay sharp!
