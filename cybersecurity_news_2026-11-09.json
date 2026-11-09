@@ -1577,6 +1577,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Email Addresses of 2.2 Million Sega Customers Leaked in Vendor Breach",
+    "summary": "Gaming company Sega warned customers to be vigilant for suspicious emails after hackers compromised Japanese email delivery provider Arara",
+    "link": "https://www.infosecurity-magazine.com/news/email-sega-customers-vendor-breach/",
+    "published": "2026-11-09T13:31:00",
+    "source": "infosecurity-magazine.com",
+    "category": "Data Breach",
+    "importance_score": 334,
+    "also_covered_by": []
+  },
+  {
     "title": "Apple will monitor your public iCloud links now, starting with iOS 27.3",
     "summary": "Under Apple’s new policy, the company will scan publicly shared iCloud links for harmful content – and possibly ban violators.",
     "link": "https://www.zdnet.com/innovation/apple-monitor-public-icloud-links-27-3-harmful-content/",
@@ -2464,16 +2474,6 @@
     "source": "recordedfuture.com",
     "category": "Other",
     "importance_score": 41,
-    "also_covered_by": []
-  },
-  {
-    "title": "Cyber-Attack on Refrigeration Systems Hits Supermarkets Across Europe",
-    "summary": "The incident has reportedly resulted in temperatures being changed on supermarket refrigerators, reminiscent of an attack that affected French retailers last month",
-    "link": "https://www.infosecurity-magazine.com/news/cyber-refrigeration-supermarkets/",
-    "published": "2026-11-03T13:45:00",
-    "source": "infosecurity-magazine.com",
-    "category": "Other",
-    "importance_score": 40,
     "also_covered_by": []
   },
   {
