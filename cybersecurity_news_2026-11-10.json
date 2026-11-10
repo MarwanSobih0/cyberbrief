@@ -1727,16 +1727,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Before you buy an advent calendar, check these warning signs",
-    "summary": "Copied storefronts, fake urgency, and contradictory product claims are among the warning signs we found on suspicious advent calendar sites.",
-    "link": "https://www.malwarebytes.com/blog/how-to/2026/11/before-you-buy-an-advent-calendar-check-these-warning-signs",
-    "published": "2026-11-10T13:03:12",
-    "source": "malwarebytes.com",
-    "category": "Other",
-    "importance_score": 335,
-    "also_covered_by": []
-  },
-  {
     "title": "Email Addresses of 2.2 Million Sega Customers Leaked in Vendor Breach",
     "summary": "Gaming company Sega warned customers to be vigilant for suspicious emails after hackers compromised Japanese email delivery provider Arara",
     "link": "https://www.infosecurity-magazine.com/news/email-sega-customers-vendor-breach/",
@@ -2853,6 +2843,16 @@
     "published": "2026-11-03T11:26:44",
     "source": "malwarebytes.com",
     "category": "Other",
+    "importance_score": 31,
+    "also_covered_by": []
+  },
+  {
+    "title": "Binance hit by largest-ever crypto theft, with $6.3 billion stolen",
+    "summary": "Attackers stole about $6.3 billion in cryptocurrency from Binance in what analysts say is the largest crypto theft on record.",
+    "link": "https://www.malwarebytes.com/blog/news/2026/10/binance-hit-by-largest-ever-crypto-theft-with-6-3-billion-stolen",
+    "published": "2026-10-30T12:24:19",
+    "source": "malwarebytes.com",
+    "category": "Policy / Law",
     "importance_score": 31,
     "also_covered_by": []
   },
