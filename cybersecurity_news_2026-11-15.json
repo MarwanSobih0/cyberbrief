@@ -167,6 +167,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
+    "summary": "U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two different ransomware negotiation firms who maintained unusually close relations with the extortion group, KrebsOnSecurity has learned. Sources close to the investigation say one of the executives in the United States even helped ShinyHunters operate a website that pressured victims into paying a ransom.",
+    "link": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
+    "published": "2026-10-19T13:48:56",
+    "source": "krebsonsecurity.com",
+    "category": "Ransomware",
+    "importance_score": 2118,
+    "also_covered_by": []
+  },
+  {
     "title": "Trained to betray: How post-training supply chain attacks hijack coding agents",
     "summary": "<p>Microsoft Defender Research and the AI Red Team discuss how poisoned datasets and poisoned model checkpoints can trigger remote code execution and other malicious activities.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/11/12/trained-to-betray-how-post-training-supply-chain-attacks-hijack-coding-agents/\">Trained to betray: How post-training supply chain attacks hijack coding agents</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/11/12/trained-to-betray-how-post-training-supply-chain-attacks-hijack-coding-agents/",
@@ -287,6 +297,16 @@
     "also_covered_by": []
   },
   {
+    "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
+    "summary": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on thousands of agents, multiple sources tell KrebsOnSecurity.",
+    "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
+    "published": "2026-10-10T00:17:42",
+    "source": "krebsonsecurity.com",
+    "category": "Ransomware",
+    "importance_score": 1531,
+    "also_covered_by": []
+  },
+  {
     "title": "Apache HTTP Server patches critical HTTP/2 remote code execution flaw",
     "summary": "A critical vulnerability in the HTTP/2 module of Apache HTTP Server could be exploited by an unauthenticated attacker to obtain remote code execution (RCE). [...]",
     "link": "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/",
@@ -314,6 +334,16 @@
     "source": "securityweek.com",
     "category": "Data Breach",
     "importance_score": 1399,
+    "also_covered_by": []
+  },
+  {
+    "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
+    "summary": "Microsoft did another four-digit patch drop today, releasing updates to fix almost 1,100 security vulnerabilities in its Windows operating systems and supported software. This month's Patch Tuesday addresses 63 critical flaws -- including a zero-day in Microsoft Outlook -- and comes amid important security updates from other software makers, including Adobe, Apple, Google and Mozilla.",
+    "link": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
+    "published": "2026-11-10T21:55:03",
+    "source": "krebsonsecurity.com",
+    "category": "Vulnerability",
+    "importance_score": 1375,
     "also_covered_by": []
   },
   {
@@ -667,6 +697,16 @@
     "also_covered_by": []
   },
   {
+    "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
+    "summary": "A teenager from Amman, Jordan suspected of leading the prolific data theft and extortion group ShinyHunters has been detained and is reportedly cooperating with the FBI to identify other members of the hacking gang. KrebsOnSecurity has learned that the suspect, who uses the hacker handle \"Rey,\" was detained as ShinyHunters was in the process of extorting a business unit recently divested by the global aerospace company Boeing, which manufactures the fleet of planes used by the employer of Rey's father -- Royal Jordanian Airlines.",
+    "link": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
+    "published": "2026-10-07T13:48:45",
+    "source": "krebsonsecurity.com",
+    "category": "Other",
+    "importance_score": 879,
+    "also_covered_by": []
+  },
+  {
     "title": "Ransomware at the hypervisor layer: how attackers use ESXi and vCenter features for malicious purposes",
     "summary": "Kaspersky experts analyze a recent ransomware incident and discuss why the hypervisor layer remains difficult to monitor, what common access paths adversaries use to reach it, and how to protect your ESXi systems.",
     "link": "https://securelist.com/esxi-ransomware/121959/",
@@ -674,6 +714,16 @@
     "source": "securelist.com",
     "category": "Ransomware",
     "importance_score": 848,
+    "also_covered_by": []
+  },
+  {
+    "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
+    "summary": "Expect to see quite a few websites serving \"404\" or \"Page Not Found\" errors today: Nearly 70 percent of websites need to update their core software to fix a pair of vulnerabilities that allow an attacker to seize full control over affected servers. Experts say there are working exploits for the flaws, and that these critical bugs are already being exploited in the wild.",
+    "link": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
+    "published": "2026-10-21T15:26:07",
+    "source": "krebsonsecurity.com",
+    "category": "Vulnerability",
+    "importance_score": 831,
     "also_covered_by": []
   },
   {
@@ -847,6 +897,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Who Runs the Ransomware Group Qilin?",
+    "summary": "The cybercrime group Qilin has emerged as the world's most active ransomware affiliate program, claiming at least 365 victim organizations in the past three months alone. But even top Russian hackers make operational security mistakes, and the administrator of Qilin has made a few key missteps over the last decade that all point to a 36-year-old man living in St. Petersburg, Russia.",
+    "link": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
+    "published": "2026-11-11T18:06:01",
+    "source": "krebsonsecurity.com",
+    "category": "Ransomware",
+    "importance_score": 655,
+    "also_covered_by": []
+  },
+  {
     "title": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper",
     "summary": "Vulnerable Check Point Security Gateway instances have been targeted in PHP2Shell attacks that deployed data-wiping malware on VMware ESXi hosts. [...]",
     "link": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
@@ -934,6 +994,16 @@
     "source": "securelist.com",
     "category": "Ransomware",
     "importance_score": 634,
+    "also_covered_by": []
+  },
+  {
+    "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
+    "summary": "The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to ransomware, narcotics, darknet markets, fraud and cybercrime services that are helping Russia circumvent existing financial restrictions.",
+    "link": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
+    "published": "2026-10-14T14:22:49",
+    "source": "krebsonsecurity.com",
+    "category": "Ransomware",
+    "importance_score": 632,
     "also_covered_by": []
   },
   {
@@ -1567,6 +1637,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
+    "summary": "Google said today it worked with industry partners to dismantle a botnet made up of more than 1.3 million Android TV set-top boxes that ship with malicious software which secretly rents the user's Internet connection out to strangers and conducts advertising fraud. Experts involved in the takedown say the action is likely to sever the botnet's access to more than 10 million additional compromised systems, including other Internet of Things (IoT) products such as Android-based healthcare devices and karaoke machines.",
+    "link": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
+    "published": "2026-11-03T02:24:31",
+    "source": "krebsonsecurity.com",
+    "category": "Phishing / Scams",
+    "importance_score": 336,
+    "also_covered_by": []
+  },
+  {
     "title": "Worldwide Microsoft 365 outage disrupts Outlook, SharePoint, Teams, and more [updated]",
     "summary": "A worldwide Microsoft 365 outage is having a severe impact on companies that rely on services like Outlook, Sharepoint, and Teams.",
     "link": "https://www.malwarebytes.com/blog/news/2026/11/worldwide-microsoft-365-outage-disrupts-outlook-sharepoint-teams-and-more",
@@ -1824,6 +1904,16 @@
     "source": "securityweek.com",
     "category": "Other",
     "importance_score": 265,
+    "also_covered_by": []
+  },
+  {
+    "title": "Microsoft Patches More Than 1,400 Security Flaws",
+    "summary": "Microsoft today issued updates to fix more than 1,400 security vulnerabilities in its Windows operating systems and other software. Today's epic patch batch dwarfs September's record of nearly 1,000 fixes, which was already about ten times the normal monthly patch load from Redmond.",
+    "link": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
+    "published": "2026-10-13T23:24:53",
+    "source": "krebsonsecurity.com",
+    "category": "Policy / Law",
+    "importance_score": 264,
     "also_covered_by": []
   },
   {
@@ -2314,6 +2404,16 @@
     "source": "unit42.paloaltonetworks.com",
     "category": "Other",
     "importance_score": 116,
+    "also_covered_by": []
+  },
+  {
+    "title": "Want to Rent an Internet Address at the White House?",
+    "summary": "Several staffers at the White House are using computers or mobile devices equipped with residential proxy services that render their internet address available for others to rent, security experts warned today. One of the proxy services is a Russian company whose founder's web hosting business was ground zero for cyberattacks against election systems in Arizona and Illinois in 2016.",
+    "link": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/",
+    "published": "2026-11-05T04:36:17",
+    "source": "krebsonsecurity.com",
+    "category": "Other",
+    "importance_score": 115,
     "also_covered_by": []
   },
   {
