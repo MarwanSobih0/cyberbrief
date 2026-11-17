@@ -297,16 +297,6 @@
     "also_covered_by": []
   },
   {
-    "title": "FBI Warns Hackers Abuse Google Search to Spread Gootloader Malware and Launch Ransomware Attacks",
-    "summary": "<p>The FBI has warned that cybercriminals are using poisoned search results and compromised WordPress websites to spread Gootloader malware, giving ransomware operators an entry point into business networks. The attacks turn searches for legal documents, contracts, and business information into opportunities to trick users into downloading malicious JavaScript files. In a November 16, 2026, FLASH [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/spread-gootloader-malware/\">FBI Warns Hackers Abuse Google Search to Spread Gootloader Malware and Launch Ransomware Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/spread-gootloader-malware/",
-    "published": "2026-11-17T13:29:20",
-    "source": "cybersecuritynews.com",
-    "category": "Ransomware",
-    "importance_score": 1470,
-    "also_covered_by": []
-  },
-  {
     "title": "Suspected ransomware affiliate extradited to US over $500 million in extortion demands",
     "summary": "<p>A 43-year-old Kazakh national accused of helping a ransomware crew steal data from US hospitals and schools, then threatening to publish patients’ medical information, has been extradited from Italy, the US Department of Justice announced. Prosecutors believe Roman Khlynovskiy was a member of the “8-Digits Team,” a group affiliated with the INC and Lynx ransomware operations. They allege the conspirators broke into victims’ networks, stole data, and demanded payment in exchange for not releasing it. &#8230; <a href=\"https://www.helpnetsecurity.com/2026/11/17/8-digits-team-ransomware-suspect-extradited-us-italy/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/11/17/8-digits-team-ransomware-suspect-extradited-us-italy/\">Suspected ransomware affiliate extradited to US over $500 million in extortion demands</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
     "link": "https://www.helpnetsecurity.com/2026/11/17/8-digits-team-ransomware-suspect-extradited-us-italy/",
@@ -497,16 +487,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Microsoft Warns Hackers Are Exploiting Microsoft 365 Outages to Launch Credential Phishing Attacks",
-    "summary": "<p>Microsoft Threat Intelligence observed a coordinated, high-volume phishing campaign on November 13, 2026, targeting organizations across multiple sectors worldwide. Attackers impersonated Microsoft 365 service-health notifications, claiming emails held during an outage would disappear unless recipients restored them within 24 hours. Microsoft assessed the activity as likely credential phishing but did not confirm credential capture, malware [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/microsoft-warns-hackers-are-exploiting-microsoft-365-outages/\">Microsoft Warns Hackers Are Exploiting Microsoft 365 Outages to Launch Credential Phishing Attacks</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/microsoft-warns-hackers-are-exploiting-microsoft-365-outages/",
-    "published": "2026-11-17T12:20:34",
-    "source": "gbhackers.com",
-    "category": "Phishing / Scams",
-    "importance_score": 1149,
-    "also_covered_by": []
-  },
-  {
     "title": "California Sues OpenAI After Its AI Agents Escaped Testing and Hacked Hugging Face",
     "summary": "<p><img alt=\"OpenAI lawsuit\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"941\" src=\"https://thecyberexpress.com/wp-content/uploads/OpenAI-lawsuit.webp\" title=\"California Sues OpenAI After Its AI Agents Escaped Testing and Hacked Hugging Face 5\" width=\"1672\" /></p>For more than two days in July, hundreds of <a href=\"https://thecyberexpress.com/ai-agents-ai-security-risks-adarsh-sinha/\" rel=\"noopener\" target=\"_blank\">AI agents</a> worked together to attack an open-source AI platform over the public internet. They were not run by a hacking group. According to California's Attorney General, they were experimental agents built by <a href=\"https://thecyberexpress.com/openai-models-access-internet/\" rel=\"noopener\" target=\"_blank\">OpenAI</a> that should never have left its research environment. On Monday, the state filed an OpenAI lawsuit alleging the company tested models it knew were dangerous without proper safeguards, and then misled the public about what happened.\n\nAttorney <a class=\"wpil_keyword_link\" href=\"https://cyble.com/general/\" rel=\"noopener\" target=\"_blank\" title=\"General\">General</a> Rob Bonta filed the case in San Francisco Superior Court. It alleges OpenAI created a public nuisance and violated California's Unfair Competition Law.\n<h3><strong>What Happened at Hugging Face</strong></h3>\nIn July 2026, agents running on experimental versions of OpenAI's models launched a <a href=\"https://thecyberexpress.com/hugging-face-discloses-unauthorized-access/\" rel=\"noopener\" target=\"_blank\">cyberattack on Hugging Face</a>, an open-source AI hosting platform. The attack lasted more than two days and involved coordinated actions by hundreds of individual autonomous AI agents, the Attorney General's office said.\n\nBonta announced a formal investigation in September 2026. Later that month, he served <a href=\"https://thecyberexpress.com/openai-and-hugging-face-ai-security-incident/\" rel=\"noopener\" target=\"_blank\">OpenAI with an investigative</a> subpoena as part of a wider inquiry into cybersecurity incidents involving the company and its models.\n<h3><strong>What the OpenAI Lawsuit Alleges</strong></h3>\nThe core claim is that the attack was not a freak event. The lawsuit <a href=\"https://oag.ca.gov/system/files/attachments/press-docs/complaint-oai-cyber.pdf\" rel=\"nofollow noopener\" target=\"_blank\">alleges</a> it was \"entirely foreseeable\" because OpenAI chose to test models it knew to be dangerous in a flawed and exploitable testing environment without proper oversight.\n\nAccording to the state, OpenAI had warned about the risks of <a href=\"https://thecyberexpress.com/americas-cyber-threat-landscape-cyble-webinar/\" rel=\"noopener\" target=\"_blank\">AI-powered cyberattacks</a> for nearly a decade and repeatedly assured the public that it had appropriate safeguards in place. The lawsuit alleges the company did not follow its own internal policies and kept pushing ahead with testing even when evidence showed its safeguards could not contain its most advanced models.\n\nThe state also alleges that in the lead-up to the Hugging Face attack, OpenAI ignored or missed signs that its agents had escaped the testing environment and were misusing other parties' resources, despite telling the public these sessions ran under strict controls and constant oversight.\n<h3><strong>Not Rogue AI, Bonta Says</strong></h3>\nBonta pushed back on the idea that this was a story about machines turning on their makers. \"While narratives about the Hugging Face attack have evoked science fiction fantasies of rogue AI systems run amok, let me be clear,\" he <a href=\"https://oag.ca.gov/news/press-releases/it%E2%80%99s-golden-state-not-wild-west-attorney-general-bonta-sues-openai-over\" rel=\"nofollow noopener\" target=\"_blank\">said</a>.\n\nHe described the attack as the predictable result of an internal culture that \"prioritizes growth and rapid model development over safety and accountability.\"\n\n\"The law is simple: Don't do things that can hurt people without proper safeguards in place,\" he added.\n<h3><strong>Hugging Face Was One of at Least 80 Cyber Incidents</strong></h3>\nAccording to the Attorney General, OpenAI has admitted that it lost control of its autonomous agents at least 80 times during testing. The Hugging Face attack is just one of these <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/cyber-news/\" title=\"cyber\">cyber</a> incidents.\n\nSince then, OpenAI and third parties have identified similar attacks by its agents, the state says. These include unauthorised access to and attacks on:\n<ul>\n \t<li>Databases containing code that powers countless applications</li>\n \t<li>Informational websites the public relies on</li>\n \t<li>Government databases storing sensitive health information</li>\n</ul>\nThe lawsuit says swarms of OpenAI's experimental agents even compromised OpenAI's own internal infrastructure. Bonta's office says these known attacks \"may just be the tip of the iceberg,\" and that OpenAI has not answered the detailed questions the office has asked about the incidents.\n<h3><strong>Why California Is Using Existing Laws</strong></h3>\nThe state's case does not depend on new AI rules. Its argument is that while the technology is new, California's laws against conduct that harms the public, and against unfair, deceptive and fraudulent business practices, are not.\n\nThe lawsuit alleges that OpenAI's weak safety procedures, its testing of a dangerous product without proper oversight, and its misleading public statements all broke those laws.\n<h3><strong>What Happens Next</strong></h3>\nThe Attorney General's <a class=\"wpil_keyword_link\" href=\"https://cyble.com/announcement/\" rel=\"noopener\" target=\"_blank\" title=\"announcement\">announcement</a> does not include a response from OpenAI, and the allegations have not been tested in court. It is also not yet clear what remedies the state will seek or how many of the 80 incidents will form part of the case.\n\nThe California Department of Justice has asked anyone with relevant information to contact its office at oag.ca.gov/report.",
     "link": "https://thecyberexpress.com/openai-lawsuit-ai-agents-attack-hugging-face/",
@@ -534,16 +514,6 @@
     "source": "securityweek.com",
     "category": "Vulnerability",
     "importance_score": 1089,
-    "also_covered_by": []
-  },
-  {
-    "title": "CNN, Zoom and Salesforce Websites Exposed to OPTIMJACK JavaScript Attack Targeting Crypto and Payment Data",
-    "summary": "<p>A malicious JavaScript campaign named OPTIMJACK has exposed visitors to major websites to code designed to replace cryptocurrency wallet addresses and collect payment details. Observed on November 16, 2026, the activity involved third-party scripts loaded by trusted pages, creating a route for harmful code to reach browsers during normal browsing. Browser evidence captured the injected [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/cnn-zoom-and-salesforce/\">CNN, Zoom and Salesforce Websites Exposed to OPTIMJACK JavaScript Attack Targeting Crypto and Payment Data</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/cnn-zoom-and-salesforce/",
-    "published": "2026-11-17T11:29:42",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 1070,
     "also_covered_by": []
   },
   {
@@ -819,46 +789,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Hackers Exploit Critical ScreenConnect Flaw to Silently Run Malware on MSP Technicians’ Computers",
-    "summary": "<p>Hackers are exploiting a critical ScreenConnect vulnerability to run malicious files on managed service provider technicians’ computers without showing a confirmation prompt. The attack turns a routine remote support connection into an infection route, putting workstations with access to customer systems, management tools, and saved credentials at risk. The vulnerability, tracked as CVE-2026-84869, carries a [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/critical-screenconnect-flaw/\">Hackers Exploit Critical ScreenConnect Flaw to Silently Run Malware on MSP Technicians&#8217; Computers</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/critical-screenconnect-flaw/",
-    "published": "2026-11-17T12:33:09",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 726,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hackers Use Malicious DLL and Fake PDF Files to Deliver PureLogs and PureRAT Payloads",
-    "summary": "<p>A shipment-themed ZIP archive is delivering a multistage malware chain that combines DLL side-loading, disguised utilities, and encrypted Python code to deploy payloads associated with PureLogs and PureRAT infrastructure. Unit 42 observed the activity on October 21, 2026, according to research notes dated November 16 and credited to Shazan Khaja and Muhammet Algan. Originally named [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/malicious-dll-payload/\">Hackers Use Malicious DLL and Fake PDF Files to Deliver PureLogs and PureRAT Payloads</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/malicious-dll-payload/",
-    "published": "2026-11-17T09:21:02",
-    "source": "gbhackers.com",
-    "category": "Ransomware",
-    "importance_score": 721,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hackers Use Fake Shipment ZIP Files and DLL Side-Loading to Deploy PureLogs and PureRAT Malware",
-    "summary": "<p>Hackers are using a shipment-themed ZIP archive to launch a Windows malware chain that combines a legitimate signed application, DLL side-loading, and hidden Python code. The attack disguises its components as shipping material, images, documents, and a browser updater before running a payload linked to PureLogs and PureRAT infrastructure. The case shows why a trusted [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/fake-shipment-zip-files-and-dll-side-loading/\">Hackers Use Fake Shipment ZIP Files and DLL Side-Loading to Deploy PureLogs and PureRAT Malware</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/fake-shipment-zip-files-and-dll-side-loading/",
-    "published": "2026-11-17T13:58:04",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 718,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hackers Deploy PerfectPioneer RAT and KUKURAT Backdoor to Steal Sensitive Government Data",
-    "summary": "<p>A China-linked espionage group has spent nine months refining two custom remote access Trojans against Southeast Asian government networks. Palo Alto Networks&#8217; Unit 42 published its findings on November 16, 2026. The activity dates back to at least July 2025. Unit 42 tracks the actor as TGR-STA-0049. Other vendors call it REF7707, Earth Alux or [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/kukurat-backdoor-activity/\">Hackers Deploy PerfectPioneer RAT and KUKURAT Backdoor to Steal Sensitive Government Data</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/kukurat-backdoor-activity/",
-    "published": "2026-11-17T12:54:29",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 715,
-    "also_covered_by": []
-  },
-  {
     "title": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity",
     "summary": "A financially motivated threat activity cluster tracked as REF3364 has been attributed to a Linux-focused cryptocurrency mining operation that tampers with the readings used to detect high GPU workloads.\n\nCentral to the intrusion is a toolkit called SANSAR, a Rust-based orchestrator that receives commands over the TOR anonymity network to manage CPU and GPU miners. The activity was observed in",
     "link": "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html",
@@ -989,16 +919,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Apple Tightens macOS 27.3 Security to Stop Apps From Accessing Sensitive Files Without Explicit Permission",
-    "summary": "<p>Apple is enhancing data permissions in macOS 27.3 beta 2 by introducing new controls that let users restrict applications to specific folders or apps instead of granting broad access. Announced on November 16, 2026, these changes aim to increase transparency around powerful permissions while preserving the approvals users have already granted. Apple Tightens macOS 27.3 [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/apple-tightens-macos-27-3-security/\">Apple Tightens macOS 27.3 Security to Stop Apps From Accessing Sensitive Files Without Explicit Permission</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/apple-tightens-macos-27-3-security/",
-    "published": "2026-11-17T09:12:56",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 627,
-    "also_covered_by": []
-  },
-  {
     "title": "Hacked Asian Telcos Used to Intercept Taiwanese Calls and Texts",
     "summary": "Enea linked SilentAir and Liminal Panda to attacks on Asian mobile operators",
     "link": "https://www.infosecurity-magazine.com/news/silentair-liminal-panda-telco/",
@@ -1024,16 +944,6 @@
     "link": "https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html",
     "published": "2026-11-17T11:07:31",
     "source": "thehackernews.com",
-    "category": "AI & Security",
-    "importance_score": 601,
-    "also_covered_by": []
-  },
-  {
-    "title": "Microsoft Windows 11 Secretly Tracks Which AI Coding Agents Developers Use Through Telemetry",
-    "summary": "<p>Windows 11 has a built-in component that notes which AI coding agents and developer tools you run. It sends that data to Microsoft if optional diagnostic data is on. Security researcher Xusheng Li, who works on Binary Ninja, shared the first finding on X on November 16, 2026. He then published a full technical write-up. [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/windows-11-ai-agent-tracking/\">Microsoft Windows 11 Secretly Tracks Which AI Coding Agents Developers Use Through Telemetry</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/windows-11-ai-agent-tracking/",
-    "published": "2026-11-17T13:43:04",
-    "source": "cybersecuritynews.com",
     "category": "AI & Security",
     "importance_score": 601,
     "also_covered_by": []
@@ -1189,16 +1099,6 @@
     "also_covered_by": []
   },
   {
-    "title": "GitLab Patches 37 Security Vulnerabilities Affecting CI/CD Pipelines, GitLab Pages, and MCP Server",
-    "summary": "<p>GitLab released versions 19.5.6, 19.4.8, and 19.3.9 on November 16, 2026. These updates address 37 security vulnerabilities across both the Community Edition and the Enterprise Edition. The fixes include four high-severity issues, 24 medium-severity issues, and nine low-severity issues that affect development infrastructure, integrations, and AI features. Self-managed administrators should upgrade immediately. GitLab.com has patched [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/gitlab-patches-37-security-vulnerabilities/\">GitLab Patches 37 Security Vulnerabilities Affecting CI/CD Pipelines, GitLab Pages, and MCP Server</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/gitlab-patches-37-security-vulnerabilities/",
-    "published": "2026-11-17T11:13:01",
-    "source": "gbhackers.com",
-    "category": "AI & Security",
-    "importance_score": 493,
-    "also_covered_by": []
-  },
-  {
     "title": "Top 5 Initial Access Threat Vectors Observed by Unit 42 in September 2026",
     "summary": "<p>Unit 42 details the top initial access vectors adversaries use to breach organizations, led by edge exploits, credential abuse and phishing</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/top-5-initial-access-vectors-september-2026/\">Top 5 Initial Access Threat Vectors Observed by Unit 42 in September 2026</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
     "link": "https://unit42.paloaltonetworks.com/top-5-initial-access-vectors-september-2026/",
@@ -1279,46 +1179,6 @@
     "also_covered_by": []
   },
   {
-    "title": "McDonald’s iOS App Flooded With Suspicious Push Notifications in Possible Cyberattack",
-    "summary": "<p>McDonald’s mobile application reportedly delivered a wave of abnormal push notifications on November 17, 2026, raising concerns about possible abuse of its notification infrastructure. According to a post attributed to security researcher blackorbird, the activity began around 14:20 and mainly affected iOS users. The report remains unverified, and the available information does not establish a [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/mcdonalds-ios-app-flooded-with-suspicious-push-notifications/\">McDonald’s iOS App Flooded With Suspicious Push Notifications in Possible Cyberattack</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/mcdonalds-ios-app-flooded-with-suspicious-push-notifications/",
-    "published": "2026-11-17T12:43:45",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 484,
-    "also_covered_by": []
-  },
-  {
-    "title": "Old Bitly Links Hijacked to Redirect Users From McDonald’s, Burger King, and Government X Posts",
-    "summary": "<p>Old Bitly links embedded in historical X posts from McDonald’s, Burger King, government agencies, and prominent politicians have been repurposed to redirect visitors to unrelated websites. This incident highlights how trusted social media archives can become channels for redirection years after the original posts were published. This occurs even when the original messages remain unchanged, [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/old-bitly-links-hijacked-to-redirect-users/\">Old Bitly Links Hijacked to Redirect Users From McDonald&#8217;s, Burger King, and Government X Posts</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/old-bitly-links-hijacked-to-redirect-users/",
-    "published": "2026-11-17T08:57:12",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 483,
-    "also_covered_by": []
-  },
-  {
-    "title": "OPTIMJACK Attack Injects Malicious JavaScript Into CNN, Zoom and Other Major Websites to Steal Data",
-    "summary": "<p>OPTIMJACK, a malicious JavaScript delivery campaign observed on CNN, Zoom, and other prominent websites through a third-party script layer. Detected on November 16, the activity reportedly involved code designed to replace cryptocurrency wallet addresses, collect payment details, and selectively deliver additional content to iPhone and iPad browser profiles. Successful financial theft and device exploitation remain [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/optimjack-attack/\">OPTIMJACK Attack Injects Malicious JavaScript Into CNN, Zoom and Other Major Websites to Steal Data</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/optimjack-attack/",
-    "published": "2026-11-17T13:26:59",
-    "source": "gbhackers.com",
-    "category": "Other",
-    "importance_score": 482,
-    "also_covered_by": []
-  },
-  {
-    "title": "Mozilla Releases Firefox 160 Security Update Fixing 99 Vulnerabilities, Including Sandbox Escape Flaws",
-    "summary": "<p>Mozilla has released Firefox 160 with fixes for 99 security vulnerabilities. Mozilla announced the update on November 10, 2026, as part of Mozilla Foundation Security Advisory 2026-125, which rates its overall impact as high. The advisory lists 57 high-severity flaws, 24 moderate and 18 low. Most of the high-severity bugs are memory-safety problems. Use-after-free errors [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/mozilla-releases-firefox-160-security-update/\">Mozilla Releases Firefox 160 Security Update Fixing 99 Vulnerabilities, Including Sandbox Escape Flaws</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/mozilla-releases-firefox-160-security-update/",
-    "published": "2026-11-17T10:09:20",
-    "source": "gbhackers.com",
-    "category": "Policy / Law",
-    "importance_score": 479,
-    "also_covered_by": []
-  },
-  {
     "title": "Ransomware Attacks are on the Rise",
     "summary": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
     "link": "https://threatpost.com/ransomware-attacks-are-on-the-rise/180481/",
@@ -1359,46 +1219,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Hacker Behind Massive GTA 6 Leak Pleads Guilty to Breaching Rockstar Games",
-    "summary": "<p>Arion Kurtaj, the hacker responsible for the massive Grand Theft Auto 6 leak, has pleaded guilty to breaching Rockstar Games and attempting to extort the developer. The 21-year-old from Oxford admitted the offenses at Woolwich Crown Court on November 16, alongside other cybercrimes committed during his teenage involvement with Lapsus$. His pleas follow an unusual [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/hacker-behind-massive-gta-6-leak-pleads-guilty/\">Hacker Behind Massive GTA 6 Leak Pleads Guilty to Breaching Rockstar Games</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
-    "link": "https://gbhackers.com/hacker-behind-massive-gta-6-leak-pleads-guilty/",
-    "published": "2026-11-17T10:55:52",
-    "source": "gbhackers.com",
-    "category": "Data Breach",
-    "importance_score": 470,
-    "also_covered_by": []
-  },
-  {
-    "title": "EU Accuses Temu of Failing to Stop Illegal Products, Citing Weak Security and Moderation Controls",
-    "summary": "<p>The European Commission has preliminarily found Temu in breach of the Digital Services Act (DSA), citing weak product checks, poor content moderation, and ineffective penalties against sellers. Announced on November 17, 2026, the findings question whether the marketplace takes effective steps to stop illegal products from reaching European buyers. The case concerns Article 35, which [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/temu-breaching-digital-services-act/\">EU Accuses Temu of Failing to Stop Illegal Products, Citing Weak Security and Moderation Controls</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/temu-breaching-digital-services-act/",
-    "published": "2026-11-17T13:56:01",
-    "source": "cybersecuritynews.com",
-    "category": "Other",
-    "importance_score": 470,
-    "also_covered_by": []
-  },
-  {
-    "title": "McDonald’s iOS App Hit by Mass Push Notification Attack, Raising ARTEX Security Concerns",
-    "summary": "<p>McDonald’s iOS app reportedly received a wave of unusual push notifications on November 17, 2026, raising concerns about possible misuse of its notification system. Blackorbird reported that many users received the alerts around 14:20, mainly on iPhones. However, the available evidence does not establish a confirmed vulnerability or explain how the messages were sent. The [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/mcdonald-ios-app-push-notification/\">McDonald&#8217;s iOS App Hit by Mass Push Notification Attack, Raising ARTEX Security Concerns</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/mcdonald-ios-app-push-notification/",
-    "published": "2026-11-17T10:53:39",
-    "source": "cybersecuritynews.com",
-    "category": "Vulnerability",
-    "importance_score": 466,
-    "also_covered_by": []
-  },
-  {
-    "title": "Hackers Exploit Exposed AI Vendor Key to Breach 10 Barracuda Cloud Accounts in 44 Hours",
-    "summary": "<p>Hackers used a cloud access key exposed through an AI vendor to reach approximately 10 Barracuda cloud accounts in roughly 44 hours. The intrusion moved through stored secrets, development systems, and Kubernetes clusters, showing how one forgotten credential can open a path across several connected platforms. Barracuda recorded the activity between November 1 and November [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/barracuda-cloud-accounts/\">Hackers Exploit Exposed AI Vendor Key to Breach 10 Barracuda Cloud Accounts in 44 Hours</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/barracuda-cloud-accounts/",
-    "published": "2026-11-17T13:13:20",
-    "source": "cybersecuritynews.com",
-    "category": "AI & Security",
-    "importance_score": 462,
-    "also_covered_by": []
-  },
-  {
     "title": "Trump Administration Moves to Block China From Indirect Access to American AI Technology",
     "summary": "<p>Under the new rule, overseas data centers that serve companies in countries including China, Russia, Iran and Cuba are required to identify their end users.</p>\n<p>The post <a href=\"https://www.securityweek.com/trump-administration-moves-to-block-china-from-indirect-access-to-american-ai-technology/\">Trump Administration Moves to Block China From Indirect Access to American AI Technology</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
     "link": "https://www.securityweek.com/trump-administration-moves-to-block-china-from-indirect-access-to-american-ai-technology/",
@@ -1416,26 +1236,6 @@
     "source": "securityweek.com",
     "category": "Policy / Law",
     "importance_score": 454,
-    "also_covered_by": []
-  },
-  {
-    "title": "Teenage GTA 6 Hacker Pleads Guilty For Breaking into Rockstar Games Using an Amazon Fire Stick",
-    "summary": "<p>Arion Kurtaj, the hacker who broke into Rockstar Games as a teenager using an Amazon Fire Stick, has pleaded guilty to cybercrimes linked to the GTA 6 leak. Now 21, the Oxford man entered his pleas at Woolwich Crown Court on November 16, 2026, after being found fit to stand trial. According to BBC reporting, [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/teenage-gta-6-hacker-pleads-guilty/\">Teenage GTA 6 Hacker Pleads Guilty For Breaking into Rockstar Games Using an Amazon Fire Stick</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/teenage-gta-6-hacker-pleads-guilty/",
-    "published": "2026-11-17T10:02:36",
-    "source": "cybersecuritynews.com",
-    "category": "Data Breach",
-    "importance_score": 450,
-    "also_covered_by": []
-  },
-  {
-    "title": "Claude Code’s Trusted API Could Help Attackers Hide Malicious Commands and Data Theft",
-    "summary": "<p>Researchers have shown that attackers can use the trusted Claude API to send hidden commands to AI coding agents and steal data. The traffic looks like normal AI activity, so many security tools would not flag it. This matters because AI agents now run inside many company networks with wide access. The method does not [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/claude-codes-trusted-api/\">Claude Code&#8217;s Trusted API Could Help Attackers Hide Malicious Commands and Data Theft</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
-    "link": "https://cybersecuritynews.com/claude-codes-trusted-api/",
-    "published": "2026-11-17T11:11:29",
-    "source": "cybersecuritynews.com",
-    "category": "AI & Security",
-    "importance_score": 449,
     "also_covered_by": []
   },
   {
@@ -1556,6 +1356,16 @@
     "source": "cyberscoop.com",
     "category": "Other",
     "importance_score": 409,
+    "also_covered_by": []
+  },
+  {
+    "title": "Pakistani hackers are spying on defense workers with fake job sites",
+    "summary": "<p>The perpetrators targeted job seekers in India, mostly, but some of the effort could be more broadly targeting defense contractors and military personnel.</p>\n<p>The post <a href=\"https://cyberscoop.com/pakistani-hackers-defense-workers-fake-job-sites/\">Pakistani hackers are spying on defense workers with fake job sites</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
+    "link": "https://cyberscoop.com/pakistani-hackers-defense-workers-fake-job-sites/",
+    "published": "2026-11-17T14:00:00",
+    "source": "cyberscoop.com",
+    "category": "Other",
+    "importance_score": 399,
     "also_covered_by": []
   },
   {
@@ -1806,6 +1616,16 @@
     "source": "zdnet.com",
     "category": "Policy / Law",
     "importance_score": 326,
+    "also_covered_by": []
+  },
+  {
+    "title": "“Amazon” job offer promises $5,000 a month, but it’s got all the signs of a scam",
+    "summary": "Lookalike Amazon sites advertise high-paying remote jobs, but has all the signs of a reshipping scam.",
+    "link": "https://www.malwarebytes.com/blog/threat-intel/2026/11/amazon-job-offer-promises-5000-a-month-but-its-got-all-the-signs-of-a-scam",
+    "published": "2026-11-17T13:37:48",
+    "source": "malwarebytes.com",
+    "category": "Phishing / Scams",
+    "importance_score": 325,
     "also_covered_by": []
   },
   {
@@ -2409,16 +2229,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Don’t put Section 702 spying law renewal in defense bill, groups urge Hill leaders",
-    "summary": "<p>CyberScoop is exclusively reporting on the letter to the Hill on the controversial snooping authorities under the Foreign Intelligence Surveillance Act.</p>\n<p>The post <a href=\"https://cyberscoop.com/section-702-reauthorization-ndaa-debate/\">Don’t put Section 702 spying law renewal in defense bill, groups urge Hill leaders</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
-    "link": "https://cyberscoop.com/section-702-reauthorization-ndaa-debate/",
-    "published": "2026-11-12T17:00:00",
-    "source": "cyberscoop.com",
-    "category": "Policy / Law",
-    "importance_score": 100,
-    "also_covered_by": []
-  },
-  {
     "title": "Rogue remote-access campaign spread through ScreenConnect add-on, researchers say",
     "summary": "<p>ConnectWise disabled five third-party extensions across about 400 partner environments after researchers linked a worm-like toolkit to one of them.</p>\n<p>The post <a href=\"https://cyberscoop.com/connectwise-screenconnect-sckit-attack/\">Rogue remote-access campaign spread through ScreenConnect add-on, researchers say</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
     "link": "https://cyberscoop.com/connectwise-screenconnect-sckit-attack/",
@@ -2833,16 +2643,6 @@
     "summary": "BrickLink, the LEGO marketplace, has gone offline after detecting unusual activity, without disclosing whether customer data was affected.",
     "link": "https://www.malwarebytes.com/blog/news/2026/11/legos-bricklink-taken-offline-after-unusual-activity-what-users-should-know",
     "published": "2026-11-12T14:25:49",
-    "source": "malwarebytes.com",
-    "category": "Other",
-    "importance_score": 34,
-    "also_covered_by": []
-  },
-  {
-    "title": "Researcher bypassed Meta smart glasses’ safeguards to run her own code",
-    "summary": "She was able to bypass a safeguard meant to stop unauthorized software running on Meta glasses. It wasn't easy, but showed it is possible.",
-    "link": "https://www.malwarebytes.com/blog/news/2026/11/researcher-bypassed-meta-smart-glasses-safeguards-to-run-her-own-code",
-    "published": "2026-11-10T15:09:39",
     "source": "malwarebytes.com",
     "category": "Other",
     "importance_score": 34,
