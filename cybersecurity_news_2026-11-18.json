@@ -267,6 +267,16 @@
     "also_covered_by": []
   },
   {
+    "title": "CISA Warns of Puppet Enterprise Vulnerability Actively Exploited in Attacks",
+    "summary": "<p>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has warned that attackers are exploiting a critical vulnerability in Perforce Puppet Enterprise. The agency added CVE-2026-115731 to its Known Exploited Vulnerabilities (KEV) catalog on November 17, 2026, citing evidence of active exploitation. The flaw lets an attacker run code on a vulnerable Puppet Server with the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/puppet-enterprise-flaw-actively-exploited/\">CISA Warns of Puppet Enterprise Vulnerability Actively Exploited in Attacks</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/puppet-enterprise-flaw-actively-exploited/",
+    "published": "2026-11-18T11:59:36",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 1815,
+    "also_covered_by": []
+  },
+  {
     "title": "US Disrupts North Korea’s FaceStealer Campaign, Targets $1.2 Billion in Stolen Crypto",
     "summary": "<p><img alt=\"FaceStealer\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"427\" src=\"https://thecyberexpress.com/wp-content/uploads/FaceStealer.jpg\" title=\"US Disrupts North Korea’s FaceStealer Campaign, Targets $1.2 Billion in Stolen Crypto 20\" width=\"734\" /></p><span>The U.S. Department of Justice has unveiled coordinated actions against North Korea’s cryptocurrency theft operations, targeting both the FaceStealer social engineering campaign and the proceeds of the recent Binance data breach. Authorities seized cloud infrastructure behind FaceStealer, a scheme tied to more than $400 million in stolen crypto, and won court approval to seize and restrain over $1.2 billion taken from the Binance exchange.</span><span> </span>\n\n<span>Officials say the stolen money keeps Pyongyang’s regime and weapons program running. “North Korea’s government bankrolls its rogue regime and illicit weapons program through cryptocurrency theft,” said M. Scott Proctor, Principal Deputy Assistant Attorney <a class=\"wpil_keyword_link\" href=\"https://cyble.com/general/\" rel=\"noopener\" target=\"_blank\" title=\"General\">General</a> for National Security, adding that the National Security Division “will use every tool at its disposal to seize and return North Korea’s ill-gotten gains.”</span><span> </span>\n<h3><b><span>How the FaceStealer Scheme Works</span></b><span> </span></h3>\n<span>The FaceStealer disruption was led by Assistant U.S. Attorney Khaldoun Shobaki of the Central District of California and the FBI’s Los Angeles Field Office. The hackers involved are publicly tracked as Sapphire Sleet, UNC1069, Dangerous Password, CryptoCore, APT38, BlueNoroff and Stardust Chollima.</span><span> </span>\n\n<span>They send video meeting invitations from accounts stolen from earlier victims. Once a target joins, they record the target’s webcam and play prerecorded footage of people the target knows, faking the presence of trusted contacts. They also use super intelligence (SI) to build <a href=\"https://thecyberexpress.com/grok-ai-generated-deepfakes-of-children/\" rel=\"noopener\" target=\"_blank\">deepfakes</a> of prominent cryptocurrency and Web3 figures. A staged glitch follows, such as a claim that the target can’t be heard, along with a “fix” that secretly installs <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-malware/\" title=\"malware\">malware</a>.</span><span> </span>\n\n<span>In several cases, theft and account hijacking came months to more than a year after the first compromise. The attackers also mined victims’ contacts, social media and messaging apps for new targets, increasingly including open-source software developers and maintainers, in what appears to be groundwork for supply-chain attacks. Under a federal warrant, the FBI seized more than 900 webcam videos of victims.</span><span> </span>\n\n<span>FBI Cyber Branch Operations Director <a href=\"https://www.justice.gov/opa/pr/justice-department-announces-actions-disrupt-north-koreas-massive-theft-cryptocurrency\" rel=\"nofollow noopener\" target=\"_blank\">Brett Leatherman</a> said FaceStealer had driven over $400 million in thefts in 18 months, and pledged to keep “imposing cost on North Korean actors.” Patrick Grandy, Assistant Director in Charge of the FBI’s Los Angeles Field Office, said the scheme exploits trust in video platforms and personal relationships: “If you can’t imagine a scenario where you might fall prey to it, you are not thinking creatively enough.”</span><span> </span>\n\n<span>The FBI has released a report on the scheme, protective practices and steps for victims, and launched </span><a href=\"https://www.fbi.gov/facestealer\" rel=\"nofollow noopener\" target=\"_blank\"><span>www.fbi.gov/facestealer</span></a><span> as a resource hub.</span><span> </span>\n<h3><b><span>Tracing the Binance Data Breach Funds</span></b><span> </span></h3>\n<span>Separate from FaceStealer, <a href=\"https://thecyberexpress.com/kimsuky-threat-actors-malicious-qr-codes/\" rel=\"noopener\" target=\"_blank\">North Korean</a> military operatives the FBI calls “TraderTraitor” stole more than $6 billion in virtual assets from Binance on or about Oct. 29. Since the Binance <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/what-is-data/\" title=\"data\">data</a> breach, the National Security Division’s National Security Cyber Section, the Criminal Division’s Computer Crime and Intellectual Property Section (CCIPS), the U.S. Attorney’s Office for the District of Columbia and other partners have worked with virtual asset service providers (VASPs) to intercept the funds. Government and private sector efforts have frozen more than $2.7 billion, with court authorization already obtained to seize or restrain over $1.2 billion of it.</span><span> </span>\n\n<span>Assistant Attorney General A. Tysen Duva said CCIPS and its partners froze the assets “before they got beyond law enforcement reach,” halting about half of what he called a historic breach. U.S. Attorney Jeanine Ferris Pirro of the District of Columbia said, “The North Korean regime may think they are sophisticated cyber criminals, but we have consistently met them head on.” First Assistant U.S. Attorney Bill Essayli of the Central District of California described cryptocurrency as “fertile ground” for North Korean <a class=\"wpil_keyword_link\" href=\"https://cyble.com/cybercrime/fraud/\" rel=\"noopener\" target=\"_blank\" title=\"fraud\">fraud</a>.</span><span> </span>\n\n<span>The work continues as TraderTraitor actors move the stolen assets through bridges, mixers and exchanges. Last week, the FBI, the U.S. Secret Service (USSS) and IRS Criminal Investigation (IRS-CI) issued a <a class=\"wpil_keyword_link\" href=\"https://thecyberexpress.com/cyber-news/\" title=\"Cyber\">Cyber</a> Alert attributing the theft and urging VASPs to block transactions linked to the laundering addresses. The FBI’s Los Angeles Field Office, Cyber Division, and Virtual Asset Unit are coordinating recovery with both agencies.</span><span> </span>",
     "link": "https://thecyberexpress.com/binance-data-breach-facestealer-doj/",
@@ -517,6 +527,16 @@
     "also_covered_by": []
   },
   {
+    "title": "GitHub and Microsoft Launch AI Security Initiative to Protect Six Major Open Source Projects",
+    "summary": "<p>GitHub and Microsoft disclosed on November 17 that an AI-assisted security pilot helped maintainers fix 55 vulnerabilities across six widely used open-source projects. The companies narrowed thousands of potential issues to 99 verified reports, all submitted privately with suggested fixes. As of November 15, 14 fixes had shipped in project releases, GitHub announced. The pilot [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/github-and-microsoft-launch-ai-security-initiative/\">GitHub and Microsoft Launch AI Security Initiative to Protect Six Major Open Source Projects</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/github-and-microsoft-launch-ai-security-initiative/",
+    "published": "2026-11-18T12:33:59",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 1229,
+    "also_covered_by": []
+  },
+  {
     "title": "⚡ Weekly Recap: N-able 0-Days, Windows 0-Days, Chrome 0-Days, Fridge 0-Days, and More Bad Days",
     "summary": "A default password opened doors it never should have. A trusted update delivered malware. Even a security feature became a way to break in. Different stories, same problem: the things meant to protect us aren't always doing their job.\n\nMeanwhile, AI is making bug hunting faster, old flaws are still paying off, and attackers keep finding easy ways in. Some attacks take real skill. Others barely",
     "link": "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html",
@@ -604,6 +624,26 @@
     "source": "infosecurity-magazine.com",
     "category": "Vulnerability",
     "importance_score": 1088,
+    "also_covered_by": []
+  },
+  {
+    "title": "CyberStrikeAI Raises Security Concerns After 221 Tool Executions Without Human Oversight",
+    "summary": "<p>An exposed CyberStrikeAI workspace recorded 221 tool executions during a November 16, 2026, offensive testing session in which formal approval enforcement was turned off partway through. The session documents a loss of tool-level oversight, not an autonomous intrusion. The records identify neither the operator nor whether the testing was authorized. Researchers examined a 6.69 MB [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/cyberstrikeai-security-risks/\">CyberStrikeAI Raises Security Concerns After 221 Tool Executions Without Human Oversight</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/cyberstrikeai-security-risks/",
+    "published": "2026-11-18T10:07:51",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 1073,
+    "also_covered_by": []
+  },
+  {
+    "title": "Anthropic Reduces Vulnerability Disclosure Deadline from 90 to 30 Days as AI Quickly Identifies Flaws",
+    "summary": "<p>Anthropic is shrinking the time it gives software makers to fix serious security flaws before the details go public. The company says AI is now finding bugs so fast that the old 90-day window no longer makes sense. In an update to its coordinated vulnerability disclosure (CVD) policy, Anthropic cut the deadline for high- and [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/anthropic-cuts-critical-vulnerability-disclosure-deadline/\">Anthropic Reduces Vulnerability Disclosure Deadline from 90 to 30 Days as AI Quickly Identifies Flaws</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/anthropic-cuts-critical-vulnerability-disclosure-deadline/",
+    "published": "2026-11-18T09:48:45",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 1061,
     "also_covered_by": []
   },
   {
@@ -717,6 +757,16 @@
     "also_covered_by": []
   },
   {
+    "title": "The Gentlemen Ransomware Gang Allegedly Claims to Have Breached NVIDIA",
+    "summary": "<p>The Gentlemen ransomware gang listed NVIDIA on its dark web leak site on November 18, 2026, but the post does not prove that the group broke into the chipmaker’s systems. The listing shows a countdown and references ransom talks, but includes no sample files. NVIDIA has not publicly confirmed a breach, and there is no [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/nvidia-data-breach-claim/\">The Gentlemen Ransomware Gang Allegedly Claims to Have Breached NVIDIA</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/nvidia-data-breach-claim/",
+    "published": "2026-11-18T13:37:43",
+    "source": "cybersecuritynews.com",
+    "category": "Ransomware",
+    "importance_score": 894,
+    "also_covered_by": []
+  },
+  {
     "title": "The challenge of defending against bulletproof dead drops on public blockchains",
     "summary": "The evolution of malware command-and-control (C2) infrastructure has shifted away from fragile, centralized servers and hardcoded domains toward resilient, decentralized blockchain networks that eliminate single points of failure.",
     "link": "https://blog.talosintelligence.com/the-challenge-of-defending-against-bulletproof-dead-drops-on-public-blockchains/",
@@ -807,6 +857,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Chinese APT Hackers Target Global Banks to Steal Financial Intelligence and Spy on Microsoft 365 Accounts",
+    "summary": "<p>Chinese state-linked hacking groups are going after banks around the world, and their goal is intelligence rather than cash. Several of these groups are also reading email in Microsoft 365 accounts, according to new infrastructure research. The shift matters because nation-state hackers have usually hit banks to steal money. In 2020, CISA described North Korea&#8217;s [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/global-banks/\">Chinese APT Hackers Target Global Banks to Steal Financial Intelligence and Spy on Microsoft 365 Accounts</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/global-banks/",
+    "published": "2026-11-18T12:37:05",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 762,
+    "also_covered_by": []
+  },
+  {
     "title": "Unwrapping Retail Peak Season Cyber Threats",
     "summary": "<p>Unit 42 explores key peak shopping season retail cyber threats, from ransomware to AI attacks, and shares how to defend operations and customer trust.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/unwrapping-retail-cyber-threats/\">Unwrapping Retail Peak Season Cyber Threats</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
     "link": "https://unit42.paloaltonetworks.com/unwrapping-retail-cyber-threats/",
@@ -834,6 +894,36 @@
     "source": "helpnetsecurity.com",
     "category": "Other",
     "importance_score": 750,
+    "also_covered_by": []
+  },
+  {
+    "title": "Hackers Abuse Linux Cron Jobs to Maintain Persistent Malware Access on Firewalls and Switches",
+    "summary": "<p>A Linux botnet targeting internet-facing edge devices can reinstall itself within five minutes if responders delete the malware but leave its scheduled job intact. The campaign highlights a blind spot for operators of Linux-based firewalls and switches: reviewing the vendor configuration does not show whether the underlying operating system is running unauthorized jobs. Evooo1Bot repurposes [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/linux-cron-jobs-exploitation/\">Hackers Abuse Linux Cron Jobs to Maintain Persistent Malware Access on Firewalls and Switches</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/linux-cron-jobs-exploitation/",
+    "published": "2026-11-18T10:48:22",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 727,
+    "also_covered_by": []
+  },
+  {
+    "title": "Hackers Turn AI Coding Agent Configuration Files Into Malware Execution and Propagation Channels",
+    "summary": "<p>A malware campaign that uses compromised GitHub content to target developers using AI coding assistants. The malware can steal developer credentials, alter local agent configurations, and use stolen access to poison repositories that other developers may later open. The campaign exploits the trust coding assistants place in repository files such as AGENTS.md and CLAUDE.md. Normally [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/ai-coding-agent/\">Hackers Turn AI Coding Agent Configuration Files Into Malware Execution and Propagation Channels</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/ai-coding-agent/",
+    "published": "2026-11-18T10:38:15",
+    "source": "gbhackers.com",
+    "category": "AI & Security",
+    "importance_score": 723,
+    "also_covered_by": []
+  },
+  {
+    "title": "Hackers Abuse Linux eBPF Technology to Hide Malware Processes and Evade Detection",
+    "summary": "<p>An eBPF rootkit that makes malware processes, selected file entries, and network sockets disappear from some Linux utilities without removing the underlying objects. In controlled tests, the rootkit hid a listener from /proc/net/tcp but not from ss, while Aqua’s Tracee runtime security tool flagged the malicious eBPF attachments as they occurred. GhostMap is the concealment [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/linux-ebpf-technology/\">Hackers Abuse Linux eBPF Technology to Hide Malware Processes and Evade Detection</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/linux-ebpf-technology/",
+    "published": "2026-11-18T12:25:44",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 718,
     "also_covered_by": []
   },
   {
@@ -997,6 +1087,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Google Chrome 158 Released With 204 Security Fixes, Including 6 Critical Vulnerabilities",
+    "summary": "<p>Google released Chrome 158 to the desktop Stable channel on November 17, 2026, with 204 security fixes, including six critical vulnerabilities. The patched builds are 158.0.8127.36 for Linux and 158.0.8127.36 or 158.0.8127.37 for Windows and macOS. In its Stable channel advisory, Google said the update would reach users over the coming days and weeks. The [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/google-chrome-158-released-with-204-security-fixes/\">Google Chrome 158 Released With 204 Security Fixes, Including 6 Critical Vulnerabilities</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/google-chrome-158-released-with-204-security-fixes/",
+    "published": "2026-11-18T12:08:51",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 623,
+    "also_covered_by": []
+  },
+  {
     "title": "Classified Communications Network at the National Security Agency Goes Down, Defense Official Says",
     "summary": "<p>The problem disrupted the operations of NSANet, a classified internal network used by employees of the agency.</p>\n<p>The post <a href=\"https://www.securityweek.com/classified-communications-network-at-the-national-security-agency-goes-down-defense-official-says/\">Classified Communications Network at the National Security Agency Goes Down, Defense Official Says</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
     "link": "https://www.securityweek.com/classified-communications-network-at-the-national-security-agency-goes-down-defense-official-says/",
@@ -1004,6 +1104,16 @@
     "source": "securityweek.com",
     "category": "Other",
     "importance_score": 618,
+    "also_covered_by": []
+  },
+  {
+    "title": "Hackers Impersonate Microsoft Exchange Online Alerts to Trick Users During Microsoft 365 Outage",
+    "summary": "<p>Hackers used a real Microsoft 365 outage to send fake Exchange Online alerts claiming that four emails were being held and would be deleted unless recipients restored them. The messages borrowed a genuine Microsoft incident number and sent users through several redirects to a page that looked like Microsoft’s sign-in screen. The outage was real; [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-impersonate-microsoft-exchange/\">Hackers Impersonate Microsoft Exchange Online Alerts to Trick Users During Microsoft 365 Outage</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/hackers-impersonate-microsoft-exchange/",
+    "published": "2026-11-18T12:23:15",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 610,
     "also_covered_by": []
   },
   {
@@ -1017,16 +1127,6 @@
     "also_covered_by": []
   },
   {
-    "title": "AI Framework Autonomously Weaponized Flaws in Real Attacks, Google Says",
-    "summary": "<p>Threat actors are deploying multi-agent offensive frameworks to increase the velocity of multi-stage intrusions.</p>\n<p>The post <a href=\"https://www.securityweek.com/ai-framework-autonomously-weaponized-flaws-in-real-attacks-google-says/\">AI Framework Autonomously Weaponized Flaws in Real Attacks, Google Says</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-    "link": "https://www.securityweek.com/ai-framework-autonomously-weaponized-flaws-in-real-attacks-google-says/",
-    "published": "2026-11-17T18:16:17",
-    "source": "securityweek.com",
-    "category": "Policy / Law",
-    "importance_score": 603,
-    "also_covered_by": []
-  },
-  {
     "title": "Russian COLD RELIC Hackers Use Stolen Google Workspace Data to Breach Second U.S. Organization",
     "summary": "The Russia-linked cyber espionage group known as Cold Relic (formerly COLDRIVER and UNC4057) has been observed weaponizing a single cloud compromise into a launchpad for a series of linked intrusions resulting in third-party compromise.\n\nGoogle's Mandiant and Threat Intelligence Group (GTIG) said it investigated a 2026 compromise at a U.S.-based organization in which the adversary leveraged",
     "link": "https://thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html",
@@ -1034,6 +1134,16 @@
     "source": "thehackernews.com",
     "category": "Other",
     "importance_score": 602,
+    "also_covered_by": []
+  },
+  {
+    "title": "Chrome 158 Fixes 204 Vulnerabilities, Including Critical Code Execution Flaws",
+    "summary": "<p>Google began rolling out Chrome 158 to Windows, macOS, and Linux on November 17, 2026, with 204 security fixes. The desktop release notes list six critical memory bugs that could lead to code execution. However, Google did not spell out the impact of each flaw. The patched builds are 158.0.8127.36 for Linux and 158.0.8127.36 or [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/chrome-158-fixes-204-vulnerabilities/\">Chrome 158 Fixes 204 Vulnerabilities, Including Critical Code Execution Flaws</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/chrome-158-fixes-204-vulnerabilities/",
+    "published": "2026-11-18T10:41:12",
+    "source": "cybersecuritynews.com",
+    "category": "Policy / Law",
+    "importance_score": 601,
     "also_covered_by": []
   },
   {
@@ -1229,6 +1339,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Atlassian Releases November 2026 Security Updates Fixing 318 Vulnerabilities Across Enterprise Products",
+    "summary": "<p>Atlassian published its November 2026 Security Bulletin on November 17, documenting fixes for 318 vulnerability entries across Jira Software, Jira Service Management, Confluence, Bitbucket, Bamboo, Crowd, Fisheye, and Crucible. The fixes shipped in product releases over the preceding month. Atlassian counted 266 high-severity entries and 52 critical entries involving third-party components. Some CVEs appear under [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/atlassian-releases-november-2026-security-updates/\">Atlassian Releases November 2026 Security Updates Fixing 318 Vulnerabilities Across Enterprise Products</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/atlassian-releases-november-2026-security-updates/",
+    "published": "2026-11-18T11:35:48",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 491,
+    "also_covered_by": []
+  },
+  {
     "title": "New Android Theft Protection Feature Updates: Smarter, Stronger",
     "summary": "<span class=\"byline-author\">Posted by Nataliya Stanetsky, Fabricio Ferracioli, Elliot Sisteron, Irene Ang of the Android Security Team</span>\n\n<p>\nPhone theft is more than just losing a device; it's a form of financial fraud that can leave you suddenly vulnerable to personal data and financial theft. That’s why we're committed to providing multi-layered defenses that help protect you before, during, and after a theft attempt.\n</p>\n<p>\nToday, we're announcing a powerful set of theft protection feature updates that build on our<a href=\"https://security.googleblog.com/2024/10/android-theft-protection.html\"> existing protections</a>, designed to give you greater peace of mind by making your device a much harder target for criminals.\n</p>\n<h3>Stronger Authentication Safeguards</h3>\n\n\n<p>\nWe've expanded our security to protect you against an even wider range of threats. These updates are now available for Android devices running Android 16+.\n</p>\n<p>\n<strong>More User Control for Failed Authentications: </strong>In Android 15, <a href=\"https://blog.google/products/android/android-theft-protection/\">we launched</a> Failed Authentication Lock, a feature that automatically locks the device's screen after excessive failed authentication attempts. This feature is now getting a new dedicated enable/disable toggle in settings, giving you more granular control over your device's security.\n</p>\n<p>\n<strong>Expanding Identity Check to cover more: </strong><a href=\"https://security.googleblog.com/2025/01/android-theft-protection-identity-check-expanded-features.html\">Early in 2025</a>, we enabled Identity Check for Android 15+, which requires the user to utilize biometrics when performing certain actions outside of trusted places. Later in the year, we extended this safeguard to cover all features and apps that use the Android Biometric Prompt. This means that critical tools that utilize Biometric Prompt, like third-party banking apps and Google Password Manager, now automatically benefit from the additional security of Identity Check.\n</p>\n<p>\n<strong>Stronger Protection Against Screen Lock Guessing: </strong>We’re making it much harder for a thief to guess your PIN, pattern, or password by increasing the lockout time after failed attempts. To ensure you aren’t locked out by mistake (<a href=\"https://www.linkedin.com/pulse/how-my-son-secured-android-lockscreen-jeremiah-cox-vn88c/\">by a curious child</a>, for instance), identical incorrect guesses no longer count toward your retry limit. \n</p>\n<div class=\"separator\" style=\"clear: both;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVh6O_BTgr0Y5vICILPIdLfewGVuyy6CbPwm-MswORJJOuvoZnXnFD4A4-3uo0iUa0bKWCxVs5E5RQy1kvWFSI6cmYYcbUqHlucIEqLkszJ-kxrcWhqn_HXVuRPglXmtUe1gPRwHaYZ-K9GBQWCPW0izyvLIMr5Rus8e9BZUPFXJTG5LjivTdUFIEiQdtB/s3816/Android%20Theft%20Protection_Image.png\" style=\"display: block; padding: 1em 0; text-align: center;\"><img alt=\"\" border=\"0\" height=\"600\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVh6O_BTgr0Y5vICILPIdLfewGVuyy6CbPwm-MswORJJOuvoZnXnFD4A4-3uo0iUa0bKWCxVs5E5RQy1kvWFSI6cmYYcbUqHlucIEqLkszJ-kxrcWhqn_HXVuRPglXmtUe1gPRwHaYZ-K9GBQWCPW0izyvLIMr5Rus8e9BZUPFXJTG5LjivTdUFIEiQdtB/s600/Android%20Theft%20Protection_Image.png\" /></a></div>\n  </a>\n</div>\n\n<h3>Enhanced Recovery Tools</h3>\n\n\n<p>\nWe're also enhancing our recovery tools to make them even more helpful. This update is now available for Android devices running Android 10+.\n</p>\n<p>\n<strong>More Control for Remote Lock. </strong>Remote Lock (<a href=\"http://feeds.feedburner.com/android.com/lock\">android.com/lock</a>) is a crucial tool that lets you lock your lost or stolen device from any web browser. We are adding a new optional security question/challenge to the process. This helps ensure that only you, the real device owner, can initiate a lock, adding another layer of security to your recovery flow.<br />\n</p>\n<h3>Proactive Protection: \"Default-On\" in Brazil</h3>\n\n\n<p>\nKeeping our users safe is a top priority, which is why we're working to make theft protection available out-of-the-box for more Android users. For new Android devices activated in Brazil, two of our key <a href=\"https://support.google.com/android/answer/15146908?hl=en\">theft protection features</a> are now enabled by default:\n</p>\n<ul>\n\n<li><strong>Theft Detection Lock:</strong> Uses on-device AI to sense motion and context that may indicate a \"snatch-and-run\" theft. If a theft attempt is detected, it will quickly lock the device screen to help protect your data.</li>\n\n<li><strong>Remote Lock:</strong> Allows users to lock their device from any device that provides a web access to <a href=\"http://android.com/lock\">android.com/lock</a> without the need to have enabled the feature in advance.</li>\n</ul>\n<p>\nThis helps ensure new devices have a critical layer of theft protection from day one.\n</p>\n<h3>Continuing To innovate in Device Theft Protection</h3>\n\n\n<p>\nWe’re always evolving our protections to stay one step ahead of thieves. Our ongoing updates help ensure that no matter where you go, you can have greater peace of mind knowing your device and data are protected by Android’s multi-layered defenses. Keep a lookout for even more Android theft protection updates.\n</p>",
     "link": "http://security.googleblog.com/2026/01/android-theft-protection-feature-updates.html",
@@ -1289,6 +1409,16 @@
     "also_covered_by": []
   },
   {
+    "title": "Atlassian Patches 318 Security Vulnerabilities Across Jira, Confluence, Bitbucket and Other Products",
+    "summary": "<p>Atlassian&#8217;s November 2026 security bulletin lists fixes for 318 vulnerability entries across Jira Software, Jira Service Management, Confluence, Bitbucket, Bamboo, Crowd, Fisheye and Crucible. Published on November 17, the bulletin covers fixes shipped in product releases over the previous month. Atlassian counted 266 high-severity entries and 52 critical entries involving third-party components. Some CVE identifiers [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/atlassian-patches-318-security-vulnerabilities/\">Atlassian Patches 318 Security Vulnerabilities Across Jira, Confluence, Bitbucket and Other Products</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/atlassian-patches-318-security-vulnerabilities/",
+    "published": "2026-11-18T09:43:21",
+    "source": "cybersecuritynews.com",
+    "category": "Vulnerability",
+    "importance_score": 483,
+    "also_covered_by": []
+  },
+  {
     "title": "Apple reveals daily limits on your Siri AI use – here’s how much you’ll have to pay",
     "summary": "The more you pay for an iCloud+ plan, the more you’ll be able to use Siri AI and Apple Intelligence for advanced server-side tasks.",
     "link": "https://www.zdnet.com/innovation/apple-siri-ai-daily-limits-cost-icloud-plus-plan/",
@@ -1306,6 +1436,16 @@
     "source": "zdnet.com",
     "category": "AI & Security",
     "importance_score": 479,
+    "also_covered_by": []
+  },
+  {
+    "title": "Japan’s Fugaku Supercomputer Hacked, Exposing Credentials and Personal Data of Up to 4,597 Users",
+    "summary": "<p>Japan’s RIKEN research institute suspended operations of its Fugaku supercomputer after an intruder breached its operational network, putting the personal information of up to 4,597 users at risk. In a November 16 incident notice, RIKEN said the data taken or potentially taken included account records and files from Fugaku users’ home directories. Some of those [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/japans-fugaku-supercomputer-hacked-exposing-credentials/\">Japan’s Fugaku Supercomputer Hacked, Exposing Credentials and Personal Data of Up to 4,597 Users</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/japans-fugaku-supercomputer-hacked-exposing-credentials/",
+    "published": "2026-11-18T10:25:45",
+    "source": "gbhackers.com",
+    "category": "Other",
+    "importance_score": 477,
     "also_covered_by": []
   },
   {
@@ -1336,6 +1476,16 @@
     "source": "zdnet.com",
     "category": "Other",
     "importance_score": 477,
+    "also_covered_by": []
+  },
+  {
+    "title": "Tails 7.17.1 Released to Fix Critical uBlock Origin Vulnerability Affecting Tor Browser Users",
+    "summary": "<p>The Tails team released version 7.17.1 as an emergency update to address a critical vulnerability in uBlock Origin, the ad-blocking extension included with the Tor Browser on Tails. This update temporarily removes the extension to close a security loophole that could let a malicious website execute JavaScript on another site with a single click. The [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/tails-7-17-1-released-to-fix-critical-ublock-origin-vulnerability/\">Tails 7.17.1 Released to Fix Critical uBlock Origin Vulnerability Affecting Tor Browser Users</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/tails-7-17-1-released-to-fix-critical-ublock-origin-vulnerability/",
+    "published": "2026-11-18T10:36:58",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 476,
     "also_covered_by": []
   },
   {
@@ -1379,6 +1529,46 @@
     "also_covered_by": []
   },
   {
+    "title": "Hackers Hijack Old Bitly Links in Burger King, McDonald’s and Trump Posts to Redirect Users",
+    "summary": "<p>Old Bitly links shared by Burger King, McDonald’s, and other prominent X accounts now redirect users to unrelated websites, videos, and offensive content, exposing long-standing social media posts to link hijacking. According to CNN’s reporting, affected posts dated from 2009 to 2014. At least a dozen Trump posts contained links that led somewhere other than [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/hackers-hijack-old-bitly-links/\">Hackers Hijack Old Bitly Links in Burger King, McDonald’s and Trump Posts to Redirect Users</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/hackers-hijack-old-bitly-links/",
+    "published": "2026-11-18T10:27:25",
+    "source": "cybersecuritynews.com",
+    "category": "Other",
+    "importance_score": 461,
+    "also_covered_by": []
+  },
+  {
+    "title": "NVIDIA GPU Driver Flaw Allows Attackers to Gain Root Access and Escape Containers",
+    "summary": "<p>A vulnerability in NVIDIA’s Linux GPU driver allows an unprivileged user to gain root access on the host and escape a container with access to the affected GPU device. Tracked as CVE-2026-47501 and dubbed ForgePtr, the flaw poses a particular risk to cloud providers that run workloads from multiple customers on the same server. In [&#8230;]</p>\n<p>The post <a href=\"https://gbhackers.com/nvidia-gpu-driver-flaw/\">NVIDIA GPU Driver Flaw Allows Attackers to Gain Root Access and Escape Containers</a> appeared first on <a href=\"https://gbhackers.com\">GBHackers Security | #1 Globally Trusted Cyber Security News Platform</a>.</p>",
+    "link": "https://gbhackers.com/nvidia-gpu-driver-flaw/",
+    "published": "2026-11-18T09:40:35",
+    "source": "gbhackers.com",
+    "category": "Vulnerability",
+    "importance_score": 458,
+    "also_covered_by": []
+  },
+  {
+    "title": "Researchers Break AMD SEV-SNP Security to Read Encrypted Virtual Machine Memory Using a GPU",
+    "summary": "<p>An attack called Mior uses a graphics card to bypass AMD SEV-SNP, allowing access to confidential virtual machine memory, modification of guest memory, and making altered VMs appear to run trusted software. Tracked as CVE-2026-0462, the flaw carries a CVSS 4.0 score of 5.9. AMD Secure Encrypted Virtualization with Secure Nested Paging, or SEV-SNP, is [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/amd-sev-snp-security-bypassed/\">Researchers Break AMD SEV-SNP Security to Read Encrypted Virtual Machine Memory Using a GPU</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/amd-sev-snp-security-bypassed/",
+    "published": "2026-11-18T09:34:35",
+    "source": "cybersecuritynews.com",
+    "category": "Ransomware",
+    "importance_score": 458,
+    "also_covered_by": []
+  },
+  {
+    "title": "Tails Released Emergency Tor Browser Update to fix uBlock Origin Flaw",
+    "summary": "<p>The Tor Project released Tails 7.17.1 on November 17, 2026, to fix a critical security flaw in uBlock Origin, the ad blocker bundled with Tor Browser in Tails. The emergency update temporarily removes the extension. A malicious website could trick a visitor into clicking once and then run its own code on another site the [&#8230;]</p>\n<p>The post <a href=\"https://cybersecuritynews.com/tails-tor-browser-update-to-fix-ublock-origin-flaw/\">Tails Released Emergency Tor Browser Update to fix uBlock Origin Flaw</a> appeared first on <a href=\"https://cybersecuritynews.com\">Cyber Security News</a>.</p>",
+    "link": "https://cybersecuritynews.com/tails-tor-browser-update-to-fix-ublock-origin-flaw/",
+    "published": "2026-11-18T09:45:51",
+    "source": "cybersecuritynews.com",
+    "category": "Ransomware",
+    "importance_score": 451,
+    "also_covered_by": []
+  },
+  {
     "title": "CISO Conversations: Patti Degnan – Part of the Job Is Deciding What Not to Do",
     "summary": "<p>Patti Degnan’s identity was stolen in 2006. It set her on a path to the CISO seat at endpoint security firm Glow.</p>\n<p>The post <a href=\"https://www.securityweek.com/ciso-conversations-patti-degnan-part-of-the-job-is-deciding-what-not-to-do/\">CISO Conversations: Patti Degnan – Part of the Job Is Deciding What Not to Do</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
     "link": "https://www.securityweek.com/ciso-conversations-patti-degnan-part-of-the-job-is-deciding-what-not-to-do/",
@@ -1386,6 +1576,16 @@
     "source": "securityweek.com",
     "category": "Other",
     "importance_score": 442,
+    "also_covered_by": []
+  },
+  {
+    "title": "Russian APT Poses as Employee of Hacked Firm to Breach Another US Organization",
+    "summary": "<p>Star Blizzard weaponized data and identities stolen in late 2025 to phish and compromise a US organization.</p>\n<p>The post <a href=\"https://www.securityweek.com/russian-apt-poses-as-employee-of-hacked-firm-to-breach-another-us-organization/\">Russian APT Poses as Employee of Hacked Firm to Breach Another US Organization</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "link": "https://www.securityweek.com/russian-apt-poses-as-employee-of-hacked-firm-to-breach-another-us-organization/",
+    "published": "2026-11-18T13:33:47",
+    "source": "securityweek.com",
+    "category": "Other",
+    "importance_score": 441,
     "also_covered_by": []
   },
   {
@@ -1839,16 +2039,6 @@
     "also_covered_by": []
   },
   {
-    "title": "“Amazon” job offer promises $5,000 a month, but it’s got all the signs of a scam",
-    "summary": "Lookalike Amazon sites advertise high-paying remote jobs, but has all the signs of a reshipping scam.",
-    "link": "https://www.malwarebytes.com/blog/threat-intel/2026/11/amazon-job-offer-promises-5000-a-month-but-its-got-all-the-signs-of-a-scam",
-    "published": "2026-11-17T13:37:48",
-    "source": "malwarebytes.com",
-    "category": "Phishing / Scams",
-    "importance_score": 325,
-    "also_covered_by": []
-  },
-  {
     "title": "Fully Autonomous Agentic Attacks Are Three Months Away, Google Warns",
     "summary": "Google Threat Intelligence Group warns of “paradigm shift” in use of agentic pen-test frameworks",
     "link": "https://www.infosecurity-magazine.com/news/fully-autonomous-agentic-attacks/",
@@ -2245,6 +2435,16 @@
     "published": "2022-08-23T13:19:58",
     "source": "threatpost.com",
     "category": "Other",
+    "importance_score": 175,
+    "also_covered_by": []
+  },
+  {
+    "title": "“Amazon” job offer promises $5,000 a month, but it’s got all the signs of a scam",
+    "summary": "Lookalike Amazon sites advertise high-paying remote jobs, but has all the signs of a reshipping scam.",
+    "link": "https://www.malwarebytes.com/blog/threat-intel/2026/11/amazon-job-offer-promises-5000-a-month-but-its-got-all-the-signs-of-a-scam",
+    "published": "2026-11-17T13:37:48",
+    "source": "malwarebytes.com",
+    "category": "Phishing / Scams",
     "importance_score": 175,
     "also_covered_by": []
   },
