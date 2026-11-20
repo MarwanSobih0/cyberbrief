@@ -2409,16 +2409,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Optimizely Flaw Exploited to Serve Malicious Code to Visitors of 178 Organizations",
-    "summary": "An attacker abused an Optimizely flaw to plant malicious code on websites of 178 organizations",
-    "link": "https://www.infosecurity-magazine.com/news/optimizely-hack-malware-178-orgs/",
-    "published": "2026-11-17T13:45:00",
-    "source": "infosecurity-magazine.com",
-    "category": "Policy / Law",
-    "importance_score": 173,
-    "also_covered_by": []
-  },
-  {
     "title": "I’ve tested Ubuntu 27.04 ahead of its April release – and it will wow you",
     "summary": "I’ve been using Ubuntu 27.04, and the speed boost is noticeable. Here’s what else is coming.",
     "link": "https://www.zdnet.com/tech/ubuntu-27-04-april-release-new-features-performance/",
@@ -3166,6 +3156,16 @@
     "source": "recordedfuture.com",
     "category": "Phishing / Scams",
     "importance_score": 24,
+    "also_covered_by": []
+  },
+  {
+    "title": "Optimizely Flaw Exploited to Serve Malicious Code to Visitors of 178 Organizations",
+    "summary": "An attacker abused an Optimizely flaw to plant malicious code on websites of 178 organizations",
+    "link": "https://www.infosecurity-magazine.com/news/optimizely-hack-malware-178-orgs/",
+    "published": "2026-11-17T13:45:00",
+    "source": "infosecurity-magazine.com",
+    "category": "Policy / Law",
+    "importance_score": 23,
     "also_covered_by": []
   },
   {
