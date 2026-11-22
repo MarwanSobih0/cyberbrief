@@ -1387,16 +1387,6 @@
     "also_covered_by": []
   },
   {
-    "title": "President Trump Taps Kirsten Davies as National Cyber Director",
-    "summary": "<p>White House says the battle-tested cyber leader will drive an America First cyber strategy.</p>\n<p>The post <a href=\"https://www.securityweek.com/president-trump-taps-kirsten-davies-as-national-cyber-director/\">President Trump Taps Kirsten Davies as National Cyber Director</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-    "link": "https://www.securityweek.com/president-trump-taps-kirsten-davies-as-national-cyber-director/",
-    "published": "2026-11-21T13:00:00",
-    "source": "securityweek.com",
-    "category": "Other",
-    "importance_score": 427,
-    "also_covered_by": []
-  },
-  {
     "title": "Detecting sleeper agents hiding in AI model neurons",
     "summary": "<p>Microsoft Research has released new threat research detailing how a capable agent model could be turned into a sleeper agent by editing fewer than ten neurons to inject a short payload; Microsoft Research has also found that this threat is detectable by frontier agents, which can identify anomalous weight edits.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/11/10/detecting-sleeper-agents-hiding-in-ai-model-neurons/\">Detecting sleeper agents hiding in AI model neurons</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/11/10/detecting-sleeper-agents-hiding-in-ai-model-neurons/",
@@ -1866,6 +1856,16 @@
     "source": "krebsonsecurity.com",
     "category": "Policy / Law",
     "importance_score": 264,
+    "also_covered_by": []
+  },
+  {
+    "title": "President Trump Taps Kirsten Davies as National Cyber Director",
+    "summary": "<p>White House says the battle-tested cyber leader will drive an America First cyber strategy.</p>\n<p>The post <a href=\"https://www.securityweek.com/president-trump-taps-kirsten-davies-as-national-cyber-director/\">President Trump Taps Kirsten Davies as National Cyber Director</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "link": "https://www.securityweek.com/president-trump-taps-kirsten-davies-as-national-cyber-director/",
+    "published": "2026-11-21T13:00:00",
+    "source": "securityweek.com",
+    "category": "Other",
+    "importance_score": 262,
     "also_covered_by": []
   },
   {
