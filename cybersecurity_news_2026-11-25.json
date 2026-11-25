@@ -187,16 +187,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
-    "summary": "U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two different ransomware negotiation firms who maintained unusually close relations with the extortion group, KrebsOnSecurity has learned. Sources close to the investigation say one of the executives in the United States even helped ShinyHunters operate a website that pressured victims into paying a ransom.",
-    "link": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
-    "published": "2026-10-19T13:48:56",
-    "source": "krebsonsecurity.com",
-    "category": "Ransomware",
-    "importance_score": 2118,
-    "also_covered_by": []
-  },
-  {
     "title": "The forced audit: how AuditTeam’s OpsAgent framework masks ransomware as consulting",
     "summary": "How does a ransomware gang sell a “forced audit”? We break down AuditTeam’s OpsAgent implant, its Rust rewrite, and the extortion model demanding a consulting fee to delete stolen data.",
     "link": "https://securelist.com/auditteam-opsagent-forced-audit/122031/",
@@ -344,16 +334,6 @@
     "source": "thehackernews.com",
     "category": "Vulnerability",
     "importance_score": 1427,
-    "also_covered_by": []
-  },
-  {
-    "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
-    "summary": "Microsoft did another four-digit patch drop today, releasing updates to fix almost 1,100 security vulnerabilities in its Windows operating systems and supported software. This month's Patch Tuesday addresses 63 critical flaws -- including a zero-day in Microsoft Outlook -- and comes amid important security updates from other software makers, including Adobe, Apple, Google and Mozilla.",
-    "link": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
-    "published": "2026-11-10T21:55:03",
-    "source": "krebsonsecurity.com",
-    "category": "Vulnerability",
-    "importance_score": 1375,
     "also_covered_by": []
   },
   {
@@ -534,16 +514,6 @@
     "source": "thecyberexpress.com",
     "category": "Data Breach",
     "importance_score": 1200,
-    "also_covered_by": []
-  },
-  {
-    "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
-    "summary": "At least 178 top web destinations unwittingly served a variety of malware exploits against visitors over the past 24 hours thanks to a security vulnerability involving Optimizely, a company that helps websites customize user experiences and test out new features. Experts say the incident, which saw data-stealing malicious software silently injected into sites like the BBC, CNN, Equifax, Ledger and Zoom, was exacerbated by the reality that few popular websites enforce strict rules on the sources of third-party content.",
-    "link": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
-    "published": "2026-11-18T02:52:04",
-    "source": "krebsonsecurity.com",
-    "category": "Vulnerability",
-    "importance_score": 1176,
     "also_covered_by": []
   },
   {
@@ -857,26 +827,6 @@
     "also_covered_by": []
   },
   {
-    "title": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
-    "summary": "The chief technology officer and co-founder of ransomwarehelp.com, a six year old Florida business that claimed to use \"advanced cryptographic tools\" to restore data locked by ransomware, has been charged with wire fraud after an FBI sting operation found the company was simply paying the attackers for a decryption key and charging victims a markup for work that was never performed.",
-    "link": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
-    "published": "2026-11-21T00:36:39",
-    "source": "krebsonsecurity.com",
-    "category": "Ransomware",
-    "importance_score": 835,
-    "also_covered_by": []
-  },
-  {
-    "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
-    "summary": "Expect to see quite a few websites serving \"404\" or \"Page Not Found\" errors today: Nearly 70 percent of websites need to update their core software to fix a pair of vulnerabilities that allow an attacker to seize full control over affected servers. Experts say there are working exploits for the flaws, and that these critical bugs are already being exploited in the wild.",
-    "link": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
-    "published": "2026-10-21T15:26:07",
-    "source": "krebsonsecurity.com",
-    "category": "Vulnerability",
-    "importance_score": 831,
-    "also_covered_by": []
-  },
-  {
     "title": "A USB worm’s second life: Retadup spreading CoffeeLoader",
     "summary": "A new version of CoffeeLoader is spreading through Retadup, an old USB worm whose infrastructure was seized by law enforcement back in 2019.",
     "link": "https://securelist.com/retadup-delivers-coffeeloader/121908/",
@@ -1057,16 +1007,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Who Runs the Ransomware Group Qilin?",
-    "summary": "The cybercrime group Qilin has emerged as the world's most active ransomware affiliate program, claiming at least 365 victim organizations in the past three months alone. But even top Russian hackers make operational security mistakes, and the administrator of Qilin has made a few key missteps over the last decade that all point to a 36-year-old man living in St. Petersburg, Russia.",
-    "link": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
-    "published": "2026-11-11T18:06:01",
-    "source": "krebsonsecurity.com",
-    "category": "Ransomware",
-    "importance_score": 655,
-    "also_covered_by": []
-  },
-  {
     "title": "Ransomware at the hypervisor layer: how attackers use ESXi and vCenter features for malicious purposes",
     "summary": "Kaspersky experts analyze a recent ransomware incident and discuss why the hypervisor layer remains difficult to monitor, what common access paths adversaries use to reach it, and how to protect your ESXi systems.",
     "link": "https://securelist.com/esxi-ransomware/121959/",
@@ -1154,16 +1094,6 @@
     "source": "blogs.cisco.com",
     "category": "Vulnerability",
     "importance_score": 636,
-    "also_covered_by": []
-  },
-  {
-    "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
-    "summary": "The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to ransomware, narcotics, darknet markets, fraud and cybercrime services that are helping Russia circumvent existing financial restrictions.",
-    "link": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
-    "published": "2026-10-14T14:22:49",
-    "source": "krebsonsecurity.com",
-    "category": "Ransomware",
-    "importance_score": 632,
     "also_covered_by": []
   },
   {
@@ -1799,16 +1729,6 @@
     "also_covered_by": []
   },
   {
-    "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
-    "summary": "Google said today it worked with industry partners to dismantle a botnet made up of more than 1.3 million Android TV set-top boxes that ship with malicious software which secretly rents the user's Internet connection out to strangers and conducts advertising fraud. Experts involved in the takedown say the action is likely to sever the botnet's access to more than 10 million additional compromised systems, including other Internet of Things (IoT) products such as Android-based healthcare devices and karaoke machines.",
-    "link": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
-    "published": "2026-11-03T02:24:31",
-    "source": "krebsonsecurity.com",
-    "category": "Phishing / Scams",
-    "importance_score": 336,
-    "also_covered_by": []
-  },
-  {
     "title": "US Lawmakers Propose CISA Board to Review Major Cyber Incidents",
     "summary": "Two Congressmen have proposed to establish a cyber incident review board within the US Cybersecurity and Infrastructure Security Agency",
     "link": "https://www.infosecurity-magazine.com/news/us-lawmakers-bill-cisa-review/",
@@ -1976,16 +1896,6 @@
     "source": "thehackernews.com",
     "category": "Policy / Law",
     "importance_score": 273,
-    "also_covered_by": []
-  },
-  {
-    "title": "Microsoft Patches More Than 1,400 Security Flaws",
-    "summary": "Microsoft today issued updates to fix more than 1,400 security vulnerabilities in its Windows operating systems and other software. Today's epic patch batch dwarfs September's record of nearly 1,000 fixes, which was already about ten times the normal monthly patch load from Redmond.",
-    "link": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
-    "published": "2026-10-13T23:24:53",
-    "source": "krebsonsecurity.com",
-    "category": "Policy / Law",
-    "importance_score": 264,
     "also_covered_by": []
   },
   {
@@ -2456,16 +2366,6 @@
     "source": "unit42.paloaltonetworks.com",
     "category": "Other",
     "importance_score": 116,
-    "also_covered_by": []
-  },
-  {
-    "title": "Want to Rent an Internet Address at the White House?",
-    "summary": "Several staffers at the White House are using computers or mobile devices equipped with residential proxy services that render their internet address available for others to rent, security experts warned today. One of the proxy services is a Russian company whose founder's web hosting business was ground zero for cyberattacks against election systems in Arizona and Illinois in 2016.",
-    "link": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/",
-    "published": "2026-11-05T04:36:17",
-    "source": "krebsonsecurity.com",
-    "category": "Other",
-    "importance_score": 115,
     "also_covered_by": []
   },
   {
